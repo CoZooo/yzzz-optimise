@@ -1,0 +1,30 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "forbidden_arcanus:mortem_chestplate"
+  },
+  "craftType": "forge",
+  "soulCost": 100,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    },
+    {
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "item": "forbidden_arcanus:dark_nether_star"
+    }
+  ],
+  "result": {
+    "item": "goety:black_iron_chestplate"
+  }
+}

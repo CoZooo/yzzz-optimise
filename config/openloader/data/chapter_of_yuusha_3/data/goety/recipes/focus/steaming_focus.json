@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "deep",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "goety:wind_core"
+    },
+    {
+      "item": "forbidden_arcanus:edelwood_lava_bucket"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "celestial_core:guardian_ocean_ingot"
+    },
+    {
+      "item": "celestial_core:ocean_essence"
+    },
+    {
+      "item": "celestial_core:ocean_essence"
+    }
+  ],
+  "result": {
+    "item": "goety:steaming_focus"
+  }
+}

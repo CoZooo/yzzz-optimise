@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "apotheosis:other_tome",
+    "dungeons_plus:warped_axe",
+    "aether_redux:spear_of_the_blight",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "goety_revelation:gungnir"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:riptide"
+  ]
+}

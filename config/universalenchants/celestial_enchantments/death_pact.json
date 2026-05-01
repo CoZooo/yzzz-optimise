@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "celestial_enchantments:death_hatred",
+    "celestial_enchantments:parting_wish",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

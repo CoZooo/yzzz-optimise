@@ -1,0 +1,40 @@
+{
+  "type": "malum:spirit_infusion",
+
+  "extra_items": [
+
+    {
+      "count": 4,
+      "item": "goety:dark_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_necklace"
+  },
+  "output": {
+    "item": "malstone:white_arrow_blade"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 32
+    },
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "arcane",
+      "count": 16
+    }
+  ]
+}

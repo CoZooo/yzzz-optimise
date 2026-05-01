@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask",
+    "$minecraft:universal_enchants_horse_armor",
+    "deep_aether:skyjade_helmet",
+    "deep_aether:skyjade_chestplate",
+    "deep_aether:skyjade_leggings",
+    "deep_aether:skyjade_boots"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "enigmaticaddons:frost_protection",
+    "majruszsenchantments:magic_protection"
+  ]
+}

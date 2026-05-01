@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 16,
+      "item": "sons_of_sins:ether_ashes"
+    },
+    {
+      "count": 8,
+      "item": "eidolon:arcane_gold_ingot"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:tainted_rock_tablet"
+  },
+  "output": {
+    "item": "malstone:martyrdom"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 32
+    },
+    {
+      "type": "aerial",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    }
+  ],
+  "output": {
+    "item": "enigmaticlegacy:etherium_ingot",
+	"count": 3
+  },
+  "tablet": {
+    "item": "enigmaticaddons:ichor_droplet"
+  }
+}

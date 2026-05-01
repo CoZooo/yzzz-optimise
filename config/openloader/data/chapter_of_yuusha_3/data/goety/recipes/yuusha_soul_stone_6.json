@@ -1,0 +1,21 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 8000,
+  "ingredients": [
+    {
+      "item": "goety:void_barrel"
+    },
+    {
+      "item": "celestial_artifacts:unlucky_potato"
+    },
+    {
+      "item": "sons_of_sins:ice_heart"
+    },
+    {
+      "item": "moonstone:parasite"
+    }
+  ],
+  "result": {
+    "item": "yuusha:soul_stone_6"
+  }
+}

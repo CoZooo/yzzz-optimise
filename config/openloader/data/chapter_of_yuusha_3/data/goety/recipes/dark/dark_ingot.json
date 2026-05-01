@@ -1,0 +1,18 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 2000,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "goety:cursed_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety:dark_ingot"
+  }
+}

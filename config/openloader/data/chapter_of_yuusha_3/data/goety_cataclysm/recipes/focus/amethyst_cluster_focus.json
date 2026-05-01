@@ -1,0 +1,49 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "goety_cataclysm:amethyst_cluster_focus",
+    "count": 1
+  },
+  "wissen": 2500,
+  "ingredients": [
+    {
+      "item": "goety:empty_focus"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "cataclysm:blessed_amethyst_crab_meat"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "cataclysm:blessed_amethyst_crab_meat"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "cataclysm:blessed_amethyst_crab_meat"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "cataclysm:blessed_amethyst_crab_meat"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ]
+}

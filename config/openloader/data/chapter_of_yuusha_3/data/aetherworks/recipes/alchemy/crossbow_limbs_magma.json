@@ -1,0 +1,28 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:netherrack"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "tag": "forge:netherrack"
+    },
+    {
+      "item": "minecraft:magma_block"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:crossbow_limbs_magma"
+  },
+  "tablet": {
+    "item": "aetherworks:crossbow_limbs"
+  }
+}

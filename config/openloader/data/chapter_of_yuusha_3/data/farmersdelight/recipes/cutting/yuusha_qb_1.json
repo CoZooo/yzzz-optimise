@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "goety_revelation:mystery_fragment"
+    }
+  ],
+  "result": [
+    {
+      "item": "yuusha:qb",
+      "count": 8
+    },
+    {
+      "chance": 0.5,
+      "item": "yuusha:qb",
+      "count": 8
+    },
+    {
+      "chance": 0.25,
+      "item": "yuusha:qb",
+      "count": 4
+    },
+    {
+      "chance": 0.25,
+      "item": "yuusha:qb",
+      "count": 4
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "item": "yuusha:bless_core"
+  }
+}

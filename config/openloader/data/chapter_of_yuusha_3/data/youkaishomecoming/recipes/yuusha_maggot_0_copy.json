@@ -1,0 +1,28 @@
+{
+  "type": "youkaishomecoming:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "yuusha:maggot_0"
+    },
+    {
+      "item": "yuusha:mutant_cube"
+    }
+  ],
+  "inputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "outputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "results": [
+    {
+      "item": "yuusha:maggot_0"
+    },
+    {
+      "item": "yuusha:maggot_0"
+    }
+  ],
+  "time": 200
+}

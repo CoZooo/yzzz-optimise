@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "malum:cursed_sap"
+    },
+    {
+      "count": 1,
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:dragons_breath"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 8
+    },
+    {
+      "type": "wicked",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

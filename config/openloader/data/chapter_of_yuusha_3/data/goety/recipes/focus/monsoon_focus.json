@@ -1,0 +1,27 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:thunderbolt_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 1000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:wind_core"
+    },
+    {
+      "item": "deep_aether:chromatic_aercloud"
+    },
+    {
+      "item": "goety:magic_emerald"
+    },
+    {
+      "item": "deep_aether:chromatic_aercloud"
+    }
+  ],
+  "result": {
+    "item": "goety:monsoon_focus"
+  }
+}

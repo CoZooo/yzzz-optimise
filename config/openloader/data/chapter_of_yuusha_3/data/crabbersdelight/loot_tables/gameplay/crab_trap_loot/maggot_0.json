@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "yuusha:soul_stone_8"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_2"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_5"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_6"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_7"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_8"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:maggot_9"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:stewed_maggot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "yuusha:mutant_cube"
+        }
+      ]
+    }
+  ]
+}

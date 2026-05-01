@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "elementalcombat:essence_light"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:iron_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:aethers_call"
+  },
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 8
+    },
+    {
+      "type": "infernal",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

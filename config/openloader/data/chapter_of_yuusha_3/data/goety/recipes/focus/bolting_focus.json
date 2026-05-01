@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:launch_focus"
+  },
+  "craftType": "storm",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:remnant_skull"
+    },
+    {
+      "item": "cataclysm:ancient_metal_block"
+    },
+    {
+      "tag": "forge:storage_blocks/jade"
+    },
+    {
+      "item": "callfromthedepth_:smoothmarbleblock"
+    },
+    {
+      "item": "ancient_aether:laboratory_dungeon_key"
+    },
+    {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece"
+    },
+    {
+      "item": "irons_spellbooks:energized_core"
+    }
+  ],
+  "result": {
+    "item": "goety:bolting_focus"
+  }
+}

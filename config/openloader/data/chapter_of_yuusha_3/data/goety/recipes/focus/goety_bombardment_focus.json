@@ -1,0 +1,51 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:fireball_focus"
+  },
+  "craftType": "deep",
+  "soulCost": 1000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "callfromthedepth_:soulingot"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "item": "immortalers_delight:torchflower_mustard"
+    },
+    {
+      "item": "immortalers_delight:torchflower_mustard"
+    },
+    {
+      "item": "goety:hunger_core"
+    },
+    {
+      "item": "goety:hunger_core"
+    },
+    {
+      "item": "goety:wind_core"
+    },
+    {
+      "item": "goety:wind_core"
+    }
+  ],
+  "result": {
+    "item": "goety:bombardment_focus"
+  }
+}

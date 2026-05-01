@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "forbidden_arcanus:corrupti_dust"
+    },
+    {
+      "count": 1,
+      "item": "malum:malignant_lead"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "eidolon:pewter_block"
+  },
+  "output": {
+    "item": "malstone:huge_soul"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 16
+    }
+  ]
+}

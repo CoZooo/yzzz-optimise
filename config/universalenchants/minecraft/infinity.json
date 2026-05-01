@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome"
+  ],
+  "incompatible": [
+    "apotheosis:endless_quiver",
+    "majruszsenchantments:incompatibility_curse",
+    "distant_worlds:dalite_energy_mending"
+  ]
+}

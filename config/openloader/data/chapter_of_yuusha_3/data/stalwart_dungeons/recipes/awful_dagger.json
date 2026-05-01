@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "avaritia:infinity_catalyst"
+  },
+  "base": {
+    "item": "cthulhufishing:knife_for_ritual_bleeding"
+  },
+  "result": {
+    "item": "stalwart_dungeons:awful_dagger"
+  },
+  "template": {
+    "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+  }
+}

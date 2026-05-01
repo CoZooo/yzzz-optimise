@@ -1,0 +1,24 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "enigmaticlegacy:void_stone"
+	},
+	"requirements": {
+		"eterna": 30,
+		"quanta": 90,
+		"arcana": 60
+	},
+	"max_requirements": {
+		"eterna": 35,
+		"quanta": 95,
+		"arcana": 65
+	},
+	"result": {
+		"item": "yuusha:soul_stone_0",
+		"count": 1
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "sons_of_sins:heart"
+  },
+  "research": "lord",
+  "craftType": "magic",
+  "soulCost": 10000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    }
+  ],
+  "result": {
+    "item": "goety:hunting_focus"
+  }
+}

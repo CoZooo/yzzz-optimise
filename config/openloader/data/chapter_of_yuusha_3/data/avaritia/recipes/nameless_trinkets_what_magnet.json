@@ -1,0 +1,36 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "nameless_trinkets:dubious_dust"
+    },
+    "B": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "C": {
+      "item": "hmag:lightning_particle"
+    },
+    "D": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "N": {
+      "item": "hmag:lightning_particle"
+    }
+  },
+  "pattern": [
+    "  NNNNN  ",
+    " NDDDDDN ",
+    "NDDCCCDDN",
+    "NDCCBCCDN",
+    "NDCBABCDN",
+    "NDCCBCCDN",
+    "NDDCCCDDN",
+    " NDDDDDN ",
+    "  NNNNN  "
+  ],
+  "result": {
+    "item": "nameless_trinkets:what_magnet"
+  },
+  "show_notification": true
+}

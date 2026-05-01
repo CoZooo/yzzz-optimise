@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 100,
+  "durabilityCost": 0,
+  "input": {
+    "item": "moonstone:blood_magic_box"
+  },
+  "output": {
+    "item": "moonstone:blood",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "wicked"
+    },
+    {
+      "type": "sacred"
+    }
+  ]
+}

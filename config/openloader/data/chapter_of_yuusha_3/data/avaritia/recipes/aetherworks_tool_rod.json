@@ -1,0 +1,45 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "cataclysm:witherite_block"
+    },
+    "B": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix"
+    },
+    "D": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "E": {
+      "item": "faded_conquest_2:eye_of_the_storm"
+    },
+    "F": {
+      "item": "yuusha:ignitium_star"
+    },
+    "G": {
+      "item": "aetherworks:tool_rod_crude"
+    },
+    "H": {
+      "item": "eeeabsmobs:heart_of_pagan"
+    }
+  },
+  "pattern": [
+    "H  BBB  H",
+    " ABDDDBA ",
+    " BCEEECB ",
+    "BDEEFEEDB",
+    "BDEFGFEDB",
+    "BDEEFEEDB",
+	" BCEEECB ",
+	" ABDDDBA ",
+	"H  BBB  H"
+  ],
+  "result": {
+    "item": "aetherworks:tool_rod_infused"
+  },
+  "show_notification": true
+}

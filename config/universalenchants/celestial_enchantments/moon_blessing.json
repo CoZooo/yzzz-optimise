@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "apotheosis:helmet_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "celestial_enchantments:pure_body",
+    "celestial_enchantments:rabbit_assimilation",
+    "celestial_enchantments:have_a_nice_dream",
+    "celestial_enchantments:fireproof_boots",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:life_shield",
+    "celestial_enchantments:dimension_explorer",
+    "celestial_enchantments:fleet_of_foot",
+    "celestial_enchantments:gift_of_thunder_god",
+    "celestial_enchantments:potion_affinity",
+    "celestial_enchantments:dolphin_assimilation",
+    "celestial_enchantments:turtle_assimilation",
+    "celestial_enchantments:sun_blessing",
+    "celestial_enchantments:holy_prayer",
+    "celestial_enchantments:origin_of_life",
+    "celestial_enchantments:leopard_assimilation",
+    "celestial_enchantments:eyes_in_the_shadows",
+    "celestial_enchantments:rain_and_dew_grace"
+  ]
+}

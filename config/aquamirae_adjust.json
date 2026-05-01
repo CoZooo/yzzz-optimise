@@ -1,0 +1,46 @@
+{
+  "_comment": "Aquamirae Adjust - 宝藏袋装备属性配置文件",
+  "_comment_usage": [
+    "removeAttributes: 要移除的属性名列表",
+    "modifyAttributes: 要修改的属性 (匹配已有属性并覆盖数值)",
+    "addAttributes: 要追加的新属性",
+    "replaceAttributes: 替换属性 (只对拥有 from 属性的装备生效，移除 from 并添加 to)",
+    "",
+    "attribute: 属性ID, 如 minecraft:generic.armor, obscure_api:penetration, obscure_api:critical_hit",
+    "amount: 数值",
+    "operation: 运算方式 (0=加法, 1=乘基础值, 2=乘总值)",
+    "slot: 生效槽位 (any=所有槽位, head/chest/legs/feet=指定槽位)"
+  ],
+
+  "common": {
+    "_comment": "普通宝藏袋 (Pirate Pouch) 的装备属性配置",
+    "removeAttributes": [],
+    "modifyAttributes": [],
+    "addAttributes": [],
+    "replaceAttributes": [
+      {
+        "from": "obscure_api:penetration",
+        "to": "obscure_api:critical_damage",
+        "amount": 0.05,
+        "operation": 1,
+        "slot": "any"
+      }
+    ]
+  },
+
+  "rare": {
+    "_comment": "稀有宝藏袋 (Treasure Pouch) 的装备属性配置",
+    "removeAttributes": [],
+    "modifyAttributes": [],
+    "addAttributes": [],
+    "replaceAttributes": [
+      {
+        "from": "obscure_api:penetration",
+        "to": "obscure_api:critical_damage",
+        "amount": 0.1,
+        "operation": 1,
+        "slot": "any"
+      }
+    ]
+  }
+}

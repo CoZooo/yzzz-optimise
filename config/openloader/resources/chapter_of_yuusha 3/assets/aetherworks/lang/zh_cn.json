@@ -1,0 +1,8 @@
+{
+	"effect.aetherworks.pulldown" : "空之禁界",
+
+	"aetherworks.jei.recipe.aetherium_anvil.temperature.value" : "温度：%s° <---> %s°",
+	"aetherworks.jei.recipe.aetherium_anvil.hits" : "敲击%s次",
+	"aetherworks.jei.recipe.aetherium_anvil.difficulty.title" : "敲击评级：",
+	"aetherworks.jei.recipe.aetherium_anvil.ember" : "     消耗/敲击：%s"
+}

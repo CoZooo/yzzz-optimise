@@ -1,0 +1,43 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety_revelation:ascension_halo"
+  },
+  "craftType": "sabbath",
+  "entity_to_sacrifice": {
+    "tag": "goety:herobrine",
+    "display_name": "entity.awakened_bosses.herobrine"
+  },
+  "soulCost": 160000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:bloody_bone"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    },
+    {
+      "item": "sons_of_sins:flesh_of_demise"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:god_forging_scroll"
+  }
+}

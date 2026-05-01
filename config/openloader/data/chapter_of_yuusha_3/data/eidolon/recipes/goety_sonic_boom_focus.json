@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "goety:empty_focus"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "whisperwoods:hirschgeist_skull"
+        },
+        {
+          "item": "callfromthedepth_:sculkhearth"
+        }
+      ]
+    },
+    {
+      "stirs": 3
+    }
+  ],
+  "result": {
+    "item": "goety:sonic_boom_focus",
+    "count": 1
+  }
+}

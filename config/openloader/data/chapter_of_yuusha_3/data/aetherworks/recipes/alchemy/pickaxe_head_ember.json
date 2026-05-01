@@ -1,0 +1,28 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "item": "embers:ember_crystal"
+    },
+    {
+      "item": "embers:ember_crystal_cluster"
+    },
+    {
+      "item": "embers:ember_crystal"
+    }
+  ],
+  "output": {
+    "item": "aetherworks:pickaxe_head_ember"
+  },
+  "tablet": {
+    "item": "aetherworks:pickaxe_head"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"spell.power_of_the_void.thermal_sunder_new.guide": "在附近区域释放动能，点燃并附加火焰层数，会基于火焰层数造成伤害。按住Ctrl或Shift键可逆转释放，冰冻并附加冰封层数，会基于冰封层数造成伤害。两者发生元素反应时，则清空层数并基于层数额外造成大量伤害。",
+	
+	"spell.power_of_the_void.bloodletting.guide": "以10点血量值为代价清除负面效果并换取魔力值，在生命值不足时会尝试消耗1000点过量治疗血量。",
+	"spell.power_of_the_void.mesmer_skin.guide": "用Sentient能量包围自身，在有Sentient能量包围时，能免疫负面效果，偏转伤害并震晕胆敢攻击者。",
+	"spell.power_of_the_void.redline.guide": "提高你的攻击速度，并减少施法所需时间。代价是因咒术过载，而会导致出现幻听。"
+}

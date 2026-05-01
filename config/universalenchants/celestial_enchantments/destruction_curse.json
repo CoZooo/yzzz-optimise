@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "celestial_enchantments:overeating_curse",
+    "celestial_enchantments:curse_of_illiteracy",
+    "celestial_enchantments:dragging_curse",
+    "celestial_enchantments:curse_of_withering",
+    "enigmaticaddons:redemption_curse",
+    "celestial_enchantments:curse_of_gravity",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:powerless_curse",
+    "celestial_enchantments:curse_of_weakness",
+    "celestial_enchantments:cures_of_corrosion"
+  ]
+}

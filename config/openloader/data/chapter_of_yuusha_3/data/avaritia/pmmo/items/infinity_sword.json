@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAPON": { "love": 1000 , "combat": 1000,  "magic": 1000,  "archery": 1000,  "gunslinging": 1000},
+	"USE": { "love": 1000 , "combat": 1000,  "magic": 1000,  "archery": 1000,  "gunslinging": 1000}
+  },
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

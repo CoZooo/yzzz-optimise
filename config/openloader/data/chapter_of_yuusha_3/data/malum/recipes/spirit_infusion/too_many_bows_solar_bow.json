@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "celestial_core:light_fragment"
+    },
+    {
+      "count": 1,
+      "item": "meetyourfight:phantoplasm"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:solar_bow"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 8
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

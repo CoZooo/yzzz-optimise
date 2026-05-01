@@ -1,0 +1,17 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 200,
+  "durabilityCost": 0,
+  "input": {
+    "item": "confluence:demon_heart"
+  },
+  "output": {
+    "item": "celestial_core:light_fragment",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "sacred"
+    }
+  ]
+}

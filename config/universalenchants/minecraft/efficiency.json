@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "minecraft:shears",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:philosophers_mace",
+    "apotheosis:pickaxe_tome",
+    "reliquary:shears_of_winter"
+  ],
+  "incompatible": [
+    "apotheosis:miners_fervor",
+    "majruszsenchantments:fatigue_curse",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

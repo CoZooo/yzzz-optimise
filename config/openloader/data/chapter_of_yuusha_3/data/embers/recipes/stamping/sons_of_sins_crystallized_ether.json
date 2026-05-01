@@ -1,0 +1,16 @@
+{
+  "type": "embers:stamping",
+  "fluid": {
+    "amount": 90,
+    "tag": "aetherworks:alchemic_precursor"
+  },
+  "input": {
+    "item": "sons_of_sins:ether_ashes"
+  },
+  "output": {
+    "item": "sons_of_sins:crystallized_ether"
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

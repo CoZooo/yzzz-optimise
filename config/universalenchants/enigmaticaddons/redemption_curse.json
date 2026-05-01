@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "celestial_enchantments:overeating_curse",
+    "majruszsenchantments:fatigue_curse",
+    "apotheosis:berserkers_fury",
+    "majruszsenchantments:slippery_curse",
+    "celestial_enchantments:curse_of_weakness",
+    "celestial_enchantments:cures_of_corrosion",
+    "enigmaticlegacy:eternal_binding",
+    "celestial_enchantments:dragging_curse",
+    "minecraft:vanishing_curse",
+    "domesticationinnovation:immaturity_curse",
+    "domesticationinnovation:infamy_curse",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:undead_curse",
+    "celestial_enchantments:destruction_curse",
+    "majruszsenchantments:breaking_curse",
+    "domesticationinnovation:blight_curse",
+    "celestial_enchantments:curse_of_illiteracy",
+    "apotheosis:life_mending",
+    "celestial_enchantments:curse_of_withering",
+    "celestial_enchantments:curse_of_gravity",
+    "enigmaticlegacy:sorrow",
+    "celestial_enchantments:powerless_curse",
+    "majruszsenchantments:corrosion_curse",
+    "minecraft:binding_curse",
+    "enigmaticlegacy:nemesis"
+  ]
+}

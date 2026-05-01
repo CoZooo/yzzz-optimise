@@ -1,0 +1,9 @@
+{
+	"defense_style":{
+		"yuusha":1,
+		"slash":1,
+		"stab":1,
+		"bash":1,
+		"projectile":1
+	}
+}

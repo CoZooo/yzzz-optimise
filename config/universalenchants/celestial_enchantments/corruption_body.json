@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:frost_thorns",
+    "celestial_enchantments:the_source_of_sin",
+    "celestial_enchantments:destroy_resonance",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

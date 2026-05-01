@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " px",
+    " sp",
+    "i  "
+  ],
+  "reagents": "llll",
+  "key": {
+    "i": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "p": {
+      "tag": "forge:ingots/pewter"
+    },
+    "s": {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    "x": {
+      "item": "eidolon:wraith_heart"
+    },
+    "l": {
+      "item": "eidolon:lesser_soul_gem"
+    }
+  },
+  "result": {
+    "item": "eidolon:bonechill_wand"
+  }
+}

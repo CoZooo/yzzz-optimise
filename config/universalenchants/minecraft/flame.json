@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "dungeons_plus:soul_cannon",
+    "aetherworks:crossbow_quartz",
+    "aetherworks:crossbow_magma",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "celestial_enchantments:arrow_of_traction",
+    "celestial_enchantments:explosive_arrow",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:lightning_arrow"
+  ]
+}

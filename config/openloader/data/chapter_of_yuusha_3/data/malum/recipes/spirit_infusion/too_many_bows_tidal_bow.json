@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "count": 1,
+      "item": "celestial_artifacts:guardian_eye"
+    },
+    {
+      "count": 1,
+      "item": "call_of_drowner:coral_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:tidal_bow"
+  },
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 8
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

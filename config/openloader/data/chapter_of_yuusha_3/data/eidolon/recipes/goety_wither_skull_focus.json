@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "goety:empty_focus"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "callfromthedepth_:soulbell"
+        },
+        {
+          "item": "bhc:wither_bone"
+        }
+      ]
+    },
+    {
+      "stirs": 3
+    }
+  ],
+  "result": {
+    "item": "goety:wither_skull_focus",
+    "count": 1
+  }
+}

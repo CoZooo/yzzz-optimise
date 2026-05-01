@@ -1,0 +1,9 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "yuusha:maggot_1"
+  ],
+  "values": {
+    "MEAT": 0.5
+  }
+}

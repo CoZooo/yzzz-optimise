@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "slashblade:slashblade_wood",
+    "slashblade:slashblade_bamboo",
+    "slashblade:slashblade_silverbamboo",
+    "slashblade:slashblade_white",
+    "slashblade:slashblade",
+    "apotheosis:bow_tome",
+    "aetherworks:crossbow_quartz",
+    "aetherworks:crossbow_magma",
+    "aether:golden_dart_shooter",
+    "aether:poison_dart_shooter",
+    "aether:enchanted_dart_shooter",
+    "ancient_aether:aeronautic_dart_shooter",
+    "aether_redux:veridium_dart_shooter",
+    "aether_redux:infused_veridium_dart_shooter",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "celestial_enchantments:sharp_arrow",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:arrow_storm",
+    "celestial_enchantments:divine_projection"
+  ]
+}

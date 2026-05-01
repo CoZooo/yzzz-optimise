@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "apotheosis:other_tome",
+    "apotheosis:weapon_tome",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticaddons:the_bless",
+    "malum:crude_scythe",
+    "malum:soul_stained_steel_scythe",
+    "malum:edge_of_deliverance",
+    "malum:creative_scythe",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:gauntlet_of_maelstrom"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

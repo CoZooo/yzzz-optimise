@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "malum:arcane_charcoal_fragment"
+  },
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:weathered_copper"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "minecraft:exposed_copper"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "count": 1,
+      "item": "grimoireofgaia:rotten_heart"
+    },
+    {
+      "count": 1,
+      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:iron_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:demons_grasp"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 8
+    },
+    {
+      "type": "arcane",
+      "count": 4
+    },
+    {
+      "type": "wicked",
+      "count": 4
+    }
+  ]
+}

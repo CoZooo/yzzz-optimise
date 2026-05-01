@@ -1,0 +1,9 @@
+{
+	"defense_element":{
+		"god":1,
+		"darkness":1,
+		"fire":1,
+		"ice":1,
+		"light":1
+	}
+}

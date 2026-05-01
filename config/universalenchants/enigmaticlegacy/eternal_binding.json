@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:wearable",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "enigmaticaddons:redemption_curse",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:vanishing_curse",
+    "minecraft:binding_curse"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "config_version": "1",
+  "_comment": "yzzz-fix 配置文件 - 设为 false 可禁用对应修复，修改后需重启游戏",
+  "forbidden_arcanus_fix": true,
+  "immortalers_delight_fix": true,
+  "irons_spellbooks_fix": true,
+  "revelationfix_fix": true,
+  "mokels_fix": true,
+  "cy3_core_fix": true,
+  "aetherworks_fix": true,
+  "apotheosis_gateway_fix": true,
+  "reliquary_lyssa_fix": true,
+  "eidolon_jei_fix": true,
+  "null_blockstate_fix": true,
+  "ritual_manager_npe_fix": true,
+  "rough_blade_fix": true,
+  "illager_additions_fix": true,
+  "enigmatic_totem_fix": true,
+  "yhc_fix": true,
+  "celestial_ench_fix": true,
+  "endinglib_fix": true,
+  "eidolon_hearts_fix": true
+}

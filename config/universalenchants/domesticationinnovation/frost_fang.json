@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "domesticationinnovation:blazing_protection",
+    "domesticationinnovation:warping_bite",
+    "domesticationinnovation:fireproof",
+    "domesticationinnovation:bubbling",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:chain_lightning"
+  ]
+}

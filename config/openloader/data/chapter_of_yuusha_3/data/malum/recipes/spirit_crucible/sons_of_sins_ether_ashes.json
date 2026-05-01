@@ -1,0 +1,17 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 20,
+  "durabilityCost": 1,
+  "input": {
+    "item": "sons_of_sins:osseous_sword"
+  },
+  "output": {
+    "item": "sons_of_sins:ether_ashes",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "aerial"
+    }
+  ]
+}

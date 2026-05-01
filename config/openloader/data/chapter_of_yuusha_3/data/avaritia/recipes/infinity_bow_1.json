@@ -1,0 +1,42 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "I": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "N": {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    "X": {
+      "item": "avaritia:neutron_ingot"
+    },
+    "A": {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    "D": {
+      "item": "avaritia:infinity_catalyst"
+    },
+    "E": {
+      "item": "yuusha:emper_core"
+    }
+  },
+  "pattern": [
+    "      III",
+    "  CNIIXXD",
+    " CEC   A ",
+    " NC   A  ",
+    " I   A   ",
+    " I  A    ",
+    "IX A     ",
+    "IXA      ",
+    "ID       "
+  ],
+  "result": {
+    "item": "avaritia:infinity_bow"
+  },
+  "show_notification": true
+}

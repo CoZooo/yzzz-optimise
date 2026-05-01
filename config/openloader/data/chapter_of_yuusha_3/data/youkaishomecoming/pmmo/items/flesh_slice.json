@@ -1,0 +1,6 @@
+{
+  "requirements": {
+    "USE": { "slayer": 50 },
+	"INTERACT": { "slayer": 50 }
+  }
+}

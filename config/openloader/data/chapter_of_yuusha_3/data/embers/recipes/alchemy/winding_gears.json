@@ -1,0 +1,31 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "rustic_engineer:gear"
+    },
+    {
+      "item": "rustic_engineer:gear"
+    },
+    {
+      "item": "rustic_engineer:gear"
+    },
+    {
+      "item": "rustic_engineer:gear"
+    }
+  ],
+  "output": {
+    "item": "embers:winding_gears"
+  },
+  "tablet": {
+    "tag": "forge:plates/dawnstone"
+  }
+}

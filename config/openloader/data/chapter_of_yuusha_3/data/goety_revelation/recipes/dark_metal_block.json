@@ -1,0 +1,22 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 6000,
+  "ingredients": [
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "goety:cursed_metal_block"
+    },
+    {
+      "item": "minecraft:sculk_catalyst"
+    },
+    {
+      "item": "locusazzurro_icaruswings:quantum_fuel"
+    }
+  ],
+  "result": {
+    "item": "goety:dark_metal_block",
+    "count": 4
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "yuusha:mutant_cube"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_necklace"
+  },
+  "output": {
+    "item": "malum:necklace_of_the_narrow_edge"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 16
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    },
+    {
+      "type": "eldritch",
+      "count": 2
+    }
+  ]
+}

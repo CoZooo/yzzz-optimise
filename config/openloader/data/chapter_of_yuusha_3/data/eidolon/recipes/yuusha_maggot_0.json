@@ -1,0 +1,56 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "yuusha:maggot_2"
+        },
+        {
+          "item": "yuusha:maggot_3"
+        },
+        {
+          "item": "yuusha:maggot_4"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "yuusha:maggot_5"
+        },
+        {
+          "item": "yuusha:maggot_6"
+        },
+        {
+          "item": "yuusha:maggot_7"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "yuusha:maggot_8"
+        },
+        {
+          "item": "yuusha:maggot_9"
+        },
+        {
+          "item": "yuusha:stewed_maggot"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "yuusha:mutant_cube"
+        }
+      ],
+      "stirs": 2
+    }
+  ],
+  "result": {
+    "item": "yuusha:maggot_0",
+    "count": 1
+  }
+}

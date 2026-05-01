@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:creeper_ribs"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:slime_rear"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:ribs"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:muscle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:enderman_muscle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:strider_muscle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:ravager_muscle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:blazing_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:spider_heart"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "sons_of_sins:ice_heart"
+        }
+      ]
+    }
+  ]
+}

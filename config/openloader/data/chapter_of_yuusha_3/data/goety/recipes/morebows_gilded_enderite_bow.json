@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "morebows:enderite_bow"
+  },
+  "craftType": "forge",
+  "soulCost": 16000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "goety:soul_ruby"
+    }
+  ],
+  "result": {
+    "item": "morebows:gilded_enderite_bow",
+    "keepingNBT" : true
+  }
+}

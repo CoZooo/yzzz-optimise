@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "slashblade:slashblade_wood",
+    "slashblade:slashblade_bamboo",
+    "slashblade:slashblade_silverbamboo",
+    "slashblade:slashblade_white",
+    "slashblade:slashblade",
+    "apotheosis:boots_tome",
+    "$minecraft:universal_enchants_horse_armor"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

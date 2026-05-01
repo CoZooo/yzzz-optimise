@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "bcb",
+    "mem",
+    "bmb"
+  ],
+  "key":
+  {
+    "e":
+    {
+      "item": "goety:empty_focus"
+    },
+    "b":
+    {
+      "item": "crockpot:blackstone_dust"
+    },
+    "m":
+    {
+      "item": "born_in_chaos_v1:fire_dust"
+    },
+    "c":
+    {
+      "item": "bhc:wither_bone"
+    }
+  },
+  "result":
+  {
+    "item": "goety_cataclysm:ashen_breath_focus",
+    "count": 1
+  }
+}

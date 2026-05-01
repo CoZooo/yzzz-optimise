@@ -1,0 +1,9 @@
+{
+	"defense_style":{
+		"explosion":1,
+		"magic":1,
+		"bite":1,
+		"environment":1,
+		"hit":1
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:edelwood_planks"
+    }
+  ],
+  "result": [
+    {
+      "item": "forbidden_arcanus:edelwood_stick",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "item": "forbidden_arcanus:mystical_dagger"
+  }
+}

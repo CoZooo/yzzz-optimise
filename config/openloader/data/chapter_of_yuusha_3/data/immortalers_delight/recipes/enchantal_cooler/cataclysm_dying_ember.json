@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "cataclysm:burning_ashes"
+    }
+  ],
+  "output": {
+    "item": "cataclysm:dying_ember",
+    "count": 4
+  }
+}

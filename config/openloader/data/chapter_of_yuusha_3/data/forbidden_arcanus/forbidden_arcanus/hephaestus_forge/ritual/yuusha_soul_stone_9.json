@@ -1,0 +1,75 @@
+{
+  "additional_requirements": {
+	"enhancers": [
+      "forbidden_arcanus:divine_pact",
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 4000,
+    "blood": 20000,
+    "experience": 1500,
+    "souls": 200
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "yuusha:ignitium_star"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "yuusha:soul_stone_9"
+    }
+  }
+}

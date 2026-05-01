@@ -1,0 +1,10 @@
+{
+  "source_attribute": "malum:soul_ward_capacity",
+  "ignore_base_value": "true",
+  "target_attributes": [
+    {
+      "attribute": "attributeslib:healing_received",
+      "ratio": "0.1"
+    }
+  ]
+}

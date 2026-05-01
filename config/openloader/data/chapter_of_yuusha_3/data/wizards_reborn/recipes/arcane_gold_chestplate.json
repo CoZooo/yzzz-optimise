@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "wizards_reborn:arcane_gold_block"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "result": {
+    "item": "wizards_reborn:arcane_gold_chestplate"
+  },
+  "template": {
+    "item": "yuusha:life_fruit"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 64,
+      "item": "hmag:evil_crystal_fragment"
+    },
+    {
+      "count": 64,
+      "item": "born_in_chaos_v1:smoldering_infernal_ember"
+    },
+    {
+      "count": 64,
+      "item": "malum:mnemonic_fragment"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "embers:ancient_motive_core"
+  },
+  "output": {
+    "count": 1,
+    "item": "yuusha:soul_stone_10"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 64
+    },
+    {
+      "type": "wicked",
+      "count": 64
+    },
+    {
+      "type": "eldritch",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "celestial_artifacts:nebula_cube"
+    },
+    {
+      "count": 2,
+      "item": "malum:malignant_lead"
+    },
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "moonstone:doomeye"
+  },
+  "output": {
+    "item": "malstone:breaking_the_life"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 32
+    },
+    {
+      "type": "earthen",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 8
+    }
+  ]
+}

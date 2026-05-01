@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head",
+    "apotheosis:helmet_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "celestial_enchantments:corrupt_scholar",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

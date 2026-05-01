@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "sas",
+    "aia",
+    "sas"
+  ],
+  "reagents": "pppp",
+  "key": {
+    "p": {
+      "item": "eidolon:pewter_inlay"
+    },
+    "i": {
+      "item": "angelcraft_bosses:recompensa_boss"
+    },
+    "a": {
+      "item": "eidolon:enchanted_ash"
+    },
+    "s": {
+      "item": "ancient_aether:valkyrum"
+    }
+  },
+  "result": {
+    "item": "eidolon:warded_mail"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+
+  "extra_items": [
+    {
+      "count": 2,
+      "item": "hmag:evil_crystal"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "malum:twisted_rock"
+  },
+  "output": {
+    "item": "malstone:evil_engine"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 4
+    }
+  ]
+}

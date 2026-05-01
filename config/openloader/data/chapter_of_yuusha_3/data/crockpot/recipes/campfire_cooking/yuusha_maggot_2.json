@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 1,
+  "ingredient": {
+    "item": "born_in_chaos_v1:fried_maggot"
+  },
+  "result": "yuusha:maggot_2"
+}

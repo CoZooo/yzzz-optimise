@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "reagents": "DEBE",
+  "key": {
+    "A": {
+      "item": "graveyard:dark_iron_ingot"
+    },
+    "C": {
+      "item": "goety:empty_focus"
+    },
+    "B": {
+      "item": "goety_revelation:spider_fang"
+    },
+    "D": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "E": {
+      "item": "goety:savage_tooth"
+    }
+  },
+  "result": {
+    "item": "goety:shredding_focus"
+  }
+}

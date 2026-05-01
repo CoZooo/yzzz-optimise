@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "obscure_api:astral_dust"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:emerald_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:shulker_blast"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 8
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

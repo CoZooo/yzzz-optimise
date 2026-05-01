@@ -1,0 +1,50 @@
+{
+    "variant": "blood",
+    "weight": 50,
+    "quality": 0,
+	"unique": true,
+    "dimensions": [
+		"infinite_abyss:second_layer"
+	],
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "melee_weapon",
+                "types": [
+					"sword",
+					"trident",
+					"heavy_weapon"
+				]
+            },
+            "attribute": "irons_spellbooks:blood_spell_power",
+            "operation": "MULTIPLY_BASE",
+            "values":
+            {
+                "epic": 0.3,
+                "mythic": 0.35,
+                "ancient": 0.5
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "gem_class":
+            {
+                "key": "core_armor",
+                "types": ["helmet",
+                    "chestplate",
+                    "leggings",
+                    "boots"]
+            },
+            "attribute": "minecraft:generic.max_health",
+            "operation": "MULTIPLY_BASE",
+            "values":
+            {
+				"epic": -0.30,
+				"mythic": -0.35,
+				"ancient": -0.50
+            }
+        }
+    ]
+}

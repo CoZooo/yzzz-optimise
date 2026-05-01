@@ -1,0 +1,26 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    "ABA",
+    "BDB",
+    "ABA"
+  ],
+  "reagents": "CCCC",
+  "key": {
+    "A": {
+      "item": "goety:shade_stone"
+    },
+    "D": {
+      "item": "goety:pedestal"
+    },
+    "B": {
+      "item": "goety:cursed_ingot"
+    },
+    "C": {
+      "item": "malum:void_salts"
+    }
+  },
+  "result": {
+    "item": "goety:dark_altar"
+  }
+}

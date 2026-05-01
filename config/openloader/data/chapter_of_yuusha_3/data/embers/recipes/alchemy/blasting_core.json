@@ -1,0 +1,28 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:plates/iron"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:plates/iron"
+    },
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
+  "output": {
+    "item": "embers:blasting_core"
+  },
+  "tablet": {
+    "tag": "forge:gunpowder"
+  }
+}

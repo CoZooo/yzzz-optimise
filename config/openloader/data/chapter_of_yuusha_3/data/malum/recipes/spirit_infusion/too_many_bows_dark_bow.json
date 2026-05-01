@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:blood_bone_heart"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:diamond_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:dark_bow"
+  },
+  "spirits": [
+    {
+      "type": "wicked",
+      "count": 8
+    },
+    {
+      "type": "arcane",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

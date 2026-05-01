@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "cataclysm:strange_key"
+    }
+  ],
+  "output": {
+    "item": "cataclysm:black_steel_ingot",
+    "count": 4
+  }
+}

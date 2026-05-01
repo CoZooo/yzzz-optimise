@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "crockpot:milkmade_hat",
+    "count": 1
+  },
+  "output": {
+    "item": "born_in_chaos_v1:lord_pumpkinheads_hat_helmet",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_lord_pumpkinhead",
+      "count": 12
+    }
+  ],
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 12
+    }
+  ]
+}

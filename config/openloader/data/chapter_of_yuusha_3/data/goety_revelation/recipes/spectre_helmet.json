@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:black_iron_helmet"
+  },
+  "craftType": "master_forge",
+  "soulCost": 1000,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:spirit_fabric"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "goety:spirit_fabric"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "cataclysm:remnant_skull"
+    },
+    {
+      "item": "yuusha:ink_heart"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:spectre_helmet",
+    "keepingNBT" : true
+  }
+}

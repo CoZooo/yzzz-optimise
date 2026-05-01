@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "celestial_enchantments:void_protection",
+    "celestial_enchantments:trauma_absorption",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:celestial_shelter",
+    "celestial_enchantments:abyssal_contact",
+    "celestial_enchantments:solid_armor"
+  ]
+}

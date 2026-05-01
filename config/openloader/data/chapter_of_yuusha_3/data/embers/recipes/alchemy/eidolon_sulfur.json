@@ -1,0 +1,23 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "eidolon:enchanted_ash"
+    }
+  ],
+  "output": {
+    "item": "eidolon:sulfur",
+	"count": 2
+  },
+  "tablet": {
+    "item": "minecraft:coal"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "wizards_reborn:alchemy_calx"
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    }
+  ],
+  "output": {
+    "item": "wizards_reborn:alchemy_glass",
+	"count": 4
+  },
+  "tablet": {
+    "item": "minecraft:glass"
+  }
+}

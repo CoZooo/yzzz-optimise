@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:malum_soul_hunter_weapon",
+    "apotheosis:other_tome",
+    "irons_spellbooks:graybeard_staff",
+    "tacz:modern_kinetic_gun",
+    "too_many_bows:verdant_viper",
+    "enigmaticaddons:quartz_scepter"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

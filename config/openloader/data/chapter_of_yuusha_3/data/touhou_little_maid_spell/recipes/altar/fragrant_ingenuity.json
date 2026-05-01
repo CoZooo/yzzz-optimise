@@ -1,0 +1,33 @@
+{
+  "type": "touhou_little_maid:altar_crafting",
+  "output": {
+    "type": "minecraft:item",
+    "nbt": {
+      "Item": {
+        "id": "touhou_little_maid_spell:fragrant_ingenuity",
+        "Count": 1
+      }
+    }
+  },
+  "power": 1.0,
+  "ingredients": [
+    {
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    {
+      "item": "nethersdelight:hoglin_hide"
+    },
+    {
+      "item": "immortalers_delight:scarlet_devils_cake"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    {
+      "item": "nethersdelight:hoglin_hide"
+    }
+  ]
+}

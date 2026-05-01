@@ -1,0 +1,46 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "yuusha:soul_stone_4",
+    "count": 1
+  },
+  "light": 10000,
+  "ingredients": [
+    {
+      "item": "immortalers_delight:golden_fabric"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "immortalers_delight:enchanted_golden_himekaido"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "immortalers_delight:golden_fabric"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "immortalers_delight:enchanted_golden_himekaido"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "call_of_yucutan:ancient_gold_ingot"
+    }
+  ]
+}

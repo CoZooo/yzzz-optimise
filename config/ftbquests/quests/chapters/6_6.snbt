@@ -1,0 +1,1623 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_6"
+	group: "13D24688CE1CFEDA"
+	icon: {
+		Count: 1
+		id: "malum:staff_of_the_auric_flame"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "24311F7E62D75D28"
+	images: [
+		{
+			alpha: 200
+			color: 10551890
+			height: 14.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 35.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 15.5d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 36.5d
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"开局任务会送一把，默认按V键可施法。可获得魔法技能经验，但是不享受魔法技能等级加成。"
+				""
+				"&e法师发展需研究咒法章节，具有一定难度。铁之咒语法术可能比聚晶法术要难。"
+				""
+				"&6如果只选铁之咒语或聚晶路线打Boss，可能需要跳过部分Boss。所以建议组合一起玩法师。"
+				""
+				"&c法力值为零时，则攻击速度也会变为零；攻击速度为零时，魔能强度也会变为零。"
+				""
+				"&2法师路线的星月词缀选择，建议魔息、魔殇、源泉、勇猛均匀分配。也可选择佩戴增加乘法乘区攻速的饰品。"
+			]
+			id: "1E90ABFD331440E4"
+			rewards: [{
+				id: "1F3EF15202F27200"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「异界法师」"
+			tasks: [{
+				id: "78ADA3D8FE89FB43"
+				item: {
+					Count: 1
+					id: "bhc:blade_of_vitality"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: [
+				"可以享受魔法技能等级加伤。"
+				""
+				"&e牧师悬赏有卷轴撰写台、法术抄写台、初学者日志等。"
+				""
+				"&c只建议用V键快捷施法铁之咒语，右键施放持续性法术会有特性无法施放（例如星海落瀑等）。"
+			]
+			id: "7BD8BC169FE54A1C"
+			rewards: [{
+				id: "741B6C4EA872908F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DC94666821EF2E3"
+				item: "malum:totemic_staff"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			id: "177C8EA5F631107B"
+			rewards: [{
+				id: "76293600D72CA40A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "175EA89FB0BBFB63"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinstaffa"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"在雷暴天气时用能量雷电核心右击避雷针可获得。"
+				""
+				"&c只建议用V键快捷施法铁之咒语，右键施放持续性法术会有特性无法施放（例如星海落瀑等）。"
+			]
+			id: "482CB5E75A521E5C"
+			rewards: [{
+				id: "282510B042FA43AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DC0F703ADADD4B4"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			id: "559ED954ABA2B03C"
+			rewards: [{
+				id: "18CFB63EA91DEA1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "478F43E2173B8063"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"不同墨水所能制作的法术有限制。"
+				""
+				"&6法师前期主要依靠饰品的魔殇、魔息等词缀提供伤害加成，饰品主要是用礼装章节的全伤类饰品。"
+			]
+			id: "661A3908D1E7EA89"
+			rewards: [{
+				id: "210FEA8A738CDF67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33678CDD5B2B2DE5"
+				item: "irons_spellbooks:common_ink"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"除了在卷轴撰写台上制作法术外，部分法术卷轴可在工作台中直接合成获得。"
+				""
+				"&6急迫术、祭血仪式、神圣守护、焰涌、蛛之势、暴食等都是不错的辅助法术。"
+				""
+				"&c佩戴有延长药水时间的饰品时，当前法强必须大于或等于之前释放神圣守护时的法强，才可以成功续上神圣守护。"
+			]
+			id: "729E5ED845164142"
+			rewards: [{
+				id: "044DE82F8858EB0D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6AE088280C7E8DA6"
+				item: "irons_spellbooks:uncommon_ink"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"除了在卷轴撰写台上制作法术外，部分法术卷轴可在工作台中直接合成获得。"
+				""
+				"&6可制作赤限、星海落瀑、法术反制法术。"
+			]
+			id: "2012CB6EB3FFCBB8"
+			rewards: [{
+				id: "72AF8B2FAAD3D33C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "578D5DF70F28EDFD"
+				item: "irons_spellbooks:rare_ink"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"除了在卷轴撰写台上制作法术外，部分法术卷轴可在工作台中直接合成获得。"
+				""
+				"&6后续可制作枯萎术、月之斩击、灼烧、冰霜打击法术。"
+			]
+			id: "7BFAFA8D2F8DF73B"
+			rewards: [{
+				id: "43F65BD01ADE0278"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D6328076A1F4985"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: ["除了在卷轴撰写台上制作法术外，部分法术卷轴可在工作台中直接合成获得。"]
+			id: "63C3CD378AB8C872"
+			rewards: [{
+				id: "7013CF37ECB19A5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C10A99209D37AA9"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			id: "042E3FFE8E57C1CB"
+			rewards: [{
+				id: "79046FF96C33DB2C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E1E04B9594ABFFE"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["729E5ED845164142"]
+			description: [
+				"部分在前期有用的法球。"
+				""
+				"&6建议少量冷却缩减、大量法力值升级法球。"
+				""
+				"&c法力值为零时，则攻击速度也会变为零；攻击速度为零时，魔能强度也会变为零。"
+				""
+				"&e玩家的法术吟唱缩减不能过高，会导致无法施放需要持续释放的铁之咒语法术，比如星海落瀑等。"
+			]
+			id: "0FDAD4766CE15CB0"
+			rewards: [{
+				id: "2A8DC669B4884363"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4C6349F6426ACB38"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "52F3AF64E7882BD6"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: ["远古巫术系列属于光属性魔法类型伤害。"]
+			id: "276710ABB978744E"
+			rewards: [{
+				id: "4A899E78FBAC6A8A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "70E032CD01FF0ED5"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: [
+				"在前期所需的魔法经验，可通过紫晶刺剑、虚空突击肩炮获得。"
+				""
+				"&e空法术聚晶可通过考古获得。其它合成材料可在死寂之海的特定建筑内找到。相关内容详见物品说明及JEI。"
+				""
+				"&6部分聚晶不消耗灵魂能量，但仍需要根之图腾等灵魂能量容器。"
+				""
+				"&c现在所有聚晶都可以附魔任意聚晶附魔，没有限制。"
+				""
+				"&5需注意强效附魔只会增加少量基础伤害。"
+				""
+				"&3部分辅助类聚晶并未纳入此章节任务，可自行JEI查看。"
+			]
+			id: "415CA5A2A9FD668F"
+			rewards: [{
+				id: "2FDD22F55114F37F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6966EE19B7AA33FB"
+				item: "goety:empty_focus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			id: "372B77F63C58FC1D"
+			rewards: [{
+				id: "3364BD30A6B91C22"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0DA9BFC02A1B5C12"
+				item: "goety:bolting_focus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			description: [
+				"可在锻造台中制作惊悚南瓜盔甲套装。后续还能继续升级，详见宝具章节。"
+				""
+				"&6只能从皮革开始升级，不能享受宝藏袋的会心属性铁质盔甲。"
+				""
+				"&c请勿用会心皮革套升级，会导致属性丢失。"
+			]
+			id: "0FBEC582583251BB"
+			rewards: [{
+				id: "6EA4130034F67F79"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "246782EEE20C7CA2"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: [
+				"强大，无需多言。也许只有铁之咒语法师需要用到。"
+				""
+				"&6可上强效、持久附魔，从而提高侵蚀效果和时长。"
+			]
+			id: "3720A8AABB079DAA"
+			rewards: [{
+				id: "1776FF9B53307C3E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "758C645A063D0872"
+				item: "goety:weakening_focus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0FBEC582583251BB"]
+			description: [
+				"可在秘蕴晶化器中制作下界合金战斗法师盔甲套装。详见宝具章节。"
+				""
+				"&6各系的术士盔甲套装，需用下界合金战斗法师盔甲在锻造台中升级获得。升级时不能有特殊的NBT。"
+				""
+				"&c记得上永恒陨星，否则很容易耗尽耐久。"
+			]
+			id: "1AFE6E9AE15ECE9D"
+			rewards: [{
+				id: "14FC1FB853D6A100"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24216D81B7C89842"
+				item: "irons_spellbooks:magic_cloth"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FBEC582583251BB"]
+			description: ["可在精魂祭坛中制作灵魂猎手盔甲套装。详见宝具章节。"]
+			id: "72AB37EF8658D40C"
+			rewards: [{
+				id: "586E47D41FDE80E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6472AEC9FB7F432A"
+				item: "yuusha:ignitium_star"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["729E5ED845164142"]
+			description: ["有少部分加成法术强度的泰拉饰品，基本都要通过击杀天顶巨兽的特定Boss获得。"]
+			id: "45B4E0E9B9032505"
+			rewards: [{
+				id: "2E2B99BCA9BC7CC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C123405D38BCB0F"
+				item: "confluence:sorcerer_emblem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: [
+				"部分聚晶可以用寻位眼镜来辅助瞄准。"
+				""
+				"&e法术强度只会加强铁之咒语模组的法术，而不会增加聚晶伤害。"
+				""
+				"&6基本只要发展全伤类和神化暴击类的饰品。"
+				"{@pagebreak}"
+			]
+			id: "2A7DA3FEBD16800D"
+			rewards: [{
+				id: "35E4ECAEABF87055"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4A4A0A12279AB8DF"
+					item: "goety:targeting_monocle"
+					type: "item"
+				}
+				{
+					id: "1CB2A20973E1DEA6"
+					item: "goety:dark_hat"
+					type: "item"
+				}
+				{
+					id: "266D19808E866BE0"
+					item: "goety_revelation:gold_feather"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7BFAFA8D2F8DF73B"]
+			description: [
+				"利用玄奥沙可制作星裂相位附魔，从而让法杖释放的法术可以给目标上星裂效果。"
+				""
+				"&c配合法师克星宝石，可获得更高级别星裂效果。"
+				""
+				"&6制作时需要消耗生命和经验。"
+			]
+			id: "4D88BE16E36C8802"
+			rewards: [{
+				id: "35E359D672FE1E5C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5CD25DDD9F2B6D0C"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BFAFA8D2F8DF73B"]
+			description: [
+				"无暇的法师克星宝石可让星裂相位附魔+1，而完美的法师克星宝石可让星裂相位附魔+2。"
+				""
+				"&c需先附魔星裂相位，然后再上法师克星宝石，才能在附魔等级的基础上增加。"
+			]
+			id: "1E9E8AF8DB1582A5"
+			rewards: [{
+				id: "4B98E7D57F042CFC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "星裂相位"
+			tasks: [{
+				id: "2BDA4F7ED0009EDA"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "chapter_of_yuusha_3_core:sundering"
+							lvl: 1s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["042E3FFE8E57C1CB"]
+			description: [
+				"无暇的法师克星宝石可让星裂相位附魔+1，而完美的法师克星宝石可让星裂相位附魔+2。"
+				""
+				"&c需先附魔星裂相位，然后再上法师克星宝石，才能在附魔等级的基础上增加。"
+				""
+				"&6法师克星宝石还可以增加远古巫术强度。"
+				""
+				"&e持有星裂相位附魔的物品时，仆从攻击也能施加星裂效果。"
+			]
+			id: "65626D3E9A730420"
+			rewards: [{
+				id: "657FA271E197BFF8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38CF2EB77D8903F7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_end/mageslayer"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: [
+				"炼金小瓶：利用能量晶核可在切石机中制作。"
+				""
+				"暴食聚液：击杀突变体后可用精魂坩埚制作。"
+				""
+				"&6暴食的加成均在独立乘区。"
+			]
+			id: "2EEDE8FEE0E17370"
+			rewards: [{
+				id: "4C50956F5EA89FBA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "478EDA3765EBAEB5"
+					item: {
+						Count: 1
+						id: "wizards_reborn:alchemy_vial_potion"
+						tag: {
+							alchemyPotion: "wizards_reborn:gluttony"
+							uses: 0
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "103535E3B7922D8B"
+					item: "malum:concentrated_gluttony"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["佩戴后进食烟熏腐肉即可延长暴食的时间。"]
+			id: "702BBC6E5FE6075C"
+			rewards: [{
+				id: "47E66B00408957B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5CD5CD3D11F7F171"
+				item: "malum:ring_of_desperate_voracity"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["661A3908D1E7EA89"]
+			description: [
+				"奥术之戒可在高炉中分解为奥术残骸碎片，任务抽取的铁之咒语饰品也可分解。"
+				""
+				"&6也可在主世界找到其矿物，或者后续击杀Boss获得。"
+			]
+			id: "260C0DF75AE0675D"
+			rewards: [{
+				id: "3ABCC8DAF722A5D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "376CF3BB9AF8D932"
+				item: "irons_spellbooks:arcane_salvage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: ["只能造成非玩家伤害，击杀生物不属于玩家击杀。"]
+			id: "0AD6A7004376102E"
+			rewards: [{
+				id: "1A4C36FF31A9635C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2C3E512C76948F8D"
+					item: "goety:fire_breath_focus"
+					type: "item"
+				}
+				{
+					id: "2C3E512C76948F8C"
+					item: "goety:frost_breath_focus"
+					type: "item"
+				}
+				{
+					id: "19A63F3D7D42DDC3"
+					item: "goety:swarm_focus"
+					type: "item"
+				}
+				{
+					id: "543066ED4BB963B0"
+					item: "goety:leeching_focus"
+					type: "item"
+				}
+				{
+					id: "5D4B379E66B1D9D7"
+					item: "goety:bubble_stream_focus"
+					type: "item"
+				}
+				{
+					id: "20355CE1910B65B3"
+					item: "goety:flame_strike_focus"
+					type: "item"
+				}
+				{
+					id: "18ED30D4CB0E7E9C"
+					item: "goety:scatter_focus"
+					type: "item"
+				}
+				{
+					id: "4D9D63808C16CDB2"
+					item: "goety:fire_blast_focus"
+					type: "item"
+				}
+				{
+					id: "65ED4434DC4BDE78"
+					item: "goety_cataclysm:abyssal_beam_focus"
+					type: "item"
+				}
+				{
+					id: "0CA82C6DD9B792F1"
+					item: "goety:shredding_focus"
+					type: "item"
+				}
+				{
+					id: "7E96ECCDDC455D54"
+					item: "goety:hail_focus"
+					type: "item"
+				}
+				{
+					id: "540F7089560436AF"
+					item: "goety:killing_focus"
+					type: "item"
+				}
+				{
+					id: "6406366AC592EEA4"
+					item: "goety_cataclysm:death_laser_focus"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: [
+				"部分聚晶可享受箭术和箭矢伤害加成，聚晶内会有相关说明。"
+				""
+				"&6JEI搜索“箭术”可查看相关内容。而“箭矢伤害”基本只有精灵花冠或者精灵饰品套装这种直接增加箭矢伤害才算。“投射物”加成不算。"
+			]
+			id: "0E284081D4E6EC46"
+			rewards: [{
+				id: "10F52C68F28048FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33614AB8B059B466"
+				item: "goety:lavaball_focus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: ["冰暴聚晶：该聚晶会发射缓慢飞行的冰球，贯通怪物造成伤害，可对付机动性较弱的生物。"]
+			id: "035EE7F5E69E17E8"
+			rewards: [{
+				id: "283615D9AE567F08"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78669F2E2D3FAB14"
+				item: "goety:ice_storm_focus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["可通过考古获得。"]
+			id: "17710905DCD6CB65"
+			rewards: [{
+				id: "257BAA5641BE4CC4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D9A5962D5757D58"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			id: "1E797CB0CBD1CD7D"
+			rewards: [{
+				id: "559D3F9388FAB032"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "014ED1F813AFDC43"
+				item: "goety:charge_focus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["035EE7F5E69E17E8"]
+			id: "1D7DF32A8ADC5847"
+			rewards: [{
+				id: "53127F69DA2C6B5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E449546948D81A2"
+				item: "goety:meteor_shower_focus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: ["雷槊聚晶：该聚晶伤害较高，但弹道较为缓慢，适合打机动性弱的目标。"]
+			id: "5AA3605B39625A52"
+			rewards: [{
+				id: "7B94418D63B42F5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56C20B03AE45A189"
+				item: "goety_cataclysm:lightning_spear_focus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["需按咒法章节左上角解锁邪术学研究才能看到合成表。"]
+			id: "54B7D8A3522D9754"
+			rewards: [{
+				id: "2A814013527440B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F862E54D4CFA123"
+				item: "malum:ring_of_gruesome_concentration"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["长者手杖：等同于粗制镰刀，可给予目标化魂状态，从而收割精魂，及获得粗制镰刀的特殊掉落物。"]
+			id: "0BA749ECE6B0F35E"
+			rewards: [{
+				id: "5A93182FF31123C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51E34A0778155B38"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: [
+				"在前期所需的魔法经验，可通过紫晶刺剑、虚空突击肩炮获得。"
+				""
+				"&6空法术聚晶可通过考古获得。其它合成材料可在死寂之海的特定建筑内找到。相关内容详见物品说明及JEI。"
+				""
+				"&e后续黑暗魔杖可升级为各种不同的高级魔杖，部分聚晶在相应魔杖类型内会有加成。此外高级魔杖还可进行神化强化。"
+				""
+				"&c限制了聚晶冷却缩减、施法时间缩减上限均为1.75。"
+			]
+			id: "063B68C423DF0F26"
+			rewards: [{
+				id: "2A5EAE22A3D22B22"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "349CAFDE04796ABD"
+					item: "goety:dark_wand"
+					type: "item"
+				}
+				{
+					id: "1918E88EC5271AC4"
+					item: {
+						Count: 1
+						id: "goety:totem_of_roots"
+						tag: {
+							"Max Souls": 800
+							Souls: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5AA3605B39625A52"]
+			description: [
+				"腐化聚晶：可配合疾行项链等饰品使用。"
+				""
+				"&e紫晶簇聚晶：可配合大天使之视。"
+			]
+			id: "297D7A45691FFF24"
+			rewards: [{
+				id: "4035A324806ECC0E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2CFD9FB9A43A4B1B"
+					item: "goety:blossoming_focus"
+					type: "item"
+				}
+				{
+					id: "6C806128F789F762"
+					item: "goety:corruption_focus"
+					type: "item"
+				}
+				{
+					id: "396A0088043338F9"
+					item: "goety_cataclysm:amethyst_cluster_focus"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			id: "6C1F815D8259AD34"
+			rewards: [{
+				id: "1CC79F296F8239EE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D5B280B37ECF118"
+				item: "malum:necklace_of_the_watcher"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["在多样性达150点时，也可以获得暴食饕餮10级效果。"]
+			id: "176AFB9A6F824524"
+			rewards: [{
+				id: "545FCBEE919E1583"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BC203BAEE78239A"
+				item: "malum:belt_of_the_starved"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: ["配合雷暴法术等，可以自动延长药水时间（最多延长至2.5分钟）。"]
+			id: "573596F9BF5EB69D"
+			rewards: [{
+				id: "35D221DFB5335645"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DE210A18AF55046"
+				item: "malum:ring_of_alchemical_mastery"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5AA3605B39625A52"]
+			description: [
+				"深渊灵珠聚晶：弹道较为缓慢，适合打机动性弱的目标。"
+				""
+				"&c深渊聚晶可给予目标深渊恐惧效果从而禁疗。"
+				""
+				"&e深渊恐惧效果可被紫水晶祝福效果免疫。"
+			]
+			id: "30F895FC36F99B1C"
+			rewards: [{
+				id: "1BFD81292816038E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "73561E49C5FDDC41"
+					item: "goety:prisma_beam_focus"
+					type: "item"
+				}
+				{
+					id: "38D991ADB0A73910"
+					item: "goety_cataclysm:abyssal_mine_focus"
+					type: "item"
+				}
+				{
+					id: "2D8FB75580DE8D3F"
+					item: "goety_cataclysm:abyssal_orb_focus"
+					type: "item"
+				}
+				{
+					id: "46370B9FB8050F5D"
+					item: "goety:tidal_focus"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D56F246A16DFF78"]
+			description: [
+				"震撼聚晶：属于近距离攻击，能无视武神女王等天境生物的非近战防护。"
+				""
+				"&6爆发聚晶：可能有用。可配合大天使之视。无法突破部分生物的远程免疫。"
+			]
+			id: "7D7508695402AABD"
+			rewards: [{
+				id: "3B254F80283BAD1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "00C349F85B759E24"
+					item: "goety:shocking_focus"
+					type: "item"
+				}
+				{
+					id: "6023A6435CACAA95"
+					item: "goety_cataclysm:sandstorm_focus"
+					type: "item"
+				}
+				{
+					id: "2C2DB76D78438899"
+					item: "goety_cataclysm:desert_crush_focus"
+					type: "item"
+				}
+				{
+					id: "635EC44CBFD93E85"
+					item: "goety:eruption_focus"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D7508695402AABD"]
+			description: ["多个黑暗魔杖配合不同的聚晶，可以轮流施法。"]
+			id: "11EC194D760EF755"
+			rewards: [{
+				id: "0E874FAF2726CB40"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "072DE40DDE06885A"
+					item: "goety:thunderbolt_focus"
+					type: "item"
+				}
+				{
+					id: "1F6AD0E127012EBE"
+					item: "goety:frost_nova_focus"
+					type: "item"
+				}
+				{
+					id: "3ED782B4B8FE4304"
+					item: "goety:shockwave_focus"
+					type: "item"
+				}
+				{
+					id: "47F06D36DA117C56"
+					item: "goety:discharge_focus"
+					type: "item"
+				}
+				{
+					id: "5FBB007E37CC5330"
+					item: "goety:monsoon_focus"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3AB68645E8EDDDD3"]
+			id: "70BAEF1C29BC8DE8"
+			rewards: [{
+				id: "1ADA91B1831E179F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CD14EA8804A2BC6"
+				item: "goety:blizzard_focus"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3AB68645E8EDDDD3"]
+			description: ["可能有用。尤其是对付较大体型的生物。"]
+			id: "1BCDBA868AE44F5C"
+			rewards: [{
+				id: "04E18AAD1C12C2B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29591D58C6386191"
+				item: "goety_cataclysm:void_rune_focus"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3720A8AABB079DAA"]
+			description: ["可能有用。"]
+			id: "0777D3E2A3275D84"
+			rewards: [{
+				id: "47E993DF82D9D87F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5098D553BF60E22F"
+					item: "goety:bouncy_bubble_focus"
+					type: "item"
+				}
+				{
+					id: "13E8D316B3B596E0"
+					item: "goety:steaming_focus"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3720A8AABB079DAA"]
+			id: "7C6E3EDDBADB522A"
+			rewards: [{
+				id: "696AA06034D08228"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FFF997D38F68B18"
+				item: "goety:trident_storm_focus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: ["释放后会在地表有二次伤害，尤其在对付大体型生物时，会有几率爆发出极高的伤害。"]
+			id: "512841FB2B5DD63D"
+			rewards: [{
+				id: "59DEB538804870D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20D132D21BF3EF57"
+				item: "goety_cataclysm:flare_bomb_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			id: "553E6FC86287D9E3"
+			rewards: [{
+				id: "5B9988816F94484F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04ADDDDDA6AB9104"
+				item: "goety_revelation:ice_focus"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["512841FB2B5DD63D"]
+			description: ["聚怪+脱手。"]
+			id: "219EA859D3BFF6CD"
+			rewards: [{
+				id: "30DF23743B43223D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06B2F1157CD6E5A7"
+				item: "goety:rupture_focus"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["512841FB2B5DD63D"]
+			id: "1C9125155A648202"
+			rewards: [{
+				id: "1553972CC111CDD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "522D25BE02BDB304"
+				item: "goety_revelation:frostbloom_staff"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			description: [
+				"箭雨聚晶：可搭配精灵系列饰品等增加箭术和投射物伤害的饰品。可突破滑行魔石的防御。"
+				""
+				"&eJEI搜索“箭术 ”和“投射物”可查看相关内容。"
+				""
+				"&6远古遗魂在当前阶段可能较为难打。"
+			]
+			id: "0D56F246A16DFF78"
+			rewards: [{
+				id: "1CDF4F4F54383CD8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "093849F945603761"
+				item: "goety:arrow_rain_focus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["372B77F63C58FC1D"]
+			description: ["击杀特定首领可获得灵魂束、牙之、冰川、音爆、电刑、撕咬聚晶。也可通过制作获得。"]
+			id: "24AA88673E5B6492"
+			rewards: [{
+				id: "71FC18CEF863132A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5624C32C380795C3"
+					item: "goety:biting_focus"
+					type: "item"
+				}
+				{
+					id: "5922640EA27AE7B8"
+					item: "goety:teeth_focus"
+					type: "item"
+				}
+				{
+					id: "30FB04E733DC78E8"
+					item: "goety:soul_bolt_focus"
+					type: "item"
+				}
+				{
+					id: "6D5FD693FC8462D1"
+					item: "goety:sonic_boom_focus"
+					type: "item"
+				}
+				{
+					id: "0A4E8844CF1C6715"
+					item: "goety:iceology_focus"
+					type: "item"
+				}
+				{
+					id: "5C5EB59116DA9D02"
+					item: "goety:electrocute_focus"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["042E3FFE8E57C1CB"]
+			id: "57EF5A521F9A8CB6"
+			rewards: [{
+				id: "1A07B4691C8A5308"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01A10726B7860EBF"
+				item: "darkdoppelganger:elder_necklace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E797CB0CBD1CD7D"]
+			description: [
+				"闪电聚晶：配合寻位眼镜能够锁定目标，可对付部分飞行、水生目标等。"
+				""
+				"&6雷霆之怒聚晶：可配合大天使之视。"
+			]
+			id: "22EBAB151725F6DA"
+			rewards: [{
+				id: "6187ECE6F7C983B3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "549E50E126B8040D"
+					item: "goety:lightning_focus"
+					type: "item"
+				}
+				{
+					id: "77C42A68EAC566A5"
+					item: "goety_cataclysm:thunder_rage_focus"
+					type: "item"
+				}
+				{
+					id: "46EF413A2FB98BED"
+					item: "goety_cataclysm:storm_serpent_focus"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["035EE7F5E69E17E8"]
+			id: "76A168B0A85ADFA3"
+			rewards: [{
+				id: "2ECAE998C5622BE4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A9F019774C90482"
+				item: "goety_cataclysm:water_spear_focus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["661A3908D1E7EA89"]
+			id: "71EB43BEBE45CF23"
+			rewards: [{
+				id: "7A491AC3B05325DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EF582196A3F6285"
+				item: {
+					Count: 1
+					id: "chapter_of_yuusha_3_core:war_mage_ring"
+					tag: {
+						itemModifier: "celestial_forge:spring"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7BD8BC169FE54A1C"]
+			id: "2D15C78658E15EA2"
+			rewards: [{
+				id: "449E4B8287E5B79A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61A907CC6899F8A4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2D15C78658E15EA2"
+				"553E6FC86287D9E3"
+			]
+			dependency_requirement: "one_completed"
+			icon: "yuusha:soul_gem_3"
+			id: "32E90A1191948287"
+			rewards: [{
+				id: "0D36F3931FE0B477"
+				item: "yuusha:soul_gem_3"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "完成任一前置即可解锁"
+			tasks: [{
+				id: "7390568623461016"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "灵魂宝石"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["372B77F63C58FC1D"]
+			description: ["击杀特定首领可获得毒镖、火球、凋零、冰刺聚晶。也可通过制作获得。"]
+			id: "01A0974AFB6128B2"
+			rewards: [{
+				id: "570939AD6BA266BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2C11D31EB2BD8F13"
+					item: "goety:ice_spike_focus"
+					type: "item"
+				}
+				{
+					id: "05207A3C23A6BFD1"
+					item: "goety:poison_dart_focus"
+					type: "item"
+				}
+				{
+					id: "693B1F8CAC2CCA16"
+					item: "goety:fireball_focus"
+					type: "item"
+				}
+				{
+					id: "42D24D9B3C9FE065"
+					item: "goety:wither_skull_focus"
+					type: "item"
+				}
+				{
+					id: "0AE35D9936737271"
+					item: "goety:bombardment_focus"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["063B68C423DF0F26"]
+			description: [
+				"诅咒金属锭：可制作黑铁套装。后续可进一步升级。"
+				""
+				"墨魂珑心：可升级为幽魂套或者蜘蛛套。"
+				""
+				""
+				""
+				"&6黑铁套装需永恒陨星将其变为无限耐久。后续升级会继承之前的NBT。"
+			]
+			id: "411F13B42CE1C14E"
+			rewards: [{
+				id: "0AC63F46D5012446"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "676C69E2F5AF35D5"
+					item: "goety:cursed_ingot"
+					type: "item"
+				}
+				{
+					id: "287AC57960958A88"
+					item: "yuusha:ink_heart"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E284081D4E6EC46"]
+			description: ["头颅聚晶：被召唤后，缠魂飞颅会在周围寻找目标，找到目标后会迅速冲向目标，在接触目标时自爆并造成伤害。"]
+			id: "7A7C18069DB3291C"
+			rewards: [{
+				id: "435F67AF032797BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2E0BA0905BAC33EC"
+					item: "goety_cataclysm:ashen_breath_focus"
+					type: "item"
+				}
+				{
+					id: "6A39C29B00C35033"
+					item: "goety:skull_focus"
+					type: "item"
+				}
+				{
+					id: "2D8B1BD6DB71E5D0"
+					item: "goety:updraft_focus"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E284081D4E6EC46"]
+			id: "14C68D5BC853B9BC"
+			rewards: [{
+				id: "6E039B03CAE83F4C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50D93C29A780E51A"
+				item: "goety:bulwark_focus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E797CB0CBD1CD7D"]
+			id: "642371444B1C8BC0"
+			rewards: [{
+				id: "3034AF18927F5A42"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AB0169FB9B9B284"
+				item: "goety:quaking_focus"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["415CA5A2A9FD668F"]
+			id: "3AB68645E8EDDDD3"
+			rewards: [{
+				id: "3261AF61A3282DE4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773463825553F990"
+				item: "goety:feast_focus"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+	]
+	subtitle: [
+		"&9『魔法使用指南』"
+		"强度：★★★"
+		"时间：★★★"
+		"难度：★★"
+	]
+	title: "&6※ 魔爆"
+}

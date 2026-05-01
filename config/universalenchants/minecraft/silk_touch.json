@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "goety:burrowing_focus",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:philosophers_mace",
+    "apotheosis:pickaxe_tome"
+  ],
+  "incompatible": [
+    "minecraft:luck_of_the_sea",
+    "goety:wanting",
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:fortune",
+    "majruszsenchantments:smelter",
+    "minecraft:looting"
+  ]
+}

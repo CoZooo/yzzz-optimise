@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:hunger_core"
+  },
+  "craftType": "magic",
+  "soulCost": 2500,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:biting_focus"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "goety:teeth_focus"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "eidolon:shadow_gem"
+    },
+    {
+      "item": "eidolon:shadow_gem"
+    }
+  ],
+  "result": {
+    "item": "goety:feast_focus"
+  }
+}

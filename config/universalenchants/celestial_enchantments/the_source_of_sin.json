@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:frost_thorns",
+    "celestial_enchantments:corruption_body",
+    "celestial_enchantments:destroy_resonance",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

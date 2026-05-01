@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "chapter_of_yuusha_3_core:insulation",
+    "count": 1
+  },
+  "wissen": 4000,
+  "ingredients": [
+    {
+      "item": "celestial_artifacts:thunder_ring"
+    },
+    {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    {
+      "item": "confluence:royal_gel"
+    },
+    {
+      "item": "aether_redux:gravitite_ingot"
+    },
+    {
+      "item": "confluence:royal_gel"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "enigmaticlegacy:the_twist",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:astral_spear",
+    "enigmaticaddons:the_bless",
+    "enigmaticaddons:evil_dagger",
+    "enigmaticaddons:disaster_sword"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "irons_spellbooks:frozen_bone"
+  },
+  "output": {
+    "item": "eidolon:enchanted_ash"
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

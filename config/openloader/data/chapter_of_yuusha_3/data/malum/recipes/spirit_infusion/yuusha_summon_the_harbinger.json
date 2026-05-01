@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "enigmaticlegacy:astral_dust",
+    "count": 1
+  },
+  "output": {
+    "item": "moonstone:magiceye",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "yuusha:summon_the_harbinger",
+      "count": 8
+    }
+  ],
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 8
+    }
+  ]
+}

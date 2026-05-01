@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:frost_thorns",
+    "celestial_enchantments:corruption_body",
+    "celestial_enchantments:the_source_of_sin",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

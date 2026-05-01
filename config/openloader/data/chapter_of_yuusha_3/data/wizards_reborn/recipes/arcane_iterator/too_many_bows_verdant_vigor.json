@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:verdant_vigor",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "morebows:netherite_bow"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "immortalers_delight:contains_tea_leisamboo"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "immortalers_delight:alfalfa"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    },
+    {
+      "item": "immortalers_delight:contains_tea_leisamboo"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "immortalers_delight:alfalfa"
+    }
+  ]
+}

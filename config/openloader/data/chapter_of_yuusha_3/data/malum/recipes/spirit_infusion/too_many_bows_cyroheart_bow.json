@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "yuusha:ice_blood"
+    },
+    {
+      "count": 1,
+      "item": "confluence:frozen_turtle_shell"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:cursium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:diamond_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:cyroheart_bow"
+  },
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 8
+    },
+    {
+      "type": "arcane",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

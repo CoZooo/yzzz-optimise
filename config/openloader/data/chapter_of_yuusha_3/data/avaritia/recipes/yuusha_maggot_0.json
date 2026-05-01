@@ -1,0 +1,51 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "yuusha:maggot_2"
+    },
+    "B": {
+      "item": "yuusha:maggot_3"
+    },
+    "C": {
+      "item": "yuusha:maggot_4"
+    },
+    "D": {
+      "item": "yuusha:maggot_5"
+    },
+    "E": {
+      "item": "yuusha:maggot_6"
+    },
+    "F": {
+      "item": "yuusha:maggot_7"
+    },
+    "G": {
+      "item": "yuusha:maggot_8"
+    },
+    "H": {
+      "item": "yuusha:maggot_9"
+    },
+    "I": {
+      "item": "yuusha:stewed_maggot"
+    },
+    "J": {
+      "item": "yuusha:mutant_cube"
+    }
+  },
+  "pattern": [
+    " ACFGFCA ",
+    "AGEHBHEGA",
+    "CEIDBDIEC",
+    "FHDIJIDHF",
+    "GBBJJJBBG",
+    "FHDIJIDHF",
+    "CEIDBDIEC",
+    "AGEHBHEGA",
+    " ACFGFCA "
+  ],
+  "result": {
+    "item": "yuusha:maggot_0"
+  },
+  "show_notification": true
+}

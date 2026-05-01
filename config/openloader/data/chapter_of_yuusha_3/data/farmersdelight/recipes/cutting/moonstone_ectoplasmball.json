@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "moonstone:ectoplasmcloub"
+    }
+  ],
+  "result": [
+    {
+      "item": "moonstone:ectoplasmball",
+      "count": 2
+    }
+  ],
+  "tool": {
+    "item": "forbidden_arcanus:mystical_dagger"
+  }
+}

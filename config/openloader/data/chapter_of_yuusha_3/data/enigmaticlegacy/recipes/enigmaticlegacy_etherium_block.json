@@ -1,0 +1,21 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 4500,
+  "ingredients": [
+    {
+      "item": "majruszsdifficulty:enderium_block"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    },
+    {
+      "item": "yuusha:chaos_stone"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:etherium_block"
+  }
+}

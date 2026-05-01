@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "RBR",
+    "BAB",
+    "RBR"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+	"A": {
+      "item": "forbidden_arcanus:ender_pearl_fragment"
+    },
+	"B": {
+      "tag": "forge:slimeballs"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:basic/slime"
+}

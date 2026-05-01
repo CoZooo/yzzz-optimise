@@ -1,0 +1,9 @@
+{
+  "type": "malum:favor_of_the_void",
+  "input": {
+    "item": "born_in_chaos_v1:spiny_shell"
+  },
+  "output": {
+    "item": "malum:cthonic_gold_fragment"
+  }
+}

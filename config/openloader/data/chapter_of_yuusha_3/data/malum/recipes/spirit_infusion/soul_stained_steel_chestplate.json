@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "malum:soul_stained_steel_plating"
+    },
+    {
+      "count": 4,
+      "item": "cataclysm:ancient_metal_ingot"
+    },
+    {
+      "count": 4,
+      "item": "celestial_core:midnight_fragment"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:blood_bone_heart"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:leather_chestplate"
+  },
+  "output": {
+    "item": "malum:soul_stained_steel_chestplate"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 16
+    },
+    {
+      "type": "wicked",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 8
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "cataclysm:amethyst_bless",
+  "ingredients": {
+    "item": "minecraft:lily_of_the_valley"
+  },
+  "result": {
+    "item": "bosses_of_mass_destruction:void_lily"
+  },
+  "time": 20
+}

@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:arcane_bow",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "morebows:netherite_bow"
+    },
+    {
+      "item": "callfromthedepth_:soullight"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "hmag:fortune_crystal_plus"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    }
+  ]
+}

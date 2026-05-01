@@ -1,0 +1,11 @@
+{
+  "source_attribute": "l2damagetracker:crit_rate",
+  "ratio" : "1.0",
+  "ignore_base_value": "true",
+  "target_attributes": [
+    {
+      "attribute": "obscure_api:critical_hit",
+      "ratio": "1"
+    }
+  ]
+}

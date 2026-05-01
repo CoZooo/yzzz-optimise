@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:remnant_skull"
+    },
+    {
+      "count": 1,
+      "item": "cataclysm:cursium_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:diamond_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:ancient_sage_bow"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    }
+  ]
+}

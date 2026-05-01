@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "goety:quaking_focus",
+    "count": 1
+  },
+  "wissen": 750,
+  "ingredients": [
+    {
+      "item": "goety:empty_focus"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    {
+      "item": "yuusha:mutant_cube"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "yuusha:mutant_cube"
+    },
+    {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    {
+      "item": "yuusha:mutant_cube"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "yuusha:mutant_cube"
+    }
+  ]
+}

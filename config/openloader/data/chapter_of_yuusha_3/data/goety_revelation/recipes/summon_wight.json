@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "activation_item": {
+    "item": "goety:shadow_essence"
+  },
+  "craftType": "sabbath",
+  "entity_to_summon": "goety:wight",
+  "soulCost": 50,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "goety:crypt_stone"
+    },
+    {
+      "item": "goety:crypt_stone"
+    },
+    {
+      "item": "goety:crypt_stone"
+    },
+    {
+      "item": "goety:crypt_stone"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

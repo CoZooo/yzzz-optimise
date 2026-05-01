@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "sons_of_sins:flesh_block"
+    },
+    {
+      "item": "irons_spellbooks:blood_rune"
+    },
+    {
+      "item": "cthulhufishing:ancient_coin"
+    },
+    {
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "cthulhufishing:ancient_coin"
+    },
+    {
+      "item": "irons_spellbooks:blood_rune"
+    }
+  ],
+  "output": {
+    "item": "moonstone:blood_magic_box",
+	"count": 1
+  },
+  "tablet": {
+    "item": "meetyourfight:phantoplasm"
+  }
+}

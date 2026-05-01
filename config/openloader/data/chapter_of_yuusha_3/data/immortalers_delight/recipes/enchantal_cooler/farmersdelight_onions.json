@@ -1,0 +1,12 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "crockpot:onion"
+    }
+  ],
+  "output": {
+    "item": "farmersdelight:onion",
+    "count": 1
+  }
+}

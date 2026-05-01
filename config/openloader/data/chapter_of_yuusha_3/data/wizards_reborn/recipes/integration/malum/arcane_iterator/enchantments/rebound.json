@@ -1,0 +1,41 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "malum"
+        }
+      ],
+      "recipe": {
+        "type": "wizards_reborn:arcane_iterator",
+        "enchantment": {
+          "enchantment": "malum:rebound"
+        },
+        "wissen": 900,
+        "experience": 6,
+        "ingredients": [
+          {
+            "item": "crockpot:potato_tornado"
+          },
+          {
+            "item": "cataclysm:ancient_metal_ingot"
+          },
+          {
+            "item": "cataclysm:ancient_metal_ingot"
+          },
+          {
+            "item": "yuusha:ink_heart"
+          },
+          {
+            "item": "ancient_aether:valkyrum"
+          },
+          {
+            "item": "ancient_aether:valkyrum"
+          }
+        ]
+      }
+    }
+  ]
+}

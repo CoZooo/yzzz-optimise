@@ -1,0 +1,27 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "_W_",
+    "WBW",
+    "_W_",
+    "FSSS"
+  ],
+  "key": {
+    "W": {
+      "item": "locusazzurro_icaruswings:magma_ingot"
+    },
+    "F": {
+      "item": "meetyourfight:phantoplasm"
+    },
+    "S": {
+      "item": "irons_spellbooks:fire_rune"
+    },
+    "B": {
+      "item": "goety:empty_focus"
+    }
+  },
+  "output": {
+    "item": "goety:fire_blast_focus"
+  },
+  "wissen": 1000
+}

@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "goety:empty_focus"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "whisperwoods:hirschgeist_skull"
+        },
+        {
+          "item": "born_in_chaos_v1:fangofthe_hound_leader"
+        }
+      ]
+    },
+    {
+      "stirs": 3
+    }
+  ],
+  "result": {
+    "item": "goety:teeth_focus",
+    "count": 1
+  }
+}

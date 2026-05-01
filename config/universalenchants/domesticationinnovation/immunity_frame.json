@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "domesticationinnovation:blazing_protection",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:deflection"
+  ]
+}

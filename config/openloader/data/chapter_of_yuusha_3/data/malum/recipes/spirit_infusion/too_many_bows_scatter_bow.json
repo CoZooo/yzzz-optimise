@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "youkaishomecoming:crab_meat"
+    },
+    {
+      "count": 1,
+      "item": "born_in_chaos_v1:phantom_powder"
+    },
+    {
+      "count": 1,
+      "item": "hmag:evil_crystal_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:copper_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:scatter_bow"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "aetherworks:crossbow_quartz",
+    "aetherworks:crossbow_magma",
+    "aether:golden_dart_shooter",
+    "aether:poison_dart_shooter",
+    "aether:enchanted_dart_shooter",
+    "ancient_aether:aeronautic_dart_shooter",
+    "aether_redux:veridium_dart_shooter",
+    "aether_redux:infused_veridium_dart_shooter",
+    "cataclysm:cursed_bow",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

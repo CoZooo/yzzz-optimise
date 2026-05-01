@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "WEAPON": { "combat": 900,  "magic": 900,  "archery": 900,  "gunslinging": 900},
+	"WEAR": { "combat": 900,  "magic": 900,  "archery": 900,  "gunslinging": 900}
+  },
+  "negative_effect": 
+    { 
+	"cataclysm:stun": 4, 
+	"goety:plunge": 4, 
+	"yuusha:inadaptable": 4
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "type": "goety:cursed_infuser_recipes",
+  "ingredient": {
+    "item": "touhou_little_maid:film"
+  },
+  "result": "goety_revelation:mystery_fragment",
+  "cookingTime": 600
+}

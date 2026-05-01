@@ -1,0 +1,37 @@
+{
+  "type": "eidolon:ritual_brazier_crafting",
+  "focusItems": [
+    {
+      "item": "yuusha:chaos_stone"
+    }
+  ],
+  "healthRequirement": 200.0,
+  "output": {
+    "item": "yuusha:soul_stone_2"
+  },
+  "pedestalItems": [
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    },
+    {
+      "item": "yuusha:hot_fire_bottle"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "meetyourfight:fortunes_favor"
+    }
+  ]
+}

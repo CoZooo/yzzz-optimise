@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "apotheosis:other_tome",
+    "apotheosis:weapon_tome",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticaddons:the_bless"
+  ],
+  "incompatible": [
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite",
+    "minecraft:sharpness",
+    "apotheosis:bane_of_illagers",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

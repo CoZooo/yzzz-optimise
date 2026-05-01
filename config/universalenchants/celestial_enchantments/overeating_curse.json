@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "celestial_enchantments:curse_of_illiteracy",
+    "celestial_enchantments:dragging_curse",
+    "celestial_enchantments:curse_of_withering",
+    "enigmaticaddons:redemption_curse",
+    "celestial_enchantments:curse_of_gravity",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:powerless_curse",
+    "celestial_enchantments:curse_of_weakness",
+    "celestial_enchantments:cures_of_corrosion",
+    "celestial_enchantments:destruction_curse"
+  ]
+}

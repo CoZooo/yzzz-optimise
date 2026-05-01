@@ -1,0 +1,48 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "distant_worlds:firon_block"
+    },
+    "I": {
+      "item": "yuusha:twist_ingot"
+    },
+    "N": {
+      "item": "aetherworks:tool_rod_infused"
+    },
+    "X": {
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    "A": {
+      "item": "irons_spellbooks:lightning_upgrade_orb"
+    },
+    "B": {
+      "item": "irons_spellbooks:ender_upgrade_orb"
+    },
+    "D": {
+      "item": "avaritia:star_fuel"
+    },
+    "E": {
+      "item": "meetyourfight:violet_bloom"
+    },
+    "H": {
+      "item": "goety_revelation:quietus_star"
+    }
+  },
+  "pattern": [
+    "       II",
+    "      IAI",
+    "     IBI ",
+    " C  IAI  ",
+    " CHIBI   ",
+    " DHAI    ",
+    " XEHH    ",
+    " NXDCC   ",
+    "X        "
+  ],
+  "result": {
+    "item": "embers:tyrfing"
+  },
+  "show_notification": true
+}

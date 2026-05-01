@@ -1,0 +1,63 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:divine_pact",
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 500,
+    "blood": 4000,
+    "experience": 50,
+    "souls": 20
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "meetyourfight:fortunes_favor"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:chaos_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:tomb_stone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "moonstone:rage_crystal"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "yuusha:ice_blood"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "yuusha:lost_blade_fake"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "yuusha:seven_color"
+    }
+  }
+}

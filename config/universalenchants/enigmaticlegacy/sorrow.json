@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull",
+    "lost_aether_content:swetty_mask",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "enigmaticaddons:redemption_curse",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

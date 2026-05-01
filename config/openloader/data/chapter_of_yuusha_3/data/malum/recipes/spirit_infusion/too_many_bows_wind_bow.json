@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "cataclysm:lacrima"
+    },
+    {
+      "count": 1,
+      "item": "locusazzurro_icaruswings:zephir_essence"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:golden_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:wind_bow"
+  },
+  "spirits": [
+    {
+      "type": "aerial",
+      "count": 8
+    },
+    {
+      "type": "sacred",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

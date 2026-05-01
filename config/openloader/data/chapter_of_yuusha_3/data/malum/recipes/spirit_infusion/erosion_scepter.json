@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "malum:void_salts"
+    },
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    },
+    {
+      "count": 1,
+      "item": "whisperwoods:hirschgeist_skull"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:totemic_staff"
+  },
+  "output": {
+    "item": "malum:erosion_scepter"
+  },
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 62
+    },
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 16
+    }
+  ]
+}

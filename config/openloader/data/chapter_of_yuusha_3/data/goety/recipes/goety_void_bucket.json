@@ -1,0 +1,21 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 2500,
+  "ingredients": [
+    {
+      "item": "avaritia:infinity_bucket"
+    },
+    {
+      "item": "goety:void_block"
+    },
+    {
+      "item": "goety:chorus_sapling"
+    },
+    {
+      "item": "celestial_core:void_essence"
+    }
+  ],
+  "result": {
+    "item": "goety:void_bucket"
+  }
+}

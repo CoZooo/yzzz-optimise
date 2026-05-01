@@ -1,0 +1,22 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 1000,
+  "ingredients": [
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:etherium_ingot",
+    "count": 2
+  }
+}

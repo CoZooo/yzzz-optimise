@@ -1,0 +1,10 @@
+{
+  "type": "aether:freezing",
+  "category": "freezable_misc",
+  "cookingtime": 600,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "born_in_chaos_v1:corpse_maggot"
+  },
+  "result": "yuusha:maggot_5"
+}

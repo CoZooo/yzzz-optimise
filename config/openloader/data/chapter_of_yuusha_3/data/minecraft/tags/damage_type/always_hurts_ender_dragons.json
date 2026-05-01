@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:mob_attack",
+    "minecraft:mob_attack_no_aggro",
+    "minecraft:out_of_world",
+    "malum:hidden_blade_counter",
+    "malum:scythe_melee",
+    "malum:scythe_sweep",
+    "malum:voodoo",
+    "malum:voodoo_playerless"
+  ]
+}

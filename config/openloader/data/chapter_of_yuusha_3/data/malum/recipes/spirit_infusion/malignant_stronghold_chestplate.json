@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 3,
+      "item": "malum:malignant_pewter_plating"
+    },
+    {
+      "count": 1,
+      "item": "celestial_core:virtual_gold_ingot"
+    },
+    {
+      "count": 1,
+      "item": "yuusha:ignitium_star"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_chestplate"
+  },
+  "output": {
+    "item": "malum:malignant_stronghold_chestplate"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 64
+    },
+    {
+      "type": "wicked",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 32
+    }
+  ]
+}

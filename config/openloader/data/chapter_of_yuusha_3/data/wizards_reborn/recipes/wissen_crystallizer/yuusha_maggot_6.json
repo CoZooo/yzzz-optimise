@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "yuusha:maggot_6",
+    "count": 1
+  },
+  "wissen": 100,
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:corpse_maggot"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    },
+    {
+      "item": "celestial_core:sakura_fragment"
+    }
+  ]
+}

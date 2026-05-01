@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "minecraft:seagrass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:mangrove_log"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:golden_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:vitality_weaver"
+  },
+  "spirits": [
+    {
+      "type": "aqueous",
+      "count": 8
+    },
+    {
+      "type": "sacred",
+      "count": 4
+    },
+    {
+      "type": "earthen",
+      "count": 4
+    }
+  ]
+}

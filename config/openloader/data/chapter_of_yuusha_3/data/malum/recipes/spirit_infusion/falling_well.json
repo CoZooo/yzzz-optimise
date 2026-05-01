@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+
+  "extra_items": [
+    {
+      "count": 16,
+      "item": "malum:twisted_rock"
+    },
+    {
+      "count": 1,
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "count": 1,
+      "item": "simplyswords:netherfused_gem"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "eidolon:zombie_heart"
+  },
+  "output": {
+    "item": "malstone:falling_well"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 64
+    },
+    {
+      "type": "eldritch",
+      "count": 32
+    },
+    {
+      "type": "umbral",
+      "count": 32
+    }
+  ]
+}

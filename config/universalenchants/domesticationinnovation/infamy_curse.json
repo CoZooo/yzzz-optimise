@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "enigmaticaddons:redemption_curse",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

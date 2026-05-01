@@ -1,0 +1,18 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:ichor_droplet"
+    },
+    {
+      "item": "majruszsdifficulty:enderium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_scraps"
+    }
+  ]
+}

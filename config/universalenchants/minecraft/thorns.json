@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+  ],
+  "incompatible": [
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:frost_thorns",
+    "majruszsenchantments:incompatibility_curse",
+    "apotheosis:icy_thorns"
+  ]
+}

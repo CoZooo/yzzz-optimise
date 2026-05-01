@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "born_in_chaos_v1:nightmare_scythe",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "sons_of_sins:is_flesh"
+    },
+    "b": {
+      "item": "yuusha:blood_star"
+    }
+  },
+  "result": {
+    "item": "sons_of_sins:flesh_carcass",
+    "count": 1
+  }
+}

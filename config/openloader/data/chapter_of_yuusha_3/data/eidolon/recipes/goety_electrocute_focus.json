@@ -1,0 +1,29 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "goety:empty_focus"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "item": "whisperwoods:hirschgeist_skull"
+        },
+        {
+          "item": "irons_spellbooks:lightning_bottle"
+        }
+      ]
+    },
+    {
+      "stirs": 3
+    }
+  ],
+  "result": {
+    "item": "goety:electrocute_focus",
+    "count": 1
+  }
+}

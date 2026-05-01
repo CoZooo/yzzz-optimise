@@ -1,0 +1,3 @@
+#if false, disable the "time stop" settings
+enableTimeStop = true
+

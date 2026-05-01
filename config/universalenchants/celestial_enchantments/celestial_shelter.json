@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "celestial_enchantments:void_protection",
+    "celestial_enchantments:trauma_absorption",
+    "celestial_enchantments:echo_effect",
+    "majruszsenchantments:incompatibility_curse",
+    "celestial_enchantments:abyssal_contact",
+    "celestial_enchantments:solid_armor"
+  ]
+}

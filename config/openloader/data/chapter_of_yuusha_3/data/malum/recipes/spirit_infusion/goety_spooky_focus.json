@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 1,
+      "item": "yuusha:dice_4"
+    },
+    {
+      "count": 1,
+      "item": "goety:ectoplasm"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "goety:empty_focus"
+  },
+  "output": {
+    "count": 1,
+    "item": "goety:spooky_focus"
+  },
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 2
+    },
+    {
+      "type": "infernal",
+      "count": 1
+    }
+  ]
+}

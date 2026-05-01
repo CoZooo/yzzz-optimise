@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "minecraft:charcoal"
+    },
+    {
+      "count": 1,
+      "item": "celestial_core:fire_essence"
+    },
+    {
+      "count": 1,
+      "item": "hmag:evil_crystal_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:copper_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:flame_bow"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "arcane",
+      "count": 4
+    }
+  ]
+}

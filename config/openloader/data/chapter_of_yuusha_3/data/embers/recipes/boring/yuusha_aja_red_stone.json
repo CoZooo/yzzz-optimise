@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": 255,
+  "output": {
+    "item": "yuusha:aja_red_stone"
+  },
+  "required_block": {
+    "amount": 1,
+    "block_tag": "goety:void_blocks"
+  },
+  "weight": 20
+}

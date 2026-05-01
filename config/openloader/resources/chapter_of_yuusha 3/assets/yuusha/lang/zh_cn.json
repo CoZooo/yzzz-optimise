@@ -1,0 +1,22 @@
+{
+	"item.yuusha.maggot_0": "{flow}寰宇星蛆{/flow}",
+
+	"death.attack.thorns.player": "玩家因双刃剑附魔等荆棘效果死亡。",
+	
+	"enchantment.minecraft.infinity.desc": "发射普通箭矢不会消耗箭，可以对妖弓和封弓起效，并能直接不消耗射出特殊箭。",
+
+	"item.minecraft.bow": "弓『封弓』★ 1",
+	"item.goety.hunters_bow": "猎人之弓『封弓』★ 1",
+	"item.enigmaticaddons.dragon_bow": "§d龙息弓『印弓』★ 8",
+
+	"effect.yuusha.inadaptable.desc": "穿戴的部分装备或饰品未达技能等级需求。",
+	"effect.yuusha.inadaptable.description": "穿戴的部分装备或饰品未达技能等级需求。",
+	"effect.yuusha.soul_gem_exhausted.desc": "你的灵魂宝石净化度已空，可进食悲叹之种补充。",
+	"effect.yuusha.soul_gem_exhausted.description": "你的灵魂宝石净化度已空，可进食悲叹之种补充。",
+	"effect.forbidden_arcanus.darkened.desc": "会同时给予失明效果，可以被相应饰品免疫。",
+	"effect.forbidden_arcanus.darkened.description": "会同时给予失明效果，可以被相应饰品免疫。",
+	"effect.relics.confusion.desc": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.relics.confusion.description": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.cataclysm.curse_of_desert.desc": "会造成键位反向效果，干扰玩家的行动。",
+	"effect.cataclysm.curse_of_desert.description": "会造成键位反向效果，干扰玩家的行动。"
+}

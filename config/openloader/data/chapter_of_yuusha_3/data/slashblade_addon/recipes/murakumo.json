@@ -1,0 +1,50 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:murakumo",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "B": {
+      "item": "deep_aether:chromatic_aercloud"
+    },
+    "C": {
+      "item": "celestial_core:pure_nether_star"
+    },
+    "D": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "E": {
+      "item": "ancient_aether:valkyrum_sword"
+    },
+    "Z": {
+      "item": "prinegorerouse:hercules"
+    },
+    "X": {
+      "item": "prinegorerouse:erebus"
+    },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "slashblade:yamato",
+        "sword_type": [
+          "broken",
+          "sealed"
+        ],
+        "proud_soul": 50000,
+        "refine": 5
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "ZEX",
+    "FDA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

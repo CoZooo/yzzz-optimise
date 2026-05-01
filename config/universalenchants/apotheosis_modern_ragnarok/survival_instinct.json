@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:amr_gun_apoth",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "apotheosis_modern_ragnarok:projection_magic",
+    "majruszsenchantments:incompatibility_curse"
+  ]
+}

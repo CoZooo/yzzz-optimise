@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "goety:empty_focus"
+  },
+  "craftType": "deep",
+  "soulCost": 100,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "item": "cataclysm:crystallized_coral"
+    },
+    {
+      "item": "cataclysm:crystallized_coral"
+    },
+    {
+      "item": "call_of_drowner:coral_ingot"
+    },
+    {
+      "item": "call_of_drowner:coral_ingot"
+    }
+  ],
+  "result": {
+    "item": "goety_cataclysm:abyssal_mine_focus"
+  }
+}

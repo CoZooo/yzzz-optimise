@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "count": 1,
+      "item": "mowziesmobs:naga_fang"
+    },
+    {
+      "count": 1,
+      "item": "hmag:evil_crystal_upgrade_smithing_template"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "morebows:copper_bow"
+  },
+  "output": {
+    "count": 1,
+    "item": "too_many_bows:verdant_viper"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 8
+    },
+    {
+      "type": "aerial",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 4
+    }
+  ]
+}

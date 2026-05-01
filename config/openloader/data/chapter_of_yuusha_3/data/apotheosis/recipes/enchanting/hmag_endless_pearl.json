@@ -1,0 +1,19 @@
+{
+	"type": "apotheosis:enchanting",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "enchantment"
+	}],
+	"input": {
+		"item": "minecraft:ender_pearl"
+	},
+	"requirements": {
+		"eterna": 15,
+		"quanta": 30,
+		"arcana": 30
+	},
+	"result": {
+		"item": "hmag:endless_pearl",
+		"count": 1
+	}
+}

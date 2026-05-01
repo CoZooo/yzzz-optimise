@@ -1,0 +1,33 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "locusazzurro_icaruswings:golden_feather"
+  },
+  "craftType": "sky",
+  "soulCost": 500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    }
+  ],
+  "result": {
+    "item": "goety_revelation:gold_feather"
+  }
+}

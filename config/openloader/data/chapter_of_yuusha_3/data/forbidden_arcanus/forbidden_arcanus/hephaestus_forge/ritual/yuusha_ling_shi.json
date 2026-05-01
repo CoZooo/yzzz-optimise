@@ -1,0 +1,32 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 1200,
+    "experience": 10,
+    "souls": 2
+  },
+  "inputs": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "yuusha:grief_seed"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "yuusha:lost_blade_fake"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "yuusha:ling_shi"
+    }
+  }
+}

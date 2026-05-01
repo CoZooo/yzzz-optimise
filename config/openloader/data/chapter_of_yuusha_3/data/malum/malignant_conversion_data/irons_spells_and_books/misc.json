@@ -1,0 +1,12 @@
+{
+  "source_attributes": [
+    "moonstone:cit"
+  ],
+  "ignore_base_value": "true",
+  "target_attributes": [
+    {
+      "attribute": "obscure_api:critical_damage",
+      "ratio": "1"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "domesticationinnovation:gluttonous",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:healing_aura",
+    "domesticationinnovation:health_siphon",
+    "domesticationinnovation:magnetic"
+  ]
+}

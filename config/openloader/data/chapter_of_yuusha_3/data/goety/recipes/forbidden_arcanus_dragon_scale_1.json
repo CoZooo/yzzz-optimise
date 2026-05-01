@@ -1,0 +1,40 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:dragon_egg"
+  },
+  "craftType": "forge",
+  "soulCost": 500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "yuusha:dice_7"
+    },
+    {
+      "item": "born_in_chaos_v1:magical_holiday_candy"
+    },
+    {
+      "item": "born_in_chaos_v1:magical_holiday_candy"
+    },
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+    },
+    {
+      "item": "born_in_chaos_v1:pumpkinhandgun"
+    }
+  ],
+  "result": {
+    "item": "forbidden_arcanus:dragon_scale",
+	"count": 8
+  }
+}

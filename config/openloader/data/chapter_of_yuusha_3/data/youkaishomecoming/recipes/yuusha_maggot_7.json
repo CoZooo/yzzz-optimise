@@ -1,0 +1,43 @@
+{
+  "type": "youkaishomecoming:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "born_in_chaos_v1:corpse_maggot"
+    },
+    {
+      "item": "born_in_chaos_v1:corpse_maggot"
+    },
+    {
+      "item": "born_in_chaos_v1:corpse_maggot"
+    },
+    {
+      "item": "born_in_chaos_v1:corpse_maggot"
+    },
+    {
+      "item": "immortalers_delight:warped_laurel"
+    }
+  ],
+  "inputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "outputFluid": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "results": [
+    {
+      "item": "yuusha:maggot_7"
+    },
+    {
+      "item": "yuusha:maggot_7"
+    },
+    {
+      "item": "yuusha:maggot_7"
+    },
+    {
+      "item": "yuusha:maggot_7"
+    }
+  ],
+  "time": 1200
+}
