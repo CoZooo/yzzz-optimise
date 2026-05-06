@@ -3,12 +3,12 @@ name: Generate Update Pack
 on:
   workflow_dispatch:
     inputs:
-      from_ref:
-        description: "Diff base ref"
+      old_ref:
+        description: "Old ref"
         required: false
         default: ""
-      to_ref:
-        description: "Diff target ref"
+      new_ref:
+        description: "New ref"
         required: false
         default: ""
       platform:
@@ -85,26 +85,26 @@ jobs:
         id: base_ref
         shell: bash
         run: |
-          INPUT_FROM_REF="${{ inputs.from_ref }}"
-          INPUT_TO_REF="${{ inputs.to_ref }}"
+          INPUT_OLD_REF="${{ inputs.old_ref }}"
+          INPUT_NEW_REF="${{ inputs.new_ref }}"
           BASE="${{ inputs.base }}"
           DLC="${{ inputs.dlc }}"
-          if [ -n "$INPUT_TO_REF" ]; then
-            if ! git rev-parse --verify --quiet "$INPUT_TO_REF^{commit}" >/dev/null; then
-              echo "Invalid to_ref: $INPUT_TO_REF" >&2
+          if [ -n "$INPUT_NEW_REF" ]; then
+            if ! git rev-parse --verify --quiet "$INPUT_NEW_REF^{commit}" >/dev/null; then
+              echo "Invalid new_ref: $INPUT_NEW_REF" >&2
               exit 1
             fi
-            RESOLVED_TO_REF="$INPUT_TO_REF"
+            RESOLVED_TO_REF="$INPUT_NEW_REF"
           else
             RESOLVED_TO_REF="HEAD"
           fi
 
-          if [ -n "$INPUT_FROM_REF" ]; then
-            if ! git rev-parse --verify --quiet "$INPUT_FROM_REF^{commit}" >/dev/null; then
-              echo "Invalid from_ref: $INPUT_FROM_REF" >&2
+          if [ -n "$INPUT_OLD_REF" ]; then
+            if ! git rev-parse --verify --quiet "$INPUT_OLD_REF^{commit}" >/dev/null; then
+              echo "Invalid old_ref: $INPUT_OLD_REF" >&2
               exit 1
             fi
-            RESOLVED="$INPUT_FROM_REF"
+            RESOLVED="$INPUT_OLD_REF"
             SOURCE="input"
           else
             TARGET_PAIR_PLUS="${BASE}+${DLC}"
@@ -250,9 +250,9 @@ jobs:
 
       - name: Show generated info
         run: |
-          echo "Diff base ref: ${{ steps.base_ref.outputs.resolved_from_ref }}"
-          echo "Diff target ref: ${{ steps.base_ref.outputs.resolved_to_ref }}"
-          echo "Diff base source: ${{ steps.base_ref.outputs.resolved_from_ref_source }}"
+          echo "Old ref: ${{ steps.base_ref.outputs.resolved_from_ref }}"
+          echo "New ref: ${{ steps.base_ref.outputs.resolved_to_ref }}"
+          echo "Old ref source: ${{ steps.base_ref.outputs.resolved_from_ref_source }}"
           echo "Release tag suggestion: ${{ steps.generate.outputs.release_tag }}"
           echo "Asset name: ${{ steps.generate.outputs.asset_name }}"
           echo "Zip path: ${{ steps.generate.outputs.zip_path }}"
