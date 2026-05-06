@@ -1,6 +1,12 @@
 [
 	{
 		"when": "onjoin",
+		"mob": ["born_in_chaos_v1:scarlet_persecutor"],
+		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "aether:the_aether"],
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
 		"mob": ["youkaishomecoming:rumia", "youkaishomecoming:shrine_maiden", "youkaishomecoming:cirno", "youkaishomecoming:yukari", "youkaishomecoming:kochiya_sanae", "youkaishomecoming:kirisame_marisa", "youkaishomecoming:komeiji_koishi", "youkaishomecoming:remilia_scarlet", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:eternity_larva", "youkaishomecoming:clownpiece", "youkaishomecoming:small_fairy"],
 		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "aether:the_aether"],
 		"result": "deny"
@@ -487,6 +493,7 @@
 	{
 		"when": "onjoin",
 		"healthset": 54500,
+		"knockbackresistanceset": 10,
 		"mob": ["stalwart_dungeons:reinforced_blaze", "aquamirae:captain_cornelia"]
 	},
 	{
@@ -930,28 +937,29 @@
 	},
 	{
 		"when": "onjoin",
-		"healthset": 500,
+		"healthset": 1000,
 		"knockbackresistanceset": 10,
 		"speedadd": 0.4,
 		"mob": ["refined_mod:summoned_wolf"]
 	},
 	{
 		"when": "onjoin",
-		"healthset": 1000,
+		"healthset": 4000,
 		"knockbackresistanceset": 10,
 		"speedadd": 0.4,
 		"mob": ["irons_spellbooks:summoned_polar_bear"]
 	},
 	{
 		"when": "onjoin",
-		"healthset": 2000,
+		"healthset": 6000,
 		"knockbackresistanceset": 10,
+		"damageset": 40000,
 		"speedadd": 0.4,
 		"mob": ["irons_spellbooks:summoned_vex"]
 	},
 	{
 		"when": "onjoin",
-		"healthset": 5000,
+		"healthset": 14000,
 		"knockbackresistanceset": 10,
 		"speedadd": 0.4,
 		"mob": ["ias_spellbooks:summoned_ragno"]

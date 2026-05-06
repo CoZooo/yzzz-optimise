@@ -2,16 +2,16 @@
 	"attack_style":"magic",
 	"attack_element":"ice",
 	"defense_style":{
-		"yuusha":90,
-		"magic":90,
-		"projectile":90,
-		"slash":90,
-		"hit":90,
-		"stab":90,
-		"bash":90,
-		"explosion":90,
-		"bite":90,
-		"environment":90
+		"yuusha":85,
+		"magic":85,
+		"projectile":85,
+		"slash":85,
+		"hit":85,
+		"stab":85,
+		"bash":85,
+		"explosion":85,
+		"bite":85,
+		"environment":85
 	},
 	"biome_dependency":false
 }

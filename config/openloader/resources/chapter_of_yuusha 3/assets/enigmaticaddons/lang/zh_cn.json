@@ -1,4 +1,6 @@
 {
+  "enchantment.enigmaticaddons.frost_aspect.desc": "攻击目标给予霜冻效果，并对冻结目标提升每级附魔10%的伤害，着火会清除霜冻效果",
+
   "tooltip.enigmaticaddons.nightScroll3": "§6+%1$s §d近战伤害",
 
   "tooltip.enigmaticaddons.blessRing1": "§d虽然拒绝了圆环之理的指引，",

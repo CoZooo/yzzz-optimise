@@ -25,6 +25,7 @@
     }
   ],
   "result": {
-    "item": "goety:black_iron_chestplate"
+    "item": "goety:black_iron_chestplate",
+    "keepingNBT" : true
   }
 }

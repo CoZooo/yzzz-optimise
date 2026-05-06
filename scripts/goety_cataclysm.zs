@@ -12,6 +12,9 @@ import mods.jeitweaker.Jei;
 <recipetype:goety:ritual>.remove(<item:goety_cataclysm:cursed_tomb_focus>);
 
 <item:goety_cataclysm:abyss_essence>.addTooltip("\u00A76击杀利维坦可获得");
+<item:goety_cataclysm:remnant_skull>.anyDamage().addTooltip("\u00A76远古遗魂仆从死亡后会掉落");
+<item:goety_cataclysm:remnant_skull>.anyDamage().addTooltip("\u00A72右击可召唤以自身为主人的现世遗魂");
+<item:goety_cataclysm:remnant_skull>.anyDamage().addTooltip("\u00A7c可在黑暗祭坛中仪式复活为以自身为主人的远古遗魂仆从");
 
 <item:goety_cataclysm:abyssal_mine_focus>.addTooltip("\u00A76需按住右键引导8秒后释放，冷却时间8秒，需放入魔杖施法");
 <item:goety_cataclysm:abyssal_mine_focus>.addTooltip("\u00A7e可给予目标深渊恐惧效果从而禁疗");

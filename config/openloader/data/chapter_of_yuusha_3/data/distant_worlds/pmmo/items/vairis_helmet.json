@@ -4,9 +4,11 @@
   },
   "negative_effect": 
     {  
-	"cataclysm:stun": 4, 
-	"goety:stunned": 4, 
-	"goety:plunge": 4, 
-	"yuusha:inadaptable": 4
+		"goety:tangled": 9, 
+		"malum:silenced": 9, 
+		"goety:plunge": 9, 
+		"attributeslib:sundering": 9, 
+		"goety:arrowmantic": 9, 
+		"yuusha:inadaptable": 9
 	}
 }

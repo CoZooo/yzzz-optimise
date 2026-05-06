@@ -287,6 +287,18 @@ craftingTable.remove(<item:aether_redux:sentry_ring>);
 <tag:items:curios:ring>.remove(<item:deep_aether:spooky_ring>);
 <tag:items:curios:burning_secret>.add(<item:deep_aether:spooky_ring>);
 
+//
+craftingTable.addShapeless("aether_redux.veridium_nugget.copy", <item:aether_redux:veridium_nugget>*3, [<item:aether_redux:veridium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
+craftingTable.addShapeless("aether_redux.sentrite_chunk.copy", <item:aether_redux:sentrite_chunk>*3, [<item:aether_redux:refined_sentrite_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
+
+
+
+
+
+
+
+
+
 
 
 

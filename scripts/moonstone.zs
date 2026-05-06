@@ -35,17 +35,13 @@ Jei.hideIngredient(<item:moonstone:god_lead>);
 Jei.hideIngredient(<item:moonstone:evil_mob>);
 Jei.hideIngredient(<item:moonstone:nine_sword_book>);
 Jei.hideIngredient(<item:moonstone:dna_box>);
-//Jei.hideIngredient(<item:moonstone:germ>);
 
-/*
 Jei.hideIngredient(<item:moonstone:nightmare_base_black_eye>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_stone>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_redemption>);
-Jei.hideIngredient(<item:moonstone:nightmare_base_reversal>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_fool>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_insight>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_start>);
-*/
 
 Jei.hideIngredient(<item:moonstone:speed_metabolism>);
 Jei.hideIngredient(<item:moonstone:cell_disorder>);
@@ -482,6 +478,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:blueamout>.anyDamage().addTooltip("\u00A7c只能通过击杀斯库拉几率获得");
 <item:moonstone:greedamout>.anyDamage().addTooltip("\u00A7c只能通过击杀斯库拉几率获得");
 <item:moonstone:redamout>.anyDamage().addTooltip("\u00A7c只能通过击杀斯库拉几率获得");
+<item:moonstone:universe>.anyDamage().addTooltip("\u00A7c击杀斯库拉有较低几率获得");
 <item:moonstone:ectoplasmapple>.anyDamage().addTooltip("\u00A7e击杀永恒苦痛之灵有几率获得");
 <item:moonstone:ectoplasmapple>.anyDamage().addTooltip("\u00A72未满祈愿1000级也可以佩戴并获得永恒效果");
 <item:moonstone:ectoplasmapple>.anyDamage().addTooltip("\u00A7c需注意同时有虚无诅咒会导致负面效果无限延长");
@@ -1122,8 +1119,9 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 //<item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7e也可佩戴颠倒之物饰品后击杀末影龙获得");
 <item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7c需同时佩戴颠倒之物饰品才可获得增益");
 <item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7e同时佩戴后无需死亡复活即可生效获得属性");
-<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7e无法使用或获取");
-<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7c不能防止着火特效");
+//<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7e无法使用或获取");
+<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7e新增击杀使徒有小几率获得");
+<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7c该饰品不能防止着火特效");
 <item:moonstone:nightmare_base_redemption_down_and_out>.anyDamage().addTooltip("\u00A76击杀敲钟人有几率获得");
 
 //ATP高能量

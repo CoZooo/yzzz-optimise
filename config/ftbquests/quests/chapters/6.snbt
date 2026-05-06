@@ -36,9 +36,7 @@
 			description: [
 				"手持粗制镰刀击杀生物会获得不同的精魂，具体看后续任务。"
 				""
-				"&6先用粗制镰刀攻击一下将其标记，然后在短时间内杀死生物，也会掉落精魂。"
-				""
-				"&e飞腾5级附魔可制作。"
+				"&6粗制镰刀攻击后会给予目标化魂状态，然后在短时间内杀死生物，也会掉落精魂。"
 			]
 			id: "2F1E9E09EF5C5478"
 			rewards: [{
@@ -2731,11 +2729,13 @@
 				""
 				"用黑暗祭坛进行魔法仪式、合成物品，需在有效区域内满足以下条件：祭坛基座上的物品满足合成配方需求；环境（如需求方块和实体）满足魔法仪式的需求；下方的诅咒之笼有足够的灵魂能量。"
 				""
-				"&c合成表中黑暗祭坛上的物品必须最后放入。潜行空手右键可以看生效范围。"
+				"&3合成表中黑暗祭坛上的物品必须最后放入。潜行空手右键可以看生效范围。"
 				""
 				"{image:yuusha:textures/renwu_heianjitan.png width:170 height:135 align:center}"
 				""
 				"&e一个在高空的黑暗祭坛，可以进行多种仪式。"
+				""
+				"&c特性：部分需要献祭生物的仪式，不能让生物离开仪式范围，否则游戏会崩溃。"
 			]
 			id: "23F770C0E18033B5"
 			rewards: [{
@@ -3820,7 +3820,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["00B7850378EB4E8F"]
+			dependencies: ["2D2A2A69DA4448C5"]
 			description: ["只能瓦解放置在地上的方块。"]
 			id: "218C3AF040F3CAF6"
 			rewards: [{
@@ -3845,8 +3845,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: 9.5d
+			x: 14.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3B445D21C02682A1"]
@@ -4034,7 +4034,7 @@
 				""
 				"&2地下墓穴：现在只会在阿比斯之渊（详见极尽深渊章节）内生成。用探险家指南针搜索“Catacombs”（来源：Iron's Spells'n Spellbooks）可找到。"
 				""
-				"&6元素属性（用不同派系的法术，可以破适应）：铁之咒语模组的伤害都属于魔法类型伤害（但会受到护甲减伤）。不同法术派系有不同的元素属性，比如远古巫术、神圣→光属性，雷霆→雷属性，自然→草属性，炽焰→火属性，唤魔→无属性，猩红、末影→暗属性，冰霜→冰属性。"
+				"&6元素属性（用不同派系的法术，可以破适应）：铁之咒语模组的伤害都属于魔法类型伤害（但会受到护甲减伤）。不同法术派系有不同的元素属性，比如远古巫术→神属性，神圣→光属性，雷霆→雷属性，自然→草属性，炽焰→火属性，唤魔→无属性，猩红、末影→暗属性，冰霜→冰属性。"
 				""
 				"&3魔法防护：铁之咒语模组的生物，其法术攻击可以被魔法类型抗性（元素战斗模组）减少伤害。魔法类型抗性附魔、沉重环链饰品等机制可以有效降低法术的伤害。"
 			]
@@ -5007,42 +5007,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2D2A2A69DA4448C5"]
-			description: [
-				"辅助类聚晶，瞬时对8格半径内所有非友方目标施加4秒虚弱1级和侵蚀5级。"
-				""
-				"持有任意附魔时，该法术的灵魂能量消耗 *2（拥有更多种类 / 更高等级附魔不会进一步叠加消耗）。"
-				"·强效（每级）：两种效果等级均 +1；"
-				"·持久（每级）：两种效果持续时间均 +1 秒；"
-				"·半径（每级）：两种效果作用半径 +1 格。"
-			]
-			id: "732381F18ADFFA24"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A8106770A86CEF8"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "3572AF77045D21FE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "goety:weakening_focus"
-				}
-				type: "item"
-			}]
-			x: 14.0d
-			y: 12.5d
-		}
-		{
 			dependencies: ["34786D3D1C79FD30"]
 			description: [
 				"药酿的核心方块，可以装填水以及酿造女巫佳酿。下方需要放置一个营火、灵魂营火或岩浆块作为热源，可以从周围的灵魂蜡烛吸收灵魂能量。玩家需要将药酿的材料扔进上方开口。玩家首先必须要将女巫坩埚装满水，且坩埚下方有热源，之后将下界疣扔入开口才能开始药酿。随后需要按容量剂、催化剂、增强剂的顺序投入材料。"
@@ -5223,23 +5187,6 @@
 			}]
 			x: 12.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["2D2A2A69DA4448C5"]
-			id: "71628CB7DF2F794D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "357A69EC61DED0AD"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6FDD5503612B183E"
-				item: "goety:entangling_focus"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 11.0d
 		}
 		{
 			dependencies: ["459480AD991413F2"]
@@ -5564,7 +5511,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["00B7850378EB4E8F"]
+			dependencies: ["2D2A2A69DA4448C5"]
 			id: "26FE69E5C1B10C25"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5588,7 +5535,7 @@
 				}
 				type: "item"
 			}]
-			x: 17.0d
+			x: 15.5d
 			y: 9.5d
 		}
 		{
@@ -5935,29 +5882,6 @@
 			}]
 			x: -1.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["7F22B35D8B3C3EE1"]
-			description: [
-				"该进度需在你的物品栏中集齐所有种类的蛙明灯。"
-				""
-				"&6青蛙吞食小型岩浆怪后会掉落一个蛙明灯，其颜色取决于该青蛙的种类：热带-珠光，温带-赭黄，寒带-青翠。"
-			]
-			id: "2A5CF5E9E1BB0216"
-			rewards: [{
-				id: "0CB9218A1C500FB2"
-				item: "goety_revelation:broken_halo"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "minecraft:husbandry/froglights"
-				criterion: ""
-				id: "6BF37137A25AF8AB"
-				type: "advancement"
-			}]
-			x: 5.0d
-			y: -13.0d
 		}
 	]
 	subtitle: ["&9『发展』"]

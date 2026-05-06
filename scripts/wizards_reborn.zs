@@ -143,6 +143,8 @@ craftingTable.removeByName("wizards_reborn:shapeless/arcanum_dust_with_redstone"
 
 //复制
 craftingTable.addShapeless("wizards_reborn.arcane_gold_nugget.copy", <item:wizards_reborn:arcane_gold_nugget>*3, [<item:wizards_reborn:arcane_gold_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
+craftingTable.addShapeless("wizards_reborn.sarcon_nugget.copy", <item:wizards_reborn:sarcon_nugget>*3, [<item:wizards_reborn:sarcon_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
+craftingTable.addShapeless("wizards_reborn.vilenium_nugget.copy", <item:wizards_reborn:vilenium_nugget>*3, [<item:wizards_reborn:vilenium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("wizards_reborn.arcacite.copy", <item:wizards_reborn:arcacite>*4, [<item:wizards_reborn:arcacite>, <item:wizards_reborn:precision_crystal>]);
 
 //神秘金盔甲

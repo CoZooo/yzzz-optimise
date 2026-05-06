@@ -32,6 +32,10 @@ craftingTable.remove(<item:meetyourfight:cocktail_cutlass>);
 craftingTable.remove(<item:meetyourfight:passages_toll>);
 craftingTable.addShaped("meetyourfight.passages_toll", <item:meetyourfight:passages_toll>, [[<item:minecraft:air>, <item:locusazzurro_icaruswings:golden_string>, <item:minecraft:air>], [<item:call_of_yucutan:ancient_gold_ingot>, <item:call_of_yucutan:ancient_gold_ingot>, <item:call_of_yucutan:ancient_gold_ingot>], [<item:call_of_yucutan:ancient_gold_ingot>, <item:meetyourfight:phantoplasm>, <item:call_of_yucutan:ancient_gold_ingot>]]);
 
+//笼中心
+craftingTable.remove(<item:meetyourfight:caged_heart>);
+craftingTable.addShaped("meetyourfight.caged_heart", <item:meetyourfight:caged_heart>, [[<item:reliquary:rib_bone>, <item:locusazzurro_icaruswings:steel_ingot>, <item:reliquary:rib_bone>], [<item:reliquary:rib_bone>, <item:locusazzurro_icaruswings:steel_ingot>, <item:reliquary:rib_bone>], [<item:minecraft:air>, <item:meetyourfight:mossy_tooth>, <item:minecraft:air>]]);
+
 
 //化石诱饵
 craftingTable.remove(<item:meetyourfight:fossil_bait>);

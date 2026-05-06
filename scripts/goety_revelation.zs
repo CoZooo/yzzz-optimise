@@ -80,7 +80,7 @@ Jei.hideIngredient(<item:goety_revelation:the_tip_of_the_longinus>);
 
 //维度意志
 <tag:items:curios:back>.remove(<item:goety_revelation:dimensional_will>);
-<tag:items:curios:time>.add(<item:goety_revelation:dimensional_will>);
+<tag:items:curios:malum_ring>.add(<item:goety_revelation:dimensional_will>);
 craftingTable.remove(<item:goety_revelation:dimensional_will>);
 craftingTable.addShaped("goety_revelation.dimensional_will", <item:goety_revelation:dimensional_will>, [[<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>], [<item:minecraft:crying_obsidian>, <item:majruszsaccessories:soul_of_minecraft>.withTag({Bonus: {Value: 1.0}}), <item:minecraft:crying_obsidian>], [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]]);
 

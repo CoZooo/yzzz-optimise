@@ -64,8 +64,8 @@ Jei.hideIngredient(<item:artifacts:antidote_vessel>);
 <tag:items:curios:magnet>.add(<item:artifacts:universal_attractor>);
 <tag:items:curios:belt>.remove(<item:artifacts:universal_attractor>);
 
-
-
+//隐身围巾
+craftingTable.addShapeless("artifacts.scarf_of_invisibility", <item:artifacts:scarf_of_invisibility>, [<tag:items:born_in_chaos_v1:rareloot>, <item:reliquary:potion_essence>.withTag({effects: [{duration: 500, name: "minecraft:invisibility", potency: 0}]})]);
 
 
 

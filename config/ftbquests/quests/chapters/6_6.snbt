@@ -120,7 +120,7 @@
 			description: [
 				"在雷暴天气时用能量雷电核心右击避雷针可获得。"
 				""
-				"&c只建议用V键快捷施法铁之咒语，右键施放持续性法术会有特性无法施放（例如星海落瀑等）。"
+				"&c只建议用V键快捷施法铁之咒语，右键施放持续性法术可能会有特性无法施放（例如星海落瀑等）。"
 			]
 			id: "482CB5E75A521E5C"
 			rewards: [{
@@ -128,28 +128,29 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "6DC0F703ADADD4B4"
-				item: "irons_spellbooks:lightning_rod"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6DC0F703ADADD4B4"
+					item: "irons_spellbooks:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "6B19BBDF9C0EF43C"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+				{
+					id: "470B3BCB4441D994"
+					item: "irons_spellbooks:ice_staff"
+					type: "item"
+				}
+				{
+					id: "107190235E8709E1"
+					item: "irons_spellbooks:artificer_cane"
+					type: "item"
+				}
+			]
 			x: -1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7BD8BC169FE54A1C"]
-			id: "559ED954ABA2B03C"
-			rewards: [{
-				id: "18CFB63EA91DEA1D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "478F43E2173B8063"
-				item: "irons_spellbooks:artificer_cane"
-				type: "item"
-			}]
-			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -272,7 +273,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["729E5ED845164142"]
+			dependencies: ["7BD8BC169FE54A1C"]
 			description: [
 				"部分在前期有用的法球。"
 				""
@@ -300,8 +301,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -2.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7BD8BC169FE54A1C"]
@@ -366,29 +367,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["7BD8BC169FE54A1C"]
-			description: [
-				"可在锻造台中制作惊悚南瓜盔甲套装。后续还能继续升级，详见宝具章节。"
-				""
-				"&6只能从皮革开始升级，不能享受宝藏袋的会心属性铁质盔甲。"
-				""
-				"&c请勿用会心皮革套升级，会导致属性丢失。"
-			]
-			id: "0FBEC582583251BB"
-			rewards: [{
-				id: "6EA4130034F67F79"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "246782EEE20C7CA2"
-				item: "minecraft:carved_pumpkin"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
 			dependencies: ["415CA5A2A9FD668F"]
 			description: [
 				"强大，无需多言。也许只有铁之咒语法师需要用到。"
@@ -410,46 +388,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0FBEC582583251BB"]
-			description: [
-				"可在秘蕴晶化器中制作下界合金战斗法师盔甲套装。详见宝具章节。"
-				""
-				"&6各系的术士盔甲套装，需用下界合金战斗法师盔甲在锻造台中升级获得。升级时不能有特殊的NBT。"
-				""
-				"&c记得上永恒陨星，否则很容易耗尽耐久。"
-			]
-			id: "1AFE6E9AE15ECE9D"
-			rewards: [{
-				id: "14FC1FB853D6A100"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "24216D81B7C89842"
-				item: "irons_spellbooks:magic_cloth"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0FBEC582583251BB"]
-			description: ["可在精魂祭坛中制作灵魂猎手盔甲套装。详见宝具章节。"]
-			id: "72AB37EF8658D40C"
-			rewards: [{
-				id: "586E47D41FDE80E9"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6472AEC9FB7F432A"
-				item: "yuusha:ignitium_star"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["729E5ED845164142"]
 			description: ["有少部分加成法术强度的泰拉饰品，基本都要通过击杀天顶巨兽的特定Boss获得。"]
 			id: "45B4E0E9B9032505"
@@ -464,7 +402,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["415CA5A2A9FD668F"]
@@ -1510,7 +1448,7 @@
 				""
 				"墨魂珑心：可升级为幽魂套或者蜘蛛套。"
 				""
-				""
+				"腾炎下界之星：可升级为渊魄套或神经蚀刻套。"
 				""
 				"&6黑铁套装需永恒陨星将其变为无限耐久。后续升级会继承之前的NBT。"
 			]
@@ -1529,6 +1467,11 @@
 				{
 					id: "287AC57960958A88"
 					item: "yuusha:ink_heart"
+					type: "item"
+				}
+				{
+					id: "1BD4EAF2DA673A27"
+					item: "yuusha:ignitium_star"
 					type: "item"
 				}
 			]
@@ -1611,6 +1554,264 @@
 			}]
 			x: 6.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["411F13B42CE1C14E"]
+			description: [
+				"各种聚晶必须放入魔杖内才能施法。"
+				""
+				"&6黑暗魔杖无法打上神化强化，但上述由黑暗魔杖所升级而成的魔杖可以打上神化强化。"
+			]
+			id: "63911B7E3F316CCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5634DA89AB4686B8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「法师」"
+			tasks: [
+				{
+					id: "4A7A680AAC06206C"
+					item: "goety:ominous_staff"
+					type: "item"
+				}
+				{
+					id: "03FA6828605229A1"
+					item: "goety:necro_staff"
+					type: "item"
+				}
+				{
+					id: "04BAA4686F4485BB"
+					item: "goety:storm_staff"
+					type: "item"
+				}
+				{
+					id: "313F28D4D6579E75"
+					item: "goety:frost_staff"
+					type: "item"
+				}
+				{
+					id: "15AE3D185F462F03"
+					item: "goety:wild_staff"
+					type: "item"
+				}
+				{
+					id: "17B468E5BC6A5B4D"
+					item: "goety:abyss_staff"
+					type: "item"
+				}
+				{
+					id: "022CD7BAECD7EE45"
+					item: "goety:nether_staff"
+					type: "item"
+				}
+				{
+					id: "1414DBEA5EE2686E"
+					item: "goety:nameless_staff"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			description: [
+				"适合玩家法师穿的初级盔甲。"
+				""
+				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+				""
+				"&6只能从皮革开始升级，不能享受宝藏袋的会心属性铁质盔甲。"
+				""
+				"&e请勿用会心皮革套升级，会导致属性丢失。"
+			]
+			id: "29FF1E2315E7FD48"
+			rewards: [{
+				id: "14403CF6B8D99A4F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7BDC1D1258BF5A53"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04F9BF5775F51D87"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1251905385E7D89D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3072EE4DFAB8D123"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29FF1E2315E7FD48"]
+			description: [
+				"可在秘蕴晶化器中制作下界合金战斗法师盔甲套装。所增加的法术强度对所有铁之咒语的法术都有效果。"
+				""
+				"&c基本只有铁之咒语模组的法杖和盔甲，才会提高较高额的法术强度。某些Boss可能需要你穿戴法师盔甲和手持法杖才有足够的法术输出。"
+				""
+				"&6相关属性介绍详见树海化章节的「属性说明」任务。"
+				""
+				"&e各系的术士盔甲套装，可用下界合金战斗法师盔甲在锻造台中升级获得。升级时不能有特殊的NBT。"
+				""
+				"&3记得上永恒陨星，否则很容易耗尽耐久。"
+			]
+			id: "1C6C7647DEC2FDDC"
+			rewards: [{
+				id: "26191AC4BB98D09F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "14927C0DB0D9178E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "392A0890F932F28D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03EBED66CCE0472C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "284DA72CFE187A84"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29FF1E2315E7FD48"]
+			description: ["可在精魂祭坛中制作灵魂猎手盔甲套装。具有极高的魔能强度加成，适用于中后期法师。"]
+			id: "138EBDD17BFC73C9"
+			rewards: [{
+				id: "4BCE3E0BE465F633"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "756F545C8BC71A60"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_cloak"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738A9D21458B84B4"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "737AB1EA392DD878"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DAE2B8033548673"
+					item: {
+						Count: 1
+						id: "malum:soul_hunter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
 		}
 	]
 	subtitle: [

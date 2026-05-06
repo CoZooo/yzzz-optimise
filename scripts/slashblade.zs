@@ -9,23 +9,26 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:prinegorerouse:fatestar>.addTooltip("\u00A7c请勿使用星火燃烧等幻影剑类SA攻击呱蛙、爬行、吞噬、啃咬血肉兽，游戏会崩溃");
 
 //拔刀剑
-<item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_wood", 1.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_wood.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_wood", 1.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_wood.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:fire_damage> , "attribute.slashblade_wood.2", 10, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-<item:slashblade:slashblade_bamboo>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_bamboo", 2.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_bamboo>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_bamboo.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_bamboo>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_bamboo", 2.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_bamboo>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_silverbamboo.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_bamboo>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.slashblade_silverbamboo.2", 10, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_silverbamboo.1", 2.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.slashblade_silverbamboo.2", 15, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_silverbamboo.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_silverbamboo.1", 2.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.slashblade_silverbamboo.2", 25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_silverbamboo>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_silverbamboo.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_white", 2.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:fire_damage> , "attribute.slashblade_white.2", 15, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_white.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_white", 2.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:fire_damage> , "attribute.slashblade_white.2", 25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade_white>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade_white.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-<item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade", 2.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade", 2.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
+<item:slashblade:slashblade>.withTag({bladeState: {SpecialAttackType: "ak:bloodsucking_sickle"}}).addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.bloodsucking_sickle", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 
 //合成
 craftingTable.remove(<item:locusazzurro_icaruswings:golden_feather_helmet>);

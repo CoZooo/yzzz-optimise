@@ -203,6 +203,14 @@
 [[entities]]
 	affixPermission = "BLACKLIST"
 	affixList = []
+	maxTier = 6
+	minTier = 5
+	entity = "irons_spellbooks:summoned_vex"
+	presetAffixes = ["wounding", "hasty"]
+
+[[entities]]
+	affixPermission = "BLACKLIST"
+	affixList = []
 	maxTier = 5
 	minTier = 5
 	entity = "irons_spellbooks:necromancer"

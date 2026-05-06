@@ -399,67 +399,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["37F5D6A8DB6CB847"]
-			description: [
-				"可在锻造台中制作钨盔甲套装。后续还能继续升级，详见宝具章节。"
-				""
-				"&6只能从皮革开始升级，不能享受宝藏袋的会心属性铁质盔甲。"
-			]
-			id: "0083953F431503A3"
-			rewards: [{
-				id: "44CDBF644C1E3575"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "042FC95072B0A5C8"
-				item: {
-					Count: 1
-					id: "stalwart_dungeons:tungsten_hammer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -10.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["0083953F431503A3"]
-			description: ["可在锻造台中制作天龙神秘盔甲套装。后续还能继续升级，详见宝具章节。"]
-			id: "7F2BC7C98E214E77"
-			rewards: [{
-				id: "3084A6A0BF3DFD44"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "26BCE35DD1759041"
-				item: "confluence:demon_heart"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7F2BC7C98E214E77"]
-			description: ["可在锻造台中制作战神提尔盔甲套装。详见宝具章节。"]
-			id: "4BC62ACABD22BE49"
-			rewards: [{
-				id: "358198A31CFE1F17"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "08B0B0F6A824CC4C"
-				item: "enigmaticaddons:pure_heart"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["35AE3DEFA0F605CB"]
 			description: ["大部分枪械都可以用到该组件，配合稳重等附魔，以及其他组件，可以在很大程度上降低枪械后坐力。"]
 			id: "5470F38D674EF437"
@@ -864,6 +803,184 @@
 			}]
 			x: -9.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["37F5D6A8DB6CB847"]
+			description: [
+				"适合玩家枪械穿的初级盔甲。"
+				""
+				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+			]
+			id: "0BF7F4A65356B862"
+			rewards: [{
+				id: "14C9B23ADCECBCAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6B1C23BD737E43FC"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E7618E97BF8E773"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B919A7697218E33"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A83D5097116E992"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:tungsten_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BF7F4A65356B862"]
+			description: ["适合玩家枪械穿的中级盔甲。"]
+			id: "215EBFF950AC327A"
+			rewards: [{
+				id: "3F5B7ACE3F257F4F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7B3F01037ED0FE1B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76D23617707BA489"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DD22379BFD0464C"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "356C77752AE2F24B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["215EBFF950AC327A"]
+			description: ["适合玩家枪械穿的高级盔甲。"]
+			id: "6444AE24CF2908AF"
+			rewards: [{
+				id: "279186E5FD0C38C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "06C3C13F097155C9"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2880FAF9A3CEE8D5"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "589228918642518B"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51370F531394AD38"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:tyr_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 0.5d
 		}
 	]
 	subtitle: [

@@ -13,7 +13,7 @@
 		clusterAwarenessRadius = 12
 		#Death Blade: Can increase attack damage equivalent to the maximum life of the target
 		#Range: 0.0 ~ 1.0
-		deathBladePercentDamage = 0.001
+		deathBladePercentDamage = 0.05
 		#Death Blow: How much critical damage attribute can be increased
 		#Range: 0.0 ~ 1024.0
 		deathBlowAttribute = 0.15

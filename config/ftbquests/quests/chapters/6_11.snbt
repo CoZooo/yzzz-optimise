@@ -108,7 +108,7 @@
 				""
 				"&6恩惠物品可放心使用。背叛物品使用会增加无赎之戒的破损值，在破损值满后，无赎之戒会变为&e破损之戒&6，可能会导致卡关。尤其是背叛的饰品，会持续快速增加破损值。单纯使用背叛物品合成，破损值会自然回复。"
 				""
-				"&5如果想一命通关无赎，在极限模式时，让闪电击中该物品可让其附魔。手持附魔过的该物品右键时，会在玩家周围产生几道闪电束，若成功存活则会完成转变仪式。"
+				"&5如果想一命通关无赎，在极限模式时，让闪电击中神圣之石可让其附魔。手持附魔过的该物品右键时，会在玩家周围产生闪电束，若成功存活则会完成转变仪式。"
 			]
 			icon: "enigmaticaddons:bless_stone"
 			id: "4FAA88938920247F"
@@ -347,7 +347,7 @@
 			description: [
 				"无赎世界线专署饰品，替代勇者世界线血战沙场之证。"
 				""
-				"&6需先获得颠倒之物才能制作和使用。"
+				"&6不稳卡片需先获得颠倒之物才能制作和使用。"
 			]
 			id: "77159E9D5CFAB56D"
 			rewards: [{
@@ -355,22 +355,18 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "42B8C33CDD77EFC4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "moonstone:nightmare_base_reversal_card"
+			tasks: [
+				{
+					id: "37D09AB48CBA0BD5"
+					item: "moonstone:nightmare_base_reversal"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "13DE40D1F72FAF1E"
+					item: "moonstone:nightmare_base_reversal_card"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: -0.5d
 		}

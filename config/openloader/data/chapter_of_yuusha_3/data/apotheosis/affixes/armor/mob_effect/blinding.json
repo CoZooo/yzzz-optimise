@@ -1,6 +1,6 @@
 {
 	"type": "apotheosis:mob_effect",
-	"mob_effect": "minecraft:blindness",
+	"mob_effect": "minecraft:slowness",
 	"target": "HURT_ATTACKER",
 	"values": {
 		"rare": {

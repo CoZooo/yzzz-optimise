@@ -72,6 +72,7 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A7b谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A79谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A75谨慎使用！会导致不死图腾等复活物品不生效");
+<item:chapter_of_yuusha_3_core:recoil_absorber>.anyDamage().addTooltip("\u00A7c不能无视部分生物的强力反射");
 
 //
 <tag:items:curios:charm>.remove(<item:chapter_of_yuusha_3_core:nine_sword_books>);

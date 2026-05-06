@@ -244,8 +244,6 @@
 				"&3饵钓V、饵钓III"
 				"&9分裂、拆分、捕捉V、噬魂V"
 				"&c诅咒附魔：永恒绑定诅咒、悲恸诅咒、绑定诅咒、消失诅咒、狂怒、滑手诅咒、吸血鬼诅咒、锈蚀诅咒、矛盾诅咒、易损诅咒、疲劳诅咒、生命修补"
-				""
-				"&e搜索附魔、物品信息时必须用中文。"
 			]
 			id: "41264B48A1063918"
 			rewards: [{
@@ -2201,7 +2199,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["50CDD3F833BEFB8A"]
@@ -2470,29 +2468,6 @@
 			}]
 			x: 2.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["551D4E6967CB89E1"]
-			description: [
-				"刷怪笼可制作，但制作出来的无法刷怪，需要放入刷怪蛋才能刷怪。此外，利用[精准采集]可挖掘获得野外有怪物的[刷怪笼]。"
-				""
-				"&6[神化]模组提供了修改刷怪笼属性的方法，可以更方便地去刷怪。持对应物品右击刷怪笼即可调节属性，对着JEI里的刷怪笼按R键可查看调节刷怪笼的材料。"
-				""
-				"&c部分建筑结构的刷怪笼并不是原版或神化的刷怪笼，不能拿来进行神化改造，也无法精准采集获得。"
-			]
-			id: "77E4CF9A92B37E3B"
-			rewards: [{
-				id: "2AF123FBC1AE233D"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "17A137DCF61C3601"
-				item: "minecraft:spawner"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -7.5d
 		}
 		{
 			dependencies: ["000D517C96345B25"]
@@ -3136,29 +3111,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["72C78E20CFD6988A"]
-			description: ["可以在铁砧中直接改写饰品的词缀。"]
-			id: "6A5C45EBEDF7C687"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13821951EFA8214E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "06B6EFED3E0D426F"
-				item: {
-					Count: 1
-					id: "celestial_forge:modifier_book"
-					tag: { }
-				}
-				match_nbt: false
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
 			dependencies: ["479232119C07EDDE"]
 			description: ["可制作或野外找到。酿造可用漏斗、红石等自动化。"]
 			hide_dependency_lines: true
@@ -3455,6 +3407,11 @@
 					item: "minecraft:drowned_spawn_egg"
 					type: "item"
 				}
+				{
+					id: "216C045EF64398A7"
+					item: "minecraft:pufferfish_spawn_egg"
+					type: "item"
+				}
 			]
 			title: "刷怪蛋"
 			x: 15.5d
@@ -3483,36 +3440,6 @@
 			}]
 			x: 8.0d
 			y: -7.5d
-		}
-		{
-			dependencies: ["4275A5E9FDD6A137"]
-			description: [
-				"各种建筑手杖可同时放置多个方块，还有升级版。自行在JEI搜索“@wand”。"
-				""
-				"&6特性：主手持手杖，副手空手时，对着已放下的方块按住Ctrl+Shift+右键可撤回用该建筑手杖所放下的方块，以此来回刷特定的PMMO技能经验。"
-				""
-				"&e额外用法：与核心合成后，对着空气按Ctrl+Shift+右击可打开配置界面，对着空气按Shift+左击可切换核心功能。"
-			]
-			id: "325F3F7260BC71E3"
-			rewards: [{
-				id: "3B33EBE82F97393D"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5BBA7C06D47210B5"
-				item: {
-					Count: 1
-					id: "constructionwand:diamond_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["496474BEE3E67D70"]
@@ -4450,178 +4377,6 @@
 			title: "兑换 一次性«女仆祭坛»胶囊"
 			x: -13.0d
 			y: -9.0d
-		}
-		{
-			dependencies: ["0E4314F30B1EE0FB"]
-			description: [
-				"在钓鱼时有几率给钓竿增加狂热垂钓附魔和提升等级。部分宝箱内也有几率出现狂热垂钓附魔。"
-				""
-				"&6狂热垂钓：有几率在钓鱼时获得额外的战利品，在下雨几率提升。此附魔可以通过使用一个钓鱼竿多次钓鱼而自然获得与提高其附魔等级，达到最大等级8级时显示为钓鱼爱好者，并获得该成就。"
-				""
-				"&c优化：在下雨时，该附魔升级几率提升至默认10倍。"
-				""
-				"&e该成就必须从钓竿没有狂热垂钓附魔开始完成。"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:brush"
-				tag: {
-					Damage: 0
-					Enchantments: [
-						{
-							id: "minecraft:efficiency"
-							lvl: 10s
-						}
-						{
-							id: "minecraft:fortune"
-							lvl: 5s
-						}
-					]
-				}
-			}
-			id: "6C1E4E580B8D70A7"
-			rewards: [{
-				id: "106928BD9D973693"
-				item: {
-					Count: 1
-					id: "minecraft:brush"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:efficiency"
-								lvl: 10s
-							}
-							{
-								id: "minecraft:fortune"
-								lvl: 5s
-							}
-						]
-					}
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "majruszsenchantments:fishing_fanatic_true"
-				criterion: ""
-				id: "3E5B4CF73FF86CF7"
-				type: "advancement"
-			}]
-			x: -11.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5F57A7E5CE4CF56E"]
-			description: ["该进度需将下列锻造模板都至少使用一次：尖塔、猪鼻、肋骨、监守、幽静、恼鬼、潮汐、向导。"]
-			id: "0109206BA7BE5F50"
-			rewards: [{
-				id: "6F463AD57C48A183"
-				item: "ancientreforging:ancient_reforging_table"
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
-				criterion: ""
-				id: "439E29E5E60511CD"
-				type: "advancement"
-			}]
-			x: 3.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3AE222F25C500418"]
-			description: ["该进度需繁殖出下列所有生物（共24种）：美西螈、蜜蜂、骆驼、猫、鸡、牛、驴、狐狸、青蛙、山羊、疣猪兽、马、羊驼、哞菇、骡、豹猫、熊猫、猪、兔子、绵羊、嗅探兽、炽足兽、海龟、狼。"]
-			id: "136834475D0096C3"
-			rewards: [
-				{
-					count: 2
-					id: "514569DB43AC9B4A"
-					item: "xtraarrows:cupids_arrow"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 2
-					id: "22CB8BD045C9FBE2"
-					item: "xtraarrows:cupids_arrow"
-					team_reward: true
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "minecraft:husbandry/bred_all_animals"
-				criterion: ""
-				id: "1F876B9AB25D5EBD"
-				type: "advancement"
-			}]
-			x: -8.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4965B04DF5CDBB05"]
-			description: [
-				"驯服下列所有品种的猫（共11种）：虎斑猫、西服猫、红虎斑猫、暹罗猫、英国短毛猫、花猫、波斯猫、布偶猫、白猫、Jellie、黑猫。"
-				""
-				"&6如有其他种类的猫可以正常驯服，进度会将其忽略。"
-			]
-			id: "34943D4163880F73"
-			rewards: [
-				{
-					id: "50976FC52C9DE35A"
-					item: "artifacts:kitty_slippers"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2AD7C6D93AEA4519"
-					item: "goety:feline_amulet"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "20591752270868AB"
-					item: "confluence:pink_horseshoe_balloon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "75C917C7CA83CEBA"
-					item: "artifacts:anglers_hat"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7CB9839E3A54E1D6"
-					item: "confluence:fish_finder"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7896BFCFF00AB4BF"
-					item: {
-						Count: 1
-						id: "majruszsaccessories:angler_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: 1.0f
-							}
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "minecraft:husbandry/complete_catalogue"
-				criterion: ""
-				id: "4C05933394748853"
-				type: "advancement"
-			}]
-			x: -11.5d
-			y: 1.5d
 		}
 	]
 	subtitle: ["&9『发展』"]

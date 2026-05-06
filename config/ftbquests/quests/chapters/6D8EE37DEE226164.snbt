@@ -15,7 +15,7 @@
 			rotation: 0.0d
 			width: 23.6d
 			x: 1.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			alpha: 125
@@ -24,8 +24,8 @@
 			image: "yuusha:textures/mission_background_1.png"
 			rotation: 0.0d
 			width: 4.35d
-			x: 5.55d
-			y: -0.5d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			alpha: 125
@@ -35,7 +35,7 @@
 			rotation: 0.0d
 			width: 4.35d
 			x: -6.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			alpha: 125
@@ -45,7 +45,7 @@
 			rotation: 0.0d
 			width: 4.35d
 			x: -2.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			alpha: 125
@@ -55,7 +55,7 @@
 			rotation: 0.0d
 			width: 4.35d
 			x: 1.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			alpha: 125
@@ -65,7 +65,7 @@
 			rotation: 0.0d
 			width: 4.35d
 			x: 9.5d
-			y: -0.5d
+			y: 1.0d
 		}
 	]
 	order_index: 2
@@ -78,9 +78,9 @@
 				""
 				"&6该杖可突破磁力、瘫痪等怪物的多种禁锢。"
 				""
-				"&e配合[永恒之石]使用。"
+				"&e建议配合永恒之石使用。"
 				""
-				"&c阿涅摩伊之杖、银莲花在任务奖励里有，流浪商人也有卖。"
+				"&c阿涅摩伊之杖、银莲花在任务奖励里有。"
 			]
 			id: "734F9101C0A6FF04"
 			rewards: [{
@@ -88,7 +88,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「飞行」"
 			tasks: [{
 				id: "480E85E857B57211"
 				item: {
@@ -116,7 +116,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「传送」"
 			tasks: [{
 				id: "41D3798E72366C1D"
 				item: {
@@ -126,8 +126,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -152,7 +152,7 @@
 				item: "reliquary:void_tear"
 				type: "item"
 			}]
-			x: 6.5d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -170,7 +170,7 @@
 				item: "reliquary:infernal_tear"
 				type: "item"
 			}]
-			x: 5.5d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -189,8 +189,8 @@
 				item: "reliquary:rod_of_lyssa"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -210,7 +210,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「探索」"
 			tasks: [{
 				id: "4276457FF57C4BAB"
 				item: {
@@ -220,8 +220,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -241,7 +241,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「探索」"
 			tasks: [{
 				id: "46626D01F6E010BF"
 				item: {
@@ -251,8 +251,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -263,89 +263,13 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「防火」"
 			tasks: [{
 				id: "0A82EEBD325DD31A"
 				item: "reliquary:pyromancer_staff"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"对大部分Boss都有加伤。此外对训练假人也有。"
-				""
-				"&c兼容神化模组的词缀系统和宝石，需重铸台改造。不兼容星月词缀模组。"
-				""
-				"&e该武器百分比加伤属于独立乘区，不与其它神秘遗物模组的饰品（如千咒卷轴、血战沙场等）相加计算。"
-			]
-			hide_dependency_lines: true
-			id: "27603B8A66875DA4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "18129F6EA0FD4D0F"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "1995E24F13FF64EB"
-				item: "enigmaticlegacy:the_infinitum"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"对大部分Boss都有加伤。此外对训练假人也有。"
-				""
-				"&c兼容神化模组的词缀系统和宝石，需重铸台改造。不兼容星月词缀模组。"
-				""
-				"&e该武器百分比加伤属于独立乘区，不与其它神秘遗物模组的饰品（如千咒卷轴、血战沙场等）相加计算。"
-			]
-			hide_dependency_lines: true
-			id: "75664EEB0F2C8FA5"
-			rewards: [{
-				id: "58BF21BF3340939E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "016752067710CCBD"
-				item: "enigmaticlegacy:the_twist"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["会心增伤。"]
-			id: "7EB9867EB8734819"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7695AB5F227DE348"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "68E220DC13154BAD"
-				item: {
-					Count: 1
-					id: "aquamirae:terrible_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
+			x: 9.5d
 			y: 2.5d
 		}
 		{
@@ -357,7 +281,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「传送」"
 			tasks: [{
 				id: "745610F0C1FF12FF"
 				item: {
@@ -369,31 +293,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "12A01C98E523FD63"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7AAB58F1FED0C740"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "7D5FCEC595FBD32A"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:forbidden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
@@ -416,76 +316,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"饕餮之锅已受到绝望的侵袭。"
-				""
-				"&e完成狂人章节的厨神当道任务可以提前获取。"
-			]
-			icon: {
-				Count: 1
-				id: "enigmaticlegacy:eldritch_pan"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7AA2FD4C785328C3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "25C1819161F7D34D"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「厨师」"
-			tasks: [{
-				id: "5C3E4A83CFE40A9A"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:eldritch_pan"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&5饕餮之锅"
-			x: 10.5d
+			x: 6.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"基本设定：普通模式下无论是否击中生物，都会召唤箭雨从天而降助你打击怪物，但是准度很低。"
-				""
-				"&e特殊模式：按住Shift右击可切换为追踪模式。追踪模式时使用不消耗任何箭，自动产生蓝色的天堂箭，箭射出后可以在相邻的生物之间弹射，可弹射的次数随拉弓的蓄力时间增加，达到弹射次数上限后产生一次爆炸。"
-				""
-				"&6修改：射出的箭和箭雨的伤害已大幅度提升。"
-				""
-				"&c特性：天堂陨落长弓射出的箭会误伤到使用者。"
-			]
-			id: "4E99D7BC0A1137C1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B0396BE98AC3888"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [{
-				id: "1D7077AC391EF48C"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_bow"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -503,32 +335,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["对高护甲生物能造成极高伤害。"]
-			id: "243FA17AF677DB42"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A27266D4E721862"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "20C497CE0AD586F7"
-				item: {
-					Count: 1
-					id: "embers:tyrfing"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -546,8 +353,8 @@
 				item: "goety:hook_bell"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -558,7 +365,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「弓兵」"
+			subtitle: "「易伤」"
 			tasks: [{
 				id: "1BBB6EC7C406AAD6"
 				item: {
@@ -579,745 +386,6 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"引雷附魔书可以用雷电核心在切石机中制作。忠诚5级附魔书可以用神圣珍珠在切石机中制作。愤怒20级附魔书可以用鲜血精华在切石机中制作。"
-				""
-				"&6可直接与守卫者锭合成，制作一个新的三叉戟，原三叉戟不会消耗。"
-			]
-			id: "7012663F0DF03269"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78E9E147565EE8F3"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [{
-				id: "61CE6B8B37A912F5"
-				item: {
-					Count: 1
-					id: "minecraft:trident"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "646627553FE62AD6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "12035A2B6AA8150F"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "5FBC7B8D5D2C166D"
-				item: {
-					Count: 1
-					id: "aquamirae:remnants_saber"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "299B807535EAF2DC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76D16FBC947DB434"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "7ECC6FBB213DE077"
-				item: {
-					Count: 1
-					id: "aquamirae:fin_cutter"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家近战穿的高级盔甲。"]
-			id: "6B389DC905B4A685"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7B436CA7DD73914B"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [
-				{
-					id: "3EEA99BDBD7B6E37"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "50ED519E28A0C5F3"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2E906B555AF643EC"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "091DF666DD839813"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"所增加的法术强度对所有铁之咒语的法术都有效果。"
-				""
-				"&c基本只有铁之咒语模组的法杖和盔甲，才会提高较高额的法术强度。某些Boss可能需要你穿戴法师盔甲和手持法杖才有足够的法术输出。"
-				""
-				"&6相关属性介绍详见树海化章节的「属性说明」任务。"
-			]
-			id: "1C6C7647DEC2FDDC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "69DC35E089980946"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「法师」"
-			tasks: [
-				{
-					id: "14927C0DB0D9178E"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:netherite_mage_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "392A0890F932F28D"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:netherite_mage_chestplate"
-						tag: {
-							Damage: 0
-							ISB_Spells: {
-								data: [ ]
-								maxSpells: 1
-								mustEquip: 1b
-								spellWheel: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "03EBED66CCE0472C"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:netherite_mage_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "284DA72CFE187A84"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:netherite_mage_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "3B51A44B1BD0BCD2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B8356759F456AA9"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「法师」"
-			tasks: [
-				{
-					id: "52A96638FD56454A"
-					item: "irons_spellbooks:lightning_rod"
-					type: "item"
-				}
-				{
-					id: "0122AC6F6DFD59F4"
-					item: "irons_spellbooks:blood_staff"
-					type: "item"
-				}
-				{
-					id: "7E012427FE2FFFCC"
-					item: "irons_spellbooks:ice_staff"
-					type: "item"
-				}
-				{
-					id: "677B1A9D16DCEDD3"
-					item: "irons_spellbooks:graybeard_staff"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["在按照咒法章节的奥秘全典任务解锁邪术学研究后，可以看到有背刺10级附魔的娜迦毒牙匕首的专署合成表。"]
-			id: "502506420992FA73"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07D667AD62972635"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "22D2048104F06096"
-				item: {
-					Count: 1
-					id: "mowziesmobs:naga_fang_dagger"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "farmersdelight:backstabbing"
-							lvl: 10
-						}]
-					}
-				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -3.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["手持该武器时会获得近战伤害加成×2倍。"]
-			id: "67DD844D2E8DCF49"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "766D16788B57F7D9"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "12F08DFB05CB04D0"
-				item: {
-					Count: 1
-					id: "goety:dark_metal_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"可附魔背刺10级，背刺时获得巨大伤害加成。"
-				""
-				"&6背刺10级附魔书可用余烬之心制作获得。"
-			]
-			id: "50A6A5B43E920804"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28BE08A87E2464B1"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "00CC29DC34CD64C2"
-				item: {
-					Count: 1
-					id: "farmersdelight:golden_knife"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家近战穿的中级盔甲。"]
-			id: "160E9EE975894AAA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "21CBDDB9C1AE2620"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [
-				{
-					id: "3F694AB8DF609978"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "746FD1E9E7F3C937"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44952F3E08D8F72F"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "213D3B4248E6E256"
-					item: {
-						Count: 1
-						id: "born_in_chaos_v1:dark_metal_armor_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家箭术穿的高级盔甲。"]
-			id: "62C3DD1875468F14"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3FC8978F6052D98B"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [
-				{
-					id: "0A42294C8F0D957A"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0DF8E5F29E854552"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "63BFCB6FFED1419F"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "185144D9EA73936F"
-					item: {
-						Count: 1
-						id: "cataclysm:cursium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家箭术穿的中级盔甲。"]
-			id: "1B50086A5A863DC7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3941EE46E23B0B74"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [
-				{
-					id: "376090911EC108D4"
-					item: {
-						Count: 1
-						id: "sons_of_sins:remnant_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2CFB798F83384B71"
-					item: {
-						Count: 1
-						id: "sons_of_sins:remnant_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1805C39FBC297A74"
-					item: {
-						Count: 1
-						id: "sons_of_sins:remnant_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3AFCA246B68350B1"
-					item: {
-						Count: 1
-						id: "sons_of_sins:remnant_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"PMMO的技能对弓箭类有伤害加成。后续可制作多种弓，有更高的基础伤害。"
-				""
-				"&e弓比较好用的附魔：无限/无限箭袋、力量、猎手等。"
-				""
-				"&6以下为具有不同属性的箭矢：邪恶箭（暗属性）、光灵箭（光属性）、火矢附魔（火属性）、神秘天龙箭（雷属性）、虚空散射箭（冰属性）。"
-				""
-				"&2破空之势：在弓类武器或箭矢上可能会有+破空之势，每1数值的破空之势，会提升50%的箭矢基础伤害。"
-				""
-				"&c更多相关内容可见疾矢章节任务。"
-			]
-			id: "04F2B9FDE10A07C5"
-			rewards: [{
-				id: "5FF477190139DB18"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [
-				{
-					id: "5E56E2CCF79C0B99"
-					item: {
-						Count: 1
-						id: "minecraft:bow"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2051D93BE3D04ADD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "xtraarrows:iron_arrow"
-					}
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "7BB89D8AFA029F96"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "51A79D8BE30B4BAC"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "77DF939CA9CC1D5D"
-				item: "cataclysm:meat_shredder"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"各种聚晶必须放入魔杖内才能施法。"
-				""
-				"&6黑暗魔杖无法打上神化强化，但上述由黑暗魔杖所升级而成的魔杖可以打上神化强化。"
-			]
-			id: "63911B7E3F316CCD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5634DA89AB4686B8"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「法师」"
-			tasks: [
-				{
-					id: "4A7A680AAC06206C"
-					item: "goety:ominous_staff"
-					type: "item"
-				}
-				{
-					id: "03FA6828605229A1"
-					item: "goety:necro_staff"
-					type: "item"
-				}
-				{
-					id: "04BAA4686F4485BB"
-					item: "goety:storm_staff"
-					type: "item"
-				}
-				{
-					id: "313F28D4D6579E75"
-					item: "goety:frost_staff"
-					type: "item"
-				}
-				{
-					id: "15AE3D185F462F03"
-					item: "goety:wild_staff"
-					type: "item"
-				}
-				{
-					id: "17B468E5BC6A5B4D"
-					item: "goety:abyss_staff"
-					type: "item"
-				}
-				{
-					id: "022CD7BAECD7EE45"
-					item: "goety:nether_staff"
-					type: "item"
-				}
-				{
-					id: "1414DBEA5EE2686E"
-					item: "goety:nameless_staff"
-					type: "item"
-				}
-				{
-					id: "137BC37D4992BFD5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 1
-								slot: 0
-							}
-						}
-						id: "goety_revelation:frostbloom_staff"
-					}
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["滑行魔石只能用镐类击杀，只要主手持有镐类，无论是施法还是近战，都能攻击到滑行魔石。"]
-			id: "3E8DE0FFFAE525A6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "14CD96E22D915F58"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "6E9467BE09CE2FBF"
-				item: {
-					Count: 1
-					id: "cataclysm:infernal_forge"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["具有极高的魔能强度加成，适用于中后期法师。"]
-			id: "138EBDD17BFC73C9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2288B07FB069E467"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「法师」"
-			tasks: [
-				{
-					id: "756F545C8BC71A60"
-					item: {
-						Count: 1
-						id: "malum:soul_hunter_cloak"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "738A9D21458B84B4"
-					item: {
-						Count: 1
-						id: "malum:soul_hunter_robe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "737AB1EA392DD878"
-					item: {
-						Count: 1
-						id: "malum:soul_hunter_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2DAE2B8033548673"
-					item: {
-						Count: 1
-						id: "malum:soul_hunter_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -1329,7 +397,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「战士」"
+			subtitle: "「易伤」"
 			tasks: [{
 				id: "1EC2E7D25FF49CDC"
 				item: {
@@ -1341,557 +409,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "7F4B6060E3C5AC00"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4A4FD5DE6B46AE3A"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "18972B693EB6C610"
-				item: {
-					Count: 1
-					id: "aquamirae:divider"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"拳套、护手类都属于无属性、打击类型伤害。"
-				""
-				"&6拳击手套可以在锻造台中升级。"
-			]
-			id: "7831FEF02824AC87"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "61CC8C6417AA232E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "3B8876353D4B94A1"
-				item: {
-					Count: 1
-					id: "gauntlets:quick_fisting_glove"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
+			x: 10.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"适合玩家近战穿的初级盔甲。"
-				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
-			]
-			id: "4D2B9D953D3CFBAE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2ED2596050D6A644"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [
-				{
-					id: "0599A2979BD46FE9"
-					item: {
-						Count: 1
-						id: "hmag:ancient_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "678AA47AFD41A5AF"
-					item: {
-						Count: 1
-						id: "hmag:ancient_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "49BD2A720BD3B65D"
-					item: {
-						Count: 1
-						id: "hmag:ancient_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "18C051702EC3472B"
-					item: {
-						Count: 1
-						id: "hmag:ancient_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家枪械穿的中级盔甲。"]
-			id: "215EBFF950AC327A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "731B10D88A84BABC"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「枪手」"
-			tasks: [
-				{
-					id: "7B3F01037ED0FE1B"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "76D23617707BA489"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2DD22379BFD0464C"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "356C77752AE2F24B"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:draco_arcanus_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["适合玩家枪械穿的高级盔甲。"]
-			id: "6444AE24CF2908AF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2BEA6A1625A35A6D"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「枪手」"
-			tasks: [
-				{
-					id: "06C3C13F097155C9"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2880FAF9A3CEE8D5"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "589228918642518B"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "51370F531394AD38"
-					item: {
-						Count: 1
-						id: "forbidden_arcanus:tyr_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 2.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["除了属于神属性、勇者类型伤害外，平平无奇。"]
-			id: "7151E49FC0D562C2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "650FE9CF1DBFFE91"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "64E0F399588EE039"
-				item: "cataclysm:gauntlet_of_bulwark"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"可以使大多数末影生物失去瞬移能力，包括末影处刑者等模组生物。"
-				""
-				"&6配合四叶草等额外获得掉落物的饰品，可以额外获得更多的掉落物。"
-			]
-			id: "1C9F43B20F5C1D71"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "614D1599C5E29134"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "6DED382ECF368E14"
-				item: {
-					Count: 1
-					id: "enigmaticlegacy:ender_slayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"适合玩家弓兵穿的初级盔甲。"
-				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
-			]
-			id: "718A1A629B44EDB8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09716D6B25F6BD91"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「弓兵」"
-			tasks: [
-				{
-					id: "1C78C92A928F9CB0"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1B60BA66CD336B22"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "53C0771D4806A406"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2FA84EEB8B04DE4F"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"适合玩家法师穿的初级盔甲。"
-				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
-			]
-			id: "29FF1E2315E7FD48"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C5B49A01E41AC8B"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「法师」"
-			tasks: [
-				{
-					id: "7BDC1D1258BF5A53"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:pumpkin_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "04F9BF5775F51D87"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:pumpkin_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1251905385E7D89D"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:pumpkin_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3072EE4DFAB8D123"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:pumpkin_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"适合玩家枪械穿的初级盔甲。"
-				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
-			]
-			id: "0BF7F4A65356B862"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F66BC44493B135A"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「枪手」"
-			tasks: [
-				{
-					id: "6B1C23BD737E43FC"
-					item: {
-						Count: 1
-						id: "stalwart_dungeons:tungsten_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4E7618E97BF8E773"
-					item: {
-						Count: 1
-						id: "stalwart_dungeons:tungsten_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0B919A7697218E33"
-					item: {
-						Count: 1
-						id: "stalwart_dungeons:tungsten_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6A83D5097116E992"
-					item: {
-						Count: 1
-						id: "stalwart_dungeons:tungsten_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: [
-				"若拥有抢夺附魔，则等级加2；双持2把新硎古刀时伤害增加60%，增加的伤害上限为4点。"
-				""
-				"&6若开启超凡模式，则抢夺附魔的等级改为加4，攻击伤害提高2点，双持时增加的60%伤害无上限。"
-				""
-				"&e该武器可上的附魔与农夫乐事的小刀类似，可上背刺。"
-				""
-				"&c锈蚀古刀、新硎古刀可直接附魔属性附加。"
-				""
-				"&3可用探险家指南针搜索“Ruins With Cherry Tree”找到生生不息的樱花树。"
-			]
-			id: "76D116B251BD7042"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7AF0FB141DEB534F"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				count: 2L
-				id: "24F71157298043A6"
-				item: {
-					Count: 1
-					id: "immortalers_delight:ancient_blade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["&c更多相关内容可见狂人章节任务。"]
-			id: "56265A02F2881D49"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79D715074CE06CEE"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「战士」"
-			tasks: [{
-				id: "3CB37CD87776ABE7"
-				item: {
-					Count: 1
-					id: "refined_mod:flame_tongue_sword"
-					tag: {
-						Damage: 0
-						ISB_Spells: {
-							data: [{
-								id: "irons_spellbooks:flaming_strike"
-								index: 0
-								level: 3
-								locked: 1b
-							}]
-							maxSpells: 1
-							mustEquip: 0b
-							spellWheel: 1b
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -1907,7 +426,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「弓兵」"
+			subtitle: "「易伤」"
 			tasks: [{
 				count: 24L
 				id: "36552F5B5C95560A"
@@ -1926,52 +445,459 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
 			description: [
-				"灵灾模组的特殊镰刀左击攻击享受大部分近战加成，属于特殊攻击，不会触发反射、部分生物抢夺近战武器。"
+				"任务奖励有几率获得。"
 				""
-				"&c无法享受过量治疗效果。会被抑制减伤。"
-				""
-				"&e缚灵附魔和魔斯场强，都能给予镰刀破适应的能力，只包括镰刀的左击攻击，不包括右击回旋。"
+				"&6新增在额外地牢的灵魂监狱内有几率发现渡鸦斗篷和灵液滴。灵魂监狱详见树海化章节的额外地牢任务。"
 			]
-			id: "2D0DD7DE18241598"
+			id: "6AF99F740967B329"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "794EA773F45A85D7"
+				id: "4C4F4D0200CE12DA"
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「战士」"
+			subtitle: "「飞行」"
 			tasks: [{
-				id: "07795C6D2049A901"
+				id: "37CDBF6601DF8E12"
+				item: "eidolon:raven_cloak"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["上述可变式羽翼可通过任务抽奖获得，需穿戴在胸甲栏位才能生效。"]
+			id: "0AA29E57D098E34A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07927A77ED2D3223"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「飞行」"
+			tasks: [
+				{
+					id: "1D3C985D075ACA57"
+					item: {
+						Count: 1
+						id: "locusazzurro_icaruswings:ikaros_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0678224870DA2B25"
+					item: {
+						Count: 1
+						id: "locusazzurro_icaruswings:astraea_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E5A963F4734046A"
+					item: {
+						Count: 1
+						id: "locusazzurro_icaruswings:hiyori_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60849457A64CF8AB"
+					item: {
+						Count: 1
+						id: "locusazzurro_icaruswings:melan_wings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: [
+				"野外会有几率找到。也可以制作。"
+				""
+				"&e你知道吗？玩家可以利用指路石来传送用拴绳拴住的动物，需要消耗额外的经验，且需要距离指路石较近。"
+				""
+				"&6你知道吗？指路石里的传送位点，在右边有上下箭头可以挪动位置，按住Shift左击会直接到最前或最后。"
+				""
+				"&c指路石现在可以在古遗天境、遥远世界、幽匿暗域、极尽深渊等维度生成。"
+				""
+				"&3现在允许指路石在放置或者改名时开启是否“设为全局”，若设为全局，则任意玩家（即使未碰触）都可传送到该指路石处。"
+			]
+			id: "3E6E93D1AEE6D9AA"
+			rewards: [{
+				id: "1154B9E97CAD4454"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「传送」"
+			tasks: [{
+				id: "75CC1229F0075D63"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "0DF49ED8A79449DA"
+			rewards: [{
+				id: "435824C6CA55C70A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「传送」"
+			tasks: [
+				{
+					id: "323099053C8DA715"
+					item: "celestial_artifacts:repent_mirror"
+					type: "item"
+				}
+				{
+					id: "171869D98F742259"
+					item: "celestial_artifacts:backtrack_mirror"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "66D60A97EADA8FFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "763BE51259F14BAC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「飞行」"
+			tasks: [{
+				id: "1FB1A48FB7423792"
+				item: "celestial_artifacts:flight_ring"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "58F26E896A3CA718"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DF37B7B0CBD9495"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「飞行」"
+			tasks: [{
+				id: "0A0A594AC835F696"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["需放在主手或副手才能生效。"]
+			id: "358B59F8895CD428"
+			rewards: [{
+				id: "736ED25118CF1C7D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「防火」"
+			tasks: [{
+				id: "62E7310464E15BF1"
+				item: "reliquary:salamander_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["装备在饰品栏后，可用于防止骸龙抢走你的手持物品。"]
+			id: "75073F4AB512CB93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70B768E99B7D3FFD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "4C27B610A7F7374B"
+				item: "cataclysm:sticky_gloves"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["在主手是单手武器时，在副手可以加成15%会心。要区分有些武器是双手，则吃不到加成。在进度在船长幽灵前后可以制作。"]
+			id: "4CBB7C8505C747F5"
+			rewards: [{
+				id: "15C89B259B7A86F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "72B8F0580D4344AB"
 				item: {
 					Count: 1
-					id: "malum:soul_stained_steel_scythe"
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["考古可以获得其下级产物，在工匠作坊合成。本质是降低点击延迟（类似于简易连点器），在献祭、召唤幻翼等连点操作时可以用。"]
+			id: "119E80070C9FF385"
+			rewards: [{
+				id: "1A9265B4C8356C82"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "41B473FB9894A2BE"
+				item: "confluence:hand_of_creation"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: [
+				"各种建筑手杖可同时放置多个方块，还有升级版。自行在JEI搜索“@wand”。"
+				""
+				"&6特性：主手持手杖，副手空手时，对着已放下的方块按住Ctrl+Shift+右键可撤回用该建筑手杖所放下的方块，以此来回刷特定的PMMO技能经验。"
+				""
+				"&e额外用法：与核心合成后，对着空气按Ctrl+Shift+右击可打开配置界面，对着空气按Shift+左击可切换核心功能。"
+				""
+				"&3无尽手杖加破坏核心可以快速破坏同类方块，找稀有矿物时好用；同时手杖可以快速布置水椰，就不需要一个一个右键收了。"
+			]
+			id: "325F3F7260BC71E3"
+			rewards: [{
+				id: "3B33EBE82F97393D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "5BBA7C06D47210B5"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: [
+				"玩家可以用刷子刷扫方块。对任何方块使用刷子时，刷子会被平放并左右往复移动，并在目标方块上产生向左抛射的对应方块破坏粒子。如果对可疑的方块使用刷子，可疑的方块将会在一段时间之后变为沙子或沙砾，若为自然生成还会掉落一样其他物品。"
+				""
+				"可疑的沙子/沙砾是可供考古的方块。可疑的沙子会在沙漠神殿内部的地窖、沙漠水井底部或热带海底废墟中自然生成。可疑的沙砾会在古迹废墟或寒带海底废墟中自然生成。"
+				""
+				"&6考古可获得的物品此整合包有优化，详见相关任务。"
+				""
+				"&c新增以下物品可右击沙子或沙砾将其转变为不同的可疑方块：陈旧骨头、冰封骨头、骷髅狗头人之骨、刺骨、海船墓地之回响、骨头、腐肉、烈焰粉、腐枯物质、远古硬币、远古纤维、千古乐事的作物、绿茶叶、破碎的维度意志、神秘水晶粉末。"
+				""
+				"&e附魔：效率附魔可以刷扫更快。时运附魔有几率使被扫刷的可疑方块在扫刷出战利品后不会变为其对应的原本方块。"
+				"{@pagebreak}"
+				"以下为主要的可转化的考古列表（部分需远古甲虫）："
+				""
+				"&6陈旧骨头&r：暴食的赞赏、复苏之叶、蜂蜜瓶、蜂蜜块、莫里斯的脑子、蜂蜜苹果。"
+				""
+				"&6冰封骨头&r：远古细菌、远古凿子、各种纹样陶片、远古硬币、幸运围巾、烈火手套、远古真菌、挖掘爪、钓鱼佬帽、嗅探兽蛋、大地之心。"
+				""
+				"&6骷髅狗头人之骨&r：沙漠之眼、各种纹样陶片。"
+				""
+				"&6刺骨&r：远古病毒、瓶子草英果、禁书碎片、远古凿子、各种纹样陶片、各种陶器碎片、各种装饰用锻造模版、防爆服、苦力怕的知能、牢固鞋钉、云朵瓶、雪地鞋、生长之靴、烈焰吊坠、荆棘吊坠、整蛊坐垫、音乐唱片、大地之心。"
+				""
+				"&6远古纤维&r：千古乐事模组的食物、丘比娃娃。"
+				""
+				"&6嗅探兽毛和千古作物的种子&r：千古乐事模组的种子。"
+				""
+				"&6海船墓地之回响&r：铅球、牛黄、手钻、维生素、手电筒、快走时钟、能量棒、三折地图、蒙眼布、圣水。"
+				""
+				"&6骨头、腐肉&r：嗅探兽蛋、木炭、绿宝石、羽毛、空法术聚晶、亚麻籽、神秘吊坠、邪恶水晶碎片、石化经验球。"
+				""
+				"&6烈焰粉&r：岩浆晶球、岩浆核心、熔火核心、岩浆膏、岩浆石、沙拉曼达之眼。"
+				""
+				"&6腐枯物质&r：凋零枯骨、腐化粉末、幻灵碎晶、紫菀岩和神圣石、凋零玫瑰。"
+				""
+				"&6远古硬币&r：远古硬币、利刃纹样陶片、锈蚀古刀、古代口粮包。"
+				""
+				"&6绿茶叶、绿妖茶叶&r：手机和创造之手的原材料。"
+				""
+				"&6神秘水晶粉末&r：各种晶球（可天华砧锻打）。"
+				""
+				"&6幻昙花、干燥的曼德拉花&r：妖怪归家模组的食物、丘比娃娃。"
+			]
+			id: "5A94A0E65B644BB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2056FE6078ECF943"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "需注意有两页任务介绍"
+			tasks: [{
+				id: "34CE8660EDB67961"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["魂染钢镰刀的进阶版。"]
-			id: "27C19AC58E248842"
+			description: [
+				"可以将一定范围内的所有实体（包括生物等），吸引到玩家周围旋转。"
+				""
+				"&6&6也许对付某些生物比较有用，但也许没用。"
+			]
+			id: "5FC186DE2796E5F3"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "7CC33D711459F4E8"
+				id: "352137E839170E43"
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「战士」"
 			tasks: [{
-				id: "6C042B35084A2E69"
+				id: "2B49503896071870"
+				item: "nameless_trinkets:what_magnet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "4D0467B13F519C02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "020F84C34D25A2DC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "7DFDA961A72804E9"
+				item: "nameless_trinkets:super_magnet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "674854C59C9CD3E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E491585FEF16816"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "7DE6A3D54CC2E57D"
+				item: "nameless_trinkets:broken_magnet"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "71628CB7DF2F794D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "357A69EC61DED0AD"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6FDD5503612B183E"
+				item: "goety:entangling_focus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: [
+				"辅助类聚晶，瞬时对8格半径内所有非友方目标施加4秒虚弱1级和侵蚀5级。"
+				""
+				"持有任意附魔时，该法术的灵魂能量消耗 *2（拥有更多种类 / 更高等级附魔不会进一步叠加消耗）。"
+				"·强效（每级）：两种效果等级均 +1；"
+				"·持久（每级）：两种效果持续时间均 +1 秒；"
+				"·半径（每级）：两种效果作用半径 +1 格。"
+			]
+			id: "732381F18ADFFA24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A8106770A86CEF8"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3572AF77045D21FE"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -1982,53 +908,1029 @@
 							elementalcombat_defense: { }
 						}
 					}
-					id: "malum:edge_of_deliverance"
+					id: "goety:weakening_focus"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "40469FD4214CA8CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D5DA632F139A528"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0379A759F89F0AA0"
+				item: "meetyourfight:passages_toll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "4DCA74235D28B112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58D73201EE42FC73"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4AB2E3D06D9C77E7"
+				item: "immortalers_delight:clear_water_vodka"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "0E6DB84689C1129D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F55713C64EF2B68"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36F08EC0843DDBEA"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_scythe"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "46779A8E7133AB36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2823573950ABDC39"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CC1025777DAFB57"
+				item: "nameless_trinkets:creeper_sense"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "6F0B3782146D9C02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0795E5A186578E20"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F04FA43B1CBE325"
+				item: "nameless_trinkets:explosion_proof_jacket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "329C1C37753E777B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "495C2185CE077749"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "156FD743C2C8E6AB"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "0412504E34CEE0F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50926EAC712CDE99"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7032FCB09F4979D2"
+				item: "yuusha:qb"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "733326E4E335A315"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "194B377607B290E4"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B7C3F5CDDA5B9A5"
+				item: "goety_revelation:dimensional_will"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
 			description: [
-				"右键持续发射魔法匕首，最长持续使用5秒便进入冷却。"
+				"刷怪笼可制作，但制作出来的无法刷怪，需要放入刷怪蛋才能刷怪。此外，利用[精准采集]可挖掘获得野外有怪物的[刷怪笼]。"
 				""
-				"&6匕首能帮助捡起附近的掉落物；幸运值会提高匕首的伤害（0.8点基础伤害/幸运值）。"
+				"&6[神化]模组提供了修改刷怪笼属性的方法，可以更方便地去刷怪。持对应物品右击刷怪笼即可调节属性，对着JEI里的刷怪笼按R键可查看调节刷怪笼的材料。"
 				""
-				"&e同时携带魔法石英戒指：发射频率与速度有所提升。"
-				""
-				"&c同时携带魔法石英花：权杖冷却缩短。"
-				""
-				"&3在使用魔法石英权杖期间，使用铁魔法法术、切换物品可以刷新魔法石英权杖的发射时间。"
-				""
-				"&2双刃剑5级可通过附魔台或者宝箱获得。背刺10级附魔可制作获得。"
+				"&c部分建筑结构的刷怪笼并不是原版或神化的刷怪笼，不能拿来进行神化改造，也无法精准采集获得。"
 			]
-			id: "77CEFFAA48F01267"
+			id: "77E4CF9A92B37E3B"
 			rewards: [{
-				id: "3664B99B9884B95D"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "0CE1CC4815CF573A"
+				table_id: 2805430797220875844L
+				type: "random"
 			}]
-			subtitle: "「弓兵」"
 			tasks: [{
-				id: "0CBA8C3D1C569C6F"
+				id: "17A137DCF61C3601"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "5C9CE306B689168F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106255120383B37B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2AAD0E03F81355E6"
 				item: {
 					Count: 1
-					id: "enigmaticaddons:quartz_scepter"
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "eidolon:angels_sight"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			id: "24A8B632B38A1091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788D01E4187B603B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "636CB68ADC1AB46C"
+				item: "grimoireofgaia:book_of_memory"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["可加快大部分物品的使用速度。"]
+			id: "2B83F7B145CE5A3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D0F3374982928AA"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18D3202A3FE63117"
+				item: "celestial_artifacts:spirit_bracelet"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: [
+				"宝藏袋可开出具有会心属性铁质盔甲（属性最大值分别为10%、10%、10%、8%），适合制作更为高级的弓兵盔甲。"
+				""
+				"&6弓兵盔甲详见宝具章节任务。"
+				""
+				"&2会心属性：会心几率最高100%，触发会心时，玩家全伤害×2倍。虽然属性面板显示玩家基础会心为0，但实际只要在乘法乘区或独立乘区有加成即可。"
+				""
+				"&e穿透属性：玩家的穿透属性限制为0，没有效果。"
+				""
+				"&c需注意该套盔甲，如果用锻造台等能继承NBT的合成方式，则合成后的盔甲自身属性会消失，例如法师套的法力值等属性。"
+			]
+			id: "199421AD25F56B0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AF03B05D5CDBDB"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6CEC045596C4A8B7"
+					item: "aquamirae:pirate_pouch"
+					type: "item"
+				}
+				{
+					id: "4DBAFADD2A973212"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4965B04DF5CDBB05"]
+			description: [
+				"驯服下列所有品种的猫（共11种）：虎斑猫、西服猫、红虎斑猫、暹罗猫、英国短毛猫、花猫、波斯猫、布偶猫、白猫、Jellie、黑猫。"
+				""
+				"&6如有其他种类的猫可以正常驯服，进度会将其忽略。"
+			]
+			id: "34943D4163880F73"
+			rewards: [
+				{
+					id: "50976FC52C9DE35A"
+					item: "artifacts:kitty_slippers"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2AD7C6D93AEA4519"
+					item: "goety:feline_amulet"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20591752270868AB"
+					item: "confluence:pink_horseshoe_balloon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "75C917C7CA83CEBA"
+					item: "artifacts:anglers_hat"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7CB9839E3A54E1D6"
+					item: "confluence:fish_finder"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7896BFCFF00AB4BF"
+					item: {
+						Count: 1
+						id: "majruszsaccessories:angler_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: 1.0f
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "4C05933394748853"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0E4314F30B1EE0FB"]
+			description: [
+				"在钓鱼时有几率给钓竿增加狂热垂钓附魔和提升等级。部分宝箱内也有几率出现狂热垂钓附魔。"
+				""
+				"&6狂热垂钓：有几率在钓鱼时获得额外的战利品，在下雨几率提升。此附魔可以通过使用一个钓鱼竿多次钓鱼而自然获得与提高其附魔等级，达到最大等级8级时显示为钓鱼爱好者，并获得该成就。"
+				""
+				"&c优化：在下雨时，该附魔升级几率提升至默认10倍。"
+				""
+				"&e该成就必须从钓竿没有狂热垂钓附魔开始完成。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 10s
+						}
+						{
+							id: "minecraft:fortune"
+							lvl: 5s
+						}
+					]
+				}
+			}
+			id: "6C1E4E580B8D70A7"
+			rewards: [{
+				id: "106928BD9D973693"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "majruszsenchantments:fishing_fanatic_true"
+				criterion: ""
+				id: "3E5B4CF73FF86CF7"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F57A7E5CE4CF56E"]
+			description: ["该进度需将下列锻造模板都至少使用一次：尖塔、猪鼻、肋骨、监守、幽静、恼鬼、潮汐、向导。"]
+			id: "0109206BA7BE5F50"
+			rewards: [{
+				id: "6F463AD57C48A183"
+				item: "ancientreforging:ancient_reforging_table"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+				criterion: ""
+				id: "439E29E5E60511CD"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B570D069D5D2533"]
+			description: [
+				"利用嗅探兽可获得千古乐事模组的所有作物。"
+				""
+				"&6上述任一物品（除黄金颅）均可右击沙子转化为特定的可疑沙子，可以考古出以上作物的种子。"
+				""
+				"&e黄金颅可通过天华砧获得。"
+			]
+			icon: "yuusha:gold_skull"
+			id: "44FAA5CA0E818BDC"
+			rewards: [{
+				id: "6B3621FEEE27FF64"
+				item: "celestial_artifacts:heart_of_revenge"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0C5019903ABA8C2E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:sniffer_fur"
+					}
+					type: "item"
+				}
+				{
+					id: "3899B84C91F661D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:evolutcorn"
+					}
+					type: "item"
+				}
+				{
+					id: "489744087798369C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:pearlip"
+					}
+					type: "item"
+				}
+				{
+					id: "6D1D993BEE5605A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:contains_tea_leisamboo"
+					}
+					type: "item"
+				}
+				{
+					id: "5E4C6F5EC2BC3186"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:himekaido"
+					}
+					type: "item"
+				}
+				{
+					id: "3FBDF63C2B102D95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:alfalfa"
+					}
+					type: "item"
+				}
+				{
+					id: "791D9730CDB4C4AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: {
+									"minecraft:base": {
+										element: "normal"
+										style: "hit"
+									}
+									"minecraft:enchantment": {
+										element: "normal"
+										style: "hit"
+									}
+								}
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:kwat_wheat"
+					}
+					type: "item"
+				}
+				{
+					id: "721D35E326209E1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
+						}
+						id: "immortalers_delight:warped_laurel"
+					}
+					type: "item"
+				}
+				{
+					id: "522FE127E714CB6A"
+					item: "immortalers_delight:travarice"
+					type: "item"
+				}
+				{
+					id: "0CFBF4893DC0CE3A"
+					item: "yuusha:gold_skull"
+					type: "item"
+				}
+			]
+			title: "&e进度: 千古之忆"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B60D4C76D6FCE26"]
+			description: ["该进度需收集除了黄昏死神、死灵烈焰弓以外的所有琳琅满弓模组的弓。"]
+			id: "4DC7DC3A44E968A1"
+			rewards: [{
+				id: "012420CC173DC088"
+				item: {
+					Count: 1
+					id: "goety_revelation:bow_of_revelation"
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "too_many_bows:master_bow_collector"
+				criterion: ""
+				id: "1754EB4D3E5B113C"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: ["女仆的好感度达到1级，即可获得奖励。"]
+			id: "35A7661B21E17203"
+			rewards: [{
+				id: "495B86F029F4AF9B"
+				item: "celestial_artifacts:cursed_talisman"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "touhou_little_maid:favorability/favorability_increased"
+				criterion: ""
+				id: "064BAD21C4D0A366"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"钓到下界岩浆里的11种鱼类，可获得奖励。"
+				""
+				"&6该成就具体可按默认L键查看进度。"
+			]
+			id: "6275A01085C7535F"
+			rewards: [{
+				id: "435BBE32A9D395CB"
+				item: "celestial_artifacts:corrupt_badge"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "netherdepthsupgrade:main/lava_fishing_master"
+				criterion: ""
+				id: "3D5692F59EDE38D5"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42414683631FD44D"]
+			description: [
+				"饕餮之锅已受到绝望的侵袭。"
+				""
+				"&3该成就具体可按默认L键查看进度-农夫乐事栏。"
+				""
+				"&c只需要进食农夫乐事模组的菜肴即可，不用所有模组。"
+				""
+				"&6该成就需进食以下食物：盘装牧羊人派，蔬菜杂烩，混合沙拉，牛排配土豆，鸡肉汤，南瓜汤，蘑菇饭，米饭，面条汤，大骨汤，碗装填馅南瓜，牛肉炖，烘焙鳕鱼炖，盘装烤鸡，蔬菜汤，盘装蜜汁火腿，烤羊排，香烤鲑鱼，鱿鱼墨面，肉丸意面，蔬菜面，鱼肉炖，培根鸡蛋，羊排意面，炒饭。"
+			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:eldritch_pan"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E668522A0E11DC6"
+			rewards: [{
+				id: "5A3C7D078FEB8467"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "6FB142914028BC0D"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["726A05657769A4E6"]
+			description: [
+				"灵梦的大蝴蝶结获取：投喂「灵梦」以妖怪的归家内所有正常食物后，会得到进度——满足的灵梦，并得到灵梦的大蝴蝶结。可在进度中查看投喂的完成度。"
+				""
+				"&6新增获取：完成此任务的幻想乡美食家进度，可以获得该模组灵梦的大蝴蝶结等装备，上述装备需穿戴在头盔处。该进度需要你进食妖怪的归家模组内所有的食物。"
+				""
+				"&c此外，灵梦的大蝴蝶结也能通过击杀妖怪归家模组的Boss获得材料，然后制作获得。"
+				""
+				"&e该成就具体可按默认L键查看成就进度。"
+				""
+				"&3需要先获得妖怪化效果，才会在成就栏里出现投喂灵梦的成就进度。"
+			]
+			icon: {
+				Count: 1
+				id: "youkaishomecoming:reimu_hairband"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "722E79B3E52CAD3A"
+			rewards: [
+				{
+					id: "54572367838A35B0"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:reimu_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "50307042DF4EF77C"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:suwako_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F000F81D5C6199C"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:koishi_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "21D6953E1BA14A04"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:cirno_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "76782D2437C782AB"
+					item: {
+						Count: 1
+						id: "youkaishomecoming:rumia_hairband"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "youkaishomecoming:main/enthusiastic"
+				criterion: ""
+				id: "4EC111D702F9BA17"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3AE222F25C500418"]
+			description: ["该进度需繁殖出下列所有生物（共24种）：美西螈、蜜蜂、骆驼、猫、鸡、牛、驴、狐狸、青蛙、山羊、疣猪兽、马、羊驼、哞菇、骡、豹猫、熊猫、猪、兔子、绵羊、嗅探兽、炽足兽、海龟、狼。"]
+			id: "136834475D0096C3"
+			rewards: [
+				{
+					count: 2
+					id: "514569DB43AC9B4A"
+					item: "xtraarrows:cupids_arrow"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22CB8BD045C9FBE2"
+					item: "xtraarrows:cupids_arrow"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "1F876B9AB25D5EBD"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["151E2F186E5DF4E1"]
+			description: [
+				"此成就需探索主世界所有原版的生物群系。"
+				""
+				"&6此任务奖励一个团队只能有一个奖励。"
+			]
+			id: "53D6480C5BF7D588"
+			rewards: [{
+				id: "165A0124BB1A78B0"
+				item: "goety_revelation:dimensional_will"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "5000001909190A00"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B849CE01A29C6FE"]
+			description: [
+				"该成就需探索古代天境的每一种生物群系。"
+				""
+				"&6包括以下生物群系：升云洞穴、天境樱花丛林、冰霜洞穴、温风山脉、升云空地、天空湖泊、日之森林、温风高地、天根丛林、节日温风针叶林、温风针叶林、圣石洞穴、升云森林、天根森林、天根木林、天根草甸、天根林地。"
+			]
+			id: "67BFDF12F7A0FBE9"
+			rewards: [{
+				id: "4C541F05D500A1A0"
+				item: "chapter_of_yuusha_3_core:life_limiter"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "ancient_aether:aether_biomes"
+				criterion: ""
+				id: "3C9358BE9588EDC9"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F22B35D8B3C3EE1"]
+			description: [
+				"该进度需在你的物品栏中集齐所有种类的蛙明灯。"
+				""
+				"&6青蛙吞食小型岩浆怪后会掉落一个蛙明灯，其颜色取决于该青蛙的种类：热带-珠光，温带-赭黄，寒带-青翠。"
+			]
+			id: "2A5CF5E9E1BB0216"
+			rewards: [{
+				id: "0CB9218A1C500FB2"
+				item: "goety_revelation:broken_halo"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:husbandry/froglights"
+				criterion: ""
+				id: "6BF37137A25AF8AB"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["257028CB350CC18F"]
+			description: [
+				"它蔓延了：在幽匿催发体半径8格内杀死一个能掉落经验的生物。"
+				""
+				"正中靶心：在玩家与标靶的水平距离超过30米时，玩家发射出的弹射物击中标靶的中心。"
+			]
+			icon: "minecraft:sculk_catalyst"
+			id: "441E3544904B00C5"
+			rewards: [{
+				id: "6E7829D13C8D1C3D"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:mystical_dagger"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.0d
+			tasks: [
+				{
+					advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+					criterion: ""
+					id: "22E2EAD460B19BD0"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/bullseye"
+					criterion: ""
+					id: "43629538B5F85E0C"
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5EB8C2CECAAE6FCA"]
+			description: [
+				"生日快乐歌：让悦灵向音符盒投掷一块蛋糕。"
+				""
+				"画船添足：拿着诡异菌钓竿骑乘炽足兽时，按下使用键对其加速且消耗了诡异菌钓竿的耐久度。"
+			]
+			icon: "minecraft:note_block"
+			id: "0863245256F3B81C"
+			rewards: [
+				{
+					count: 81
+					id: "5896A5B72066128C"
+					item: "forbidden_arcanus:arcane_bone_meal"
+					type: "item"
+				}
+				{
+					id: "1E9647D2F984704D"
+					item: "forbidden_arcanus:golden_orchid_seeds"
+					type: "item"
+				}
+				{
+					id: "5DD5640BBC15EBE6"
+					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+				{
+					id: "21136B1D4FE90D30"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/allay_deliver_cake_to_note_block"
+					criterion: ""
+					id: "69DDA78C413BB40E"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/ride_strider"
+					criterion: ""
+					id: "1AFF313E27D79FA9"
+					type: "advancement"
+				}
+			]
+			x: 6.5d
+			y: 5.5d
 		}
 	]
-	subtitle: ["&9『装备』"]
+	subtitle: ["&9『器具』"]
 	title: "&6※ 宝具"
 }

@@ -25,6 +25,7 @@
     }
   ],
   "result": {
-    "item": "goety:black_iron_helmet"
+    "item": "goety:black_iron_helmet",
+    "keepingNBT" : true
   }
 }

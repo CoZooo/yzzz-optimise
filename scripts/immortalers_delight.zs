@@ -29,6 +29,7 @@ campfire.addRecipe("immortalers_delight.cooked_sniffer_slice", <item:immortalers
 <tag:items:forge:vegetables>.remove(<item:immortalers_delight:evolutcorn>);
 
 //
+<item:immortalers_delight:clear_water_vodka>.addTooltip("\u00A7e只能通过考古远古纤维转化的可疑沙子可获得");
 <item:immortalers_delight:sealed_ancient_rations>.addTooltip("\u00A7e考古生生不息的樱花树遗迹可疑沙砾或沙子可获得");
 <item:immortalers_delight:raw_sniffer_steak>.addTooltip("\u00A7c新增可在星河贸易站交易获得");
 <item:immortalers_delight:enchantal_cooler>.addTooltip("\u00A73需放入青金石充能");
@@ -65,9 +66,9 @@ campfire.addRecipe("immortalers_delight.cooked_sniffer_slice", <item:immortalers
 <item:immortalers_delight:rusty_ancient_blade>.anyDamage().addTooltip("\u00A7e有几率出现在生生不息的樱花树遗迹的箱子和木桶里");
 <item:immortalers_delight:rusty_ancient_blade>.anyDamage().addTooltip("\u00A76刷子考古该遗迹中可疑方块也有几率获得，远古硬币可转化可疑方块");
 <item:immortalers_delight:rusty_ancient_blade>.anyDamage().addTooltip("\u00A7c对着炼狱锻炉Shift右击有几率回收为远古硬币");
-<item:immortalers_delight:rusty_ancient_blade>.anyDamage().addTooltip("\u00A73相关内容详见宝具章节新硎古刀任务");
+<item:immortalers_delight:rusty_ancient_blade>.anyDamage().addTooltip("\u00A73相关内容详见狂人章节新硎古刀任务");
 <item:immortalers_delight:ancient_blade>.anyDamage().addTooltip("\u00A7c若开启超凡模式，双持时增加的60%伤害无上限，否则上限为4点");
-<item:immortalers_delight:ancient_blade>.anyDamage().addTooltip("\u00A76相关信息详见宝具章节新硎古刀任务");
+<item:immortalers_delight:ancient_blade>.anyDamage().addTooltip("\u00A76相关信息详见狂人章节新硎古刀任务");
 <item:immortalers_delight:ancient_blade>.anyDamage().addTooltip("\u00A7e超凡模式详见好好吃章节魔凝机任务");
 <item:immortalers_delight:purgatory_ale>.addTooltip("\u00A7e洪荒之力会基于力量效果等级和洪荒之力效果等级提升伤害");
 <item:immortalers_delight:purgatory_ale>.addTooltip("\u00A7c超凡模式下饮用且力量效果大于3级时可获得3.8倍全伤害独立加伤");

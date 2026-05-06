@@ -12,12 +12,14 @@
 <item:touhou_little_maid:owner_conversion_tool>.addTooltip("\u00A7c右击女仆可将其主人强制转移为自己");
 
 <item:touhou_little_maid:fairy_spawn_egg>.addTooltip("\u00A76樱花碎片可对着炼狱锻炉中心Shift右击几率回收为妖精女仆刷怪蛋");
+<item:touhou_little_maid:fairy_spawn_egg>.addTooltip("\u00A7c妖精女仆不再掉落P点");
 <item:touhou_little_maid:shrine>.addTooltip("\u00A7c有较低几率在战利品箱中发现");
 <item:touhou_little_maid:shrine>.addTooltip("\u00A7e能够通过消耗玩家血量来复活胶片中的女仆");
 
 <item:touhou_little_maid:power_point>.addTooltip("\u00A7c新增击杀女仆妖精必定获得");
 <item:touhou_little_maid:power_point>.addTooltip("\u00A76在世界各处的宝箱内也有几率获得");
 
+<item:touhou_little_maid_spell:sliver_cercis>.addTooltip("\u00A76已被禁止，无法使用");
 <item:touhou_little_maid_spell:wind_seeking_bell>.addTooltip("\u00A7c隐世之境已被禁止生成，无法使用");
 <item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A7e谨慎使用！会导致女仆击杀部分生物无掉落");
 <item:touhou_little_maid_spell:chaos_book>.addTooltip("\u00A76谨慎使用！可能会导致女仆部分武器伤害下降（例如枪械等）");

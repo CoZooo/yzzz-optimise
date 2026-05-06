@@ -2,16 +2,16 @@
 	"attack_style":"magic",
 	"attack_element":"earth",
 	"defense_style":{
-		"yuusha":75,
-		"magic":75,
-		"projectile":75,
-		"slash":75,
-		"hit":75,
-		"stab":75,
-		"bash":75,
-		"explosion":75,
-		"bite":75,
-		"environment":75
+		"yuusha":65,
+		"magic":65,
+		"projectile":65,
+		"slash":65,
+		"hit":65,
+		"stab":65,
+		"bash":65,
+		"explosion":65,
+		"bite":65,
+		"environment":65
 	},
 	"biome_dependency":false
 }

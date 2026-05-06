@@ -71,13 +71,14 @@ craftingTable.remove(<item:enigmaticaddons:violence_scroll>);
 //说明
 <item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A7e右击享受箭术技能、各种投射物等加成");
 <item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A7c若同时佩戴精灵手环，会无法发射魔法匕首");
-<item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A76更多信息详见宝具章节任务");
+<item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A76更多信息详见疾矢章节任务");
 <item:enigmaticaddons:totem_of_malice>.addTooltip("\u00A7e需在铁砧中用邪恶精髓修补后起效");
 <item:enigmaticaddons:bless_amplifier>.addTooltip("\u00A7c无法对星裂相位等部分附魔起效");
 <item:enigmaticaddons:evil_dagger>.anyDamage().addTooltip("\u00A7c谨慎使用，据说右击技能攻击某些生物会导致游戏崩溃");
 <item:enigmaticaddons:artificial_flower>.anyDamage().addTooltip("\u00A7e可向阿·普切神像献祭物品获得");
 <item:enigmaticaddons:artificial_flower>.anyDamage().addTooltip("\u00A7c也可击杀无名守卫者小几率获得");
 <item:enigmaticaddons:artificial_flower>.anyDamage().addTooltip("\u00A76相关内容详见死寂幻乡章节任务");
+<item:enigmaticaddons:artificial_flower>.anyDamage().addTooltip("\u00A75死亡后需重新进入存档才能生效");
 <item:enigmaticaddons:earth_promise>.addTooltip("\u00A7c需注意该饰品是以给予玩家短暂纯化抗性5级效果来免疫伤害");
 <item:enigmaticaddons:earth_promise>.addTooltip("\u00A7e配合双生花等饰品，可能会导致其它生物获得长时间的纯化抗性5级效果");
 <item:enigmaticaddons:ichor_droplet>.addTooltip("\u00A7c在佩戴无咒之戒或无赎之戒时击杀恶魂有几率特殊掉落");

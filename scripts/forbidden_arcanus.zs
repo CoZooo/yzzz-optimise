@@ -11,6 +11,7 @@ import mods.jeitweaker.Jei;
 <item:forbidden_arcanus:soul>.addTooltip("\u00A7c利用灵魂提取器可获得灵魂，之后可通过合成复制");
 <item:forbidden_arcanus:soul>.addTooltip("\u00A76相关内容详见下界炼狱章节任务");
 <item:forbidden_arcanus:soul>.addTooltip("\u00A7e可提供赫菲斯托斯锻炉1点灵魂值");
+<item:forbidden_arcanus:soul>.addTooltip("\u00A73用无铭刀「竹光」击杀也可获得");
 <item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7e可提供赫菲斯托斯锻炉500点灵魂值");
 //<item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7c利用灵魂提取器可击杀各种灵魂生物获得相应的灵魂");
 <item:forbidden_arcanus:spawner_scrap>.addTooltip("\u00A7c破坏刷怪笼可获得");
@@ -312,7 +313,8 @@ recipes.addJsonRecipe("forbidden_arcanus.dark_nether_star.prot",{
 <tag:items:minecraft:trimmable_armor>.add(<item:forbidden_arcanus:draco_arcanus_leggings>);
 <tag:items:minecraft:trimmable_armor>.add(<item:forbidden_arcanus:draco_arcanus_boots>);
 
-//锤
+//
+craftingTable.addShapeless("forbidden_arcanus.deorum_nugget.copy", <item:forbidden_arcanus:deorum_nugget>*3, [<item:forbidden_arcanus:deorum_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 
 
 

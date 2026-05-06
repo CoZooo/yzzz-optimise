@@ -11,6 +11,10 @@
     {
       "id": "minecraft:power",
       "lvl": 10
+    },
+    {
+      "id": "elementalcombat:wind_aspect",
+      "lvl": 1
     }
   ],
   "item": "slashblade:slashblade",

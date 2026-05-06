@@ -2,6 +2,10 @@
   "type": "malum:spirit_infusion",
   "extra_items": [
     {
+      "count": 32,
+      "item": "malum:twisted_rock"
+    },
+    {
       "count": 1,
       "item": "malum:malignant_lead"
     },
@@ -12,10 +16,6 @@
     {
       "count": 1,
       "item": "meetyourfight:phantoplasm"
-    },
-    {
-      "count": 32,
-      "item": "malum:twisted_rock"
     }
   ],
   "input": {
@@ -28,11 +28,19 @@
   "spirits": [
     {
       "type": "arcane",
-      "count": 16
+      "count": 32
     },
     {
       "type": "eldritch",
-      "count": 8
+      "count": 16
+    },
+    {
+      "type": "wicked",
+      "count": 16
+    },
+    {
+      "type": "aqueous",
+      "count": 16
     }
   ]
 }

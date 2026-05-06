@@ -59,7 +59,8 @@
     "malum:creative_scythe",
     "tacz:modern_kinetic_gun",
     "immortalers_delight:rusty_ancient_blade",
-    "immortalers_delight:ancient_blade"
+    "immortalers_delight:ancient_blade",
+    "$minecraft:crossbow"
   ],
   "incompatible": [
     "majruszsenchantments:incompatibility_curse",

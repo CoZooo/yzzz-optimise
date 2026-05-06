@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "enigmaticlegacy:earth_heart"
+  },
+  "craftType": "forge",
+  "soulCost": 500,
+  "duration": 5,
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "celestial_core:light_fragment"
+    },
+    {
+      "item": "celestial_core:light_fragment"
+    },
+    {
+      "item": "minecraft:skeleton_skull"
+    },
+    {
+      "item": "minecraft:skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:monster_charm"
+  }
+}

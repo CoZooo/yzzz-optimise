@@ -22,12 +22,6 @@
       "item": "minecraft:nether_star"
     },
     {
-      "item": "cataclysm:blessed_amethyst_crab_meat"
-    },
-    {
-      "item": "minecraft:echo_shard"
-    },
-    {
       "item": "bosses_of_mass_destruction:void_thorn"
     },
     {
@@ -38,12 +32,6 @@
     },
     {
       "item": "minecraft:nether_star"
-    },
-    {
-      "item": "cataclysm:blessed_amethyst_crab_meat"
-    },
-    {
-      "item": "minecraft:echo_shard"
     }
   ]
 }

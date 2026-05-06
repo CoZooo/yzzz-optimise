@@ -43,7 +43,7 @@
   "item.malice_die.tool.string.5": "+2.5% 攻击速度",
   "item.malice_die.tool.string.6": "+2% 护甲",
   "item.malice_die.tool.string.7": "+1.7% 近战必杀伤害",
-  "item.soulbattery.tool.string": "+25％ 近战必杀伤害",
+  "item.soulbattery.tool.string": "+25% 近战必杀伤害",
   "attribute.name.moonstone.cit": "近战必杀伤害",
   "attribute.name.moonstone.hurt": "受到伤害",
 
@@ -66,9 +66,9 @@
 
 	"moonstone.nightmare.name": "这个物品需同时佩戴「深渊之眼」饰品才能使用和生效",
 
-  "item.fermentation.tool.string": "玩家攻击时造成的单次伤害提升至原来的500％",
+  "item.fermentation.tool.string": "玩家攻击时造成的单次伤害提升至原来的500%",
   "item.fermentation.tool.string.1": "在造成伤害后会进入5秒冷却时间",
-  "item.fermentation.tool.string.2": "在冷却时间内，玩家全伤害降低至原来的15％",
+  "item.fermentation.tool.string.2": "在冷却时间内，玩家全伤害降低至原来的20%",
   "item.fermentation.tool.string.3": "· 病原体依然保有狩猎的本能，这使它们能耐心等待，并给予致命一击！",
 
 	"item.nightmare_head.tool.string.7": "可自由穿戴和脱下",
@@ -190,7 +190,7 @@
 	"item.nightmare_base_redemption_deception.tool.string.1": "并获得3秒的无敌和平息附近生物的怒火，冷却60秒",
 	"item.nightmare_base_stone_virus.tool.string.3": "受到任意伤害都会额外附加100%最大生命值的惩罚，不受任何加成影响",
 	"item.nightmareeye.tool.string": "可制作获得，可配合深渊遗物系列饰品提升属性",
-	"item.nightmareeye.tool.string.1": "佩戴后玩家受到伤害增加33％，原版基础属性和全伤害会降低25%",
+	"item.nightmareeye.tool.string.1": "佩戴后玩家受到伤害增加33%，原版基础属性和全伤害会降低25%",
 	"item.nine_sword_book.tool.string.all": "修炼到[剑帝][剑祖]级别后，属性增长降低22.5%",
 	"item.moonstone.twelve_sword":"诛神剑碑",
 	"item.nightmareeye.tool.string.2": "可自由穿戴和脱下",

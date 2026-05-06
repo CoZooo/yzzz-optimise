@@ -9,6 +9,7 @@
 <tag:items:diet:proteins>.add(<item:crabbersdelight:crab>);
 
 //
+<item:crabbersdelight:pufferfish_slice>.addTooltip("\u00A7c手持河豚片Shift右击炼狱锻炉可回收为河豚刷怪蛋");
 <item:crabbersdelight:crab_trap>.addTooltip("\u00A7e详见好好吃章节");
 <item:crabbersdelight:raw_frog_leg>.addTooltip("\u00A7c新增击杀溺尸有几率获得");
 <item:crabbersdelight:raw_squid_tentacles>.addTooltip("\u00A7c需用农夫乐事的刀击杀鱿鱼获得");

@@ -88,7 +88,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"现在无限附魔无需箭矢也能直接使用。"
+				"现在无限附魔无需箭矢也能直接使用。弓比较好用的附魔还有无限箭袋、力量、猎手等。"
 				""
 				"&e在前期还可制作猎手之弓等有用的弓。猎手之弓还可获得需要农夫乐事小刀击杀的产物。"
 				""
@@ -99,6 +99,7 @@
 				"&3现在营养值也会增加投射物伤害。详见树海化章节食物营养任务。"
 				""
 				"&5怪物会以射箭的玩家为优先攻击目标。"
+				"{@pagebreak}"
 			]
 			id: "6577BA563E6EF855"
 			rewards: [{
@@ -414,6 +415,15 @@
 		}
 		{
 			dependencies: ["6577BA563E6EF855"]
+			description: [
+				"基本设定：普通模式下无论是否击中生物，都会召唤箭雨从天而降助你打击怪物，但是准度很低。"
+				""
+				"&e特殊模式：按住Shift右击可切换为追踪模式。追踪模式时使用不消耗任何箭，自动产生蓝色的天堂箭，箭射出后可以在相邻的生物之间弹射，可弹射的次数随拉弓的蓄力时间增加，达到弹射次数上限后产生一次爆炸。"
+				""
+				"&6加强：射出的箭和箭雨的伤害已大幅度提升。"
+				""
+				"&c特性：天堂陨落长弓射出的箭会误伤到使用者。无法切换模式时可通过合成清除异常NBT。"
+			]
 			id: "6A2011E360DF2CEA"
 			rewards: [{
 				id: "68D0A7F3EEE0A63D"
@@ -455,79 +465,13 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["72581A4833C8E5CF"]
-			description: [
-				"宝藏袋可开出具有会心属性铁质盔甲（属性最大值分别为10%、10%、10%、8%），适合制作更为高级的弓兵盔甲。"
-				""
-				"&6弓兵盔甲详见宝具章节任务。"
-				""
-				"&2会心属性：会心几率最高100%，触发会心时，玩家全伤害×2倍。虽然属性面板显示玩家基础会心为0，但实际只要在乘法乘区或独立乘区有加成即可。"
-				""
-				"&e穿透属性：玩家的穿透属性限制为0，没有效果。"
-				""
-				"&c需注意该套盔甲，如果用锻造台等能继承NBT的合成方式，则合成后的盔甲自身属性会消失，例如法师套的法力值等属性。"
-			]
-			id: "199421AD25F56B0C"
-			rewards: [{
-				id: "12EEC2065679BE4E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "531026224A254F47"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "aquamirae:treasure_pouch"
-				}
-				type: "item"
-			}]
-			x: 1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["30110F82734B1943"]
-			id: "5C9CE306B689168F"
-			rewards: [{
-				id: "2D20BED75F35A7B7"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "2AAD0E03F81355E6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "eidolon:angels_sight"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
 			dependencies: ["59AC63668E05CCA5"]
 			description: [
 				"可搭配叠装弩箭、神射手、快速装填、无尽弩箭等附魔。"
 				""
-				"&6快速装填附魔可通过战利品、附魔台获得。叠装弩箭可通过战利品、附魔台、村民交易获得。无尽弩箭可通过附魔台、战利品获得。神射手可通过附魔台、制作获得。"
+				"&6快速装填附魔可通过战利品、附魔台获得。叠装弩箭可通过战利品、附魔台、村民交易获得。无尽弩箭可通过附魔台、战利品、制作获得。神射手可通过附魔台、制作获得。"
 				""
-				"&e除了弓以外，也可选择弩来进行通关。弩只有原版弩一把武器。"
+				"&e除了弓以外，也可选择弩来进行通关。弩只有原版弩一把武器。无尽弩箭也可射各种特殊箭矢。"
 			]
 			id: "004624B200B604AE"
 			rewards: [{
@@ -559,7 +503,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["5B7F7FC114E8B1FD"]
+			dependencies: ["7721B659F55DD983"]
 			description: [
 				"弓兵的饰品介绍，详见礼装章节“箭术+幸运类”，里面的“箭术类”基本涵盖弓兵的专署饰品。"
 				""
@@ -576,8 +520,8 @@
 				item: "celestial_artifacts:spirit_bracelet"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45EBFDDFBE5BB20E"]
@@ -643,230 +587,6 @@
 				}
 			]
 			x: -2.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["2B570D069D5D2533"]
-			description: [
-				"利用嗅探兽可获得千古乐事模组的所有作物。"
-				""
-				"&6上述任一物品（除黄金颅）均可右击沙子转化为特定的可疑沙子，可以考古出以上作物的种子。"
-				""
-				"&e黄金颅可通过天华砧获得。"
-			]
-			id: "44FAA5CA0E818BDC"
-			rewards: [{
-				id: "6B3621FEEE27FF64"
-				item: "celestial_artifacts:heart_of_revenge"
-				team_reward: true
-				type: "item"
-			}]
-			subtitle: "非必须路线"
-			tasks: [
-				{
-					id: "0C5019903ABA8C2E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:sniffer_fur"
-					}
-					type: "item"
-				}
-				{
-					id: "3899B84C91F661D4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:evolutcorn"
-					}
-					type: "item"
-				}
-				{
-					id: "489744087798369C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:pearlip"
-					}
-					type: "item"
-				}
-				{
-					id: "6D1D993BEE5605A1"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:contains_tea_leisamboo"
-					}
-					type: "item"
-				}
-				{
-					id: "5E4C6F5EC2BC3186"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:himekaido"
-					}
-					type: "item"
-				}
-				{
-					id: "3FBDF63C2B102D95"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:alfalfa"
-					}
-					type: "item"
-				}
-				{
-					id: "791D9730CDB4C4AA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:kwat_wheat"
-					}
-					type: "item"
-				}
-				{
-					id: "721D35E326209E1F"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "immortalers_delight:warped_laurel"
-					}
-					type: "item"
-				}
-				{
-					id: "522FE127E714CB6A"
-					item: "immortalers_delight:travarice"
-					type: "item"
-				}
-				{
-					id: "0CFBF4893DC0CE3A"
-					item: "yuusha:gold_skull"
-					type: "item"
-				}
-			]
-			title: "&e进度: 千古之忆"
-			x: -6.5d
 			y: -5.0d
 		}
 		{
@@ -939,33 +659,20 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6B60D4C76D6FCE26"]
-			description: ["该进度需收集除了黄昏死神、死灵烈焰弓以外的所有琳琅满弓模组的弓。"]
-			id: "4DC7DC3A44E968A1"
-			rewards: [{
-				id: "012420CC173DC088"
-				item: {
-					Count: 1
-					id: "goety_revelation:bow_of_revelation"
-					tag: {
-						Damage: 0
-					}
-				}
-				team_reward: true
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "too_many_bows:master_bow_collector"
-				criterion: ""
-				id: "1754EB4D3E5B113C"
-				type: "advancement"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["2B570D069D5D2533"]
-			description: ["更多信息详见宝具章节。"]
+			description: [
+				"右键持续发射魔法匕首，最长持续使用5秒便进入冷却。"
+				""
+				"&6匕首能帮助捡起附近的掉落物；幸运值会提高匕首的伤害（0.8点基础伤害/幸运值）。"
+				""
+				"&e同时携带魔法石英戒指：发射频率与速度有所提升。"
+				""
+				"&c同时携带魔法石英花：权杖冷却缩短。"
+				""
+				"&3在使用魔法石英权杖期间，使用铁魔法法术、切换物品可以刷新魔法石英权杖的发射时间。"
+				""
+				"&2双刃剑5级可通过附魔台或者宝箱获得。背刺10级附魔可制作获得。"
+			]
 			id: "5113BCF75E73F99F"
 			rewards: [{
 				id: "52ED32CF0B5CDFA8"
@@ -984,7 +691,215 @@
 				type: "item"
 			}]
 			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6577BA563E6EF855"]
+			description: [
+				"引雷附魔书可以用雷电核心在切石机中制作。忠诚5级附魔书可以用神圣珍珠在切石机中制作。愤怒20级附魔书可以用鲜血精华在切石机中制作。"
+				""
+				"&6可直接与守卫者锭合成，制作一个新的三叉戟，原三叉戟不会消耗。"
+			]
+			id: "7012663F0DF03269"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78E9E147565EE8F3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61CE6B8B37A912F5"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B570D069D5D2533"]
+			description: [
+				"适合玩家弓兵穿的初级盔甲。"
+				""
+				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+				""
+				"&6宝藏袋或者海盗袋开出来的带有特定属性的装备可升级。"
+			]
+			id: "718A1A629B44EDB8"
+			rewards: [{
+				id: "4633446EA032AE7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1C78C92A928F9CB0"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B60BA66CD336B22"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53C0771D4806A406"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FA84EEB8B04DE4F"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["718A1A629B44EDB8"]
+			description: ["适合玩家箭术穿的中级盔甲。"]
+			id: "1B50086A5A863DC7"
+			rewards: [{
+				id: "626610ED860BA689"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "376090911EC108D4"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CFB798F83384B71"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1805C39FBC297A74"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AFCA246B68350B1"
+					item: {
+						Count: 1
+						id: "sons_of_sins:remnant_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B50086A5A863DC7"]
+			description: ["适合玩家箭术穿的高级盔甲。"]
+			id: "62C3DD1875468F14"
+			rewards: [{
+				id: "53FD9D7D1AF2D43E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0A42294C8F0D957A"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DF8E5F29E854552"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63BFCB6FFED1419F"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185144D9EA73936F"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
 		}
 	]
 	subtitle: [

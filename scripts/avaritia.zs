@@ -34,7 +34,7 @@ craftingTable.addShaped("avaritia.infinity_sword.ex", <item:avaritia:infinity_sw
 <item:avaritia:infinity_totem>.anyDamage().addTooltip("\u00A73无尽图腾的优先级较低，可能会优先触发灵魂方舟等复活效果");
 <item:avaritia:infinity_totem>.anyDamage().addTooltip("\u00A72佩戴古代殉葬品时触发此物品时可以触发陪葬效果");
 <item:avaritia:infinity_totem>.anyDamage().addTooltip("\u00A75要注意不要用来殉葬部分生物，会导致游戏崩溃");
-<item:avaritia:endless_cake>.addTooltip("\u00A7c利用特性可以获得");
+<item:avaritia:endless_cake>.addTooltip("\u00A7c在蛋糕上放置蜡烛后可获得");
 <item:avaritia:crystal_matrix_ingot>.addTooltip("\u00A76在合成一次后可通过合成复制");
 <item:avaritia:diamond_lattice>.addTooltip("\u00A7c可制作获得，可在枪械工作台中制作多种枪械，可充能万能溶剂之经");
 <item:avaritia:diamond_lattice>.addTooltip("\u00A7e后续击杀惊骇的小型方块骑士主宰、混沌魔影、黑暗萨满也可获得");
@@ -253,7 +253,8 @@ recipes.addJsonRecipe("avaritia.infinity_ingot.prot",{
 craftingTable.remove(<item:avaritia:neutron_gear>);
 craftingTable.addShaped("avaritia.neutron_gear", <item:avaritia:neutron_gear>, [[<item:minecraft:air>, <item:avaritia:neutron_ingot>, <item:minecraft:air>], [<item:avaritia:neutron_ingot>, <item:minecraft:air>, <item:avaritia:neutron_ingot>], [<item:minecraft:air>, <item:avaritia:neutron_ingot>, <item:minecraft:air>]]);
 
-
+//
+craftingTable.addShapeless("avaritia.neutron_nugget.copy", <item:avaritia:neutron_nugget>*3, [<item:avaritia:neutron>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 
 
 

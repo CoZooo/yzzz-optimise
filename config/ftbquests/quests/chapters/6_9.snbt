@@ -1007,6 +1007,11 @@
 					item: "moonstone:ectoplasmbattery"
 					type: "item"
 				}
+				{
+					id: "0B771A09A0D158EB"
+					item: "celestial_artifacts:holy_necklace"
+					type: "item"
+				}
 			]
 			x: 1.5d
 			y: 4.0d

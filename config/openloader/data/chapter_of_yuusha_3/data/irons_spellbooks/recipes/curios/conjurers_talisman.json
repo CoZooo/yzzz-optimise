@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "goety_cataclysm:abyss_essence"
+    },
+    {
+      "count": 1,
+      "item": "irons_spellbooks:arcane_salvage"
+    },
+    {
+      "count": 1,
+      "item": "irons_spellbooks:tarnished_helmet"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:ornate_ring"
+  },
+  "output": {
+    "count": 1,
+    "item": "irons_spellbooks:conjurers_talisman"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 32
+    },
+    {
+      "type": "eldritch",
+      "count": 4
+    },
+    {
+      "type": "wicked",
+      "count": 4
+    }
+  ]
+}

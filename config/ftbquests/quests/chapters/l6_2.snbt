@@ -428,7 +428,7 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -478,7 +478,7 @@
 				item: "majruszsdifficulty:undead_battle_standard"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -613,33 +613,6 @@
 		{
 			dependencies: ["151E2F186E5DF4E1"]
 			description: [
-				"野外会有几率找到。也可以制作。"
-				""
-				"&e你知道吗？玩家可以利用指路石来传送用拴绳拴住的动物，需要消耗额外的经验，且需要距离指路石较近。"
-				""
-				"&6你知道吗？指路石里的传送位点，在右边有上下箭头可以挪动位置，按住Shift左击会直接到最前或最后。"
-				""
-				"&c指路石现在可以在古遗天境、遥远世界、幽匿暗域、极尽深渊等维度生成。"
-				""
-				"&3现在允许指路石在放置或者改名时开启是否“设为全局”，若设为全局，则任意玩家（即使未碰触）都可传送到该指路石处。"
-			]
-			id: "3E6E93D1AEE6D9AA"
-			rewards: [{
-				id: "1154B9E97CAD4454"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "75CC1229F0075D63"
-				item: "waystones:waystone"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["151E2F186E5DF4E1"]
-			description: [
 				"一本特殊的附魔宝典，用铁砧将附魔装备一半数量（向上取整）的随机魔咒转移到拆解宝典上，消耗（魔咒个数×10）级经验变成附魔书，最后装备消失。"
 				""
 				"可以对其他装备使用铁砧来刷新特定装备将要移除的魔咒。"
@@ -740,7 +713,7 @@
 				item: "torchmaster:feral_flare_lantern"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -978,7 +951,7 @@
 				item: "illagerinvasion:imbuing_table"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -1000,7 +973,7 @@
 				item: "hmag:lightning_bottle"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -1109,7 +1082,7 @@
 				item: "farmingforblockheads:chicken_nest"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1131,7 +1104,7 @@
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -1416,7 +1389,7 @@
 				item: "reliquary:pedestals/yellow_pedestal"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -1439,7 +1412,7 @@
 				item: "reliquary:fertile_lily_pad"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -1492,7 +1465,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -1538,7 +1511,7 @@
 				item: "forbidden_arcanus:aurum_sapling"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -1675,7 +1648,7 @@
 				item: "minecraft:torchflower"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -1703,73 +1676,8 @@
 				item: "minecraft:sniffer_egg"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -1.0d
-		}
-		{
-			dependencies: ["151E2F186E5DF4E1"]
-			description: [
-				"玩家可以用刷子刷扫方块。对任何方块使用刷子时，刷子会被平放并左右往复移动，并在目标方块上产生向左抛射的对应方块破坏粒子。如果对可疑的方块使用刷子，可疑的方块将会在一段时间之后变为沙子或沙砾，若为自然生成还会掉落一样其他物品。"
-				""
-				"可疑的沙子/沙砾是可供考古的方块。可疑的沙子会在沙漠神殿内部的地窖、沙漠水井底部或热带海底废墟中自然生成。可疑的沙砾会在古迹废墟或寒带海底废墟中自然生成。"
-				""
-				"&6考古可获得的物品此整合包有优化，详见相关任务。"
-				""
-				"&c新增以下物品可右击沙子或沙砾将其转变为不同的可疑方块：陈旧骨头、冰封骨头、骷髅狗头人之骨、刺骨、海船墓地之回响、骨头、腐肉、烈焰粉、腐枯物质、远古硬币、远古纤维、千古乐事的作物、绿茶叶、破碎的维度意志、神秘水晶粉末。"
-				""
-				"&e附魔：效率附魔可以刷扫更快。时运附魔有几率使被扫刷的可疑方块在扫刷出战利品后不会变为其对应的原本方块。"
-				"{@pagebreak}"
-				"以下为主要的可转化的考古列表（部分需远古甲虫）："
-				""
-				"&6陈旧骨头&r：暴食的赞赏、复苏之叶、蜂蜜瓶、蜂蜜块、莫里斯的脑子、蜂蜜苹果。"
-				""
-				"&6冰封骨头&r：远古细菌、远古凿子、各种纹样陶片、远古硬币、幸运围巾、烈火手套、远古真菌、挖掘爪、钓鱼佬帽、嗅探兽蛋、大地之心。"
-				""
-				"&6骷髅狗头人之骨&r：沙漠之眼、各种纹样陶片。"
-				""
-				"&6刺骨&r：远古病毒、瓶子草英果、禁书碎片、远古凿子、各种纹样陶片、各种陶器碎片、各种装饰用锻造模版、防爆服、苦力怕的知能、牢固鞋钉、云朵瓶、雪地鞋、生长之靴、烈焰吊坠、荆棘吊坠、整蛊坐垫、音乐唱片、大地之心。"
-				""
-				"&6远古纤维&r：千古乐事模组的食物、丘比娃娃。"
-				""
-				"&6嗅探兽毛和千古作物的种子&r：千古乐事模组的种子。"
-				""
-				"&6海船墓地之回响&r：铅球、牛黄、手钻、维生素、手电筒、快走时钟、能量棒、三折地图、蒙眼布、圣水。"
-				""
-				"&6骨头、腐肉&r：嗅探兽蛋、木炭、绿宝石、羽毛、空法术聚晶、亚麻籽、神秘吊坠、邪恶水晶碎片、石化经验球。"
-				""
-				"&6烈焰粉&r：岩浆晶球、岩浆核心、熔火核心、岩浆膏、岩浆石、沙拉曼达之眼。"
-				""
-				"&6腐枯物质&r：凋零枯骨、腐化粉末、幻灵碎晶、紫菀岩和神圣石、凋零玫瑰。"
-				""
-				"&6远古硬币&r：远古硬币、利刃纹样陶片、锈蚀古刀、古代口粮包。"
-				""
-				"&6绿茶叶、绿妖茶叶&r：手机和创造之手的原材料。"
-				""
-				"&6神秘水晶粉末&r：各种晶球（可天华砧锻打）。"
-				""
-				"&6幻昙花、干燥的曼德拉花&r：妖怪归家模组的食物、丘比娃娃。"
-			]
-			id: "5A94A0E65B644BB7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2056FE6078ECF943"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "需注意有两页任务介绍"
-			tasks: [{
-				id: "34CE8660EDB67961"
-				item: {
-					Count: 1
-					id: "minecraft:brush"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
 		}
 		{
 			dependencies: ["151E2F186E5DF4E1"]
@@ -1792,7 +1700,7 @@
 				item: "minecraft:pitcher_plant"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -2397,7 +2305,7 @@
 				item: "goety:rotten_sapling"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -2425,7 +2333,7 @@
 				item: "goety:crystal_ball"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -2502,7 +2410,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -2523,31 +2431,26 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["151E2F186E5DF4E1"]
-			description: [
-				"此成就需探索主世界所有原版的生物群系。"
-				""
-				"&6此任务奖励一个团队只能有一个奖励。"
-			]
-			id: "53D6480C5BF7D588"
+			description: ["右击打开时有几率刷出一只死神怪物。击杀可获得飞行经验等材料。"]
+			id: "2D2C2B999D4C8E79"
 			rewards: [{
-				id: "165A0124BB1A78B0"
-				item: "goety_revelation:dimensional_will"
-				team_reward: true
-				type: "item"
+				exclude_from_claim_all: true
+				id: "401C1B693DB7516C"
+				table_id: 2805430797220875844L
+				type: "random"
 			}]
 			tasks: [{
-				advancement: "minecraft:adventure/adventuring_time"
-				criterion: ""
-				id: "5000001909190A00"
-				type: "advancement"
+				id: "72949C97C21EB9CA"
+				item: "graveyard:oak_coffin"
+				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["&9『主世界』"]

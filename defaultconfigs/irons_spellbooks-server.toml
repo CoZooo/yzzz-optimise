@@ -384,7 +384,7 @@
 		MinRarity = "RARE"
 		ManaCostMultiplier = 10.0
 		SpellPowerMultiplier = 50.0
-		CooldownInSeconds = 15.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:icicle"]
@@ -471,9 +471,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 25.0
+		ManaCostMultiplier = 10.0
 		SpellPowerMultiplier = 2000.0
-		CooldownInSeconds = 15.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:lob_creeper"]
@@ -893,9 +893,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 5.0
 		SpellPowerMultiplier = 10.0
-		CooldownInSeconds = 15.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:blood_slash"]
@@ -958,10 +958,10 @@
 		School = "irons_spellbooks:evocation"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 10.0
-		SpellPowerMultiplier = 2.0
-		CooldownInSeconds = 5.0
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 5.0
+		SpellPowerMultiplier = 20.0
+		CooldownInSeconds = 3.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:heartstop"]
@@ -1016,7 +1016,7 @@
 		MinRarity = "RARE"
 		ManaCostMultiplier = 6.0
 		SpellPowerMultiplier = 2.0
-		CooldownInSeconds = 120.0
+		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
 	#irons_spellbooks:lightning
@@ -1247,9 +1247,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 4.0
+		ManaCostMultiplier = 10.0
 		SpellPowerMultiplier = 15.0
-		CooldownInSeconds = 15.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = true
 
 	[Spells."refined_mod:moon_slash"]
@@ -1379,9 +1379,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 7.0
 		SpellPowerMultiplier = 600.0
-		CooldownInSeconds = 60.0
+		CooldownInSeconds = 5.0
 		AllowCrafting = false
 
 	[Spells."ias_spellbooks:spirits_chosen"]

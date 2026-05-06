@@ -34,6 +34,9 @@ import mods.jeitweaker.Jei;
 <item:celestial_artifacts:sacrificial_object>.addTooltip("\u00A72佩戴古代殉葬品时，除不死图腾和星月遗物外，其它大部分复活可触发殉葬效果");
 <item:celestial_artifacts:sacrificial_object>.addTooltip("\u00A7c请勿对神化Boss等生物殉葬，游戏可能会崩溃");
 <item:celestial_artifacts:repent_mirror>.addTooltip("\u00A76新增图书悬赏、绘图悬赏内有几率出现");
+<item:celestial_artifacts:repent_mirror>.addTooltip("\u00A7e可跨维度无视距离进行传送");
+<item:celestial_artifacts:backtrack_mirror>.addTooltip("\u00A76新增图书悬赏、绘图悬赏内有几率出现");
+<item:celestial_artifacts:backtrack_mirror>.addTooltip("\u00A7e可跨维度无视距离进行传送");
 <item:celestial_artifacts:traveler_scroll>.anyDamage().addTooltip("\u00A76可在星河贸易站内交易获得");
 <item:celestial_artifacts:cursed_totem>.anyDamage().addTooltip("\u00A7c新增击杀未来神巫有几率获得");
 
@@ -138,7 +141,7 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 <item:celestial_artifacts:spirit_necklace>.anyDamage().addTooltip("\u00A7c只能在击杀沼泽巨颌怪后通过制作获得");
 <item:celestial_artifacts:spirit_necklace>.anyDamage().addTooltip("\u00A76无法通过开启丛林宝箱获得");
 <item:celestial_artifacts:spirit_necklace>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");
-<item:celestial_artifacts:spirit_arrow_bag>.anyDamage().addTooltip("\u00A7c只能在亡灵军团后通过制作获得");
+<item:celestial_artifacts:spirit_arrow_bag>.anyDamage().addTooltip("\u00A7c可在亡灵军团后通过制作获得");
 <item:celestial_artifacts:spirit_arrow_bag>.anyDamage().addTooltip("\u00A76无法通过开启丛林宝箱获得");
 <item:celestial_artifacts:spirit_arrow_bag>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");
 <item:celestial_artifacts:magic_arrow_bag>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");

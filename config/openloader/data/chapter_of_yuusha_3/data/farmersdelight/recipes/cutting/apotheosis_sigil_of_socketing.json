@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "depthcrawler:reinforcedeye"
+    }
+  ],
+  "result": [
+    {
+      "item": "apotheosis:sigil_of_socketing"
+    }
+  ],
+  "tool": {
+    "item": "yuusha:remembered_scroll"
+  }
+}

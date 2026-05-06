@@ -75,13 +75,13 @@ craftingTable.addShaped("cthulhufishing.relic", <item:cthulhufishing:relic>, [[<
 
 //鱼饵
 craftingTable.remove(<item:cthulhufishing:ice_lure>);
-craftingTable.addShaped("cthulhufishing.ice_lure", <item:cthulhufishing:ice_lure>*16, [[<item:relics:solid_snowball>.anyDamage(), <item:relics:solid_snowball>.anyDamage(), <item:relics:solid_snowball>.anyDamage()], [<item:relics:solid_snowball>.anyDamage(), <item:celestial_artifacts:purified_powder>, <item:aquamirae:ship_graveyard_echo>], [<item:aquamirae:ship_graveyard_echo>, <item:aquamirae:ship_graveyard_echo>, <item:aquamirae:ship_graveyard_echo>]]);
+craftingTable.addShaped("cthulhufishing.ice_lure", <item:cthulhufishing:ice_lure>*16, [[<item:relics:solid_snowball>.anyDamage(), <item:relics:solid_snowball>.anyDamage(), <item:relics:solid_snowball>.anyDamage()], [<item:relics:solid_snowball>.anyDamage(), <item:cataclysm:essence_of_the_storm>, <item:aquamirae:ship_graveyard_echo>], [<item:aquamirae:ship_graveyard_echo>, <item:aquamirae:ship_graveyard_echo>, <item:aquamirae:ship_graveyard_echo>]]);
 craftingTable.remove(<item:cthulhufishing:mushroom_lure>);
-craftingTable.addShaped("cthulhufishing.mushroom_lure", <item:cthulhufishing:mushroom_lure>*16, [[<item:malum:crushed_brilliance>, <item:malum:crushed_brilliance>, <item:malum:crushed_brilliance>], [<item:malum:crushed_brilliance>, <item:celestial_artifacts:purified_powder>, <tag:items:wizards_reborn:mushroom_brew_ingredients>], [<tag:items:wizards_reborn:mushroom_brew_ingredients>, <tag:items:wizards_reborn:mushroom_brew_ingredients>, <tag:items:wizards_reborn:mushroom_brew_ingredients>]]);
+craftingTable.addShaped("cthulhufishing.mushroom_lure", <item:cthulhufishing:mushroom_lure>*16, [[<item:malum:crushed_brilliance>, <item:malum:crushed_brilliance>, <item:malum:crushed_brilliance>], [<item:malum:crushed_brilliance>, <item:cataclysm:essence_of_the_storm>, <tag:items:wizards_reborn:mushroom_brew_ingredients>], [<tag:items:wizards_reborn:mushroom_brew_ingredients>, <tag:items:wizards_reborn:mushroom_brew_ingredients>, <tag:items:wizards_reborn:mushroom_brew_ingredients>]]);
 craftingTable.remove(<item:cthulhufishing:sculk_lure>);
-craftingTable.addShaped("cthulhufishing.sculk_lure", <item:cthulhufishing:sculk_lure>*16, [[<item:malum:crushed_soulstone>, <item:malum:crushed_soulstone>, <item:malum:crushed_soulstone>], [<item:malum:crushed_soulstone>, <item:celestial_artifacts:purified_powder>, <item:cthulhufishing:drip_void>.anyDamage()], [<item:cthulhufishing:drip_void>.anyDamage(), <item:cthulhufishing:drip_void>.anyDamage(), <item:cthulhufishing:drip_void>.anyDamage()]]);
+craftingTable.addShaped("cthulhufishing.sculk_lure", <item:cthulhufishing:sculk_lure>*16, [[<item:malum:crushed_soulstone>, <item:malum:crushed_soulstone>, <item:malum:crushed_soulstone>], [<item:malum:crushed_soulstone>, <item:cataclysm:essence_of_the_storm>, <item:cthulhufishing:drip_void>.anyDamage()], [<item:cthulhufishing:drip_void>.anyDamage(), <item:cthulhufishing:drip_void>.anyDamage(), <item:cthulhufishing:drip_void>.anyDamage()]]);
 craftingTable.remove(<item:cthulhufishing:crimson_lure>);
-craftingTable.addShaped("cthulhufishing.crimson_lure", <item:cthulhufishing:crimson_lure>*16, [[<item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>], [<item:sons_of_sins:flesh_of_demise>, <item:celestial_artifacts:purified_powder>, <item:moonstone:blood>], [<item:moonstone:blood>, <item:moonstone:blood>, <item:moonstone:blood>]]);
+craftingTable.addShaped("cthulhufishing.crimson_lure", <item:cthulhufishing:crimson_lure>*16, [[<item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>], [<item:sons_of_sins:flesh_of_demise>, <item:cataclysm:essence_of_the_storm>, <item:moonstone:blood>], [<item:moonstone:blood>, <item:moonstone:blood>, <item:moonstone:blood>]]);
 
 //ban
 <tag:items:curios:ring>.remove(<item:cthulhufishing:emerald_gold_ring>);
@@ -143,6 +143,7 @@ stoneCutter.addRecipe("minecraft.enchanted_book.frozen_catcher_enchantment", <it
 <item:cthulhufishing:ancient_coin>.addTooltip("\u00A72右击沙砾可将其转变为可疑沙砾，等同生生不息的樱花树遗迹可疑沙砾");
 <item:cthulhufishing:ancient_coin>.addTooltip("\u00A73利用冰封骨头可转化沙子为海底遗迹的可疑方块");
 <item:cthulhufishing:ancient_coin>.addTooltip("\u00A76远古硬币可用于合成下界合金碎片、锈蚀古刀等");
+<item:cthulhufishing:treasure_bag>.addTooltip("\u00A7c克苏鲁海洋祭坛为职业方块的虚空商人村民的2级交易有几率出现");
 <item:cthulhufishing:treasure_bag>.addTooltip("\u00A7e有几率开出虚空水晶、虚空类型聚晶（除末影漫步聚晶）");
 <item:cthulhufishing:revelation_fabric>.anyDamage().addTooltip("\u00A7c可制作或交易获得");
 <item:cthulhufishing:revelation_steel>.addTooltip("\u00A7c可用余烬模组制作获得，也可与虚空商人村民交易获得");

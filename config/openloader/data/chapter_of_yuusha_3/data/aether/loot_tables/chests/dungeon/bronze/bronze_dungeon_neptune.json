@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:neptunium_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aether:neptune_gloves"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "aether:chests/dungeon/bronze/bronze_dungeon_neptune"
+}

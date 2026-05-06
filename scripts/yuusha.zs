@@ -29,7 +29,7 @@
 <item:yuusha:chaos_stone>.addTooltip("\u00A7c击杀混沌魔影可获得");
 <item:yuusha:chaos_ingot>.addTooltip("\u00A7c击杀无名守卫者可获得");
 <item:yuusha:chaos_ingot>.addTooltip("\u00A7e相关内容详见天顶巨兽章节");
-<item:yuusha:sea_core>.addTooltip("\u00A76击杀斯库拉有小几率获得");
+<item:yuusha:sea_core>.addTooltip("\u00A76击杀斯库拉有较低几率获得");
 <item:yuusha:ice_blood>.addTooltip("\u00A76击杀武神女王、帝王云鲸必定获得");
 <item:yuusha:shard_1>.addTooltip("\u00A7c· 弹幕伤害击杀妖怪归家模组的首领可获得");
 <item:yuusha:shard_1>.addTooltip("\u00A7e· 弹幕伤害包括女仆御币弹幕和符卡弹幕");

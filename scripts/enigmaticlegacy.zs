@@ -186,7 +186,7 @@ craftingTable.addShaped("enigmaticlegacy.mining_charm", <item:enigmaticlegacy:mi
 
 //怪物猎人
 craftingTable.remove(<item:enigmaticlegacy:monster_charm>);
-craftingTable.addShaped("enigmaticlegacy.monster_charm", <item:enigmaticlegacy:monster_charm>, [[<item:aquaculture:neptunium_ingot>, <item:minecraft:skeleton_skull>.anyDamage(), <item:aquaculture:neptunium_ingot>], [<item:celestial_core:light_fragment>, <item:enigmaticlegacy:earth_heart>, <item:celestial_core:light_fragment>], [<item:relics:relic_experience_bottle>, <item:minecraft:netherite_ingot>, <item:relics:relic_experience_bottle>]]);
+//craftingTable.addShaped("enigmaticlegacy.monster_charm", <item:enigmaticlegacy:monster_charm>, [[<item:aquaculture:neptunium_ingot>, <item:minecraft:skeleton_skull>.anyDamage(), <item:aquaculture:neptunium_ingot>], [<item:celestial_core:light_fragment>, <item:enigmaticlegacy:earth_heart>, <item:celestial_core:light_fragment>], [<item:relics:relic_experience_bottle>, <item:minecraft:netherite_ingot>, <item:relics:relic_experience_bottle>]]);
 
 //至暗卷轴
 craftingTable.remove(<item:enigmaticlegacy:darkest_scroll>);

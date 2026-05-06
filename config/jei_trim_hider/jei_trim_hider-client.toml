@@ -8,11 +8,14 @@
 	hideTrimRecipes = true
 
 [overrides]
+	#注意：如果在游戏运行期间修改以下列表，JEI 搜索栏和锻造配方会立即刷新和隐藏，
+	#      但是 Info 说明信息页必须重新进入存档（或重新连接服务器）才会生效。
+	# 
 	#=== 白名单 ===
 	#此列表中的物品将被豁免，不执行隐藏逻辑。
 	#用于单独保留某几个纹饰模板的配方显示。
 	#填写格式: ["modid:item_name"]
-	whitelist = []
+	whitelist = ["deep_aether:stratus_smithing_template"]
 	#=== 自定义纹饰目标 ===
 	#本模组默认通过物品标签 minecraft:trim_templates 自动识别纹饰。
 	#对于未添加规范标签的第三方模组，你可以将目标填入此处扩大筛选范围。

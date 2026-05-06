@@ -9,23 +9,23 @@
 		{
 			alpha: 200
 			color: 10551890
-			height: 54.0d
+			height: 50.0d
 			image: "yuusha:textures/gui_researchbackeldritch.png"
 			rotation: 0.0d
 			width: 40.0d
 			x: 7.0d
-			y: 14.0d
+			y: 12.5d
 		}
 		{
 			alpha: 128
 			color: 0
-			height: 56.0d
+			height: 52.0d
 			image: ""
 			order: -2
 			rotation: 0.0d
 			width: 42.0d
 			x: 7.0d
-			y: 14.0d
+			y: 12.5d
 		}
 	]
 	order_index: 7
@@ -36,11 +36,11 @@
 			description: [
 				"基础设定：此世界线玩家将会绑定九剑归一诀、万象模板，并可以制作专属拔刀剑。"
 				""
-				"&6拔刀剑材质：默认为简化材质。按“Alt”键可以暂时显示拔刀剑的材质。默认按“=”键可切换是否常规显示拔刀剑的材质。"
+				"&e拔刀剑材质：默认为简化材质。按“Alt”键可以暂时显示拔刀剑的材质。默认按“=”键可切换是否常规显示拔刀剑的材质。"
 				""
 				"&c请勿给女仆拔刀剑进行攻击，可能会导致游戏崩溃。"
 				""
-				"&e此路线开局发展极为艰难，但度过前期后较为简单。"
+				"&6此路线开局发展极为艰难，但度过前期后较为简单。"
 			]
 			id: "3F9144237DCDF44B"
 			rewards: [{
@@ -60,7 +60,7 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"名刀「银纸竹光」等同于粗制镰刀，可给予目标化魂状态，以收割精魂，及获得粗制镰刀的特殊掉落物。此外攻击还附带魔法伤害。"
+				"名刀「银纸竹光」为魔法攻击类型，可给予目标化魂状态，以收割精魂，及获得粗制镰刀的特殊掉落物。此外攻击还附带魔法伤害。"
 				""
 				"&6利用此刀合成的后续拔刀剑不再具有化魂的能力。"
 				""
@@ -138,15 +138,17 @@
 		{
 			dependencies: ["67C6921D453977A8"]
 			description: [
-				"制作出来的无铭刀「木偶」为无限耐久，只有无铭刀「木偶」才会无限耐久。"
+				"制作出来的无铭刀「木偶」为无限耐久，只有无铭刀「木偶」才会无限耐久。为锤击攻击类型，攻击会附加火焰伤害。"
 				""
 				"&6第一把拔刀剑最好用来制作名刀「银纸竹光」来刷精魂。"
 				""
-				"&e迅冲斩作为在前期好用的剑技，只需要在按住Shift+W键同时右击，即可施放。"
+				"&e拔刀剑具有近战必杀伤害属性，玩家在前期的近战暴击率较低，但是可通过跳劈、御空刀舞来必定触发暴击。"
 				""
 				"&c需注意，包括此任务在内，拔刀剑的模型在任务中可能不显示，但是可以左击查看合成。"
 				""
-				"&3此整合包默认的特殊行动键为G键。"
+				"&3此整合包默认的特殊行动键为G键。更多剑技可在L键进度内查看。"
+				""
+				"&2瞬步：Shift键+W键+G键，可瞬移到目标跟前。"
 			]
 			icon: "minecraft:oak_log"
 			id: "44B24250ADB545EE"
@@ -217,7 +219,7 @@
 			description: [
 				"锈蚀古刀可以通过考古获得。"
 				""
-				"&6不同评分会有不同的增减伤，最高在SSS时为原来的2倍伤害，在B级时等于原来的伤害，在无评分时大概只有原来的1/2伤害。"
+				"&6拔刀剑的评分会增加伤害，在B级时大概是无评分时2倍伤害，而在最高SSS级时大概是B级时2倍伤害。"
 				""
 				"&c拔刀剑虽然能放在副手，但不建议放在副手，可能会有崩溃特性。"
 				""
@@ -284,9 +286,9 @@
 		{
 			dependencies: ["3F9144237DCDF44B"]
 			description: [
-				"真·九剑归一诀只能使用拔刀剑武器进行攻击。"
+				"九剑·九意只能使用拔刀剑进行攻击。"
 				""
-				"&e拔刀剑的近战攻击可以直接攻击克苏鲁侵袭的烈阳巨灵和滑行魔石。"
+				"&e拔刀剑的近战攻击可以直接攻击烈阳巨灵、滑行魔石等天境生物，但会有减伤。"
 				""
 				"&6九剑归一诀等饰品的飞剑可能会导致卡顿，可以通过用鼠标对着饰品右击来开关飞剑。"
 			]
@@ -331,7 +333,7 @@
 					}
 					id: "1D21083401898D1E"
 					team_reward: true
-					title: "&c强制穿戴真·九剑归一诀（自动领取）"
+					title: "&c强制穿戴九剑·九意（自动领取）"
 					type: "command"
 				}
 				{
@@ -693,7 +695,7 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"利刀「白鞘」不属于火属性攻击，但会附加火焰伤害。"
+				"利刀「白鞘」为刺击攻击类型，攻击附加火焰伤害。"
 				""
 				"&3物伤剑的制作要求，一般只需要杀敌数和/或锻造数。"
 				""
@@ -703,17 +705,6 @@
 				""
 				"&e利用利刀「白鞘」可获得各种需要小刀击杀的掉落物，比如疣猪兽精皮等。"
 				"{@pagebreak}"
-				"&c物伤剑也许不能通关！不建议选择！"
-				""
-				"&6物伤剑也许不能通关！不建议选择！"
-				""
-				"&e物伤剑也许不能通关！不建议选择！"
-				""
-				"&2物伤剑也许不能通关！不建议选择！"
-				""
-				"&3物伤剑也许不能通关！不建议选择！"
-				""
-				"&5物伤剑也许不能通关！不建议选择！"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "5D21AA5310E26507"
@@ -757,7 +748,9 @@
 						id: "slashblade:slashblade_white"
 						tag: { }
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "3160023E4965DAAA"
@@ -911,13 +904,15 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"无铭「无名」可通过制作获得。"
+				"无铭「无名」等其余拔刀剑为斩击攻击类型。"
 				""
 				"&e除了制作外，也可用任意两把封刀、妖刀、印刀在工作台中合成获得。"
 				""
 				"&6「击柝」露台、「锐岩」露台、木刀「铁刀木」、锈刀、神威刀「虎杖丸」的默认SA均为平突。"
 				""
 				"&c无铭「无名」在耐久归零后不会消失，而是会处于断刀状态。"
+				""
+				"&3连击B连：右击三下后，停顿后重复右击，即可释放，具有较高的伤害。"
 			]
 			icon: "graveyard:dark_iron_ingot"
 			id: "125E74E3A65100C1"
@@ -1438,11 +1433,13 @@
 			description: [
 				"拔刀剑分类：可根据SA分类为&c物伤剑&r和&b魔伤剑&r。所有物伤剑均自带&c力量&r附魔，而所有魔伤剑均自带&b魔灵&r附魔，混伤剑则两种附魔均有。"
 				""
-				"&6剑意：释放SA需要消耗剑意（显示在饱食度上方），剑意上限可通过穿戴此路线专署盔甲增加。"
+				"&6剑意：释放SA需要消耗剑意（显示在饱食度上方），剑意上限可通过穿戴此路线专属盔甲增加。"
 				""
 				"&e剑意回复：可自然回复，用拔刀剑近战攻击也可回复，评分越高回复越多。"
 				""
 				"&2特殊附魔：部分拔刀剑上会有平时无法获得的附魔，请勿取下，否则无法再打上附魔。"
+				""
+				"&5剑气：当耀魂数在1000以上且有较高评分时，拔刀剑右击会附带魔伤剑气。"
 			]
 			icon: "slashblade:bladestand_1"
 			id: "0F332CB09766BE9B"
@@ -1570,7 +1567,7 @@
 			]
 			title: "&4柯罗诺斯「始源之枪」"
 			x: 7.0d
-			y: 29.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
@@ -1680,7 +1677,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "376CDDE973CA6AE3"
@@ -1689,7 +1688,7 @@
 				}
 			]
 			x: 7.0d
-			y: 35.0d
+			y: 29.0d
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
@@ -1875,6 +1874,10 @@
 				"该SA包括：利刀「铁」露台、利刀「苍梅」、利刀「无名」红玉。"
 				""
 				"&e王权：目标实体陷入缓慢和虚弱，提高自身抗性。"
+				"{@pagebreak}"
+				"包括名刀「武士刀」、名刀「太刀」、名刀「金刚」露台、名刀「玄钰」露台。"
+				""
+				"&e不朽：提升自己攻击力和抗性，无副作用，7秒效果，15秒冷却。"
 			]
 			icon: "locusazzurro_icaruswings:linen_string"
 			id: "1D83D89375DF6F0F"
@@ -1883,7 +1886,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：王权"
+			subtitle: "SA：王权 \\& SA：不朽"
 			tasks: [
 				{
 					id: "59FA510A82D22210"
@@ -1974,28 +1977,8 @@
 					item: "locusazzurro_icaruswings:linen_string"
 					type: "item"
 				}
-			]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["125E74E3A65100C1"]
-			description: [
-				"包括名刀「武士刀」、名刀「太刀」、名刀「金刚」露台、名刀「玄钰」露台。"
-				""
-				"&e不朽：提升自己攻击力和抗性，无副作用，7秒效果，15秒冷却。"
-			]
-			icon: "aether:zanite_gemstone"
-			id: "44CF6C1D671A823C"
-			rewards: [{
-				id: "567EA1DD530D24E4"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "SA：不朽"
-			tasks: [
 				{
-					id: "47BFBD4384BF2AF1"
+					id: "008EAE385430A1EE"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -2079,8 +2062,230 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "42846FE938D1C9CC"
+					id: "4BC55B3CB77AEDE2"
 					item: "aether:zanite_gemstone"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["125E74E3A65100C1"]
+			description: [
+				"包括无限剑制·「王之财宝」。"
+				""
+				"&e无限剑制：伤害极低。"
+				"{@pagebreak}"
+				"包括：风暴之刃·「岚」。"
+				""
+				"&e旋风剑舞：伤害极低，但可在一定程度上控制目标。"
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "44CF6C1D671A823C"
+			rewards: [{
+				id: "567EA1DD530D24E4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "SA：无限剑制 \\& SA：旋风剑舞"
+			tasks: [
+				{
+					id: "47BFBD4384BF2AF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:unlimited_blade_works"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -39424
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/red.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 26.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 600
+								proudSoul: 0
+								translationKey: "item.shizuku.unlimited_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:fire_aspect"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:unlimited_blade_works"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -39424
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/red.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 26.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 600
+								proudSoul: 0
+								translationKey: "item.shizuku.unlimited_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "42846FE938D1C9CC"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "425F767738BC0AD3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:tornado_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -16711936
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/lv.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 23.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 560
+								proudSoul: 0
+								translationKey: "item.shizuku.tornado_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "elementalcombat:wind_aspect"
+									lvl: 1s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:tornado_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -16711936
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/lv.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 23.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 560
+								proudSoul: 0
+								translationKey: "item.shizuku.tornado_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "308C38E431C2AEE3"
+					item: "locusazzurro_icaruswings:zephir_essence"
 					type: "item"
 				}
 			]
@@ -2881,7 +3086,7 @@
 				}
 			]
 			x: 5.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
@@ -2994,7 +3199,7 @@
 				}
 			]
 			x: 5.5d
-			y: 12.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
@@ -3103,7 +3308,7 @@
 				}
 			]
 			x: 5.5d
-			y: 14.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
@@ -3240,7 +3445,7 @@
 				}
 			]
 			x: 5.5d
-			y: 15.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["7F8988206F5785D9"]
@@ -3248,6 +3453,10 @@
 				"包括月光樱「吹雪一闪」、夜叉。"
 				""
 				"&2特性：请勿用幻影剑类SA攻击玩家的仆从生物，会导致游戏崩溃。"
+				"{@pagebreak}"
+				"包括：夜樱·「胧月」。"
+				""
+				"&e胧月·夜櫻缭乱：属于固定法伤。"
 			]
 			icon: "irons_spellbooks:divine_pearl"
 			id: "2FA35A7D3A1956E3"
@@ -3256,7 +3465,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：烈风幻影剑"
+			subtitle: "SA：烈风幻影剑 \\& SA：胧月·夜櫻缭乱"
 			tasks: [
 				{
 					id: "230614E2B0BAAE6A"
@@ -3353,6 +3562,101 @@
 				{
 					id: "132B23673D9FA3D0"
 					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "6453B3903E8BD851"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/yeying.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:yingsa"
+								SpecialEffects: ["shizuku:jingxin"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -65281
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/longyue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 60.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 600
+								proudSoul: 0
+								translationKey: "item.shizuku.yeying"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 5s
+								}
+								{
+									id: "chapter_of_yuusha_3_core:magic_energy"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/yeying.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:yingsa"
+								SpecialEffects: ["shizuku:jingxin"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -65281
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/longyue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 60.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 600
+								proudSoul: 0
+								translationKey: "item.shizuku.yeying"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1DC7DBDE407A37DA"
+					item: "minecraft:cherry_leaves"
 					type: "item"
 				}
 			]
@@ -4489,7 +4793,7 @@
 			description: [
 				"包括散华、「蜘蛛切」、尼尔「永恒旋转之枪」。"
 				""
-				"&6散华获取：击杀凋灵几率获得，几率随抢夺附魔等级升高而上升。"
+				"&6散华获取：用拔刀剑击杀凋灵几率获得，几率随抢夺附魔等级升高而上升。"
 			]
 			icon: "confluence:demon_heart"
 			id: "36543904329CB9AE"
@@ -4588,10 +4892,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"7F0231521E85EB37"
-				"7E0ABBF0AE5F297C"
-			]
+			dependencies: ["36543904329CB9AE"]
 			description: [
 				"该SA包括：阿尔忒弥斯「影月」。"
 				""
@@ -4702,14 +5003,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"281B5C873C4BC965"
-				"7E0ABBF0AE5F297C"
-			]
+			dependencies: ["7E0ABBF0AE5F297C"]
 			description: [
 				"该SA包括：宿命变星·阿南刻「天数裁定」。"
 				""
@@ -4827,7 +5125,7 @@
 				}
 			]
 			x: 7.0d
-			y: 24.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
@@ -4948,7 +5246,7 @@
 				}
 			]
 			x: 7.0d
-			y: 26.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["36543904329CB9AE"]
@@ -5068,7 +5366,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["7E0ABBF0AE5F297C"]
+			dependencies: ["36543904329CB9AE"]
 			description: [
 				"包括卡俄斯「溟濛万象」。"
 				""
@@ -5185,11 +5483,11 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["7E0ABBF0AE5F297C"]
+			dependencies: ["36543904329CB9AE"]
 			description: [
 				"该SA包括：御神刀「村雨」。"
 				""
@@ -5302,7 +5600,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 21.5d
 		}
 		{
@@ -5428,7 +5726,7 @@
 				}
 			]
 			x: 7.0d
-			y: 30.5d
+			y: 24.5d
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
@@ -5541,14 +5839,14 @@
 				}
 			]
 			x: 7.0d
-			y: 27.5d
+			y: 21.5d
 		}
 		{
-			dependencies: ["7E0ABBF0AE5F297C"]
+			dependencies: ["36543904329CB9AE"]
 			description: [
 				"该SA包括：聚变之星·倪克斯「辰宿瞬变」。"
 				""
-				"&e天光绝影的白昼肇开线：每使用一次SA都会改变一次时间（白天/黑夜）。"
+				"&e天光绝影的白昼肇开线：释放十字残影。"
 				""
 				"&6该SA的输出相比同阶段的其它SA较弱。"
 			]
@@ -5663,7 +5961,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 18.5d
 		}
 		{
@@ -5795,13 +6093,10 @@
 				}
 			]
 			x: 7.0d
-			y: 32.0d
+			y: 26.0d
 		}
 		{
-			dependencies: [
-				"1FF9F7AB6901AE7C"
-				"7E0ABBF0AE5F297C"
-			]
+			dependencies: ["7E0ABBF0AE5F297C"]
 			description: [
 				"该SA包括：命·理。"
 				""
@@ -5929,7 +6224,7 @@
 				}
 			]
 			x: 7.0d
-			y: 33.5d
+			y: 27.5d
 		}
 		{
 			dependencies: ["23678F021ED936BF"]
@@ -5982,11 +6277,13 @@
 		{
 			dependencies: ["67C6921D453977A8"]
 			description: [
-				"无铭刀「竹光」并没有特殊用处，仅用作过渡。"
+				"无铭刀「竹光」为锤击攻击类型，攻击附加魔法伤害。"
 				""
-				"&6此武器在无耐久后会直接消失。"
+				"&c此武器在无耐久后会直接消失。"
 				""
 				"&e新增玩家手持无铭刀「竹光」击杀女仆妖精，必定获得灵魂。"
+				""
+				"&6迅冲斩作为在前期好用的剑技，只需要在按住Shift+W键同时右击，即可施放。"
 			]
 			icon: "minecraft:bamboo"
 			id: "44A7D447271555CC"
@@ -6489,7 +6786,9 @@
 							}
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
 					id: "659A79223D6BE914"
@@ -6498,7 +6797,487 @@
 				}
 			]
 			x: 7.0d
-			y: 23.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["369C7A9A9F99851C"]
+			description: [
+				"包括：时空裂痕·「刹那」。"
+				""
+				"&e时停斩击：缓慢周围生物同时造成多道伤害。"
+			]
+			icon: "locusazzurro_icaruswings:golden_apple_growth_infused_mead"
+			id: "4B033414D900BF29"
+			rewards: [{
+				id: "10FDA08B4B57C8D1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "SA：吸血镰"
+			tasks: [
+				{
+					id: "2D3E1B468248CE1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:time_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -256
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/jin.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.time_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:time_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -256
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/jin.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.time_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "012240C903585BE3"
+					item: "locusazzurro_icaruswings:golden_apple_growth_infused_mead"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["369C7A9A9F99851C"]
+			description: [
+				"包括：燕返·「三连斩」。"
+				""
+				"&e燕返：快速造成3次近战攻击。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "323C7A7837DFF4AE"
+			rewards: [{
+				id: "448771D2627309AC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "SA：燕返"
+			tasks: [
+				{
+					id: "2079A39CC7B7CB36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:tsubame_gaeshi"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -16776961
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/huang.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 25.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 590
+								proudSoul: 0
+								translationKey: "item.shizuku.tsubame_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:fire_aspect"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:tsubame_gaeshi"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -16776961
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/huang.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 25.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 590
+								proudSoul: 0
+								translationKey: "item.shizuku.tsubame_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7620FFDD9CFE3A32"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["369C7A9A9F99851C"]
+			description: [
+				"包括：虚空囚笼·「暗狱」。"
+				""
+				"&e虚空囚笼：近距离造成多次物理次元斩伤害，并释放一个延迟伤害的囚笼。"
+			]
+			icon: "minecraft:dragon_breath"
+			id: "095825956AF99CBA"
+			rewards: [{
+				id: "47EB17DFEC7CBEC2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "SA：虚空囚笼"
+			tasks: [
+				{
+					id: "56576CCC704AFD83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13434829
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/c.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.5f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.void_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13434829
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/c.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.5f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.void_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2B04C329B88E8806"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["369C7A9A9F99851C"]
+			description: [
+				"包括虚空行者·「瞬影」。"
+				""
+				"&e瞬空斩：瞬移至目标身后背刺并造成范围伤害，如果目标周围有多个生物，则依次分别造成伤害，若处于浮空状态可触发跳劈特效。"
+			]
+			icon: "minecraft:chorus_fruit"
+			id: "3EAF21CFBE56B6A1"
+			rewards: [{
+				id: "2FD8658B32AC8D3D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "SA：瞬空斩"
+			tasks: [
+				{
+					id: "17CC7B5EF0E892FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:teleport_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -65281
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/blue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 22.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 550
+								proudSoul: 0
+								translationKey: "item.shizuku.teleport_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 15s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:fire_aspect"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:teleport_slash"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -65281
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/blue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 22.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 550
+								proudSoul: 0
+								translationKey: "item.shizuku.teleport_blade"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6F2E4B544AE35911"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 21.5d
 		}
 	]
 	subtitle: [

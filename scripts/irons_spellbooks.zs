@@ -135,6 +135,8 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:cinder_essence>.addTooltip("\u00A76可用作召唤祭坛召唤远古骑士");
 
 <item:irons_spellbooks:tarnished_helmet>.addTooltip("\u00A7c击杀亡灵术士可获得");
+<item:irons_spellbooks:tarnished_helmet>.addTooltip("\u00A7e亡灵术士在死者之王的地下墓穴建筑内可找到");
+<item:irons_spellbooks:tarnished_helmet>.addTooltip("\u00A76相关内容详见天顶巨兽章节和极尽深渊章节");
 
 <item:irons_spellbooks:copper_spell_book>.addTooltip("\u00A76可通过牧师悬赏获得");
 
@@ -208,7 +210,7 @@ import crafttweaker.api.data.IData;
 <tag:items:curios:ring>.remove(<item:irons_spellbooks:cast_time_ring>);
 <tag:items:curios:magic_ring>.add(<item:irons_spellbooks:heavy_chain_necklace>);
 <tag:items:curios:necklace>.remove(<item:irons_spellbooks:heavy_chain_necklace>);
-<tag:items:curios:magic_ring>.add(<item:irons_spellbooks:conjurers_talisman>);
+<tag:items:curios:charm>.add(<item:irons_spellbooks:conjurers_talisman>);
 <tag:items:curios:necklace>.remove(<item:irons_spellbooks:conjurers_talisman>);
 <tag:items:curios:magic_ring>.add(<item:irons_spellbooks:amethyst_resonance_charm>);
 <tag:items:curios:necklace>.remove(<item:irons_spellbooks:amethyst_resonance_charm>);
@@ -556,8 +558,14 @@ craftingTable.addShaped("irons_spellbooks.inscription_table.3", <item:irons_spel
 //法术反制
 craftingTable.addShaped("irons_spellbooks.counterspell", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:counterspell", locked: 1, level: 1}], spellWheel: 0}}), [[<item:distant_worlds:ancient_garhenna_papers>, <item:irons_spellbooks:rare_ink>, <item:distant_worlds:ancient_garhenna_papers>], [<item:whisperwoods:hirschgeist_skull>, <item:goety:occult_fabric>, <item:whisperwoods:hirschgeist_skull>], [<item:distant_worlds:ancient_garhenna_papers>, <item:irons_spellbooks:rare_ink>, <item:distant_worlds:ancient_garhenna_papers>]]);
 
-//星海落瀑法术
+//星海落瀑
 craftingTable.addShaped("irons_spellbooks.starfall", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:starfall", locked: 1, level: 1}], spellWheel: 0}}), [[<item:malum:astral_weave>, <item:irons_spellbooks:rare_ink>, <item:malum:astral_weave>], [<item:ancient_aether:laboratory_dungeon_key>, <item:goety:occult_fabric>, <item:ancient_aether:laboratory_dungeon_key>], [<item:malum:astral_weave>, <item:irons_spellbooks:rare_ink>, <item:malum:astral_weave>]]);
+
+//血爆
+craftingTable.addShaped("irons_spellbooks.sacrifice", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:sacrifice", locked: 1, level: 1}], spellWheel: 0}}), [[<item:malum:living_flesh>, <item:irons_spellbooks:rare_ink>, <item:malum:living_flesh>], [<item:ancient_aether:ancient_dungeon_key>, <item:goety:spirit_fabric>, <item:ancient_aether:ancient_dungeon_key>], [<item:malum:living_flesh>, <item:irons_spellbooks:rare_ink>, <item:malum:living_flesh>]]);
+
+//血爆50级
+craftingTable.addShaped("irons_spellbooks.sacrifice.1", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:sacrifice", locked: 1, level: 50}], spellWheel: 0}}), [[<item:stalwart_dungeons:void_crystal>, <item:irons_spellbooks:legendary_ink>, <item:stalwart_dungeons:void_crystal>], [<item:yuusha:blood_star>, <item:goety:unholy_fabric>, <item:yuusha:blood_star>], [<item:stalwart_dungeons:void_crystal>, <item:irons_spellbooks:legendary_ink>, <item:stalwart_dungeons:void_crystal>]]);
 
 //音爆法术
 //craftingTable.addShaped("irons_spellbooks.sonic_boom", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:sonic_boom", locked: 1, level: 1}], spellWheel: 0}}), [[<item:hmag:purification_cloth>, <item:irons_spellbooks:legendary_ink>, <item:hmag:purification_cloth>], [<item:faded_conquest_2:key_of_death>, <item:goety:occult_fabric>, <item:faded_conquest_2:key_of_death>], [<item:hmag:purification_cloth>, <item:irons_spellbooks:legendary_ink>, <item:hmag:purification_cloth>]]);
@@ -687,6 +695,9 @@ craftingTable.addShaped("irons_spellbooks.poison_splash", <item:irons_spellbooks
 craftingTable.addShaped("irons_spellbooks.scorch.1", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:scorch", locked: 1, level: 1}], spellWheel: 0}}), [[<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>], [<item:cataclysm:ignitium_ingot>, <item:goety:gale_fabric>, <item:cataclysm:ignitium_ingot>], [<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>]]);
 craftingTable.addShaped("irons_spellbooks.scorch.2", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:scorch", locked: 1, level: 1}], spellWheel: 0}}), [[<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>], [<item:cataclysm:monstrous_horn>, <item:goety:gale_fabric>, <item:cataclysm:monstrous_horn>], [<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>]]);
 
+//隐身之戒
+craftingTable.addShaped("irons_spellbooks.scorch.2", <item:irons_spellbooks:invisibility_ring>, [[<item:reliquary:potion_essence>.withTag({effects: [{duration: 500, name: "minecraft:invisibility", potency: 0}]}), <item:minecraft:air>], [<item:minecraft:air>, <item:irons_spellbooks:arcane_salvage>]]);
+
 //
 craftingTable.remove(<item:irons_spellbooks:energized_core>);
 
@@ -704,7 +715,13 @@ craftingTable.addShaped("refined_mod.flame_tongue_sword", <item:refined_mod:flam
 craftingTable.addShapeless("irons_spellbooks.evoker_spell_book.re", <item:irons_spellbooks:evoker_spell_book>.withTag({ISB_Spells: {maxSpells: 10, mustEquip: 1, spellWheel: 1}}), [<item:irons_spellbooks:evoker_spell_book>.anyDamage(), <item:celestial_artifacts:purified_powder>]);
 craftingTable.addShapeless("irons_spellbooks.necronomicon_spell_book.re", <item:irons_spellbooks:necronomicon_spell_book>.withTag({ISB_Spells: {maxSpells: 10, mustEquip: 1, spellWheel: 1}, ISBEnhance: "irons_spellbooks:raise_dead"}), [<item:irons_spellbooks:necronomicon_spell_book>.anyDamage(), <item:celestial_artifacts:purified_powder>]);
 
-
+//潜伏之戒
+recipes.addJsonRecipe("irons_spellbooks.lurker_ring",{ 
+    type:"lychee:item_inside",
+    item_in: { item: "irons_spellbooks:invisibility_ring" },
+    block_in: { blocks: ["minecraft:powder_snow"]},
+    post:  {  type: "drop_item",  item: "irons_spellbooks:lurker_ring", count : 1}
+});
 
 
 

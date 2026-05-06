@@ -2,12 +2,12 @@
   "type": "malum:spirit_infusion",
   "extra_items": [
     {
-      "count": 8,
-      "item": "malum:null_slate"
+      "count": 4,
+      "item": "goety:ice_cube"
     },
     {
-      "count": 4,
-      "item": "stalwart_dungeons:awful_crystal"
+      "count": 1,
+      "item": "bosses_of_mass_destruction:void_thorn"
     },
     {
       "count": 1,
@@ -16,7 +16,7 @@
   ],
   "input": {
     "count": 2,
-    "item": "malum:malignant_pewter_plating"
+    "item": "malum:soul_stained_steel_plating"
   },
   "output": {
     "item": "malstone:breaking_the_weapon"

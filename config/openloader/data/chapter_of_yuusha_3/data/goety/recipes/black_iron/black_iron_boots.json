@@ -25,6 +25,7 @@
     }
   ],
   "result": {
-    "item": "goety:black_iron_boots"
+    "item": "goety:black_iron_boots",
+    "keepingNBT" : true
   }
 }

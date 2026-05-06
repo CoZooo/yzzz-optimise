@@ -6,6 +6,15 @@ import mods.jeitweaker.Jei;
 <item:depthcrawler:redshard>.addTooltip("\u00A7c击杀红玫渊兽、粉樱渊兽必定获得");
 <item:depthcrawler:blackshard>.addTooltip("\u00A7c击杀梦魇渊兽必定获得");
 
+<item:depthcrawler:deep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:electricdeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:reddeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:nightmaredeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:deepling_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:cavedeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:pinkdeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+<item:depthcrawler:oceanicdeep_spawn_egg>.addTooltip("\u00A7c放入神化刷怪笼内会无限生成");
+
 <item:depthcrawler:hauntedclassicplushitem>.removeTooltip("all");
 <item:depthcrawler:bluetenebris>.anyDamage().removeTooltip("user");
 <item:depthcrawler:redtenebris>.anyDamage().removeTooltip("on");

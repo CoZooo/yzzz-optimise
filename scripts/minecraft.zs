@@ -3,6 +3,7 @@ import crafttweaker.api.recipe.Brewing;
 //说明
 <item:minecraft:sea_pickle>.addTooltip("\u00A76生成在暖水海洋或珊瑚礁的珊瑚块");
 <item:minecraft:drowned_spawn_egg>.addTooltip("\u00A7c手持腐烂鱼肉Shift右击炼狱锻炉可回收为溺尸刷怪蛋");
+<item:minecraft:pufferfish_spawn_egg>.addTooltip("\u00A7c手持河豚片Shift右击炼狱锻炉可回收为河豚刷怪蛋");
 <item:minecraft:soul_lantern>.addTooltip("\u00A7c请勿用来调节以下生物的神化刷怪笼，游戏会崩溃");
 <item:minecraft:soul_lantern>.addTooltip("\u00A7e泥峭人等 Mowzies Mobs 模组的生物");
 <item:minecraft:glass_bottle>.addTooltip("\u00A76游泳等技能等级需求详见树海化章节外修技能等任务");
@@ -69,10 +70,9 @@ import crafttweaker.api.recipe.Brewing;
 <item:minecraft:torchflower>.addTooltip("\u00A7e火把花种子可在星河贸易站交易获得");
 <item:minecraft:torchflower>.addTooltip("\u00A76据说在主世界的异端堕落先知或幽匿暗域的先驱者远古工厂建筑内可找到");
 <item:minecraft:torchflower_seeds>.addTooltip("\u00A7e火把花种子可在星河贸易站交易获得");
-<item:minecraft:brush>.addTooltip("\u00A7c用刷子刷可疑的沙子或沙砾有几率获得特定物品，详见上层世界章节");
+<item:minecraft:brush>.addTooltip("\u00A7c用刷子刷可疑沙子或沙砾几率获得特定物品，相关内容详见宝具章节");
 <item:minecraft:brush>.addTooltip("\u00A7e部分物品须佩戴远古甲虫或其上级饰品才会有几率获得");
-<item:minecraft:brush>.addTooltip("\u00A76Jade信息显示模组显示可疑沙子或沙砾的名称与普通沙子或沙砾一样");
-<item:minecraft:brush>.addTooltip("\u00A72刷子现在兼容时运和效率附魔");
+<item:minecraft:brush>.addTooltip("\u00A76刷子现在兼容时运和效率附魔");
 <item:minecraft:pitcher_plant>.addTooltip("\u00A7c用刷子刷古迹废墟里的可疑的沙子或沙砾有较高概率掉落瓶子草荚果");
 <item:minecraft:pitcher_plant>.addTooltip("\u00A7e可佩戴远古甲虫或其上级饰品提高获得几率");
 <item:minecraft:pitcher_plant>.addTooltip("\u00A76在死寂幻乡章节的死寂之海维度的卫城也能获得");
@@ -757,6 +757,10 @@ recipes.addJsonRecipe("suspicious_sand.youkai_shomecoming_2",{
     post:  {  type: "execute",  command: "fill ~ ~ ~ ~ ~ ~ minecraft:suspicious_sand{LootTable:\"yuusha:archaeology/youkai_shomecoming\"} replace minecraft:sand"}
 });
 
+//
+craftingTable.addShapeless("minecraft.paper.simplyswords", <item:minecraft:paper>*3, [<item:patchouli:guide_book>.withTag({"patchouli:book": "simplyswords:runic_grimoire"})]);
+craftingTable.addShapeless("minecraft.paper.irons_spellbooks", <item:minecraft:paper>*3, [<item:patchouli:guide_book>.withTag({"patchouli:book": "irons_spellbooks:iss_guide_book"})]);
+craftingTable.addShapeless("minecraft.paper.ftbquests", <item:minecraft:paper>*3, [<item:ftbquests:book>.transformReplace(<item:minecraft:air>)]);
 
 
 

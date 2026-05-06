@@ -126,11 +126,10 @@ import crafttweaker.api.ingredient.IIngredient;
 
 <item:irons_spellbooks:graybeard_staff>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.graybeard_staff.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:hither_thither_wand>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.hither_thither_wand.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:irons_spellbooks:artificer_cane>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.artificer_cane.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:lightning_rod>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.lightning_rod.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:blood_staff>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.blood_staff.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:ice_staff>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.ice_staff.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:irons_spellbooks:artificer_cane>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.artificer_cane.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
-
 
 <item:irons_spellbooks:graybeard_staff>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.graybeard_staff.2", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:artificer_cane>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.artificer_cane.2", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -145,6 +144,11 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:irons_spellbooks:lightning_rod>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:mana_regen> , "attribute.lightning_rod.3", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:blood_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:mana_regen> , "attribute.blood_staff.3", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:irons_spellbooks:ice_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:mana_regen> , "attribute.ice_staff.3", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+
+<item:irons_spellbooks:lightning_rod>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:fire_spell_power> , "attribute.lightning_rod.4", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:irons_spellbooks:blood_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:ender_spell_power> , "attribute.blood_staff.4", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:irons_spellbooks:blood_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:evocation_spell_power> , "attribute.blood_staff.5", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:irons_spellbooks:ice_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:holy_spell_power> , "attribute.ice_staff.4", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 
 <item:irons_spellbooks:blood_staff>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:spell_power> , "attribute.blood_staff.4", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 

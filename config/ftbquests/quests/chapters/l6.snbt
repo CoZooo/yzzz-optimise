@@ -65,7 +65,7 @@
 				item: "crockpot:crock_pot"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -13.5d
 			y: -12.0d
 		}
 		{
@@ -117,7 +117,7 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: -12.0d
 		}
 		{
@@ -520,25 +520,12 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [
-				{
-					id: "38D75D4B2F9890FE"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_fishing_rod"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4B4356A5FEDAF2CB"
-					item: "aquaculture:tackle_box"
-					type: "item"
-				}
-			]
-			x: 4.5d
+			tasks: [{
+				id: "4B4356A5FEDAF2CB"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: 5.5d
 			y: -12.0d
 		}
 		{
@@ -556,7 +543,7 @@
 				item: "crockpot:portable_crock_pot"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -12.5d
 			y: -12.0d
 		}
 		{
@@ -1834,7 +1821,7 @@
 					type: "item"
 				}
 			]
-			x: -14.5d
+			x: -15.5d
 			y: -12.0d
 		}
 		{
@@ -1886,7 +1873,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: -12.0d
 		}
 		{
@@ -4332,7 +4319,7 @@
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			x: 6.5d
+			x: -9.5d
 			y: -12.0d
 		}
 		{
@@ -4414,99 +4401,7 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["726A05657769A4E6"]
-			description: [
-				"灵梦的大蝴蝶结获取：投喂「灵梦」以妖怪的归家内所有正常食物后，会得到进度——满足的灵梦，并得到灵梦的大蝴蝶结。可在进度中查看投喂的完成度。"
-				""
-				"&6新增获取：完成此任务的幻想乡美食家进度，可以获得该模组灵梦的大蝴蝶结等装备，上述装备需穿戴在头盔处。该进度需要你进食妖怪的归家模组内所有的食物。"
-				""
-				"&c此外，灵梦的大蝴蝶结也能通过击杀妖怪归家模组的Boss获得材料，然后制作获得。"
-				""
-				"&e该成就具体可按默认L键查看成就进度。"
-				""
-				"&3需要先获得妖怪化效果，才会在成就栏里出现投喂灵梦的成就进度。"
-			]
-			icon: {
-				Count: 1
-				id: "youkaishomecoming:reimu_hairband"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "722E79B3E52CAD3A"
-			rewards: [
-				{
-					id: "54572367838A35B0"
-					item: {
-						Count: 1
-						id: "youkaishomecoming:reimu_hairband"
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "50307042DF4EF77C"
-					item: {
-						Count: 1
-						id: "youkaishomecoming:suwako_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0F000F81D5C6199C"
-					item: {
-						Count: 1
-						id: "youkaishomecoming:koishi_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "21D6953E1BA14A04"
-					item: {
-						Count: 1
-						id: "youkaishomecoming:cirno_hairband"
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "76782D2437C782AB"
-					item: {
-						Count: 1
-						id: "youkaishomecoming:rumia_hairband"
-						tag: {
-							Damage: 0
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "youkaishomecoming:main/enthusiastic"
-				criterion: ""
-				id: "4EC111D702F9BA17"
-				type: "advancement"
-			}]
-			x: -15.5d
+			x: -11.5d
 			y: -12.0d
 		}
 		{
@@ -4541,7 +4436,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
+			x: -14.5d
 			y: -12.0d
 		}
 		{
@@ -4598,6 +4493,52 @@
 				}
 			]
 			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["726A05657769A4E6"]
+			description: [
+				"可制作获得。钓具箱可改变鱼竿的部件。"
+				""
+				"&e部分实体鱼类的生成有所限制：八目鳗现在只会生成在河流和冷水区域，章鱼人只会在暖水或沙滩区域生成。"
+				""
+				"&c钓鱼不受上述实体鱼类生成影响。"
+				""
+				"&6要想获得所有水产品模组的鱼，需要在不同的生物群系进行钓鱼（应该是以落竿处判断）。主要包括："
+				""
+				"&6淡水河流（蓝鳃太阳鱼、河鲈鱼、雀鳝、鲈鱼、大梭鱼、褐鲑鱼、鲶鱼、鲤鱼）"
+				""
+				"&6海洋地带（赤点石斑鱼、金枪鱼、水母）"
+				""
+				"&6冷水海洋（鳕鱼、绿鳕、青鱼、粉鲑、虹鳟鱼、黑鱼）"
+				""
+				"&6干旱地带（尼罗河鲈鱼、尼罗罗非鱼、鲿鱼、反游猫鱼）"
+				""
+				"&6沼泽地带（青蛙、水蛭）"
+				""
+				"&6丛林地带（食人鱼、大盖巨脂鲤、巨滑舌鱼）"
+				""
+				"&6蘑菇岛（红杉鱼、褐杉鱼）"
+			]
+			hide_dependency_lines: true
+			id: "4E510ECBFDC3DA02"
+			rewards: [{
+				id: "79D5920A16F57B6B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "705C94ED64BBD4FE"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
 			y: -12.0d
 		}
 	]

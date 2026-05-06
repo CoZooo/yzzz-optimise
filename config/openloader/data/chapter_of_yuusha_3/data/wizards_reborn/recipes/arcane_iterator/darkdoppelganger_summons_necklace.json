@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "darkdoppelganger:summons_necklace",
+    "count": 1
+  },
+  "wissen": 2500,
+  "ingredients": [
+    {
+      "item": "moonstone:the_blood_book"
+    },
+    {
+      "item": "callfromthedepth_:soulbell"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "callfromthedepth_:soullight"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "callfromthedepth_:soulbell"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "callfromthedepth_:soullight"
+    },
+    {
+      "item": "goety:shadow_essence"
+    }
+  ]
+}

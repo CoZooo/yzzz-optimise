@@ -180,6 +180,7 @@ craftingTable.addShapeless("malum.enchanted_book.haunted.10", <item:minecraft:en
 //复制
 craftingTable.addShapeless("malum.hallowed_gold_nugget.copy", <item:malum:hallowed_gold_nugget>*3, [<item:malum:block_of_hallowed_gold>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("malum.soul_stained_steel_nugget.copy", <item:malum:soul_stained_steel_nugget>*3, [<item:malum:block_of_soul_stained_steel>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
+craftingTable.addShapeless("malum.malignant_pewter_nugget.copy", <item:malum:malignant_pewter_nugget>*3, [<item:malum:block_of_malignant_pewter>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 
 //精魂祭坛
 craftingTable.remove(<item:malum:spirit_altar>);
@@ -232,8 +233,8 @@ craftingTable.remove(<item:malum:ornate_necklace>);
 <block:malum:spirit_altar>.explosionResistance = 1200;
 
 //
-stoneCutter.addRecipe("malum.ascension.re", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "malum:ascension"}]}), <item:avaritia:diamond_lattice>);
-stoneCutter.addRecipe("malum.enchanted_book.animated.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "malum:animated"}]}), <item:yuusha:ember_heart>);
+//stoneCutter.addRecipe("malum.ascension.re", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "malum:ascension"}]}), <item:avaritia:diamond_lattice>);
+stoneCutter.addRecipe("malum.enchanted_book.animated.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "malum:animated"}]}), <item:avaritia:diamond_lattice>);
 
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:malum:crude_scythe>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:malum:soul_stained_steel_scythe>);

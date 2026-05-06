@@ -1,0 +1,11 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "minecraft:structure_void"
+    }
+  ],
+  "output": {
+    "item": "immortalers_delight:clear_water_vodka"
+  }
+}
