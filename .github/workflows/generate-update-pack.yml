@@ -107,34 +107,69 @@ jobs:
             RESOLVED="$INPUT_FROM_REF"
             SOURCE="input"
           else
-            TARGET_PAIR="${BASE}+${DLC}"
+            TARGET_PAIR_PLUS="${BASE}+${DLC}"
+            TARGET_PAIR_UNDERSCORE="${BASE}_${DLC}"
             RESOLVED=""
             SOURCE=""
 
+            tag_target_pair() {
+              local tag="$1"
+              if [[ "$tag" == */* ]]; then
+                printf '%s\n' "${tag#*/}"
+                return
+              fi
+              python3 - "$tag" <<'PY'
+          import sys
+
+          tag = sys.argv[1].strip()
+          pair_delimiters = ["+", "_", "@", "~", " "]
+
+          def parse_pair(value):
+              value = (value or "").strip()
+              for delimiter in pair_delimiters:
+                  if delimiter == " ":
+                      parts = value.split()
+                      if len(parts) == 2 and parts[0].strip() and parts[1].strip():
+                          return parts[0].strip(), parts[1].strip()
+                      continue
+                  index = value.find(delimiter)
+                  if 0 < index < len(value) - len(delimiter):
+                      left = value[:index].strip()
+                      right = value[index + len(delimiter):].strip()
+                      if left and right:
+                          return left, right
+              return None
+
+          for index, ch in enumerate(tag):
+              if ch != "-" or index <= 0 or index >= len(tag) - 1:
+                  continue
+              old_pair = parse_pair(tag[:index])
+              new_pair = parse_pair(tag[index + 1:])
+              if old_pair and new_pair:
+                  print(f"{new_pair[0]}_{new_pair[1]}")
+                  sys.exit(0)
+          PY
+            }
+
             while IFS= read -r tag; do
               [ -z "$tag" ] && continue
-              case "$tag" in
-                */*)
-                  right="${tag#*/}"
-                  if [ "$right" = "$TARGET_PAIR" ]; then
-                    RESOLVED="$tag"
-                    SOURCE="target_pair_hot_update_tag"
-                    break
-                  fi
-                ;;
-              esac
+              right="$(tag_target_pair "$tag")"
+              if [ "$right" = "$TARGET_PAIR_PLUS" ] || [ "$right" = "$TARGET_PAIR_UNDERSCORE" ]; then
+                RESOLVED="$tag"
+                SOURCE="target_pair_hot_update_tag"
+                break
+              fi
             done < <(git for-each-ref --sort=-creatordate --format='%(refname:short)' refs/tags)
 
             if [ -z "$RESOLVED" ]; then
               while IFS= read -r tag; do
                 [ -z "$tag" ] && continue
-                case "$tag" in
-                  */*)
-                    RESOLVED="$tag"
-                    SOURCE="latest_hot_update_tag"
-                    break
-                  ;;
-                esac
+                right="$(tag_target_pair "$tag")"
+                if [ -n "$right" ]; then
+                  RESOLVED="$tag"
+                  SOURCE="latest_hot_update_tag"
+                  break
+                fi
               done < <(git for-each-ref --sort=-creatordate --format='%(refname:short)' refs/tags)
             fi
 
@@ -227,7 +262,7 @@ jobs:
       - name: Upload package artifact
         uses: actions/upload-artifact@v4
         with:
-          name: update-package-${{ inputs.platform }}-${{ inputs.base_new }}-${{ inputs.dlc_new }}
+          name: update-package-${{ inputs.platform }}_${{ inputs.base_new }}_${{ inputs.dlc_new }}
           path: |
             ${{ steps.generate.outputs.zip_path }}
             ${{ steps.generate.outputs.summary_path }}

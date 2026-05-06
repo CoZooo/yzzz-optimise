@@ -379,7 +379,7 @@ jobs:
         if: ${{ steps.detect.outputs.changed == 'true' }}
         uses: actions/upload-artifact@v4
         with:
-          name: auto-update-package-${{ steps.detect.outputs.platform }}-${{ steps.detect.outputs.base_new }}-${{ steps.detect.outputs.dlc_new }}
+          name: auto-update-package-${{ steps.detect.outputs.platform }}_${{ steps.detect.outputs.base_new }}_${{ steps.detect.outputs.dlc_new }}
           path: |
             ${{ steps.generate.outputs.zip_path }}
             ${{ steps.generate.outputs.summary_path }}
