@@ -696,7 +696,7 @@ craftingTable.addShaped("irons_spellbooks.scorch.1", <item:irons_spellbooks:scro
 craftingTable.addShaped("irons_spellbooks.scorch.2", <item:irons_spellbooks:scroll>.withTag({ISB_Spells: {maxSpells: 1, mustEquip: 0, data: [{index: 0, id: "irons_spellbooks:scorch", locked: 1, level: 1}], spellWheel: 0}}), [[<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>], [<item:cataclysm:monstrous_horn>, <item:goety:gale_fabric>, <item:cataclysm:monstrous_horn>], [<item:infinite_abyss:flawless_red_crystal>, <item:irons_spellbooks:epic_ink>, <item:infinite_abyss:flawless_red_crystal>]]);
 
 //隐身之戒
-craftingTable.addShaped("irons_spellbooks.scorch.2", <item:irons_spellbooks:invisibility_ring>, [[<item:reliquary:potion_essence>.withTag({effects: [{duration: 500, name: "minecraft:invisibility", potency: 0}]}), <item:minecraft:air>], [<item:minecraft:air>, <item:irons_spellbooks:arcane_salvage>]]);
+craftingTable.addShaped("irons_spellbooks.invisibility_ring", <item:irons_spellbooks:invisibility_ring>, [[<item:reliquary:potion_essence>.withTag({effects: [{duration: 500, name: "minecraft:invisibility", potency: 0}]}), <item:minecraft:air>], [<item:minecraft:air>, <item:irons_spellbooks:arcane_salvage>]]);
 
 //
 craftingTable.remove(<item:irons_spellbooks:energized_core>);

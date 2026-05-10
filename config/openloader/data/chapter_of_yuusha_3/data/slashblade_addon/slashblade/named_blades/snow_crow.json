@@ -2,25 +2,25 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 5
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "enigmaticaddons:frost_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:shadow_touch",
+      "lvl": 5
     },
     {
-      "id": "elementalcombat:ice_aspect",
-      "lvl": 1
+      "id": "enigmaticaddons:frost_aspect",
+      "lvl": 2
     }
   ],
   "name": "slashblade_addon:snow_crow",
   "properties": {
-    "attack_base": 16.0,
-    "max_damage": 32,
+    "attack_base": 26.0,
+    "max_damage": 52,
     "sword_type": [
       "none"
     ],

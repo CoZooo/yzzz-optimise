@@ -10,22 +10,28 @@
       "item": "celestial_core:midnight_fragment"
     },
     "C": {
-      "item": "goety:ice_cube"
+      "item": "hmag:fortune_crystal_plus"
+    },
+    "D": {
+      "item": "forbidden_arcanus:sea_prism"
+    },
+    "F": {
+      "item": "slashblade:proudsoul_crystal"
     },
     "E": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
         "kill": 300,
-        "name": "ak:pocket_knife",
+        "name": "slashblade:fox_black",
         "refine": 3
       }
     }
   },
   "pattern": [
-    "ACB",
+    "AFB",
     "CEC",
-    "BCA"
+    "BDA"
   ],
   "result": {
     "item": "slashblade:slashblade"

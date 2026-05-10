@@ -5,20 +5,28 @@
   "key": {
     "B": {
       "type": "slashblade:blade",
-      "item": "slashblade:slashblade"
+      "item": "slashblade:slashblade",
+      "request": {
+	    "name": "slashblade:rodai_netherite",
+        "kill": 100,
+        "refine": 1
+      }
     },
     "F": {
-      "item": "eidolon:raven_feather"
+      "item": "yuusha:mutant_cube"
     },
     "Q": {
-      "item": "minecraft:polished_blackstone"
+      "item": "slashblade:proudsoul_sphere"
     },
     "S": {
-      "item": "minecraft:blaze_powder"
+      "item": "reliquary:molten_core"
+    },
+    "C": {
+      "item": "eidolon:raven_feather"
     }
   },
   "pattern": [
-    " FQ",
+    " CF",
     "SQ ",
     "B  "
   ],

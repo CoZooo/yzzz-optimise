@@ -2,10 +2,14 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:quick_step_puncture",
       "lvl": 5
     }
   ],

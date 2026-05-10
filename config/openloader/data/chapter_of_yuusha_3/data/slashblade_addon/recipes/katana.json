@@ -4,19 +4,30 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "slashblade:slashblade"
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+	    "name": "slashblade:sabigatana",
+        "kill": 50
+      }
     },
     "P": {
-      "item": "slashblade:proudsoul"
+      "item": "slashblade:proudsoul_ingot"
     },
     "S": {
-      "item": "aether:zanite_sword"
+      "item": "locusazzurro_icaruswings:golden_string"
+    },
+    "W": {
+      "item": "call_of_yucutan:jade_sword"
+    },
+    "C": {
+      "item": "avaritia:diamond_lattice"
     }
   },
   "pattern": [
-    "  P",
+    " CP",
     " B ",
-    "S  "
+    "WS "
   ],
   "result": {
     "item": "slashblade:slashblade"

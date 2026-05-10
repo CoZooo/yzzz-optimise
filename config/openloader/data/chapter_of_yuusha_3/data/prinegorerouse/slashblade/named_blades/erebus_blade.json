@@ -2,23 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
-    },
-    {
-      "id": "minecraft:smite",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
-      "lvl": 5
+      "lvl": 10
     },
     {
-      "id": "minecraft:looting",
+      "id": "celestial_enchantments:fatal_blow",
       "lvl": 3
-    },
-    {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
     }
   ],
   "name": "prinegorerouse:erebus_blade",

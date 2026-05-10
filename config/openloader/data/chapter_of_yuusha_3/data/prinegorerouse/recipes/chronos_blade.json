@@ -7,19 +7,19 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 200,
-        "name": "slashblade_addon:tboen",
-        "refine": 2
+        "kill": 300,
+        "name": "ak:dick_wido",
+        "refine": 3
       }
     },
     "H": {
       "item": "slashblade:proudsoul_crystal"
     },
     "G": {
-      "item": "malum:complete_design"
+      "item": "hmag:fortune_crystal_plus"
     },
     "F": {
-      "item": "bosses_of_mass_destruction:ancient_anima"
+      "item": "forbidden_arcanus:whirlwind_prism"
     }
   },
   "pattern": [

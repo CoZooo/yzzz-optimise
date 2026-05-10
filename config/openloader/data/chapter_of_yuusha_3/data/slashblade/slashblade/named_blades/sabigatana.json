@@ -3,6 +3,10 @@
     {
       "id": "apotheosis:knowledge",
       "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:words_of_wisdom",
+      "lvl": 3
     }
   ],
   "name": "slashblade:sabigatana",

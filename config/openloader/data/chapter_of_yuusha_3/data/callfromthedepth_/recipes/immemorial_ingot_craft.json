@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "abc",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "callfromthedepth_:immemorialscrap"
+    },
+    "b": {
+      "item": "callfromthedepth_:sculkhearth"
+    },
+    "c": {
+      "item": "callfromthedepth_:fullsoul"
+    }
+  },
+  "result": {
+    "item": "callfromthedepth_:immemorialingot",
+    "count": 4
+  }
+}

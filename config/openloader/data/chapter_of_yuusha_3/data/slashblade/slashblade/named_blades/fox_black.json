@@ -2,7 +2,7 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
@@ -10,15 +10,11 @@
     },
     {
       "id": "minecraft:looting",
-      "lvl": 3
+      "lvl": 5
     },
     {
-      "id": "celestial_enchantments:quenched_blade",
+      "id": "celestial_enchantments:light_armor_killer",
       "lvl": 3
-    },
-    {
-      "id": "minecraft:fire_aspect",
-      "lvl": 1
     }
   ],
   "name": "slashblade:fox_black",

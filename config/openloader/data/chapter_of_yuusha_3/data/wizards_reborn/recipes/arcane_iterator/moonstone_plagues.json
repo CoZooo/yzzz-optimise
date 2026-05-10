@@ -1,0 +1,31 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "moonstone:plagues",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "moonstone:plague"
+    },
+    {
+      "item": "moonstone:fungus"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "moonstone:parasite"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "moonstone:virus"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    }
+  ]
+}

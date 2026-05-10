@@ -10,25 +10,22 @@
       "item": "slashblade:proudsoul_trapezohedron"
     },
     "D": {
-      "item": "yuusha:sin_shard_1"
-    },
-    "E": {
-      "item": "ak:dragon_cross"
+      "item": "moonstone:rage_crystal"
     },
     "G": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
         "kill": 500,
-        "name": "ak:yataghans",
+        "name": "slashblade_addon:kamuy_fire",
         "refine": 5
       }
     }
   },
   "pattern": [
-    "ACE",
+    "ACA",
     "DGD",
-    "ECA"
+    "ACA"
   ],
   "result": {
     "item": "slashblade:slashblade"

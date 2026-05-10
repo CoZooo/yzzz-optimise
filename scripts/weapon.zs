@@ -173,7 +173,8 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:aquamirae:whisper_of_the_abyss>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.whisper_of_the_abyss", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:goety:fell_blade>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.fell_blade", -1.4, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-//<item:locusazzurro_icaruswings:nymph_wings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.nymph_wings", -0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:chest>]);
+<item:malstone:wallow_axe>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.wallow_axe.1", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:malstone:wallow_axe>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.wallow_axe.2", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 
 <item:locusazzurro_icaruswings:ikaros_wings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.ikaros_wings", 18.0, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:locusazzurro_icaruswings:melan_wings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.melan_wings", 36.0, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);

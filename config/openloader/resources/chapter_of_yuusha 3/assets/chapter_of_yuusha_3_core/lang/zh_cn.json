@@ -5,8 +5,8 @@
   "enchantment.chapter_of_yuusha_3_core.myth_recycling": "神化回收",
   "enchantment.chapter_of_yuusha_3_core.myth_recycling.desc": "主手持有该附魔击杀实体后将回收掉落的神化装备（不含宝石）",
 	
-  "item.chapter_of_yuusha_3_core.arcane_specialty": "奥术专精",
-  "item.chapter_of_yuusha_3_core.arcane_specialty.tooltip": "佩戴者获得额外最大法力值（法术强度的10%）及铁之咒语伤害提升（最大法力值的0.15），但非铁之咒语伤害降低（50%）",
+  "item.chapter_of_yuusha_3_core.arcane_specialty": "{flow}太阴一明珏{/flow}",
+  "item.chapter_of_yuusha_3_core.arcane_specialty.tooltip": "§7佩戴者只能造成铁之咒语法术伤害，同时获得额外最大法力值及铁之咒语伤害提升",
 
   "item.chapter_of_yuusha_3_core.nine_sword_books": "{flow}九剑·九意{/flow}",
   "item.chapter_of_yuusha_3_core.nine_sword_books.tooltip": "真·九剑归一诀，限·仅使用拔刀剑",

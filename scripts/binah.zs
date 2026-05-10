@@ -15,5 +15,11 @@ craftingTable.addShaped("binah.desert_jade.2", <item:binah:desert_jade>, [[<item
 //
 <item:binah:binah_desert_trophy>.setFireResistant(true);
 
-
+//
+recipes.addJsonRecipe("binah.summon",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "locusazzurro_icaruswings:sapphire_gem" },
+    block_in: "cataclysm:goddess_statue",
+    post:  {  type: "execute",  command: "gamerule binahSpawnSetting 0"}
+});
 

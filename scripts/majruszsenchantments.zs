@@ -4,6 +4,8 @@ craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection
 craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection.15", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "majruszsenchantments:magic_protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>]);
 craftingTable.addShapeless("majruszsenchantments.enchanted_book.magic_protection.20", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: "majruszsenchantments:magic_protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>]);
 
+stoneCutter.addRecipe("majruszsenchantments.enchanted_book.magic_protection.11", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "majruszsenchantments:magic_protection" as string}]}), <item:cataclysm:abyssal_egg>);
+
 
 //诅咒附魔
 stoneCutter.addRecipe("majruszsenchantments.enchanted_book.breaking_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: "majruszsenchantments:breaking_curse" as string}]}), <item:theinkarena:soul_core>);

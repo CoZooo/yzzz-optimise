@@ -1,15 +1,15 @@
 {
   "enchantments": [
     {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 10
+      "id": "minecraft:sharpness",
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "celestial_enchantments:death_blade",
+      "id": "celestial_enchantments:light_armor_killer",
       "lvl": 3
     }
   ],

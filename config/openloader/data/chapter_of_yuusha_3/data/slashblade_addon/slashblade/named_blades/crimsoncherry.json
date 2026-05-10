@@ -2,22 +2,10 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
-    },
-    {
-      "id": "minecraft:smite",
-      "lvl": 10
-    },
-    {
-      "id": "minecraft:bane_of_arthropods",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
-      "lvl": 5
-    },
-    {
-      "id": "apotheosis:scavenger",
       "lvl": 5
     },
     {
@@ -25,11 +13,7 @@
       "lvl": 5
     },
     {
-      "id": "farmersdelight:backstabbing",
-      "lvl": 5
-    },
-    {
-      "id": "celestial_enchantments:death_blade",
+      "id": "celestial_enchantments:misfortune_blade",
       "lvl": 3
     }
   ],

@@ -7,30 +7,28 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 100,
-        "refine": 1
+        "kill": 200,
+        "name": "slashblade_addon:wanderer",
+        "refine": 2
       }
     },
     "B": {
-      "item": "slashblade:proudsoul_ingot"
+      "item": "slashblade:proudsoul_sphere"
     },
     "C": {
       "item": "celestial_core:sakura_steel"
     },
     "D": {
-      "item": "forbidden_arcanus:arcane_crystal_dust"
+      "item": "celestial_core:guardian_ocean_ingot"
     },
     "E": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "F": {
-      "item": "crabbersdelight:pearl"
+      "item": "goety_cataclysm:abyss_essence"
     }
   },
   "pattern": [
     "DBC",
     "BAE",
-    "CEF"
+    "CED"
   ],
   "result": {
     "item": "slashblade:slashblade"

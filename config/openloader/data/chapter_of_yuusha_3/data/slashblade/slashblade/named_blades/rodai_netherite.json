@@ -2,11 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 15
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:knight_slash",
+      "lvl": 3
     }
   ],
   "name": "slashblade:rodai_netherite",

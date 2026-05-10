@@ -1,14 +1,6 @@
 {
   "enchantments": [
     {
-      "id": "minecraft:smite",
-      "lvl": 20
-    },
-    {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 20
-    },
-    {
       "id": "minecraft:sharpness",
       "lvl": 20
     },
@@ -17,8 +9,8 @@
       "lvl": 10
     },
     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
+      "id": "celestial_enchantments:hidden_blade",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:kamuy_fire",

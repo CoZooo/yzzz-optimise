@@ -19,5 +19,7 @@
   "yhc_fix": true,
   "celestial_ench_fix": true,
   "endinglib_fix": true,
-  "eidolon_hearts_fix": true
+  "eidolon_hearts_fix": true,
+  "celestial_forge_fix": true,
+  "lychee_offhand_fix": true
 }

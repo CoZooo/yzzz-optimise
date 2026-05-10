@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_addon:toyako",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 100,
+        "refine": 1
+      }
+    },
+    "D": {
+      "item": "aquaculture:neptunium_ingot"
+    },
+    "S": {
+      "item": "farmersdelight:rice"
+    },
+    "C": {
+      "item": "minecraft:turtle_egg"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "DBD",
+    "SCS"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

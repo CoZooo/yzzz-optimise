@@ -267,14 +267,15 @@ import mods.jeitweaker.Jei;
 <item:goety:sonic_boom_focus>.addTooltip("\u00A73击杀释缚的鹿之精魂有几率获得");
 
 <item:goety:feast_focus>.addTooltip("\u00A72· 3525 基础伤害/段");
-<item:goety:feast_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导4秒后释放，冷却时间0秒，需放入魔杖施法");
+<item:goety:feast_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导4秒后释放，冷却时间0.5秒，需放入魔杖施法");
 <item:goety:feast_focus>.addTooltip("\u00A7c该聚晶为无属性魔法类型伤害");
 <item:goety:feast_focus>.addTooltip("\u00A7e持续施法期间会有多段伤害");
 
 <item:goety:quaking_focus>.addTooltip("\u00A72· 1250 基础伤害");
 <item:goety:quaking_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导0.5秒后释放，冷却时间0.5秒，需放入魔杖施法");
 <item:goety:quaking_focus>.addTooltip("\u00A7e会受到反射精英属性效果，但可享受过量治疗属性");
-<item:goety:quaking_focus>.addTooltip("\u00A7c该聚晶为无属性魔物伤害");
+<item:goety:quaking_focus>.addTooltip("\u00A7c该聚晶为无属性魔法物理伤害");
+<item:goety:quaking_focus>.addTooltip("\u00A73请勿使用地卜魔杖施法，有特性会导致伤害降低");
 
 //击杀永恒苦痛之灵获得
 <item:goety:poison_dart_focus>.addTooltip("\u00A72· 2525 基础伤害");
@@ -434,7 +435,7 @@ import mods.jeitweaker.Jei;
 
 <item:goety:prisma_beam_focus>.addTooltip("\u00A72· 650 基础伤害");
 <item:goety:prisma_beam_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导0.5秒后释放，冷却时间0.5秒，需放入魔杖施法");
-<item:goety:prisma_beam_focus>.addTooltip("\u00A7c该聚晶为水属性魔物类型伤害，同时附加额外不同的伤害类型");
+<item:goety:prisma_beam_focus>.addTooltip("\u00A7c该聚晶为水属性魔法物理类型伤害，同时附加额外不同的伤害类型");
 <item:goety:prisma_beam_focus>.addTooltip("\u00A7e可配合寻位眼镜进行锁定生物");
 <item:goety:tidal_focus>.addTooltip("\u00A72· 525 基础伤害");
 <item:goety:tidal_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导1秒后释放，冷却时间1秒，需放入魔杖施法");

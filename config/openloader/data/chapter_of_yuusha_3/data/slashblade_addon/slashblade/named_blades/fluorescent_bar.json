@@ -2,21 +2,21 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "elementalcombat:light_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:fluorescent_bar",
   "properties": {
-    "attack_base": 17.0,
-    "max_damage": 34,
+    "attack_base": 27.0,
+    "max_damage": 54,
     "sword_type": [
       "none"
     ],

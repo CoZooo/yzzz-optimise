@@ -7,6 +7,8 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:prinegorerouse:fatestar>.addTooltip("\u00A7e击杀呱蛙、爬行、吞噬、啃咬血肉兽必定获得");
 <item:prinegorerouse:fatestar>.addTooltip("\u00A76需用人造血肉组装工具才可生成上述生物");
 <item:prinegorerouse:fatestar>.addTooltip("\u00A7c请勿使用星火燃烧等幻影剑类SA攻击呱蛙、爬行、吞噬、啃咬血肉兽，游戏会崩溃");
+<item:slashblade_useful_addon:soul_crystal>.addTooltip("\u00A7e新增魂缚晶、神锻晶小几率出现在工具、铁匠悬赏内");
+<item:slashblade_useful_addon:god_soul_crystal>.addTooltip("\u00A7e新增魂缚晶、神锻晶小几率出现在工具、铁匠悬赏内");
 
 //拔刀剑
 <item:slashblade:slashblade_wood>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade_wood", 1.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);

@@ -13,5 +13,4 @@ craftingTable.addShaped("summoningrituals.altar.2", <item:summoningrituals:altar
 //<item:summoningrituals:altar>.addTooltip("\u00A7e用秘术粉右击召唤祭坛可将其转化为类似于基岩的不可破坏");
 <item:summoningrituals:altar>.addTooltip("\u00A7e谨慎用秘术粉右击召唤祭坛转化，可能会导致无法破坏");
 <item:summoningrituals:altar>.addTooltip("\u00A7c主手持有虫箭并副手为空时shift右击才能关闭召唤祭坛的方块保护");
-//<item:summoningrituals:altar>.addTooltip("\u00A7c不建议在水中使用，部分怪物在水中可能会导致卡顿");
 <item:summoningrituals:altar>.addTooltip("\u00A72新增在秘法悬赏内有几率出现");

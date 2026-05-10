@@ -7,40 +7,28 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade:yamato",
-        "refine": 5
+        "kill": 100,
+        "name": "slashblade_addon:toyako",
+        "refine": 1
       }
     },
     "A": {
-      "item": "minecraft:clock"
+      "item": "call_of_yucutan:ancient_gold_ingot"
     },
     "B": {
       "item": "shizuku:meow_stone"
     },
-    "C": {
-      "item": "minecraft:redstone_block"
-    },
     "D": {
-      "item": "minecraft:gold_block"
-    },
-    "G": {
-      "item": "minecraft:nether_star"
-    },
-    "H": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:clock"
     },
     "K": {
       "item": "locusazzurro_icaruswings:golden_apple_growth_infused_mead"
-    },
-    "F": {
-      "item": "minecraft:yellow_wool"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "ABA",
+    "DED",
+    "AKA"
   ],
   "result": {
     "item": "slashblade:slashblade"

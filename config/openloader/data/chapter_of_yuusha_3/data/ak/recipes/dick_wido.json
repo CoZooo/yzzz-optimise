@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 400,
-        "name": "ak:yataghans",
-        "refine": 4
+        "kill": 200,
+        "name": "shizuku:tornado_blade",
+        "refine": 2
       }
     },
     "B": {
@@ -22,7 +22,7 @@
       "item": "minecraft:obsidian"
     },
     "F": {
-      "item": "yuusha:tomb_stone"
+      "item": "celestial_core:guardian_ocean_ingot"
     }
   },
   "pattern": [

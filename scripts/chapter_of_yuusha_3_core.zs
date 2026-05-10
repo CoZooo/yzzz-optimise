@@ -10,6 +10,7 @@ import crafttweaker.api.item.property.Rarity;
 <tag:items:curios:ring>.add(<item:chapter_of_yuusha_3_core:cy3_excessive_treatment>);
 <tag:items:curios:back>.remove(<item:chapter_of_yuusha_3_core:recoil_absorber>);
 <tag:items:curios:two>.add(<item:chapter_of_yuusha_3_core:recoil_absorber>);
+<tag:items:curios:god_hand>.add(<item:chapter_of_yuusha_3_core:arcane_specialty>);
 
 //时之沙漏
 craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:chapter_of_yuusha_3_core:excessive_treatment>, [[<item:cataclysm:lacrima>, <item:yuusha:bless_core>.reuse(), <item:cataclysm:lacrima>], [<tag:items:locusazzurro_icaruswings:world_essences>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <tag:items:locusazzurro_icaruswings:world_essences>], [<item:cataclysm:lacrima>, <item:yuusha:bless_star>, <item:cataclysm:lacrima>]]);

@@ -2,26 +2,30 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 20
+      "lvl": 100
     },
     {
       "id": "enigmaticlegacy:slayer",
-      "lvl": 20
+      "lvl": 100
     },
     {
       "id": "minecraft:looting",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 10
+    },
+    {
+      "id": "majruszsenchantments:death_wish",
+      "lvl": 1
     }
   ],
   "name": "prinegorerouse:chronosn_blade",
   "properties": {
-    "attack_base": 1000.0,
-    "max_damage": 2000,
-    "slash_art": "ak:bloodsucking_sickle",
+    "attack_base": 250.0,
+    "max_damage": 500,
+    "slash_art": "shizuku:teleport_slash",
     "special_effects": [
       "prinegorerouse:oracle",
       "prinegorerouse:absolute_power"

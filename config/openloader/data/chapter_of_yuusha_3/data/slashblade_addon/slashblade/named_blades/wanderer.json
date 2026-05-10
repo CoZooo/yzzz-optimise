@@ -2,19 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "majruszsenchantments:leech",
-      "lvl": 1
-    },
-    {
-      "id": "elementalcombat:wind_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:wanderer",

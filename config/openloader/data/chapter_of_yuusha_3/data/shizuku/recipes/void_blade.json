@@ -7,40 +7,31 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:tboen",
-        "refine": 5
+        "kill": 400,
+        "name": "ak:pocket_knife",
+        "refine": 4
       }
     },
-    "A": {
-      "item": "minecraft:obsidian"
-    },
-    "B": {
-      "item": "shizuku:meow_stone"
-    },
     "C": {
-      "item": "minecraft:crying_obsidian"
-    },
-    "D": {
-      "item": "minecraft:gold_block"
+      "item": "yuusha:chaos_ingot"
     },
     "G": {
-      "item": "minecraft:end_stone"
+      "item": "slashblade:proudsoul_crystal"
     },
-    "H": {
-      "item": "minecraft:netherite_ingot"
+    "L": {
+      "item": "callfromthedepth_:soulbell"
     },
-    "K": {
-      "item": "minecraft:dragon_breath"
+    "P": {
+      "item": "celestial_artifacts:nebula_cube"
     },
-    "F": {
-      "item": "minecraft:black_wool"
+    "D": {
+      "item": "apotheosis:infused_breath"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "DLC",
+    "GEG",
+    "CPD"
   ],
   "result": {
     "item": "slashblade:slashblade"

@@ -251,13 +251,13 @@
 		[coreSettings.CY3_curiosSettings.arcane_specialty]
 			#佩戴者造成的非铁魔法来源伤害降低 0.5D 表示降低50%，可以负数
 			#Range: -1.7976931348623157E308 ~ 1.0
-			nonSpellDamageReductionRatio = 0.5
+			nonSpellDamageReductionRatio = 0.0
 			#伤害加成系数， 0.15D 表示每有100点最大法力值增加 15% 的铁魔法来源伤害
 			#Range: 0.0 ~ 1.7976931348623157E308
-			spellDamageBonusPerMana = 0.15
+			spellDamageBonusPerMana = 0.03
 			#最大法力值加成系数,基于法术强度 0.1D 表示每点法术强度为最大法力值提供10%的乘区
 			#Range: 0.0 ~ 1.7976931348623157E308
-			maxManaBonusPerSpellMana = 0.1
+			maxManaBonusPerSpellMana = 0.01
 
 	#药水效果配置
 	[coreSettings.mobEffectSettings]

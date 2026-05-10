@@ -5,16 +5,12 @@
       "lvl": 20
     },
     {
-      "id": "minecraft:looting",
-      "lvl": 10
-    },
-    {
       "id": "minecraft:power",
       "lvl": 10
     },
     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 5
+      "id": "celestial_enchantments:fierce_slash",
+      "lvl": 3
     }
   ],
   "item": "slashblade:slashblade",

@@ -8,7 +8,7 @@
       "item": "slashblade:slashblade",
       "request": {
         "kill": 200,
-        "name": "slashblade:sabigatana",
+        "name": "slashblade_addon:fluorescent_bar",
         "refine": 2
       }
     },
@@ -16,13 +16,13 @@
       "item": "aether:enchanted_berry"
     },
     "B": {
-      "item": "cataclysm:essence_of_the_storm"
+      "item": "avaritia:crystal_matrix_ingot"
     },
     "C": {
       "item": "wizards_reborn:shiny_clover"
     },
     "D": {
-      "item": "enigmaticaddons:ichor_droplet"
+      "item": "cataclysm:essence_of_the_storm"
     },
     "F": {
       "item": "minecraft:echo_shard"

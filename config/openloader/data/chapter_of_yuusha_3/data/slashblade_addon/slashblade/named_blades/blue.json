@@ -2,19 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
-    },
-    {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 5
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "enigmaticaddons:frost_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:quick_step_puncture",
+      "lvl": 5
     }
   ],
   "name": "slashblade_addon:blue",

@@ -5,15 +5,11 @@
       "lvl": 20
     },
     {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 20
-    },
-    {
       "id": "minecraft:power",
       "lvl": 10
     },
     {
-      "id": "celestial_enchantments:hidden_blade",
+      "id": "celestial_enchantments:fatal_blow",
       "lvl": 3
     }
   ],

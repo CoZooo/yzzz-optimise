@@ -10,18 +10,18 @@
     },
     {
       "id": "minecraft:power",
-      "lvl": 10
+      "lvl": 5
     },
     {
-      "id": "elementalcombat:wind_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:death_blade",
+      "lvl": 5
     }
   ],
   "item": "slashblade:slashblade",
   "name": "shizuku:tornado_blade",
   "properties": {
-    "attack_base": 23.0,
-    "max_damage": 560,
+    "attack_base": 33.0,
+    "max_damage": 66,
     "slash_art": "shizuku:tornado_slash",
     "special_effects": [
       "shizuku:shizuku"

@@ -2,19 +2,19 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 20
+      "lvl": 100
     },
     {
       "id": "enigmaticlegacy:slayer",
-      "lvl": 20
+      "lvl": 100
     },
     {
       "id": "minecraft:power",
-      "lvl": 20
+      "lvl": 100
     },
     {
       "id": "chapter_of_yuusha_3_core:magic_energy",
-      "lvl": 20
+      "lvl": 100
     }
   ],
   "name": "rough_blade:the_waning_moon",

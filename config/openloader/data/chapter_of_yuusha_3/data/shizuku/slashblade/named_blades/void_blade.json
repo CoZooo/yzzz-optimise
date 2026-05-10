@@ -5,12 +5,16 @@
       "lvl": 20
     },
     {
-      "id": "minecraft:looting",
+      "id": "minecraft:power",
       "lvl": 10
     },
     {
-      "id": "minecraft:power",
-      "lvl": 10
+      "id": "celestial_enchantments:void_chain",
+      "lvl": 3
+    },
+    {
+      "id": "celestial_enchantments:destruction_crack",
+      "lvl": 3
     }
   ],
   "item": "slashblade:slashblade",

@@ -13,15 +13,25 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 200,
-        "refine": 2
+        "kill": 300,
+		"name": "slashblade:fox_white",
+        "refine": 3
       }
+    },
+    "F": {
+      "item": "forbidden_arcanus:smelter_prism"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
+    },
+    "H": {
+      "item": "hmag:fortune_crystal_plus"
     }
   },
   "pattern": [
-    "DED",
-    "EBE",
-    "DED"
+    "DGE",
+    "HBH",
+    "EFD"
   ],
   "result": {
     "item": "slashblade:slashblade"

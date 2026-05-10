@@ -5,19 +5,27 @@
   "key": {
     "B": {
       "type": "slashblade:blade",
-      "item": "slashblade:slashblade"
+      "item": "slashblade:slashblade",
+      "request": {
+	    "name": "slashblade:rodai_iron",
+        "kill": 100,
+        "refine": 1
+      }
     },
     "P": {
       "item": "forbidden_arcanus:deorum_glass"
     },
     "S": {
-      "item": "slashblade:proudsoul"
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "item": "yuusha:mutant_cube"
     }
   },
   "pattern": [
-    " PS",
+    "CPS",
     "PBP",
-    "SP "
+    "SPC"
   ],
   "result": {
     "item": "slashblade:slashblade"

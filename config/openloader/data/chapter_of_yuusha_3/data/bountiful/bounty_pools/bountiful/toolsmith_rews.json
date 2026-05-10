@@ -128,6 +128,28 @@
 			"unitWorth": 25000
 		},
 
+		"toolsmith_rew_soul_crystal": {
+			"type": "item",
+			"content": "slashblade_useful_addon:soul_crystal",
+			"rarity": "EPIC",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 120000
+		},
+
+        "toolsmith_rew_god_soul_crystal": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "slashblade_useful_addon:god_soul_crystal",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 320000
+        },
+
         "toolsmith_rew_hook_bell": {
             "type": "item",
 			"rarity": "UNCOMMON",

@@ -1,7 +1,11 @@
 {
   "schemaVersion": 2,
   "items": [
-    "avaritia:infinity_chestplate"
+    "slashblade:slashblade_wood",
+    "slashblade:slashblade_bamboo",
+    "slashblade:slashblade_silverbamboo",
+    "slashblade:slashblade_white",
+    "slashblade:slashblade"
   ],
   "incompatible": [
     "celestial_enchantments:flame_strike",

@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "ak:dragon_cross"
+    "item": "locusazzurro_icaruswings:philosopher_stone"
   },
   "result": {
     "item": "ak:gem",
     "count": 2
   },
-  "experience": 0.1,
+  "experience": 1,
   "cookingtime": 200
 }

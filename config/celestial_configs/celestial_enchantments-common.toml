@@ -13,7 +13,7 @@
 		clusterAwarenessRadius = 12
 		#Death Blade: Can increase attack damage equivalent to the maximum life of the target
 		#Range: 0.0 ~ 1.0
-		deathBladePercentDamage = 0.05
+		deathBladePercentDamage = 0.02
 		#Death Blow: How much critical damage attribute can be increased
 		#Range: 0.0 ~ 1024.0
 		deathBlowAttribute = 0.15
@@ -49,19 +49,19 @@
 		quenchedBladeMaxFire = 30
 		#Quick Step Puncture: How much damage can each level increase
 		#Range: 0.0 ~ 1024.0
-		quickStepPunctureDamage = 0.16
+		quickStepPunctureDamage = 0.2
 		#Quick Step Puncture: How much force will be used to repel the target
 		#Range: 0.0 ~ 1024.0
-		quickStepPunctureKnockback = 0.3
+		quickStepPunctureKnockback = 0.0
 		#Revenge: How much damage can each level increase
 		#Range: 0.0 ~ 1024.0
 		revengeDamage = 0.1
 		#Shadow Touch: When the brightness is below what level, it will trigger additional damage
 		#Range: 1 ~ 15
-		shadowTouchBrightness = 7
+		shadowTouchBrightness = 15
 		#Shadow Touch: How many additional Abyss damage can be caused
 		#Range: 0 ~ 1024
-		shadowTouchDamage = 100
+		shadowTouchDamage = 1000
 		#Suppression Blade: Suppressed effect duration per level in seconds
 		#Range: 0 ~ 1024
 		suppressionBladeEffectDuration = 0
@@ -76,7 +76,7 @@
 		upwardPickEffectDuration = 1
 		#Vampire Slash: How many attack damage points can you heal after an attack
 		#Range: 0.0 ~ 10.0
-		vampireSlashHealRate = 0.01
+		vampireSlashHealRate = 0.1
 		#Void Chain: Causing damage equivalent to attack damage to targets around the target
 		#Range: 0.0 ~ 10.0
 		voidChainSpread = 0.1

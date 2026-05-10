@@ -7,40 +7,28 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:tboen",
-        "refine": 5
+        "kill": 100,
+        "name": "slashblade_addon:katana",
+        "refine": 1
       }
     },
     "A": {
-      "item": "minecraft:diamond_block"
+      "item": "eidolon:death_essence"
     },
     "B": {
       "item": "shizuku:meow_stone"
     },
-    "C": {
-      "item": "minecraft:iron_block"
-    },
     "D": {
-      "item": "minecraft:gold_block"
-    },
-    "G": {
-      "item": "minecraft:netherite_block"
-    },
-    "H": {
-      "item": "minecraft:netherite_ingot"
+      "item": "slashblade:proudsoul_sphere"
     },
     "K": {
-      "item": "minecraft:totem_of_undying"
-    },
-    "F": {
-      "item": "minecraft:red_wool"
+      "item": "yuusha:mutant_cube"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "ABA",
+    "DED",
+    "AKA"
   ],
   "result": {
     "item": "slashblade:slashblade"

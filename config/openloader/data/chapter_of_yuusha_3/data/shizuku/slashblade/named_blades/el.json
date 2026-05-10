@@ -2,7 +2,7 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:looting",
@@ -13,12 +13,8 @@
       "lvl": 5
     },
     {
-      "id": "celestial_enchantments:misfortune_blade",
+      "id": "celestial_enchantments:fierce_slash",
       "lvl": 3
-    },
-    {
-      "id": "elementalcombat:thunder_aspect",
-      "lvl": 1
     }
   ],
   "item": "slashblade:slashblade",

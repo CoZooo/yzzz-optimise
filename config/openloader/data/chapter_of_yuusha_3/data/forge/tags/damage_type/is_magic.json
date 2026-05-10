@@ -45,6 +45,7 @@
     "cataclysm:lightning",
     "minecraft:mob_attack",
     "minecraft:mob_projectile",
-    "minecraft:fireball"
+    "minecraft:fireball",
+    "celestial_core:abyssal_magic"
   ]
 }

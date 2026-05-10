@@ -4,17 +4,13 @@
   "category": "equipment",
   "key": {
     "B": {
-      "type": "slashblade:blade",
-      "item": "slashblade:slashblade",
-      "request": {
-        "kill": 200
-      }
+      "item": "slashblade:slashblade"
     },
     "D": {
-      "item": "embers:reinforced_sealed_planks"
+      "item": "born_in_chaos_v1:pileof_dark_metal"
     },
     "S": {
-      "item": "minecraft:iron_ingot"
+      "item": "slashblade:proudsoul"
     }
   },
   "pattern": [

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": { "item": "ak:dragon_cross" },
+  "ingredient": { "item": "locusazzurro_icaruswings:philosopher_stone" },
   "result":{
     "item":"ak:gem",
     "count": 2

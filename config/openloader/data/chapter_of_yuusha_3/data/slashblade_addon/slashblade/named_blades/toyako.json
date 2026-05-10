@@ -1,19 +1,19 @@
 {
   "enchantments": [
     {
-      "id": "minecraft:sharpness",
-      "lvl": 1
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 10
     },
     {
       "id": "minecraft:power",
-      "lvl": 1
+      "lvl": 5
     }
   ],
   "name": "slashblade_addon:toyako",
   "properties": {
     "attack_base": 13.0,
     "max_damage": 26,
-    "slash_art": "ak:liulifan_city",
+    "slash_art": "slashblade:piercing",
     "sword_type": [
       "none"
     ]

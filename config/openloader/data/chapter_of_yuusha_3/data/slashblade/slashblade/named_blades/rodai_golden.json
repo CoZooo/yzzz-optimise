@@ -2,21 +2,21 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "majruszsenchantments:leech",
-      "lvl": 1
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 3
     }
   ],
   "name": "slashblade:rodai_golden",
   "properties": {
-    "attack_base": 18.0,
-    "max_damage": 36,
+    "attack_base": 23.0,
+    "max_damage": 46,
     "slash_art": "ak:liulifan_city"
   },
   "render": {

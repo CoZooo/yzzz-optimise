@@ -7,23 +7,26 @@
       "item": "slashblade:proudsoul_crystal"
     },
     "B": {
-      "item": "goety:cursed_ingot"
+      "item": "cataclysm:ancient_metal_ingot"
     },
     "C": {
-      "item": "bosses_of_mass_destruction:void_thorn"
+      "item": "forbidden_arcanus:terrastomp_prism"
+    },
+    "E": {
+      "item": "cataclysm:sandstorm_in_a_bottle"
     },
     "D": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
         "kill": 300,
-        "name": "slashblade:sabigatana",
+        "name": "ak:yataghans",
         "refine": 3
       }
     }
   },
   "pattern": [
-    "ABB",
+    "ABE",
     "BCB",
     "DBA"
   ],

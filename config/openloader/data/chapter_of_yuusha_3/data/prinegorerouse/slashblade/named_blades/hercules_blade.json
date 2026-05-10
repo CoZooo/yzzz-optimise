@@ -5,23 +5,12 @@
       "lvl": 20
     },
     {
-      "id": "minecraft:smite",
-      "lvl": 20
-    },
-    {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 10
-    },
-    {
       "id": "minecraft:power",
       "lvl": 10
     },
     {
-      "id": "elementalcombat:light_aspect",
-      "lvl": 1
-    },
-    {
-      "id": "minecraft:fire_protection"
+      "id": "celestial_enchantments:magic_blade",
+      "lvl": 3
     }
   ],
   "name": "prinegorerouse:hercules_blade",

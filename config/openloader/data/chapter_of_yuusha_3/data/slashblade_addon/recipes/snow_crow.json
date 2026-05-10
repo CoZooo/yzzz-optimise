@@ -5,20 +5,28 @@
   "key": {
     "B": {
       "type": "slashblade:blade",
-      "item": "slashblade:slashblade"
+      "item": "slashblade:slashblade",
+      "request": {
+	    "name": "slashblade_addon:blue",
+        "kill": 100,
+        "refine": 1
+      }
     },
     "F": {
-      "item": "minecraft:feather"
+      "item": "yuusha:mutant_cube"
     },
     "Q": {
-      "item": "minecraft:quartz_block"
+      "item": "slashblade:proudsoul_sphere"
     },
     "S": {
-      "item": "minecraft:snowball"
+      "item": "relics:solid_snowball"
+    },
+    "C": {
+      "item": "minecraft:feather"
     }
   },
   "pattern": [
-    " FQ",
+    " CF",
     "SQ ",
     "B  "
   ],

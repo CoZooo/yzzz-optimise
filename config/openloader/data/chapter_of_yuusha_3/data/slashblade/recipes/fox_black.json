@@ -4,7 +4,7 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "mowziesmobs:grant_suns_blessing"
+      "item": "goety:ominous_orb"
     },
     "C": {
       "type": "slashblade:blade",
@@ -12,7 +12,7 @@
       "request": {
         "name": "slashblade_addon:dark_raven",
         "kill": 200,
-        "refine": 1  
+        "refine": 2
       }
     },
     "E": {

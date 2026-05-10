@@ -7,20 +7,22 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 200
+        "kill": 300,
+        "name": "slashblade_addon:aquablaze",
+        "refine": 3
       }
     },
     "D": {
-      "item": "minecraft:book"
+      "item": "forbidden_arcanus:smelter_prism"
     },
     "I": {
-      "item": "slashblade:proudsoul_ingot"
+      "item": "hmag:fortune_crystal_plus"
     },
     "N": {
-      "tag": "forge:gems/quartz"
+      "item": "yuusha:ink_heart"
     },
     "S": {
-      "item": "slashblade:proudsoul_sphere"
+      "item": "slashblade:proudsoul_crystal"
     }
   },
   "pattern": [

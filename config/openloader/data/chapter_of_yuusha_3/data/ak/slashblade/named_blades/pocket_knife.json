@@ -2,11 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
-      "lvl": 10
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:revenge",
+      "lvl": 3
     }
   ],
   "name": "ak:pocket_knife",

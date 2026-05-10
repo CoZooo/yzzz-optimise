@@ -66,14 +66,23 @@
         "refine": 5
       }
     },
+    "I": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 500,
+        "name": "shizuku:teleport_blade",
+        "refine": 5
+      }
+    },
     "H": {
-      "item": "prinegorerouse:chronos"
+      "item": "yuusha:soul_stone_2"
     }
   },
   "pattern": [
     "ABC",
-    "HDH",
-    "EFG"
+    "FHD",
+    "EIG"
   ],
   "result": {
     "item": "slashblade:slashblade"

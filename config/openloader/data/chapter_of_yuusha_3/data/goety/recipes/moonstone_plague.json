@@ -2,7 +2,7 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "moonstone:bloodvirus"
+    "item": "moonstone:nightmare_base_stone_virus"
   },
   "craftType": "necroturgy",
   "research": "forbidden",

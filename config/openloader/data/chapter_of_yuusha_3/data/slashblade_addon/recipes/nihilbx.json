@@ -7,25 +7,28 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 400,
         "name": "slashblade_addon:crimsoncherry",
-        "refine": 5
+        "refine": 4
       }
     },
     "D": {
       "item": "moonstone:blood_jelly"
     },
     "B": {
-      "item": "eeeabsmobs:heart_of_pagan"
+      "item": "celestial_artifacts:nebula_cube"
     },
     "S": {
-      "item": "slashblade:proudsoul_trapezohedron"
+      "item": "whisperwoods:hirschgeist_skull"
+    },
+    "G": {
+      "item": "slashblade:proudsoul_crystal"
     }
   },
   "pattern": [
     "DSD",
     "BCB",
-    "DSD"
+    "DGD"
   ],
   "result": {
     "item": "slashblade:slashblade"

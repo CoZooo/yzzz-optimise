@@ -34,13 +34,15 @@
 		{
 			dependencies: ["4EABF5BDEB72041C"]
 			description: [
-				"基础设定：此世界线玩家将会绑定九剑归一诀、万象模板，并可以制作专属拔刀剑。"
+				"基础设定：剑仙世界线玩家将会绑定九剑归一诀、万象模板，并可以制作专属拔刀剑。"
 				""
 				"&e拔刀剑材质：默认为简化材质。按“Alt”键可以暂时显示拔刀剑的材质。默认按“=”键可切换是否常规显示拔刀剑的材质。"
 				""
 				"&c请勿给女仆拔刀剑进行攻击，可能会导致游戏崩溃。"
 				""
 				"&6此路线开局发展极为艰难，但度过前期后较为简单。"
+				""
+				"&5玩家也可在魔爆章节内舍弃仙缘而选择堕魔线。"
 			]
 			id: "3F9144237DCDF44B"
 			rewards: [{
@@ -60,15 +62,15 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"名刀「银纸竹光」为魔法攻击类型，可给予目标化魂状态，以收割精魂，及获得粗制镰刀的特殊掉落物。此外攻击还附带魔法伤害。"
+				"名刀「银纸竹光」可给予目标化魂状态，获得粗制镰刀的特殊掉落物。此外攻击还附带魔法伤害。"
 				""
-				"&6利用此刀合成的后续拔刀剑不再具有化魂的能力。"
+				"&6利用此刀合成的后续拔刀剑不再具有化魂的能力。大部分魔伤SA不享受星月附魔的加成。"
 				""
 				"&c名刀「银纸竹光」在耐久归零后不会消失，而是会处于断刀状态。"
 				""
 				"&e魔伤剑的制作要求，一般只需要耀魂数和/或锻造数。"
 				""
-				"&2魔伤路线还需要暴食效果来增加魔法伤害。相关内容详见魔爆章节的炼金小瓶和暴食聚液任务。"
+				"&2魔伤路线还需要暴食效果来增加魔法伤害，相关内容详见魔爆章节的炼金小瓶和暴食聚液等任务。"
 			]
 			icon: "eidolon:silver_ingot"
 			id: "7F8988206F5785D9"
@@ -138,17 +140,15 @@
 		{
 			dependencies: ["67C6921D453977A8"]
 			description: [
-				"制作出来的无铭刀「木偶」为无限耐久，只有无铭刀「木偶」才会无限耐久。为锤击攻击类型，攻击会附加火焰伤害。"
+				"有且只有无铭刀「木偶」制作出来后默认为无限耐久。无铭刀「木偶」攻击会附加火焰伤害。"
 				""
-				"&6第一把拔刀剑最好用来制作名刀「银纸竹光」来刷精魂。"
+				"&6可优先制作名刀「银纸竹光」来刷取精魂。"
 				""
-				"&e拔刀剑具有近战必杀伤害属性，玩家在前期的近战暴击率较低，但是可通过跳劈、御空刀舞来必定触发暴击。"
-				""
-				"&c需注意，包括此任务在内，拔刀剑的模型在任务中可能不显示，但是可以左击查看合成。"
+				"&e拔刀剑具有近战必杀伤害属性，玩家前期近战暴击率较低，但是可通过跳劈、御空刀舞来必定触发必杀暴击。"
 				""
 				"&3此整合包默认的特殊行动键为G键。更多剑技可在L键进度内查看。"
 				""
-				"&2瞬步：Shift键+W键+G键，可瞬移到目标跟前。"
+				"&c瞬步：Shift键+W键+G键，可瞬移到目标跟前。"
 			]
 			icon: "minecraft:oak_log"
 			id: "44B24250ADB545EE"
@@ -219,11 +219,11 @@
 			description: [
 				"锈蚀古刀可以通过考古获得。"
 				""
-				"&6拔刀剑的评分会增加伤害，在B级时大概是无评分时2倍伤害，而在最高SSS级时大概是B级时2倍伤害。"
+				"&6拔刀剑的评分会增加伤害，在B级时大概是无评分时2倍伤害，而在最高SSS级时大概是无评分时4倍伤害。"
 				""
 				"&c拔刀剑虽然能放在副手，但不建议放在副手，可能会有崩溃特性。"
 				""
-				"&e开局任务的武器可拆解为伪·失落之剑。"
+				"&e开局树海化章节任务奖励的部分武器可拆解为伪·失落之剑。"
 			]
 			id: "67C6921D453977A8"
 			rewards: [{
@@ -695,15 +695,17 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"利刀「白鞘」为刺击攻击类型，攻击附加火焰伤害。"
+				"利刀「白鞘」攻击附加火焰伤害。"
 				""
 				"&3物伤剑的制作要求，一般只需要杀敌数和/或锻造数。"
 				""
 				"&2利刀「白鞘」在耐久归零后不会消失，而是会处于断刀状态。"
 				""
-				"&6物伤剑的输出能力远低于魔伤剑，但是部分物伤剑有特殊附魔，可以方便击杀小怪、获取材料。"
+				"&6物伤剑的输出路线主要是累加不同武器上的附魔，使用右击攻击和特定的强力剑技，大部分物伤SA伤害较低。"
 				""
 				"&e利用利刀「白鞘」可获得各种需要小刀击杀的掉落物，比如疣猪兽精皮等。"
+				""
+				"&5物伤剑流程尚未完善，可能存在无法通关的特性。"
 				"{@pagebreak}"
 			]
 			icon: "minecraft:iron_ingot"
@@ -904,15 +906,16 @@
 		{
 			dependencies: ["44A7D447271555CC"]
 			description: [
-				"无铭「无名」等其余拔刀剑为斩击攻击类型。"
+				"平突SA包括：无铭「无名」、「击柝」露台、「锐岩」露台、木刀「铁刀木」、洞爷湖。"
 				""
-				"&e除了制作外，也可用任意两把封刀、妖刀、印刀在工作台中合成获得。"
+				"&e除了直接制作外，也可用任意两把封刀、妖刀、印刀在工作台中无序合成获得无铭「无名」。"
 				""
-				"&6「击柝」露台、「锐岩」露台、木刀「铁刀木」、锈刀、神威刀「虎杖丸」的默认SA均为平突。"
+				"&c无铭「无名」等高级拔刀剑在耐久归零后不会消失，而是会处于断刀状态。"
 				""
-				"&c无铭「无名」在耐久归零后不会消失，而是会处于断刀状态。"
+				"&6连击B连：右击三下后，停顿后重复右击，即可释放，具有较高的伤害。"
 				""
-				"&3连击B连：右击三下后，停顿后重复右击，即可释放，具有较高的伤害。"
+				"&3洞爷湖：与特定村民（武器匠）交易获得。"
+				"{@pagebreak}"
 			]
 			icon: "graveyard:dark_iron_ingot"
 			id: "125E74E3A65100C1"
@@ -921,7 +924,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：平突"
+			subtitle: "SA：平突 "
 			tasks: [
 				{
 					id: "660C5A57AD1B23DF"
@@ -960,12 +963,345 @@
 						id: "slashblade:slashblade"
 						tag: { }
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
-					id: "7F4A5C6E79073C43"
-					item: "graveyard:dark_iron_ingot"
+					id: "02632F9DE6AF3CC1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -7911393
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_wooden.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 12.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 24
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_wooden"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -7911393
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_wooden.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 12.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 24
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_wooden"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "4BE5CF0D51FD25B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_stone.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 16.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 32
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_stone"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_stone.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 16.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 32
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_stone"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2AC2542FB96BAFDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/tagayasan.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 18.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 36
+								proudSoul: 0
+								translationKey: "item.slashblade.tagayasan"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/tagayasan.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 18.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 36
+								proudSoul: 0
+								translationKey: "item.slashblade.tagayasan"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "19497BE98DD4D139"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/toyako/toyako.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -5251100
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/toyako/toyako.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 13.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 26
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.toyako"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "enigmaticlegacy:slayer"
+									lvl: 10s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/toyako/toyako.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:piercing"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -5251100
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/toyako/toyako.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 13.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 26
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.toyako"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "无铭「无名」"
@@ -975,34 +1311,35 @@
 		{
 			dependencies: ["44B24250ADB545EE"]
 			description: [
-				"此路线无法使用除拔刀剑以外的武器。"
+				"此路线无法使用除拔刀剑以外的武器。。"
 				""
-				"&e精魂、疣猪兽精皮、灵魂等材料，都有特定的获取方式，详见此章节后续其它任务。"
-				""
-				"&c此任务仅用作警示！"
+				"&6精魂、疣猪兽精皮、灵魂等材料，都有特定的获取方式，详见此章节无铭刀「竹光」、利刀「白鞘」、名刀「银纸竹光」任务。"
 			]
+			icon: "malum:infernal_spirit"
 			id: "3E9C9B72F47CCC77"
 			rewards: [{
 				id: "1C4FECBDDE5F07D3"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "76E735E9BA6F37AB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "simplyswords:empowered_remnant"
+			tasks: [
+				{
+					id: "76E735E9BA6F37AB"
+					item: "malum:astral_weave"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2061131ABCE163C3"
+					item: "forbidden_arcanus:soul"
+					type: "item"
+				}
+				{
+					id: "7CBB3EE3AC09A071"
+					item: "nethersdelight:hoglin_hide"
+					type: "item"
+				}
+			]
+			title: "特定材料获取"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -1431,13 +1768,13 @@
 		{
 			dependencies: ["67C6921D453977A8"]
 			description: [
-				"拔刀剑分类：可根据SA分类为&c物伤剑&r和&b魔伤剑&r。所有物伤剑均自带&c力量&r附魔，而所有魔伤剑均自带&b魔灵&r附魔，混伤剑则两种附魔均有。"
+				"拔刀剑分类：可根据输出路线分为&c物伤剑&r和&b魔伤剑&r。所有物伤剑自带&c力量&r附魔，而所有魔伤剑自带&b魔灵&r附魔。"
 				""
-				"&6剑意：释放SA需要消耗剑意（显示在饱食度上方），剑意上限可通过穿戴此路线专属盔甲增加。"
+				"&6剑意：释放SA需要消耗剑意（显示在饱食度上方），剑意上限可通过穿戴专属盔甲增加。"
 				""
-				"&e剑意回复：可自然回复，用拔刀剑近战攻击也可回复，评分越高回复越多。"
+				"&e剑意回复：可自然回复，用拔刀剑近战攻击也可回复，评分越高回复越多，剑道越高回复越多。"
 				""
-				"&2特殊附魔：部分拔刀剑上会有平时无法获得的附魔，请勿取下，否则无法再打上附魔。"
+				"&2特殊附魔：部分拔刀剑上会有平时无法获得的或者互相冲突的附魔，取下后会无法再打上附魔。背刺附魔只有无铭「无名」级别以上的魔伤或物伤剑才能直接附魔。"
 				""
 				"&5剑气：当耀魂数在1000以上且有较高评分时，拔刀剑右击会附带魔伤剑气。"
 			]
@@ -1871,11 +2208,11 @@
 		{
 			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"该SA包括：利刀「铁」露台、利刀「苍梅」、利刀「无名」红玉。"
+				"王权SA包括：利刀「铁」露台、利刀「苍梅」、利刀「无名」红玉。"
 				""
 				"&e王权：目标实体陷入缓慢和虚弱，提高自身抗性。"
 				"{@pagebreak}"
-				"包括名刀「武士刀」、名刀「太刀」、名刀「金刚」露台、名刀「玄钰」露台。"
+				"不朽SA包括：名刀「武士刀」、名刀「太刀」、名刀「金刚」露台、名刀「玄钰」露台。"
 				""
 				"&e不朽：提升自己攻击力和抗性，无副作用，7秒效果，15秒冷却。"
 			]
@@ -1929,10 +2266,14 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:quick_step_puncture"
 									lvl: 5s
 								}
 							]
@@ -1973,12 +2314,183 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "31E614D830FF212F"
-					item: "locusazzurro_icaruswings:linen_string"
+					id: "008EAE385430A1EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wa/wa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -14318170
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wa/blue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 31.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 62
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.blue"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:quick_step_puncture"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wa/wa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -14318170
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wa/blue.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 31.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 62
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.blue"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
-					id: "008EAE385430A1EE"
+					id: "38F02CEA06B7F1EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -3708568
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/ruby.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 31.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 62
+								proudSoul: 0
+								translationKey: "item.slashblade.ruby"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:quick_step_puncture"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -3708568
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/ruby.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 31.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 62
+								proudSoul: 0
+								translationKey: "item.slashblade.ruby"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "69521BE164DE987F"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -2017,12 +2529,16 @@
 						tag: {
 							Enchantments: [
 								{
-									id: "enigmaticlegacy:slayer"
-									lvl: 10s
+									id: "minecraft:sharpness"
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:knight_slash"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -2062,22 +2578,281 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "4BC55B3CB77AEDE2"
-					item: "aether:zanite_gemstone"
+					id: "21AE3306EFF61672"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wa/wa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -6580791
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wa/tachi.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 48
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.tachi"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:knight_slash"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wa/wa.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -6580791
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wa/tachi.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 48
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.tachi"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6B0E0D9994E59C66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -11487295
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_diamond.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 26.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 52
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_diamond"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:knight_slash"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -11487295
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_diamond.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 26.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 52
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_diamond"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "217BDA087CA3B4C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -11849923
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_netherite.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 29.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 58
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_netherite"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:knight_slash"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:immortal"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -11849923
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_netherite.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 29.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 58
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_netherite"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: 2.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"包括无限剑制·「王之财宝」。"
+				"无限剑制SA包括：无限剑制·「王之财宝」。"
 				""
 				"&e无限剑制：伤害极低。"
 				"{@pagebreak}"
-				"包括：风暴之刃·「岚」。"
+				"旋风剑舞SA包括：风暴之刃·「岚」。"
 				""
 				"&e旋风剑舞：伤害极低，但可在一定程度上控制目标。"
 			]
@@ -2114,7 +2889,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 26.0f
+								baseAttackModifier: 36.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2122,7 +2897,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 600
+								maxDamage: 72
 								proudSoul: 0
 								translationKey: "item.shizuku.unlimited_blade"
 							}
@@ -2140,10 +2915,10 @@
 								}
 								{
 									id: "minecraft:power"
-									lvl: 10s
+									lvl: 5s
 								}
 								{
-									id: "minecraft:fire_aspect"
+									id: "celestial_enchantments:death_blade"
 									lvl: 5s
 								}
 							]
@@ -2166,7 +2941,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 26.0f
+								baseAttackModifier: 36.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2174,7 +2949,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 600
+								maxDamage: 72
 								proudSoul: 0
 								translationKey: "item.shizuku.unlimited_blade"
 							}
@@ -2183,11 +2958,6 @@
 					match_nbt: true
 					type: "item"
 					weak_nbt_match: true
-				}
-				{
-					id: "42846FE938D1C9CC"
-					item: "minecraft:totem_of_undying"
-					type: "item"
 				}
 				{
 					id: "425F767738BC0AD3"
@@ -2213,7 +2983,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 23.0f
+								baseAttackModifier: 33.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2221,7 +2991,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 560
+								maxDamage: 66
 								proudSoul: 0
 								translationKey: "item.shizuku.tornado_blade"
 							}
@@ -2239,11 +3009,11 @@
 								}
 								{
 									id: "minecraft:power"
-									lvl: 10s
+									lvl: 5s
 								}
 								{
-									id: "elementalcombat:wind_aspect"
-									lvl: 1s
+									id: "celestial_enchantments:death_blade"
+									lvl: 5s
 								}
 							]
 							bladeState: {
@@ -2265,7 +3035,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 23.0f
+								baseAttackModifier: 33.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2273,7 +3043,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 560
+								maxDamage: 66
 								proudSoul: 0
 								translationKey: "item.shizuku.tornado_blade"
 							}
@@ -2283,19 +3053,14 @@
 					type: "item"
 					weak_nbt_match: true
 				}
-				{
-					id: "308C38E431C2AEE3"
-					item: "locusazzurro_icaruswings:zephir_essence"
-					type: "item"
-				}
 			]
-			x: 1.0d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"包括「荧光」、洞爷湖、「风来之刃」、宝刀「山吹」露台。"
+				"琉璃梵城SA包括：「荧光」、「风来之刃」、宝刀「山吹」露台。"
 				""
 				"&e琉璃梵城：在自身周围产生一个超小型领域，可以抵挡刀基础伤害×3倍的伤害。"
 			]
@@ -2331,7 +3096,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 17.0f
+								baseAttackModifier: 27.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2339,7 +3104,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 34
+								maxDamage: 54
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.fluorescent_bar"
 							}
@@ -2349,15 +3114,15 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "elementalcombat:light_aspect"
-									lvl: 1s
+									id: "celestial_enchantments:unstable_blade"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -2378,7 +3143,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 17.0f
+								baseAttackModifier: 27.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2386,7 +3151,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 34
+								maxDamage: 54
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.fluorescent_bar"
 							}
@@ -2397,18 +3162,189 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "3CF3BB1137F1075D"
-					item: "forbidden_arcanus:deorum_ingot"
+					id: "304ACD996B761294"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:liulifan_city"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -5251100
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 28.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 56
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.wanderer"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:unstable_blade"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/wanderer/wanderer.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:liulifan_city"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -5251100
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/wanderer/wanderer.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 28.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 56
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.wanderer"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5E634BBB9D3F3C37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:liulifan_city"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -15858
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_golden.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 23.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 46
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_golden"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:unstable_blade"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:liulifan_city"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -15858
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_golden.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 23.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 46
+								proudSoul: 0
+								translationKey: "item.slashblade.rodai_golden"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"包括「雪鸦」、狐月刀「白狐」。"
+				"冰之皇SA包括：「雪鸦」、狐月刀「白狐」。"
 				""
 				"&e冰之皇：以自身为中心，冻结除自身外所有生物，持续10秒，玩家对冻结生物造成的伤害×130%。"
 			]
@@ -2444,7 +3380,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 16.0f
+								baseAttackModifier: 26.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2452,7 +3388,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 32
+								maxDamage: 52
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.snow_crow"
 							}
@@ -2462,19 +3398,19 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 5s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "enigmaticaddons:frost_aspect"
-									lvl: 1s
+									id: "celestial_enchantments:shadow_touch"
+									lvl: 5s
 								}
 								{
-									id: "elementalcombat:ice_aspect"
-									lvl: 1s
+									id: "enigmaticaddons:frost_aspect"
+									lvl: 2s
 								}
 							]
 							bladeState: {
@@ -2495,7 +3431,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 16.0f
+								baseAttackModifier: 26.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2503,7 +3439,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 32
+								maxDamage: 52
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.snow_crow"
 							}
@@ -2514,18 +3450,105 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "46D7D45B2CB9692B"
-					item: "minecraft:snowball"
+					id: "67384788A3DFF434"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/sange/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:the_emperor_of_ice"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -12302701
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/sange/white.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.slashblade.fox_white"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:light_armor_killer"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/sange/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:the_emperor_of_ice"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -12302701
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/sange/white.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.slashblade.fox_white"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: -2.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"包括「暗鸦」、狐月刀「黑狐」。"
+				"君焰SA包括:「暗鸦」、狐月刀「黑狐」。"
 				""
 				"&e君焰：释放后在使用者周围迸发火焰。"
 			]
@@ -2561,7 +3584,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 16.0f
+								baseAttackModifier: 26.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2569,7 +3592,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 32
+								maxDamage: 52
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.dark_raven"
 							}
@@ -2579,19 +3602,19 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 5s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "celestial_enchantments:quenched_blade"
-									lvl: 1s
+									id: "celestial_enchantments:shadow_touch"
+									lvl: 5s
 								}
 								{
-									id: "minecraft:fire_aspect"
-									lvl: 1s
+									id: "celestial_enchantments:quenched_blade"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -2612,7 +3635,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 16.0f
+								baseAttackModifier: 26.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -2620,7 +3643,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 32
+								maxDamage: 52
 								proudSoul: 0
 								translationKey: "item.slashblade_addon.dark_raven"
 							}
@@ -2631,17 +3654,104 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "10203B73F769CFDC"
-					item: "minecraft:blaze_powder"
+					id: "7BCE9E6F2B70FD88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/sange/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king_fire"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -5627626
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/sange/black.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.slashblade.fox_black"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:light_armor_killer"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/named/sange/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:king_fire"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -5627626
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/named/sange/black.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.slashblade.fox_black"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: -3.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["125E74E3A65100C1"]
-			description: ["包括「亚特坎」、妖刀「红樱」。"]
+			description: ["终焉樱SA包括：「亚特坎」、妖刀「红樱」。"]
 			icon: "celestial_core:sakura_steel"
 			id: "1A21B90371E960F7"
 			rewards: [{
@@ -2691,15 +3801,15 @@
 						tag: {
 							Enchantments: [
 								{
-									id: "enigmaticlegacy:slayer"
-									lvl: 10s
+									id: "minecraft:sharpness"
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "celestial_enchantments:death_blade"
+									id: "celestial_enchantments:light_armor_killer"
 									lvl: 3s
 								}
 							]
@@ -2740,18 +3850,105 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "6D1E101EBD120DC0"
-					item: "celestial_core:sakura_steel"
+					id: "3CB6BF4E35BDFEE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/nihil/nihil.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:sakura_end"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -959636
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/nihil/crimsoncherry.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 43.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 86
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.crimsoncherry"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "goety:soul_eater"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:misfortune_blade"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/nihil/nihil.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:sakura_end"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -959636
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/nihil/crimsoncherry.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 43.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 86
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.crimsoncherry"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: -5.0d
+			x: -6.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["125E74E3A65100C1"]
+			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"包括型月刀「空之境界」、伊恩「永恒时光之轮·永劫根源魔枪」。"
+				"时间零SA包括：型月刀「空之境界」伊恩「永恒时光之轮·永劫根源魔枪」。"
 				""
 				"&e时间零：短时间大幅提高自身移速和攻击速度，周围生物无法移动。"
 			]
@@ -2805,19 +4002,15 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
-								}
-								{
-									id: "enigmaticlegacy:slayer"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "celestial_enchantments:hand_of_thief"
-									lvl: 1s
+									id: "celestial_enchantments:void_chain"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -2857,16 +4050,102 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "5DA78D6BC9BB6B97"
-					item: "deep_aether:aerglow_blossom"
+					id: "3404B81AA777D39C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/chronos/chronos.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:time_zero"
+								SpecialEffects: ["prinegorerouse:oracle"]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -2105473
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/chronos/chronos.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 51.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 102
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.chronos_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:fatal_blow"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/chronos/chronos.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:time_zero"
+								SpecialEffects: ["prinegorerouse:oracle"]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -2105473
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/chronos/chronos.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 51.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 102
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.chronos_blade"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
-			x: -6.5d
-			y: 2.0d
+			x: 5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
+			description: ["奶香一刀SA包括：「薙草之稻光」、神威刀「虎杖丸」。"]
 			icon: "cataclysm:essence_of_the_storm"
 			id: "0985D4B023515E73"
 			rewards: [{
@@ -2918,7 +4197,7 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:looting"
@@ -2929,12 +4208,8 @@
 									lvl: 5s
 								}
 								{
-									id: "celestial_enchantments:misfortune_blade"
+									id: "celestial_enchantments:fierce_slash"
 									lvl: 3s
-								}
-								{
-									id: "elementalcombat:thunder_aspect"
-									lvl: 1s
 								}
 							]
 							bladeState: {
@@ -2975,17 +4250,100 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "3242C956FCBF1397"
-					item: "cataclysm:essence_of_the_storm"
+					id: "79C404449A4309C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/kamuy/kamuy.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:leisa"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/kamuy/kamuy.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 34.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 68
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.kamuy_none"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:fierce_slash"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/kamuy/kamuy.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:leisa"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -5262117
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/kamuy/kamuy.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 34.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 68
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.kamuy_none"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: 5.5d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
-			description: ["包括「折刀」、「童子切安纲」。"]
+			description: ["円刃SA包括：「折刀」、「童子切安纲」。"]
 			icon: "goety:cursed_ingot"
 			id: "63E72AD89CDE7F0B"
 			rewards: [{
@@ -3036,11 +4394,15 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
-									lvl: 10s
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:revenge"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -3080,9 +4442,92 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "3681B26CC60482F4"
-					item: "goety:cursed_ingot"
+					id: "3181D7304C629BCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/child/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:circle_slash"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -16732515
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/child/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.ak.child"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:revenge"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/child/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:circle_slash"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -16732515
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/child/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 38.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 76
+								proudSoul: 0
+								translationKey: "item.ak.child"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: 5.5d
@@ -3090,7 +4535,7 @@
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
-			description: ["包括侍月刀「炎水薄斩」、厄瑞波斯「永黯沉寂」。"]
+			description: ["旋刃SA包括：侍月刀「炎水薄斩」、厄瑞波斯「永黯沉寂」。"]
 			icon: "immortalers_delight:leisamboo_block"
 			id: "1214435404341E30"
 			rewards: [{
@@ -3141,19 +4586,15 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 5s
 								}
 								{
-									id: "minecraft:fire_aspect"
-									lvl: 2s
-								}
-								{
-									id: "minecraft:fire_protection"
-									lvl: 1s
+									id: "celestial_enchantments:cluster_awareness"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -3193,17 +4634,108 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "2E506E44CEC93A0A"
-					item: "immortalers_delight:leisamboo_block"
+					id: "7198954AAAFF056E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/erebus/erebus.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:spiral_edge"
+								SpecialEffects: [
+									"prinegorerouse:oracle"
+									"prinegorerouse:reverse_power"
+								]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -6087011
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/erebus/erebus.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 65.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 130
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.erebus_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:fatal_blow"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/erebus/erebus.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:spiral_edge"
+								SpecialEffects: [
+									"prinegorerouse:oracle"
+									"prinegorerouse:reverse_power"
+								]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -6087011
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/erebus/erebus.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 65.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 130
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.erebus_blade"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: 5.5d
-			y: 15.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
-			description: ["包括神威刀「阿贝」、「狄克维多」、海格力斯「闪耀之星」。"]
+			description: ["影舞SA包括：「狄克维多」、海格力斯「闪耀之星」、神威刀「阿贝」。"]
 			icon: "immortalers_delight:evolutcorn_block"
 			id: "67F12FFFD25BE85D"
 			rewards: [{
@@ -3253,16 +4785,16 @@
 						tag: {
 							Enchantments: [
 								{
-									id: "minecraft:bane_of_arthropods"
-									lvl: 10s
-								}
-								{
 									id: "minecraft:sharpness"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
-									lvl: 10s
+									lvl: 5s
+								}
+								{
+									id: "celestial_enchantments:cluster_awareness"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -3302,18 +4834,191 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "2BF9B5B84B3AA247"
-					item: "immortalers_delight:evolutcorn_block"
+					id: "07374C69D6F520B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/hercules/hercules_blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:fire_spiral"
+								SpecialEffects: ["prinegorerouse:oracle"]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -1169920
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/hercules/hercules_blade.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 64.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 128
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.hercules_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:magic_blade"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/hercules/hercules_blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:fire_spiral"
+								SpecialEffects: ["prinegorerouse:oracle"]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -1169920
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/hercules/hercules_blade.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 64.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 128
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.hercules_blade"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5AE186752AEB8A67"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/kamuy/kamuy.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:fire_spiral"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -1169920
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/kamuy/fire.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 39.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 78
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.kamuy_fire"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:hidden_blade"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/kamuy/kamuy.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade_addon:fire_spiral"
+								StandbyRenderType: 2b
+								SummonedSwordColor: -1169920
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/kamuy/fire.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 39.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 78
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.kamuy_fire"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: 5.5d
-			y: 17.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"包括炼狱刀「死念」、贪婪、懒惰、傲慢、色欲、妒忌、饕餮、暴怒、柯罗诺斯「永境之主」。"
+				"吸血镰SA包括：炼狱刀「死念」、贪婪、懒惰、傲慢、色欲、妒忌、饕餮、暴怒。"
 				""
 				"&e吸血镰：向不同方向挥出五道斩击，每命中一道恢复自身7%的血量。"
 			]
@@ -3367,38 +5072,18 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:smite"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:bane_of_arthropods"
-									lvl: 10s
-								}
-								{
-									id: "enigmaticlegacy:slayer"
-									lvl: 10s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:power"
 									lvl: 10s
 								}
 								{
-									id: "apotheosis:scavenger"
-									lvl: 5s
+									id: "celestial_enchantments:void_chain"
+									lvl: 3s
 								}
 								{
-									id: "goety:soul_eater"
-									lvl: 5s
-								}
-								{
-									id: "farmersdelight:backstabbing"
-									lvl: 5s
-								}
-								{
-									id: "celestial_enchantments:death_blade"
+									id: "celestial_enchantments:destruction_crack"
 									lvl: 3s
 								}
 							]
@@ -3439,9 +5124,620 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "4BC14ABD17F5A28A"
-					item: "eeeabsmobs:heart_of_pagan"
+					id: "759A47F4FD3944D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/greedy/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/greedy/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.greedy"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/greedy/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/greedy/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.greedy"
+							}
+						}
+					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "45F81069303ED746"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/lazy/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/lazy/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.lazy"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/lazy/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/lazy/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.lazy"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3030E9DF3F620A54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/arrogant/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/arrogant/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.arrogant"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/arrogant/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/arrogant/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.arrogant"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1DAED1AF56330690"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/lust/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/lust/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.lust"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/lust/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/lust/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.lust"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7904B8868F03BFE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/jealous/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/jealous/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.jealous"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/jealous/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/jealous/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.jealous"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "16621A1DC9D09685"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/tai_ti/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/tai_ti/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.tai_ti"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/tai_ti/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/tai_ti/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.tai_ti"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "3D89EF93B1D54F57"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/rage/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/rage/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.rage"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:vampire_slash"
+									lvl: 5s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "ak:model/named/sin/rage/sange.obj"
+								RepairCounter: 0
+								SpecialAttackType: "ak:bloodsucking_sickle"
+								StandbyRenderType: 3b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "ak:model/named/sin/rage/blood.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 100.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 200
+								proudSoul: 0
+								translationKey: "item.ak.rage"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: 5.5d
@@ -6277,13 +8573,13 @@
 		{
 			dependencies: ["67C6921D453977A8"]
 			description: [
-				"无铭刀「竹光」为锤击攻击类型，攻击附加魔法伤害。"
+				"无铭刀「竹光」攻击附加魔法伤害。"
 				""
 				"&c此武器在无耐久后会直接消失。"
 				""
 				"&e新增玩家手持无铭刀「竹光」击杀女仆妖精，必定获得灵魂。"
 				""
-				"&6迅冲斩作为在前期好用的剑技，只需要在按住Shift+W键同时右击，即可施放。"
+				"&6迅冲斩：作为在前期好用的剑技，只需要在按住Shift+W键同时右击，即可施放。"
 			]
 			icon: "minecraft:bamboo"
 			id: "44A7D447271555CC"
@@ -6451,9 +8747,9 @@
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
 			description: [
-				"锈刀用来制作其它刀时，并非一定要先用合成修复才能制作。只要条件满足就能制作。"
+				"锈刀用来制作其它刀时，并不需要用合成修复后的锈刀才能制作。只要条件满足就能制作。"
 				""
-				"&6型月刀「空之境界」具有偷窃之手附魔，可以让锈刀必定掉落。"
+				"&6时空裂痕·「刹那」具有偷窃之手附魔，可以让锈刀必定掉落。"
 			]
 			icon: "minecraft:rotten_flesh"
 			id: "369C7A9A9F99851C"
@@ -6463,91 +8759,90 @@
 				xp: 100
 			}]
 			subtitle: "SA：平突"
-			tasks: [
-				{
-					id: "3E0D1A5E4F029F32"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "slashblade:model/named/muramasa/muramasa.obj"
-								RepairCounter: 0
-								SpecialAttackType: "slashblade:piercing"
-								StandbyRenderType: 2b
-								SummonedSwordColor: -11327969
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "slashblade:model/named/muramasa/sabigatana.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 18.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 0b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 36
-								proudSoul: 0
-								translationKey: "item.slashblade.sabigatana"
-							}
-						}
-						id: "slashblade:slashblade"
-						tag: {
-							Enchantments: [{
-								id: "apotheosis:knowledge"
-								lvl: 5s
-							}]
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "slashblade:model/named/muramasa/muramasa.obj"
-								RepairCounter: 0
-								SpecialAttackType: "slashblade:piercing"
-								StandbyRenderType: 2b
-								SummonedSwordColor: -11327969
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "slashblade:model/named/muramasa/sabigatana.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 18.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 0b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 36
-								proudSoul: 0
-								translationKey: "item.slashblade.sabigatana"
-							}
+			tasks: [{
+				id: "3E0D1A5E4F029F32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:piercing"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -11327969
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/sabigatana.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 18.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 36
+							proudSoul: 0
+							translationKey: "item.slashblade.sabigatana"
 						}
 					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "apotheosis:knowledge"
+								lvl: 5s
+							}
+							{
+								id: "celestial_enchantments:words_of_wisdom"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "slashblade:model/named/muramasa/muramasa.obj"
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:piercing"
+							StandbyRenderType: 2b
+							SummonedSwordColor: -11327969
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "slashblade:model/named/muramasa/sabigatana.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 18.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 36
+							proudSoul: 0
+							translationKey: "item.slashblade.sabigatana"
+						}
+					}
 				}
-				{
-					id: "0ABBA2F24D141E5E"
-					item: "minecraft:rotten_flesh"
-					type: "item"
-				}
-			]
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 5.5d
 			y: 8.0d
 		}
@@ -6800,9 +9095,9 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["369C7A9A9F99851C"]
+			dependencies: ["125E74E3A65100C1"]
 			description: [
-				"包括：时空裂痕·「刹那」。"
+				"时停斩击SA包括：时空裂痕·「刹那」。"
 				""
 				"&e时停斩击：缓慢周围生物同时造成多道伤害。"
 			]
@@ -6813,111 +9108,104 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：吸血镰"
-			tasks: [
-				{
-					id: "2D3E1B468248CE1B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:time_slash"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -256
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/jin.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 24.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 580
-								proudSoul: 0
-								translationKey: "item.shizuku.time_blade"
-							}
-						}
-						id: "slashblade:slashblade"
-						tag: {
-							Enchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 20s
-								}
-								{
-									id: "minecraft:looting"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 10s
-								}
+			subtitle: "SA：时停斩击"
+			tasks: [{
+				id: "2D3E1B468248CE1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:time_slash"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -256
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/jin.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
 							]
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:time_slash"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -256
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/jin.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 24.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 580
-								proudSoul: 0
-								translationKey: "item.shizuku.time_blade"
-							}
+							baseAttackModifier: 24.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 580
+							proudSoul: 0
+							translationKey: "item.shizuku.time_blade"
 						}
 					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 20s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 10s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 10s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:time_slash"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -256
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/jin.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 24.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 580
+							proudSoul: 0
+							translationKey: "item.shizuku.time_blade"
+						}
+					}
 				}
-				{
-					id: "012240C903585BE3"
-					item: "locusazzurro_icaruswings:golden_apple_growth_infused_mead"
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: 11.0d
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"包括：燕返·「三连斩」。"
+				"燕返SA包括：燕返·「三连斩」。"
 				""
 				"&e燕返：快速造成3次近战攻击。"
 			]
@@ -6935,120 +9223,103 @@
 				xp: 100
 			}]
 			subtitle: "SA：燕返"
-			tasks: [
-				{
-					id: "2079A39CC7B7CB36"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:tsubame_gaeshi"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -16776961
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/huang.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 25.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 590
-								proudSoul: 0
-								translationKey: "item.shizuku.tsubame_blade"
-							}
-						}
-						id: "slashblade:slashblade"
-						tag: {
-							Enchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 20s
-								}
-								{
-									id: "minecraft:looting"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:fire_aspect"
-									lvl: 5s
-								}
-							]
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:tsubame_gaeshi"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -16776961
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/huang.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 25.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 590
-								proudSoul: 0
-								translationKey: "item.shizuku.tsubame_blade"
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
-				}
-				{
-					id: "7620FFDD9CFE3A32"
-					item: {
-						Count: 1
-						id: "minecraft:trident"
-						tag: {
+			tasks: [{
+				id: "2079A39CC7B7CB36"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
 							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:tsubame_gaeshi"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -16776961
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/huang.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 25.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 590
+							proudSoul: 0
+							translationKey: "item.shizuku.tsubame_blade"
 						}
 					}
-					type: "item"
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 20s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 10s
+							}
+							{
+								id: "celestial_enchantments:fierce_slash"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:tsubame_gaeshi"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -16776961
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/huang.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 25.0f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 590
+							proudSoul: 0
+							translationKey: "item.shizuku.tsubame_blade"
+						}
+					}
 				}
-			]
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 5.5d
-			y: 14.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"包括：虚空囚笼·「暗狱」。"
+				"虚空囚笼SA包括：虚空囚笼·「暗狱」。"
 				""
 				"&e虚空囚笼：近距离造成多次物理次元斩伤害，并释放一个延迟伤害的囚笼。"
 			]
@@ -7060,110 +9331,107 @@
 				xp: 100
 			}]
 			subtitle: "SA：虚空囚笼"
-			tasks: [
-				{
-					id: "56576CCC704AFD83"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:void_prison"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -13434829
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/c.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 24.5f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 580
-								proudSoul: 0
-								translationKey: "item.shizuku.void_blade"
-							}
-						}
-						id: "slashblade:slashblade"
-						tag: {
-							Enchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 20s
-								}
-								{
-									id: "minecraft:looting"
-									lvl: 10s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 10s
-								}
+			tasks: [{
+				id: "56576CCC704AFD83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:void_prison"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13434829
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/c.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
 							]
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "shizuku:model/shizuku/base.obj"
-								RepairCounter: 0
-								SpecialAttackType: "shizuku:void_prison"
-								SpecialEffects: ["shizuku:shizuku"]
-								StandbyRenderType: 1b
-								SummonedSwordColor: -13434829
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "shizuku:model/shizuku/c.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 24.5f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 580
-								proudSoul: 0
-								translationKey: "item.shizuku.void_blade"
-							}
+							baseAttackModifier: 24.5f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 580
+							proudSoul: 0
+							translationKey: "item.shizuku.void_blade"
 						}
 					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
+					id: "slashblade:slashblade"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 20s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 10s
+							}
+							{
+								id: "celestial_enchantments:void_chain"
+								lvl: 3s
+							}
+							{
+								id: "celestial_enchantments:destruction_crack"
+								lvl: 3s
+							}
+						]
+						bladeState: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							ModelName: "shizuku:model/shizuku/base.obj"
+							RepairCounter: 0
+							SpecialAttackType: "shizuku:void_prison"
+							SpecialEffects: ["shizuku:shizuku"]
+							StandbyRenderType: 1b
+							SummonedSwordColor: -13434829
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							TextureName: "shizuku:model/shizuku/c.png"
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							baseAttackModifier: 24.5f
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isDefaultBewitched: 1b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							maxDamage: 580
+							proudSoul: 0
+							translationKey: "item.shizuku.void_blade"
+						}
+					}
 				}
-				{
-					id: "2B04C329B88E8806"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-			]
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 5.5d
 			y: 18.5d
 		}
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"包括虚空行者·「瞬影」。"
+				"瞬空斩SA包括：虚空行者·「瞬影」、柯罗诺斯「永境之主」。"
 				""
 				"&e瞬空斩：瞬移至目标身后背刺并造成范围伤害，如果目标周围有多个生物，则依次分别造成伤害，若处于浮空状态可触发跳劈特效。"
 			]
@@ -7200,7 +9468,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 22.0f
+								baseAttackModifier: 55.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -7208,7 +9476,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 550
+								maxDamage: 110
 								proudSoul: 0
 								translationKey: "item.shizuku.teleport_blade"
 							}
@@ -7218,7 +9486,7 @@
 							Enchantments: [
 								{
 									id: "minecraft:sharpness"
-									lvl: 15s
+									lvl: 20s
 								}
 								{
 									id: "minecraft:looting"
@@ -7226,11 +9494,23 @@
 								}
 								{
 									id: "minecraft:power"
-									lvl: 5s
+									lvl: 10s
 								}
 								{
-									id: "minecraft:fire_aspect"
-									lvl: 5s
+									id: "farmersdelight:backstabbing"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:unstable_blade"
+									lvl: 3s
+								}
+								{
+									id: "celestial_enchantments:fatal_blow"
+									lvl: 3s
+								}
+								{
+									id: "celestial_enchantments:hidden_blade"
+									lvl: 3s
 								}
 							]
 							bladeState: {
@@ -7252,7 +9532,7 @@
 									0.0d
 									0.0d
 								]
-								baseAttackModifier: 22.0f
+								baseAttackModifier: 55.0f
 								currentCombo: "slashblade:none"
 								fallDecreaseRate: 0.0f
 								isBroken: 0b
@@ -7260,7 +9540,7 @@
 								isSealed: 0b
 								killCount: 0
 								lastActionTime: 0L
-								maxDamage: 550
+								maxDamage: 110
 								proudSoul: 0
 								translationKey: "item.shizuku.teleport_blade"
 							}
@@ -7271,8 +9551,105 @@
 					weak_nbt_match: true
 				}
 				{
-					id: "6F2E4B544AE35911"
-					item: "minecraft:chorus_fruit"
+					id: "55871FC484D3F776"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/chronosn/chronosn.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:teleport_slash"
+								SpecialEffects: [
+									"prinegorerouse:oracle"
+									"prinegorerouse:absolute_power"
+								]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -6087011
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/chronosn/chronosn.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 250.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 500
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.chronosn_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 100s
+								}
+								{
+									id: "enigmaticlegacy:slayer"
+									lvl: 100s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "majruszsenchantments:death_wish"
+									lvl: 1s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "prinegorerouse:model/named/custom/chronosn/chronosn.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:teleport_slash"
+								SpecialEffects: [
+									"prinegorerouse:oracle"
+									"prinegorerouse:absolute_power"
+								]
+								StandbyRenderType: 4b
+								SummonedSwordColor: -6087011
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "prinegorerouse:model/named/custom/chronosn/chronosn.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 250.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 500
+								proudSoul: 0
+								translationKey: "item.prinegorerouse.chronosn_blade"
+							}
+						}
+					}
 					type: "item"
 				}
 			]

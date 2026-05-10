@@ -1,0 +1,33 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:divine_pact",
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 50,
+    "blood": 400,
+    "experience": 5,
+    "souls": 2
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "eeeabsmobs:immortal_debris"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "goety:cursed_ingot"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "eeeabsmobs:immortal_ingot"
+    }
+  }
+}

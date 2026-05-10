@@ -1,7 +1,7 @@
 {
   "enchantments": [
     {
-      "id": "minecraft:sharpness",
+      "id": "enigmaticlegacy:slayer",
       "lvl": 20
     },
     {
@@ -10,14 +10,18 @@
     },
     {
       "id": "minecraft:power",
-      "lvl": 10
+      "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:hand_of_thief",
+      "lvl": 1
     }
   ],
   "item": "slashblade:slashblade",
   "name": "shizuku:time_blade",
   "properties": {
     "attack_base": 24.0,
-    "max_damage": 580,
+    "max_damage": 48,
     "slash_art": "shizuku:time_slash",
     "special_effects": [
       "shizuku:shizuku"

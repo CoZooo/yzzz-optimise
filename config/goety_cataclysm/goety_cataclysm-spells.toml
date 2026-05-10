@@ -337,7 +337,7 @@
 		stormSerpentCoolDown = 10
 		#Storm Serpent Spell Damage, Default: 16.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		stormSerpentDamage = 2800.0
+		stormSerpentDamage = 2100.0
 
 	[Spells."Thunder Rage Spell"]
 		#Thunder Rage Spell Cost, Default: 64

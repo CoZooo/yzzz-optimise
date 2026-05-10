@@ -2,18 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 2
-    },
-    {
-      "id": "minecraft:fire_protection"
+      "id": "celestial_enchantments:cluster_awareness",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:aquablaze",

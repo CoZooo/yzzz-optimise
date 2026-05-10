@@ -316,6 +316,8 @@ craftingTable.addShapeless("minecraft.enchanted_book.protection.10", <item:minec
 craftingTable.addShapeless("minecraft.enchanted_book.protection.15", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "minecraft:protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "minecraft:protection" as string}]}), <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>, <item:forbidden_arcanus:dragon_scale>]);
 craftingTable.addShapeless("minecraft.enchanted_book.protection.20", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20 as short, id: "minecraft:protection" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 15 as short, id: "minecraft:protection" as string}]}), <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>, <item:stalwart_dungeons:chorundum>]);
 
+stoneCutter.addRecipe("minecraft.enchanted_book.protection.11", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "minecraft:protection" as string}]}), <item:cataclysm:abyssal_egg>);
+
 //
 stoneCutter.addRecipe("minecraft.enchanted_book.smite", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20, id: "minecraft:smite"}]}), <item:reliquary:mercy_cross>.anyDamage());
 

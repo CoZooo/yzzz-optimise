@@ -7,17 +7,19 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 100
+	    "name": "slashblade_addon:tachi",
+        "kill": 100,
+        "refine": 1
       }
     },
     "C": {
-      "item": "minecraft:clock"
+      "item": "yuusha:mutant_cube"
     },
     "I": {
-      "item": "slashblade:proudsoul_ingot"
+      "item": "slashblade:proudsoul_sphere"
     },
     "Q": {
-      "tag": "forge:gems/quartz"
+      "item": "locusazzurro_icaruswings:golden_string"
     }
   },
   "pattern": [

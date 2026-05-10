@@ -8,7 +8,7 @@
           "type": "minecraft:item",
           "name": "majruszsdifficulty:recall_potion",
           "weight": 3,
-          "quality": 4,
+          "quality": 2,
           "functions": [
             {
               "function": "set_count",
@@ -28,7 +28,7 @@
           "type": "minecraft:item",
           "name": "majruszsdifficulty:evoker_fang_scroll",
           "weight": 1,
-          "quality": 4,
+          "quality": 3,
           "functions": [
             {
               "function": "set_count",
@@ -47,7 +47,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
-          "quality": 2,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -64,7 +64,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "quality": 2,
+          "quality": 0,
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -97,13 +97,13 @@
           "type": "minecraft:item",
           "name": "minecraft:saddle",
           "weight": 6,
-          "quality": 1
+          "quality": 0
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "weight": 4,
-          "quality": 3
+          "quality": 1
         }
       ]
     },
@@ -116,75 +116,93 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "goety:ignite_focus"
+          "name": "goety:ignite_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:soul_light_focus"
+          "name": "goety:soul_light_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:glow_light_focus"
+          "name": "goety:glow_light_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:crafting_focus"
+          "name": "goety:crafting_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:iron_hide_focus"
+          "name": "goety:iron_hide_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:soul_heal_focus"
+          "name": "goety:soul_heal_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:telekinesis_focus"
+          "name": "goety:telekinesis_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:rotation_focus"
+          "name": "goety:rotation_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:trembling_focus"
+          "name": "goety:trembling_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:chilling_focus"
+          "name": "goety:chilling_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:grapple_focus"
+          "name": "goety:grapple_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:sensing_focus"
+          "name": "goety:sensing_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:launch_focus"
+          "name": "goety:launch_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:flying_focus"
+          "name": "goety:flying_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:cushion_focus"
+          "name": "goety:cushion_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:whirlwind_focus"
+          "name": "goety:whirlwind_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:cyclone_focus"
+          "name": "goety:cyclone_focus",
+          "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "goety:wind_blast_focus"
+          "name": "goety:wind_blast_focus",
+          "quality": 4
         }
       ]
     }

@@ -7,17 +7,20 @@
       "item": "slashblade:slashblade"
     },
     "P": {
-      "item": "slashblade:proudsoul_tiny"
+      "item": "slashblade:proudsoul"
     },
     "S": {
       "item": "locusazzurro_icaruswings:linen_string"
     },
     "W": {
       "item": "minecraft:stone_sword"
+    },
+    "C": {
+      "item": "born_in_chaos_v1:pileof_dark_metal"
     }
   },
   "pattern": [
-    "  P",
+    " CP",
     " B ",
     "WS "
   ],

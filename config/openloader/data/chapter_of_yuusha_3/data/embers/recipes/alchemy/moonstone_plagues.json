@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/lead"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "moonstone:fungus"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "moonstone:parasite"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "moonstone:virus"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    }
+  ],
+  "output": {
+    "item": "moonstone:plagues",
+	"count": 1
+  },
+  "tablet": {
+    "item": "moonstone:plague"
+  }
+}

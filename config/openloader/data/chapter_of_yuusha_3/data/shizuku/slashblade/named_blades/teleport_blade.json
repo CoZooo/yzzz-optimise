@@ -2,7 +2,7 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 15
+      "lvl": 20
     },
     {
       "id": "minecraft:looting",
@@ -10,18 +10,30 @@
     },
     {
       "id": "minecraft:power",
-      "lvl": 5
+      "lvl": 10
     },
     {
-      "id": "minecraft:fire_aspect",
-      "lvl": 5
+      "id": "farmersdelight:backstabbing",
+      "lvl": 10
+    },
+    {
+      "id": "celestial_enchantments:unstable_blade",
+      "lvl": 3
+    },
+    {
+      "id": "celestial_enchantments:fatal_blow",
+      "lvl": 3
+    },
+    {
+      "id": "celestial_enchantments:hidden_blade",
+      "lvl": 3
     }
   ],
   "item": "slashblade:slashblade",
   "name": "shizuku:teleport_blade",
   "properties": {
-    "attack_base": 22.0,
-    "max_damage": 550,
+    "attack_base": 55.0,
+    "max_damage": 110,
     "slash_art": "shizuku:teleport_slash",
     "special_effects": [
       "shizuku:shizuku"

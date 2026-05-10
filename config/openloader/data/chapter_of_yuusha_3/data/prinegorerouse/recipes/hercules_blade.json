@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "ak:dick_wido",
-        "refine": 5
+        "kill": 300,
+        "name": "shizuku:engulfing_lightning",
+        "refine": 3
       }
     },
     "M": {
@@ -19,7 +19,7 @@
       "item": "prinegorerouse:hercules"
     },
     "W": {
-      "item": "slashblade:proudsoul_trapezohedron"
+      "item": "slashblade:proudsoul_crystal"
     }
   },
   "pattern": [

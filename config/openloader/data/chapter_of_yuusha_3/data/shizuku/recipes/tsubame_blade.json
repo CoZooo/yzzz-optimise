@@ -7,40 +7,31 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:tboen",
-        "refine": 5
+        "kill": 400,
+        "name": "ak:child",
+        "refine": 4
       }
     },
     "A": {
-      "item": "minecraft:diamond"
+      "item": "yuusha:chaos_ingot"
     },
     "B": {
       "item": "shizuku:meow_stone"
     },
-    "C": {
-      "item": "minecraft:lapis_block"
-    },
     "D": {
-      "item": "minecraft:gold_ingot"
-    },
-    "G": {
-      "item": "minecraft:blue_ice"
-    },
-    "H": {
-      "item": "minecraft:netherite_ingot"
+      "item": "celestial_artifacts:nebula_cube"
     },
     "K": {
-      "item": "minecraft:trident"
+      "item": "callfromthedepth_:soullight"
     },
     "F": {
-      "item": "minecraft:blue_wool"
+      "item": "slashblade:proudsoul_crystal"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "ABF",
+    "DED",
+    "FKA"
   ],
   "result": {
     "item": "slashblade:slashblade"

@@ -140,7 +140,8 @@ craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <it
 <item:locusazzurro_icaruswings:blue_topaz_gem>.addTooltip("\u00A7c击杀各种异界清除机械、异界作战机械有几率获得");
 <item:locusazzurro_icaruswings:blue_topaz_gem>.addTooltip("\u00A76详见幽匿暗域章节");
 <item:locusazzurro_icaruswings:sapphire_gem>.addTooltip("\u00A7c击杀异界电锯战姬、异界机械巨蛇可获得");
-<item:locusazzurro_icaruswings:sapphire_gem>.addTooltip("\u00A76详见幽匿暗域章节");
+<item:locusazzurro_icaruswings:sapphire_gem>.addTooltip("\u00A7e手持炽星宝石右击女神雕像也可重置异界机械巨蛇");
+<item:locusazzurro_icaruswings:sapphire_gem>.addTooltip("\u00A76相关内容详见幽匿暗域章节");
 
 <item:locusazzurro_icaruswings:magic_membrane>.addTooltip("\u00A76手持注魔膜右击营火可召唤幻骨蝠");
 <item:locusazzurro_icaruswings:red_feather>.addTooltip("\u00A76详见匠作章节鹦鹉刷怪蛋任务");

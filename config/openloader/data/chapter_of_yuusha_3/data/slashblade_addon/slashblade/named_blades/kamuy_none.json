@@ -1,28 +1,23 @@
 {
-
   "enchantments": [
     {
-      "id": "minecraft:smite",
+      "id": "minecraft:sharpness",
       "lvl": 20
-    },
-    {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 10
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "elementalcombat:light_aspect",
-      "lvl": 1
+      "id": "celestial_enchantments:fierce_slash",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:kamuy_none",
   "properties": {
     "attack_base": 34.0,
     "max_damage": 68,
-    "slash_art": "slashblade:piercing",
+    "slash_art": "shizuku:leisa",
     "sword_type": [
       "bewitched"
     ]

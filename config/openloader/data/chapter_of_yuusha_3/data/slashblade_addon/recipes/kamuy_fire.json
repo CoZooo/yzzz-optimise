@@ -13,16 +13,16 @@
       }
     },
     "C": {
-      "item": "callfromthedepth_:soulingot"
+      "item": "yuusha:chaos_ingot"
     },
     "G": {
       "item": "slashblade:proudsoul_crystal"
     },
     "L": {
-      "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+      "item": "callfromthedepth_:soulbell"
     },
     "P": {
-      "item": "immortalers_delight:evolutcorn_block"
+      "item": "celestial_artifacts:nebula_cube"
     }
   },
   "pattern": [

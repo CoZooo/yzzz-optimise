@@ -71,7 +71,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1E90ABFD331440E4"]
+			dependencies: [
+				"1E90ABFD331440E4"
+				"24C2E0D826669615"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"可以享受魔法技能等级加伤。"
 				""
@@ -1812,6 +1816,58 @@
 			]
 			x: -4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3F9144237DCDF44B"]
+			description: [
+				"太阴一明珏：佩戴后，只能造成铁之咒语法术伤害，同时获得额外最大法力值及铁之咒语伤害提升。"
+				""
+				"&c谨慎选择！该路线未完善！"
+			]
+			hide_until_deps_complete: true
+			id: "24C2E0D826669615"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip chapter_of_yuusha_3_core:arcane_specialty{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					elevate_perms: true
+					icon: "chapter_of_yuusha_3_core:arcane_specialty"
+					id: "49A86AD47BEBF2B0"
+					team_reward: true
+					title: "&c强制穿戴太阴一明珏（自动领取）"
+					type: "command"
+				}
+				{
+					id: "03775518E5660C91"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D015DDDDE460CF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "「堕魔」"
+			tasks: [{
+				consume_items: true
+				id: "71A704C584A0C1DF"
+				item: "yuusha:focus_6_sword"
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.0d
+			y: -0.5d
 		}
 	]
 	subtitle: [

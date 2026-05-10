@@ -7,19 +7,19 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 400,
-        "name": "slashblade:sabigatana",
-        "refine": 4
+        "kill": 200,
+        "name": "slashblade:rodai_golden",
+        "refine": 2
       }
     },
     "C": {
-      "item": "callfromthedepth_:soulingot"
+      "item": "celestial_core:guardian_ocean_ingot"
     },
     "G": {
-      "item": "slashblade:proudsoul_crystal"
+      "item": "slashblade:proudsoul_sphere"
     },
     "L": {
-      "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+      "item": "celestial_artifacts:guardian_eye"
     },
     "P": {
       "item": "immortalers_delight:leisamboo_block"

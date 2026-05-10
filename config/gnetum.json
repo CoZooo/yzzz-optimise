@@ -66,6 +66,12 @@
       },
       "pass": 3
     },
+    "yes_steve_model:ysm_extra_player": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
     "gnetum:status_bar": {
       "enabled": {
         "value": "AUTO"
@@ -85,6 +91,12 @@
       "pass": 3
     },
     "minecraft:player_list": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "yes_steve_model:ysm_loading_state": {
       "enabled": {
         "value": "AUTO"
       },
@@ -133,6 +145,12 @@
       "pass": 3
     },
     "minecraft:chat_panel": {
+      "enabled": {
+        "value": "AUTO"
+      },
+      "pass": 3
+    },
+    "yes_steve_model:ysm_debug_info": {
       "enabled": {
         "value": "AUTO"
       },

@@ -1,0 +1,13 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "cooking_time": 80,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "born_in_chaos_v1:fire_dust"
+  },
+  "residue": {
+    "chance": 0.0,
+    "name": "arcane_crystal"
+  },
+  "result": "embers:ember_grit"
+}

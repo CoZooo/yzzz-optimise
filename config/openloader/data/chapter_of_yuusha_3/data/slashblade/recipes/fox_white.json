@@ -4,7 +4,7 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "mowziesmobs:ice_crystal"
+      "item": "celestial_artifacts:guardian_eye"
     },
     "C": {
       "type": "slashblade:blade",
@@ -12,7 +12,7 @@
       "request": {
         "name": "slashblade_addon:snow_crow",
         "kill": 200,
-        "refine": 1  
+        "refine": 2
       }
     },
     "E": {

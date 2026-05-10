@@ -4,19 +4,31 @@
   "category": "equipment",
   "key": {
     "B": {
-      "item": "slashblade:slashblade"
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 200,
+        "name": "shizuku:unlimited_blade",
+        "refine": 2
+      }
     },
     "S": {
-      "item": "slashblade:proudsoul"
+      "item": "slashblade:proudsoul_sphere"
     },
     "A": {
       "item": "deep_aether:aerglow_blossom"
+    },
+    "C": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "D": {
+      "item": "meetyourfight:mossy_tooth"
     }
   },
   "pattern": [
-    "ASA",
+    "ACA",
     "SBS",
-    "ASA"
+    "ADA"
   ],
   "result": {
     "item": "slashblade:slashblade"

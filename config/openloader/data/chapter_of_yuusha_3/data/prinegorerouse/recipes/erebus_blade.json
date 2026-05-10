@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:aquablaze",
-        "refine": 5
+        "kill": 300,
+        "name": "slashblade_addon:tboen",
+        "refine": 3
       }
     },
     "P": {

@@ -2,19 +2,15 @@
   "enchantments": [
     {
       "id": "minecraft:sharpness",
-      "lvl": 10
-    },
-    {
-      "id": "enigmaticlegacy:slayer",
-      "lvl": 10
+      "lvl": 20
     },
     {
       "id": "minecraft:power",
       "lvl": 5
     },
     {
-      "id": "celestial_enchantments:hand_of_thief",
-      "lvl": 1
+      "id": "celestial_enchantments:void_chain",
+      "lvl": 3
     }
   ],
   "name": "slashblade_addon:tboen",

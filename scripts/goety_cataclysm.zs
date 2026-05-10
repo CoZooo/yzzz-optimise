@@ -37,7 +37,7 @@ import mods.jeitweaker.Jei;
 
 <item:goety_cataclysm:desert_crush_focus>.addTooltip("\u00A72· 3200 基础伤害");
 <item:goety_cataclysm:desert_crush_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导1秒后释放，冷却时间2秒，需放入魔杖施法");
-<item:goety_cataclysm:desert_crush_focus>.addTooltip("\u00A7c该聚晶为无属性魔物伤害");
+<item:goety_cataclysm:desert_crush_focus>.addTooltip("\u00A7c该聚晶为无属性魔法物理伤害");
 <item:goety_cataclysm:desert_crush_focus>.addTooltip("\u00A73可通过制作获得");
 
 <item:goety_cataclysm:sandstorm_focus>.addTooltip("\u00A72· 825 基础伤害");
@@ -68,16 +68,16 @@ import mods.jeitweaker.Jei;
 <item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A72· 250 基础伤害/段");
 <item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导2秒后释放，冷却时间2秒，需放入魔杖施法");
 <item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A7e用地卜魔杖施法会有所加强");
-<item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A7c该聚晶为无属性魔物伤害");
+<item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A7c该聚晶为无属性魔法物理伤害");
 <item:goety_cataclysm:amethyst_cluster_focus>.addTooltip("\u00A73可通过制作获得");
 
 <item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A72· 350 基础伤害");
 <item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导0.5秒后释放，冷却时间0.5秒，需放入魔杖施法");
 <item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A7e在接触墙面后会发生反射");
-<item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A7c该聚晶为无属性魔物伤害");
+<item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A7c该聚晶为无属性魔法物理伤害");
 <item:goety_cataclysm:water_spear_focus>.addTooltip("\u00A73可通过制作获得");
 
-<item:goety_cataclysm:storm_serpent_focus>.addTooltip("\u00A72· 2800 基础伤害");
+<item:goety_cataclysm:storm_serpent_focus>.addTooltip("\u00A72· 2100 基础伤害");
 <item:goety_cataclysm:storm_serpent_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导3.75秒后释放，冷却时间0.5秒，需放入魔杖施法");
 <item:goety_cataclysm:storm_serpent_focus>.addTooltip("\u00A7c该聚晶为无属性魔法类型伤害，女仆无法使用此聚晶");
 <item:goety_cataclysm:storm_serpent_focus>.addTooltip("\u00A7e具有较长的施法时间和极高的单次伤害");

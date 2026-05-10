@@ -7,40 +7,28 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:tboen",
-        "refine": 5
+	    "name": "slashblade:ruby",
+        "kill": 100,
+        "refine": 1
       }
     },
     "A": {
-      "item": "minecraft:feather"
+      "item": "locusazzurro_icaruswings:zephir_essence"
     },
     "B": {
       "item": "shizuku:meow_stone"
     },
-    "C": {
-      "item": "minecraft:emerald_block"
-    },
     "D": {
-      "item": "minecraft:gold_ingot"
-    },
-    "G": {
-      "item": "locusazzurro_icaruswings:zephir_essence"
-    },
-    "H": {
-      "item": "minecraft:iron_ingot"
+      "item": "slashblade:proudsoul_sphere"
     },
     "K": {
-      "item": "minecraft:phantom_membrane"
-    },
-    "F": {
-      "item": "minecraft:lime_wool"
+      "item": "yuusha:mutant_cube"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "ABA",
+    "DED",
+    "AKA"
   ],
   "result": {
     "item": "slashblade:slashblade"

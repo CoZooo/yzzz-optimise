@@ -30,6 +30,7 @@
 		"forge:ores/*"
 		"malum:runewood_logs"
 		"malum:soulwood_logs"
+		"forbidden_arcanus:edelwood_logs"
 	]
 	
 	# These tags will be considered the same block when checking for blocks to Ultimine in shaped mining modes

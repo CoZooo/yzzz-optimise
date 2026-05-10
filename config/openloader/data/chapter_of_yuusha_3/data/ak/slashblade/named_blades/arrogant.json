@@ -1,10 +1,6 @@
 {
   "enchantments": [
     {
-      "id": "minecraft:unbreaking",
-      "lvl": 0
-    },
-    {
       "id": "minecraft:sharpness",
       "lvl": 20
     },
@@ -13,11 +9,7 @@
       "lvl": 10
     },
     {
-      "id": "minecraft:sweeping",
-      "lvl": 5
-    },
-    {
-      "id": "elementalcombat:light_aspect",
+      "id": "celestial_enchantments:vampire_slash",
       "lvl": 5
     }
   ],
