@@ -68,7 +68,7 @@
 
   "item.fermentation.tool.string": "玩家攻击时造成的单次伤害提升至原来的500%",
   "item.fermentation.tool.string.1": "在造成伤害后会进入5秒冷却时间",
-  "item.fermentation.tool.string.2": "在冷却时间内，玩家全伤害降低至原来的20%",
+  "item.fermentation.tool.string.2": "在冷却时间内，玩家全伤害降低至原来的10%",
   "item.fermentation.tool.string.3": "· 病原体依然保有狩猎的本能，这使它们能耐心等待，并给予致命一击！",
 
 	"item.nightmare_head.tool.string.7": "可自由穿戴和脱下",

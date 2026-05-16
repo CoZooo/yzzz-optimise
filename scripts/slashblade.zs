@@ -30,7 +30,8 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit> , "attribute.slashblade", 2.75, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:slashblade:slashblade>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:crit_rate> , "attribute.slashblade.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
-<item:slashblade:slashblade>.withTag({bladeState: {SpecialAttackType: "ak:bloodsucking_sickle"}}).addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.bloodsucking_sickle", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade>.withTag({bladeState: {SpecialAttackType: "ak:bloodsucking_sickle"}}).addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.bloodsucking_sickle", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:slashblade:slashblade>.withTag({bladeState: {SpecialAttackType: "shizuku:teleport_slash"}}).addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.teleport_slash", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 
 //合成
 craftingTable.remove(<item:locusazzurro_icaruswings:golden_feather_helmet>);

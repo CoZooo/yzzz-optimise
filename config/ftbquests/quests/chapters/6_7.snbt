@@ -901,6 +901,38 @@
 			x: -5.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["7721B659F55DD983"]
+			id: "64EE6DE3C3EE0405"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D46D6FE5D551A67"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「易伤」"
+			tasks: [{
+				id: "1BBB6EC7C406AAD6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
 	]
 	subtitle: [
 		"&9『御射使用指南』"

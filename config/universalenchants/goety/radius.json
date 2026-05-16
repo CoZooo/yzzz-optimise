@@ -1,7 +1,10 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:focus",
+    "goety:weakening_focus",
+    "goety:soul_heal_focus",
+    "goety:bouncy_bubble_focus",
+    "goety:quaking_focus",
     "goety:great_hammer",
     "goety:bonehead_hammer",
     "goety:stormlander",

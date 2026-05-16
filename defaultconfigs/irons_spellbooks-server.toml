@@ -1155,7 +1155,7 @@
 
 	[Spells."power_of_the_void:mesmer_skin"]
 		Enabled = true
-		School = "power_of_the_void:orokin"
+		School = "irons_spellbooks:eldritch"
 		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
@@ -1166,7 +1166,7 @@
 
 	[Spells."power_of_the_void:bloodletting"]
 		Enabled = true
-		School = "power_of_the_void:orokin"
+		School = "irons_spellbooks:blood"
 		MaxLevel = 1
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
@@ -1221,7 +1221,7 @@
 
 	[Spells."power_of_the_void:redline"]
 		Enabled = true
-		School = "power_of_the_void:orokin"
+		School = "irons_spellbooks:evocation"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"

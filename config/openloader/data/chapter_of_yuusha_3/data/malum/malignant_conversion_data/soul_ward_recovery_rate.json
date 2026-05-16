@@ -1,6 +1,7 @@
 {
   "source_attribute": "malum:soul_ward_recovery_rate",
   "ignore_base_value": "true",
+  "ratio" : "0.75",
   "target_attributes": [
     {
       "attribute": "eidolon:magic_power",

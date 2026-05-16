@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "result": [
+    {
+      "item": "celestial_artifacts:the_end_dust",
+      "count": 1
+    }
+  ],
+  "sound": "minecraft:item.axe.strip",
+  "tool": {
+    "item": "yuusha:bad_soul_gem"
+  }
+}

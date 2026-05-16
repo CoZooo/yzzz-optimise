@@ -65,52 +65,64 @@
 				}
 			}
 			id: "44FE32ED4F1B2A76"
-			rewards: [{
-				auto: "enabled"
-				id: "66845F6570589577"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "relics:midnight_robe"
-					tag: {
-						abilities: {
-							backstab: {
-								points: 0
-								stats: {
-									damage: 1.44264d
-									distance: 49.35202d
-								}
+			rewards: [
+				{
+					auto: "enabled"
+					id: "66845F6570589577"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
 							}
-							vanish: {
-								points: 0
-								stats: {
-									light: 1.00439d
-									speed: 0.23118d
-								}
-								temp: {
-									ticking: 1b
-								}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
 							}
 						}
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.44264d
+										distance: 49.35202d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.00439d
+										speed: 0.23118d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
 					}
+					team_reward: true
+					type: "item"
 				}
-				team_reward: true
-				type: "item"
-			}]
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip endless_slash_curse:endless_slash_curse{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\", \"isIntensify\": 1} @s force"
+					elevate_perms: true
+					icon: "endless_slash_curse:endless_slash_curse"
+					id: "73952D0887169E54"
+					team_reward: true
+					title: "&c强制穿戴千斩不绝之咒（自动领取）"
+					type: "command"
+				}
+			]
 			subtitle: "「暗影刺客」"
 			tasks: [{
 				id: "44D676FAB00CAECD"
 				title: "戳我"
 				type: "checkmark"
 			}]
-			title: "午夜斗篷"
+			title: "午夜斗篷 \\& 千斩不绝之咒"
 			x: -5.0d
 			y: -2.0d
 		}

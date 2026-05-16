@@ -18,6 +18,8 @@
 <item:malstone:huge_soul>.anyDamage().addTooltip("\u00A7c可以让护甲值突破天道限制");
 <item:malstone:corpse_cauldron>.anyDamage().addTooltip("\u00A76坚韧之血属性会等比例独立增加生命值");
 <item:malstone:corpse_cauldron>.anyDamage().addTooltip("\u00A7c可以让生命值突破天道限制");
+<item:malstone:martyrdom>.anyDamage().addTooltip("\u00A7c存在特性无实际加伤效果");
+<item:malstone:blade_dath>.anyDamage().addTooltip("\u00A7c存在特性无实际加伤效果");
 
 //
 <tag:items:curios:ring>.remove(<item:malstone:breaking_the_weapon>);

@@ -126,7 +126,7 @@ Int = 2
 	fermentation = 5.0
 	#埋伏性狩猎冷却时的伤害倍数
 	#Range: 0.0 ~ 100000.0
-	fermentation2 = 0.2
+	fermentation2 = 0.1
 	#埋伏性狩猎的冷却时间
 	#Range: 0 ~ 100000
 	fermentation3 = 100

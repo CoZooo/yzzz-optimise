@@ -50,6 +50,10 @@ import mods.jeitweaker.Jei;
 //破妄附魔
 stoneCutter.addRecipe("goety_revelation.enchanted_book.reality_piercer.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "goety_revelation:reality_piercer"}]}), <item:goety_revelation:apocalyptium_ingot>);
 
+//
+<tag:items:curios:head>.remove(<item:goety_revelation:halo_of_the_end>);
+<tag:items:curios:god_hand>.add(<item:goety_revelation:halo_of_the_end>);
+
 //恩赐卷轴
 <tag:items:curios:scroll>.remove(<item:goety_revelation:blessing_scroll>);
 <tag:items:curios:god_hand>.add(<item:goety_revelation:blessing_scroll>);

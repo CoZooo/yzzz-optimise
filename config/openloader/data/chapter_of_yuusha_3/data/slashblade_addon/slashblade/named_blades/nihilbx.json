@@ -21,7 +21,7 @@
   "properties": {
     "attack_base": 48.0,
     "max_damage": 96,
-    "slash_art": "ak:bloodsucking_sickle",
+    "slash_art": "shizuku:void_prison",
     "sword_type": [
       "bewitched"
     ]

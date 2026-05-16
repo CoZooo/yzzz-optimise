@@ -267,7 +267,7 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <tag:items:curios:curio>.remove(<item:moonstone:plagues>);
 <tag:items:curios:dalite_storage_slot>.add(<item:moonstone:plagues>);
 <tag:items:curios:back>.remove(<item:moonstone:beacon>);
-<tag:items:curios:head>.add(<item:moonstone:beacon>);
+<tag:items:curios:eye>.add(<item:moonstone:beacon>);
 <tag:items:curios:curio>.remove(<item:moonstone:nightmareeye>);
 <tag:items:curios:eye>.add(<item:moonstone:nightmareeye>);
 <tag:items:curios:necora>.add(<item:moonstone:ectoplasmstar>);

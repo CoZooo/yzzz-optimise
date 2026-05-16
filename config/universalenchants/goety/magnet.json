@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:focus",
+    "goety:burrowing_focus",
     "apotheosis:other_tome"
   ],
   "incompatible": [

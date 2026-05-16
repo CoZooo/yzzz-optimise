@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "better_beacon:pure_eden",
+    "count": 1
+  },
+  "light": 5000,
+  "ingredients": [
+    {
+      "item": "yuusha:yuusha_medal"
+    },
+    {
+      "item": "angelcraft_bosses:recompensa_boss"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "wizards_reborn:petals_of_innocence"
+    },
+    {
+      "item": "goety_revelation:the_needle"
+    },
+    {
+      "item": "angelcraft_bosses:recompensa_boss"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "wizards_reborn:petals_of_innocence"
+    }
+  ]
+}

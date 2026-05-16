@@ -504,7 +504,7 @@
 'aether_redux:shimmercow' : 'minecraft:regeneration,lvl:1',
 'aether_redux:mykapod' : 'minecraft:regeneration,lvl:1',
 
-'touhou_little_maid:maid' : 'minecraft:regeneration,lvl:1|malum:gluttony,lvl:4|cataclysm:blessing_of_amethyst,lvl:1',
+'touhou_little_maid:maid' : 'minecraft:regeneration,lvl:1|malum:gluttony,lvl:10|cataclysm:blessing_of_amethyst,lvl:1',
 
 'eidolon:raven' : 'minecraft:regeneration,lvl:1',
 'eidolon:slimy_slug' : 'minecraft:regeneration,lvl:1',

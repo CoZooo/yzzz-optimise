@@ -54,9 +54,9 @@ craftingTable.addShaped("avaritia.infinity_sword.ex", <item:avaritia:infinity_sw
 <item:avaritia:endest_pearl>.addTooltip("\u00A7c禁止右击使用");
 <item:avaritia:endest_pearl>.addTooltip("\u00A7e可在星河贸易站内交易获得");
 <item:avaritia:ultimate_stew>.addTooltip("\u00A7c在击杀惊骇恶魂后可用惊骇水晶复制");
-<item:avaritia:ultimate_stew>.addTooltip("\u00A7e新增开启亡骸之海维度的金制板条箱几率获得");
+<item:avaritia:ultimate_stew>.addTooltip("\u00A7e新增开启诱惑之森维度的金制板条箱几率获得");
 <item:avaritia:cosmic_meatballs>.addTooltip("\u00A7c在击杀惊骇恶魂后可用惊骇水晶复制");
-<item:avaritia:cosmic_meatballs>.addTooltip("\u00A7e新增开启亡骸之海维度的金制板条箱几率获得");
+<item:avaritia:cosmic_meatballs>.addTooltip("\u00A7e新增开启诱惑之森维度的金制板条箱几率获得");
 
 //阴阳块
 recipes.addJsonRecipe("avaritia.neutron",{ 

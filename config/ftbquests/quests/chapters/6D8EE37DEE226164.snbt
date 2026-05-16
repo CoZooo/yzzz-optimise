@@ -256,17 +256,16 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["神一品灭火道具，放在物品栏就能生效。"]
 			id: "58520F22C949906E"
 			rewards: [{
 				id: "031877BAE6E838B1"
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "「防火」"
+			subtitle: "「化魂」"
 			tasks: [{
 				id: "0A82EEBD325DD31A"
-				item: "reliquary:pyromancer_staff"
+				item: "malum_trinkets:spirit_conductor"
 				type: "item"
 			}]
 			x: 9.5d
@@ -339,7 +338,6 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["任务奖励有几率获得。"]
 			id: "730C93218CD4D26B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -355,62 +353,6 @@
 			}]
 			x: -3.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "64EE6DE3C3EE0405"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D46D6FE5D551A67"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「易伤」"
-			tasks: [{
-				id: "1BBB6EC7C406AAD6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "enigmaticaddons:evil_dagger"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["79AAC7E0B94BBF31"]
-			id: "58F5ED8704C79558"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "56AEAD0A88651F36"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			subtitle: "「易伤」"
-			tasks: [{
-				id: "1EC2E7D25FF49CDC"
-				item: {
-					Count: 1
-					id: "aquamirae:whisper_of_the_abyss"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -620,7 +562,11 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["需放在主手或副手才能生效。"]
+			description: [
+				"&e沙拉曼达之眼&r：需放在主手或副手才能生效。"
+				""
+				"&e烈焰术士之杖&r：神一品灭火道具，放在物品栏就能生效。"
+			]
 			id: "358B59F8895CD428"
 			rewards: [{
 				id: "736ED25118CF1C7D"
@@ -628,11 +574,18 @@
 				type: "random"
 			}]
 			subtitle: "「防火」"
-			tasks: [{
-				id: "62E7310464E15BF1"
-				item: "reliquary:salamander_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "62E7310464E15BF1"
+					item: "reliquary:salamander_eye"
+					type: "item"
+				}
+				{
+					id: "0EDBC639711A760A"
+					item: "reliquary:pyromancer_staff"
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 2.5d
 		}
@@ -652,8 +605,8 @@
 				item: "cataclysm:sticky_gloves"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -664,7 +617,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "「杂项」"
+			subtitle: "「加伤」"
 			tasks: [{
 				id: "72B8F0580D4344AB"
 				item: {
@@ -686,8 +639,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
@@ -818,6 +771,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "2B49503896071870"
 				item: "nameless_trinkets:what_magnet"
@@ -1257,19 +1211,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "minecraft:brush"
+				id: "aquaculture:neptunium_fishing_rod"
 				tag: {
 					Damage: 0
-					Enchantments: [
-						{
-							id: "minecraft:efficiency"
-							lvl: 10s
-						}
-						{
-							id: "minecraft:fortune"
-							lvl: 5s
-						}
-					]
 				}
 			}
 			id: "6C1E4E580B8D70A7"
@@ -1929,6 +1873,44 @@
 			]
 			x: 6.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["大鹅的压缩饼干：对着储物容器左键点击，可自动收纳容器内未食用过的食物，再次左键即可原路放回（满载时则保留多余部分在饼干内）；长按右键能一次性吃完收纳的全部食物并消耗道具，进食总时长等同于所有食物食用时长之和，时长可通过水帽效果缩减；兼容原版储物容器、精致存储、背包，同时适配生活调味料模组胡萝卜相关食物进度追踪与生命增益效果。"]
+			id: "07A920EC7EF18396"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06A1E500D3EFB1EE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "16EC9936C9D5524E"
+				item: "gooseworkshop:goose_food_bag"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79AAC7E0B94BBF31"]
+			description: ["大鹅的护符背包：右键开启27格专属储物界面，仅可存放神话模组药水护符。护符放入背包即可自动生效并正常消耗耐久，无需佩戴至饰品栏；右键点击背包内护符，可快速切换启用/关闭状态。"]
+			id: "73A3A692B5646EDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03688012BE3CB502"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			subtitle: "「杂项」"
+			tasks: [{
+				id: "3D17C9C9FC530048"
+				item: "gooseworkshop:goose_talisman_bag"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
 		}
 	]
 	subtitle: ["&9『器具』"]

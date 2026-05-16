@@ -191,7 +191,7 @@ import mods.jeitweaker.Jei;
 <item:goety:fell_blade>.anyDamage().addTooltip("\u00A76新增击杀骷髅领主后开启的陶瓷坛内有小几率获得");
 <item:goety:haunted_armor_spawn_egg>.addTooltip("\u00A76新增缠魂甲胄刷怪蛋可用诅咒金属锭在炼狱锻炉回收");
 <item:goety:hook_bell>.anyDamage().addTooltip("\u00A7e新增任务奖励有几率获得");
-<item:goety:hook_bell>.anyDamage().addTooltip("\u00A76在图书悬赏内有几率出现");
+<item:goety:hook_bell>.anyDamage().addTooltip("\u00A7c在图书悬赏内有几率出现");
 <item:goety:dark_anvil>.anyDamage().addTooltip("\u00A7c在使用黑暗铁砧修复后，修复它所需要的经验并不会翻倍，只会增加1级");
 <item:goety:dark_anvil>.anyDamage().addTooltip("\u00A76当它被放在含有根之图腾、灵魂图腾或者连接宝石的诅咒之笼上方的时候，黑暗铁砧可以吸收1000点灵魂能量来修复自己");
 <item:goety:witch_pole>.addTooltip("\u00A7e用以放在女巫坩埚周围，可以降低药酿需要的灵魂能量，最多三个");

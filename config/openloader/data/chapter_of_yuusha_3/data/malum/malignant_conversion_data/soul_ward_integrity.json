@@ -1,6 +1,7 @@
 {
   "source_attribute": "malum:soul_ward_integrity",
   "ignore_base_value": "true",
+  "ratio" : "0.75",
   "target_attributes": [
     {
       "attribute": "malum:scythe_proficiency",

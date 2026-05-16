@@ -59,7 +59,8 @@ import mods.jeitweaker.Jei;
 
 <item:embers:tyrfing>.addTooltip("\u00A7e需炼金术合成获得，炼金台详见匠作章节任务");
 <item:embers:nonbeliever_amulet>.anyDamage().addTooltip("\u00A76减少90%受到的魔法伤害");
-<item:embers:ashen_amulet>.anyDamage().addTooltip("\u00A76佩戴后击杀生物后的掉落物全部化为灰烬");
+<item:embers:ashen_amulet>.anyDamage().addTooltip("\u00A7c佩戴后击杀生物后的掉落物全部化为灰烬");
+<item:embers:ashen_amulet>.anyDamage().addTooltip("\u00A7e新增击杀太古魔像有小几率获得");
 <item:embers:dawnstone_mail>.anyDamage().addTooltip("\u00A7c免疫击退");
 <item:embers:ember_amulet>.anyDamage().addTooltip("\u00A76降低余烬装备的余烬能量消耗，与其它余烬饰品效果可累加");
 <item:embers:ember_belt>.anyDamage().addTooltip("\u00A76降低余烬装备的余烬能量消耗，与其它余烬饰品效果可累加");

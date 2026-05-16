@@ -2,6 +2,13 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.property.Rarity;
 
 //
+<tag:items:curios:back>.remove(<item:endless_slash_curse:endless_slash_curse>);
+<tag:items:curios:heartamulet>.add(<item:endless_slash_curse:endless_slash_curse>);
+<tag:items:curios:charm>.remove(<item:better_beacon:better_beacon_sss>);
+<tag:items:curios:eye>.add(<item:better_beacon:better_beacon_sss>);
+<tag:items:curios:charm>.remove(<item:better_beacon:pure_eden>);
+<tag:items:curios:aether_misc>.add(<item:better_beacon:pure_eden>);
+
 <tag:items:curios:charm>.remove(<item:chapter_of_yuusha_3_core:excessive_treatment>);
 <tag:items:curios:pendant>.add(<item:chapter_of_yuusha_3_core:excessive_treatment>);
 <tag:items:curios:charm>.remove(<item:chapter_of_yuusha_3_core:insulation>);
@@ -63,6 +70,13 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 });
 
 //
+<item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A7c佩戴后埋伏性狩猎在非冷却期间击杀生物不会进入冷却");
+<item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A76只有选择玩家是刺客世界线才能获取");
+<item:better_beacon:better_beacon_sss>.anyDamage().addTooltip("\u00A7c佩戴时将自身的负面效果传递给目标生物");
+<item:better_beacon:pure_eden>.anyDamage().addTooltip("\u00A7c佩戴时任意攻击均可清除目标药水效果");
+<item:better_beacon:better_beacon_sss>.setMaxStackSize(1);
+<item:better_beacon:pure_eden>.setMaxStackSize(1);
+
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7c女仆佩戴后将会有法力值上限限制");
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7e但仍是瞬间恢复满法力值");
 <item:chapter_of_yuusha_3_core:war_mage_ring>.anyDamage().addTooltip("\u00A75需注意佩戴后，进食会消耗法力值");

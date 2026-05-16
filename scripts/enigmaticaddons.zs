@@ -157,9 +157,9 @@ craftingTable.addShapeless("enigmaticaddons.etherium_core.copy", <item:enigmatic
 <item:enigmaticaddons:lost_engine>.addTooltip("\u00A73· 原版跳劈、星月近战暴击均可享受加成（面板不显示）");
 <item:enigmaticaddons:revival_leaf>.addTooltip("\u00A7e击杀阿·普切或者库库尔坎有几率获得");
 <item:enigmaticaddons:revival_leaf>.addTooltip("\u00A76也可在佩戴远古甲虫相关饰品考古陈旧骨头转变的可疑方块获得");
+<item:enigmaticaddons:revival_leaf>.addTooltip("\u00A7c需注意该饰品回血为百分比血量回血，且可让周围敌对生物回血");
 <item:enigmaticaddons:revival_leaf>.addTooltip("\u00A73需注意正面和负面药水效果时长均会延长，且可能导致效果不会消失");
-<item:enigmaticaddons:revival_leaf>.addTooltip("\u00A7c佩戴后可能会导致神圣守护无法续上");
-<item:enigmaticaddons:revival_leaf>.addTooltip("\u00A72需注意该饰品回血为百分比血量回血");
+<item:enigmaticaddons:revival_leaf>.addTooltip("\u00A72佩戴后可能会导致神圣守护无法续上");
 <item:enigmaticaddons:illusion_lantern>.addTooltip("\u00A7c击杀恼鬼有小几率获得");
 <item:enigmaticaddons:illusion_lantern>.addTooltip("\u00A7e请勿与反转球体同时佩戴，可能会导致游戏崩溃");
 <item:enigmaticaddons:forgotten_ice>.addTooltip("\u00A7e· +25% 对冻结敌人的全伤害加成");

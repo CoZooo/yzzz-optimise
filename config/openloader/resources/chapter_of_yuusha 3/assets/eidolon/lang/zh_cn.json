@@ -1,4 +1,6 @@
 {
+	"lore.eidolon.warded_mail": "移除部分所受魔法伤害的穿甲能力",
+
     "item.minecraft.potion.effect.vulnerable": "卸甲药水",
     "item.minecraft.splash_potion.effect.vulnerable": "喷溅型卸甲药水",
     "item.minecraft.tipped_arrow.effect.vulnerable": "卸甲之箭",

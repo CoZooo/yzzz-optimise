@@ -415,9 +415,6 @@ craftingTable.addShapeless("celestial_enchantments.advanced_celestial_catalyst",
 craftingTable.remove(<item:celestial_enchantments:legendary_celestial_catalyst>);
 craftingTable.addShapeless("celestial_enchantments.legendary_celestial_catalyst", <item:celestial_enchantments:legendary_celestial_catalyst>*4, [<item:celestial_enchantments:advanced_celestial_catalyst>, <item:celestial_enchantments:advanced_celestial_catalyst>, <item:angelcraft_bosses:recompensa_boss>, <tag:items:celestial_enchantments:legendary_ingredients>]);
 
-craftingTable.addShapeless("celestial_enchantments.the_end_dust.1", <item:celestial_artifacts:the_end_dust>, [<item:minecraft:ender_pearl>, <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("celestial_enchantments.the_end_dust.2", <item:celestial_artifacts:the_end_dust>*4, [<item:minecraft:ender_eye>, <item:yuusha:bad_soul_gem>.reuse()]);
-
 //魅力手环 ban
 <tag:items:curios:bracelet>.remove(<item:celestial_artifacts:charming_bracelet>);
 Jei.hideIngredient(<item:celestial_artifacts:charming_bracelet>);

@@ -427,8 +427,8 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -6.5d
+			x: 19.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -919,7 +919,7 @@
 				item: "moonstone:ectoplasmbattery"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -19.5d
 		}
 		{
@@ -1155,8 +1155,8 @@
 				item: "enigmaticlegacy:monster_charm"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -19.5d
+			x: -12.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1228,7 +1228,7 @@
 				item: "enigmaticlegacy:forbidden_fruit"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.0d
 			y: -11.0d
 		}
 		{
@@ -1249,7 +1249,7 @@
 				item: "enigmaticlegacy:redemption_potion"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.0d
 			y: -11.0d
 		}
 		{
@@ -1305,7 +1305,7 @@
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 27.0d
 			y: -11.0d
 		}
 		{
@@ -1392,7 +1392,7 @@
 				item: "enigmaticlegacy:guardian_heart"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 26.0d
 			y: -11.0d
 		}
 		{
@@ -1410,7 +1410,7 @@
 				item: "enigmaticlegacy:cursed_stone"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: -11.0d
 		}
 		{
@@ -1434,7 +1434,7 @@
 				item: "enigmaticlegacy:avarice_scroll"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 25.0d
 			y: -11.0d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.0d
 			y: -11.0d
 		}
 		{
@@ -1678,7 +1678,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -21.0d
 		}
 		{
@@ -1736,7 +1736,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -22.5d
 		}
 		{
@@ -3216,7 +3216,7 @@
 				item: "nameless_trinkets:cracked_crown"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -18.0d
 		}
 		{
@@ -4334,7 +4334,7 @@
 				item: "enigmaticlegacy:soul_compass"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 23.0d
 			y: -11.0d
 		}
 		{
@@ -4360,7 +4360,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -21.0d
 		}
 		{
@@ -5305,7 +5305,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -19.5d
 		}
 		{
@@ -5587,7 +5587,7 @@
 				item: "confluence:celestial_stone"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -20.0d
 			y: -21.0d
 		}
 		{
@@ -5689,7 +5689,7 @@
 				item: "confluence:warrior_emblem"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -19.5d
 		}
 		{
@@ -5723,7 +5723,7 @@
 				item: "moonstone:nightmare_axe"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -22.5d
 		}
 		{
@@ -5791,7 +5791,7 @@
 				item: "confluence:avenger_emblem"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -21.0d
 		}
 		{
@@ -5808,7 +5808,7 @@
 				item: "confluence:destroyer_emblem"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -21.0d
 		}
 		{
@@ -5932,8 +5932,8 @@
 				item: "malstone:white_arrow_blade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -16.5d
+			x: -12.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6052,7 +6052,7 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -21.0d
 		}
 		{
@@ -6541,7 +6541,7 @@
 				item: "moonstone:blackeorb"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -21.0d
 		}
 		{
@@ -6753,7 +6753,7 @@
 				item: "moonstone:battery"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -19.5d
 		}
 		{
@@ -6804,7 +6804,7 @@
 				item: "moonstone:ambush"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 27.0d
 			y: -6.5d
 		}
 		{
@@ -6821,7 +6821,7 @@
 				item: "moonstone:autolytic"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 26.0d
 			y: -6.5d
 		}
 		{
@@ -6855,7 +6855,7 @@
 				item: "moonstone:putrefactive"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 25.0d
 			y: -6.5d
 		}
 		{
@@ -6906,7 +6906,7 @@
 				item: "moonstone:flygene"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 24.0d
 			y: -6.5d
 		}
 		{
@@ -6974,7 +6974,7 @@
 				item: "moonstone:cell_rage"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -16.5d
 		}
 		{
@@ -6991,7 +6991,7 @@
 				item: "moonstone:twistedamout"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -19.5d
 		}
 		{
@@ -7025,7 +7025,7 @@
 				item: "moonstone:mayhemcrystal"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -21.0d
 		}
 		{
@@ -7076,7 +7076,7 @@
 				item: "moonstone:redamout"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -19.5d
 		}
 		{
@@ -7165,7 +7165,7 @@
 				item: "moonstone:badgeofthedead"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -19.0d
 			y: -21.0d
 		}
 		{
@@ -7182,7 +7182,7 @@
 				item: "moonstone:mbattery"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -21.0d
 		}
 		{
@@ -7352,7 +7352,7 @@
 				item: "moonstone:magicstone"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -19.5d
 		}
 		{
@@ -7403,7 +7403,7 @@
 				item: "moonstone:malice_die"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -21.0d
 		}
 		{
@@ -7426,7 +7426,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -21.0d
 		}
 		{
@@ -7447,7 +7447,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
+			x: 23.0d
 			y: -6.5d
 		}
 		{
@@ -7468,7 +7468,7 @@
 				}
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.0d
 			y: -21.0d
 		}
 		{
@@ -7491,7 +7491,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 19.0d
 			y: -6.5d
 		}
 		{
@@ -7514,7 +7514,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
+			x: 22.0d
 			y: -6.5d
 		}
 		{
@@ -7537,7 +7537,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
+			x: 21.0d
 			y: -6.5d
 		}
 		{
@@ -7560,7 +7560,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
+			x: 20.0d
 			y: -6.5d
 		}
 		{
@@ -7577,7 +7577,7 @@
 				item: "celestial_artifacts:gold_ring"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 20.0d
 			y: -5.0d
 		}
 		{
@@ -7594,7 +7594,7 @@
 				item: "celestial_artifacts:amethyst_ring"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -19.5d
 		}
 		{
@@ -7628,7 +7628,7 @@
 				item: "celestial_artifacts:ring_of_life"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 21.0d
 			y: -5.0d
 		}
 		{
@@ -7730,7 +7730,7 @@
 				item: "celestial_artifacts:origin_etching"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -21.0d
 		}
 		{
@@ -7968,7 +7968,7 @@
 				item: "celestial_artifacts:demon_curse"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -18.0d
 		}
 		{
@@ -8002,7 +8002,7 @@
 				item: "celestial_artifacts:solar_magnet"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -19.0d
 			y: -19.5d
 		}
 		{
@@ -8098,7 +8098,7 @@
 				item: "celestial_artifacts:sands_talisman"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.0d
 			y: -19.5d
 		}
 		{
@@ -8395,7 +8395,7 @@
 				item: "celestial_artifacts:chaotic_pendant"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.0d
 			y: -5.0d
 		}
 		{
@@ -8412,7 +8412,7 @@
 				item: "celestial_artifacts:shadow_pendant"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -22.5d
 		}
 		{
@@ -8480,8 +8480,8 @@
 				item: "celestial_artifacts:fang_necklace"
 				type: "item"
 			}]
-			x: -16.0d
-			y: -22.5d
+			x: 6.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8670,7 +8670,7 @@
 				item: "celestial_artifacts:guardian_eye"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 22.0d
 			y: -5.0d
 		}
 		{
@@ -8743,7 +8743,7 @@
 				item: "celestial_artifacts:sakura_hairpin"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -18.0d
 		}
 		{
@@ -8760,7 +8760,7 @@
 				item: "celestial_artifacts:yellow_duck"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: -5.0d
 		}
 		{
@@ -8867,7 +8867,7 @@
 				item: "celestial_artifacts:leech_scabbard"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -18.0d
 		}
 		{
@@ -8884,7 +8884,7 @@
 				item: "celestial_artifacts:titan_scabbard"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -18.0d
 		}
 		{
@@ -8918,7 +8918,7 @@
 				item: "celestial_artifacts:repent_mirror"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.0d
 			y: -5.0d
 		}
 		{
@@ -8935,7 +8935,7 @@
 				item: "celestial_artifacts:backtrack_mirror"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: -5.0d
 		}
 		{
@@ -9066,7 +9066,7 @@
 				item: "enigmaticaddons:lost_engine"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -16.5d
 		}
 		{
@@ -9156,7 +9156,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -19.5d
 		}
 		{
@@ -9225,7 +9225,7 @@
 				item: "enigmaticlegacy:twisted_potion"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 22.0d
 			y: -11.0d
 		}
 		{
@@ -9537,8 +9537,8 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
-			y: -21.0d
+			x: 6.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9595,7 +9595,7 @@
 				item: "moonstone:million"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -19.5d
 		}
 		{
@@ -9731,8 +9731,8 @@
 				item: "ancient_aether:strength_stone"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -19.5d
+			x: 6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9821,7 +9821,7 @@
 				item: "moonstone:belt"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -21.0d
 		}
 		{
@@ -9878,7 +9878,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
+			x: -20.0d
 			y: -19.5d
 		}
 		{
@@ -9895,7 +9895,7 @@
 				item: "moonstone:rage_charm"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -18.0d
 		}
 		{
@@ -9963,7 +9963,7 @@
 				item: "moonstone:nightmare_base_insight_drug"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -18.0d
 		}
 		{
@@ -9997,7 +9997,7 @@
 				item: "irons_spellbooks:lurker_ring"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -19.5d
 		}
 		{
@@ -10014,7 +10014,7 @@
 				item: "confluence:mechanical_glove"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -18.0d
 		}
 		{
@@ -10032,25 +10032,8 @@
 				item: "moonstone:as_amout"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -18.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "71AD2F73B27F1D05"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "32267A932AE6DD36"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6999667D705D50A9"
-				item: "goety_revelation:eternal_watch"
-				type: "item"
-			}]
-			x: 26.0d
-			y: -5.0d
+			x: 6.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10066,7 +10049,7 @@
 				item: "goety_revelation:blessing_scroll"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -22.5d
 		}
 		{
@@ -10093,7 +10076,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：圣戒"
-			x: 1.0d
+			x: 1.5d
 			y: -3.5d
 		}
 		{
@@ -10121,7 +10104,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -1.0d
+			x: -0.5d
 			y: -3.5d
 		}
 		{
@@ -10149,7 +10132,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -6.0d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -10177,7 +10160,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -5.0d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -10205,7 +10188,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -4.0d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
@@ -10233,7 +10216,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -3.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -10261,7 +10244,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -2.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -10289,7 +10272,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -10423,8 +10406,8 @@
 				item: "moonstone:universe"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -21.0d
+			x: -12.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10846,7 +10829,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：配饰"
-			x: -7.0d
+			x: -6.5d
 			y: -3.5d
 		}
 		{
@@ -11364,7 +11347,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -21.0d
 		}
 		{
@@ -11433,6 +11416,34 @@
 			title: "&5增加一个饰品栏位：修罗之手"
 			x: -3.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			hide_dependency_lines: false
+			id: "622AFBA13AB443BF"
+			rewards: [{
+				command: "/curios add eye @s"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "touhou_little_maid:ultramarine_orb_elixir"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "79649E122FB2F289"
+				title: "增加一个饰品栏位：眼饰"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2E240590428461F1"
+				item: "cthulhufishing:third_eye_r"
+				type: "item"
+			}]
+			title: "&5增加一个饰品栏位：眼饰"
+			x: -7.5d
+			y: -3.5d
 		}
 	]
 	subtitle: ["&9『饰品』"]

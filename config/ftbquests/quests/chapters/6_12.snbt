@@ -389,7 +389,7 @@
 			description: [
 				"该套装备有耐久，建议上永恒之石。"
 				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
 			]
 			icon: {
 				Count: 1
@@ -491,7 +491,7 @@
 			description: [
 				"该套装备有耐久，建议上永恒之石。"
 				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
 			]
 			icon: {
 				Count: 1
@@ -595,7 +595,7 @@
 				""
 				"&6剑道：每+100%剑道会加快剑意的+100%回复速度。"
 				""
-				"&c特性：请勿使用砂轮清除重要装备的附魔，会导致无法利用锻造台升级装备。"
+				"&c特性：利用锻造台升级装备时，必须为满耐久，否则无法升级。"
 			]
 			icon: {
 				Count: 1
@@ -5018,9 +5018,11 @@
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"吸血镰SA包括：炼狱刀「死念」、贪婪、懒惰、傲慢、色欲、妒忌、饕餮、暴怒。"
+				"吸血镰SA包括：贪婪、懒惰、傲慢、色欲、妒忌、饕餮、暴怒。"
 				""
 				"&e吸血镰：向不同方向挥出五道斩击，每命中一道恢复自身7%的血量。"
+				""
+				"&6吸血镰SA还会给予拔刀剑穿透属性。需上永恒陨星，只有在满耐久时才会有穿透属性。"
 			]
 			icon: "eeeabsmobs:heart_of_pagan"
 			id: "7FBA287FFC33845A"
@@ -5031,98 +5033,6 @@
 			}]
 			subtitle: "SA：吸血镰"
 			tasks: [
-				{
-					id: "78B6917A318AC5FF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "slashblade_addon:model/nihil/nihil.obj"
-								RepairCounter: 0
-								SpecialAttackType: "ak:bloodsucking_sickle"
-								StandbyRenderType: 4b
-								SummonedSwordColor: -1238719
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "slashblade_addon:model/nihil/nihil_bx.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 48.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 96
-								proudSoul: 0
-								translationKey: "item.slashblade_addon.nihilbx"
-							}
-						}
-						id: "slashblade:slashblade"
-						tag: {
-							Enchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 20s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 10s
-								}
-								{
-									id: "celestial_enchantments:void_chain"
-									lvl: 3s
-								}
-								{
-									id: "celestial_enchantments:destruction_crack"
-									lvl: 3s
-								}
-							]
-							bladeState: {
-								AttackAmplifier: 0.0f
-								ComboRoot: "slashblade:standby"
-								Damage: 0
-								ModelName: "slashblade_addon:model/nihil/nihil.obj"
-								RepairCounter: 0
-								SpecialAttackType: "ak:bloodsucking_sickle"
-								StandbyRenderType: 4b
-								SummonedSwordColor: -1238719
-								SummonedSwordColorInverse: 0b
-								TargetEntity: 0
-								TextureName: "slashblade_addon:model/nihil/nihil_bx.png"
-								_onClick: 0b
-								adjustXYZ: [
-									0.0d
-									0.0d
-									0.0d
-								]
-								baseAttackModifier: 48.0f
-								currentCombo: "slashblade:none"
-								fallDecreaseRate: 0.0f
-								isBroken: 0b
-								isDefaultBewitched: 1b
-								isSealed: 0b
-								killCount: 0
-								lastActionTime: 0L
-								maxDamage: 96
-								proudSoul: 0
-								translationKey: "item.slashblade_addon.nihilbx"
-							}
-						}
-					}
-					match_nbt: true
-					type: "item"
-					weak_nbt_match: true
-				}
 				{
 					id: "759A47F4FD3944D7"
 					item: {
@@ -9319,7 +9229,7 @@
 		{
 			dependencies: ["369C7A9A9F99851C"]
 			description: [
-				"虚空囚笼SA包括：虚空囚笼·「暗狱」。"
+				"虚空囚笼SA包括：虚空囚笼·「暗狱」、炼狱刀「死念」。"
 				""
 				"&e虚空囚笼：近距离造成多次物理次元斩伤害，并释放一个延迟伤害的囚笼。"
 			]
@@ -9331,100 +9241,194 @@
 				xp: 100
 			}]
 			subtitle: "SA：虚空囚笼"
-			tasks: [{
-				id: "56576CCC704AFD83"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "shizuku:model/shizuku/base.obj"
-							RepairCounter: 0
-							SpecialAttackType: "shizuku:void_prison"
-							SpecialEffects: ["shizuku:shizuku"]
-							StandbyRenderType: 1b
-							SummonedSwordColor: -13434829
-							SummonedSwordColorInverse: 0b
-							TargetEntity: 0
-							TextureName: "shizuku:model/shizuku/c.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
+			tasks: [
+				{
+					id: "56576CCC704AFD83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13434829
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/c.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.5f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.void_blade"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:void_chain"
+									lvl: 3s
+								}
+								{
+									id: "celestial_enchantments:destruction_crack"
+									lvl: 3s
+								}
 							]
-							baseAttackModifier: 24.5f
-							currentCombo: "slashblade:none"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 0L
-							maxDamage: 580
-							proudSoul: 0
-							translationKey: "item.shizuku.void_blade"
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "shizuku:model/shizuku/base.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								SpecialEffects: ["shizuku:shizuku"]
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13434829
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "shizuku:model/shizuku/c.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 24.5f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 580
+								proudSoul: 0
+								translationKey: "item.shizuku.void_blade"
+							}
 						}
 					}
-					id: "slashblade:slashblade"
-					tag: {
-						Enchantments: [
-							{
-								id: "minecraft:sharpness"
-								lvl: 20s
-							}
-							{
-								id: "minecraft:power"
-								lvl: 10s
-							}
-							{
-								id: "celestial_enchantments:void_chain"
-								lvl: 3s
-							}
-							{
-								id: "celestial_enchantments:destruction_crack"
-								lvl: 3s
-							}
-						]
-						bladeState: {
-							AttackAmplifier: 0.0f
-							ComboRoot: "slashblade:standby"
-							Damage: 0
-							ModelName: "shizuku:model/shizuku/base.obj"
-							RepairCounter: 0
-							SpecialAttackType: "shizuku:void_prison"
-							SpecialEffects: ["shizuku:shizuku"]
-							StandbyRenderType: 1b
-							SummonedSwordColor: -13434829
-							SummonedSwordColorInverse: 0b
-							TargetEntity: 0
-							TextureName: "shizuku:model/shizuku/c.png"
-							_onClick: 0b
-							adjustXYZ: [
-								0.0d
-								0.0d
-								0.0d
-							]
-							baseAttackModifier: 24.5f
-							currentCombo: "slashblade:none"
-							fallDecreaseRate: 0.0f
-							isBroken: 0b
-							isDefaultBewitched: 1b
-							isSealed: 0b
-							killCount: 0
-							lastActionTime: 0L
-							maxDamage: 580
-							proudSoul: 0
-							translationKey: "item.shizuku.void_blade"
-						}
-					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
+				{
+					id: "35CD6F24ED197F80"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/nihil/nihil.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/nihil/nihil_bx.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 48.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 96
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.nihilbx"
+							}
+						}
+						id: "slashblade:slashblade"
+						tag: {
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 20s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:void_chain"
+									lvl: 3s
+								}
+								{
+									id: "celestial_enchantments:destruction_crack"
+									lvl: 3s
+								}
+							]
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade_addon:model/nihil/nihil.obj"
+								RepairCounter: 0
+								SpecialAttackType: "shizuku:void_prison"
+								StandbyRenderType: 4b
+								SummonedSwordColor: -1238719
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade_addon:model/nihil/nihil_bx.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 48.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 1b
+								isSealed: 0b
+								killCount: 0
+								lastActionTime: 0L
+								maxDamage: 96
+								proudSoul: 0
+								translationKey: "item.slashblade_addon.nihilbx"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
 			x: 5.5d
 			y: 18.5d
 		}
@@ -9434,6 +9438,8 @@
 				"瞬空斩SA包括：虚空行者·「瞬影」、柯罗诺斯「永境之主」。"
 				""
 				"&e瞬空斩：瞬移至目标身后背刺并造成范围伤害，如果目标周围有多个生物，则依次分别造成伤害，若处于浮空状态可触发跳劈特效。"
+				""
+				"&6瞬空斩SA还会给予拔刀剑穿透属性。需上永恒陨星，只有在满耐久时才会有穿透属性。"
 			]
 			icon: "minecraft:chorus_fruit"
 			id: "3EAF21CFBE56B6A1"

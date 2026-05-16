@@ -66,12 +66,15 @@ furnace.addRecipe("infinite_abyss.astarium_crystal", <item:infinite_abyss:astari
 <item:infinite_abyss:sapphire_box>.removeTooltip("or");
 <item:infinite_abyss:sapphire_box>.removeTooltip("to");
 <item:infinite_abyss:sapphire_box>.addTooltip("\u00A7c需用紫晶钻石钻头及以上等级镐类采掘");
+<item:infinite_abyss:sapphire_box>.addTooltip("\u00A7e生成在极尽深渊的亡骸之海维度");
 <item:infinite_abyss:golden_crate>.removeTooltip("or");
 <item:infinite_abyss:golden_crate>.removeTooltip("to");
 <item:infinite_abyss:golden_crate>.addTooltip("\u00A7c需用下界合金镐及以上等级镐类采掘");
+<item:infinite_abyss:golden_crate>.addTooltip("\u00A7e生成在极尽深渊的诱惑之森维度");
 <item:infinite_abyss:iron_crate>.removeTooltip("or");
 <item:infinite_abyss:iron_crate>.removeTooltip("to");
 <item:infinite_abyss:iron_crate>.addTooltip("\u00A7c需用下界合金镐及以上等级镐类采掘");
+<item:infinite_abyss:iron_crate>.addTooltip("\u00A7e生成在极尽深渊的亡骸之海维度");
 <item:infinite_abyss:strange_stem_bottom>.addTooltip("\u00A76在最终极之涡维度生成");
 
 <item:infinite_abyss:violet_diamond_pickaxe>.anyDamage().addTooltip("\u00A7c采掘等级5级");

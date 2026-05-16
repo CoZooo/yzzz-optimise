@@ -640,11 +640,16 @@
 	{
 		"when": "onjoin",
 		"healthset": 125000,
-		"mob": ["luminous_halloween:horseless_headsman", "infinite_abyss:huge_puffball"]
+		"mob": ["infinite_abyss:huge_puffball"]
 	},
 	{
 		"when": "onjoin",
-		"healthset": 155000,
+		"healthset": 165000,
+		"mob": ["luminous_halloween:horseless_headsman"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 175000,
 		"mob": ["stalwart_dungeons:nether_keeper"]
 	},
 	{

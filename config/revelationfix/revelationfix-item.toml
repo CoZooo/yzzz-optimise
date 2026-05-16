@@ -24,12 +24,12 @@
 ["Eternal Watch"]
 	#The time(in seconds) that The Eternal Watch can freeze.
 	#Range: 0 ~ 32768
-	FreezingTime = 5
+	FreezingTime = 7
 	#The cooldown of Eternal Watch after frozen the time.
 	#Range: 0 ~ 32768
-	Cooldown = 100
+	Cooldown = 7
 	#if true, the cooldowns of the eternal watch can can be reduced by other items
-	canCooldownsBeReduced = false
+	canCooldownsBeReduced = true
 
 ["Apocalyptium Armor"]
 

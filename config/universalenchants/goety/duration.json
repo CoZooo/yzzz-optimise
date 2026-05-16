@@ -1,7 +1,13 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:focus",
+    "goety:weakening_focus",
+    "goety:iron_hide_focus",
+    "goety:bulwark_focus",
+    "goety:entangling_focus",
+    "goety:rupture_focus",
+    "goety:meteor_shower_focus",
+    "goety:bombardment_focus",
     "apotheosis:other_tome"
   ],
   "incompatible": [

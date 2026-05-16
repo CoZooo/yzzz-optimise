@@ -319,29 +319,12 @@ craftingTable.addShaped("relics.hunter_belt.625", <item:relics:hunter_belt>.with
 craftingTable.addShaped("relics.hunter_belt.19990", <item:relics:hunter_belt>.withTag({abilities: {slots: {stats: {charm: 1.0}, points: 0}, training: {stats: {damage: 2.5}, points: 19990}}, leveling: {level: 39980}, display: {Name: "{\"text\":\"猎人腰带「超限」9阶\"}"}}), [[<item:yuusha:orichalcum>, <item:moonstone:plagues>.anyDamage(), <item:yuusha:orichalcum>], [<item:yuusha:emper_core>, <item:wizards_reborn:leather_belt>.anyDamage(), <item:yuusha:emper_core>], [<item:yuusha:orichalcum>, <item:yuusha:bad_soul_gem>.reuse(), <item:yuusha:orichalcum>]]);
 
 //分解材料
-craftingTable.addShapeless("forbidden_arcanus.stellarite_piece.copy.1", <item:forbidden_arcanus:stellarite_piece>*2, [<item:mowziesmobs:wrought_helmet>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("forbidden_arcanus.stellarite_piece.copy.2", <item:forbidden_arcanus:stellarite_piece>*2, [<item:mowziesmobs:wrought_axe>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("forbidden_arcanus.xpetrified_orb.copy.1", <item:forbidden_arcanus:xpetrified_orb>*9, [<item:mowziesmobs:sol_visage>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("forbidden_arcanus.xpetrified_orb.copy.2", <item:forbidden_arcanus:xpetrified_orb>*9, [<item:mowziesmobs:grant_suns_blessing>, <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("forbidden_arcanus.xpetrified_orb.copy.3", <item:forbidden_arcanus:xpetrified_orb>*9, [<item:mowziesmobs:earthrend_gauntlet>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("forbidden_arcanus.xpetrified_orb.copy.4", <item:forbidden_arcanus:xpetrified_orb>*9, [<item:mowziesmobs:ice_crystal>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);
 craftingTable.addShapeless("graveyard.vial_of_blood.bad_soul_gem", <item:graveyard:vial_of_blood>.withTag({Blood: 0.8000001}), [<item:born_in_chaos_v1:elixir_of_vampirism>, <item:bhc:soul_heart_crystal>, <item:graveyard:bone_dagger>.reuse(), <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("luminous_halloween.halloween_ingot.bad_soul_gem", <item:luminous_halloween:halloween_ingot>, [<item:luminous_halloween:spooky_apple>, <item:yuusha:bad_soul_gem>.reuse()]);
 craftingTable.addShapeless("celestial_core.pure_nether_star.bad_soul_gem", <item:celestial_core:pure_nether_star>, [<item:minecraft:nether_star>, <item:hmag:purification_cloth>, <item:hmag:purification_cloth>, <item:hmag:purification_cloth>, <item:hmag:purification_cloth>, <item:yuusha:bad_soul_gem>.reuse()]);
-craftingTable.addShapeless("enigmaticaddons.ichor_droplet.bad_soul_gem", <item:enigmaticaddons:ichor_droplet>, [<item:reliquary:infernal_tear>, <item:yuusha:bad_soul_gem>.reuse()]);
-
-//魔眼高爆弹
-//craftingTable.addShapeless("tacz.attachment.ammo_mod_he", <item:tacz:attachment>.withTag({AttachmentId: "tacz:ammo_mod_he"}), [<item:infinite_abyss:flawless_charium>, <item:infinite_abyss:flawless_charium>, <item:infinite_abyss:flawless_charium>, <item:infinite_abyss:flawless_charium>, <item:infinite_abyss:flawless_charium>, <item:infinite_abyss:flawless_charium>, <item:cataclysm:cursed_eye>, <item:yuusha:bad_soul_gem>.reuse()]);
 
 //红色渊剑
 craftingTable.remove(<item:depthcrawler:redtenebris>);
 craftingTable.addShaped("depthcrawler.redtenebris", <item:depthcrawler:redtenebris>, [[<item:minecraft:air>, <item:cataclysm:ignitium_ingot>, <item:yuusha:chaos_star>], [<item:locusazzurro_icaruswings:synapse_alloy_ingot>, <item:bosses_of_mass_destruction:blazing_eye>, <item:cataclysm:ignitium_ingot>], [<item:enigmaticlegacy:ender_rod>, <item:locusazzurro_icaruswings:synapse_alloy_ingot>, <item:minecraft:air>]]);
-
-//诅咒金属锭
-//craftingTable.addShapeless("goety.cursed_ingot.bad_soul_gem", <item:goety:cursed_ingot>, [<item:born_in_chaos_v1:dark_metal_ingot>, <item:cthulhufishing:reagent>, <item:yuusha:bad_soul_gem>.reuse()]);
-
-//破旧布料
-//craftingTable.addShapeless("majruszsdifficulty.cloth.bad_soul_gem", <item:majruszsdifficulty:cloth>, [<item:forbidden_arcanus:cloth>, <item:yuusha:bad_soul_gem>.reuse()]);
 
 //守卫者眼球
 craftingTable.addShapeless("celestial_artifacts.guardian_eye.bad_soul_gem", <item:celestial_artifacts:guardian_eye>, [<item:endrem:guardian_eye>.anyDamage(), <item:yuusha:bad_soul_gem>.reuse()]);

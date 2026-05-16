@@ -9,6 +9,7 @@
   "cy3_core_fix": true,
   "aetherworks_fix": true,
   "apotheosis_gateway_fix": true,
+  "apotheosis_spawner_fix": true,
   "reliquary_lyssa_fix": true,
   "eidolon_jei_fix": true,
   "null_blockstate_fix": true,
@@ -21,5 +22,6 @@
   "endinglib_fix": true,
   "eidolon_hearts_fix": true,
   "celestial_forge_fix": true,
-  "lychee_offhand_fix": true
+  "lychee_offhand_fix": true,
+  "aquamirae_pouch_fix": true
 }

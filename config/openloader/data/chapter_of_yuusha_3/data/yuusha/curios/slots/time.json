@@ -2,7 +2,7 @@
   "add_cosmetic": false,
   "icon": "moonstone:slot/nightmare",
   "operation": "SET",
-  "order": 111,
+  "order": 12,
   "render_toggle": true,
   "replace": false,
   "size": 1,

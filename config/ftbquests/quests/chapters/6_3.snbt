@@ -1090,6 +1090,8 @@
 				"玩家在使用各种造成非玩家伤害的聚晶时，不会触发生物仇恨，并且玩家不会因此破隐。"
 				""
 				"&6部分Boss可能女仆不方便破适应，玩家可以用此帮忙。"
+				""
+				"&c更多相关聚晶可查看魔爆章节任务。"
 			]
 			id: "639234F3D2BD3D55"
 			rewards: [{
@@ -1107,29 +1109,17 @@
 		}
 		{
 			dependencies: ["5BC28235BEC9271D"]
-			description: [
-				"太阳鸟的战利品可分解为石化经验球。"
-				""
-				"钢铁守卫者的战利品可分解为陨星碎片。"
-			]
 			id: "768FEA7F23714893"
 			rewards: [{
 				id: "6C017AF7A351F0FC"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "249366F9CB23EEAF"
-					item: "forbidden_arcanus:xpetrified_orb"
-					type: "item"
-				}
-				{
-					id: "03D45BE5A941AD62"
-					item: "forbidden_arcanus:stellarite_piece"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "03D45BE5A941AD62"
+				item: "yuusha:mutant_cube"
+				type: "item"
+			}]
 			x: 4.5d
 			y: -3.0d
 		}
@@ -1701,6 +1691,8 @@
 				"&c袭击内的部分怪物可以直接把盾牌摧毁，尤其是女仆的盾牌要注意。"
 				""
 				"&6多个女仆使用枪械时有几率会游戏崩溃，这是特性。"
+				""
+				"&e女仆专属盾牌上的属性只有在副手时才会有，请注意女仆持盾的栏位。所显示的双手武器不影响女仆使用。"
 			]
 			id: "7E2D5806416588D5"
 			rewards: [{
@@ -3017,7 +3009,6 @@
 		}
 		{
 			dependencies: ["5BC28235BEC9271D"]
-			description: ["女仆世界线的精髓可以通过合成获得。"]
 			id: "650DFCE9BD14629D"
 			rewards: [{
 				id: "0DC09F201A480B9A"

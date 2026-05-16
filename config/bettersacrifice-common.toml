@@ -1,0 +1,14 @@
+#是否开启针对 Lovin 的特殊献祭特效
+enableSpecialEffects = true
+#献祭时的视觉爆炸比例
+#Range: 0.0 ~ 10.0
+explosionScale = 1.5
+#献祭法术每提升一级，额外增加的爆炸半径 (单位: 格)
+#Range: 0.0 ~ 10.0
+bonusRadiusPerLevel = 1.0
+#献祭法术半径收益的最高等级上限（超过此等级将不再增加半径）
+#Range: 1 ~ 100
+maxLevelForRadius = 50
+#献祭时随机显示的文案列表。你可以添加任意数量的文案。
+mockeryTexts = ["血鬼术·赤色誓言·极暴风式·血爆"]
+

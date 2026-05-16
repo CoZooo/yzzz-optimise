@@ -117,15 +117,15 @@ craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <it
 <item:locusazzurro_icaruswings:golden_fleece>.addTooltip("\u00A76可与牧羊人村民交易获得");
 <item:locusazzurro_icaruswings:golden_fleece>.addTooltip("\u00A7e新增在牧羊悬赏内有几率获得");
 
-<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A7c玩家击杀蝙蝠、幻翼有几率获得");
-<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A76详见上层世界章节");
-<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A7e女仆世界线可通过合成获取");
-<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A7c玩家击杀凋零骷髅或烈焰人有几率获得");
-<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A76详见下界炼狱章节");
-<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A7e女仆世界线可通过合成获取");
-<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7c玩家击杀潜影贝有几率获得");
-<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A76详见末路之地章节");
-<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7e女仆世界线可通过合成获取");
+<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A7c玩家击杀蝙蝠或幻翼有小几率获得");
+<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A7e新增所有生物击杀蝙蝠、幻翼有低几率获得");
+<item:locusazzurro_icaruswings:zephir_essence>.addTooltip("\u00A76相关内容详见上层世界章节");
+<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A7c玩家击杀凋零骷髅或烈焰人有小几率获得");
+<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A7e新增所有生物击杀凋零骷髅或烈焰人有低几率获得");
+<item:locusazzurro_icaruswings:nether_essence>.addTooltip("\u00A76相关内容详见下界炼狱章节");
+<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7c玩家击杀潜影贝有小几率获得");
+<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7e新增所有生物击杀潜影贝有低几率获得");
+<item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A76相关内容详见末路之地章节");
 <item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A7c与流浪商人交易可获得");
 <item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A76详见上层世界章节");
 <item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A7e后续击杀混沌魔影也可获得");
@@ -170,11 +170,6 @@ craftingTable.addShaped("locusazzurro_icaruswings.glass_jar", <item:locusazzurro
 craftingTable.remove(<item:locusazzurro_icaruswings:gold_upgrade_smithing_template>);
 craftingTable.addShaped("locusazzurro_icaruswings.gold_upgrade_smithing_template.1", <item:locusazzurro_icaruswings:gold_upgrade_smithing_template>,[[<item:minecraft:netherrack>, <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:minecraft:netherrack>], [<item:minecraft:netherrack>, <item:locusazzurro_icaruswings:glistering_refined_beeswax_bar>, <item:minecraft:netherrack>], [<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:netherrack>]]);
 craftingTable.addShaped("locusazzurro_icaruswings.gold_upgrade_smithing_template.2", <item:locusazzurro_icaruswings:gold_upgrade_smithing_template>*2,[[<item:minecraft:netherrack>, <item:locusazzurro_icaruswings:gold_upgrade_smithing_template>, <item:minecraft:netherrack>], [<item:minecraft:netherrack>, <item:locusazzurro_icaruswings:glistering_refined_beeswax_bar>, <item:minecraft:netherrack>], [<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:netherrack>]]);
-
-//精髓
-craftingTable.addShaped("locusazzurro_icaruswings.zephir_essence", <item:locusazzurro_icaruswings:zephir_essence>,[[<item:minecraft:air>, <item:minecraft:phantom_membrane>, <item:minecraft:air>], [<item:minecraft:phantom_membrane>, <item:yuusha:bad_soul_gem>.reuse(), <item:minecraft:phantom_membrane>], [<item:minecraft:air>, <item:minecraft:phantom_membrane>, <item:minecraft:air>]]);
-craftingTable.addShaped("locusazzurro_icaruswings.nether_essence", <item:locusazzurro_icaruswings:nether_essence>,[[<item:minecraft:air>, <item:celestial_core:fire_essence>, <item:minecraft:air>], [<item:celestial_core:fire_essence>, <item:yuusha:bad_soul_gem>.reuse(), <item:celestial_core:fire_essence>], [<item:minecraft:air>, <item:celestial_core:fire_essence>, <item:minecraft:air>]]);
-craftingTable.addShaped("locusazzurro_icaruswings.void_essence", <item:locusazzurro_icaruswings:void_essence>,[[<item:minecraft:air>, <item:minecraft:shulker_shell>, <item:minecraft:air>], [<item:minecraft:shulker_shell>, <item:yuusha:bad_soul_gem>.reuse(), <item:minecraft:shulker_shell>], [<item:minecraft:air>, <item:minecraft:shulker_shell>, <item:minecraft:air>]]);
 
 //
 stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.stability", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "apotheosis_modern_ragnarok:stability"}]}), <item:locusazzurro_icaruswings:quantum_fuel>);

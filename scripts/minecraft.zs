@@ -25,7 +25,7 @@ import crafttweaker.api.recipe.Brewing;
 <item:minecraft:magma_cream>.addTooltip("\u00A7c火属性抗性效果不能完全防火，只提供减伤");
 <item:minecraft:bat_spawn_egg>.addTooltip("\u00A7c手持血蝠翼右击灵魂营火，可召喚蝙蝠");
 <item:minecraft:bat_spawn_egg>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
-<item:minecraft:redstone_ore>.addTooltip("\u00A7c请勿右击放置红石矿石，否则会直接消失");
+//<item:minecraft:redstone_ore>.addTooltip("\u00A7c请勿右击放置红石矿石，否则会直接消失");
 <item:minecraft:nautilus_shell>.addTooltip("\u00A7e可在切石机中制作饵钓3级附魔书");
 <item:minecraft:powder_snow_bucket>.addTooltip("\u00A7c细雪会自然生成于雪林生物群系的地表");
 <item:minecraft:powder_snow_bucket>.addTooltip("\u00A7e也可以通过在下雪天使用炼药锅接雪来为炼药锅装满细雪");

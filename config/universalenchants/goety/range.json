@@ -1,7 +1,12 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:focus",
+    "goety:telekinesis_focu",
+    "goety:entangling_focus",
+    "goety:leeching_focus",
+    "goety:quaking_focus",
+    "goety:rupture_focus",
+    "goety:meteor_shower_focus",
     "apotheosis:other_tome"
   ],
   "incompatible": [
