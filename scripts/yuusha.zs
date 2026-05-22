@@ -134,8 +134,7 @@
 <item:yuusha:focus_3_evil>.addTooltip("\u00A7c在「魇梦」章节提交任务后才可开启后续任务");
 <item:yuusha:focus_4_ass>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_4_ass>.addTooltip("\u00A7c在「界青」章节提交任务后才可开启后续任务");
-<item:yuusha:focus_4_ass>.addTooltip("\u00A7e请勿随便拿起，会锁定玩家路线");
-<item:yuusha:focus_4_ass>.addTooltip("\u00A76如果开启了开局宝箱，则此物品会出现在里面");
+//<item:yuusha:focus_4_ass>.addTooltip("\u00A76如果开启了开局宝箱，则此物品会出现在里面");
 <item:yuusha:focus_5_none>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");
 <item:yuusha:focus_5_none>.addTooltip("\u00A7c在「无赎」章节提交任务后才可开启后续任务");
 <item:yuusha:focus_6_sword>.addTooltip("\u00A77据说这是来自神秘时代的失落之物");

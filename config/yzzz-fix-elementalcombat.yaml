@@ -1,0 +1,18 @@
+# Elemental Combat Jade 修复配置
+# 由 yzzz-fix 生成，修改后需重启游戏
+#
+# labels: 自定义 Jade tooltip 中的标签文本
+#   留空则使用 lang 文件翻译 (推荐)
+#   填写则强制使用此处的值，优先级高于 lang
+#
+# spacing: 图标与文本的间距参数 (单位: 像素)
+#   icon_left_padding_px: 图标距标签文字右侧的偏移
+#   min_icon_text_gap_px: 图标右侧与百分比文本的最小间隙
+
+labels:
+  attack: "攻击属性："
+  defense: "属性特防："
+
+spacing:
+  icon_left_padding_px: 2
+  min_icon_text_gap_px: 4

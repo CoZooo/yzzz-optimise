@@ -3,44 +3,32 @@
   "blade": "shizuku:moonlight_blade",
   "category": "equipment",
   "key": {
-    "E": {
+    "D": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
-        "name": "slashblade_addon:tboen",
-        "refine": 5
+        "kill": 300,
+        "name": "ak:dick_wido",
+        "refine": 3
       }
     },
-    "A": {
-      "item": "minecraft:glowstone_dust"
-    },
-    "B": {
-      "item": "shizuku:meow_stone"
-    },
-    "C": {
-      "item": "minecraft:quartz_block"
-    },
-    "D": {
-      "item": "minecraft:gold_ingot"
-    },
-    "G": {
-      "item": "minecraft:glowstone"
-    },
     "H": {
-      "item": "minecraft:iron_ingot"
+      "item": "slashblade:proudsoul_crystal"
     },
-    "K": {
-      "item": "minecraft:echo_shard"
+    "S": {
+      "item": "celestial_core:light_fragment"
     },
     "F": {
-      "item": "minecraft:white_wool"
+      "item": "forbidden_arcanus:whirlwind_prism"
+    },
+    "G": {
+      "item": "bosses_of_mass_destruction:void_thorn"
     }
   },
   "pattern": [
-    "ABH",
-    "DEF",
-    "CGK"
+    "HGS",
+    "FDF",
+    "SGH"
   ],
   "result": {
     "item": "slashblade:slashblade"

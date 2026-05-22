@@ -64,6 +64,5 @@
   "disableF3": false,
   "skipEntityCulling": false,
   "skipBlockEntityCulling": false,
-  "blockEntityFrustumCulling": true,
-  "forceDisplayCulling": false
+  "blockEntityFrustumCulling": true
 }

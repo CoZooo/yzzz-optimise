@@ -65,12 +65,12 @@ smithing.remove(<item:morebows:gilded_netherite_bow>);
 smithing.remove(<item:morebows:enderite_bow>);
 smithing.remove(<item:morebows:gilded_enderite_bow>);
 
-smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:minecraft:bow>, <item:minecraft:copper_block>);
-smithing.addTransformRecipe("morebows.iron_bow", <item:morebows:iron_bow>, <item:hmag:evil_crystal_upgrade_smithing_template>, <item:morebows:copper_bow>, <item:minecraft:iron_block>);
-smithing.addTransformRecipe("morebows.golden_bow", <item:morebows:golden_bow>, <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:morebows:iron_bow>, <item:minecraft:gold_block>);
-smithing.addTransformRecipe("morebows.emerald_bow", <item:morebows:emerald_bow>, <item:call_of_drowner:coral_smithing_template>, <item:morebows:golden_bow>, <item:goety:awakened_emerald_block>);
-smithing.addTransformRecipe("morebows.diamond_bow", <item:morebows:diamond_bow>, <item:cataclysm:cursium_upgrade_smithing_template>, <item:morebows:emerald_bow>, <item:minecraft:diamond_block>);
-smithing.addTransformRecipe("morebows.netherite_bow", <item:morebows:netherite_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:diamond_bow>, <item:minecraft:netherite_block>);
+smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:minecraft:bow>.anyDamage(), <item:minecraft:copper_block>);
+smithing.addTransformRecipe("morebows.iron_bow", <item:morebows:iron_bow>, <item:hmag:evil_crystal_upgrade_smithing_template>, <item:morebows:copper_bow>.anyDamage(), <item:minecraft:iron_block>);
+smithing.addTransformRecipe("morebows.golden_bow", <item:morebows:golden_bow>, <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:morebows:iron_bow>.anyDamage(), <item:minecraft:gold_block>);
+smithing.addTransformRecipe("morebows.emerald_bow", <item:morebows:emerald_bow>, <item:call_of_drowner:coral_smithing_template>, <item:morebows:golden_bow>.anyDamage(), <item:goety:awakened_emerald_block>);
+smithing.addTransformRecipe("morebows.diamond_bow", <item:morebows:diamond_bow>, <item:cataclysm:cursium_upgrade_smithing_template>, <item:morebows:emerald_bow>.anyDamage(), <item:minecraft:diamond_block>);
+smithing.addTransformRecipe("morebows.netherite_bow", <item:morebows:netherite_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:diamond_bow>.anyDamage(), <item:minecraft:netherite_block>);
 
 //死灵烈焰弓
 craftingTable.remove(<item:too_many_bows:necro_flame_bow>);
@@ -90,39 +90,39 @@ craftingTable.remove(<item:too_many_bows:sentinels_wrath>);
 craftingTable.remove(<item:aquaculture:neptunium_bow>);
 
 //获得 返还
-smithing.addTransformRecipe("too_many_bows.ironclad_bow", <item:too_many_bows:ironclad_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:netherite_bow>, <item:cataclysm:monstrous_eye>);
+smithing.addTransformRecipe("too_many_bows.ironclad_bow", <item:too_many_bows:ironclad_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:netherite_bow>.anyDamage(), <item:cataclysm:monstrous_eye>);
 
-smithing.addTransformRecipe("too_many_bows.frostbite.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:frostbite>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.auroras_grace.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:auroras_grace>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.burnt_relic.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:burnt_relic>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.arc_heavens.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arc_heavens>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.twin_shadows.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:twin_shadows>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.crimson_nexus.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:crimson_nexus>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("aquaculture.neptunium_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:aquaculture:neptunium_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ironclad_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ironclad_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ethereal_hunter.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ethereal_hunter>, <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.frostbite.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:frostbite>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.auroras_grace.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:auroras_grace>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.burnt_relic.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:burnt_relic>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.arc_heavens.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arc_heavens>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.twin_shadows.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:twin_shadows>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.crimson_nexus.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:crimson_nexus>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("aquaculture.neptunium_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:aquaculture:neptunium_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.ironclad_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ironclad_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.ethereal_hunter.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ethereal_hunter>.anyDamage(), <item:hmag:purification_cloth>);
 
-smithing.addTransformRecipe("too_many_bows.spectral_whisper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:spectral_whisper>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.scatter_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:scatter_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.verdant_viper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_viper>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.flame_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:flame_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.astral_bound.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:astral_bound>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.demons_grasp.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:demons_grasp>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.aethers_call.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:aethers_call>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.torchbearer.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:torchbearer>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.vitality_weaver.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:vitality_weaver>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.wind_bow.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:wind_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.sentinels_wrath.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:sentinels_wrath>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.dragons_breath.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dragons_breath>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.shulker_blast.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:shulker_blast>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.solar_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:solar_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.tidal_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:tidal_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.dark_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dark_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ancient_sage_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ancient_sage_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.cyroheart_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:cyroheart_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.arcane_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arcane_bow>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.webstring.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:webstring>, <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.verdant_vigor.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_vigor>, <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.spectral_whisper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:spectral_whisper>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.scatter_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:scatter_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.verdant_viper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_viper>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.flame_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:flame_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.astral_bound.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:astral_bound>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.demons_grasp.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:demons_grasp>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.aethers_call.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:aethers_call>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.torchbearer.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:torchbearer>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.vitality_weaver.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:vitality_weaver>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.wind_bow.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:wind_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.sentinels_wrath.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:sentinels_wrath>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.dragons_breath.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dragons_breath>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.shulker_blast.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:shulker_blast>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.solar_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:solar_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.tidal_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:tidal_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.dark_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dark_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.ancient_sage_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ancient_sage_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.cyroheart_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:cyroheart_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.arcane_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arcane_bow>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.webstring.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:webstring>.anyDamage(), <item:hmag:purification_cloth>);
+smithing.addTransformRecipe("too_many_bows.verdant_vigor.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_vigor>.anyDamage(), <item:hmag:purification_cloth>);
 
 
 //锻造模板

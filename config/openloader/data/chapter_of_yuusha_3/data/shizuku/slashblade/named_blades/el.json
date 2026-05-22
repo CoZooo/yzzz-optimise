@@ -20,8 +20,8 @@
   "item": "slashblade:slashblade",
   "name": "shizuku:engulfing_lightning",
   "properties": {
-    "attack_base": 46.0,
-    "max_damage": 92,
+    "attack_base": 96.0,
+    "max_damage": 192,
     "slash_art": "shizuku:leisa",
     "special_effects": [
       "shizuku:leise"

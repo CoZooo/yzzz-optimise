@@ -1,0 +1,15 @@
+
+[nine_demons_nine_calamities]
+	#Range: 1 ~ 9
+	max_wands = 9
+	#Range: 0.0 ~ 1000.0
+	first_wand_bonus_percent = 9.0
+	#Range: 0.0 ~ 1000.0
+	bonus_decay_per_wand_percent = 1.0
+	#Range: 0.0 ~ 1000.0
+	min_wand_bonus_percent = 1.0
+	#Range: 0.0 ~ 1000.0
+	cast_bonus_per_wand_percent = 1.5
+	#Range: 1 ~ 72000
+	cast_bonus_duration_ticks = 100
+

@@ -33,17 +33,6 @@
         "value": 512
       }
     },
-    "obscure_api:dodge": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 90
-      }
-    },
     "goety_revelation:spell_power_multiplier": {
       "enabled": false,
       "min": {
@@ -53,6 +42,17 @@
       "max": {
         "default": 32767,
         "value": 32767
+      }
+    },
+    "obscure_api:dodge": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 90
       }
     },
     "attributeslib:armor_shred": {
@@ -1001,28 +1001,6 @@
         "value": 2147483647
       }
     },
-    "irons_spellbooks:fire_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
-    "irons_spellbooks:eldritch_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "eidolon:magic_power": {
       "enabled": true,
       "min": {
@@ -1043,6 +1021,28 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "irons_spellbooks:fire_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "irons_spellbooks:eldritch_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "goety:void_potency": {
@@ -1716,17 +1716,6 @@
         "value": 1
       }
     },
-    "obscure_api:magic_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "forge:entity_reach": {
       "enabled": false,
       "min": {
@@ -1736,6 +1725,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "obscure_api:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "celestial_core:arrow_speed": {
@@ -2091,14 +2091,14 @@
       }
     },
     "attributeslib:mining_speed": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
         "default": 10,
-        "value": 10
+        "value": 5
       }
     },
     "irons_spellbooks:spell_resist": {
@@ -2244,17 +2244,6 @@
         "value": 2
       }
     },
-    "irons_spellbooks:holy_magic_resist": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "goety_revelation:geomancy_power": {
       "enabled": false,
       "min": {
@@ -2264,6 +2253,17 @@
       "max": {
         "default": 32767,
         "value": 32767
+      }
+    },
+    "irons_spellbooks:holy_magic_resist": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "siren_head:attackroller": {
@@ -2332,17 +2332,6 @@
         "value": 2048
       }
     },
-    "irons_spellbooks:eldritch_spell_power": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "goety_revelation:cast_duration": {
       "enabled": true,
       "min": {
@@ -2352,6 +2341,17 @@
       "max": {
         "default": 32767,
         "value": 1.75
+      }
+    },
+    "irons_spellbooks:eldritch_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "obscure_api:magic_damage": {
@@ -2409,17 +2409,6 @@
         "value": 100
       }
     },
-    "wizards_reborn:wissen_discount": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 75,
-        "value": 75
-      }
-    },
     "goety_revelation:resistance": {
       "enabled": true,
       "min": {
@@ -2429,6 +2418,17 @@
       "max": {
         "default": 2,
         "value": 1.9
+      }
+    },
+    "wizards_reborn:wissen_discount": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 75,
+        "value": 75
       }
     },
     "attributeslib:dodge_chance": {
@@ -2802,7 +2802,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 0.5
+        "value": 0.25
       }
     },
     "siren_head:attackid": {

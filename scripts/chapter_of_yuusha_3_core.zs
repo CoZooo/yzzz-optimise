@@ -2,6 +2,8 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.property.Rarity;
 
 //
+<tag:items:curios:ring>.remove(<item:gooseworkshop:nine_demons_nine_calamities>);
+<tag:items:curios:god_hand>.add(<item:gooseworkshop:nine_demons_nine_calamities>);
 <tag:items:curios:back>.remove(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:heartamulet>.add(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:charm>.remove(<item:better_beacon:better_beacon_sss>);
@@ -18,6 +20,10 @@ import crafttweaker.api.item.property.Rarity;
 <tag:items:curios:back>.remove(<item:chapter_of_yuusha_3_core:recoil_absorber>);
 <tag:items:curios:two>.add(<item:chapter_of_yuusha_3_core:recoil_absorber>);
 <tag:items:curios:god_hand>.add(<item:chapter_of_yuusha_3_core:arcane_specialty>);
+
+//
+craftingTable.remove(<item:gooseworkshop:goose_food_bag>);
+craftingTable.addShapeless("gooseworkshop.goose_food_bag", <item:gooseworkshop:goose_food_bag>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
 
 //时之沙漏
 craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:chapter_of_yuusha_3_core:excessive_treatment>, [[<item:cataclysm:lacrima>, <item:yuusha:bless_core>.reuse(), <item:cataclysm:lacrima>], [<tag:items:locusazzurro_icaruswings:world_essences>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <tag:items:locusazzurro_icaruswings:world_essences>], [<item:cataclysm:lacrima>, <item:yuusha:bless_star>, <item:cataclysm:lacrima>]]);

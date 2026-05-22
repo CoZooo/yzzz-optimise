@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 300,
-        "name": "ak:dick_wido",
-        "refine": 3
+        "kill": 400,
+        "name": "shizuku:moonlight_blade",
+        "refine": 4
       }
     },
     "H": {
@@ -19,7 +19,7 @@
       "item": "hmag:fortune_crystal_plus"
     },
     "F": {
-      "item": "forbidden_arcanus:whirlwind_prism"
+      "item": "whisperwoods:hirschgeist_skull"
     }
   },
   "pattern": [

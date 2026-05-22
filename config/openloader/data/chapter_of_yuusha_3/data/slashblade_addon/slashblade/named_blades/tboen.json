@@ -15,8 +15,8 @@
   ],
   "name": "slashblade_addon:tboen",
   "properties": {
-    "attack_base": 36.0,
-    "max_damage": 72,
+    "attack_base": 86.0,
+    "max_damage": 172,
     "slash_art": "ak:time_zero",
     "sword_type": [
       "none"

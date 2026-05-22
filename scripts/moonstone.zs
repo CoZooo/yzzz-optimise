@@ -316,7 +316,7 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <tag:items:curios:curio>.remove(<item:moonstone:ectoplasmstone>);
 <tag:items:curios:charm>.add(<item:moonstone:ectoplasmstone>);
 <tag:items:curios:curio>.remove(<item:moonstone:blood_magic_box>);
-<tag:items:curios:pendant>.add(<item:moonstone:blood_magic_box>);
+<tag:items:curios:charm>.add(<item:moonstone:blood_magic_box>);
 <tag:items:curios:curio>.remove(<item:moonstone:blood_amout>);
 <tag:items:curios:charm>.add(<item:moonstone:blood_amout>);
 <tag:items:curios:curio>.remove(<item:moonstone:blood_snake>);
@@ -897,7 +897,6 @@ craftingTable.addShapeless("moonstone.blood_snake", <item:moonstone:blood_snake>
 
 //血之魔盒 改合成
 craftingTable.remove(<item:moonstone:blood_magic_box>);
-//craftingTable.addShapeless("moonstone.blood_magic_box", <item:moonstone:blood_magic_box>, [<item:minecraft:ender_chest>, <item:moonstone:fortunecrystal>.anyDamage(), <item:moonstone:ectoplasmcube>, <item:irons_spellbooks:blood_rune>, <item:born_in_chaos_v1:elixir_of_vampirism>, <item:born_in_chaos_v1:elixir_of_vampirism>, <item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>, <item:sons_of_sins:flesh_of_demise>]);
 
 //血符 加合成
 craftingTable.remove(<item:moonstone:blood_amout>);

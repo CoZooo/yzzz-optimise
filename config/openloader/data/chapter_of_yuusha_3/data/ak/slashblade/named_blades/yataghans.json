@@ -15,8 +15,8 @@
   ],
   "name": "ak:yataghans",
   "properties": {
-    "attack_base": 26.0,
-    "max_damage": 52,
+    "attack_base": 76.0,
+    "max_damage": 152,
 	"slash_art": "slashblade:sakura_end",
     "sword_type": [
       "bewitched"

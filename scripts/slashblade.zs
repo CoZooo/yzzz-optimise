@@ -39,10 +39,11 @@ craftingTable.remove(<item:embers:ashen_cloak>);
 craftingTable.remove(<item:embers:ashen_leggings>);
 craftingTable.remove(<item:embers:ashen_boots>);
 
-smithing.addTransformRecipe("aether.valkyrie_helmet", <item:aether:valkyrie_helmet>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:locusazzurro_icaruswings:golden_feather_helmet>, <item:yuusha:ice_blood>);
-smithing.addTransformRecipe("aether.valkyrie_chestplate", <item:aether:valkyrie_chestplate>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_cloak>, <item:yuusha:ice_blood>);
-smithing.addTransformRecipe("aether.valkyrie_leggings", <item:aether:valkyrie_leggings>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_leggings>, <item:yuusha:ice_blood>);
-smithing.addTransformRecipe("aether.valkyrie_boots", <item:aether:valkyrie_boots>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_boots>, <item:yuusha:ice_blood>);
+//允许任何耐久
+smithing.addTransformRecipe("aether.valkyrie_helmet", <item:aether:valkyrie_helmet>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:locusazzurro_icaruswings:golden_feather_helmet>.anyDamage(), <item:yuusha:ice_blood>);
+smithing.addTransformRecipe("aether.valkyrie_chestplate", <item:aether:valkyrie_chestplate>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_cloak>.anyDamage(), <item:yuusha:ice_blood>);
+smithing.addTransformRecipe("aether.valkyrie_leggings", <item:aether:valkyrie_leggings>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_leggings>.anyDamage(), <item:yuusha:ice_blood>);
+smithing.addTransformRecipe("aether.valkyrie_boots", <item:aether:valkyrie_boots>, <item:cataclysm:ignitium_upgrade_smithing_template>, <item:embers:ashen_boots>.anyDamage(), <item:yuusha:ice_blood>);
 
 craftingTable.remove(<item:prinegorerouse:chronos>);
 craftingTable.remove(<item:prinegorerouse:erebus>);
@@ -86,13 +87,6 @@ craftingTable.remove(<item:prinegorerouse:fatestar>);
 <item:aether:valkyrie_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:rough_blade:max_slash_power> , "attribute.valkyrie_leggings.3", 325, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:aether:valkyrie_boots>.anyDamage().addGlobalAttributeModifier(<attribute:rough_blade:max_slash_power>,  "attribute.valkyrie_boots.3", 325, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
-/*
-<item:aether:valkyrie_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.valkyrie_helmet.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:aether:valkyrie_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.valkyrie_chestplate.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:aether:valkyrie_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.valkyrie_leggings.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:aether:valkyrie_boots>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power>,  "attribute.valkyrie_boots.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-*/
-
 <item:eeeabsmobs:ghost_warrior_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:slashblade:slashblade_damage> , "attribute.ghost_warrior_helmet.1", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 <item:eeeabsmobs:ghost_warrior_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:slashblade:slashblade_damage> , "attribute.ghost_warrior_chestplate.1", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:eeeabsmobs:ghost_warrior_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:slashblade:slashblade_damage> , "attribute.ghost_warrior_leggings.1", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
@@ -108,26 +102,8 @@ craftingTable.remove(<item:prinegorerouse:fatestar>);
 <item:eeeabsmobs:ghost_warrior_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:rough_blade:max_slash_power> , "attribute.ghost_warrior_leggings.3", 450, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:eeeabsmobs:ghost_warrior_boots>.anyDamage().addGlobalAttributeModifier(<attribute:rough_blade:max_slash_power>,  "attribute.ghost_warrior_boots.3", 450, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 
-/*
-<item:eeeabsmobs:ghost_warrior_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.ghost_warrior_helmet.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:eeeabsmobs:ghost_warrior_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.ghost_warrior_chestplate.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:eeeabsmobs:ghost_warrior_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.ghost_warrior_leggings.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:eeeabsmobs:ghost_warrior_boots>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power>,  "attribute.ghost_warrior_boots.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-*/
-
-/*
-//星裂相位
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade_wood>);
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade_bamboo>);
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade_silverbamboo>);
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade_white>);
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade>);
-*/
-
 //
 //<item:slashblade:slashblade>.withTag({bladeState: {ModelName: "slashblade_addon:model/kirisaya/kirisaya.obj"}}).addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.kirisaya", 1.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-
-//<item:slashblade:slashblade>.withTag({bladeState: {SpecialAttackType: "slashblade_addon:water_drive"}}).addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.water_drive", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 
 //
 <tag:items:nethersdelight:tools/hunting_tools>.add(<item:slashblade:slashblade_white>);

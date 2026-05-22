@@ -15,8 +15,8 @@
   ],
   "name": "ak:pocket_knife",
   "properties": {
-    "attack_base": 33.0,
-    "max_damage": 66,
+    "attack_base": 133.0,
+    "max_damage": 266,
     "slash_art": "slashblade:circle_slash",
     "sword_type": [
       "bewitched"

@@ -19,8 +19,8 @@
   ],
   "name": "slashblade_addon:crimsoncherry",
   "properties": {
-    "attack_base": 43.0,
-    "max_damage": 86,
+    "attack_base": 143.0,
+    "max_damage": 286,
     "slash_art": "slashblade:sakura_end",
     "sword_type": [
       "bewitched"

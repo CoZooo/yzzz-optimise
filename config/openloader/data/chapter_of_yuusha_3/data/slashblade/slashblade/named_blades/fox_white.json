@@ -19,8 +19,8 @@
   ],
   "name": "slashblade:fox_white",
   "properties": {
-    "attack_base": 38.0,
-    "max_damage": 76,
+    "attack_base": 68.0,
+    "max_damage": 136,
 	"slash_art": "ak:the_emperor_of_ice",
     "sword_type": [
       "bewitched"

@@ -1,0 +1,7 @@
+
+[maid_archaeology]
+	#Range: 0.05 ~ 2.0
+	move_speed = 0.1
+	#Range: 1 ~ 200
+	brush_interval_ticks = 20
+

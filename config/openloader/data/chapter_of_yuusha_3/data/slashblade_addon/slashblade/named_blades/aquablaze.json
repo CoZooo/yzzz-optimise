@@ -9,14 +9,18 @@
       "lvl": 5
     },
     {
+      "id": "celestial_enchantments:misfortune_blade",
+      "lvl": 3
+    },
+    {
       "id": "celestial_enchantments:cluster_awareness",
       "lvl": 3
     }
   ],
   "name": "slashblade_addon:aquablaze",
   "properties": {
-    "attack_base": 37.0,
-    "max_damage": 74,
+    "attack_base": 87.0,
+    "max_damage": 174,
     "slash_art": "slashblade_addon:spiral_edge",
     "sword_type": [
       "bewitched"

@@ -100,7 +100,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6AD73E7392928C32"]
+			dependencies: ["02D46D776D30C026"]
 			description: [
 				"物品栏内有神圣之石，死亡一次即可将佩戴的无咒之戒转变为无赎之戒。"
 				""
@@ -159,7 +159,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6AD73E7392928C32"]
+			dependencies: ["4FAA88938920247F"]
 			description: ["在顺利将无咒之戒转化为无赎之戒后，会完成「命运扭转」成就，并获得无赎核心物品。"]
 			icon: "yuusha:bless_core"
 			id: "1CA0F8ABA3F50C81"
@@ -405,7 +405,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6AD73E7392928C32"]
+			dependencies: ["2686B207C56B1A8F"]
 			description: [
 				"需先获得绝望者证章，才能完成后续任务。"
 				""

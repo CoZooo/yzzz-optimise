@@ -15,8 +15,8 @@
   ],
   "name": "slashblade_addon:kamuy_none",
   "properties": {
-    "attack_base": 34.0,
-    "max_damage": 68,
+    "attack_base": 134.0,
+    "max_damage": 268,
     "slash_art": "shizuku:leisa",
     "sword_type": [
       "bewitched"

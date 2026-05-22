@@ -11,13 +11,17 @@
     {
       "id": "minecraft:power",
       "lvl": 5
+    },
+    {
+      "id": "celestial_enchantments:hidden_blade",
+      "lvl": 3
     }
   ],
   "item": "slashblade:slashblade",
   "name": "shizuku:moonlight_blade",
   "properties": {
-    "attack_base": 23.5,
-    "max_damage": 570,
+    "attack_base": 143.0,
+    "max_damage": 286,
     "slash_art": "shizuku:moonlight_slash",
     "special_effects": [
       "shizuku:shizuku"

@@ -15,8 +15,8 @@
   ],
   "name": "ak:child",
   "properties": {
-    "attack_base": 38.0,
-    "max_damage": 76,
+    "attack_base": 138.0,
+    "max_damage": 276,
     "slash_art": "slashblade:circle_slash",
     "sword_type": [
       "bewitched"

@@ -27,7 +27,7 @@
 	FreezingTime = 7
 	#The cooldown of Eternal Watch after frozen the time.
 	#Range: 0 ~ 32768
-	Cooldown = 7
+	Cooldown = 14
 	#if true, the cooldowns of the eternal watch can can be reduced by other items
 	canCooldownsBeReduced = true
 

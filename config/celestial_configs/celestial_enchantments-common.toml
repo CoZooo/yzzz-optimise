@@ -61,7 +61,7 @@
 		shadowTouchBrightness = 15
 		#Shadow Touch: How many additional Abyss damage can be caused
 		#Range: 0 ~ 1024
-		shadowTouchDamage = 1000
+		shadowTouchDamage = 100
 		#Suppression Blade: Suppressed effect duration per level in seconds
 		#Range: 0 ~ 1024
 		suppressionBladeEffectDuration = 0
@@ -79,10 +79,10 @@
 		vampireSlashHealRate = 0.1
 		#Void Chain: Causing damage equivalent to attack damage to targets around the target
 		#Range: 0.0 ~ 10.0
-		voidChainSpread = 0.1
+		voidChainSpread = 0.05
 		#Void Chain: What radius will the attack cause damage to the target within
 		#Range: 0 ~ 1024
-		voidChainRadius = 4
+		voidChainRadius = 1
 		#Words Of Wisdom: How much attack damage can each experience level increase
 		#Range: 0.0 ~ 1024.0
 		wordsOfWisdomDamage = 1.0E-4

@@ -21,7 +21,16 @@
   "celestial_ench_fix": true,
   "endinglib_fix": true,
   "eidolon_hearts_fix": true,
+  "goety_fix": true,
   "celestial_forge_fix": true,
   "lychee_offhand_fix": true,
-  "aquamirae_pouch_fix": true
+  "aquamirae_pouch_fix": true,
+  "depthcrawler_fix": true,
+  "moonstone_fix": true,
+  "slashbladeresharped_fix": true,
+  "magnet_fix": true,
+  "enigmaticaddons_fix": true,
+  "farmingforblockheads_fix": true,
+  "cthulhufishing_fix": true,
+  "elementalcombat_jade_fix": true
 }

@@ -50,9 +50,9 @@ import mods.jeitweaker.Jei;
 //破妄附魔
 stoneCutter.addRecipe("goety_revelation.enchanted_book.reality_piercer.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "goety_revelation:reality_piercer"}]}), <item:goety_revelation:apocalyptium_ingot>);
 
-//
-<tag:items:curios:head>.remove(<item:goety_revelation:halo_of_the_end>);
-<tag:items:curios:god_hand>.add(<item:goety_revelation:halo_of_the_end>);
+//终末环不能改栏位
+//<tag:items:curios:head>.remove(<item:goety_revelation:halo_of_the_end>);
+//<tag:items:curios:god_hand>.add(<item:goety_revelation:halo_of_the_end>);
 
 //恩赐卷轴
 <tag:items:curios:scroll>.remove(<item:goety_revelation:blessing_scroll>);
@@ -62,10 +62,6 @@ stoneCutter.addRecipe("goety_revelation.enchanted_book.reality_piercer.5", <item
 //硬糖
 <recipetype:farmersdelight:cooking>.remove(<item:goety_revelation:ascension_hard_candy>);
 <recipetype:farmersdelight:cooking>.addRecipe("goety_revelation.ascension_hard_candy", <item:goety_revelation:ascension_hard_candy>, [<item:locusazzurro_icaruswings:herbs_infused_mead>, <item:moonstone:ectoplasmcube>, <item:goety_revelation:doom_medal>, <item:goety_revelation:quietus_star>, <item:goety:unholy_blood>.withTag({Pure: 1}), <item:goety_revelation:broken_halo>.anyDamage()], <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item:minecraft:air>, 1000, 2400);
-
-//终末启示物语
-//<recipetype:goety:ritual>.remove(<item:goety_revelation:puzzle_item>);
-//Jei.hideIngredient(<item:goety_revelation:puzzle_item>);
 
 //隐藏无用的
 Jei.hideIngredient(<item:goety_revelation:doom_icon>);

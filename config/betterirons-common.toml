@@ -1,0 +1,44 @@
+
+#献祭法术 (Sacrifice) 相关的高级自定义配置项
+[sacrifice_spell]
+	#是否开启针对特定玩家的特殊献祭特效（包含前置血液凝聚粒子、雷击处决以及中央悬浮文本）
+	enableSpecialEffects = true
+	#献祭触发时在爆炸中心随机显示的悬浮嘲讽文本列表。你可以自由添加或删除多行文案。
+	mockeryTexts = ["血鬼术·赤色誓言·极暴风式·血爆"]
+	#献祭处决瞬间的核心视觉爆炸比例缩放倍率 (取值范围: 0.0 - 10.0)
+	#Range: 0.0 ~ 10.0
+	explosionScale = 1.5
+	#献祭法术每提升一级，额外增加的实际爆炸伤害半径 (单位: 格/方块)
+	#Range: 0.0 ~ 10.0
+	bonusRadiusPerLevel = 1.0
+	#献祭法术半径收益的最高成长等级上限。超过此等级后，法术半径将不再随等级扩大。
+	#Range: 1 ~ 100
+	maxLevelForRadius = 20
+
+#斩击类法术族 (火/冰/雷/神圣斩击) 命中包围盒的相关配置
+[strike_spells]
+	#斩击类法术的基底额外命中半径常数（最终半径计算公式：基底半径 + 等级 * 每级成长）
+	#Range: 0.0 ~ 50.0
+	strikeBaseRadius = 2.0
+	#斩击类法术每提升一级，额外增加的命中包围盒边缘半径 (单位: 格/方块)
+	#Range: 0.0 ~ 20.0
+	strikeRadiusPerLevel = 1.0
+	#斩击类法术半径收益的最高成长等级上限。超过该等级后范围不再扩大，用以保护服务器TPS性能。
+	#Range: 1 ~ 100
+	maxLevelForStrikeRadius = 10
+
+#闪电链法术 (Chain Lightning) 寻敌边界与连环弹射的相关配置
+[chain_lightning]
+	#闪电链单次跳跃/锁敌的最大物理距离绝对上限。超过此距离的目标将无法被闪电链波及 (单位: 格/方块)
+	#Range: 10.0 ~ 500.0
+	chainLightningMaxRange = 100.0
+	#闪电链每级跳跃距离增长的修饰系数。原版为0.5，修改值越小后期距离增长越平缓。
+	#Range: 0.0 ~ 5.0
+	chainLightningGrowthRate = 0.2
+	#单次法术释放中闪电链的最大连锁弹射次数上限。到达上限后闪电链将自动熔断，防止密集怪物群引发死循环卡服。
+	#Range: 1 ~ 50
+	chainLightningMaxConnections = 6
+	#闪电链的绝对地理边界上限（以施法者为圆心）。如果目标距离施法者超过此距离，将强制拒绝弹射 (单位: 格)
+	#Range: 10.0 ~ 500.0
+	chainLightningMaxAbsoluteDistance = 50.0
+

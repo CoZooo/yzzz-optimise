@@ -9,14 +9,18 @@
       "lvl": 5
     },
     {
+      "id": "celestial_enchantments:misfortune_blade",
+      "lvl": 3
+    },
+    {
       "id": "celestial_enchantments:cluster_awareness",
       "lvl": 3
     }
   ],
   "name": "ak:dick_wido",
   "properties": {
-    "attack_base": 44.0,
-    "max_damage": 88,
+    "attack_base": 64.0,
+    "max_damage": 128,
     "slash_art": "slashblade_addon:fire_spiral",
     "sword_type": [
       "bewitched"

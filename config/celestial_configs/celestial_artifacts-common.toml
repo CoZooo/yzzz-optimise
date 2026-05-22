@@ -549,7 +549,7 @@
 	gallopNecklaceSpeedBonus = 0.1
 	#Gallop Necklace: damage factor of speed
 	#Range: 0.0 ~ 100000.0
-	gallopNecklaceDamageFactor = 100.0
+	gallopNecklaceDamageFactor = 200.0
 	#Emerald Necklace: factor of dropping an emerald
 	#Range: 0.0 ~ 1.0
 	emeraldNecklaceDropEmerald = 0.02

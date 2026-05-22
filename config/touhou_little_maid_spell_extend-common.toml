@@ -1,0 +1,7 @@
+
+[balance]
+	#Maximum number of affinity rings that can contribute spell level bonus for maids.
+	#0 means no rings will provide bonus, 1 means only the first ring counts, etc.
+	#Range: 0 ~ 64
+	maxEffectiveRings = 2
+

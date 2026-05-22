@@ -2225,7 +2225,7 @@
 		{
 			dependencies: ["479232119C07EDDE"]
 			description: [
-				"星河贸易站新增了很多交易。"
+				"星河贸易站新增了很多交易。利用Shift键可快速放入材料和购买。"
 				""
 				"&6各种女孩刷怪蛋可以兑换原版的怪物掉落材料。贸易商人还能兑换经验书籍等。末影人女孩可兑换末影之眼。上述交易都不是固定的，可能有些特别便宜的交易项目。"
 				""
@@ -2233,7 +2233,7 @@
 				""
 				"&3用海船墓地之回响可以在小市场中兑换部分修改刷怪笼的材料。"
 				""
-				"&e因PMMO的问题，部分物品会有特殊NBT无法与其他相同物品堆叠，且无法在星河贸易站中交易。把有问题的物品和其它正常物品一起丢出去重新捡起来应该可以解决；或者重新再搞点新的。"
+				"&e物品不能有额外的NBT，否则无法在星河贸易站交易。"
 				""
 				"&2多人联机特性：星河贸易站无法用JEI查看交易内容。"
 			]
@@ -4325,7 +4325,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["479232119C07EDDE"]
+			dependencies: ["37FB78A6A9130C94"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"
@@ -4375,6 +4375,151 @@
 				type: "item"
 			}]
 			title: "兑换 一次性«女仆祭坛»胶囊"
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["479232119C07EDDE"]
+			description: ["除非你清楚提交木剑的后果，否则不建议完成此任务。"]
+			icon: "refinedstorage:64k_storage_disk"
+			id: "2480FD0C0D4C9966"
+			rewards: [
+				{
+					id: "35201F90A597BA8B"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+				{
+					id: "60D50C872932ACFE"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "6B5268ECB09D86A2"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "195307CB2E79D1AE"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "1D9814C1D913C0E6"
+					item: "bygonenether:wither_skeleton_horse_spawn_egg"
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "374A48C63D0F57FA"
+					item: {
+						Count: 1
+						id: "minecraft:name_tag"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"堕落凋零之马\"}"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "4DAA78EEB1CA7448"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "448629BD63A37D67"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "6B33CB6C186455F7"
+					item: "minecraft:saddle"
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "5CF0CD695582549F"
+					item: {
+						Count: 1
+						id: "relics:horse_flute"
+						tag: {
+							abilities: {
+								heal: {
+									points: 0
+									stats: {
+										amount: 0.06299d
+									}
+								}
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "19ABD01689F4F124"
+					item: {
+						Count: 1
+						id: "relics:magic_mirror"
+						tag: { }
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "79D7833BE103ED47"
+					item: "minecraft:glass_bottle"
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "4A23B28019E844F0"
+					item: "waystones:waystone"
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "转转回收"
 			x: -13.0d
 			y: -9.0d
 		}

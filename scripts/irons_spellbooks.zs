@@ -43,12 +43,12 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:lesser_spell_slot_upgrade>.addTooltip("\u00A7e请勿让魔导书内法术卷轴数量多于法术槽位");
 <item:irons_spellbooks:lesser_spell_slot_upgrade>.addTooltip("\u00A7c可能会导致游戏崩溃");
 
-<item:irons_spellbooks:mana_ring>.addTooltip("\u00A7c可同时佩戴多个");
+<item:irons_spellbooks:mana_ring>.addTooltip("\u00A7c可同时佩戴三个");
 <item:irons_spellbooks:silver_ring>.addTooltip("\u00A76任务奖励几率获得");
-<item:irons_spellbooks:silver_ring>.addTooltip("\u00A7c可同时佩戴多个");
-<item:irons_spellbooks:cooldown_ring>.addTooltip("\u00A7c可同时佩戴多个");
-<item:irons_spellbooks:cast_time_ring>.addTooltip("\u00A7c可同时佩戴多个");
-<item:irons_spellbooks:amethyst_resonance_charm>.addTooltip("\u00A7c可同时佩戴多个");
+<item:irons_spellbooks:silver_ring>.addTooltip("\u00A7c可同时佩戴三个");
+<item:irons_spellbooks:cooldown_ring>.addTooltip("\u00A7c可同时佩戴三个");
+<item:irons_spellbooks:cast_time_ring>.addTooltip("\u00A7c可同时佩戴三个");
+<item:irons_spellbooks:amethyst_resonance_charm>.addTooltip("\u00A7c可同时佩戴三个");
 
 <item:irons_spellbooks:fire_rune>.addTooltip("\u00A76可制作获得");
 <item:irons_spellbooks:fire_rune>.addTooltip("\u00A7e可用作召唤祭坛召唤炽焰术士");
@@ -171,7 +171,7 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:netherite_mage_boots>.addTooltip("\u00A7e需注意制作不会继承惊悚南瓜盔甲的不可破坏等NBT属性");
 <item:irons_spellbooks:energized_core>.addTooltip("\u00A7c利用亡灵军旗召唤亡灵军团时，天气会改为雷雨天");
 <item:irons_spellbooks:energized_core>.addTooltip("\u00A76后续击杀斯库拉也有几率获得");
-<item:irons_spellbooks:affinity_ring>.addTooltip("\u00A76该饰品可同时佩戴多个");
+<item:irons_spellbooks:affinity_ring>.addTooltip("\u00A76玩家和女仆最多可佩戴两个同时生效");
 <item:irons_spellbooks:frozen_bone>.addTooltip("\u00A7c手持冰封骨头Shift右击炼狱锻炉可回收为流浪者刷怪蛋");
 
 

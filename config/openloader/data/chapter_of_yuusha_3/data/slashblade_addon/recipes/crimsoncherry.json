@@ -4,7 +4,7 @@
   "category": "equipment",
   "key": {
     "D": {
-      "item": "immortalers_delight:kwat_wheat_block"
+      "item": "moonstone:blood_jelly"
     },
     "E": {
       "item": "celestial_core:sakura_steel"
@@ -25,7 +25,7 @@
       "item": "slashblade:proudsoul_crystal"
     },
     "H": {
-      "item": "hmag:fortune_crystal_plus"
+      "item": "bosses_of_mass_destruction:void_thorn"
     }
   },
   "pattern": [

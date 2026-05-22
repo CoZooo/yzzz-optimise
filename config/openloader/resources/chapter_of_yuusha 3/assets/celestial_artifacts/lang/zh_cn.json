@@ -9,7 +9,7 @@
   "celestial_artifacts.charms.demon_curse_1": "每1%额外圣灵之力:",
 
 	"celestial_artifacts.bracelet.scarlet_0": "攻击目标时额外消耗自身生命到最大生命的0.001%",
-	"celestial_artifacts.necklace.gallop": "穿戴后所有攻击都会增加相当于移动速度数值的100倍的固定数值伤害",
+	"celestial_artifacts.necklace.gallop": "穿戴后所有攻击都会增加相当于移动速度数值的200倍的固定数值伤害",
   "celestial_artifacts.charms.demon_curse_0": "玩家无法自然回血",
   "item.celestial_artifacts.magic_arrow_bag": "魔灵箭袋",
   "celestial_artifacts.bracelet.scarlet_1": "每消耗1点生命攻击提高相当于目标最大生命0.001%点伤害，上限0.1%",

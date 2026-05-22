@@ -1,4 +1,6 @@
 {
+	"enchantment.celestial_enchantments.void_chain.desc": "对除攻击目标外的自身邻近目标附加额外原伤害%s的深渊伤害",
+
 	"enchantment.celestial_enchantments.curse_of_withering.desc": "-%s最大生命，所有装备只会生效一次",
 
 	"enchantment.celestial_enchantments.sharp_arrow.desc": "[仅兼容原版弓类和普通箭类]提高%s箭矢伤害，与力量等附魔冲突，但是与神射手附魔不冲突",
