@@ -330,6 +330,7 @@
 				"1E90ABFD331440E4"
 				"398A203B262A1045"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"在前期所需的魔法经验，可通过紫晶刺剑、虚空突击肩炮获得。"
 				""
@@ -1824,6 +1825,8 @@
 				"太阴一明珏：佩戴后，只能造成铁之咒语法术伤害，同时获得额外最大法力值及铁之咒语伤害提升。"
 				""
 				"&6炽焰烙印不会享受该饰品伤害加成。"
+				""
+				"&c与终末之环冲突，同时佩戴会无法造成伤害。"
 			]
 			hide_until_deps_complete: true
 			icon: "chapter_of_yuusha_3_core:arcane_specialty"

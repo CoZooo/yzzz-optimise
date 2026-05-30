@@ -14,6 +14,10 @@
 	#Changing this value may affects your FPS. Smaller value means less images allowed to be cached, while larger means more cached images. More cached images means more FPS but more RAM pressure.
 	#Range: > 1
 	cached_image_size = 32
+	#Resolution of UV scrolling in caching dynamic render types.
+	#Changing this value may affects your visual effects and VRAM usage. Smaller value means lower resolution in UV scrolling and less cached render types, while larger means higher resolution and more cached render types. Higher resolution means smoother animations on charged creepers and breezes but more VRAM usage.
+	#Range: > 1
+	dynamic_uv_resolution = 64
 	#- DISABLED: Debug context will be disabled, which may cause significant rendering glitches on some NVIDIA cards because of the "theaded optimization".
 	#- ENABLED: Debug context will be enabled, which can prevent NVIDIA driver from applying the "threaded optimization" that causes the glitches.
 	#Allowed Values: DISABLED, ENABLED
@@ -34,19 +38,15 @@
 	#- SORTED: The basic implementation of batching layer storage that renders opaque and translucent geometries together in a single stage with better performance but slight visual glitches on translucent geometries.
 	#- SEPARATED: The visually-precise implementation of batching layer storage that separates opaque and translucent geometries into two rendering stages to prevent visual glitches, slightly slower than basic implementation.
 	#Allowed Values: SORTED, SEPARATED
-	layer_storage_type = "SORTED"
-	#- DISABLED: Meshes that is going to be accelerated will be collected and uploaded together at the end for choosing better uploading method and increasing memory access efficiency to reach the best performance. Also this method allows mesh cache with bigger capacity (up to VRAM limit), but it may not follow the correct draw order.
-	#- ENABLED: Meshes that is going to be accelerated will be uploaded immediately after the draw command. It is less efficient and only have about 2GB mesh cache (generally enough) but will follow the original draw order to get the most compatibility.
-	#Allowed Values: DISABLED, ENABLED
-	upload_mesh_immediately = "DISABLED"
-	#Resolution of UV scrolling in caching dynamic render types.
-	#Changing this value may affects your visual effects and VRAM usage. Smaller value means lower resolution in UV scrolling and less cached render types, while larger means higher resolution and more cached render types. Higher resolution means smoother animations on charged creepers and breezes but more VRAM usage.
-	#Range: > 1
-	dynamic_uv_resolution = 64
+	layer_storage_type = "SEPARATED"
 	#- IGNORED: Meshes with identical vertices will not be merged, which will use less RAM but more VRAM in storing duplicated meshes.
 	#- MERGED: Meshes with identical vertices will be merged together, which will use less VRAM more RAM in storing the data of meshes used in merging.
 	#Allowed Values: IGNORED, MERGED
 	mesh_merge_type = "MERGED"
+	#- DISABLED: Meshes that is going to be accelerated will be collected and uploaded together at the end for choosing better uploading method and increasing memory access efficiency to reach the best performance. Also this method allows mesh cache with bigger capacity (up to VRAM limit), but it may not follow the correct draw order.
+	#- ENABLED: Meshes that is going to be accelerated will be uploaded immediately after the draw command. It is less efficient and only have about 2GB mesh cache (generally enough) but will follow the original draw order to get the most compatibility.
+	#Allowed Values: DISABLED, ENABLED
+	upload_mesh_immediately = "DISABLED"
 	#- DISABLED: Dynamic render types like lightning on charged creepers and winds on breezes will not be accelerated for less VRAM usage and smoother animations, but may exceptionally skip acceleration in modded geometries using these render types.
 	#- ENABLED: Dynamic render types like lightning on charged creepers and winds on breezes will be accelerated to accelerate modded geometries using these render types, but may have more VRAM usage and less smooth animations based on resolution settings.
 	#Allowed Values: DISABLED, ENABLED
@@ -170,7 +170,7 @@
 	#- DISABLED: Disable simple orientation face culling.
 	#- ENABLED: Enable simple orientation face culling.
 	#Allowed Values: DISABLED, ENABLED
-	feature_Status = "DISABLED"
+	feature_Status = "ENABLED"
 	#- DISABLED: Faces will not be culled unless mods explicitly enable it temporarily when rendering their own geometries.
 	#- ENABLED: All faces will be culled unless mods explicitly disable it temporarily when rendering their own geometries.
 	#Allowed Values: DISABLED, ENABLED
@@ -187,6 +187,10 @@
 	#- ENABLED: Filters will test if the entities, block entities and items should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
 	feature_status = "ENABLED"
+	#- DISABLED: Menu filter will be disabled and geometries in all container GUI will be accelerated.
+	#- ENABLED: Menu filter will test if geometries in specific container GUI should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	menu_filter = "ENABLED"
 	#- DISABLED: Entity filter will be disabled and all entities will be accelerated.
 	#- ENABLED: Entity filter will test if the entities should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
@@ -194,11 +198,19 @@
 	#- DISABLED: Block entity filter will be disabled and all block entities will be accelerated.
 	#- ENABLED: Block entity filter will test if the block entities should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
-	block_entity_filter = "ENABLED"
+	block_entity_filter = "DISABLED"
 	#- DISABLED: Item filter will be disabled and all items will be accelerated.
 	#- ENABLED: Item filter will test if the items should be accelerated when rendering based on the filter values and the filter type.
 	#Allowed Values: DISABLED, ENABLED
 	item_filter = "DISABLED"
+	#- DISABLED: Custom rendering stage filter will be disabled and geometries in all custom rendering stages will be accelerated.
+	#- ENABLED: Custom rendering stage filter will test if geometries in specific custom rendering stage should be accelerated when rendering based on the filter values and the filter type.
+	#Allowed Values: DISABLED, ENABLED
+	stage_filter = "ENABLED"
+	#- BLACKLIST: Container GUIs that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Container GUIs that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	menu_filter_type = "WHITELIST"
 	#- BLACKLIST: Entities that are not in the filter values can pass the filter and be accelerated when rendering.
 	#- WHITELIST: Entities that are in the filter values can pass the filter and be accelerated when rendering.
 	#Allowed Values: BLACKLIST, WHITELIST
@@ -211,38 +223,26 @@
 	#- WHITELIST: Items that are in the filter values can pass the filter and be accelerated when rendering.
 	#Allowed Values: BLACKLIST, WHITELIST
 	item_filter_type = "BLACKLIST"
+	#- BLACKLIST: Custom rendering stages that are not in the filter values can pass the filter and be accelerated when rendering.
+	#- WHITELIST: Custom rendering stages that are in the filter values can pass the filter and be accelerated when rendering.
+	#Allowed Values: BLACKLIST, WHITELIST
+	stage_filter_type = "WHITELIST"
+	#You can configure the menu filter by this list.
+	#Menu filter will use this list and the filter type to determine if a container GUI can pass the filter.
+	menu_filter_values = ["minecraft:.*"]
 	#You can configure the entity filter by this list.
 	#Entity filter will use this list and the filter type to determine if an entity can pass the filter.
 	entity_filter_values = []
 	#You can configure the block entity filter by this list.
 	#Block entity filter will use this list and the filter type to determine if a block entity can pass the filter.
-	block_entity_filter_values = ["minecraft:banner"]
+	block_entity_filter_values = []
 	#You can configure the item filter by this list.
 	#Item filter will use this list and the filter type to determine if an item can pass the filter.
 	item_filter_values = []
-	#- DISABLED: Custom rendering stage filter will be disabled and geometries in all custom rendering stages will be accelerated.
-	#- ENABLED: Custom rendering stage filter will test if geometries in specific custom rendering stage should be accelerated when rendering based on the filter values and the filter type.
-	#Allowed Values: DISABLED, ENABLED
-	stage_filter = "ENABLED"
-	#- BLACKLIST: Custom rendering stages that are not in the filter values can pass the filter and be accelerated when rendering.
-	#- WHITELIST: Custom rendering stages that are in the filter values can pass the filter and be accelerated when rendering.
-	#Allowed Values: BLACKLIST, WHITELIST
-	stage_filter_type = "WHITELIST"
 	#You can configure the custom rendering stage filter by this list.
 	#Custom rendering stage filter will use this list and the filter type to determine if a custom rendering stage can pass the filter.
 	#It's not recommend to modify this list unless other mods adds their own custom rendering stages.
 	stage_filter_values = ["after_entities", "after_block_entities"]
-	#- DISABLED: Menu filter will be disabled and geometries in all container GUI will be accelerated.
-	#- ENABLED: Menu filter will test if geometries in specific container GUI should be accelerated when rendering based on the filter values and the filter type.
-	#Allowed Values: DISABLED, ENABLED
-	menu_filter = "ENABLED"
-	#- BLACKLIST: Container GUIs that are not in the filter values can pass the filter and be accelerated when rendering.
-	#- WHITELIST: Container GUIs that are in the filter values can pass the filter and be accelerated when rendering.
-	#Allowed Values: BLACKLIST, WHITELIST
-	menu_filter_type = "WHITELIST"
-	#You can configure the menu filter by this list.
-	#Menu filter will use this list and the filter type to determine if a container GUI can pass the filter.
-	menu_filter_values = ["minecraft:.*"]
 
 #Iris Compatibility Settings
 #Iris Compatibility Settings allows Accelerated Rendering to work correctly with Iris.

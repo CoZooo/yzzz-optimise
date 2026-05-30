@@ -10,8 +10,8 @@
 #   min_icon_text_gap_px: 图标右侧与百分比文本的最小间隙
 
 labels:
-  attack: "攻击属性："
-  defense: "属性特防："
+  attack: "攻击属性: "
+  defense: "属性特防: "
 
 spacing:
   icon_left_padding_px: 2
