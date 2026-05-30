@@ -25,6 +25,10 @@ import crafttweaker.api.item.property.Rarity;
 craftingTable.remove(<item:gooseworkshop:goose_food_bag>);
 craftingTable.addShapeless("gooseworkshop.goose_food_bag", <item:gooseworkshop:goose_food_bag>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
 
+//悬赏终端
+craftingTable.remove(<item:gooseworkshop:goose_bounty_terminal>);
+craftingTable.addShaped("gooseworkshop.goose_bounty_terminal", <item:gooseworkshop:goose_bounty_terminal>, [[<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:embers:caminite_plate>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>]]);
+
 //时之沙漏
 craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:chapter_of_yuusha_3_core:excessive_treatment>, [[<item:cataclysm:lacrima>, <item:yuusha:bless_core>.reuse(), <item:cataclysm:lacrima>], [<tag:items:locusazzurro_icaruswings:world_essences>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <tag:items:locusazzurro_icaruswings:world_essences>], [<item:cataclysm:lacrima>, <item:yuusha:bless_star>, <item:cataclysm:lacrima>]]);
 

@@ -1,0 +1,9 @@
+
+[villager_trade_blacklist]
+	enabled = true
+	items = []
+	namespaces = []
+	tags = []
+	check_inputs = false
+	check_wandering_trader = true
+

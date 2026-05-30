@@ -214,6 +214,12 @@ recipes.addJsonRecipe("pmmo.exp.sailing.3",{
     block_in: "cataclysm:goddess_statue",
     post:  {  type: "execute",  command: "pmmo admin @p add sailing xp 1000"}
 });
+recipes.addJsonRecipe("pmmo.exp.sailing.4",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "cataclysm:essence_of_the_storm" },
+    block_in: "cataclysm:goddess_statue",
+    post:  {  type: "execute",  command: "pmmo admin @p add sailing xp 50000"}
+});
 recipes.addJsonRecipe("minecraft.experience",{ 
     type:"lychee:block_interacting",
     item_in: { item: "minecraft:experience_bottle" },

@@ -742,7 +742,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "需注意有两页任务介绍"
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "34CE8660EDB67961"
 				item: {
@@ -762,7 +762,7 @@
 			description: [
 				"可以将一定范围内的所有实体（包括生物等），吸引到玩家周围旋转。"
 				""
-				"&6&6也许对付某些生物比较有用，但也许没用。"
+				"&6部分万磁之力栏位的饰品，可以通过打开物品栏后，鼠标右击以开关功能。"
 			]
 			id: "5FC186DE2796E5F3"
 			rewards: [{
@@ -825,6 +825,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "6FDD5503612B183E"
 				item: "goety:entangling_focus"
@@ -850,6 +851,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "3572AF77045D21FE"
 				item: {
@@ -878,6 +880,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "0379A759F89F0AA0"
 				item: "meetyourfight:passages_toll"
@@ -895,9 +898,10 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "4AB2E3D06D9C77E7"
-				item: "immortalers_delight:clear_water_vodka"
+				item: "gooseworkshop:goose_bounty_terminal"
 				type: "item"
 			}]
 			x: 1.5d
@@ -912,6 +916,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "36F08EC0843DDBEA"
 				item: {
@@ -935,6 +940,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "7CC1025777DAFB57"
 				item: "nameless_trinkets:creeper_sense"
@@ -952,6 +958,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "6F04FA43B1CBE325"
 				item: "nameless_trinkets:explosion_proof_jacket"
@@ -969,6 +976,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "156FD743C2C8E6AB"
 				item: "cataclysm:void_assault_shoulder_weapon"
@@ -986,6 +994,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "7032FCB09F4979D2"
 				item: "yuusha:qb"
@@ -1003,6 +1012,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "2B7C3F5CDDA5B9A5"
 				item: "goety_revelation:dimensional_will"
@@ -1027,6 +1037,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "17A137DCF61C3601"
 				item: "minecraft:spawner"
@@ -1044,6 +1055,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "2AAD0E03F81355E6"
 				item: {
@@ -1073,6 +1085,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "636CB68ADC1AB46C"
 				item: "grimoireofgaia:book_of_memory"
@@ -1091,6 +1104,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [{
 				id: "18D3202A3FE63117"
 				item: "celestial_artifacts:spirit_bracelet"
@@ -1119,6 +1133,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			subtitle: "「杂项」"
 			tasks: [
 				{
 					id: "6CEC045596C4A8B7"

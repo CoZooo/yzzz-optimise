@@ -2030,7 +2030,6 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "需击杀先驱者才能继续往下制作"
 			tasks: [{
 				id: "155EC2FF4142E62C"
 				item: "aetherworks:aether_forge"
@@ -4522,6 +4521,77 @@
 			title: "转转回收"
 			x: -13.0d
 			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["496474BEE3E67D70"]
+			description: [
+				"- 使用说明"
+				""
+				"- 温度设置：右键讲台，将书与笔翻至对应温度的页数，设置完成后关闭界面"
+				""
+				"第1页：≈2790°、第2页：≈2575°、第3页：≈2365°、第4页：≈2150°、第5页：≈1935°、第6页：≈1720°、第7页：≈1500°、第8页：≈1290°、第9页：≈1080°、第10页：≈865°、第11页：≈650°、第12页：≈435°"
+				""
+				"- 降温操作：从高温转低温时，需先关闭红石灯1上的拉杆，等待温度降至目标值后再重新激活。"
+				""
+				"- 高温锻造（＞2800℃，适配天华工具锻台）："
+				"- 按照JEI配方，将材料放入天华工具锻台"
+				"- 把书与笔翻至第1页，激活红石灯1上的拉杆"
+				"- 温度达到2793°后，激活红石灯1旁实体方块上的拉杆，关闭散热功能"
+				"- 手持工匠锤持续右键天华工具锻台，直至合成完成；结束后请立即关闭该拉杆，延迟过久会引发爆炸"
+				""
+				"- 启动操作："
+				"- 激活红石灯1上的拉杆即可启动加热器。温度高于设定值时会自动开启散热，低于设定值则自动关闭散热，以此将温度稳定维持在目标范围。"
+			]
+			icon: {
+				Count: 1
+				id: "gooseworkshop:goose_capsule"
+				tag: {
+					GooseCapsule: {
+						Author: "Iyemmm"
+						BlockCount: 62
+						DisplayName: "自动控温天华锻座"
+						Mode: "READY"
+						Number: "22"
+						SizeX: 8
+						SizeY: 5
+						SizeZ: 6
+						Style: "#E53935"
+						TemplateId: "auto_temp_control"
+					}
+				}
+			}
+			id: "7E8A3A4251EB468A"
+			rewards: [{
+				id: "189E4623E57B1080"
+				item: {
+					Count: 1
+					id: "gooseworkshop:goose_capsule"
+					tag: {
+						GooseCapsule: {
+							Author: "Iyemmm"
+							BlockCount: 62
+							DisplayName: "自动控温天华锻座"
+							Mode: "READY"
+							Number: "22"
+							SizeX: 8
+							SizeY: 5
+							SizeZ: 6
+							Style: "#E53935"
+							TemplateId: "auto_temp_control"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02F5BE2335F18001"
+				item: "goety_revelation:quietus_star"
+				type: "item"
+			}]
+			title: "兑换 一次性«自动控温天华锻座»胶囊"
+			x: 9.5d
+			y: 3.0d
 		}
 	]
 	subtitle: ["&9『发展』"]
