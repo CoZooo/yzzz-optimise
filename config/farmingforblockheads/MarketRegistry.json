@@ -1798,19 +1798,6 @@
 		{
 			"output": 
 			{
-				"item": "yuusha:sand_soul",
-				"count":1
-			},
-			"payment": 
-			{
-				"item": "cataclysm:monstrous_eye",
-				"count":1
-			},
-			"category": "yuusha_other"
-		},
-		{
-			"output": 
-			{
 				"item": "enigmaticlegacy:void_stone",
 				"count":1
 			},

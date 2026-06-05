@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 300,
+        "kill": 400,
         "name": "shizuku:engulfing_lightning",
-        "refine": 3
+        "refine": 4
       }
     },
     "M": {

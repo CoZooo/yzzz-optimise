@@ -38,6 +38,10 @@
 <item:yuusha:maggot_0>.addTooltip("\u00A75无论凡人还是不朽，一切存在都承认你是蛆");
 <item:yuusha:ling_shi>.addTooltip("\u00A7e特殊世界线可合成获得");
 <item:yuusha:ling_shi>.addTooltip("\u00A76新增击杀消失的天使有几率获得");
+<item:yuusha:summon_swampjaw>.addTooltip("\u00A7e可在工作台中制作为相应的召唤物品");
+<item:yuusha:summon_bellringer>.addTooltip("\u00A7e可在工作台中制作为相应的召唤物品");
+<item:yuusha:summon_dame_fortuna>.addTooltip("\u00A7e可在工作台中制作为相应的召唤物品");
+<item:yuusha:summon_rosalyne>.addTooltip("\u00A7e可在工作台中制作为相应的召唤物品");
 
 <item:yuusha:unstable_redstone_part>.addTooltip("\u00A76通关神树之根-无边恶意传送门获得，在传送门开启的位置掉落");
 <item:yuusha:unstable_glowstone_part>.addTooltip("\u00A76通关神树之冠-原初混沌传送门获得，在传送门开启的位置掉落");

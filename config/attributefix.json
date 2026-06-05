@@ -2802,7 +2802,7 @@
       },
       "max": {
         "default": 1024,
-        "value": 0.25
+        "value": 0.35
       }
     },
     "siren_head:attackid": {

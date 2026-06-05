@@ -8,6 +8,8 @@
 <item:wizards_reborn:arcanum_ore>.addTooltip("\u00A76在主世界地下可找到");
 <item:wizards_reborn:deepslate_arcanum_ore>.addTooltip("\u00A76在主世界地下可找到");
 <item:wizards_reborn:arcanum>.addTooltip("\u00A76在主世界可找到矿石");
+<item:wizards_reborn:arcanum_lens>.addTooltip("\u00A7e新增击杀铁之咒语的术士生物较低几率获得");
+<item:wizards_reborn:arcanum_lens>.addTooltip("\u00A76即包括咒法章节空白符文任务内除远古骑士外");
 
 <item:wizards_reborn:black_arcane_lumos>.addTooltip("\u00A76在秘蕴晶化器中可制作白色奥术光");
 

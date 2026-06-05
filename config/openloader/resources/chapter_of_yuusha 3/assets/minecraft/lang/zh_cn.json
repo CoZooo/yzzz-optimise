@@ -1,4 +1,13 @@
 {
+	"structure.minecraft.stronghold": "§m要塞（已废除，需搜索另一同名结构）",
+	"structure.minecraft.monument": "§m海底神殿（已废除，需搜索另一同名结构）",
+	"structure.minecraft.desert_pyramid": "§m沙漠神殿（已废除，需搜索另一同名结构）",
+	"structure.minecraft.mineshaft": "§m废弃矿井（已废除，需搜索另一同名结构）",
+	"structure.minecraft.mineshaft_mesa": "§m恶地废弃矿井（已废除，需搜索另一同名结构）",
+	"structure.minecraft.swamp_hut": "§m沼泽小屋（已废除，需搜索另一同名结构）",
+	"structure.minecraft.jungle_pyramid": "§m丛林神庙（已废除，需搜索另一同名结构）",
+	"structure.minecraft.fortress": "§m下界要塞（已废除，需搜索另一同名结构）",
+	
 	"entity.minecraft.parrot": "「神赐」鹦鹉",
 
 	"block.minecraft.powder_snow": "细雪",

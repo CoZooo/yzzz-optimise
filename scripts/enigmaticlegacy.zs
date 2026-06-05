@@ -79,7 +79,7 @@ import mods.jeitweaker.Jei;
 <item:enigmaticlegacy:storage_crystal>.addTooltip("\u00A7c击杀未来神巫可获得，请勿右击使用");
 <item:enigmaticlegacy:eldritch_pan>.addTooltip("\u00A7c最多计算325种生物");
 <item:enigmaticlegacy:eldritch_pan>.addTooltip("\u00A7e每种增加0.1点护甲和2.0点攻击力");
-<item:enigmaticlegacy:eldritch_pan>.addTooltip("\u00A76完成狂人章节的厨神当道进度任务可以提前获取");
+<item:enigmaticlegacy:eldritch_pan>.addTooltip("\u00A76完成宝具章节的厨神当道进度任务可以提前获取");
 <item:enigmaticlegacy:berserk_charm>.anyDamage().addTooltip("\u00A7c该饰品自身属性为全伤害加成，与其它神秘遗物饰品相加计算");
 <item:enigmaticlegacy:monster_charm>.anyDamage().addTooltip("\u00A7c该饰品自身属性为全伤害加成，且为独立乘区");
 <item:enigmaticlegacy:darkest_scroll>.anyDamage().addTooltip("\u00A7c可用下界佳肴与猪灵交易获得");

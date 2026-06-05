@@ -300,6 +300,9 @@
 			#范围收集的范围
 			#Range: > 0
 			range = 64
+			#批量释放的释放范围
+			#Range: > 0
+			releaseRange = 5
 
 #精妙背包配置
 [sophisticatedBackpacksConfig]

@@ -90,6 +90,7 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7c女仆佩戴后将会有法力值上限限制");
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7e但仍是瞬间恢复满法力值");
 <item:chapter_of_yuusha_3_core:war_mage_ring>.anyDamage().addTooltip("\u00A75需注意佩戴后，进食会消耗法力值");
+/*
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A7c谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A76谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A7e谨慎使用！会导致不死图腾等复活物品不生效");
@@ -97,6 +98,7 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A7b谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A79谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A75谨慎使用！会导致不死图腾等复活物品不生效");
+*/
 <item:chapter_of_yuusha_3_core:recoil_absorber>.anyDamage().addTooltip("\u00A7c不能无视部分生物的强力反射");
 
 //

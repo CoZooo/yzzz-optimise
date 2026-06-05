@@ -11,5 +11,5 @@
 	#Range: 0.0 ~ 1000.0
 	cast_bonus_per_wand_percent = 1.5
 	#Range: 1 ~ 72000
-	cast_bonus_duration_ticks = 100
+	cast_bonus_duration_ticks = 200
 

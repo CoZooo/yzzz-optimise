@@ -1,6 +1,6 @@
 
 [tooltip]
-	enable_scrollable_tooltips = false
+	enable_scrollable_tooltips = true
 	#Range: 4 ~ 64
-	max_visible_lines = 20
+	max_visible_lines = 36
 

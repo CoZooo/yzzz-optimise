@@ -14,8 +14,13 @@
   "item.chapter_of_yuusha_3_core.nine_sword_books.tooltip": "真·九剑归一诀，限·仅使用拔刀剑",
 
   "item.chapter_of_yuusha_3_core.esoteric_tesseract": "{flow}奥术徽匣{/flow}",
-  "item.chapter_of_yuusha_3_core.esoteric_tesseract.tooltip": "持有时右击以释放其中的仆从",
-  "item.chapter_of_yuusha_3_core.esoteric_tesseract.tooltip2": "潜行时右击仆从以收起，潜行时长按右键以收纳大范围仆从",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.tooltip": "拥有3种模式：捕捉、释放、黑名单。通过ctrl+鼠标滚轮滚动切换模式",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.capture.tooltip1": "右击实体：直接捕捉目标",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.capture.tooltip2": "右击长按：范围捕捉四周实体",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.release.tooltip1": "右击地面：向右击的地面召唤存储的实体",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.release.tooltip2": "右击长按：在范围内随机位置释放存储的所有实体",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.blacklist.tooltip1": "右击实体：将实体加入自身的存储黑名单",
+  "item.chapter_of_yuusha_3_core.esoteric_tesseract.blacklist.tooltip2": "shift+右击实体：将实体移出自身的黑名单",
 
   "item.chapter_of_yuusha_3_core.war_mage_ring.tooltip": "§7佩戴后能使用铁之咒语模组的法力值来抵抗伤害，在所有的减伤应用后结算",
 

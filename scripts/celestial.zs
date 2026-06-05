@@ -106,7 +106,7 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 <item:celestial_artifacts:emerald_bracelet>.anyDamage().addTooltip("\u00A7c该饰品增加的暴击率等于原版跳劈暴击，仅加成近战伤害");
 <item:celestial_artifacts:corrupt_badge>.anyDamage().addTooltip("\u00A7c该饰品所提供的增伤仅加成近战伤害");
 <item:celestial_artifacts:corrupt_badge>.anyDamage().addTooltip("\u00A76击杀永恒苦痛之灵后可制作获得，详见天顶巨兽章节");
-<item:celestial_artifacts:corrupt_badge>.anyDamage().addTooltip("\u00A7e此外完成狂人章节的熔岩钓鱼佬进度任务也可获得");
+<item:celestial_artifacts:corrupt_badge>.anyDamage().addTooltip("\u00A7e此外完成宝具章节的熔岩钓鱼佬进度任务也可获得");
 <item:celestial_artifacts:amethyst_ring>.anyDamage().addTooltip("\u00A7c该饰品所提供的增伤仅加成近战伤害");
 <item:celestial_artifacts:destroyer_badge>.anyDamage().addTooltip("\u00A7c该饰品在低血量时所增加的伤害为全伤害加成");
 <item:celestial_artifacts:destroyer_badge>.anyDamage().addTooltip("\u00A7e佩戴时饰品自身属性所增加的伤害为近战加成");
@@ -165,7 +165,7 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 
 <item:celestial_artifacts:cursed_talisman>.addTooltip("\u00A7c该饰品增加的伤害为近战伤害加成");
 <item:celestial_artifacts:cursed_talisman>.addTooltip("\u00A76击杀下界铁掌后可制作获得，详见天顶巨兽章节");
-<item:celestial_artifacts:cursed_talisman>.addTooltip("\u00A7e此外完成狂人章节的相识前奏曲进度任务也可获得");
+<item:celestial_artifacts:cursed_talisman>.addTooltip("\u00A7e此外完成宝具章节的相识前奏曲进度任务也可获得");
 <item:celestial_artifacts:demon_curse>.addTooltip("\u00A7e[波粒二象性]可能会随缘禁止玩家的自然回血、吸血能力");
 <item:celestial_artifacts:demon_curse>.addTooltip("\u00A76该饰品增加的伤害为近战伤害加成");
 <item:celestial_artifacts:demon_curse>.addTooltip("\u00A7c即使祈愿未满1000级，也可穿戴，额外会给予玩家重伤5级效果");

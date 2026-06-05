@@ -27,6 +27,7 @@
 <item:touhou_little_maid_spell:wound_rime_blade>.addTooltip("\u00A7e该物品会导致各种奇怪的特性");
 <item:touhou_little_maid_spell:blue_note>.addTooltip("\u00A7c请勿使用，会导致游戏崩溃");
 
+/*
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A7c谨慎使用！会导致不死图腾等复活物品不生效");
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A76谨慎使用！会导致不死图腾等复活物品不生效");
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A7e谨慎使用！会导致不死图腾等复活物品不生效");
@@ -34,6 +35,7 @@
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A7b谨慎使用！会导致不死图腾等复活物品不生效");
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A79谨慎使用！会导致不死图腾等复活物品不生效");
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A75谨慎使用！会导致不死图腾等复活物品不生效");
+*/
 
 <item:touhou_little_maid_spell:anchor_core>.addTooltip("\u00A75不建议使用，会导致女仆多种特性");
 //<item:touhou_little_maid_spell:fragrant_ingenuity>.addTooltip("\u00A7e考古生生不息的樱花树处的可疑方块小几率获得");

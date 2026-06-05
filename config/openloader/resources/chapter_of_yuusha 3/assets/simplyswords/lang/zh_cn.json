@@ -1,4 +1,7 @@
 {
+	"effect.simplyswords.astral_shift": "星移",
+	"effect.simplyswords.storm": "风暴",
+
   "item.simplyswords.watchersworditem.tooltip1": "独特效果：预兆",
   "item.simplyswords.watchersworditem.tooltip2": "击中时有概率秒杀生命值低于",
   "item.simplyswords.watchersworditem.tooltip3": "%d%%的敌人，并将其部分生命",

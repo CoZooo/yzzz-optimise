@@ -1,4 +1,29 @@
 {
+	"structure.callfromthedepth_.ancient_arena": "远古竞技场（Ancient Arena）",
+	"structure.callfromthedepth_.ancientsacrificialbastion": "远古祭祀堡垒（Ancient Sacrificial Bastion）",
+	"structure.lost_aether_content.platinum_dungeon": "铂金地牢（Platinum Dungeon）",
+	"structure.theinkarena.ancient_ink_temple": "古代墨魂寺庙（Ancient Ink Temple）",
+	"structure.theinkarena.ink_arena_structure": "墨魂神殿（Ink Arena Structure）",
+	"structure.castle_in_the_sky.castle_in_the_sky": "天空之城（Castle In The Sky）",
+	"structure.eidolon.catacomb": "幻梦墓窟（Catacomb）",
+	"structure.irons_spellbooks.catacombs": "王之墓穴（Catacombs）",
+	"structure.irons_spellbooks.ancient_battleground": "下界远古战场（Ancient Battleground）",
+	"structure.irons_spellbooks.evoker_fort": "高位唤魔者城堡（Evoker Fort）",
+	"structure.irons_spellbooks.impaled_icebreaker": "刺穿的破冰船（Impaled Icebreaker）",
+	"structure.irons_spellbooks.mangrove_hut": "药剂师树屋（Mangrove Hut）",
+	"structure.irons_spellbooks.mountain_tower": "冰霜术士高塔（Mountain Tower）",
+	"structure.irons_spellbooks.pyromancer_tower": "炽焰术士高塔（Pyromancer Tower）",
+	"structure.goety_revelation.church": "启示录教堂（Church）",
+	"structure.malum.weeping_well": "哭泣之井（Weeping Well）",
+	"structure.hs_bosses.sand_warrior_arena": "沙漠守卫竞技场（Sand Warrior Arena）",
+	"structure.arkane_domains.rededor": "萨满小屋（Rededor）",
+	"structure.immortalers_delight.immortalers_relic": "荒废的平原住宅（Immortalers Relic）",
+	"structure.immortalers_delight.ruins_with_cherry_tree": "生生不息的樱花树（Ruins With Cherry Tree）",
+	"structure.embers.small_ruin": "余烬遗迹（Small Ruin）",
+	"structure.aetherworks.meteor": "陨磺砾星（Meteor）",
+	"structure.forbidden_arcanus.nipa": "水椰地（Nipa）",
+	"structure.forbidden_arcanus.nipa_floating": "水椰浮空岛（Nipa Floating）",
+
 	"structure.bettermineshafts.mineshaft_acacia": "废弃矿井-金合欢（Mineshaft Acacia）",
 	"structure.bettermineshafts.mineshaft_desert": "废弃矿井-沙漠（Mineshaft Desert）",
 	"structure.bettermineshafts.mineshaft_dripstone": "废弃矿井-溶洞（Mineshaft Dripstone）",
@@ -27,6 +52,25 @@
 	"structure.minecraft.ancient_city": "远古城市（Ancient City）",
 	"structure.minecraft.trail_ruins": "古迹废墟（Trail Ruins）",
 
+	"structure.dungeons_plus.end_ruins": "末地遗迹（End Ruins）",
+	"structure.dungeons_plus.leviathan": "利维坦尸骨（Leviathan）",
+	"structure.dungeons_plus.reanimated_ruins_frozen": "被掩埋的地牢-冰冻（Reanimated Ruins Frozen）",
+	"structure.dungeons_plus.reanimated_ruins_mesa": "被掩埋的地牢-恶地（Reanimated Ruins Mesa）",
+	"structure.dungeons_plus.reanimated_ruins_mossy": "被掩埋的地牢-苔藓（Reanimated Ruins Mossy）",
+	"structure.dungeons_plus.snowy_temple": "雪之神庙（Snowy Temple）",
+	"structure.dungeons_plus.soul_prison": "灵魂监狱（Soul Prison）",
+	"structure.dungeons_plus.tower": "战斗塔楼（Tower）",
+	"structure.dungeons_plus.warped_garden": "扭曲花园（Warped Garden）",
+	
+	"structure.arcalis_bosses.deathbringer_graveyard": "死亡墓园（Deathbringer Graveyard）",
+	"structure.arcalis_bosses.jack_castle": "小丑皇城堡（Jack Castle）",
+	"structure.arcalis_bosses.pirate_tavern": "海盗酒馆（Pirate Tavern）",
+
+	"structure.graveyard.altar": "墓园祭坛（Altar）",
+	"structure.graveyard.crypt": "墓园墓穴（Crypt）",
+	"structure.graveyard.dead_tree": "死亡之树（Dead Tree）",
+	"structure.graveyard.mushroom_grave": "蘑菇坟墓（Mushroom Grave）",
+	"structure.graveyard.haunted_house": "鬼屋（Haunted House）",
   "structure.graveyard.lich_prison": "英雄监狱（Lich Prison）",
   "structure.graveyard.large_graveyard": "大型墓园（Large Graveyard）",
   "structure.graveyard.medium_graveyard": "中型墓园（Medium Graveyard）",
@@ -38,7 +82,7 @@
   "structure.goety.wind_shrine": "烈风神殿（Wind Shrine）",
   "structure.goety.blighted_shack": "腐烂小屋（Blighted Shack）",
   "structure.goety.dark_manor": "黑暗庄园（Dark Manor）",
-  "structure.goety.crypt": "墓穴（Crypt）",
+  "structure.goety.crypt": "诡厄墓穴（Crypt）",
 
   "structure.trials.trials_chambers": "试炼密室（Trials Chambers）",
 
@@ -50,7 +94,7 @@
 
 
   "_comment": "逝去的下界",
-  "structure.bygonenether.catacomb": "[逝去的下界]巨型化石营地（Catacomb）",
+  "structure.bygonenether.catacomb": "[逝去的下界]凋灵墓窟（Catacomb）",
   "structure.bygonenether.citadel": "[逝去的下界]下界堡垒（Citadel）",
   "structure.bygonenether.piglin_manor": "[逝去的下界]猪灵庄园（Piglin Manor）",
 
@@ -60,12 +104,12 @@
   "structure.faded_conquest_2.abysstree_4": "[Faded Conquest II]深渊古树4型",
   "structure.faded_conquest_2.abysstree_8": "[Faded Conquest II]深渊古树8型",
   "structure.faded_conquest_2.abystree_2": "[Faded Conquest II]深渊古树2型",
-  "structure.faded_conquest_2.aero_guardian_temple": "[Faded Conquest II]苍穹守护者神殿（Aero Guardian Temple）",
-  "structure.faded_conquest_2.alchemists_lair": "[Faded Conquest II]炼金术士的巢穴（Alchemists Lair）",
+  "structure.faded_conquest_2.aero_guardian_temple": "[Faded Conquest II]天空守卫者神殿（Aero Guardian Temple）",
+  "structure.faded_conquest_2.alchemists_lair": "[Faded Conquest II]炼金术士巢穴（Alchemists Lair）",
   "structure.faded_conquest_2.fc_battleroom": "[Faded Conquest II]前线作战室（Fc Battleroom）",
   "structure.faded_conquest_2.fort_of_conquest": "[Faded Conquest II]征服要塞（Fort Of Conquest）",
   "structure.faded_conquest_2.heiroglyph": "[Faded Conquest II]上古铭文碑（Heiroglyph）",
-  "structure.faded_conquest_2.lich_tower": "[Faded Conquest II]巫妖塔（Lich Tower）",
+  "structure.faded_conquest_2.lich_tower": "[Faded Conquest II]末日巫妖塔（Lich Tower）",
   "structure.faded_conquest_2.mirrorrealmvoid": "[Faded Conquest II]镜像虚空领域（Mirrorrealmvoid）",
   "structure.faded_conquest_2.ruin_1": "[Faded Conquest II]符文遗迹1型",
   "structure.faded_conquest_2.ruin_2": "[Faded Conquest II]符文遗迹2型",
@@ -82,8 +126,8 @@
 
   "_comment": "Mowzie的生物",
   "structure.mowziesmobs.frostmaw_spawn": "[Mowzie的生物]霜冻巨兽沉眠处（Frostmaw Spawn）",
-  "structure.mowziesmobs.monastery": "[Mowzie的生物]通臂大师的修道院（Monastery）",
-  "structure.mowziesmobs.umvuthana_grove": "[Mowzie的生物]太阳信徒的营地（Umvuthana Grove）",
+  "structure.mowziesmobs.monastery": "[Mowzie的生物]通臂大师修道院（Monastery）",
+  "structure.mowziesmobs.umvuthana_grove": "[Mowzie的生物]太阳信徒营地（Umvuthana Grove）",
   "structure.mowziesmobs.wrought_chamber": "[Mowzie的生物]钢之锻造室（Wrought Chamber）",
   
   "_comment": "Mokels的Boss战：基诺拉",
@@ -107,7 +151,7 @@
 
   "_comment": "溺亡者之嚎",
   "structure.call_of_drowner.the_tide_raiser_tower": "[溺亡者之嚎]海中塔楼（The Tide Raiser Tower）",
-  "structure.call_of_drowner.ocean_shrine": "[溺亡者之嚎]破败的神龛（Ocean Shrine）",
+  "structure.call_of_drowner.ocean_shrine": "[溺亡者之嚎]破败神龛（Ocean Shrine）",
       
   "_comment": "祸乱鬼魅",
   "structure.bosses_of_mass_destruction.gauntlet_arena": "[祸乱鬼魅]下界铁掌竞技场（Gauntlet Arena）",
@@ -138,12 +182,13 @@
   "structure.aquamirae.shelter": "[海灵物语]避难所（Shelter）",
   "structure.aquamirae.ship": "[海灵物语]搁浅舰船（Ship）",
 
-	"structure.minecraft.stronghold": "要塞（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.monument": "海底神殿（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.desert_pyramid": "沙漠神殿（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.mineshaft": "废弃矿井（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.mineshaft_mesa": "恶地废弃矿井（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.swamp_hut": "沼泽小屋（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.jungle_pyramid": "丛林神庙（该原版结构无自然生成，请搜索另一个同名结构）",
-	"structure.minecraft.fortress": "下界要塞（该原版结构无自然生成，请搜索另一个同名结构）"
+	"_comment": "字符串 - 结构",
+	"structure.minecraft.stronghold": "§m要塞（已废除，需搜索另一同名结构）",
+	"structure.minecraft.monument": "§m海底神殿（已废除，需搜索另一同名结构）",
+	"structure.minecraft.desert_pyramid": "§m沙漠神殿（已废除，需搜索另一同名结构）",
+	"structure.minecraft.mineshaft": "§m废弃矿井（已废除，需搜索另一同名结构）",
+	"structure.minecraft.mineshaft_mesa": "§m恶地废弃矿井（已废除，需搜索另一同名结构）",
+	"structure.minecraft.swamp_hut": "§m沼泽小屋（已废除，需搜索另一同名结构）",
+	"structure.minecraft.jungle_pyramid": "§m丛林神庙（已废除，需搜索另一同名结构）",
+	"structure.minecraft.fortress": "§m下界要塞（已废除，需搜索另一同名结构）"
 }

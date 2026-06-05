@@ -258,6 +258,8 @@
 				"&c需注意永恒陨星不能给有耐久附魔的装备打上。"
 				""
 				"&6工具残片及其上级饰品也可降低拔刀剑的耐久消耗。"
+				""
+				"&e在进行拔刀剑合成后，原拔刀剑的永恒陨星效果不会继承，需重新打上。"
 			]
 			id: "730AD02C20FC9448"
 			rewards: [{
@@ -707,7 +709,7 @@
 				""
 				"&e利用利刀「白鞘」可获得各种需要小刀击杀的掉落物，比如疣猪兽精皮等。"
 				""
-				"&5物伤剑流程尚未完善，可能存在无法通关的特性。"
+				"&5物伤剑技大部分均为高频伤害，不好应付具有动态减伤的生物，可以选择跳过。相对于魔伤剑更为困难。"
 				"{@pagebreak}"
 			]
 			icon: "minecraft:iron_ingot"
@@ -1172,17 +1174,27 @@
 		{
 			dependencies: ["44B24250ADB545EE"]
 			description: [
-				"此路线无法使用除拔刀剑以外的武器。。"
+				"此路线无法使用除拔刀剑以外的武器。"
 				""
 				"&6精魂、疣猪兽精皮、灵魂等材料，都有特定的获取方式，详见此章节无铭刀「竹光」、利刀「白鞘」、名刀「银纸竹光」任务。"
+				""
+				"&e殽核「刺客」并非必须要用，仅供部分玩家使用。"
 			]
 			icon: "malum:infernal_spirit"
 			id: "3E9C9B72F47CCC77"
-			rewards: [{
-				id: "1C4FECBDDE5F07D3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1C4FECBDDE5F07D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7AB168A267EE6223"
+					item: "yuusha:focus_4_ass"
+					team_reward: true
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "76E735E9BA6F37AB"
@@ -1200,7 +1212,7 @@
 					type: "item"
 				}
 			]
-			title: "特定材料获取"
+			title: "特定材料获取 \\& 殽核「刺客」"
 			x: 4.0d
 			y: -1.0d
 		}
@@ -1538,6 +1550,8 @@
 				"&6特殊行动：此整合包默认按G键进行特殊行动，同时按下Shift+W+G键，可以瞬移到锁定生物处。需消耗剑意。"
 				""
 				"&eSA 2.0：在释放SA前，如果保持长按，会继续蓄力（有铁砧声效），消耗更多的剑意值，释放更为强力的SA，根据蓄力时间可变为SA 1.5 和 SA 2.0。"
+				""
+				"&5模组特性：第三人称或者其他玩家看拔刀剑攻击动作会特别掉帧。"
 			]
 			icon: "slashblade:bladestand_v"
 			id: "4736B6B47EA082C8"
@@ -9249,6 +9263,10 @@
 								{
 									id: "farmersdelight:backstabbing"
 									lvl: 10s
+								}
+								{
+									id: "celestial_enchantments:sharp_halberd_tip"
+									lvl: 5s
 								}
 								{
 									id: "celestial_enchantments:unstable_blade"

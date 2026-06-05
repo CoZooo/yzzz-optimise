@@ -22,6 +22,7 @@
   "endinglib_fix": true,
   "eidolon_hearts_fix": true,
   "goety_fix": true,
+  "malum_fix": true,
   "celestial_forge_fix": true,
   "lychee_offhand_fix": true,
   "aquamirae_pouch_fix": true,
@@ -33,5 +34,12 @@
   "farmingforblockheads_fix": true,
   "cthulhufishing_fix": true,
   "elementalcombat_jade_fix": true,
-  "maid_targeting": true
+  "maid_targeting": true,
+  "refinedstorage_fix": true,
+  "ak_fix": true,
+  "reliquary_fertile_fix": true,
+  "LivingEntity_and_GoalSelector_Fix": true,
+  "ftbquests_claim_fix": true,
+  "mutant_monsters_fix": true,
+  "ancient_ones_fix": true
 }

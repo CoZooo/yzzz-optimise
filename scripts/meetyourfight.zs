@@ -36,16 +36,17 @@ craftingTable.addShaped("meetyourfight.passages_toll", <item:meetyourfight:passa
 craftingTable.remove(<item:meetyourfight:caged_heart>);
 craftingTable.addShaped("meetyourfight.caged_heart", <item:meetyourfight:caged_heart>, [[<item:reliquary:rib_bone>, <item:locusazzurro_icaruswings:steel_ingot>, <item:reliquary:rib_bone>], [<item:reliquary:rib_bone>, <item:locusazzurro_icaruswings:steel_ingot>, <item:reliquary:rib_bone>], [<item:minecraft:air>, <item:meetyourfight:mossy_tooth>, <item:minecraft:air>]]);
 
-
 //化石诱饵
 craftingTable.remove(<item:meetyourfight:fossil_bait>);
 craftingTable.addShaped("meetyourfight.fossil_bait", <item:meetyourfight:fossil_bait>, [[<item:born_in_chaos_v1:sea_terror_eye>, <item:wizards_reborn:alchemy_calx>, <item:born_in_chaos_v1:sea_terror_eye>], [<item:born_in_chaos_v1:rotten_fish>, <item:aquamirae:sharp_bones>, <item:born_in_chaos_v1:rotten_fish>], [<item:forbidden_arcanus:bat_wing>, <item:wizards_reborn:alchemy_calx>, <item:forbidden_arcanus:bat_wing>]]);
 craftingTable.addShapeless("meetyourfight.fossil_bait.copy", <item:meetyourfight:fossil_bait>*2, [<item:meetyourfight:fossil_bait>, <item:minecraft:nether_star>]);
+craftingTable.addShapeless("meetyourfight.fossil_bait.re", <item:meetyourfight:fossil_bait>, [<item:yuusha:summon_swampjaw>]);
 
 //缠魂铃铛
 craftingTable.remove(<item:meetyourfight:haunted_bell>);
 craftingTable.addShaped("meetyourfight.haunted_bell", <item:meetyourfight:haunted_bell>, [[<item:minecraft:air>, <item:eidolon:arcane_gold_ingot>, <item:minecraft:air>], [<item:eidolon:arcane_gold_ingot>, <item:minecraft:bell>, <item:eidolon:arcane_gold_ingot>], [<item:eidolon:arcane_gold_ingot>, <item:celestial_core:death_essence>, <item:eidolon:arcane_gold_ingot>]]);
 craftingTable.addShapeless("meetyourfight.haunted_bell.copy", <item:meetyourfight:haunted_bell>*2, [<item:meetyourfight:haunted_bell>, <item:minecraft:nether_star>]);
+craftingTable.addShapeless("meetyourfight.haunted_bell.re", <item:meetyourfight:haunted_bell>, [<item:yuusha:summon_bellringer>]);
 
 //铁之王牌
 craftingTable.remove(<item:meetyourfight:ace_of_iron>);
@@ -59,6 +60,7 @@ craftingTable.remove(<item:meetyourfight:slicers_dice>);
 craftingTable.remove(<item:meetyourfight:devils_ante>);
 craftingTable.addShaped("meetyourfight.devils_ante", <item:meetyourfight:devils_ante>, [[<item:minecraft:pitcher_plant>, <item:avaritia:crystal_matrix_ingot>, <item:minecraft:pitcher_plant>], [<item:avaritia:crystal_matrix_ingot>, <item:born_in_chaos_v1:lord_pumpkinheads_hat_helmet>, <item:avaritia:crystal_matrix_ingot>], [<item:minecraft:pitcher_plant>, <item:avaritia:crystal_matrix_ingot>, <item:minecraft:pitcher_plant>]]);
 craftingTable.addShapeless("meetyourfight.devils_ante.copy", <item:meetyourfight:devils_ante>*2, [<item:meetyourfight:devils_ante>, <item:minecraft:nether_star>]);
+craftingTable.addShapeless("meetyourfight.devils_ante.re", <item:meetyourfight:devils_ante>, [<item:yuusha:summon_dame_fortuna>]);
 
 //垂死之辉
 craftingTable.remove(<item:meetyourfight:tomb_planter>);
@@ -72,6 +74,7 @@ craftingTable.addShaped("meetyourfight.blossoming_mind", <item:meetyourfight:blo
 craftingTable.remove(<item:meetyourfight:dusk_key>);
 craftingTable.addShaped("meetyourfight.dusk_key", <item:meetyourfight:dusk_key>, [[<item:minecraft:air>, <item:minecraft:allium>, <item:minecraft:crying_obsidian>], [<item:aquamirae:abyssal_amethyst>, <item:minecraft:crying_obsidian>, <item:minecraft:air>], [<item:infinite_abyss:cursed_opal>, <item:aquamirae:abyssal_amethyst>, <item:minecraft:air>]]);
 craftingTable.addShapeless("meetyourfight.dusk_key.copy", <item:meetyourfight:dusk_key>*2, [<item:meetyourfight:dusk_key>, <item:minecraft:nether_star>]);
+craftingTable.addShapeless("meetyourfight.dusk_key.re", <item:meetyourfight:dusk_key>, [<item:yuusha:summon_rosalyne>]);
 
 //未竟之志
 craftingTable.remove(<item:meetyourfight:wilted_ideals>);

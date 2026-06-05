@@ -1610,7 +1610,7 @@
 
 [[entities]]
 	affixPermission = "BLACKLIST"
-	affixList = []
+	affixList = ["reflective"]
 	maxTier = 8
 	minTier = 7
 	entity = "eeeabsmobs:guling_sentinel"
@@ -1618,7 +1618,7 @@
 
 [[entities]]
 	affixPermission = "BLACKLIST"
-	affixList = []
+	affixList = ["reflective"]
 	maxTier = 8
 	minTier = 7
 	entity = "eeeabsmobs:guling_sentinel_heavy"
