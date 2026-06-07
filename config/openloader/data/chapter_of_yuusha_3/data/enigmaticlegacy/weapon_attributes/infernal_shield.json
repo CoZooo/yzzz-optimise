@@ -1,14 +1,3 @@
 {
-  "requirements": {
-    "WEAR": {"maid": 666}
-  },
-  "negative_effect": 
-    {  
-		"goety:tangled": 9, 
-		"malum:silenced": 9, 
-		"goety:plunge": 9, 
-		"attributeslib:sundering": 9, 
-		"goety:arrowmantic": 9, 
-		"yuusha:inadaptable": 9
-	}
+  "parent": "bettercombat:heavy_axe"
 }

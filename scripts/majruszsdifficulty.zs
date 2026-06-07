@@ -17,6 +17,7 @@ craftingTable.addShaped("majruszsdifficulty.enderium_upgrade_smithing_template.b
 craftingTable.addShapeless("majruszsdifficulty.enderium_shard", <item:majruszsdifficulty:enderium_shard>*8, [<item:majruszsdifficulty:enderium_shard>, <item:hmag:ancient_stone_block>]);
 
 //说明
+<item:majruszsdifficulty:enderium_shard_locator>.anyDamage().addTooltip("\u00A7c新增击杀混沌魔影必定获得");
 <item:majruszsdifficulty:soul_jar>.anyDamage().addTooltip("\u00A76通过亡灵军团可获得，详见上层世界章节");
 <item:majruszsdifficulty:soul_jar>.anyDamage().addTooltip("\u00A7c需要玩家攻击过生物，才会给予宝藏袋");
 <item:majruszsdifficulty:soul_jar>.anyDamage().addTooltip("\u00A7e幸运值为负值时无法通过开启宝藏袋获得大部分物品");
