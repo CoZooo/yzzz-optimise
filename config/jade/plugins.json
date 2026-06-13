@@ -77,7 +77,7 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ON",
     "mod_name": true
   },
   "apotheosis": {
