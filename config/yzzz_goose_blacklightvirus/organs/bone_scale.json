@@ -1,0 +1,15 @@
+{
+  "id": "yzzz_goose_blacklightvirus:bone_scale",
+  "enabled": true,
+  "slot": "skin",
+  "effects": [
+    {
+      "type": "damage_multiplier",
+      "target": "incoming",
+      "amount": -0.25,
+      "damage_categories": [
+        "all"
+      ]
+    }
+  ]
+}

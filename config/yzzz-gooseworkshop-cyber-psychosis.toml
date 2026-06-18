@@ -1,0 +1,11 @@
+
+[cyber_psychosis]
+	#Range: 0.0 ~ 1.0
+	initialChance = 0.35
+	#Range: 0.0 ~ 1.0
+	chanceIncrement = 0.05
+	#Range: 0.0 ~ 1.0
+	maxChance = 1
+	#Range: > 0
+	resetAfterTicks = 200
+

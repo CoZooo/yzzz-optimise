@@ -1,0 +1,15 @@
+{
+  "id": "yzzz_goose_blacklightvirus:anti_magic_scale",
+  "enabled": true,
+  "slot": "skin",
+  "effects": [
+    {
+      "type": "damage_multiplier",
+      "target": "incoming",
+      "amount": -0.75,
+      "damage_categories": [
+        "magic"
+      ]
+    }
+  ]
+}

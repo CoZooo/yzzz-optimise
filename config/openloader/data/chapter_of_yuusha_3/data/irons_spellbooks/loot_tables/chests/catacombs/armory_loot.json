@@ -32,6 +32,31 @@
 			}
         ]
     },
+	{
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "forbidden_arcanus:aurum_sapling",
+                "weight": 4
+            },
+            {
+                "type": "minecraft:item",
+                "name": "forbidden_arcanus:yellow_orchid",
+                "weight": 4
+            },
+            {
+                "type": "minecraft:item",
+                "name": "forbidden_arcanus:golden_orchid_seeds",
+                "weight": 1
+            },
+            {
+                "type": "minecraft:item",
+                "name": "forbidden_arcanus:arcane_bone_meal",
+                "weight": 1
+            }
+        ]
+    },
      {
       "rolls": {
         "min": 3,

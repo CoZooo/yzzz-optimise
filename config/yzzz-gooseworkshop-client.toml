@@ -4,3 +4,8 @@
 	#Range: 4 ~ 64
 	max_visible_lines = 36
 
+[bond_will]
+	headshot_guide = true
+	#Range: 0.0 ~ 256.0
+	headshot_guide_max_distance = 80.0
+

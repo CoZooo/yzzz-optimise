@@ -1,0 +1,13 @@
+{
+  "id": "yzzz_goose_blacklightvirus:qilin_arm",
+  "enabled": true,
+  "slot": "muscle",
+  "effects": [
+    {
+      "type": "attribute_modifier",
+      "amount": 0.25,
+      "attribute": "yzzz_goose_blacklightvirus:projectile_damage",
+      "operation": "multiply_total"
+    }
+  ]
+}

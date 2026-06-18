@@ -1,0 +1,22 @@
+{
+  "id": "yzzz_goose_blacklightvirus:day_heart",
+  "enabled": true,
+  "slot": "heart",
+  "effects": [
+    {
+      "type": "damage_multiplier",
+      "target": "outgoing",
+      "amount": 0.25,
+      "damage_categories": [
+        "all"
+      ],
+      "conditions": [
+        {
+          "type": "light",
+          "comparison": "\u003e",
+          "value": 7.0
+        }
+      ]
+    }
+  ]
+}

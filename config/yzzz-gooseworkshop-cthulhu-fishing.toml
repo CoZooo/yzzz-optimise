@@ -1,0 +1,21 @@
+
+[cthulhu_fishing_compat]
+	#Range: 0 ~ 256
+	maxTentaclesNearby = 24
+	#Range: 0 ~ 64
+	maxTentaclesPerCast = 24
+	#Range: 1.0 ~ 128.0
+	tentacleCheckRadius = 32.0
+	#Range: 1 ~ 1200
+	tentacleLifetimeTicks = 50
+	#Range: 0 ~ 128
+	maxIceCrabAoeTargets = 24
+	#Range: 0 ~ 128
+	maxFossilFishAoeTargets = 16
+	#Range: 0 ~ 1200
+	fossilFishAoeCooldownTicks = 20
+	#Range: 0.1 ~ 16.0
+	maxHorizontalVelocity = 2.5
+	#Range: 0.1 ~ 16.0
+	maxVerticalVelocity = 1.2
+

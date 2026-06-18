@@ -198,6 +198,17 @@
         "value": 0
       }
     },
+    "yzzz_goose_blacklightvirus:projectile_velocity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "siren_head:attackcooldown": {
       "enabled": false,
       "min": {
@@ -240,6 +251,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "yzzz_goose_blacklightvirus:aggro": {
+      "enabled": false,
+      "min": {
+        "default": -4096,
+        "value": -4096
+      },
+      "max": {
+        "default": 4096,
+        "value": 4096
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -1177,6 +1199,17 @@
         "value": 2048
       }
     },
+    "yzzz_goose_blacklightvirus:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "goety:nether_potency": {
       "enabled": false,
       "min": {
@@ -1320,6 +1353,17 @@
         "value": 1
       }
     },
+    "yzzz_goose_blacklightvirus:critical_chance": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "siren_head:faku": {
       "enabled": false,
       "min": {
@@ -1439,6 +1483,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "yzzz_goose_blacklightvirus:armor_penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "attributeslib:life_steal": {
@@ -2057,6 +2112,17 @@
         "value": 1000
       }
     },
+    "yzzz_goose_blacklightvirus:mining_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "attributeslib:prot_pierce": {
       "enabled": false,
       "min": {
@@ -2244,6 +2310,17 @@
         "value": 2
       }
     },
+    "yzzz_goose_blacklightvirus:dodge_chance": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "goety_revelation:geomancy_power": {
       "enabled": false,
       "min": {
@@ -2396,6 +2473,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "yzzz_goose_blacklightvirus:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "irons_spellbooks:cooldown_reduction": {

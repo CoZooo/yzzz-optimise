@@ -2,16 +2,16 @@
 	"attack_style":"yuusha",
 	"attack_element":"god",
 	"defense_style":{
-		"yuusha":90,
-		"hit":90,
-		"slash":90,
-		"stab":90,
-		"bash":90,
-		"projectile":90,
-		"explosion":90,
-		"magic":90,
-		"bite":90,
-		"environment":90
+		"yuusha":95,
+		"hit":95,
+		"slash":95,
+		"stab":95,
+		"bash":95,
+		"projectile":95,
+		"explosion":95,
+		"magic":95,
+		"bite":95,
+		"environment":95
 	},
 	"defense_element":{
 		"darkness":200

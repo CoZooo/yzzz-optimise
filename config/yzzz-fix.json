@@ -41,5 +41,7 @@
   "LivingEntity_and_GoalSelector_Fix": true,
   "ftbquests_claim_fix": true,
   "mutant_monsters_fix": true,
-  "ancient_ones_fix": true
+  "ancient_ones_fix": true,
+  "majruszsdifficulty_fix": true,
+  "sunspirit_fix": true
 }

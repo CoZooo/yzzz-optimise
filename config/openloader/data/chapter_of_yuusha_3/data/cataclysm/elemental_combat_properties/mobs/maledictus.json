@@ -2,7 +2,7 @@
 	"attack_style":"yuusha",
 	"attack_element":"god",
 	"defense_element":{
-		"yuusha":78,
+		"god":78,
 		"normal":78,
 		"darkness":85,
 		"fire":85,
@@ -15,7 +15,7 @@
 		"wind":85
 	},
 	"defense_style":{
-		"god":78,
+		"yuusha":78,
 		"hit":78,
 		"slash":85,
 		"stab":85,

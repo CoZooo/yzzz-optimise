@@ -398,20 +398,41 @@
 		{
 			dependencies: ["478A612F781EDE10"]
 			description: [
-				"弓兵刺客，待完善。"
+				"弓兵、枪械暗夜刺客线，未完善。"
 				""
-				"&c除非你想要挑战，否则不要用弓来玩刺客世界线。"
+				"&c除非你想要挑战，否则不要用弓、枪来玩刺客世界线。"
+				""
+				"&6现在穿戴埋伏性狩猎后，枪械单发子弹所造成的穿甲和非穿甲伤害可同时正常造成伤害。"
 			]
-			icon: "chapter_of_yuusha_3_core:draw_power"
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:misery"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:wither_skull"
+							index: 0
+							level: 8
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
 			id: "4386DEF0B85B55DB"
 			rewards: [
 				{
-					id: "0DFA36C489BF2ED1"
-					item: "chapter_of_yuusha_3_core:draw_power"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5BC91FFE04FA2F3A"
+					table_id: 7713176168298914738L
+					team_reward: true
+					type: "choice"
 				}
 				{
-					id: "68BEF6D6482DF141"
+					id: "2391D9AC14E230E0"
 					type: "xp"
 					xp: 100
 				}
@@ -419,10 +440,10 @@
 			tasks: [{
 				consume_items: true
 				id: "6862AEBBB2A4A1CE"
-				item: "minecraft:arrow"
+				item: "yuusha:grief_seed"
 				type: "item"
 			}]
-			title: "破空之愿"
+			title: "阴阳玉 \\& 破空之愿 \\&  承载着邦德的意志"
 			x: -0.5d
 			y: -2.0d
 		}

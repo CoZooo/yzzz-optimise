@@ -1,5 +1,9 @@
 {
   "skillLocks": {
+	"goety:black_wolf_spawn_egg": ["magic:666"],
+	"goety:skeleton_wolf_spawn_egg": ["magic:666"],
+	"goety:snapper_spawn_egg": ["magic:666"],
+	"goety:twilight_goat_spawn_egg": ["magic:666"],
 	"too_many_bows:necro_flame_bow": ["magic:666"],
 	"too_many_bows:dusk_reaper": ["magic:666"],
 	"goety:forbidden_grass": ["magic:666"],

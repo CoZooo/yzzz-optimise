@@ -1,0 +1,29 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "irons_spellbooks:lightning_bottle"
+    },
+    {
+      "item": "theinkarena:ink_bottle"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "malum:runic_sap"
+    }
+  ],
+  "output": {
+    "item": "goose_curios:cyber_psychosis",
+	"count": 1
+  },
+  "tablet": {
+    "item": "forbidden_arcanus:aureal_bottle"
+  }
+}

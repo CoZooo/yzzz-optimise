@@ -487,10 +487,10 @@ mobDropsEnabled = true
 	[blocks.pedestal]
 		#Range of the melee weapons in which these will attack when in pedestals
 		#Range: 1 ~ 10
-		meleeWrapperRange = 5
+		meleeWrapperRange = 1
 		#How long it takes after a melee weapon swing before it can swing again (in ticks)
 		#Range: 1 ~ 200
-		meleeWrapperCooldown = 5
+		meleeWrapperCooldown = 160
 		#Range at which bucket will pickup liquid blocks or milk cows
 		#Range: 1 ~ 10
 		bucketWrapperRange = 4

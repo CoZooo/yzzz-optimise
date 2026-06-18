@@ -1,0 +1,12 @@
+
+[bond_will]
+	headshot_guide = true
+	#Range: 1.0 ~ 256.0
+	headshot_guide_max_distance = 80.0
+
+[nine_calamities]
+	#Range: 0 ~ 10000
+	hud_x = 6
+	#Range: 0 ~ 10000
+	hud_y = 22
+

@@ -1,0 +1,13 @@
+
+[bond_will]
+	#Range: 0.0 ~ 1.7976931348623157E308
+	bonusPerSecond = 0.1
+	#Range: 0.0 ~ 1.7976931348623157E308
+	maxBonus = 0.5
+	#Range: > 0
+	outOfCombatTicks = 100
+	#Range: 0.0 ~ 1.0
+	aimingProgressThreshold = 0.9
+	#Range: 0.0 ~ 1.0
+	cooldownDamageReduction = 0.9
+

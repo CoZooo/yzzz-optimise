@@ -2,8 +2,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.property.Rarity;
 
 //
-<tag:items:curios:ring>.remove(<item:gooseworkshop:nine_demons_nine_calamities>);
-<tag:items:curios:god_hand>.add(<item:gooseworkshop:nine_demons_nine_calamities>);
 <tag:items:curios:back>.remove(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:heartamulet>.add(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:charm>.remove(<item:better_beacon:better_beacon_sss>);
@@ -21,6 +19,14 @@ import crafttweaker.api.item.property.Rarity;
 <tag:items:curios:two>.add(<item:chapter_of_yuusha_3_core:recoil_absorber>);
 <tag:items:curios:god_hand>.add(<item:chapter_of_yuusha_3_core:arcane_specialty>);
 
+<tag:items:curios:ring>.remove(<item:goose_curios:nine_demons_nine_calamities>);
+<tag:items:curios:god_hand>.add(<item:goose_curios:nine_demons_nine_calamities>);
+<tag:items:curios:ring>.remove(<item:goose_curios:bond_will>);
+<tag:items:curios:burning_secret>.add(<item:goose_curios:bond_will>);
+<tag:items:curios:ring>.remove(<item:goose_curios:cyber_psychosis>);
+<tag:items:curios:burning_secret>.add(<item:goose_curios:cyber_psychosis>);
+
+/*
 //
 craftingTable.remove(<item:gooseworkshop:goose_food_bag>);
 craftingTable.addShapeless("gooseworkshop.goose_food_bag", <item:gooseworkshop:goose_food_bag>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
@@ -28,6 +34,7 @@ craftingTable.addShapeless("gooseworkshop.goose_food_bag", <item:gooseworkshop:g
 //悬赏终端
 craftingTable.remove(<item:gooseworkshop:goose_bounty_terminal>);
 craftingTable.addShaped("gooseworkshop.goose_bounty_terminal", <item:gooseworkshop:goose_bounty_terminal>, [[<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:embers:caminite_plate>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>]]);
+*/
 
 //时之沙漏
 craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:chapter_of_yuusha_3_core:excessive_treatment>, [[<item:cataclysm:lacrima>, <item:yuusha:bless_core>.reuse(), <item:cataclysm:lacrima>], [<tag:items:locusazzurro_icaruswings:world_essences>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <tag:items:locusazzurro_icaruswings:world_essences>], [<item:cataclysm:lacrima>, <item:yuusha:bless_star>, <item:cataclysm:lacrima>]]);

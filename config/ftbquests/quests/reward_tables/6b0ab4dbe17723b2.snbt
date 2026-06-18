@@ -1,0 +1,29 @@
+{
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:misery"
+		tag: {
+			Damage: 0
+			ISB_Spells: {
+				data: [{
+					id: "irons_spellbooks:wither_skull"
+					index: 0
+					level: 8
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "6B0AB4DBE17723B2"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "chapter_of_yuusha_3_core:draw_power", title: "破空之愿（弓线）" }
+		{ item: "goose_curios:bond_will", title: "承载着邦德的意志（枪线）" }
+		{ item: "chapter_of_yuusha_3_core:recoil_absorber", title: "阴阳玉（近战）" }
+	]
+	title: "刺客选"
+}
