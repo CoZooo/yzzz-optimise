@@ -1,0 +1,230 @@
+{
+	"size": "small",
+	"color": "#281f1d",
+	"spawn_range": 32,
+	"leash_range": 256,
+    "waves": [
+		{
+            "entities": [
+				{
+                    "entity": "born_in_chaos_v1:dark_vortex",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:dark_vortex",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:nightmare_stalker",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:nightmare_stalker",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:seared_spirit",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:seared_spirit",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "born_in_chaos_v1:pieceofdarkmetal",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 600,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "born_in_chaos_v1:supreme_bonescaller",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:supreme_bonescaller",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:bonescaller",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:bonescaller",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:spiritof_chaos",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:spiritof_chaos",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "born_in_chaos_v1:pieceofdarkmetal",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 600,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "born_in_chaos_v1:zombie_clown",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:zombie_clown",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:barrel_zombie",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:barrel_zombie",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:missioner",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:missioner",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "born_in_chaos_v1:pieceofdarkmetal",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 600,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "born_in_chaos_v1:fallen_chaos_knight",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:fallen_chaos_knight",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:dire_hound_leader",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:dire_hound_leader",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:phantom_creeper",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:phantom_creeper",
+					"count": 1
+                },
+                {
+                    "entity": "irons_spellbooks:necromancer",
+					"count": 1
+                },
+                {
+                    "entity": "irons_spellbooks:necromancer",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "born_in_chaos_v1:pieceofdarkmetal",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 600,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "born_in_chaos_v1:lifestealer",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:lifestealer",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:bloody_gadfly",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:bloody_gadfly",
+					"count": 1
+                },
+                {
+                    "entity": "hmag:slime_girl",
+					"count": 1
+                },
+                {
+                    "entity": "hmag:slime_girl",
+					"count": 1
+                },
+                {
+                    "entity": "irons_spellbooks:necromancer",
+					"count": 1
+                },
+                {
+                    "entity": "born_in_chaos_v1:sir_pumpkinhead",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "born_in_chaos_v1:pieceofdarkmetal",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 600,
+            "setup_time": 60
+        }
+    ],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "born_in_chaos_v1:pieceofdarkmetal",
+				"count": 1
+			}
+		}
+	],
+    "failures": [
+    ]
+}

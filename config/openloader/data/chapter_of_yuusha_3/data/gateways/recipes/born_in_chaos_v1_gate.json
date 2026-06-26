@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DEB",
+    "EAE",
+    "BED"
+  ],
+  "key": {
+    "D": {
+      "item": "infinite_abyss:deepstone"
+    },
+	"E": {
+      "item": "irons_spellbooks:arcane_essence"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:slimy_deepstone"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:born_in_chaos_v1_gate"
+}

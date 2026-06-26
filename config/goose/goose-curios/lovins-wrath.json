@@ -1,0 +1,70 @@
+{
+  "initial_wrath": 0,
+
+  "allowed_curios": [],
+
+  "allowed_weapons": [
+    "minecraft:wooden_sword"
+  ],
+
+  "allowed_armor": [
+    "minecraft:leather_helmet",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_leggings",
+    "minecraft:leather_boots"
+  ],
+
+  "growth_targets": [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "minecraft:slime",
+    "minecraft:ender_dragon=25",
+    "minecraft:wither=25",
+    "minecraft:warden=25"
+  ],
+
+  "attribute_bonus": {
+    "mode": "all",
+    "base_percent": 100.0,
+    "per_wrath_percent": 10.0,
+    "max_percent": -1,
+    "operation": "multiply_base",
+    "blacklist": [
+      "forge:entity_gravity"
+    ],
+    "custom": [
+      {
+        "id": "minecraft:generic.armor",
+        "label": "护甲",
+        "base_percent": 100.0,
+        "per_wrath_percent": 10.0,
+        "max_percent": -1,
+        "operation": "multiply_base"
+      },
+      {
+        "id": "minecraft:generic.armor_toughness",
+        "label": "盔甲韧性",
+        "base_percent": 100.0,
+        "per_wrath_percent": 10.0,
+        "max_percent": -1,
+        "operation": "multiply_base"
+      },
+      {
+        "id": "minecraft:generic.max_health",
+        "label": "最大生命值",
+        "base_percent": 100.0,
+        "per_wrath_percent": 10.0,
+        "max_percent": -1,
+        "operation": "multiply_base"
+      },
+      {
+        "id": "minecraft:generic.knockback_resistance",
+        "label": "击退抗性",
+        "base_percent": 100.0,
+        "per_wrath_percent": 10.0,
+        "max_percent": -1,
+        "operation": "multiply_base"
+      }
+    ]
+  }
+}

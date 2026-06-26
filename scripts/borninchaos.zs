@@ -82,8 +82,8 @@ import mods.jeitweaker.Jei;
 
 
 //寒蚀凄锋
-craftingTable.remove(<item:born_in_chaos_v1:frostbitten_blade>);
-craftingTable.addShaped("born_in_chaos_v1.frostbitten_blade", <item:born_in_chaos_v1:frostbitten_blade>, [[<item:yuusha:moon_core>, <item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:arcane_ingot>], [<item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:keeper_flamberge>.anyDamage(), <item:irons_spellbooks:arcane_salvage>], [<item:irons_spellbooks:arcane_ingot>, <item:irons_spellbooks:arcane_salvage>, <item:yuusha:moon_core>]]);
+//craftingTable.remove(<item:born_in_chaos_v1:frostbitten_blade>);
+//craftingTable.addShaped("born_in_chaos_v1.frostbitten_blade", <item:born_in_chaos_v1:frostbitten_blade>, [[<item:yuusha:moon_core>, <item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:arcane_ingot>], [<item:irons_spellbooks:arcane_salvage>, <item:irons_spellbooks:keeper_flamberge>.anyDamage(), <item:irons_spellbooks:arcane_salvage>], [<item:irons_spellbooks:arcane_ingot>, <item:irons_spellbooks:arcane_salvage>, <item:yuusha:moon_core>]]);
 
 //骷髅法杖
 craftingTable.remove(<item:born_in_chaos_v1:bonescaller_staff>);

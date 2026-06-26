@@ -8,9 +8,9 @@ import mods.jeitweaker.Jei;
 <tag:items:curios:ring>.remove(<item:enigmaticaddons:avarice_ring>);
 <tag:items:curios:god_hand>.add(<item:enigmaticaddons:avarice_ring>);
 
-//
+//权杖
 craftingTable.remove(<item:enigmaticaddons:quartz_scepter>);
-craftingTable.addShaped("enigmaticaddons.quartz_scepter", <item:enigmaticaddons:quartz_scepter>, [[<item:minecraft:air>, <item:minecraft:quartz>, <item:too_many_bows:power_crystal>], [<item:minecraft:lapis_lazuli>, <item:reliquary:void_tear>, <item:minecraft:quartz>], [<item:aether:skyroot_stick>, <item:minecraft:lapis_lazuli> , <item:minecraft:air>]]);
+craftingTable.addShaped("enigmaticaddons.quartz_scepter", <item:enigmaticaddons:quartz_scepter>, [[<item:minecraft:air>, <item:minecraft:quartz>, <item:yuusha:aja_blue_stone>], [<item:too_many_bows:power_crystal>, <item:reliquary:void_tear>, <item:minecraft:quartz>], [<item:aether:skyroot_stick>, <item:too_many_bows:power_crystal> , <item:minecraft:air>]]);
 
 //纯净之心
 craftingTable.remove(<item:enigmaticaddons:pure_heart>);

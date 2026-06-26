@@ -20,17 +20,17 @@ import crafttweaker.api.item.property.Rarity;
 <tag:items:curios:god_hand>.add(<item:chapter_of_yuusha_3_core:arcane_specialty>);
 
 <tag:items:curios:ring>.remove(<item:goose_curios:nine_demons_nine_calamities>);
-<tag:items:curios:god_hand>.add(<item:goose_curios:nine_demons_nine_calamities>);
+<tag:items:curios:satan_contract>.add(<item:goose_curios:nine_demons_nine_calamities>);
 <tag:items:curios:ring>.remove(<item:goose_curios:bond_will>);
 <tag:items:curios:burning_secret>.add(<item:goose_curios:bond_will>);
 <tag:items:curios:ring>.remove(<item:goose_curios:cyber_psychosis>);
 <tag:items:curios:burning_secret>.add(<item:goose_curios:cyber_psychosis>);
 
-/*
 //
-craftingTable.remove(<item:gooseworkshop:goose_food_bag>);
-craftingTable.addShapeless("gooseworkshop.goose_food_bag", <item:gooseworkshop:goose_food_bag>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
+craftingTable.remove(<item:goose_hardtack:goose_hardtack>);
+craftingTable.addShapeless("goose_hardtack.goose_hardtack", <item:goose_hardtack:goose_hardtack>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
 
+/*
 //悬赏终端
 craftingTable.remove(<item:gooseworkshop:goose_bounty_terminal>);
 craftingTable.addShaped("gooseworkshop.goose_bounty_terminal", <item:gooseworkshop:goose_bounty_terminal>, [[<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:embers:caminite_plate>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>]]);

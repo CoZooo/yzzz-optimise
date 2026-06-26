@@ -1,0 +1,6 @@
+
+[tooltip_pagination]
+	enabled = false
+	#Range: 4 ~ 64
+	max_visible_lines = 20
+

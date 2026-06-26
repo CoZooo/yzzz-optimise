@@ -1871,6 +1871,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
+			title: "太阴一明珏"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -1882,14 +1883,14 @@
 				"&c仅供测试，尚未完善。"
 			]
 			hide_until_deps_complete: true
-			icon: "gooseworkshop:nine_demons_nine_calamities"
+			icon: "goose_curios:nine_demons_nine_calamities"
 			id: "398A203B262A1045"
 			rewards: [
 				{
 					auto: "enabled"
-					command: "/cy3 admin curios equip gooseworkshop:nine_demons_nine_calamities{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					command: "/cy3 admin curios equip goose_curios:nine_demons_nine_calamities{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
 					elevate_perms: true
-					icon: "gooseworkshop:nine_demons_nine_calamities"
+					icon: "goose_curios:nine_demons_nine_calamities"
 					id: "3CA19FBF3A119F6C"
 					team_reward: true
 					title: "&c强制穿戴九魔·九厄（自动领取）"
@@ -1924,6 +1925,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
+			title: "九魔·九厄"
 			x: -7.0d
 			y: 2.5d
 		}

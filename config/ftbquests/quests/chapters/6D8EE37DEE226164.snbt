@@ -1891,7 +1891,6 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["大鹅的压缩饼干：对着储物容器左键点击，可自动收纳容器内未食用过的食物，再次左键即可原路放回（满载时则保留多余部分在饼干内）；长按右键能一次性吃完收纳的全部食物并消耗道具，进食总时长等同于所有食物食用时长之和，时长可通过水帽效果缩减；兼容原版储物容器、精致存储、背包，同时适配生活调味料模组胡萝卜相关食物进度追踪与生命增益效果。"]
 			id: "07A920EC7EF18396"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1902,7 +1901,7 @@
 			subtitle: "「杂项」"
 			tasks: [{
 				id: "16EC9936C9D5524E"
-				item: "gooseworkshop:goose_food_bag"
+				item: "goose_hardtack:goose_hardtack"
 				type: "item"
 			}]
 			x: -2.5d

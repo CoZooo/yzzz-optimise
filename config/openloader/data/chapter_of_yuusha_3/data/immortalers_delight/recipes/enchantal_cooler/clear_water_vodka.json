@@ -2,7 +2,16 @@
   "type": "immortalers_delight:enchantal_cooler",
   "ingredients": [
     {
-      "item": "minecraft:structure_void"
+      "item": "forbidden_arcanus:edelwood_water_bucket"
+    },
+    {
+      "item": "immortalers_delight:evolutcorn"
+    },
+    {
+      "item": "hmag:honeyed_lemon"
+    },
+    {
+      "item": "yuusha:chaos_stone"
     }
   ],
   "output": {

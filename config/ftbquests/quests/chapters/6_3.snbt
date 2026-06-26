@@ -670,7 +670,7 @@
 		}
 		{
 			dependencies: ["14F5AF9007D14311"]
-			description: ["女仆专用，自带火属性。锻造台中可制作。"]
+			description: ["女仆专用，锻造台中可制作。"]
 			id: "468EAD9D8B5686E4"
 			rewards: [{
 				id: "3BD94B8A6E185ED6"
@@ -681,7 +681,7 @@
 				id: "6637E882ACE91CD6"
 				item: {
 					Count: 1
-					id: "lost_aether_content:phoenix_sword"
+					id: "born_in_chaos_v1:frostbitten_blade"
 					tag: {
 						Damage: 0
 					}
@@ -1220,7 +1220,7 @@
 				id: "2FD67E9F6DE917BF"
 				item: {
 					Count: 1
-					id: "born_in_chaos_v1:frostbitten_blade"
+					id: "lost_aether_content:phoenix_sword"
 					tag: {
 						Damage: 0
 					}

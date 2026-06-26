@@ -5,11 +5,11 @@
   ],
   "max_height": 255,
   "output": {
-    "item": "yuusha:aja_red_stone"
+    "item": "infinite_abyss:pink_glowing_crystal"
   },
   "required_block": {
     "amount": 1,
     "block_tag": "yuusha:void_blocks"
   },
-  "weight": 1
+  "weight": 20
 }

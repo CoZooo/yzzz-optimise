@@ -277,7 +277,7 @@ malum_spirit.add(<item:malum:aqueous_spirit>);
 <tag:items:curios:malum_necklace>.add(<item:eidolon:terminus_mirror>);
 
 <tag:items:curios:ring>.remove(<item:eidolon:angels_sight>);
-<tag:items:curios:burning_secret>.add(<item:eidolon:angels_sight>);
+<tag:items:curios:god_hand>.add(<item:eidolon:angels_sight>);
 
 
 

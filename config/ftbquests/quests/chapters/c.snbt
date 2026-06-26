@@ -4566,9 +4566,9 @@
 				id: "189E4623E57B1080"
 				item: {
 					Count: 1
-					id: "gooseworkshop:goose_capsule"
+					id: "goose_universalcapsule:universal_capsule"
 					tag: {
-						GooseCapsule: {
+						UniversalCapsule: {
 							Author: "Iyemmm"
 							BlockCount: 62
 							DisplayName: "自动控温天华锻座"
@@ -4582,6 +4582,7 @@
 						}
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{

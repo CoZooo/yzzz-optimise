@@ -5,7 +5,7 @@
   ],
   "max_height": 255,
   "output": {
-    "item": "yuusha:aja_red_stone"
+    "item": "yuusha:aja_blue_stone"
   },
   "required_block": {
     "amount": 1,

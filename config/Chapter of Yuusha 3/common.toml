@@ -52,7 +52,7 @@
 	configSyncEnabled = false
 	#限制玩家连续使用物品的间隔
 	#Range: > 0
-	useCooldown = 1
+	useCooldown = 2
 
 	#自动装备饰品配置
 	[coreSettings.autoEquipCurioSettings]

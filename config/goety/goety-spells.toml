@@ -981,7 +981,7 @@
 		arrowRainCoolDown = 20
 		#How much extra damage the arrows deals, Default: 0.0
 		#Range: 0.0 ~ 1.7976931348623157E308
-		arrowRainDamage = 100.0
+		arrowRainDamage = 50.0
 		#How many ticks the Arrow Rain Spell much charge before casting, Default: 20
 		#Range: > 0
 		arrowRainChargeUp = 20

@@ -8344,11 +8344,7 @@
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
-			description: [
-				"枯石大刀：当一把位于刀挂台上的无铭「无名」被凋灵的爆炸波及时，这把刀就会转变为枯石大刀。虽然该拔刀需要无铭「无名」作为材料，但不会继承其任何数据。"
-				""
-				"&6只要把握好节奏，次元斩可以快速连续释放，从而打出高额伤害。"
-			]
+			description: ["枯石大刀：当一把位于刀挂台上的无铭「无名」被凋灵的爆炸波及时，这把刀就会转变为枯石大刀。虽然该拔刀需要无铭「无名」作为材料，但不会继承其任何数据。"]
 			icon: "minecraft:wither_rose"
 			id: "0D49C142D009F289"
 			rewards: [{
@@ -8356,7 +8352,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：次元斩"
+			subtitle: "SA：虚无刀界"
 			tasks: [
 				{
 					id: "37C8900C5999CA2A"
@@ -8369,10 +8365,10 @@
 								Damage: 0
 								ModelName: "slashblade:model/named/dios/dios.obj"
 								RepairCounter: 0
-								SpecialAttackType: "slashblade:judgement_cut"
+								SpecialAttackType: "slashblade:void_slash"
 								SpecialEffects: ["slashblade:wither_edge"]
 								StandbyRenderType: 3b
-								SummonedSwordColor: -13619152
+								SummonedSwordColor: -7911393
 								SummonedSwordColorInverse: 0b
 								TargetEntity: 0
 								TextureName: "slashblade:model/named/dios/koseki.png"
@@ -8413,10 +8409,10 @@
 								Damage: 0
 								ModelName: "slashblade:model/named/dios/dios.obj"
 								RepairCounter: 0
-								SpecialAttackType: "slashblade:judgement_cut"
+								SpecialAttackType: "slashblade:void_slash"
 								SpecialEffects: ["slashblade:wither_edge"]
 								StandbyRenderType: 3b
-								SummonedSwordColor: -13619152
+								SummonedSwordColor: -7911393
 								SummonedSwordColorInverse: 0b
 								TargetEntity: 0
 								TextureName: "slashblade:model/named/dios/koseki.png"
@@ -8557,7 +8553,11 @@
 		}
 		{
 			dependencies: ["7E0ABBF0AE5F297C"]
-			description: ["「蜘蛛切」：击杀灾厄教父较低几率获得。"]
+			description: [
+				"「蜘蛛切」：击杀灾厄教父较低几率获得。"
+				""
+				"&6只要把握好节奏，次元斩可以快速连续释放，从而打出高额伤害。"
+			]
 			icon: "meetyourfight:mossy_tooth"
 			id: "15F40A8F8E5BD4FE"
 			rewards: [{
@@ -8565,7 +8565,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "SA：虚无刀界"
+			subtitle: "SA：次元斩"
 			tasks: [
 				{
 					id: "0019E0558463D73B"
@@ -8578,9 +8578,9 @@
 								Damage: 0
 								ModelName: "ak:model/named/spider/sange.obj"
 								RepairCounter: 0
-								SpecialAttackType: "slashblade:void_slash"
+								SpecialAttackType: "slashblade:judgement_cut"
 								StandbyRenderType: 3b
-								SummonedSwordColor: -1
+								SummonedSwordColor: -12512187
 								SummonedSwordColorInverse: 0b
 								TargetEntity: 0
 								TextureName: "ak:model/named/spider/blood.png"
@@ -8621,9 +8621,9 @@
 								Damage: 0
 								ModelName: "ak:model/named/spider/sange.obj"
 								RepairCounter: 0
-								SpecialAttackType: "slashblade:void_slash"
+								SpecialAttackType: "slashblade:judgement_cut"
 								StandbyRenderType: 3b
-								SummonedSwordColor: -1
+								SummonedSwordColor: -12512187
 								SummonedSwordColorInverse: 0b
 								TargetEntity: 0
 								TextureName: "ak:model/named/spider/blood.png"

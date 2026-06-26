@@ -1,0 +1,17 @@
+
+[performance]
+	#Maximum foods consumed per server tick while eating hardtack. Set to -1 for no limit.
+	#Range: > -1
+	foodsPerTick = -1
+	#How hardtack use duration is calculated. Allowed values: cumulative, fixed. cumulative sums all stored food use times; fixed uses a single configured duration.
+	eatTimeMode = "cumulative"
+	#Use duration in ticks when eatTimeMode is fixed.
+	#Range: > 1
+	fixedEatTimeTicks = 32
+	#Maximum Refined Storage entries scanned per collect action. Set to -1 for no limit. Lowered default to prevent lag. Max: 100000 to prevent OOM.
+	#Range: -1 ~ 100000
+	maxRsScanEntries = 5000
+	#Maximum foods collected from Refined Storage per collect action. Set to -1 for no limit. Aligned with memory limits. Max: 50000 to prevent OOM.
+	#Range: -1 ~ 50000
+	maxRsCollectedFoods = 8192
+
