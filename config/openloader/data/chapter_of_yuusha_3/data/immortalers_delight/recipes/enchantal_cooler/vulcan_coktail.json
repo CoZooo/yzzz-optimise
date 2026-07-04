@@ -1,0 +1,18 @@
+{
+  "type": "immortalers_delight:enchantal_cooler",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "immortalers_delight:torchflower_mustard"
+    }
+  ],
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "output": {
+    "item": "immortalers_delight:vulcan_coktail",
+    "count": 1
+  }
+}

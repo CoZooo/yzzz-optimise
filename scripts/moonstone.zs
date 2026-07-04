@@ -104,7 +104,6 @@ Jei.hideIngredient(<item:moonstone:end_bone>);
 //<item:moonstone:nightmare_base_start>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 //<item:moonstone:nightmare_base_stone>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 
-//<item:moonstone:nightmare_base_black_eye_red>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:nightmare_virus>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:nightmare_base_fool_betray>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:nightmare_base_insight_collapse>.anyDamage().addTooltip("\u00A7e无法使用或获取");
@@ -440,8 +439,9 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:blood_candle>.anyDamage().addTooltip("\u00A7c血灵增生体会无差别攻击除饰品所有者外的所有单位");
 <item:moonstone:blood_candle>.anyDamage().addTooltip("\u00A7e所造成伤害为非玩家伤害");
 <item:moonstone:blood_candle>.anyDamage().addTooltip("\u00A76只有特定世界线可以获得");
-<item:moonstone:malice_die>.anyDamage().addTooltip("\u00A7c只能通过击杀霜冻巨兽几率获得");
+<item:moonstone:malice_die>.anyDamage().addTooltip("\u00A76只能通过击杀霜冻巨兽几率获得");
 <item:moonstone:malice_die>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤仅加成近战伤害");
+<item:moonstone:malice_die>.anyDamage().addTooltip("\u00A7c请勿佩戴！会强制吸引包括自身仆从的仇恨");
 <item:moonstone:twelve_sword>.anyDamage().addTooltip("\u00A7c可通过击杀黑暗萨满有小几率获得");
 <item:moonstone:twelve_sword>.anyDamage().addTooltip("\u00A7e需配合生肖类饰品，可用中文在JEI中搜索“生肖”查看");
 <item:moonstone:twelve_sword>.anyDamage().addTooltip("\u00A76需近战杀死生物召唤剑阵");
@@ -612,10 +612,10 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:soulcube>.anyDamage().addTooltip("\u00A7c只能通过击杀在下界生成的凋零牛几率获得");
 <item:moonstone:soulbattery>.anyDamage().addTooltip("\u00A7c只能通过击杀太古魔像几率获得，仅加成近战伤害");
 <item:moonstone:soulbattery>.anyDamage().addTooltip("\u00A7e打开物品栏后，左击拿起灵魂电池，接着右击装备在饰品栏的纳米饰品强化");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c只能通过击杀钢铁守卫者几率获得");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A75只能通过击杀钢铁守卫者几率获得");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A76混沌战斧的召唤有一定冷却时间");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤为全伤害加成");
-<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A75据说此饰品可能会导致卡顿");
+<item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A7c此饰品会导致卡顿！！！！！");
 <item:moonstone:nightmare_axe>.anyDamage().addTooltip("\u00A72可在切石机中转化为其他深渊遗物饰品");
 
 <item:moonstone:pain_ring>.anyDamage().addTooltip("\u00A7c只能通过击杀异端堕落先知几率获得");
@@ -1012,6 +1012,9 @@ craftingTable.addShapeless("moonstone.magicstone.re", <item:moonstone:magicstone
 
 //<tag:items:curios:catastrophe>.add(<item:moonstone:max_eye>);
 <tag:items:curios:curio>.remove(<item:moonstone:max_eye>);
+
+<tag:items:curios:god_hand>.add(<item:moonstone:nightmare_base_black_eye_red>);
+<tag:items:curios:nightmare>.remove(<item:moonstone:nightmare_base_black_eye_red>);
 
 /*
 

@@ -411,7 +411,7 @@ import mods.jeitweaker.Jei;
 <item:goety:weakening_focus>.addTooltip("\u00A7e能够对大部分生物起效，包括灾变模组的首领");
 <item:goety:wind_blast_focus>.addTooltip("\u00A76右击立刻施法，冷却时间2秒，需放入魔杖施法");
 <item:goety:wind_blast_focus>.addTooltip("\u00A7e开启袭击宝藏袋有几率获得");
-<item:goety:arrow_rain_focus>.addTooltip("\u00A72· 50 基础伤害/发");
+<item:goety:arrow_rain_focus>.addTooltip("\u00A72· 15 基础伤害/发");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导1秒后持续施法，冷却时间1秒，需放入魔杖施法");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A7c该聚晶伤害可享受箭术和投射物伤害加成，不享受魔能加成");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A7e同时穿戴熔火箭袋会导致该聚晶无法造成伤害");

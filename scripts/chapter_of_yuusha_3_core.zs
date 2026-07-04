@@ -22,7 +22,7 @@ import crafttweaker.api.item.property.Rarity;
 <tag:items:curios:ring>.remove(<item:goose_curios:nine_demons_nine_calamities>);
 <tag:items:curios:satan_contract>.add(<item:goose_curios:nine_demons_nine_calamities>);
 <tag:items:curios:ring>.remove(<item:goose_curios:bond_will>);
-<tag:items:curios:burning_secret>.add(<item:goose_curios:bond_will>);
+<tag:items:curios:time>.add(<item:goose_curios:bond_will>);
 <tag:items:curios:ring>.remove(<item:goose_curios:cyber_psychosis>);
 <tag:items:curios:burning_secret>.add(<item:goose_curios:cyber_psychosis>);
 

@@ -398,9 +398,9 @@
 		{
 			dependencies: ["478A612F781EDE10"]
 			description: [
-				"弓兵、枪械暗夜刺客线，未完善。"
+				"弓兵暗夜刺客线，未完善。"
 				""
-				"&c除非你想要挑战，否则不要用弓、枪来玩刺客世界线。"
+				"&c除非你想要挑战，否则不要用弓来玩刺客世界线。"
 			]
 			icon: {
 				Count: 1
@@ -448,50 +448,32 @@
 		{
 			dependencies: ["28C58982CC37413E"]
 			description: [
-				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。需注意，此为时之刺客路线的入口，提交该物品后无法获得暗影刺客路线的物品，并强制绑定特殊饰品。"
 				""
-				"&c需注意，此为时之刺客路线的入口，提交该物品后无法获得暗影刺客路线的物品。会将特殊的永恒怀表强制自动穿戴。在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
+				"&c永恒怀表：在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
 				""
-				"&e注意，此任务为团队奖励，建议先领取后再与别人组队。"
+				"&6承载着邦德的意志：持枪瞄准时将进入隐匿状态并每秒获得增伤；暴露时伤害大幅降低，直到重新脱战或一击毙命；蓄满时冻结周围时间流速。"
 				""
-				"&6此路线尚未完善，难度未确定。"
+				"&e注意此任务为团队奖励，建议先领取后再与别人组队。"
 				""
-				"&6此路线尚未完善，难度未确定。"
+				"&5此路线尚未完善，难度未确定。"
 				""
-				"&6此路线尚未完善，难度未确定。"
+				"&5此路线尚未完善，难度未确定。"
 				""
-				"&6此路线尚未完善，难度未确定。"
-				""
-				"&6此路线尚未完善，难度未确定。"
+				"&5此路线尚未完善，难度未确定。"
 			]
 			hide_dependency_lines: false
 			icon: "goety_revelation:eternal_watch"
 			id: "47EFF30F33E5B9EB"
 			rewards: [
 				{
-					auto: "enabled"
-					command: "/cy3 admin curios equip goety_revelation:eternal_watch{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "goety_revelation:eternal_watch"
-					}
-					id: "79EE79B34B3C64A1"
-					team_reward: true
-					title: "&c强制穿戴永恒怀表（自动完成）"
-					type: "command"
+					exclude_from_claim_all: true
+					id: "2C9C161BEB2CAC28"
+					table_id: 2891126319106072593L
+					type: "choice"
 				}
 				{
-					auto: "enabled"
-					id: "0877E77C6A815CEC"
+					id: "3D973177162EF48A"
 					item: {
 						Count: 1
 						id: "treasurebags:treasure_bag"
@@ -512,7 +494,7 @@
 				item: "yuusha:focus_4_ass"
 				type: "item"
 			}]
-			title: "永恒怀表"
+			title: "永恒怀表 \\& 承载着邦德的意志"
 			x: -6.5d
 			y: 1.0d
 		}

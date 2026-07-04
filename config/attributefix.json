@@ -430,14 +430,14 @@
       }
     },
     "goety_revelation:soul_decrease_reduction": {
-      "enabled": false,
+      "enabled": true,
       "min": {
         "default": -32767,
-        "value": -32767
+        "value": 1
       },
       "max": {
         "default": 2,
-        "value": 2
+        "value": 1
       }
     },
     "siren_head:horncooldown": {

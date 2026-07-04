@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "arcalis_bosses:deathbringer_graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 22,
+    "separation": 21,
+    "salt": 1878724844
+  }
+}

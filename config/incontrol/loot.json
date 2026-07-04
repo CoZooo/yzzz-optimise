@@ -104,7 +104,8 @@
 		"mob": ["touhou_little_maid:fairy"],
 		"player": true,
 		"helditem": "slashblade:slashblade_bamboo",
-		"item": "forbidden_arcanus:soul"
+		"item": "forbidden_arcanus:soul",
+		"itemcount": "4"
 	},
 	{
 		"mob": ["depthcrawler:jabberwock", "depthcrawler:deepboss", "depthcrawler:ancientdeep"],

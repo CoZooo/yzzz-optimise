@@ -6,7 +6,7 @@ import mods.jeitweaker.Jei;
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7c击杀生于混沌模组的部分怪物可获得");
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7e在极尽深渊的阿比斯之渊内会生成大量生于混沌模组生物");
 
-<item:born_in_chaos_v1:scarlet_persecutor_spawn_egg>.addTooltip("\u00A7c猩红幽灵只能在阿比斯之渊内生成");
+<item:born_in_chaos_v1:spiritof_chaos_spawn_egg>.addTooltip("\u00A7c混沌恶灵只能在阿比斯之渊内生成");
 <item:born_in_chaos_v1:pumpkinstaffa>.addTooltip("\u00A7c击杀南瓜伯爵头颅可获得");
 <item:born_in_chaos_v1:smoldering_infernal_ember>.addTooltip("\u00A7c击杀南瓜伯爵头颅可获得");
 <item:born_in_chaos_v1:smoldering_infernal_ember>.addTooltip("\u00A7e在阿比斯之渊会刷新生于混沌模组的生物");

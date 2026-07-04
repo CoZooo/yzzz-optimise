@@ -4545,9 +4545,9 @@
 			]
 			icon: {
 				Count: 1
-				id: "gooseworkshop:goose_capsule"
+				id: "goose_universalcapsule:universal_capsule"
 				tag: {
-					GooseCapsule: {
+					UniversalCapsule: {
 						Author: "Iyemmm"
 						BlockCount: 62
 						DisplayName: "自动控温天华锻座"

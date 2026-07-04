@@ -1,0 +1,27 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "A": {
+      "item": "locusazzurro_icaruswings:steel_ingot"
+    }
+  },
+  "pattern": [
+    "    A    ",
+    "   AAA   ",
+    "   ABA   ",
+    " AAABAAA ",
+    "AABBBBBAA",
+    " AAABAAA ",
+    "   ABA   ",
+    "   AAA   ",
+    "    A    "
+  ],
+  "result": {
+    "item": "locusazzurro_icaruswings:quantum_fuel"
+  },
+  "show_notification": true
+}

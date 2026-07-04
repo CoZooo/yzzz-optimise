@@ -12,9 +12,9 @@ import mods.jeitweaker.Jei;
 <item:forbidden_arcanus:soul>.addTooltip("\u00A7c利用灵魂提取器可获得灵魂，之后可通过合成复制");
 <item:forbidden_arcanus:soul>.addTooltip("\u00A76相关内容详见下界炼狱章节任务");
 <item:forbidden_arcanus:soul>.addTooltip("\u00A7e可提供赫菲斯托斯锻炉1点灵魂值");
-<item:forbidden_arcanus:soul>.addTooltip("\u00A73用无铭刀「竹光」击杀也可获得");
-<item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7e可提供赫菲斯托斯锻炉500点灵魂值");
-//<item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7c利用灵魂提取器可击杀各种灵魂生物获得相应的灵魂");
+<item:forbidden_arcanus:soul>.addTooltip("\u00A73用无铭刀「竹光」击杀女仆妖精也可获得");
+<item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7e可提供赫菲斯托斯锻炉100点灵魂值");
+<item:forbidden_arcanus:corrupt_soul>.addTooltip("\u00A7c利用灵魂提取器可击杀各种灵魂生物获得相应的灵魂");
 <item:forbidden_arcanus:spawner_scrap>.addTooltip("\u00A7c破坏刷怪笼可获得");
 <item:forbidden_arcanus:spawner_scrap>.addTooltip("\u00A76在星河贸易站内也可交易到");
 <item:forbidden_arcanus:stellarite_piece>.addTooltip("\u00A7e前期在主世界挖掘奥术陨星矿石获得");
@@ -176,7 +176,7 @@ craftingTable.remove(<item:forbidden_arcanus:blacksmith_gavel_head>);
 craftingTable.addShaped("forbidden_arcanus.blacksmith_gavel_head", <item:forbidden_arcanus:blacksmith_gavel_head>, [[<item:ancient_aether:valkyrie_clay_ball>, <item:ancient_aether:valkyrie_clay_ball>, <item:ancient_aether:valkyrie_clay_ball>], [<item:ancient_aether:valkyrie_clay_ball>, <item:minecraft:air>, <item:ancient_aether:valkyrie_clay_ball>], [<item:minecraft:air>, <item:ancient_aether:valkyrie_clay_ball>, <item:minecraft:air>]]);
 
 //灵魂
-craftingTable.addShaped("forbidden_arcanus.soul.copy", <item:forbidden_arcanus:soul>*2, [[<item:sons_of_sins:ether_ashes>, <item:sons_of_sins:ether_ashes>, <item:sons_of_sins:ether_ashes>], [<item:sons_of_sins:ether_ashes>, <item:forbidden_arcanus:soul>, <item:sons_of_sins:ether_ashes>], [<item:sons_of_sins:ether_ashes>, <item:sons_of_sins:ether_ashes>, <item:sons_of_sins:ether_ashes>]]);
+craftingTable.addShaped("forbidden_arcanus.soul.copy", <item:forbidden_arcanus:soul>*2, [[<item:minecraft:air>, <item:sons_of_sins:ether_ashes>, <item:minecraft:air>], [<item:sons_of_sins:ether_ashes>, <item:forbidden_arcanus:soul>, <item:sons_of_sins:ether_ashes>], [<item:minecraft:air>, <item:sons_of_sins:ether_ashes>, <item:minecraft:air>]]);
 
 //光明契约复制
 craftingTable.addShapeless("forbidden_arcanus.divine_pact.copy.1", <item:forbidden_arcanus:divine_pact>*2, [<item:forbidden_arcanus:divine_pact>, <item:ancient_aether:laboratory_dungeon_key>]);

@@ -188,6 +188,17 @@
             },
             "unitWorth": 5500,
             "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:mending\"}]}"
+        },
+
+        "cleric_rew_extreme_crafting_table": {
+            "type": "item",
+			"rarity": "EPIC",
+            "content": "avaritia:extreme_crafting_table",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 40000.0
         }
 
 	}

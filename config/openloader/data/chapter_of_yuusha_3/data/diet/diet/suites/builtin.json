@@ -169,10 +169,6 @@
       ],
       "status_effects": [
         {
-          "name": "minecraft:unluck",
-          "power": 99
-        },
-        {
           "name": "attributeslib:sundering",
           "power": 99
         },

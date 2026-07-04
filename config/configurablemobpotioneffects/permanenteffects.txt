@@ -499,7 +499,6 @@
 
 'cataclysm:the_baby_leviathan' : 'minecraft:regeneration,lvl:1',
 'cataclysm:modern_remnant' : 'minecraft:resistance,lvl:1',
-'forbidden_arcanus:lost_soul' : 'minecraft:regeneration,lvl:1',
 
 'aether_redux:shimmercow' : 'minecraft:regeneration,lvl:1',
 'aether_redux:mykapod' : 'minecraft:regeneration,lvl:1',

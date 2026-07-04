@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:torchflower"
+    }
+  ],
+  "tool": {
+    "item": "cataclysm:infernal_forge"
+  },
+  "result": [
+    {
+      "item": "immortalers_delight:torchflower_mustard",
+      "count": 1
+    }
+  ]
+}

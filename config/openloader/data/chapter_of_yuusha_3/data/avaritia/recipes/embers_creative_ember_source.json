@@ -1,0 +1,36 @@
+{
+  "type": "avaritia:shaped_extreme_craft",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "wizards_reborn:nether_salt_block"
+    },
+    "B": {
+      "item": "malum:block_of_arcane_charcoal"
+    },
+    "C": {
+      "item": "aether:ambrosium_block"
+    },
+    "D": {
+      "item": "malum:block_of_blazing_quartz"
+    },
+    "E": {
+      "item": "embers:ancient_motive_core"
+    }
+  },
+  "pattern": [
+    "AACCCCCAA",
+    "ADDDDDDDA",
+    "CDBBCBBDC",
+    "CDBDEDBDC",
+    "CDCEEECDC",
+    "CDBDEDBDC",
+    "CDBBCBBDC",
+    "ADDDDDDDA",
+    "AACCCCCAA"
+  ],
+  "result": {
+    "item": "embers:creative_ember_source"
+  },
+  "show_notification": true
+}

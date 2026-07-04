@@ -22,8 +22,7 @@
 	order_index: 7
 	rewards: [
 		{ item: "chapter_of_yuusha_3_core:draw_power", title: "破空之愿（弓线）" }
-		{ item: "goose_curios:bond_will", title: "承载着邦德的意志（枪线）" }
 		{ item: "chapter_of_yuusha_3_core:recoil_absorber", title: "阴阳玉（近战）" }
 	]
-	title: "刺客选"
+	title: "暗影刺客附加物品"
 }

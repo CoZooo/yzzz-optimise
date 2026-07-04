@@ -17,6 +17,7 @@ craftingTable.addShaped("avaritia.star_fuel", <item:avaritia:star_fuel>, [[<item
 craftingTable.addShaped("avaritia.infinity_sword.ex", <item:avaritia:infinity_sword>, [[<item:yuusha:soul_gem_4>.reuse(), <item:minecraft:wooden_sword>.withTag({Unbreakable: 1 as int}), <item:yuusha:soul_gem_3>.reuse()], [<item:minecraft:wooden_sword>.withTag({Unbreakable: 1 as int}), <item:yuusha:soul_gem_2>.reuse(), <item:minecraft:wooden_sword>.withTag({Unbreakable: 1 as int})], [<item:yuusha:soul_gem_1>.reuse(), <item:minecraft:wooden_sword>.withTag({Unbreakable: 1 as int}), <item:yuusha:soul_gem>.reuse()]]);
 
 //说明
+<item:avaritia:extreme_crafting_table>.addTooltip("\u00A76新增可在牧师悬赏内史诗级别出现");
 <item:avaritia:infinity_pickaxe>.addTooltip("\u00A7c请勿利用范围模式挖掘，可能会导致游戏崩溃");
 <item:avaritia:infinity_bucket>.addTooltip("\u00A7c请勿直接右击水壶等装置，会被吃掉");
 <item:avaritia:infinity_sword>.anyDamage().addTooltip("\u00A76可制作获得，详见大满开章节任务");

@@ -23,8 +23,10 @@
 <item:bosses_of_mass_destruction:earthdive_spear>.addTooltip("\u00A7c无法穿越部分被锁定的方块");
 <item:bosses_of_mass_destruction:charged_ender_pearl>.addTooltip("\u00A7e任务奖励有几率获得");
 
-<item:bosses_of_mass_destruction:void_lily>.addTooltip("\u00A7c紫水晶巨蟹可用虚空百合等材料召唤");
+<item:bosses_of_mass_destruction:void_lily>.addTooltip("\u00A7e紫水晶巨蟹可用虚空百合等材料召唤");
 <item:bosses_of_mass_destruction:void_lily>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
+<item:bosses_of_mass_destruction:void_lily>.addTooltip("\u00A7c请勿右击种下，游戏会崩溃");
+<item:bosses_of_mass_destruction:void_lily>.addTooltip("\u00A73如需放入容器可用漏斗");
 <item:bosses_of_mass_destruction:obsidilith_rune>.addTooltip("\u00A76新增可制作获得");
 
 //虚空百合

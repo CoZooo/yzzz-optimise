@@ -1,7 +1,7 @@
 [
 	{
 		"when": "onjoin",
-		"mob": ["born_in_chaos_v1:scarlet_persecutor"],
+		"mob": ["born_in_chaos_v1:spiritof_chaos"],
 		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "aether:the_aether"],
 		"result": "deny"
 	},

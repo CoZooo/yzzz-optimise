@@ -8,7 +8,10 @@
       "item": "slashblade:slashblade",
       "request": {
         "kill": 100,
-        "refine": 1
+        "refine": 1,
+        "sword_type": [
+          "sealed"
+        ]
       }
     },
     "D": {

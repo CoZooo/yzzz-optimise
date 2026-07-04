@@ -1,7 +1,7 @@
 {
   "name": "prinegorerouse:aeon_blade",
   "properties": {
-    "attack_base": 100.0,
+    "attack_base": 1000.0,
     "slash_art": "prinegorerouse:over_the_horizon",
     "special_effects": [
       "prinegorerouse:eternity"
