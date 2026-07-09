@@ -402,35 +402,16 @@
 				""
 				"&c除非你想要挑战，否则不要用弓来玩刺客世界线。"
 			]
-			icon: {
-				Count: 1
-				id: "irons_spellbooks:misery"
-				tag: {
-					Damage: 0
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:wither_skull"
-							index: 0
-							level: 8
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 1b
-					}
-				}
-			}
+			icon: "chapter_of_yuusha_3_core:draw_power"
 			id: "4386DEF0B85B55DB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5BC91FFE04FA2F3A"
-					table_id: 7713176168298914738L
-					team_reward: true
-					type: "choice"
+					id: "79828275C24C5A44"
+					item: "chapter_of_yuusha_3_core:draw_power"
+					type: "item"
 				}
 				{
-					id: "2391D9AC14E230E0"
+					id: "2F3F85D83243DE76"
 					type: "xp"
 					xp: 100
 				}
@@ -441,7 +422,7 @@
 				item: "yuusha:grief_seed"
 				type: "item"
 			}]
-			title: "阴阳玉 \\& 破空之愿 \\&  承载着邦德的意志"
+			title: "阴阳玉 \\& 破空之愿 "
 			x: -0.5d
 			y: -2.0d
 		}
@@ -513,6 +494,88 @@
 			}]
 			x: -9.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["0F216D8334EC6BE2"]
+			description: ["&e新增对一击战补强。&r"]
+			icon: "chapter_of_yuusha_3_core:recoil_absorber"
+			id: "10A7A53C02AD7C35"
+			rewards: [
+				{
+					id: "3712FDE0FBA811ED"
+					item: "chapter_of_yuusha_3_core:recoil_absorber"
+					type: "item"
+				}
+				{
+					id: "6AB258CA2B6084F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "177216FD4E72541B"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			title: "阴阳玉 \\& 破空之愿 "
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: ["拥有隐身buff时可无条件获取增伤，同时享受铁魔法“法术冷却缩减”降低CD。"]
+			id: "0140B46F1D49E35C"
+			rewards: [{
+				id: "00A4F852B7A99DE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2275F5016438D938"
+				item: "irons_spellbooks:lurker_ring"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: ["使用主动技能后，对目标背后造成伤害可提供全伤增益。"]
+			id: "59526DA312D15262"
+			rewards: [{
+				id: "6B76A724C625F397"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AA13EF1442721D3"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44FE32ED4F1B2A76"]
+			description: ["对目标背后造成伤害可提供全伤增益。"]
+			id: "1FD2EC1966A0FE5C"
+			rewards: [{
+				id: "67D4653F1F00EAD2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "004F13AA2AE79FA6"
+				item: "celestial_artifacts:star_necklace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
 		}
 	]
 	subtitle: [

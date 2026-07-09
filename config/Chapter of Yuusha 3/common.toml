@@ -245,7 +245,7 @@
 			mana_regeneration = 0.25
 			#每点法力能抵抗的伤害值
 			#Range: 0.0 ~ 3.4028234663852886E38
-			damageResistancePerMana = 1.0
+			damageResistancePerMana = 0.5
 
 		#奥数专精
 		[coreSettings.CY3_curiosSettings.arcane_specialty]

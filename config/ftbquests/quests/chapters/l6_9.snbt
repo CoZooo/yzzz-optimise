@@ -973,14 +973,6 @@
 			description: ["该任务可以清除玩家的恶蝗蜇针（击杀下界亚波伦的才能右击使用）右击给予的数值，在清除后仍需新的恶蝗蜇针才能右击再次给予数值。"]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
 				id: "goety_revelation:the_needle"
 				tag: {
 					isRealNeedle: 1b
@@ -992,14 +984,6 @@
 				elevate_perms: true
 				icon: {
 					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
 					id: "goety_revelation:the_needle"
 					tag: {
 						isRealNeedle: 1b

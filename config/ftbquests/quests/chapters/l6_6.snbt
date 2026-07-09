@@ -444,8 +444,8 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -16.5d
+			x: 18.5d
+			y: -30.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -461,7 +461,7 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -27.5d
 		}
 		{
@@ -495,7 +495,7 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -27.5d
 		}
 		{
@@ -512,7 +512,7 @@
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -27.5d
 		}
 		{
@@ -546,7 +546,7 @@
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -27.5d
 		}
 		{
@@ -563,7 +563,7 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -29.0d
 		}
 		{
@@ -580,7 +580,7 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -30.5d
 		}
 		{
@@ -597,7 +597,7 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -30.5d
 		}
 		{
@@ -614,7 +614,7 @@
 				item: "artifacts:snorkel"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -30.5d
 		}
 		{
@@ -631,7 +631,7 @@
 				item: "artifacts:night_vision_goggles"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -29.0d
 		}
 		{
@@ -648,7 +648,7 @@
 				item: "artifacts:villager_hat"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -30.5d
 		}
 		{
@@ -665,8 +665,8 @@
 				item: "artifacts:superstitious_hat"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -16.5d
+			x: 19.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -682,8 +682,8 @@
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -16.5d
+			x: 20.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -699,7 +699,7 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -32.0d
 		}
 		{
@@ -733,7 +733,7 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: -29.0d
 		}
 		{
@@ -750,7 +750,7 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -30.5d
 		}
 		{
@@ -767,7 +767,7 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: -29.0d
 		}
 		{
@@ -784,7 +784,7 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -30.5d
 		}
 		{
@@ -801,7 +801,7 @@
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: -30.5d
 		}
 		{
@@ -835,7 +835,7 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -29.0d
 		}
 		{
@@ -869,7 +869,7 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -29.0d
 		}
 		{
@@ -886,7 +886,7 @@
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: -27.5d
 		}
 		{
@@ -908,6 +908,10 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"可通过使用神圣宝石与猪灵交易获得，神圣宝石获取方式："
+				"{ \"text\": \"神圣宝石\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A27E9A0A5EA2649\" } }"
+			]
 			id: "71E7445F0E1613E5"
 			rewards: [{
 				id: "7ED4BF2964750791"
@@ -916,10 +920,10 @@
 			}]
 			tasks: [{
 				id: "001C8775A24F42D3"
-				item: "moonstone:ectoplasmbattery"
+				item: "moonstone:detect"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -19.5d
 		}
 		{
@@ -952,7 +956,7 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -29.0d
 		}
 		{
@@ -1177,8 +1181,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -15.0d
+			x: 21.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1255,7 +1259,7 @@
 		{
 			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				"猪灵中立。"
+				"&m猪灵中立。&r"
 				""
 				"&c要想让猪灵变为中立，只能佩戴[无尽贪婪契约]。"
 			]
@@ -1270,8 +1274,8 @@
 				item: "enigmaticlegacy:golden_ring"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -19.5d
+			x: -0.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1334,7 +1338,7 @@
 				item: "enigmaticlegacy:cursed_scroll"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -13.0d
 			y: -18.0d
 		}
 		{
@@ -1348,7 +1352,7 @@
 				""
 				"&e部分材料详见遥远世界章节。"
 				""
-				"&3可以配合整蛊坐垫、以太套使用。"
+				"&3可以配合压血饰品（如魂之接力等）、以太套使用。"
 				""
 				"&c由于模组特性，每次重新加载游戏，都会导致千咒卷轴等必须识别无咒之戒的饰品会掉落到物品栏。"
 			]
@@ -1364,7 +1368,7 @@
 				item: "enigmaticlegacy:berserk_charm"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -15.0d
 		}
 		{
@@ -1519,7 +1523,7 @@
 				}
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -15.0d
 		}
 		{
@@ -1554,7 +1558,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: -20.0d
 		}
 		{
@@ -1689,8 +1693,6 @@
 				"&c需要双方都完全在水中才会生效。属于全伤害加成。"
 				""
 				"&6无法开宝箱获得。只能在击杀唤潮者（详见上层世界章节的溺魂任务）时有15%几率获得。"
-				""
-				"&e需注意，该增加的护符栏有特性，在每次死亡或者加载存档后，上述护符栏内的饰品都会掉下来。"
 			]
 			id: "1478B77AD4414B2C"
 			rewards: [{
@@ -1736,55 +1738,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -12.0d
 			y: -22.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			description: [
-				"增加咒符栏位。穿戴时增加宠物（包括女仆等）全伤害。在满升级和满品质下，增加的护符栏最多2个。"
-				""
-				"&6无法开宝箱获得。可以制作获得。也可以在击杀乌姆武蒂-太阳鸟（详见天顶巨兽章节）后在星河贸易站交易获得。"
-				""
-				"&c用作星河贸易站交易的材料，不能是手持过或者使用过，会有特殊NBT无法识别。"
-				""
-				"&e需注意，该增加的护符栏有特性，在每次死亡或者加载存档后，上述护符栏内的饰品都会掉下来。"
-				""
-				"&3佩戴多个猎人腰带并不会重复生效。"
-			]
-			id: "70754CAAA544D7D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CF817282F3FC7C2"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "374FAEC9C8972770"
-				item: {
-					Count: 1
-					id: "relics:hunter_belt"
-					tag: {
-						abilities: {
-							slots: {
-								points: 0
-								stats: {
-									talisman: 1.2327d
-								}
-							}
-							training: {
-								points: 0
-								stats: {
-									damage: 1.83992d
-								}
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 19.0d
-			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1864,7 +1819,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -20.0d
 		}
 		{
@@ -1900,7 +1855,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -20.0d
 		}
 		{
@@ -1959,7 +1914,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -21.0d
 		}
 		{
@@ -1995,7 +1950,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: -20.0d
 		}
 		{
@@ -2032,7 +1987,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -20.0d
 		}
 		{
@@ -2068,7 +2023,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -20.0d
 		}
 		{
@@ -2154,7 +2109,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -20.0d
 		}
 		{
@@ -2189,7 +2144,7 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -20.0d
 		}
 		{
@@ -2405,7 +2360,7 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -20.0d
 		}
 		{
@@ -2478,7 +2433,7 @@
 				}
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -27.5d
 		}
 		{
@@ -2500,7 +2455,7 @@
 				item: "majruszsaccessories:golden_dice"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -23.0d
 		}
 		{
@@ -2522,8 +2477,8 @@
 				item: "majruszsaccessories:golden_horseshoe"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -19.5d
+			x: -2.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2634,7 +2589,7 @@
 				item: "majruszsaccessories:dice"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -23.0d
 		}
 		{
@@ -2658,8 +2613,8 @@
 				item: "majruszsaccessories:horseshoe"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -19.5d
+			x: -3.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2974,7 +2929,7 @@
 				item: "nameless_trinkets:missing_page"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: -30.5d
 		}
 		{
@@ -3049,7 +3004,7 @@
 				item: "nameless_trinkets:vampire_blood"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -16.5d
 		}
 		{
@@ -3203,6 +3158,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["可通过制作获得，也可通过饰品宝藏袋获取。"]
 			hide_dependency_lines: true
 			id: "6DE49F35389AB565"
 			rewards: [{
@@ -3216,7 +3172,7 @@
 				item: "nameless_trinkets:cracked_crown"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: -18.0d
 		}
 		{
@@ -3234,7 +3190,7 @@
 				item: "nameless_trinkets:gods_crown"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 7.0d
 			y: -16.5d
 		}
 		{
@@ -3268,8 +3224,8 @@
 				item: "nameless_trinkets:miners_soul"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -15.0d
+			x: 19.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3303,8 +3259,8 @@
 				item: "nameless_trinkets:four_leaf_clover"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -15.0d
+			x: 26.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3418,8 +3374,8 @@
 				item: "nameless_trinkets:rage_mind"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -18.0d
+			x: -20.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3439,8 +3395,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -18.0d
+			x: -4.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3544,7 +3500,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 19.5d
 			y: -23.0d
 		}
 		{
@@ -3628,8 +3584,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -16.5d
+			x: 18.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3649,7 +3605,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -16.5d
 		}
 		{
@@ -3671,7 +3627,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -23.0d
 		}
 		{
@@ -3755,7 +3711,7 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -16.5d
 		}
 		{
@@ -3818,7 +3774,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: -23.0d
 		}
 		{
@@ -4342,7 +4298,7 @@
 			description: [
 				"飞升护符是神秘护身符的升级版，其集结了七种神秘护身符的效果，但需要昂贵的材料来进行合成。"
 				""
-				"&6不建议升级为轻蔑之约，好像有特性。"
+				"&6不建议升级为轻蔑之约，死亡后会不生效死亡不掉落。&r"
 			]
 			id: "1C98939168411CB9"
 			rewards: [{
@@ -4360,7 +4316,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -21.0d
 		}
 		{
@@ -4656,7 +4612,7 @@
 				}
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -30.5d
 		}
 		{
@@ -4674,8 +4630,8 @@
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -16.5d
+			x: 18.5d
+			y: -27.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4710,7 +4666,7 @@
 				item: "artifacts:onion_ring"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -29.0d
 		}
 		{
@@ -4728,7 +4684,7 @@
 				item: "artifacts:snowshoes"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -29.0d
 		}
 		{
@@ -4749,7 +4705,7 @@
 				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 20.5d
 			y: -27.5d
 		}
 		{
@@ -4770,7 +4726,7 @@
 				item: "artifacts:rooted_boots"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -27.5d
 		}
 		{
@@ -4841,7 +4797,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -27.5d
 		}
 		{
@@ -5218,7 +5174,7 @@
 				item: "majruszsaccessories:onyx"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -23.0d
 		}
 		{
@@ -5240,7 +5196,7 @@
 				item: "majruszsaccessories:gambling_card"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -23.0d
 		}
 		{
@@ -5262,7 +5218,7 @@
 				item: "majruszsaccessories:removal_card"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -23.0d
 		}
 		{
@@ -5284,7 +5240,7 @@
 				item: "majruszsaccessories:reverse_card"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -23.0d
 		}
 		{
@@ -5305,8 +5261,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -19.5d
+			x: 13.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5587,7 +5543,7 @@
 				item: "confluence:celestial_stone"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -19.0d
 			y: -21.0d
 		}
 		{
@@ -5689,42 +5645,8 @@
 				item: "confluence:warrior_emblem"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 6.0d
 			y: -19.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "4C3AC397A827B2FF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0763B9352EFC5A3C"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "210C9C3B7E782E77"
-				item: "confluence:sorcerer_emblem"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -22.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "1F6ADEFB5C57665C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6C8EBD8DF4EC5CD8"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "747D8A0921E2AF65"
-				item: "moonstone:nightmare_axe"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5779,6 +5701,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["除了枪械与聚晶享受不到增益，其余职业基本都可享受增益。"]
 			id: "5717526D4085C683"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5830,7 +5753,12 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: ["击杀溺尸几率获得。"]
+			description: [
+				"击杀溺尸几率获得。"
+				""
+				"&c扭曲花园结构内存在大量溺尸刷怪笼，详见专属章节：&r"
+				"{ \"text\": \"额外地牢\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"26BA2F85D487B566\" } }"
+			]
 			id: "1D17A9C5D51FA594"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5932,25 +5860,8 @@
 				item: "malstone:white_arrow_blade"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -19.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "64D6FF7F73360500"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "42C488992EDCABD6"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "46877F7350F36F26"
-				item: "confluence:recon_scope"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -21.0d
+			x: -17.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5966,7 +5877,7 @@
 				item: "confluence:molten_quiver"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.5d
 			y: -21.0d
 		}
 		{
@@ -5983,7 +5894,7 @@
 				item: "confluence:stalkers_quiver"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: -22.5d
 		}
 		{
@@ -6048,12 +5959,12 @@
 			}]
 			tasks: [{
 				id: "1EFB241C34328FD8"
-				item: "confluence:shield_of_cthulhu"
+				item: "confluence:eye_of_the_golem"
 				match_nbt: false
 				type: "item"
 			}]
-			x: -17.0d
-			y: -21.0d
+			x: -19.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6158,8 +6069,8 @@
 				item: "confluence:bundle_of_horseshoe_balloons"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -19.5d
+			x: -1.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6175,8 +6086,8 @@
 				item: "confluence:angler_earring"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -19.5d
+			x: -6.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6299,8 +6210,8 @@
 				item: "moonstone:ectoplasmstar"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -18.0d
+			x: 0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6364,11 +6275,11 @@
 			}]
 			tasks: [{
 				id: "08947ACF8E82A748"
-				item: "moonstone:dna"
+				item: "malstone:breaking_the_weapon"
 				type: "item"
 			}]
-			x: -19.0d
-			y: -18.0d
+			x: -20.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6469,7 +6380,7 @@
 				item: "moonstone:fungus"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 21.5d
 			y: -32.0d
 		}
 		{
@@ -6524,7 +6435,7 @@
 				item: "moonstone:virus"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 22.5d
 			y: -32.0d
 		}
 		{
@@ -6541,8 +6452,8 @@
 				item: "moonstone:blackeorb"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -21.0d
+			x: 13.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6584,6 +6495,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["同时佩戴后可提供10%全属性增益。"]
 			id: "38A9492ED9AF0939"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -6591,16 +6503,23 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "51565BC5C2DC929E"
-				item: {
-					Count: 1
-					id: "moonstone:nightmarerotten"
-					tag: { }
+			tasks: [
+				{
+					id: "51565BC5C2DC929E"
+					item: {
+						Count: 1
+						id: "moonstone:nightmarerotten"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -17.0d
+				{
+					id: "712A0356BFA81D12"
+					item: "moonstone:nightmareeye"
+					type: "item"
+				}
+			]
+			x: -18.0d
 			y: -15.0d
 		}
 		{
@@ -6685,8 +6604,8 @@
 				item: "moonstone:nightmaretreasure"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -15.0d
+			x: 24.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6753,8 +6672,8 @@
 				item: "moonstone:battery"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -19.5d
+			x: 14.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6770,7 +6689,7 @@
 				item: "moonstone:bloodvirus"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -12.0d
 			y: -18.0d
 		}
 		{
@@ -6838,8 +6757,8 @@
 				item: "moonstone:fermentation"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -18.0d
+			x: -12.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6877,6 +6796,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["没啥用，不建议佩戴。"]
 			id: "4BCECF34932A488B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -6889,7 +6809,7 @@
 				item: "moonstone:bloodgene"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.0d
 			y: -15.0d
 		}
 		{
@@ -6940,8 +6860,8 @@
 				item: "moonstone:ragegene"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -15.0d
+			x: -12.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6974,8 +6894,8 @@
 				item: "moonstone:cell_rage"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -16.5d
+			x: 14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6991,8 +6911,8 @@
 				item: "moonstone:twistedamout"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -19.5d
+			x: -20.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7008,8 +6928,8 @@
 				item: "moonstone:fortunecrystal"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -16.5d
+			x: 18.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7025,7 +6945,7 @@
 				item: "moonstone:mayhemcrystal"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.0d
 			y: -21.0d
 		}
 		{
@@ -7064,6 +6984,10 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"可通过使用神圣宝石与猪灵交易获得，神圣宝石获取方式："
+				"{ \"text\": \"神圣宝石\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A27E9A0A5EA2649\" } }"
+			]
 			id: "77DEEFC6281F32D8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -7073,10 +6997,10 @@
 			}]
 			tasks: [{
 				id: "2A9728A68DE2B2E1"
-				item: "moonstone:redamout"
+				item: "moonstone:plague_book"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: -19.5d
 		}
 		{
@@ -7165,7 +7089,7 @@
 				item: "moonstone:badgeofthedead"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -18.0d
 			y: -21.0d
 		}
 		{
@@ -7182,7 +7106,7 @@
 				item: "moonstone:mbattery"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.0d
 			y: -21.0d
 		}
 		{
@@ -7199,8 +7123,8 @@
 				item: "moonstone:mblock"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -16.5d
+			x: 18.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7335,8 +7259,8 @@
 				item: "moonstone:magiceye"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -16.5d
+			x: 25.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7352,7 +7276,7 @@
 				item: "moonstone:magicstone"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -14.0d
 			y: -19.5d
 		}
 		{
@@ -7403,7 +7327,7 @@
 				item: "moonstone:malice_die"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -21.0d
 		}
 		{
@@ -7426,7 +7350,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: -21.0d
 		}
 		{
@@ -7452,6 +7376,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["后期压血后可考虑佩戴。"]
 			id: "38EFC95B57913720"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -7468,7 +7393,7 @@
 				}
 				type: "item"
 			}]
-			x: -18.0d
+			x: -17.0d
 			y: -21.0d
 		}
 		{
@@ -7582,6 +7507,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["增伤为乘法乘区。"]
 			id: "1F679EBCD1EC20C1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -7594,7 +7520,7 @@
 				item: "celestial_artifacts:amethyst_ring"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -19.5d
 		}
 		{
@@ -7606,11 +7532,23 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "3476DD2D4E71C612"
-				item: "celestial_artifacts:emerald_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3476DD2D4E71C612"
+					item: "celestial_artifacts:emerald_ring"
+					type: "item"
+				}
+				{
+					id: "18FC8081E874056C"
+					item: "celestial_artifacts:emerald_bracelet"
+					type: "item"
+				}
+				{
+					id: "0F9936F2402B7B51"
+					item: "celestial_artifacts:emerald_necklace"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: -22.5d
 		}
@@ -7679,7 +7617,7 @@
 				item: "celestial_artifacts:war_dead_badge"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: -15.0d
 		}
 		{
@@ -7730,7 +7668,7 @@
 				item: "celestial_artifacts:origin_etching"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -21.0d
 		}
 		{
@@ -7832,7 +7770,7 @@
 				item: "celestial_artifacts:destroyer_badge"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -18.0d
 			y: -16.5d
 		}
 		{
@@ -7854,6 +7792,10 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"可通过完成成就提前获取："
+				"{ \"text\": \"熔岩钓鱼佬\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6275A01085C7535F\" } }"
+			]
 			id: "61F0B34184FD642C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -7866,11 +7808,15 @@
 				item: "celestial_artifacts:corrupt_badge"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 10.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"可通过完成成就提前获取："
+				"{ \"text\": \"相识的前奏曲\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35A7661B21E17203\" } }"
+			]
 			id: "2D89A5058D229453"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -7883,7 +7829,7 @@
 				item: "celestial_artifacts:cursed_talisman"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: -15.0d
 		}
 		{
@@ -7968,7 +7914,7 @@
 				item: "celestial_artifacts:demon_curse"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -18.0d
 		}
 		{
@@ -8002,7 +7948,7 @@
 				item: "celestial_artifacts:solar_magnet"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -18.0d
 			y: -19.5d
 		}
 		{
@@ -8047,8 +7993,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -19.5d
+			x: -4.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8081,7 +8027,7 @@
 				item: "celestial_artifacts:abyss_will_badge"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -20.0d
 			y: -15.0d
 		}
 		{
@@ -8098,7 +8044,7 @@
 				item: "celestial_artifacts:sands_talisman"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -17.0d
 			y: -19.5d
 		}
 		{
@@ -8132,11 +8078,12 @@
 				item: "celestial_artifacts:heart_of_revenge"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -21.0d
+			x: 0.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["该饰品为独立乘区增加近战伤害，需注意不能佩戴虚无刻蚀板，否则会减少独立乘区近战伤害。"]
 			id: "58D8DDC9DDD0EB66"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8155,7 +8102,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -15.0d
 		}
 		{
@@ -8172,11 +8119,12 @@
 				item: "celestial_artifacts:greedy_heart"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -15.0d
+			x: 20.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["除了近战，其他职业基本都能享受增益。"]
 			id: "604F714FCCB6D9C4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8189,8 +8137,8 @@
 				item: "celestial_artifacts:demon_heart"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -21.0d
+			x: -18.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8211,6 +8159,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["提供独立近战乘区加成。"]
 			id: "72F86D0E0AD8F1E4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8220,11 +8169,11 @@
 			}]
 			tasks: [{
 				id: "1E0DBE1817ADD978"
-				item: "celestial_artifacts:sea_god_scroll"
+				item: "confluence:fire_gauntlet"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -19.5d
+			x: 6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8247,18 +8196,17 @@
 			dependencies: ["6D17311DA4F0AB14"]
 			id: "1BA9373D1FC1E69D"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5CB03E8E7FB151D2"
-				table_id: 2805430797220875844L
-				type: "random"
+				id: "639710F0980FCAAD"
+				type: "xp"
+				xp: 1
 			}]
 			tasks: [{
 				id: "6CB62AA55D839152"
-				item: "celestial_artifacts:emerald_bracelet"
+				item: "moonstone:ectoplasmstar"
 				type: "item"
 			}]
 			x: 13.0d
-			y: -22.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8308,8 +8256,8 @@
 				item: "celestial_artifacts:twisted_scroll"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -15.0d
+			x: 23.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8412,7 +8360,7 @@
 				item: "celestial_artifacts:shadow_pendant"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -14.0d
 			y: -22.5d
 		}
 		{
@@ -8429,7 +8377,7 @@
 				item: "celestial_artifacts:star_necklace"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -16.0d
 			y: -22.5d
 		}
 		{
@@ -8463,7 +8411,7 @@
 				item: "celestial_artifacts:gallop_necklace"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -15.0d
 			y: -22.5d
 		}
 		{
@@ -8477,11 +8425,11 @@
 			}]
 			tasks: [{
 				id: "20CB571A3D2A4629"
-				item: "celestial_artifacts:fang_necklace"
+				item: "moonstone:twistedstone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -21.0d
+			x: 12.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8528,7 +8476,7 @@
 			}]
 			tasks: [{
 				id: "442DDFD226872417"
-				item: "celestial_artifacts:emerald_necklace"
+				item: "moonstone:whiteorb"
 				type: "item"
 			}]
 			x: 14.0d
@@ -8566,7 +8514,7 @@
 				item: "celestial_artifacts:spirit_necklace"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -22.5d
 		}
 		{
@@ -8601,7 +8549,7 @@
 				item: "celestial_artifacts:lock_of_abyss"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -15.0d
 		}
 		{
@@ -8624,6 +8572,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["佩戴海神两件套且主手手持三叉戟进行近战攻击时有较高增益。"]
 			id: "75FB9CD976CDFC5E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8631,12 +8580,19 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "5611413DF45A8DE3"
-				item: "celestial_artifacts:sea_god_crown"
-				type: "item"
-			}]
-			x: 13.0d
+			tasks: [
+				{
+					id: "5611413DF45A8DE3"
+					item: "celestial_artifacts:sea_god_crown"
+					type: "item"
+				}
+				{
+					id: "33CAA63A4E967150"
+					item: "celestial_artifacts:sea_god_scroll"
+					type: "item"
+				}
+			]
+			x: 10.0d
 			y: -19.5d
 		}
 		{
@@ -8687,7 +8643,7 @@
 				item: "celestial_artifacts:evil_eye"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -32.0d
 		}
 		{
@@ -8743,7 +8699,7 @@
 				item: "celestial_artifacts:sakura_hairpin"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 11.0d
 			y: -18.0d
 		}
 		{
@@ -8799,7 +8755,7 @@
 				item: "celestial_artifacts:magic_arrow_bag"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.5d
 			y: -21.0d
 		}
 		{
@@ -8816,7 +8772,7 @@
 				item: "celestial_artifacts:flame_arrow_bag"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -2.5d
 			y: -21.0d
 		}
 		{
@@ -8867,8 +8823,8 @@
 				item: "celestial_artifacts:leech_scabbard"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -18.0d
+			x: 13.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8884,11 +8840,12 @@
 				item: "celestial_artifacts:titan_scabbard"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["可压血，总体收益不高，不推荐佩戴。"]
 			id: "5CAF77BB276FD71C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8901,7 +8858,7 @@
 				item: "celestial_artifacts:twisted_scabbard"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 14.0d
 			y: -16.5d
 		}
 		{
@@ -8952,8 +8909,8 @@
 				item: "enigmaticaddons:quartz_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -19.5d
+			x: 0.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8974,6 +8931,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["佩戴后需要蹲下后才能破坏方块，不建议佩戴。"]
 			id: "101102580B2F47FF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8991,28 +8949,6 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: [
-				"不再能从战利品箱或地牢宝藏袋获得。"
-				""
-				"&e只能通过击杀恼鬼获得，有1%几率。"
-			]
-			id: "537D529E0ACE58D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B9DC457D308ED49"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0B482E436767B88C"
-				item: "enigmaticaddons:forgotten_ice"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -18.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
 			description: ["一些书本在放入后有特殊效果：启示之证：攻击附加3秒着火。倒转之启：+10%对BOSS和玩家的伤害。无止之言：+20%对BOSS和玩家的伤害，+10%生命汲取。"]
 			id: "5631EAD09D175222"
 			rewards: [{
@@ -9026,7 +8962,7 @@
 				item: "enigmaticaddons:antique_bag"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -19.0d
 			y: -16.5d
 		}
 		{
@@ -9066,7 +9002,7 @@
 				item: "enigmaticaddons:lost_engine"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: -16.5d
 		}
 		{
@@ -9106,23 +9042,6 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			id: "1997950AA0913979"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "56F95AD1D43B8DBB"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "13473CFCA59274A6"
-				item: "enigmaticaddons:sanguinary_handbook"
-				type: "item"
-			}]
-			x: 20.0d
-			y: -32.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
 			id: "07B7D33AFDF9A41F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9156,8 +9075,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: -19.5d
+			x: -19.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9173,7 +9092,7 @@
 				item: "enigmaticaddons:night_scroll"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 9.0d
 			y: -16.5d
 		}
 		{
@@ -9190,7 +9109,7 @@
 				item: "enigmaticaddons:thunder_scroll"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -15.0d
 		}
 		{
@@ -9207,7 +9126,7 @@
 				item: "enigmaticaddons:hell_blade_charm"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -15.0d
 		}
 		{
@@ -9378,25 +9297,8 @@
 				item: "moonstone:the_heart"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -15.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "391BFF34EC19436F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "51D75B26A629E3E3"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "3767545E938F55EE"
-				item: "confluence:sniper_scope"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -21.0d
+			x: 22.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9474,11 +9376,12 @@
 				item: "moonstone:nightmare_base_start_egg"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -18.0d
+			x: -0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["只有同时佩戴&d灵质幸运星&r时才会提供幸运。"]
 			id: "26DFCAD093D8D3AF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9491,7 +9394,7 @@
 				item: "moonstone:nightmare_base_stone_meet"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -15.0d
 		}
 		{
@@ -9514,9 +9417,8 @@
 		{
 			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				"经过初步计算，如果你在乘法乘区的近战加伤已超过800%，则佩戴九剑归一诀时，反而会因为其属性词条“-25%所有伤害”而降低玩家近战伤害。"
-				""
-				"&6部分看着像剑的不一定是剑，但是部分看着不像剑的却是剑。"
+				"可通过使用神圣宝石与猪灵交易获得，神圣宝石获取方式："
+				"{ \"text\": \"神圣宝石\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A27E9A0A5EA2649\" } }"
 			]
 			id: "2B6DFC41DF7106B0"
 			rewards: [{
@@ -9527,17 +9429,10 @@
 			}]
 			tasks: [{
 				id: "3C5B4CBFCD1EF7DD"
-				item: {
-					Count: 1
-					id: "moonstone:nine_sword_books"
-					tag: {
-						Damage: 0
-						small: 1
-					}
-				}
+				item: "moonstone:tumour"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: -19.5d
 		}
 		{
@@ -9559,6 +9454,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["该饰品可上诅咒附魔。"]
 			id: "0DCE15A02C0FFB11"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9577,12 +9473,12 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: ["同时佩戴七剑修罗万法和剑阵之章时，会+20%全伤害"]
+			description: ["同时佩戴七剑修罗万法和剑阵之章时，会+20%全伤害，同时不再会发射飞剑。"]
 			id: "4B8BACC78F23240F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9590,12 +9486,19 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "318FEBF71B3217F9"
-				item: "moonstone:million"
-				type: "item"
-			}]
-			x: -16.0d
+			tasks: [
+				{
+					id: "318FEBF71B3217F9"
+					item: "moonstone:million"
+					type: "item"
+				}
+				{
+					id: "4FB4F6950380162F"
+					item: "moonstone:as_amout"
+					type: "item"
+				}
+			]
+			x: -15.0d
 			y: -19.5d
 		}
 		{
@@ -9731,8 +9634,8 @@
 				item: "ancient_aether:strength_stone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -18.0d
+			x: 11.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9804,7 +9707,7 @@
 				item: "moonstone:rage_crystal_max"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 11.0d
 			y: -16.5d
 		}
 		{
@@ -9821,7 +9724,7 @@
 				item: "moonstone:belt"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -21.0d
 		}
 		{
@@ -9878,7 +9781,7 @@
 				}
 				type: "item"
 			}]
-			x: -20.0d
+			x: -16.0d
 			y: -19.5d
 		}
 		{
@@ -9892,11 +9795,11 @@
 			}]
 			tasks: [{
 				id: "442EA37DDDCDE2AB"
-				item: "moonstone:rage_charm"
+				item: "moonstone:cell_dna_suppression"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -18.0d
+			x: 14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9912,11 +9815,12 @@
 				item: "moonstone:rage_lock"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -16.0d
 			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["有着较严重的负面，不建议佩戴。"]
 			id: "4E84E957554284CA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9929,7 +9833,7 @@
 				item: "moonstone:nightmare_base_stone_virus"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -15.0d
 		}
 		{
@@ -9943,11 +9847,11 @@
 			}]
 			tasks: [{
 				id: "694575F831F13AC8"
-				item: "moonstone:nightmare_base_fool_bone"
+				item: "moonstone:cell_off_on"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -15.0d
+			x: 12.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9963,25 +9867,8 @@
 				item: "moonstone:nightmare_base_insight_drug"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -18.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "21C05547DB160988"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C29F7D8B7D5E3A1"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "088EF0250AFAB688"
-				item: "moonstone:nightmare_base_insight_insane"
-				type: "item"
-			}]
-			x: -15.0d
-			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9997,11 +9884,12 @@
 				item: "irons_spellbooks:lurker_ring"
 				type: "item"
 			}]
-			x: -17.0d
-			y: -19.5d
+			x: -18.0d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["提供独立近战乘区加成。"]
 			id: "1F787A493F3D2C7E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -10014,12 +9902,11 @@
 				item: "confluence:mechanical_glove"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -18.0d
+			x: 14.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: ["同时佩戴七剑修罗万法和剑阵之章时，会+20%全伤害。"]
 			id: "29B9DF87F1295048"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -10029,10 +9916,10 @@
 			}]
 			tasks: [{
 				id: "5FC020465CA627AF"
-				item: "moonstone:as_amout"
+				item: "moonstone:cell_synthesis"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 13.0d
 			y: -16.5d
 		}
 		{
@@ -10049,7 +9936,7 @@
 				item: "goety_revelation:blessing_scroll"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -13.0d
 			y: -22.5d
 		}
 		{
@@ -10406,8 +10293,8 @@
 				item: "moonstone:universe"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -22.5d
+			x: -20.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10440,25 +10327,8 @@
 				item: "eidolon:glass_hand"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -19.0d
 			y: -15.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "415C57F7838E312A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7054FE981A282977"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "55EA8141D8AC25D0"
-				item: "moonstone:batgene"
-				type: "item"
-			}]
-			x: -16.0d
-			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10481,7 +10351,7 @@
 				item: "meetyourfight:slicers_dice"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -14.0d
 			y: -18.0d
 		}
 		{
@@ -10522,7 +10392,7 @@
 				item: "meetyourfight:wilted_ideals"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -16.5d
 		}
 		{
@@ -10556,7 +10426,7 @@
 				item: "meetyourfight:spectres_eye"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 25.5d
 			y: -32.0d
 		}
 		{
@@ -10567,7 +10437,7 @@
 				item: "meetyourfight:spectres_grasp"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 26.5d
 			y: -32.0d
 		}
 		{
@@ -10584,7 +10454,7 @@
 				item: "meetyourfight:tomb_planter"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 27.5d
 			y: -32.0d
 		}
 		{
@@ -10673,8 +10543,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -18.0d
+			x: -2.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10690,8 +10560,8 @@
 				item: "moonstone:cell_putrefactive"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -18.0d
+			x: -3.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10707,8 +10577,8 @@
 				item: "goety:ring_of_want"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -16.5d
+			x: 18.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10861,7 +10731,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -6.0d
+			x: -6.5d
 			y: -8.5d
 		}
 		{
@@ -10893,7 +10763,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -5.0d
+			x: -5.5d
 			y: -8.5d
 		}
 		{
@@ -10925,7 +10795,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -4.0d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -10957,7 +10827,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -3.0d
+			x: -3.5d
 			y: -8.5d
 		}
 		{
@@ -11001,7 +10871,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -2.0d
+			x: -2.5d
 			y: -8.5d
 		}
 		{
@@ -11045,7 +10915,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -1.0d
+			x: -1.5d
 			y: -8.5d
 		}
 		{
@@ -11098,7 +10968,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: 0.0d
+			x: -0.5d
 			y: -8.5d
 		}
 		{
@@ -11115,8 +10985,8 @@
 				item: "celestial_artifacts:magic_horseshoe"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -19.5d
+			x: -5.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11143,8 +11013,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: -18.0d
+			x: -3.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11171,8 +11041,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -18.0d
+			x: -4.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11199,8 +11069,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -18.0d
+			x: -1.5d
+			y: -16.5d
 		}
 		{
 			dependencies: [
@@ -11241,7 +11111,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：千变魔盒"
-			x: -7.0d
+			x: -7.5d
 			y: -8.5d
 		}
 		{
@@ -11272,7 +11142,7 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：千变魔盒"
-			x: 1.0d
+			x: 0.5d
 			y: -8.5d
 		}
 		{
@@ -11376,7 +11246,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
+			x: -17.0d
 			y: -22.5d
 		}
 		{
@@ -11444,6 +11314,170 @@
 			title: "&5增加一个饰品栏位：眼饰"
 			x: -7.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["绿宝石三件套同时佩戴时可额外增加10点幸运。"]
+			id: "0C0D4CC998CEBE8E"
+			rewards: [{
+				id: "0D23A340928E199C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [
+				{
+					id: "481DCD0A9AD7850C"
+					item: "celestial_artifacts:emerald_bracelet"
+					type: "item"
+				}
+				{
+					id: "397B53CF67A97D26"
+					item: "celestial_artifacts:emerald_ring"
+					type: "item"
+				}
+				{
+					id: "1FB39748F3184125"
+					item: "celestial_artifacts:emerald_necklace"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["加幸运，那便是幸运饰品（"]
+			id: "0F81C934CBBD8541"
+			rewards: [{
+				id: "5C5227200D1E533C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "511A6C8E9964A3E3"
+				item: "confluence:stalkers_quiver"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["加幸运，那便是幸运饰品（"]
+			id: "59BED7347B8ADCFC"
+			rewards: [{
+				id: "2C3F9EB5DF24BCE4"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2482DD6442E9824A"
+				item: "confluence:recon_scope"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["佩带后限定时间内击杀足够多的生物，即可看到属性增益。"]
+			id: "3FE622F7CC60B588"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F247921066A954A"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7233C9E0FAA1C508"
+				item: {
+					Count: 1
+					id: "moonstone:plagues"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "3AB210E8E3D164D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D8E537407B67CD0"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39A5C2CC0FD2F425"
+				item: "confluence:recon_scope"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "230925D3A8C82CB3"
+			rewards: [{
+				id: "0FB5BCC0CCDC8F4B"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "53C3DA6B38E61E8B"
+				item: "celestial_artifacts:heart_of_revenge"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "564CA17BD0344CDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34417CC5D25A9DC7"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "574345E2C012A1AD"
+				item: "confluence:sniper_scope"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -18.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"在天顶巨兽章节完成特定Boss任务会奖励“伪·元始珍珠”。"
+				""
+				"&c元始珍珠数量有限，除非你知道兑换物品的后果，否则不建议兑换。&r"
+				""
+				"&c元始珍珠数量有限，除非你知道兑换物品的后果，否则不建议兑换。&r"
+				""
+				"&c元始珍珠数量有限，除非你知道兑换物品的后果，否则不建议兑换。&r"
+			]
+			id: "399478C278AE8D3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "635628598EE4C51C"
+				table_id: 2805430797220875844L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B1FA9B6E69292E2"
+				item: "yuusha:primordial_pearl"
+				type: "item"
+			}]
+			title: "转转回收分部"
+			x: 1.5d
+			y: -8.5d
 		}
 	]
 	subtitle: ["&9『饰品』"]

@@ -175,27 +175,7 @@
 				type: "random"
 			}]
 			tasks: [{
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: {
-								"minecraft:base": {
-									element: "normal"
-									style: "hit"
-								}
-								"minecraft:enchantment": {
-									element: "normal"
-									style: "hit"
-								}
-							}
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "youkaishomecoming:donation_box"
-				}
+				icon: "youkaishomecoming:donation_box"
 				id: "22DC05F4AE9F79C9"
 				observe_type: 0
 				timer: 0L
@@ -544,34 +524,12 @@
 				""
 				"&c不要对女仆世界线的特殊猎人腰带进行此操作，会让其数值打回原形。"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "relics:relic_experience_bottle"
-			}
+			icon: "relics:relic_experience_bottle"
 			id: "7651684F53F69575"
 			rewards: [{
 				command: "/relics maximize"
 				elevate_perms: true
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "relics:relic_experience_bottle"
-				}
+				icon: "relics:relic_experience_bottle"
 				id: "1DEA3FA50ABBE71D"
 				team_reward: false
 				title: "将主手的遗物饰品变为满星级"
@@ -606,34 +564,12 @@
 				""
 				"&c不要对女仆世界线的特殊猎人腰带进行此操作，会让其数值打回原形。"
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "relics:relic_experience_bottle"
-			}
+			icon: "relics:relic_experience_bottle"
 			id: "5F76D41C285785E1"
 			rewards: [{
 				command: "/relics maximize"
 				elevate_perms: true
-				icon: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "relics:relic_experience_bottle"
-				}
+				icon: "relics:relic_experience_bottle"
 				id: "5EDFC9B25FF24DC0"
 				team_reward: false
 				title: "将主手的遗物饰品变为满星级"

@@ -735,6 +735,8 @@
 				"&6只有铁匠、制箭、工具、发明悬赏会有几率出[锻造模板：应用物品修饰]。"
 				""
 				"&e可制作缚灵附魔书。"
+				""
+				"&e可与永恒陨星一起在锻造台内将绝大部分有耐久的物品升级为永恒，即不会将物品耐久归零。"
 			]
 			id: "296E25D3A2AA8B7D"
 			rewards: [{
@@ -829,7 +831,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "需注意有两页任务（第二页可鼠标滚轮查看）"
+			subtitle: "需注意有两页任务（可鼠标滚轮上下查看）"
 			tasks: [{
 				id: "24EB10248D3439FD"
 				item: "bountiful:bountyboard"
@@ -841,7 +843,7 @@
 		{
 			dependencies: ["4BA58FB23CD68C98"]
 			description: [
-				"只能通过悬赏板获得。"
+				"前期只能通过悬赏板获得，后续可通过击杀BOSS获取。"
 				""
 				"&6只有渔民、屠夫、绘图、皮革悬赏会有几率出[余烬之心]。"
 				""
@@ -1881,7 +1883,7 @@
 				{
 					count: 2L
 					id: "0F25EEAC66EFDEA8"
-					item: { Count: 2, id: "aetherworks:prism_support" }
+					item: "aetherworks:prism_support"
 					type: "item"
 				}
 				{
@@ -1896,19 +1898,19 @@
 				{
 					count: 12L
 					id: "195119526B7CDD9D"
-					item: { Count: 12, id: "embers:archaic_bricks" }
+					item: "embers:archaic_bricks"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "3956427C912330EB"
-					item: { Count: 8, id: "embers:archaic_edge" }
+					item: "embers:archaic_edge"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "7BF8450B015F5A26"
-					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					item: "aetherworks:moonlight_amplifier"
 					type: "item"
 				}
 			]
@@ -3565,7 +3567,7 @@
 				consume_items: true
 				count: 6L
 				id: "5C1432ED79BD6077"
-				item: { Count: 6, id: "minecraft:beehive" }
+				item: "minecraft:beehive"
 				type: "item"
 			}]
 			title: "兑换 一次性«樱花蜂房»胶囊"
@@ -3625,7 +3627,7 @@
 				consume_items: true
 				count: 361L
 				id: "704637CFD53DAF35"
-				item: { Count: 361, id: "minecraft:obsidian" }
+				item: "minecraft:obsidian"
 				type: "item"
 			}]
 			title: "兑换 一次性«刷怪笼平台»胶囊"
@@ -3747,7 +3749,7 @@
 					consume_items: true
 					count: 2L
 					id: "509E2B4E696AF5D9"
-					item: { Count: 2, id: "aetherworks:prism_support" }
+					item: "aetherworks:prism_support"
 					type: "item"
 				}
 				{
@@ -3764,28 +3766,28 @@
 					consume_items: true
 					count: 12L
 					id: "4A26377237855DC6"
-					item: { Count: 12, id: "embers:archaic_bricks" }
+					item: "embers:archaic_bricks"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
 					id: "421219B1E6DBAC2A"
-					item: { Count: 8, id: "embers:archaic_edge" }
+					item: "embers:archaic_edge"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "1082BBBE7188EC70"
-					item: { Count: 4, id: "aetherworks:moonlight_amplifier" }
+					item: "aetherworks:moonlight_amplifier"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "4BAE85E38FA96E05"
-					item: { Count: 4, id: "aetherworks:aether_prism_controller_matrix" }
+					item: "aetherworks:aether_prism_controller_matrix"
 					type: "item"
 				}
 			]
@@ -3913,7 +3915,7 @@
 				consume_items: true
 				count: 72L
 				id: "44B006D9A0F02B36"
-				item: { Count: 128, id: "minecraft:white_wool" }
+				item: "minecraft:white_wool"
 				type: "item"
 			}]
 			title: "兑换 一次性«萌兔小屋»胶囊"
@@ -3969,7 +3971,7 @@
 				consume_items: true
 				count: 64L
 				id: "301B2E8D180A9592"
-				item: { Count: 64, id: "minecraft:oak_planks" }
+				item: "minecraft:oak_planks"
 				type: "item"
 			}]
 			title: "兑换 一次性«水上小屋»胶囊"
@@ -4141,7 +4143,7 @@
 					consume_items: true
 					count: 15L
 					id: "582DCE63B24215EA"
-					item: { Count: 15, id: "minecraft:bookshelf" }
+					item: "minecraft:bookshelf"
 					type: "item"
 				}
 			]
@@ -4198,14 +4200,14 @@
 					consume_items: true
 					count: 2L
 					id: "10A5C6FDEB6388EE"
-					item: { Count: 2, id: "minecraft:blast_furnace" }
+					item: "minecraft:blast_furnace"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 2L
 					id: "3D757B5E78D837BE"
-					item: { Count: 2, id: "minecraft:furnace" }
+					item: "minecraft:furnace"
 					type: "item"
 				}
 			]

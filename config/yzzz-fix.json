@@ -30,7 +30,6 @@
   "moonstone_fix": true,
   "slashbladeresharped_fix": true,
   "magnet_fix": true,
-  "enigmaticaddons_fix": true,
   "farmingforblockheads_fix": true,
   "cthulhufishing_fix": true,
   "elementalcombat_jade_fix": true,
@@ -44,5 +43,6 @@
   "ancient_ones_fix": true,
   "majruszsdifficulty_fix": true,
   "sunspirit_fix": true,
-  "crockpot_fix": true
+  "crockpot_fix": true,
+  "gateways_fix": true
 }

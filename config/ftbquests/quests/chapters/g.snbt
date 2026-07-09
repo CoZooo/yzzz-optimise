@@ -55,7 +55,7 @@
 		{
 			alpha: 128
 			color: 0
-			height: 23.5d
+			height: 24.0d
 			image: ""
 			order: -2
 			rotation: 0.0d
@@ -517,7 +517,7 @@
 				consume_items: true
 				count: 64L
 				id: "09A6EA61BEE19D76"
-				item: { Count: 64, id: "yuusha:grief_seed" }
+				item: "yuusha:grief_seed"
 				type: "item"
 			}]
 			title: "&e食物营养"
@@ -799,18 +799,7 @@
 				"&3额外四：噩梦系列的饰品可以不穿戴噩梦基座就能生效效果，但是深渊系列的饰品在不穿戴深渊之眼时不会生效。"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "moonstone:nightmare_base"
-			}
+			icon: "moonstone:nightmare_base"
 			id: "3A763177F7655FE6"
 			rewards: [{
 				id: "7A948630F3EFAD95"
@@ -853,18 +842,7 @@
 				"&e进度查看：按Ctrl+L键可查看具体进度所需的条件，比如部分进食菜肴的成就，可以通过此查看所需菜肴。"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "youkaishomecoming:wild_udumbara"
-			}
+			icon: "youkaishomecoming:wild_udumbara"
 			id: "726A05657769A4E6"
 			rewards: [{
 				id: "78499A144E2B74DC"
@@ -3140,27 +3118,7 @@
 					auto: "enabled"
 					command: "/kill @e[type=moonstone:as_sword]"
 					elevate_perms: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "moonstone:sword"
-					}
+					icon: "moonstone:sword"
 					id: "0E9187FFF4AEFD76"
 					title: "扫除飞剑投射物（自动领取）"
 					type: "command"
@@ -3169,27 +3127,7 @@
 					auto: "enabled"
 					command: "/kill @e[type=moonstone:flysword]"
 					elevate_perms: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "moonstone:at_sword"
-					}
+					icon: "moonstone:at_sword"
 					id: "272E59DC91A896FA"
 					title: "扫除飞剑投射物（自动领取）"
 					type: "command"
@@ -3200,14 +3138,6 @@
 					elevate_perms: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
 						id: "malum:crude_scythe"
 						tag: {
 							Damage: 0
@@ -3549,18 +3479,7 @@
 					auto: "enabled"
 					command: "/kill @e[type=faded_conquest_2:poisonspikea]"
 					elevate_perms: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "touhou_little_maid:kill_100"
-					}
+					icon: "touhou_little_maid:kill_100"
 					id: "793AB8511707B2A1"
 					title: "扫除异端堕落先知尖刺（自动领取）"
 					type: "command"
@@ -3569,18 +3488,7 @@
 					auto: "enabled"
 					command: "/kill @e[type=faded_conquest_2:poison_spike_b]"
 					elevate_perms: true
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "touhou_little_maid:kill_100"
-					}
+					icon: "touhou_little_maid:kill_100"
 					id: "04A1C548E980F9DE"
 					title: "扫除异端堕落先知尖刺陷阱（自动领取）"
 					type: "command"

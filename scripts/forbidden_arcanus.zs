@@ -72,7 +72,6 @@ import mods.jeitweaker.Jei;
 <item:forbidden_arcanus:deorum_ingot>.addTooltip("\u00A7c可制作金兰花种子以复制矿物");
 <item:forbidden_arcanus:deorum_ingot>.addTooltip("\u00A76详见咒法章节任务");
 <item:forbidden_arcanus:bat_wing>.addTooltip("\u00A7c击杀蝙蝠可获得，手持血蝠翼右击灵魂营火，可召唤蝙蝠");
-<item:forbidden_arcanus:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
 <item:forbidden_arcanus:test_tube>.anyDamage().addTooltip("\u00A7e有可能会获得远超于试管血液容量的血液量");
 <item:forbidden_arcanus:test_tube>.anyDamage().addTooltip("\u00A76试管需放在物品栏内而不是副手");
 <item:forbidden_arcanus:test_tube>.anyDamage().addTooltip("\u00A7c如果血液量过高，放入赫菲斯托斯锻炉可能会导致变为负值");

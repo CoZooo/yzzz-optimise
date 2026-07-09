@@ -412,7 +412,7 @@ import mods.jeitweaker.Jei;
 <item:goety:wind_blast_focus>.addTooltip("\u00A76右击立刻施法，冷却时间2秒，需放入魔杖施法");
 <item:goety:wind_blast_focus>.addTooltip("\u00A7e开启袭击宝藏袋有几率获得");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A72· 15 基础伤害/发");
-<item:goety:arrow_rain_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导1秒后持续施法，冷却时间1秒，需放入魔杖施法");
+<item:goety:arrow_rain_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导2秒后持续施法，冷却时间2秒，需放入魔杖施法");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A7c该聚晶伤害可享受箭术和投射物伤害加成，不享受魔能加成");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A7e同时穿戴熔火箭袋会导致该聚晶无法造成伤害");
 <item:goety:arrow_rain_focus>.addTooltip("\u00A75该聚晶可享受“击中目标造成星裂效果”神化词条");

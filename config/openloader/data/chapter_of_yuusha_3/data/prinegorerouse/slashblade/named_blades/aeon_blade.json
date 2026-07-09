@@ -1,10 +1,33 @@
 {
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 100
+    },
+    {
+      "id": "enigmaticlegacy:slayer",
+      "lvl": 100
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 20
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 20
+    },
+    {
+      "id": "majruszsenchantments:death_wish",
+      "lvl": 1
+    }
+  ],
   "name": "prinegorerouse:aeon_blade",
   "properties": {
-    "attack_base": 1000.0,
-    "slash_art": "prinegorerouse:over_the_horizon",
+    "attack_base": 10000.0,
+    "slash_art": "shizuku:teleport_slash",
     "special_effects": [
-      "prinegorerouse:eternity"
+      "cialloblade:ciallo",
+	  "slashblade_addon:burst_drive"
     ],
     "sword_type": [
       "bewitched"

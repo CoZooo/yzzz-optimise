@@ -86,7 +86,10 @@
 		{
 			"entities": [
                 {
-                    "entity": "cataclysm:ancient_remnant"
+                    "entity": "cataclysm:ancient_remnant",
+					"nbt": {
+						"has_necklace": 1
+					}
                 }
 			],
 			"modifiers": [

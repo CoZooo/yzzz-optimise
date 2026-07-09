@@ -927,13 +927,13 @@
 				{
 					count: 25L
 					id: "4381D52D49DA3A64"
-					item: { Count: 25, id: "distant_worlds:meshed_lithum" }
+					item: "distant_worlds:meshed_lithum"
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "2398B2E1BBFCB310"
-					item: { Count: 5, id: "distant_worlds:lithum_frame" }
+					item: "distant_worlds:lithum_frame"
 					type: "item"
 				}
 				{
@@ -951,25 +951,25 @@
 				{
 					count: 8L
 					id: "678A8CF82F25EAF7"
-					item: { Count: 8, id: "distant_worlds:lithum_pedestal" }
+					item: "distant_worlds:lithum_pedestal"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "16321CC9B759281A"
-					item: { Count: 4, id: "distant_worlds:lithum_storage_initial" }
+					item: "distant_worlds:lithum_storage_initial"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "5DDE82BF81CD1C07"
-					item: { Count: 4, id: "distant_worlds:lithum_transmitter" }
+					item: "distant_worlds:lithum_transmitter"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "40D57B37A5E6D4C1"
-					item: { Count: 8, id: "distant_worlds:layered_mud" }
+					item: "distant_worlds:layered_mud"
 					type: "item"
 				}
 			]
@@ -1742,14 +1742,14 @@
 					consume_items: true
 					count: 25L
 					id: "0E1FE10883FF5D1F"
-					item: { Count: 25, id: "distant_worlds:meshed_lithum" }
+					item: "distant_worlds:meshed_lithum"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 5L
 					id: "76CE82CAE7B83865"
-					item: { Count: 5, id: "distant_worlds:lithum_frame" }
+					item: "distant_worlds:lithum_frame"
 					type: "item"
 				}
 				{
@@ -1770,35 +1770,35 @@
 					consume_items: true
 					count: 8L
 					id: "140F333084EBDE17"
-					item: { Count: 8, id: "distant_worlds:lithum_pedestal" }
+					item: "distant_worlds:lithum_pedestal"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "36715B8AB4B0F568"
-					item: { Count: 4, id: "distant_worlds:lithum_storage_initial" }
+					item: "distant_worlds:lithum_storage_initial"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 4L
 					id: "0DC1343B3E75C82D"
-					item: { Count: 4, id: "distant_worlds:lithum_transmitter" }
+					item: "distant_worlds:lithum_transmitter"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
 					id: "29179D9372784B9E"
-					item: { Count: 8, id: "distant_worlds:layered_mud" }
+					item: "distant_worlds:layered_mud"
 					type: "item"
 				}
 				{
 					consume_items: true
 					count: 8L
 					id: "1130C0D76DE5BA9E"
-					item: { Count: 8, id: "wizards_reborn:arcanum_dust" }
+					item: "wizards_reborn:arcanum_dust"
 					type: "item"
 				}
 			]

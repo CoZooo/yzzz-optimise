@@ -66,7 +66,6 @@ Jei.hideIngredient(<item:moonstone:end_bone>);
 <item:moonstone:batgene>.anyDamage().addTooltip("\u00A76可通过制作获得");
 <item:moonstone:batgene>.anyDamage().addTooltip("\u00A7e该饰品自身属性所增加的为全伤害加成");
 <item:moonstone:batgene>.anyDamage().addTooltip("\u00A7c玩家的全伤害会先降低至90%，再在此基础上进行加成");
-<item:moonstone:batgene>.anyDamage().addTooltip("\u00A73现在蝙蝠在所有加载区块内最多只存在16只");
 
 //
 <tag:items:curios:curio>.remove(<item:moonstone:gorillacake>);
@@ -629,11 +628,12 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:nightmare_cube>.anyDamage().addTooltip("\u00A7c只能通过击杀远古渊兽领主几率获得");
 <item:moonstone:nightmare_heart>.anyDamage().addTooltip("\u00A7c只能通过击杀远古渊兽领主几率获得");
 
-<item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A7c只能通过击杀渊兽领主几率获得");
+<item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A76击杀渊兽领主有几率获得");
 <item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
-<item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7c只能通过击杀远古渊兽领主几率获得");
+<item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A76击杀远古渊兽领主有几率获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
-<item:moonstone:nightmaremoai>.anyDamage().addTooltip("\u00A7c可以通过击杀渊兽领主几率获得");
+<item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7c需注意佩戴后所有负面效果时长为无限而非延长");
+<item:moonstone:nightmaremoai>.anyDamage().addTooltip("\u00A76击杀渊兽领主有几率获得");
 <item:moonstone:nightmaremoai>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 
 <item:moonstone:magiceye>.anyDamage().addTooltip("\u00A7e击杀先驱者、异界电锯战姬、异界机械巨蛇有几率获得");

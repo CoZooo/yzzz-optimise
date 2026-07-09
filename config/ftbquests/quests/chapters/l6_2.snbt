@@ -164,7 +164,7 @@
 				item: "locusazzurro_icaruswings:zephir_essence"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 9.0d
 		}
 		{
@@ -182,7 +182,7 @@
 				item: "locusazzurro_icaruswings:philosopher_stone"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 10.0d
 		}
 		{
@@ -207,7 +207,7 @@
 				item: "minecraft:phantom_membrane"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
@@ -384,7 +384,7 @@
 				item: "locusazzurro_icaruswings:anemone"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 10.0d
 		}
 		{
@@ -449,7 +449,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -607,7 +607,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 10.0d
 		}
 		{
@@ -688,7 +688,7 @@
 				item: "reliquary:slime_pearl"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 9.0d
 		}
 		{
@@ -923,7 +923,7 @@
 				item: "aquamirae:ship_graveyard_echo"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 10.0d
 		}
 		{
@@ -995,7 +995,7 @@
 				item: "buzzier_bees:four_leaf_clover"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 9.0d
 		}
 		{
@@ -1148,7 +1148,7 @@
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 10.0d
 		}
 		{
@@ -1223,7 +1223,7 @@
 				item: "illagerinvasion:illusionary_dust"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 10.0d
 		}
 		{
@@ -1249,7 +1249,7 @@
 				item: "illagerinvasion:unusual_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 10.0d
 		}
 		{
@@ -1293,7 +1293,7 @@
 				item: "minecraft:scute"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 9.0d
 		}
 		{
@@ -1434,7 +1434,7 @@
 				item: "born_in_chaos_v1:dark_metal_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 9.0d
 		}
 		{
@@ -1528,7 +1528,7 @@
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
@@ -1600,7 +1600,7 @@
 				item: "born_in_chaos_v1:fire_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 9.0d
 		}
 		{
@@ -1622,7 +1622,7 @@
 				item: "forbidden_arcanus:nipa"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 9.0d
 		}
 		{
@@ -1724,7 +1724,7 @@
 				item: "buzzier_bees:buttercup"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
@@ -2367,8 +2367,8 @@
 				item: "sons_of_sins:ether_ashes"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 10.0d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["151E2F186E5DF4E1"]
@@ -2451,6 +2451,30 @@
 			}]
 			x: -2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["151E2F186E5DF4E1"]
+			description: [
+				"由奇异之尘与虚幻之尘合成获得。"
+				""
+				"&c推荐制作灾厄袭击传送门以获取上述两种材料。&r"
+				""
+				"&e制作灾厄袭击传送门的材料可前往Labyrinth结构获取；同时该结构战利品箱内必定生成魔力之眼。&r"
+			]
+			id: "2A27E9A0A5EA2649"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "699D9DFB149A3C00"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "090A94482CF2331D"
+				item: "illagerinvasion:hallowed_gem"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
 		}
 	]
 	subtitle: ["&9『主世界』"]

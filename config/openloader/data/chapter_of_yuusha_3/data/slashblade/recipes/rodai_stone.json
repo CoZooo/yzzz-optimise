@@ -5,12 +5,7 @@
   "key": {
     "B": {
       "type": "slashblade:blade",
-      "item": "slashblade:slashblade",
-      "request": {
-        "sword_type": [
-          "sealed"
-        ]
-      }
+      "item": "slashblade:slashblade_white"
     },
     "P": {
       "item": "slashblade:proudsoul"

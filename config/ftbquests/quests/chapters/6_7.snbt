@@ -344,7 +344,11 @@
 		}
 		{
 			dependencies: ["6577BA563E6EF855"]
-			description: ["玩家每拥有 n 点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"]
+			description: [
+				"玩家每拥有 n 点破空之势，会提供（n/2）倍的箭矢加伤。该加伤不会显示在玩家的属性面板内。"
+				""
+				"据说破空之势属性的增伤与力量附魔相加。"
+			]
 			id: "1E1FEB3B54AEE4F3"
 			rewards: [{
 				id: "7F4A21F91461925C"
@@ -620,7 +624,11 @@
 		}
 		{
 			dependencies: ["6577BA563E6EF855"]
-			description: ["还可获得：绿宝石贤者之弓（可悬赏，可开箱）、猎手之弓（可制作）。"]
+			description: [
+				"还可获得：绿宝石贤者之弓（可悬赏，可开箱）、猎手之弓（可制作）。"
+				""
+				"可享受&c骷髅突变体头颅&r的散射增强。"
+			]
 			id: "7721B659F55DD983"
 			rewards: [{
 				id: "0477FDE102C018F0"
@@ -934,6 +942,255 @@
 			}]
 			x: -5.0d
 			y: -6.5d
+		}
+		{
+			dependencies: ["0EDC861ECB6F7C72"]
+			description: [
+				"推荐使用的地牢弓，可通过合成获取。"
+				""
+				"&e可给予目标化魂状态，以收割精魂，及获得等同于粗制镰刀击杀的特殊掉落物。"
+			]
+			id: "55937D7C18DE9662"
+			rewards: [{
+				id: "556465D70D6ECBA2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D4D9A7FE0FDD45E"
+				item: {
+					Count: 1
+					id: "too_many_bows:verdant_viper"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45EBFDDFBE5BB20E"]
+			description: [
+				"推荐使用的地牢弓，可通过探索结构获取。也可通过合成获取。"
+				""
+				"可享受&c骷髅突变体头颅&r的散射增强。"
+			]
+			id: "528E6E3A90649FDD"
+			rewards: [{
+				id: "6BF5939B0E3D1495"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5950966DA8B7F242"
+				item: {
+					Count: 1
+					id: "too_many_bows:aethers_call"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4FF2B21BA64B9D58"]
+			description: ["推荐使用的地牢弓，可通过探索结构获取。也可通过合成获取。"]
+			id: "01EB97EF97E5DD78"
+			rewards: [{
+				id: "09B63EC5C16CF617"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A32F70983EEB8D9"
+				item: {
+					Count: 1
+					id: "too_many_bows:burnt_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72581A4833C8E5CF"]
+			description: ["推荐使用的地牢弓，可通过探索结构获取。也可通过合成获取。"]
+			id: "08E8FDB674CC24E2"
+			rewards: [{
+				id: "4C0F83F8C443CD00"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2693D99524057C73"
+				item: {
+					Count: 1
+					id: "too_many_bows:arc_heavens"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30110F82734B1943"]
+			description: [
+				"缺点：无法享受特殊箭矢增伤、无法享受特殊机制&c矢量突破&r破无敌、无法享受力量附魔增伤。"
+				""
+				"优点：极高的基础伤害、除了力量附魔以外的增益全都生效。"
+			]
+			id: "41B2AA1772B5055B"
+			rewards: [{
+				id: "31615478422044EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D836D457CF75117"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EEDCAF216A0E5DA"]
+			description: ["推荐使用的地牢弓，可通过探索结构获取。也可通过合成获取。"]
+			id: "2BCC2E88925252FC"
+			rewards: [{
+				id: "2877273CFFA9E1E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "14090FD694B98720"
+				item: {
+					Count: 1
+					id: "too_many_bows:webstring"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B7AFB543EF748CA"]
+			description: ["通过合成获取。搭配某些药水有奇效。"]
+			id: "4C09C0D903BEA7E9"
+			rewards: [{
+				id: "3C559354720ECD5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "719367A71C1E95BA"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45EBFDDFBE5BB20E"]
+			description: [
+				"推荐使用的地牢弓，可通过探索结构获取。也可通过合成获取。"
+				""
+				"可享受&c骷髅突变体头颅&r的散射增强。"
+			]
+			id: "0D1052610D4CB8C7"
+			rewards: [{
+				id: "22BCA670386E3D9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0BAD074F45708BEE"
+				item: {
+					Count: 1
+					id: "too_many_bows:demons_grasp"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72581A4833C8E5CF"]
+			description: [
+				"推荐使用的地牢弓，可通过合成获取。"
+				""
+				"拥有同阶段弓种中最高的会心增益。"
+			]
+			id: "2EB4DFE22EE2CA41"
+			rewards: [{
+				id: "09A258A98A2ABBCB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2952D3DDFF336E36"
+				item: {
+					Count: 1
+					id: "too_many_bows:tidal_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: -0.5d
 		}
 	]
 	subtitle: [

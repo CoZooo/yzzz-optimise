@@ -184,7 +184,7 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: 0.0 ~ 1024.0
 		entityReach = 0.1
 		#Range: -10000 ~ 10000
-		aggro = 10
+		aggro = 15
 
 	[Attributes."Celestial Stone"]
 		#Range: 0.0 ~ 10.0
@@ -328,7 +328,7 @@ rareCreatures = ["minecraft:panda", "minecraft:skeleton_horse", "minecraft:allay
 		#Range: 0.0 ~ 1.0
 		criticalChance = 0.05
 		#Range: -10000 ~ 10000
-		aggro = 10
+		aggro = 5
 
 	[Attributes."Ranger Emblem"]
 		#Range: 0.0 ~ 10.0

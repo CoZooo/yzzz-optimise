@@ -163,10 +163,10 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:aether:neptune_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health> , "attribute.neptune_chestplate.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:aether:neptune_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health> , "attribute.neptune_leggings.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
 <item:aether:neptune_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health> , "attribute.neptune_boots.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:aether:neptune_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_helmet.2", 65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:aether:neptune_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_chestplate.2", 65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:aether:neptune_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_leggings.2", 65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:aether:neptune_boots>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_boots.2", 65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+<item:aether:neptune_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_helmet.2", 50, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:aether:neptune_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_chestplate.2", 50, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:aether:neptune_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_leggings.2", 50, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:aether:neptune_boots>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.neptune_boots.2", 50, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 
 //海琍斯特
 <item:distant_worlds:helyst_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health> , "attribute.helyst_helmet.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
@@ -278,9 +278,9 @@ craftingTable.addShapeless("shieldexp.wooden_shield.unbreakable", <item:shieldex
 <item:malum:mnemonic_hex_staff>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.mnemonic_hex_staff.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 
 //法师盾牌
-<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.azure_sea_shield.1", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:offhand>]);
-<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:spell_power> , "attribute.azure_sea_shield.2", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:offhand>]);
-<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.azure_sea_shield.3", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:offhand>]);
+<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.azure_sea_shield.1", 0.3, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:offhand>]);
+<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:spell_power> , "attribute.azure_sea_shield.2", 0.50, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:offhand>]);
+<item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration> , "attribute.azure_sea_shield.3", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:offhand>]);
 <item:cataclysm:azure_sea_shield>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor> , "attribute.azure_sea_shield.4", 40.0, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:offhand>]);
 
 //近战武器加伤

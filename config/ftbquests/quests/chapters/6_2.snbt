@@ -62,7 +62,7 @@
 				{
 					count: 10L
 					id: "3864C8FE89976A1B"
-					item: { Count: 10, id: "minecraft:glowstone" }
+					item: "minecraft:glowstone"
 					type: "item"
 				}
 				{

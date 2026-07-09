@@ -244,7 +244,7 @@
 		}
 	},
 	"luck+0.25": {
-		"title": "+1 幸运",
+		"title": "+0.5 幸运",
 		"icon": {
 			"type": "effect",
 			"data": {
@@ -256,7 +256,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "generic.luck",
-					"value": 1.0,
+					"value": 0.5,
 					"operation": "addition"
 				}
 			}

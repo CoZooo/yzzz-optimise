@@ -978,13 +978,13 @@
 		arrowRainTime = 100
 		#Arrow Rain Spell Cooldown, Default: 400
 		#Range: 0 ~ 72000
-		arrowRainCoolDown = 20
+		arrowRainCoolDown = 40
 		#How much extra damage the arrows deals, Default: 0.0
 		#Range: 0.0 ~ 1.7976931348623157E308
 		arrowRainDamage = 15.0
 		#How many ticks the Arrow Rain Spell much charge before casting, Default: 20
 		#Range: > 0
-		arrowRainChargeUp = 20
+		arrowRainChargeUp = 40
 
 	[Spells."Thunderbolt Spell"]
 		#How much base damage Thunderbolts deals, Default: 5.0

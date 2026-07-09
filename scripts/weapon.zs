@@ -169,7 +169,9 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:embers:tyrfing>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.tyrfing.1", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:embers:tyrfing>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.tyrfing.2", 96, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:embers:tyrfing>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:mana_regen> , "attribute.tyrfing.3", -1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:embers:tyrfing>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.tyrfing.4", -0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:embers:tyrfing>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.tyrfing.4", -0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
+
+<item:aquamirae:fin_cutter>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.fin_cutter", -0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:aquamirae:whisper_of_the_abyss>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.whisper_of_the_abyss", -0.8, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:goety:fell_blade>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_speed> , "attribute.fell_blade", -1.4, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 

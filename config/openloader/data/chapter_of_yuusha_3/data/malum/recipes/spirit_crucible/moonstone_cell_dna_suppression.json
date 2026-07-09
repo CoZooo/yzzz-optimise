@@ -3,7 +3,7 @@
   "time": 200,
   "durabilityCost": 0,
   "input": {
-    "item": "yuusha:sirenhead_pearl"
+    "item": "moonstone:nightmare_base_stone_virus"
   },
   "output": {
     "item": "moonstone:cell_dna_suppression",

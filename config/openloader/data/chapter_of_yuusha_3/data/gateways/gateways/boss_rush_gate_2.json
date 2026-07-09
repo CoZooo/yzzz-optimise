@@ -8,7 +8,10 @@
 			"entities": [
 				{
 					"entity": "cataclysm:the_harbinger",
-					"count": 1
+					"count": 1,
+					"nbt": {
+						"Is_Act": 1
+					}
 				}
 			],
 			"modifiers": [

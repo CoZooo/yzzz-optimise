@@ -5,13 +5,10 @@
   "key": {
     "B": {
       "type": "slashblade:blade",
-      "item": "slashblade:slashblade",
+      "item": "slashblade:slashblade_white",
       "request": {
         "kill": 100,
-        "refine": 1,
-        "sword_type": [
-          "sealed"
-        ]
+        "refine": 1
       }
     },
     "D": {

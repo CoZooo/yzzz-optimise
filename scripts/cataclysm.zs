@@ -286,10 +286,11 @@ craftingTable.addShapeless("cataclysm.enderite_block", <item:cataclysm:enderite_
 craftingTable.addShapeless("cataclysm.enderite_ingot", <item:cataclysm:enderite_ingot>*9, [<item:cataclysm:enderite_block>]);
 
 //虚空肩炮
-craftingTable.addShaped("cataclysm.void_assault_shoulder_weapon", <item:cataclysm:void_assault_shoulder_weapon>, [[<item:celestial_artifacts:the_end_dust>, <item:embers:lead_ingot>, <item:minecraft:air>], [<item:embers:lead_ingot>, <item:minecraft:lapis_block>, <item:born_in_chaos_v1:dark_metal_ingot>], [<item:minecraft:air>, <item:born_in_chaos_v1:dark_metal_ingot>, <item:rustic_engineer:solarite_ingot>]]);
+craftingTable.addShaped("cataclysm.void_assault_shoulder_weapon", <item:cataclysm:void_assault_shoulder_weapon>, [[<item:born_in_chaos_v1:phantom_powder>, <item:embers:lead_ingot>, <item:minecraft:air>], [<item:embers:lead_ingot>, <item:minecraft:lapis_block>, <item:born_in_chaos_v1:dark_metal_ingot>], [<item:minecraft:air>, <item:born_in_chaos_v1:dark_metal_ingot>, <item:rustic_engineer:solarite_ingot>]]);
 
 //凋灵突击肩炮
-craftingTable.addShaped("cataclysm.wither_assault_shoulder_weapon", <item:cataclysm:wither_assault_shoulder_weapon>, [[<item:celestial_artifacts:the_end_dust>, <item:embers:lead_ingot>, <item:minecraft:air>], [<item:embers:lead_ingot>, <item:minecraft:redstone_block>, <item:born_in_chaos_v1:dark_metal_ingot>], [<item:minecraft:air>, <item:born_in_chaos_v1:dark_metal_ingot>, <item:rustic_engineer:solarite_ingot>]]);
+craftingTable.remove(<item:cataclysm:wither_assault_shoulder_weapon>);
+craftingTable.addShaped("cataclysm.wither_assault_shoulder_weapon", <item:cataclysm:wither_assault_shoulder_weapon>, [[<item:born_in_chaos_v1:fire_dust>, <item:embers:lead_ingot>, <item:minecraft:air>], [<item:embers:lead_ingot>, <item:minecraft:redstone_block>, <item:born_in_chaos_v1:dark_metal_ingot>], [<item:minecraft:air>, <item:born_in_chaos_v1:dark_metal_ingot>, <item:rustic_engineer:solarite_ingot>]]);
 
 //召唤珊瑚巨像 
 recipes.addJsonRecipe("summon.cataclysm.coralssus",{ 

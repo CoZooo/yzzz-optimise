@@ -1,4 +1,5 @@
 {
+	autofocus_id: "61FC153299CADA09"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "l2"
@@ -84,7 +85,7 @@
 			y: 14.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -342,7 +343,7 @@
 				""
 				"&6元素战斗类型：对所有攻击类型都具有高额抗性。"
 				""
-				"&2用途：击杀必定获得异想体之心（需在最终极之涡维度击杀才有）、召唤物。可交易获得镶孔符石。可制作万钧之护卷轴。可复制远古珍宝材料。额外有几率获得Nightecora病毒。"
+				"&2用途：击杀必定获得异想体之心（需在最终极之涡维度击杀才有）、召唤物。可交易获得镶孔符石。可制作万钧之护卷轴、神经递质抑制。可复制远古珍宝材料。额外有几率获得Nightecora病毒。"
 			]
 			hide_dependent_lines: true
 			icon: "yuusha:dragon_heart"
@@ -4467,23 +4468,6 @@
 					elevate_perms: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: {
-									"minecraft:base": {
-										element: "normal"
-										style: "hit"
-									}
-									"minecraft:enchantment": {
-										element: "normal"
-										style: "hit"
-									}
-								}
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
 						id: "moonstone:flygene"
 						tag: { }
 					}

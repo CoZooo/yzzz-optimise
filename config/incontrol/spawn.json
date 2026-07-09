@@ -920,15 +920,6 @@
 		"mob": ["eidolon:slimy_slug"]
 	},
 	{
-		"mob": ["minecraft:bat"],
-		"mincount": {
-			"amount": 17,
-			"mob": "minecraft:bat"
-		},
-		"when": "onjoin",
-		"result": "deny"
-	},
-	{
 		"when": "onjoin",
 		"damageadd": 50,
 		"mob": ["minecraft:frog"]

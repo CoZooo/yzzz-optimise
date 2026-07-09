@@ -233,6 +233,8 @@
 				"&e部分生物群系搜索可能会异常（部分中文、部分英文），多试几次，或者在列表直接找。"
 				""
 				"&c只能用古遗天境维度的树苗制作。"
+				""
+				"&c新增绘图悬赏中有概率出现。"
 			]
 			hide_dependency_lines: true
 			id: "3F6405CB8A03C317"
@@ -373,7 +375,7 @@
 				count: 24L
 				id: "36552F5B5C95560A"
 				item: {
-					Count: 24
+					Count: 1
 					ForgeCaps: {
 						"elementalcombat:attack_data": {
 							elementalcombat_attack: { }
@@ -563,7 +565,7 @@
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
 			description: [
-				"&e沙拉曼达之眼&r：需放在主手或副手才能生效。"
+				"&e沙罗曼达之眼&r：需放在主手或副手才能生效。"
 				""
 				"&e烈焰术士之杖&r：神一品灭火道具，放在物品栏就能生效。"
 			]
@@ -610,7 +612,15 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["在主手是单手武器时，在副手可以加成15%会心。要区分有些武器是双手，则吃不到加成。在进度在船长幽灵前后可以制作。"]
+			description: [
+				"在主手是单手武器时，该武器放在副手可以加成15%会心。"
+				""
+				"要区分有些武器是双手，则吃不到加成。"
+				""
+				"在进度在船长幽灵前后可以制作。"
+				""
+				"&c减少的80%攻击伤害，放置在副手时不生效。&r"
+			]
 			id: "4CBB7C8505C747F5"
 			rewards: [{
 				id: "15C89B259B7A86F2"
@@ -619,6 +629,7 @@
 			}]
 			subtitle: "「加伤」"
 			tasks: [{
+				consume_items: false
 				id: "72B8F0580D4344AB"
 				item: {
 					Count: 1
@@ -637,7 +648,10 @@
 						]
 					}
 				}
+				match_nbt: false
+				only_from_crafting: false
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 9.5d
 			y: 1.0d
@@ -1222,7 +1236,9 @@
 				""
 				"&c优化：在下雨时，该附魔升级几率提升至默认10倍。"
 				""
-				"&e该成就必须从钓竿没有狂热垂钓附魔开始完成。"
+				"&m&e该成就必须从钓竿没有狂热垂钓附魔开始完成。&r"
+				""
+				"&e该成就只能由手持7级“狂热垂钓”附魔的钓竿，钓鱼时概率升级为“钓鱼爱好者”后获取。"
 			]
 			icon: {
 				Count: 1

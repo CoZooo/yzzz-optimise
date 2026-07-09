@@ -5,17 +5,26 @@
     "B": {
       "item": "slashblade:slashblade_bamboo"
     },
-    "G": {
-      "tag": "forge:ingots/gold"
+    "D": {
+      "item": "minecraft:obsidian"
     },
-    "L": {
-      "item": "minecraft:iron_ingot"
+    "E": {
+      "item": "celestial_core:fire_essence"
+    },
+    "I": {
+      "item": "graveyard:dark_iron_ingot"
+    },
+    "P": {
+      "item": "forbidden_arcanus:arcane_crystal_dust"
+    },
+    "S": {
+      "item": "locusazzurro_icaruswings:linen_string"
     }
   },
   "pattern": [
-    "  L",
-    " L ",
-    "BG "
+    " EI",
+    "PBD",
+    "SI "
   ],
   "result": {
     "item": "slashblade:slashblade_white",

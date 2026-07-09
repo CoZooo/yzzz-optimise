@@ -982,6 +982,64 @@
 			x: -10.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["00F42058528DBA60"]
+			description: ["击杀第五章BOSS：冰封蟹后可制作获取。"]
+			id: "2CA3AF09F086AB07"
+			rewards: [{
+				id: "3A61A8BFAAD6AB1A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "79D31637363BBCE5"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_fmj"
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00F42058528DBA60"]
+			description: [
+				"击杀第五章BOSS：冰封蟹后可制作获取。"
+				""
+				"以牺牲穿甲效率换取更高伤害，通常搭配&e埋伏性狩猎&r使用。"
+			]
+			id: "2A999E570F847966"
+			rewards: [{
+				id: "25C48CF882710ED6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "35E048BF5DE8E628"
+				item: {
+					Count: 1
+					id: "tacz:attachment"
+					tag: {
+						AttachmentId: "tacz:ammo_mod_fire_fmj"
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
 	]
 	subtitle: [
 		"&9『枪械使用指南』"

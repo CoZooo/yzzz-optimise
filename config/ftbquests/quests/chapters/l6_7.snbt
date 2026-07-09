@@ -574,18 +574,7 @@
 				}
 				{
 					amount: 100
-					icon: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "minecraft:pink_candle"
-					}
+					icon: "minecraft:pink_candle"
 					id: "572E4E83B09E5FF0"
 					skill: "love"
 					title: "&d祈愿等级 +100级"

@@ -76,7 +76,6 @@ craftingTable.addShaped("reliquary.rod_of_lyssa", <item:reliquary:rod_of_lyssa>,
 <item:reliquary:witch_hat>.anyDamage().addTooltip("\u00A7e任意药水精华可对着炼狱锻炉中心Shift右击几率回收为女巫刷怪蛋");
 <item:reliquary:bat_wing>.addTooltip("\u00A7c击杀蝙蝠可获得");
 <item:reliquary:bat_wing>.addTooltip("\u00A76手持血蝠翼右击灵魂营火，可召唤蝙蝠");
-<item:reliquary:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
 <item:reliquary:fertile_lily_pad>.addTooltip("\u00A7c不要用富饶莲叶催熟部分植物（比如咖啡丛等），可能会导致游戏崩溃");
 <item:reliquary:fertile_lily_pad>.addTooltip("\u00A7e放下后需等待一定时间才会生效");
 <item:reliquary:fertile_lily_pad>.addTooltip("\u00A76新增可通过农民悬赏获得");

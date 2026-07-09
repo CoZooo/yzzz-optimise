@@ -459,6 +459,8 @@
 				"作为次元存储网络的中枢结构，具有无限的能源。一个存储网络有且只有一个[次元存储稳定器]。"
 				""
 				"{image:yuusha:textures/renwu_rs.png width:150 height:105 align:center}"
+				""
+				"&6你知道吗？主要的存储装置可以在发明悬赏内获得。相关内容详见匠作章节悬赏板任务。"
 			]
 			hide_dependency_lines: true
 			id: "12419FE3EAF4EB55"

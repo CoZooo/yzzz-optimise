@@ -1,0 +1,1532 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_14"
+	group: "27875B8237928FF1"
+	icon: "goose_curios:lovins_wrath"
+	id: "220F3A885CA9F78B"
+	images: [{
+		height: 25.0d
+		image: "minecraft:textures/entity/end_portal.png"
+		rotation: 0.0d
+		width: 28.0d
+		x: -6.0d
+		y: 4.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["本整合包经过大量魔改，不适合刚接触MC整合包的萌新游玩，建议先游玩其他的整合包熟悉一下再来挑战本整合包。"]
+			id: "6CB988B6A1A8425F"
+			rewards: [{
+				id: "550F408696EDA085"
+				item: "yuusha:stewed_maggot"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "前面的区域，以后再来探索吧"
+			tasks: [{
+				id: "468ED22354F64A7C"
+				title: "无视风险继续阅读"
+				type: "checkmark"
+			}]
+			title: "领航员系统V1.0"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/octagon/shape.png width:10 height:10 align:left} "
+				" :重要任务，流程必吃，非常建议阅读。"
+				""
+				"{image:ftbquests:textures/shapes/hexagon/shape.png width:10 height:10 align:left}"
+				":次要任务，大部分流程要吃，可选阅读。"
+				""
+				"{image:ftbquests:textures/shapes/pentagon/shape.png width:10 height:10 align:left}"
+				":可选任务，对流程影响不大，可优化游戏体验。"
+				""
+				"{image:ftbquests:textures/shapes/square/shape.png width:10 height:10 align:left}"
+				":非必要任务，对流程几乎没影响。"
+			]
+			id: "5771582E4C71C05B"
+			rewards: [{
+				id: "494329A5463DE06E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "曾经的勇三是出了名的无引导"
+			tasks: [{
+				id: "16AA8B7C9BD49C7B"
+				title: "任务图标的重要性"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				"相较于其他的冒险包，本整合包更贴近于RPG包形式，线性挑战的同时有大量的技能点、经验值、词条等提升玩家的综合能力，更多详见树海化章节以详细阅读："
+				""
+				"{ \"text\": \"技能树\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A9C49489394B23A\" } }"
+				""
+				"{ \"text\": \"外修技能\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DDE3385C764222A\" } }"
+				""
+				""
+				"前期主要增伤来源为PMMO技能点，也就是默认按alt键后，左侧出现的各类技能点；不同维度会有不同&c加成&r与&e减益&r。"
+			]
+			id: "05A0D088F3BF9A54"
+			rewards: [{
+				id: "3D02E3B5BA35ECB6"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "打铁还需自身硬"
+			tasks: [{
+				id: "74F3899E0F46DB6F"
+				title: "游戏框架概述"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				"初次游玩本整合包时，建议选择『玩家是勇者』以体验本整合包内大部分内容。"
+				""
+				"职业武器、护甲、饰品、词条的选择请参阅特定章节&l&c☆圆☆环☆之☆理☆&r进行参考。"
+			]
+			id: "0AC48CF2B045F89E"
+			rewards: [{
+				id: "6DDDB9853E4BB8C8"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "跳过新手教程.jpg"
+			tasks: [{
+				id: "6F6E633B872536E0"
+				title: "职业选择建议"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: ["整合包内绝大部分有用的物品都会在物品的概述内有描述，游玩过程中如果遇到有不懂的地方，请多在JEI内查阅物品描述，当发现货不对板时请尽情的与作者互喷。"]
+			id: "0D7891B6D064E90B"
+			rewards: [{
+				id: "11743BC6CBD0E8A5"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "眼见不一定为实"
+			tasks: [{
+				id: "492487C528695D79"
+				optional_task: true
+				title: "物品Tips"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["784D58719ED23AD0"]
+			description: [
+				"众所周知，村庄里最有价值的战利品是村民...以及悬赏板。"
+				""
+				"同时要小心可能伴随刷新的铁魔法牧师，在有无咒之戒的&c第二诅咒&r下，牧师始终会与玩家敌对。"
+				""
+				"每当傍晚时分，村民都会聚集在村中心，也就是钟旁边交流，或许可以利用这个机制将他们围起来干点什么......"
+				""
+				"{@pagebreak}"
+				"以下为前期容易大量进行交易的村民职业方块："
+				""
+				"高炉-煤炭、&4锁链护甲"
+				""
+				"砂轮-煤炭、&4混乱水晶"
+				""
+				"锻造台-煤炭、&4钻石工具、财富水晶（概率）"
+				""
+				"制箭台-木棍"
+				""
+				"切石机-黏土球、石英块"
+				""
+				"酿造台-&4灵质球、末影珍珠、邪恶之眼"
+				""
+				"讲台-大部分附魔书"
+			]
+			id: "55A785038E397BAD"
+			rewards: [{
+				id: "4E1E50BF4D599E6A"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			subtitle: "村民都是自愿被掠夺的"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:bell"
+				id: "56DE926BE7C071AE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:bell"
+				type: "observation"
+			}]
+			title: "其实还是喜欢当掠夺者"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: ["整合包内绝大部分战利品宝箱经过魔改，鼓励玩家击杀BOSS以获取高级资源，说白了不沉淀就别想出山。"]
+			id: "38DB18F7750ACA69"
+			rewards: [{
+				id: "6EF7A52351D32F5A"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "外出捡垃圾就能毕业，在这里可行不通"
+			tasks: [{
+				id: "4E55152DB265933B"
+				title: "外出探索收益与风险"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"55A785038E397BAD"
+				"70C12C414EB222AF"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"异世界降临的真神，听说悬赏板里住着阿罕卡拉......"
+				"详细描述请看："
+				"{ \"text\": \"悬赏板\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4BA58FB23CD68C98\" } }"
+				""
+				"猜猜我为什么会奖励你一个铜块......"
+			]
+			id: "4C2BCC959DAE32C3"
+			rewards: [{
+				id: "533D88B849AA062D"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "悬赏板，掌握核心科技"
+			tasks: [{
+				disable_toast: true
+				icon: "bountiful:bountyboard"
+				id: "0E6B7153EECDC282"
+				observe_type: 0
+				timer: 0L
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "无悬赏不勇三"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["784D58719ED23AD0"]
+			description: [
+				"当找不到村庄，又很需要村民发展的时候，可以考虑制作："
+				"{ \"text\": \"村民招揽牌\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1562887F81A8DE78\" } }"
+			]
+			id: "70C12C414EB222AF"
+			rewards: [{
+				id: "75328927518A647E"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "TA们从哪里来的？"
+			tasks: [{
+				disable_toast: true
+				icon: "helpwanted:villagerpost"
+				id: "1EAF0D8274F951DF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "helpwanted:villagerpost"
+				type: "observation"
+			}]
+			title: "神兵天降"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC48CF2B045F89E"]
+			description: ["你醒了，上一世的轮回仿佛大梦一场，恍惚间看到了自己的未来......"]
+			disable_toast: true
+			icon: "bhc:red_heart"
+			id: "784D58719ED23AD0"
+			rewards: [{
+				id: "4844E5B0BA8C08EF"
+				item: "yuusha:stewed_maggot"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "你醒了......"
+			tasks: [{
+				consume_items: false
+				id: "1D36DF10755D4B0C"
+				item: "celestial_artifacts:heirloom_necklace"
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "梦的开始"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				"作者满满的善意。露米娅小屋内必定有一个，村庄小房子内概率有一个......当然你也可以手搓。"
+				"详细描述请看："
+				"{ \"text\": \"工作台\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"479232119C07EDDE\" } }"
+			]
+			id: "398A79F6986158B2"
+			rewards: [{
+				id: "19A9D3D8898DA572"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			subtitle: "哎哟这作者怎么这么坏"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:crafting_table"
+				id: "262954BF8812A9D6"
+				observe_type: 0
+				timer: 0L
+				title: "熟悉又陌生"
+				to_observe: "minecraft:crafting_table"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C2BCC959DAE32C3"]
+			description: [
+				"具体获取方式请查阅悬赏板任务，这里不过多赘述。"
+				"点击下方以跳转物品详细描述："
+				"{ \"text\": \"余烬之心\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F0A901BFF71AE81\" } }"
+			]
+			id: "5832373C419F6841"
+			rewards: [{
+				id: "69B91A49794D70B8"
+				item: "betterbounty:bounty_reward"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "三幻神之一"
+			tasks: [{
+				consume_items: false
+				id: "423AF74AF96DCA44"
+				item: "yuusha:ember_heart"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C2BCC959DAE32C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"具体获取方式请查阅悬赏板任务，这里不过多赘述。"
+				""
+				"也可考虑到车专车专回收获取："
+				"{ \"text\": \"车专车专回收\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2480FD0C0D4C9966\" } }"
+				""
+				"来自异世界的外星科技，谁也不知道是以什么样的方式驱动的，唯一能知道的是它的作用远不止存储物品......或许与&4精妙背包&r有所联系？......"
+			]
+			id: "1E8DA6DAE23C9ED1"
+			rewards: [{
+				id: "497983D0572B1DA7"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "三幻神之一"
+			tasks: [{
+				id: "382F4FB97EC1647E"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C2BCC959DAE32C3"]
+			description: [
+				"具体获取方式请查阅悬赏板任务，这里不过多赘述。"
+				"主要作用在物品上有详细描述。"
+			]
+			id: "09A83704F81CBCEF"
+			rewards: [{
+				id: "679F2C1176D6C5F8"
+				item: "betterbounty:bounty_reward"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "三幻神之一"
+			tasks: [{
+				id: "038BABDDC6573705"
+				item: "grimoireofgaia:holstaurus_token"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C2BCC959DAE32C3"]
+			description: [
+				"具体获取方式请查阅悬赏板任务，这里不过多赘述。"
+				"点击下方以跳转物品详细描述："
+				"{ \"text\": \"锻造模板\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"296E25D3A2AA8B7D\" } }"
+				""
+				""
+				"&c本包内会大量使用该锻造模板，前期在不能复制的情况下，建议多准备几个。"
+			]
+			id: "63D43FABBFF774DA"
+			rewards: [{
+				id: "7ADE3BC4D994175A"
+				item: "betterbounty:bounty_reward"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "众所周知三幻神不止三个"
+			tasks: [{
+				consume_items: false
+				id: "7B322918618EC364"
+				item: "forbidden_arcanus:darkstone_upgrade_smithing_template"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5832373C419F6841"]
+			description: [
+				"点击下方以跳转物品详细描述："
+				"{ \"text\": \"石制神像\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49C9042038B3AC58\" } }"
+			]
+			id: "0E8E220C6E434B1E"
+			rewards: [{
+				id: "45D252B3F3DED19C"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "曾向神明祈祷..."
+			tasks: [{
+				disable_toast: true
+				icon: "tacz:statue"
+				id: "74952B27990D2A65"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tacz:statue"
+				type: "observation"
+			}]
+			title: "石制神像"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C2BCC959DAE32C3"]
+			description: ["通过悬赏板获取群系指南针，可搜索繁华森林以获取黄金树、黄金树苗、黄兰花，当然也有&c其他方式&r获取......"]
+			id: "2AB187645B5F22D3"
+			rewards: [{
+				id: "47EC21F14D051A42"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			subtitle: "众所周知三幻神不止三个"
+			tasks: [{
+				consume_items: false
+				id: "4E6ABB122A9B731B"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E8E220C6E434B1E"]
+			description: [
+				"万神殿维度内会刷新博丽神社结构，其内有大量大前期所需物资，三楼窗外屋檐下有金块，建议全部带走。"
+				"万神殿任务详见："
+				"{ \"text\": \"万神殿\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7EBCDF791BDF57C4\" } }"
+			]
+			id: "06B7C9958D3171E9"
+			rewards: [{
+				id: "376FCB1F497D166C"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			subtitle: "如蝗虫过境"
+			tasks: [{
+				icon: "faded_conquest_2:gildgrass"
+				id: "3E373381CE0B0D3D"
+				observe_type: 0
+				timer: 0L
+				title: "神秘打野点"
+				to_observe: "minecraft:air"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["06B7C9958D3171E9"]
+			description: [
+				"根据死寂幻乡任务进入死寂之海后，可在该维度内寻找卫城。"
+				""
+				"生成密度已大幅调整，基本上逛几圈就能找到一座卫城；"
+				""
+				"同时该维度内会刷新&e蔓生神庙&r与&2致命墓穴&r，其内结构会刷新战利品箱，对后续进度推进有较大提升。"
+				""
+				""
+				"&c女神雕像在后续进度推进中会使用较多次，基本属于必拿品。"
+			]
+			id: "64449F20EA1502C4"
+			rewards: [{
+				id: "401DCB667BB3DF84"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "前面的区域以后再来探索吧×2"
+			tasks: [{
+				icon: "cataclysm:goddess_statue"
+				id: "0204E5A42AE92C00"
+				observe_type: 0
+				timer: 0L
+				title: "女神雕像"
+				to_observe: "cataclysm:goddess_statue"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2AB187645B5F22D3"]
+			description: [
+				"黄金树自然生成于繁花森林，也可通过&c其他方式&r获取。"
+				""
+				"目前最容易获取的方式就是前往繁花森林，同时也有概率刷新黄兰花，建议系数获取。"
+			]
+			id: "51713E7CC43CF2C4"
+			rewards: [{
+				id: "6C3CBF504C06584E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				biome: "minecraft:sunflower_plains"
+				icon: "forbidden_arcanus:aurum_sapling"
+				id: "1F383F34110E1BBF"
+				title: "繁花森林"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51713E7CC43CF2C4"]
+			description: [
+				"贸易站内主要兑换以下物资："
+				""
+				"不死图腾、刷怪笼碎片、水椰、神化书架、闪光四叶草种子、结构指南针、贸易商人刷怪蛋、各类怪物女孩刷怪蛋。"
+				""
+				"更多详情请阅览："
+				"{ \"text\": \"星河贸易站\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6345272D9825406F\" } }"
+			]
+			id: "43FD924C44E4424E"
+			shape: "octagon"
+			tasks: [{
+				consume_items: false
+				id: "0BEE5CEEBC47F3E0"
+				item: "farmingforblockheads:market"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["43FD924C44E4424E"]
+			description: [
+				"通过星河贸易站兑换，使用各类怪物女孩刷怪蛋与其交易可获取&e贸易商人货币&r，再以货币去兑换&e记忆之书&r（无视当前经验值，直接提升等级）、&e沙漠宝箱&r、&a丛林宝箱&r、&6地牢宝箱&r，该三类宝箱有大量前期所需物资，推荐获取。"
+				""
+				""
+				"现阶段&c不建议&r站在箱子上打开以上三类宝箱......"
+			]
+			id: "49953FE918BEC5FA"
+			rewards: [{
+				id: "7E059ECC15A117BE"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			subtitle: "犹如村民一般简单"
+			tasks: [{
+				consume_items: false
+				id: "78F0A5254E213AC0"
+				item: "grimoireofgaia:spawn_trader"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1E8DA6DAE23C9ED1"]
+			description: [
+				"经过魔改，可直接手持背包蹲下右键将背包内的物品直接卸货进终端。"
+				""
+				"也可在按键设置内调整按键以一键卸货。"
+			]
+			id: "00549ACE86708025"
+			rewards: [{
+				id: "1578DEB67EABC38E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			subtitle: "卸货就要有卸货的样子"
+			tasks: [{
+				consume_items: false
+				id: "13AE253AFDB35898"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E8DA6DAE23C9ED1"]
+			description: ["本整合包内新增的两种背包升级，绑定后可直接将物品送入终端。"]
+			id: "265B60323F9B1D06"
+			rewards: [{
+				id: "6A5F31761A267916"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			subtitle: "真正的超越维度"
+			tasks: [
+				{
+					consume_items: false
+					id: "26635B71D6E383D5"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:rs_pickup_upgrade"
+						tag: { }
+					}
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: false
+					id: "589912F44E6A217E"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:rs_magnet_upgrade"
+						tag: { }
+					}
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "次元系列"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38DB18F7750ACA69"]
+			description: [
+				"详见宝具章节刷子描述："
+				"{ \"text\": \"刷子\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5A94A0E65B644BB7\" } }"
+				""
+				"同时有任务可以获取满配刷子，但是需要手动打上永恒以不毁："
+				"{ \"text\": \"钓鱼\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C1E4E580B8D70A7\" } }"
+				""
+				"&c现在副手放物品，主手拿刷子也可进行考古；&r"
+				""
+				"&2口袋饰品佩戴远古甲虫时可有效提升考古获取物品的效率；&r"
+				""
+				"&4我知道你会嫌太长不看，直接给出省略版：&r"
+				""
+				"&6陈旧骨头&r：暴食的赞赏、莫里斯的脑子、复苏之叶；"
+				""
+				"&6冰封骨头&r：远古硬币；"
+				""
+				"&6烈焰粉&r：沙罗曼达之眼、金蛾罐、岩浆石；"
+				""
+				"&6海船墓地的回响&r：十字章护身符的所有下位饰品；"
+				""
+				"&6骨头、腐肉&r：空法术聚晶、亚麻种子；"
+				""
+				"&6腐枯物质&r：幻灵碎晶、凋零骷髅头颅；"
+				""
+				"&6远古硬币&r：锈蚀古刀；"
+				""
+				"&6刺骨&r：狂野爪、坚固钉鞋；"
+			]
+			id: "3DB542DB7FF5E3A4"
+			rewards: [{
+				id: "5AE16359234CE599"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			subtitle: "考古之章，启动！"
+			tasks: [{
+				consume_items: false
+				id: "6E38C50FD567A312"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "考古"
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05A0D088F3BF9A54"]
+			description: [
+				"通常情况下，精魂只能通过击杀「化魂」状态下的怪物获取；有部分职业被限制只能由特定武器赋予「化魂」状态，大体如下："
+				""
+				"剑仙：限制以拔刀剑进行输出，则需要制作银纸「竹光」后才能获取精魂；"
+				""
+				"堕魔铁魔法：限制以铁魔法类型伤害输出，则需要主手有能够赋予「化魂」状态的武器，按快捷键施法以赋予状态；亦或者手持长者手杖右键施法也可赋予状态；"
+				""
+				"九魔九厄（堕魔聚晶）：限制以聚晶伤害输出，目前只能通过佩戴「碎魂符」饰品以赋予状态；"
+				""
+				"女仆：基本无限制，可以直接参考正常游玩时使用的武器；"
+				""
+				"召唤师：只能使用铁魔法召唤物，同时手持可赋予「化魂」状态的武器，召唤物造成伤害后即可赋予「化魂」状态；"
+				""
+				"&c具体精魂的获取详情参考：&r"
+				"{ \"text\": \"精魂\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58ED2D288D70ED98\" } }"
+			]
+			id: "358C9D536A3DF533"
+			rewards: [{
+				id: "6B14B1A0BD448076"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "这里是XX启旅分部"
+			tasks: [{
+				id: "6069F654182B567C"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			title: "精魂"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: [
+				"前期最易获取的收获精魂的武器，且本身拥有不俗的伤害。"
+				""
+				"&c建议大部分不限制武器或伤害类型的职业均以该武器为发展支线。"
+			]
+			id: "7F6DCAC9A3866FB6"
+			rewards: [{
+				id: "4FDCC5EA2F539035"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "5D9BA043BFBE8E75"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: ["铁魔法职业收割精魂武器。"]
+			id: "1F52BF6E0A016439"
+			rewards: [{
+				id: "7CC22B2B0B627FC4"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "40A43C9C9FFF75DE"
+				item: "irons_spellbooks:graybeard_staff"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: ["弓箭手职业专属收割精魂武器。"]
+			id: "4F0E186676BEF19E"
+			rewards: [{
+				id: "1CA94B3C16F9CCEC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "037D04BC90E092C5"
+				item: {
+					Count: 1
+					id: "too_many_bows:verdant_viper"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: ["通用收割精魂饰品，精魂数量为基础数量，不建议使用。"]
+			id: "72A7034B725E6099"
+			rewards: [{
+				id: "4D5C3273707931CA"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "7718636ADC1BEBEF"
+				item: "malum_trinkets:spirit_conductor"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: [
+				"自带大量精魂劫掠，可满足你对精魂大量需求，前提是你的电脑能够承受的住。"
+				""
+				"&c该武器可前往Grave Euthymia结构获取。"
+			]
+			id: "60DB1FA0252BF030"
+			rewards: [{
+				id: "0929918F63A363CC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "61F5AC010E96E5F8"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["43FD924C44E4424E"]
+			description: [
+				"在不推进度打BOSS的情况下，种植水椰貌似是神秘水晶粉末的唯一来源；水椰生长时间固定三分钟，生长完成后可被&4红石充能&r收获，或许可以考虑使用&c物品收集器&r与&c侦测器&r实现自动化。"
+				""
+				"同时神秘水晶粉末可通过秘法悬赏获取，悬赏板内仅有一个秘法悬赏的话只会刷出使用&9能量晶核&r交易的悬赏，或许我们可以通过放入不同的悬赏令来实现&e绕过&r能量晶核交易......"
+			]
+			id: "297333947C06E954"
+			rewards: [{
+				id: "2551B0D20ACCE694"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "6B32D06240A462B8"
+				item: "forbidden_arcanus:nipa"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["25F16FB88741E351"]
+			description: ["天境会自然生成变色“史莱姆”，现在貌似叫做史维特，击杀后会掉落史维特球，可在贸易站内兑换&a水椰&r。"]
+			id: "5BAD1EE78777F46B"
+			rewards: [{
+				id: "39DC0383F259CB87"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "78522DA7FE654D42"
+				item: "aether:swet_ball"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D7891B6D064E90B"]
+			description: [
+				"具体详见专属章节："
+				"{ \"text\": \"天境\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"75C763099B368F0D\" } }"
+				""
+				"天境需要&c飞行PMMO等级&r至少为5级才能进入。"
+			]
+			id: "25F16FB88741E351"
+			rewards: [{
+				id: "394EBFD387E8CECC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			subtitle: "儿时的梦想"
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "minecraft:glowstone"
+				id: "1475233B5E6655A9"
+				type: "dimension"
+			}]
+			title: "天境"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D7891B6D064E90B"]
+			description: [
+				"具体详见专属章节："
+				"{ \"text\": \"阿比斯之渊\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2032706ED4F9E7EE\" } }"
+			]
+			id: "3675179F9C0EF2B9"
+			rewards: [{
+				id: "5476C41B3AFD5300"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				dimension: "faded_conquest_2:the_abyss"
+				icon: "minecraft:amethyst_block"
+				id: "3AE0582823235CF6"
+				title: "阿比斯之渊"
+				type: "dimension"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3675179F9C0EF2B9"]
+			description: [
+				"处于阿比斯之渊时，可获取&c大量的输出PMMO经验&r加成，同时会削弱飞行等级的加成，但我依然推荐来阿比斯之渊刷取飞行等级。一般来到阿比斯之渊后直接以小隧道模式垂直向上挖，按F4灵魂出窍，可在基岩上方放置传送石，传送回家后再传送回来即可传送至基岩上层。"
+				""
+				"可通过使用末影珍珠碎片右键营火以召唤幻翼，幻翼会固定刷新在营火上方第&9⑨&r格位置，可以搭建一个小黑屋以限制幻翼活动。"
+			]
+			id: "027F0FC21B74C5E3"
+			rewards: [{
+				id: "6FFE39740F105D84"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "pentagon"
+			tasks: [{
+				consume_items: false
+				id: "209CD44ECB15FAF0"
+				item: "malum:aerial_spirit"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["027F0FC21B74C5E3"]
+			description: [
+				"刷取足够飞行等级后，即可使用这两件究极轮椅，&9阿涅摩伊之杖&r在当前阶段只能通过任务摇奖或者PMMO满级自选获取；&9渡鸦斗篷&r可通过下界探图&c灵魂监狱&r获取。"
+				""
+				"&c阿涅摩伊之杖本身具有耐久，需要打上永恒后才能无限使用。"
+				""
+				"同时飞行等级可通过向女神雕像献祭&b澄空精魂&r与&7幻翼膜&r获取。"
+			]
+			id: "159A8866E66CDC9F"
+			rewards: [{
+				id: "5A5B190AF3370024"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "051B9B766D789B5F"
+					item: {
+						Count: 1
+						id: "locusazzurro_icaruswings:wind_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00CDD202C23CE716"
+					item: "eidolon:raven_cloak"
+					type: "item"
+				}
+			]
+			title: "轮椅"
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D7891B6D064E90B"]
+			description: [
+				"具体详见专属章节："
+				"{ \"text\": \"下界之门\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3C43624A849355DC\" } }"
+				""
+				"下界需要&c战斗PMMO等级、采掘PMMO等级&r至少100级后才能进入。"
+				""
+				"&c战斗PMMO等级可通过向女神雕像献祭悲叹之种获取。"
+			]
+			id: "58E1ECBF4CAB977C"
+			rewards: [{
+				id: "0F38842A9B7EAE3E"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:obsidian"
+				id: "52A2465089FDE499"
+				title: "下界"
+				type: "dimension"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58E1ECBF4CAB977C"]
+			description: [
+				"枪药珠在很多地方会用到，但目前主要在于关于魔法职业的材料获取，也就是与猪灵的交易；"
+				""
+				"在佩戴无咒之戒时，由于有第二诅咒的影响，猪灵始终会与玩家敌对。"
+				""
+				"可通过卸下护甲，拥有&b隐身buff&r时与其交易，但距离不要过近。"
+				""
+				"隐身buff可通过如任务摇奖、隐身围巾、隐身术等方式获取。"
+				""
+				""
+				"物品具体描述详见专属章节："
+				"{ \"text\": \"枪药珠\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5AA99EC8918853E8\" } }"
+			]
+			id: "52252C805E1FFEA2"
+			rewards: [{
+				id: "52A89108EBDE40DB"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			subtitle: "剑仙的第一道坎"
+			tasks: [{
+				consume_items: false
+				id: "3F75DD1A01A151BA"
+				item: "nethersdelight:propelpearl"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06B7C9958D3171E9"]
+			dependency_requirement: "one_completed"
+			description: [
+				"后续使用次数较多；在村庄与博丽神社内自然生成，也可选择手搓。"
+				""
+				"目前手搓需要的&6陨磺砾岩&r需要进入天境后才能获取。"
+			]
+			id: "7907B9543D60542A"
+			rewards: [{
+				id: "071C50C367728929"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: "minecraft:stonecutter"
+				id: "2BAC139EE85C6261"
+				observe_type: 0
+				timer: 0L
+				title: "切石机"
+				to_observe: "minecraft:stonecutter"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["51713E7CC43CF2C4"]
+			description: [
+				"金兰花种子可复制大部分矿物，后续需求量较大，具体物品描述详见专属章节："
+				"{ \"text\": \"金兰花种子\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B9A0A39B1F17623\" } }"
+			]
+			id: "4650EE978EA20E12"
+			rewards: [{
+				id: "0F8FD20AC55F48E0"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "7059CFAE23634FA0"
+				item: "forbidden_arcanus:golden_orchid_seeds"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["25F16FB88741E351"]
+			description: ["天根木棍可制作博丽御币，后续多刷BOSS时需要用到的催化剂（？）。"]
+			id: "29ABB6B052616B8A"
+			rewards: [{
+				id: "3D8A805EDE277D04"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: false
+				id: "73EF8F1D6464AF99"
+				item: "aether:skyroot_stick"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58E1ECBF4CAB977C"]
+			description: [
+				"主世界部分结构中的战利品箱可能会刷新；主要来源依旧为烈焰人，可制作烈焰人传送门大量获取。"
+				""
+				"可在星河贸易站内兑换&e泥峭棒&r。"
+				""
+				"具体物品描述详见专属章节："
+				"{ \"text\": \"烈焰棒\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4032A4BB0A6ADC2F\" } }"
+			]
+			id: "270FF02F99F649DA"
+			rewards: [{
+				id: "6386778207242332"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "7ECEFAF248DEEF37"
+				item: "minecraft:blaze_rod"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38DB18F7750ACA69"]
+			description: [
+				"前期&3能量晶核&r主要获取来源；通常通过探索&3雪之神庙&r获取，也可通过其他方式获取；具体获取方式可参阅物品Tips。"
+				""
+				"雪之神庙以及大部分有用的地牢结构详见专属章节："
+				"{ \"text\": \"额外地牢\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"26BA2F85D487B566\" } }"
+			]
+			id: "4229293BE2B9638A"
+			rewards: [{
+				id: "52AF239007118EDD"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: false
+				id: "14A7F13614266C54"
+				item: "minecraft:powder_snow_bucket"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38DB18F7750ACA69"]
+			description: [
+				"具体获取方式详见物品Tips。"
+				""
+				"前期粗魔银、粗魔铅转换对应锭形态的手段；可以当垃圾桶使用（物品栏界面不是有个垃圾桶吗，默认按T打开与关闭），使用之前切记看清JEI能够转换的材料。"
+			]
+			id: "423CE580D76F50F8"
+			rewards: [{
+				id: "54EB6D4078878BA6"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: false
+				id: "7ECB9ACC41D57EF0"
+				item: "locusazzurro_icaruswings:greek_fire_bucket"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4229293BE2B9638A"]
+			description: [
+				"当你完成本章节内绝大部分重要任务，且专属职业的输出类PMMO等级达到&c300级&r以上、获取&c礼装章节&r内部分饰品后，即可考虑挑战天顶巨兽章节的BOSS。"
+				""
+				"同时意味着&c新手教程结束&r，剩下的内容基本都在其余章节内，同时也在快马加鞭的编写下一阶段的指引......"
+				""
+				"物品具体描述详见专属章节："
+				"{ \"text\": \"能量晶核\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F9131DFA586E12E\" } }"
+			]
+			id: "190DA709172938CE"
+			rewards: [{
+				id: "33A9888C726AAC93"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "未完待续......"
+			tasks: [{
+				consume_items: false
+				id: "4E6BFDE24038B9AF"
+				item: "avaritia:diamond_lattice"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["358C9D536A3DF533"]
+			description: ["剑仙专属收割精魂武器，需要前往下界后才能获取；相较于其他职业，获取难度较高。"]
+			id: "209EC3329AF18C77"
+			rewards: [{
+				id: "12BA358C9423797F"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "02CFE837D4498A8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							AttackAmplifier: 0.0f
+							ComboRoot: "slashblade:standby"
+							Damage: 0
+							RepairCounter: 0
+							SpecialAttackType: "slashblade:judgement_cut"
+							StandbyRenderType: 0b
+							SummonedSwordColor: -13421569
+							SummonedSwordColorInverse: 0b
+							TargetEntity: 0
+							_onClick: 0b
+							adjustXYZ: [
+								0.0d
+								0.0d
+								0.0d
+							]
+							currentCombo: "slashblade:none"
+							fallDecreaseRate: 0.0f
+							isBroken: 0b
+							isSealed: 0b
+							killCount: 0
+							lastActionTime: 0L
+							proudSoul: 0
+						}
+					}
+					id: "slashblade:slashblade_silverbamboo"
+					tag: { }
+				}
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				"在人物合成栏下方有一个鸡腿图标，此为食物营养进度条。"
+				""
+				"当&c灵魂净化度&r达到0时将会进入&c魔女化&r。"
+				""
+				"如果你不知道&c魔女化&r是什么，我建议你及时进食&c悲叹之种&r。"
+				""
+				"保持灵魂净化度在90%以上，可提供些许增益。"
+				""
+				"食物营养详细介绍："
+				"{ \"text\": \"食物营养\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"029834400F488FF4\" } }"
+			]
+			id: "77B51DE9C4613C87"
+			rewards: [{
+				id: "41492F598EBD9CA0"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "哎哟我怎么魔女化了"
+			tasks: [{
+				id: "57F2070B62FC82D0"
+				title: "民以食为天"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77B51DE9C4613C87"]
+			description: [
+				"可一次性进食所有未吃过的食物。"
+				""
+				"具体使用方式在物品Tips上。"
+				""
+				"不过我建议你把&c蜜酒相关&r的食物添加进黑名单......"
+			]
+			id: "39C1513B714AF237"
+			rewards: [{
+				id: "6AD1BEC24BAEFF53"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "011D744BD87FE706"
+				item: "goose_hardtack:goose_hardtack"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77B51DE9C4613C87"]
+			description: [
+				"前期一般通过考古&c陈旧骨头&r获取。"
+				""
+				"可&c无视任何条件&r进食任何食物。"
+				""
+				"拥有&c暴食的赞赏buff&r时，进食的食物也可增加食物营养值。"
+				""
+				"同时也是大部分法师的核心物品。"
+			]
+			id: "657D820CDB5A26F3"
+			rewards: [{
+				id: "3DD1B3359D48BCF3"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "0CD8B2F053D04345"
+				item: "crockpot:gnaws_coin"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6CB988B6A1A8425F"]
+			description: [
+				"&c刷怪笼碎片&r可在铁砧内重铸大部分武器、护甲与饰品的&c副词条&r。"
+				""
+				"还可通过丘比娃娃在&c切石机&r内自选属性书，以在铁砧内更改想要的副词条。"
+				""
+				"武器、护甲的词条想要更高数值，则只能通过刷怪笼碎片重铸。"
+				""
+				"属性书详细介绍请看专属章节："
+				"{ \"text\": \"属性说明\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2648C534BFBA2D82\" } }"
+				""
+				""
+				""
+				"&o&7也有一些流派会给武器跟护甲重铸属性书上的副词条......&r"
+			]
+			id: "26E9DD2B2543186E"
+			rewards: [{
+				id: "36F5B2EC9C0B7D1B"
+				item: "yuusha:qb"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "有人的地方就有绳索与棍棒......"
+			tasks: [{
+				consume_items: false
+				id: "77EA4A4898BFA481"
+				item: "forbidden_arcanus:spawner_scrap"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "十分趁手的兵器"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77B51DE9C4613C87"]
+			description: [
+				"营火下方放有干草块时，会给一定范围内的友方实体常驻生命恢复5。"
+				""
+				"物品详细描述："
+				"{ \"text\": \"营火\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"48BB7096D6663817\" } }"
+			]
+			id: "10F1BBD5413DDEEF"
+			rewards: [{
+				id: "6AF4C8996A9BA3E9"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: false
+				id: "362052AAC0246355"
+				item: "minecraft:campfire"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+	]
+	subtitle: ["&9『异世界龙傲天系统』"]
+	title: "&6※ 领航员"
+}
