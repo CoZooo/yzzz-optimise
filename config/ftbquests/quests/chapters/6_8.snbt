@@ -422,7 +422,7 @@
 				item: "yuusha:grief_seed"
 				type: "item"
 			}]
-			title: "阴阳玉 \\& 破空之愿 "
+			title: " 破空之愿 "
 			x: -0.5d
 			y: -2.0d
 		}
@@ -518,7 +518,7 @@
 				item: "yuusha:grief_seed"
 				type: "item"
 			}]
-			title: "阴阳玉 \\& 破空之愿 "
+			title: "阴阳玉 "
 			x: -3.5d
 			y: -0.5d
 		}
@@ -580,9 +580,9 @@
 	]
 	subtitle: [
 		"&9『暗影刺客守则』"
-		"强度：☆☆☆"
+		"强度：☆☆☆☆"
 		"时间：☆☆☆"
-		"难度：☆☆☆☆"
+		"难度：☆☆☆☆☆"
 	]
 	title: "&6※ 界青"
 }

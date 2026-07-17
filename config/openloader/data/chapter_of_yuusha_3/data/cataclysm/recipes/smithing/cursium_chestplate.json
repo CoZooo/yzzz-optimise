@@ -10,6 +10,6 @@
         "item": "cataclysm:cursium_chestplate"
     },
     "template": {
-        "item": "cataclysm:cursium_upgrade_smithing_template"
+        "item": "callfromthedepth_:immemorialupgradesmithingtemplate"
     }
 }

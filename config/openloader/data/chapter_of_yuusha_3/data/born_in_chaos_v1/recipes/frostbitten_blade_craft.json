@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "reliquary:phoenix_down"
+    "item": "eidolon:silver_ingot"
   },
   "base": {
     "item": "minecraft:diamond_sword"

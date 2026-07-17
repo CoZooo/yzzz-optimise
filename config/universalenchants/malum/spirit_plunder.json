@@ -6,7 +6,19 @@
     "irons_spellbooks:graybeard_staff",
     "tacz:modern_kinetic_gun",
     "too_many_bows:verdant_viper",
-    "enigmaticaddons:quartz_scepter"
+    "enigmaticaddons:quartz_scepter",
+    "goety:dark_wand",
+    "goety:necro_staff",
+    "goety:wind_staff",
+    "goety:storm_staff",
+    "goety:frost_staff",
+    "goety:wild_staff",
+    "goety:nether_staff",
+    "goety:nameless_staff",
+    "goety:ominous_staff",
+    "goety:abyss_staff",
+    "goety:geo_staff",
+    "goety:void_staff"
   ],
   "incompatible": [
     "majruszsenchantments:incompatibility_curse"

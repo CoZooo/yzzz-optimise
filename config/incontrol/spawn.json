@@ -535,7 +535,13 @@
 		"when": "onjoin",
 		"healthset": 68500,
 		"knockbackresistanceset": 10,
-		"mob": ["cthulhufishing:obsessed_eye_minion", "infinite_abyss:puffball", "hs_bosses:sand_warrior"]
+		"damageadd": 100,
+		"mob": ["hs_bosses:sand_warrior"]
+	},
+	{
+		"when": "onjoin",
+		"healthset": 68500,
+		"mob": ["cthulhufishing:obsessed_eye_minion", "infinite_abyss:puffball"]
 	},
 	{
 		"when": "onjoin",

@@ -31,6 +31,7 @@ import crafttweaker.api.ingredient.IIngredient;
 
 
 //魔法类
+//<item:aetherworks:crossbow_magma>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.flame_tongue_sword.2", 10000, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:refined_mod:flame_tongue_sword>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.flame_tongue_sword.2", 505, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:goety:dark_metal_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_damage> , "attribute.dark_metal_scythe.4", 1000, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 
@@ -302,10 +303,10 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:eidolon:warlock_hat>.anyDamage().addGlobalAttributeModifier(<attribute:lodestone:magic_proficiency> , "attribute.warlock_hat.4", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 
 
-<item:malum:soul_hunter_cloak>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_cloak.3", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:malum:soul_hunter_robe>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_robe.3", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:malum:soul_hunter_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_leggings.3", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:malum:soul_hunter_boots>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_boots.3", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+<item:malum:soul_hunter_cloak>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_cloak.3", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:malum:soul_hunter_robe>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_robe.3", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:malum:soul_hunter_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_leggings.3", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:malum:soul_hunter_boots>.anyDamage().addGlobalAttributeModifier(<attribute:eidolon:magic_power> , "attribute.soul_hunter_boots.3", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 <item:malum:soul_hunter_cloak>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:max_mana> , "attribute.soul_hunter_cloak.4", 425, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:malum:soul_hunter_robe>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:max_mana> , "attribute.soul_hunter_robe.4", 425, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:malum:soul_hunter_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:irons_spellbooks:max_mana> , "attribute.soul_hunter_leggings.4", 425, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
@@ -359,23 +360,31 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:cataclysm:ignitium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:moonstone:cit>,  "attribute.ignitium_boots.2", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 
 //远程盔甲
+/*
 <item:sons_of_sins:remnant_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.remnant_helmet.1", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 <item:sons_of_sins:remnant_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.remnant_chestplate.1", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:sons_of_sins:remnant_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.remnant_leggings.1", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
 <item:sons_of_sins:remnant_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>,  "attribute.remnant_boots.1", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:sons_of_sins:remnant_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.remnant_helmet.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:sons_of_sins:remnant_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.remnant_chestplate.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:sons_of_sins:remnant_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.remnant_leggings.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:sons_of_sins:remnant_boots>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage>,  "attribute.remnant_boots.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-
 <item:cataclysm:cursium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.cursium_helmet.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 <item:cataclysm:cursium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.cursium_chestplate.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:cataclysm:cursium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed> , "attribute.cursium_leggings.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
 <item:cataclysm:cursium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>,  "attribute.cursium_boots.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:cataclysm:cursium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.cursium_helmet.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:cataclysm:cursium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.cursium_chestplate.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:cataclysm:cursium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage> , "attribute.cursium_leggings.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:cataclysm:cursium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:puffish_attributes:player.ranged_damage>,  "attribute.cursium_boots.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+*/
+
+<item:stalwart_dungeons:warted_tungsten_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.warted_tungsten_helmet.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:stalwart_dungeons:warted_tungsten_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.warted_tungsten_chestplate.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:stalwart_dungeons:warted_tungsten_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.warted_tungsten_leggings.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:stalwart_dungeons:warted_tungsten_boots>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage>,  "attribute.warted_tungsten_boots.2", 0.05, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:sons_of_sins:remnant_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.remnant_helmet.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:sons_of_sins:remnant_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.remnant_chestplate.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:sons_of_sins:remnant_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.remnant_leggings.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:sons_of_sins:remnant_boots>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage>,  "attribute.remnant_boots.2", 0.1, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
+
+<item:cataclysm:cursium_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.cursium_helmet.2", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:cataclysm:cursium_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.cursium_chestplate.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:cataclysm:cursium_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.cursium_leggings.2", 0.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:cataclysm:cursium_boots>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage>,  "attribute.cursium_boots.2", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 
 //拳套
 <item:gauntlets:iron_gauntlet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.attack_damage> , "attribute.iron_gauntlet", 20, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);

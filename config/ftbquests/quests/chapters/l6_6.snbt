@@ -141,8 +141,8 @@
 				item: "bhc:heart_amulet"
 				type: "item"
 			}]
-			x: -31.5d
-			y: -21.0d
+			x: -32.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -159,8 +159,8 @@
 				item: "bhc:red_heart_canister"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -21.0d
+			x: -30.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -177,8 +177,8 @@
 				item: "bhc:green_heart_canister"
 				type: "item"
 			}]
-			x: -26.5d
-			y: -21.0d
+			x: -27.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -195,8 +195,8 @@
 				item: "bhc:yellow_heart_canister"
 				type: "item"
 			}]
-			x: -28.5d
-			y: -21.0d
+			x: -29.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -213,8 +213,8 @@
 				item: "bhc:blue_heart_canister"
 				type: "item"
 			}]
-			x: -27.5d
-			y: -21.0d
+			x: -28.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -427,7 +427,7 @@
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -5.0d
 		}
 		{
@@ -473,13 +473,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "20918EE9A2E31575"
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			x: -25.5d
-			y: -25.5d
+			x: -27.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -524,13 +525,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "36E1BE267C1B94C7"
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			x: -27.5d
-			y: -25.5d
+			x: -26.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -682,8 +684,8 @@
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			x: 20.5d
-			y: -32.0d
+			x: 27.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -699,8 +701,8 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -32.0d
+			x: 27.5d
+			y: -30.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -711,13 +713,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0C6D10E3B6CB5751"
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
 			x: -31.5d
-			y: -25.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -750,8 +753,8 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: 27.5d
-			y: -30.5d
+			x: -28.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -809,17 +812,18 @@
 			description: ["详看[树海化]章节中[奇异饰品]。"]
 			id: "69B3AFE36C651BB3"
 			rewards: [{
-				id: "4C98176C04A80C6E"
-				table_id: 2805430797220875844L
-				type: "random"
+				id: "0CD29F376951F624"
+				type: "xp"
+				xp: 1
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "01B7761986E681FF"
-				item: "artifacts:obsidian_skull"
+				item: "confluence:lucky_horseshoe"
 				type: "item"
 			}]
-			x: -26.5d
-			y: -25.5d
+			x: -32.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -852,8 +856,8 @@
 				item: "artifacts:crystal_heart"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -25.5d
+			x: -32.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -923,7 +927,7 @@
 				item: "moonstone:detect"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -19.5d
 		}
 		{
@@ -973,8 +977,8 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: -28.5d
-			y: -25.5d
+			x: 27.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -998,8 +1002,8 @@
 				item: "enigmaticlegacy:golem_heart"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -22.5d
+			x: -31.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1019,8 +1023,8 @@
 				item: "enigmaticlegacy:angel_blessing"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -22.5d
+			x: -30.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1044,7 +1048,7 @@
 				item: "enigmaticlegacy:ocean_stone"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -26.5d
 			y: -22.5d
 		}
 		{
@@ -1065,8 +1069,8 @@
 				item: "enigmaticlegacy:blazing_core"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -22.5d
+			x: -30.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1086,8 +1090,8 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -22.5d
+			x: -29.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1107,8 +1111,8 @@
 				item: "enigmaticlegacy:heaven_scroll"
 				type: "item"
 			}]
-			x: -30.5d
-			y: -7.5d
+			x: 22.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1124,8 +1128,8 @@
 				item: "enigmaticlegacy:fabulous_scroll"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -7.5d
+			x: 23.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -1141,7 +1145,7 @@
 				item: "enigmaticlegacy:magnet_ring"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -12.5d
 		}
 		{
@@ -1181,7 +1185,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
+			x: 20.5d
 			y: -3.5d
 		}
 		{
@@ -1205,7 +1209,7 @@
 				item: "enigmaticlegacy:animal_guidebook"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -12.5d
 		}
 		{
@@ -1232,7 +1236,7 @@
 				item: "enigmaticlegacy:forbidden_fruit"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -11.0d
 		}
 		{
@@ -1253,7 +1257,7 @@
 				item: "enigmaticlegacy:redemption_potion"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -11.0d
 		}
 		{
@@ -1291,7 +1295,7 @@
 				item: "enigmaticlegacy:infinimeal"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -12.5d
 		}
 		{
@@ -1309,7 +1313,7 @@
 				item: "enigmaticlegacy:twisted_mirror"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -11.0d
 		}
 		{
@@ -1396,7 +1400,7 @@
 				item: "enigmaticlegacy:guardian_heart"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -11.0d
 		}
 		{
@@ -1414,7 +1418,7 @@
 				item: "enigmaticlegacy:cursed_stone"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -11.0d
 		}
 		{
@@ -1438,7 +1442,7 @@
 				item: "enigmaticlegacy:avarice_scroll"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -11.0d
 		}
 		{
@@ -1463,7 +1467,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -11.0d
 		}
 		{
@@ -1523,7 +1527,7 @@
 				}
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -15.0d
 		}
 		{
@@ -1595,7 +1599,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -18.5d
 		}
 		{
@@ -1630,7 +1634,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -18.5d
 		}
 		{
@@ -1782,7 +1786,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -18.5d
 		}
 		{
@@ -1950,8 +1954,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -20.0d
+			x: 27.5d
+			y: -18.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2071,7 +2075,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -18.5d
 		}
 		{
@@ -2179,8 +2183,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.5d
-			y: -21.5d
+			x: 18.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2217,7 +2221,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -18.5d
 		}
 		{
@@ -2266,7 +2270,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -18.5d
 		}
 		{
@@ -2316,7 +2320,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -18.5d
 		}
 		{
@@ -2400,8 +2404,8 @@
 				}
 				type: "item"
 			}]
-			x: 26.5d
-			y: -21.5d
+			x: 19.5d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2455,7 +2459,7 @@
 				item: "majruszsaccessories:golden_dice"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 19.5d
 			y: -23.0d
 		}
 		{
@@ -2589,7 +2593,7 @@
 				item: "majruszsaccessories:dice"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 18.5d
 			y: -23.0d
 		}
 		{
@@ -2630,7 +2634,7 @@
 				item: "nameless_trinkets:amphibious_hands"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -18.5d
 		}
 		{
@@ -2647,7 +2651,7 @@
 				item: "nameless_trinkets:gills"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -18.5d
 		}
 		{
@@ -2664,7 +2668,7 @@
 				item: "nameless_trinkets:ice_cube"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -17.0d
 		}
 		{
@@ -2681,7 +2685,7 @@
 				item: "nameless_trinkets:sleeping_pills"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -17.0d
 		}
 		{
@@ -2698,7 +2702,7 @@
 				item: "nameless_trinkets:lucky_rock"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -17.0d
 		}
 		{
@@ -2715,7 +2719,7 @@
 				item: "nameless_trinkets:dragons_eye"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -15.5d
 		}
 		{
@@ -2737,8 +2741,8 @@
 				item: "nameless_trinkets:blaze_nucleus"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -24.0d
+			x: 27.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2754,7 +2758,7 @@
 				item: "nameless_trinkets:experience_magnet"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -17.0d
 		}
 		{
@@ -2771,7 +2775,7 @@
 				item: "nameless_trinkets:puffer_fish_liver"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -17.0d
 		}
 		{
@@ -2788,7 +2792,7 @@
 				item: "nameless_trinkets:nelumbo"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -17.0d
 		}
 		{
@@ -2805,7 +2809,7 @@
 				item: "nameless_trinkets:dark_nelumbo"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -17.0d
 		}
 		{
@@ -2822,7 +2826,7 @@
 				item: "nameless_trinkets:pocket_lightning_rod"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -17.0d
 		}
 		{
@@ -2839,7 +2843,7 @@
 				item: "nameless_trinkets:spider_legs"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -15.5d
 		}
 		{
@@ -2856,7 +2860,7 @@
 				item: "nameless_trinkets:blindfold"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -15.5d
 		}
 		{
@@ -2873,8 +2877,8 @@
 				item: "nameless_trinkets:wooden_stick"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -24.0d
+			x: -32.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -2890,7 +2894,7 @@
 				item: "nameless_trinkets:moon_stone"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -17.0d
 		}
 		{
@@ -2907,7 +2911,7 @@
 				item: "nameless_trinkets:scarab_amulet"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -15.5d
 		}
 		{
@@ -2946,7 +2950,7 @@
 				item: "nameless_trinkets:electric_paddle"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -15.5d
 		}
 		{
@@ -2963,7 +2967,7 @@
 				item: "nameless_trinkets:experience_battery"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -15.5d
 		}
 		{
@@ -2986,7 +2990,7 @@
 				item: "nameless_trinkets:ethereal_wings"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 25.5d
 			y: -5.0d
 		}
 		{
@@ -3021,7 +3025,7 @@
 				item: "nameless_trinkets:tear_of_the_sea"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -14.0d
 		}
 		{
@@ -3038,7 +3042,7 @@
 				item: "nameless_trinkets:ghast_eye"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -14.0d
 		}
 		{
@@ -3055,16 +3059,22 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "5C452DBD5BAC62BF"
 				item: "nameless_trinkets:fractured_nullstone"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -24.0d
+			x: -24.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"需要放入“培养皿”饰品后才会生效。"
+				""
+				"&c疑似效果不生效。"
+			]
 			id: "0EFB1148648AA31E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3074,11 +3084,11 @@
 			}]
 			tasks: [{
 				id: "6364D9359712D03B"
-				item: "nameless_trinkets:fragile_cloud"
+				item: "moonstone:cell_inheritance"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -24.0d
+			x: -32.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3102,7 +3112,7 @@
 				item: "nameless_trinkets:tick"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -14.0d
 		}
 		{
@@ -3119,7 +3129,7 @@
 				item: "nameless_trinkets:callus"
 				type: "item"
 			}]
-			x: -27.0d
+			x: -25.5d
 			y: -24.0d
 		}
 		{
@@ -3136,7 +3146,7 @@
 				item: "nameless_trinkets:speed_force"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -15.5d
 		}
 		{
@@ -3153,7 +3163,7 @@
 				item: "nameless_trinkets:fertilizer"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -15.5d
 		}
 		{
@@ -3172,8 +3182,8 @@
 				item: "nameless_trinkets:cracked_crown"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -18.0d
+			x: 6.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3207,7 +3217,7 @@
 				item: "nameless_trinkets:fate_emerald"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -14.0d
 		}
 		{
@@ -3224,7 +3234,7 @@
 				item: "nameless_trinkets:miners_soul"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 18.5d
 			y: -3.5d
 		}
 		{
@@ -3241,7 +3251,7 @@
 				item: "nameless_trinkets:reforger"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -14.0d
 		}
 		{
@@ -3259,7 +3269,7 @@
 				item: "nameless_trinkets:four_leaf_clover"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 25.5d
 			y: -3.5d
 		}
 		{
@@ -3277,7 +3287,7 @@
 				item: "nameless_trinkets:reverse_card"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -14.0d
 		}
 		{
@@ -3294,7 +3304,7 @@
 				item: "nameless_trinkets:true_heart_of_the_sea"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -14.0d
 		}
 		{
@@ -3317,8 +3327,8 @@
 				item: "nameless_trinkets:sigil_of_baphomet"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -24.0d
+			x: 27.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3334,8 +3344,8 @@
 				item: "nameless_trinkets:broken_ankh"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -24.0d
+			x: 27.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3351,7 +3361,7 @@
 				item: "nameless_trinkets:light_gloves"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -14.0d
 		}
 		{
@@ -3416,8 +3426,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.5d
-			y: -28.5d
+			x: -26.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3428,17 +3438,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4A11C712BBD2BCC6"
-				item: {
-					Count: 1
-					id: "tarotcards:the_tower"
-					tag: { }
-				}
+				item: "confluence:ankh_charm"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -27.0d
+			x: -33.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3458,8 +3465,8 @@
 				}
 				type: "item"
 			}]
-			x: -26.5d
-			y: -28.5d
+			x: 25.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3479,7 +3486,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.5d
+			x: 21.5d
 			y: -21.5d
 		}
 		{
@@ -3491,6 +3498,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "1F9EB8B1FB6B9623"
 				item: {
@@ -3500,8 +3508,8 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
-			y: -23.0d
+			x: -29.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3521,8 +3529,8 @@
 				}
 				type: "item"
 			}]
-			x: -32.0d
-			y: -27.0d
+			x: -28.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3542,7 +3550,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.5d
+			x: 23.5d
 			y: -21.5d
 		}
 		{
@@ -3563,7 +3571,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
+			x: 20.5d
 			y: -21.5d
 		}
 		{
@@ -3584,7 +3592,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
+			x: 25.5d
 			y: -23.0d
 		}
 		{
@@ -3648,7 +3656,7 @@
 				}
 				type: "item"
 			}]
-			x: 25.5d
+			x: 24.5d
 			y: -21.5d
 		}
 		{
@@ -3669,8 +3677,8 @@
 				}
 				type: "item"
 			}]
-			x: -31.0d
-			y: -27.0d
+			x: 26.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3690,7 +3698,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.5d
+			x: 18.5d
 			y: -21.5d
 		}
 		{
@@ -3732,7 +3740,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
+			x: 22.5d
 			y: -21.5d
 		}
 		{
@@ -3753,7 +3761,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.5d
 			y: -21.5d
 		}
 		{
@@ -3765,6 +3773,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2216C0C73E106BA1"
 				item: {
@@ -3774,8 +3783,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
-			y: -23.0d
+			x: -27.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3791,11 +3800,12 @@
 				item: "moonstone:soulcube"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -10.5d
+			x: -31.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
 			id: "55413A465BD9BF79"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -3805,15 +3815,11 @@
 			}]
 			tasks: [{
 				id: "6CDC1F0746593F99"
-				item: {
-					Count: 1
-					id: "tarotcards:the_magician"
-					tag: { }
-				}
+				item: "goety_revelation:halo_of_the_end"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -21.5d
+			x: -25.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4247,7 +4253,7 @@
 				item: "enigmaticlegacy:astral_fruit"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -14.0d
 		}
 		{
@@ -4271,8 +4277,8 @@
 				}
 				type: "item"
 			}]
-			x: -28.5d
-			y: -7.5d
+			x: 24.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4290,7 +4296,7 @@
 				item: "enigmaticlegacy:soul_compass"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -11.0d
 		}
 		{
@@ -4340,7 +4346,7 @@
 				item: "enigmaticlegacy:ichor_bottle"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -12.5d
 		}
 		{
@@ -4590,7 +4596,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -12.5d
 		}
 		{
@@ -4645,11 +4651,11 @@
 			}]
 			tasks: [{
 				id: "2CC00BB69FC6451D"
-				item: "artifacts:chorus_totem"
+				item: "moonstone:nightmare_base_redemption_degenerate"
 				type: "item"
 			}]
-			x: -30.5d
-			y: -25.5d
+			x: -29.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4671,7 +4677,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: ["详看[树海化]章节中[奇异饰品]。"]
+			description: ["详看[大满开]章节。"]
 			id: "2C75B8513E49777D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4681,11 +4687,11 @@
 			}]
 			tasks: [{
 				id: "00998998121C54CE"
-				item: "artifacts:snowshoes"
+				item: "enigmaticlegacy:enigmatic_item"
 				type: "item"
 			}]
-			x: 27.5d
-			y: -29.0d
+			x: -27.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4731,25 +4737,6 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			description: ["只能放进灵魂项链中，作用和不死图腾一样，碎裂之后会变回蓝心容器，变回的蓝心容器会进入到物品栏。"]
-			hide_dependency_lines: true
-			id: "63966B12C753DC34"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "27BF47FCC3EB232D"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "31BCA5711550C036"
-				item: "bhc:soul_heart_canister"
-				type: "item"
-			}]
-			x: -25.5d
-			y: -21.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
 			description: ["作用同心之项链，在此基础上还可以容纳魂心容器。"]
 			hide_dependency_lines: true
 			id: "32A6558E3353C3F7"
@@ -4764,8 +4751,8 @@
 				item: "bhc:soul_heart_amulet"
 				type: "item"
 			}]
-			x: -30.5d
-			y: -21.0d
+			x: -31.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5174,7 +5161,7 @@
 				item: "majruszsaccessories:onyx"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 20.5d
 			y: -23.0d
 		}
 		{
@@ -5196,7 +5183,7 @@
 				item: "majruszsaccessories:gambling_card"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 22.5d
 			y: -23.0d
 		}
 		{
@@ -5218,7 +5205,7 @@
 				item: "majruszsaccessories:removal_card"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 21.5d
 			y: -23.0d
 		}
 		{
@@ -5240,7 +5227,7 @@
 				item: "majruszsaccessories:reverse_card"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 23.5d
 			y: -23.0d
 		}
 		{
@@ -5266,6 +5253,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["与右边二选一佩戴即可。"]
 			id: "3B98173088F295DF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5273,6 +5261,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "1369333C9A1D119E"
 				item: {
@@ -5284,8 +5273,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: -18.0d
+			x: -32.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5305,7 +5294,7 @@
 				item: "enigmaticlegacy:unholy_grail"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -12.5d
 		}
 		{
@@ -5322,7 +5311,7 @@
 				item: "confluence:magic_mirror"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -9.5d
 		}
 		{
@@ -5339,8 +5328,8 @@
 				item: "confluence:bezoar"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -15.0d
+			x: -33.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5356,7 +5345,7 @@
 				item: "confluence:cell_phone"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -9.5d
 		}
 		{
@@ -5373,8 +5362,8 @@
 				item: "confluence:holy_water"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -15.0d
+			x: -32.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5390,8 +5379,8 @@
 				item: "confluence:vitamins"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -15.0d
+			x: -31.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5407,8 +5396,8 @@
 				item: "confluence:energy_bar"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -15.0d
+			x: -30.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5424,8 +5413,8 @@
 				item: "confluence:blindfold"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -15.0d
+			x: -29.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5441,8 +5430,8 @@
 				item: "confluence:flashlight"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -15.0d
+			x: -28.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5458,8 +5447,8 @@
 				item: "confluence:fast_clock"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -15.0d
+			x: -27.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5475,8 +5464,8 @@
 				item: "confluence:trifold_map"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -13.5d
+			x: -26.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5492,8 +5481,8 @@
 				item: "confluence:hand_drill"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -13.5d
+			x: -25.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5509,8 +5498,8 @@
 				item: "confluence:shot_put"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -13.5d
+			x: -24.5d
+			y: -30.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5526,8 +5515,8 @@
 				item: "confluence:ankh_shield"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -12.0d
+			x: 18.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5557,14 +5546,15 @@
 			}]
 			tasks: [{
 				id: "1C6560FA1729C9A7"
-				item: "confluence:star_cloak"
+				item: "confluence:moon_stone"
 				type: "item"
 			}]
-			x: -27.5d
-			y: -7.5d
+			x: -29.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["需要佩戴能够提供符文栏位的胸针后，才能佩戴。"]
 			id: "42BA13442A1E68DC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5574,11 +5564,11 @@
 			}]
 			tasks: [{
 				id: "578086E997854D77"
-				item: "confluence:cross_necklace"
+				item: "malum:rune_of_bolstering"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -15.0d
+			x: -28.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5594,11 +5584,12 @@
 				item: "confluence:black_belt"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -13.5d
+			x: 27.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["需要佩戴“堕井”饰品以提供哭泣槽位。"]
 			id: "36B04B09FBB704C3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5608,11 +5599,11 @@
 			}]
 			tasks: [{
 				id: "203EF61A10D0A604"
-				item: "confluence:cobalt_shield"
+				item: "malstone:huge_soul"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -12.0d
+			x: -26.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5645,7 +5636,7 @@
 				item: "confluence:warrior_emblem"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -19.5d
 		}
 		{
@@ -5663,7 +5654,7 @@
 				type: "item"
 			}]
 			x: -32.0d
-			y: -13.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5679,8 +5670,8 @@
 				item: "confluence:paladins_shield"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -13.5d
+			x: -29.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5696,8 +5687,8 @@
 				item: "confluence:frozen_turtle_shell"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -12.0d
+			x: 19.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5748,8 +5739,8 @@
 				item: "confluence:hero_shield"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -13.5d
+			x: -27.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5792,7 +5783,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -9.5d
 		}
 		{
@@ -5823,14 +5814,15 @@
 			}]
 			tasks: [{
 				id: "1E0C135D984E3032"
-				item: "confluence:obsidian_skull"
+				item: "moonstone:immortal"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -13.5d
+			x: -29.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["两件饰品同时佩戴时，提供5%生命值、护甲值、近战伤害加成，同时提供三个噩梦之槽栏位。"]
 			id: "7E0E20D00F79E663"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5838,12 +5830,20 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "4702585B958CE3A2"
-				item: "confluence:hand_warmer"
-				type: "item"
-			}]
-			x: -28.0d
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4702585B958CE3A2"
+					item: "moonstone:nightmare_base"
+					type: "item"
+				}
+				{
+					id: "740A7A6BBAD36FDE"
+					item: "moonstone:nightmare_base_redemption_down_and_out"
+					type: "item"
+				}
+			]
+			x: -26.0d
 			y: -13.5d
 		}
 		{
@@ -5860,7 +5860,7 @@
 				item: "malstone:white_arrow_blade"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.0d
 			y: -18.0d
 		}
 		{
@@ -5901,18 +5901,18 @@
 			dependencies: ["6D17311DA4F0AB14"]
 			id: "5554B7446F3113FD"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "748FF5661E9D72D5"
-				table_id: 2805430797220875844L
-				type: "random"
+				id: "1DBE7A411504AAAF"
+				type: "xp"
+				xp: 1
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4D62CE391D660565"
-				item: "confluence:band_of_regeneration"
+				item: "enigmaticlegacy:berserk_charm"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -15.0d
+			x: -29.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5928,11 +5928,12 @@
 				item: "confluence:magiluminescence"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["与左边二选一佩戴即可。"]
 			id: "2B82D8061B308AB6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -5940,13 +5941,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "64FFFE2E542721DE"
-				item: "confluence:lava_charm"
+				item: "irons_spellbooks:fireward_ring"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -12.0d
+			x: -31.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -5980,7 +5982,7 @@
 				item: "confluence:royal_gel"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -9.5d
 		}
 		{
@@ -5992,13 +5994,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "53722456708A6F9F"
 				item: "confluence:worm_scarf"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -12.0d
+			x: -30.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6014,7 +6017,7 @@
 				item: "confluence:gravity_globe"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -9.5d
 		}
 		{
@@ -6035,8 +6038,8 @@
 				}
 				type: "item"
 			}]
-			x: -29.0d
-			y: -12.0d
+			x: 20.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6052,8 +6055,8 @@
 				item: "confluence:master_ninja_gear"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -12.0d
+			x: 21.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6103,7 +6106,7 @@
 				item: "confluence:frog_gear"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -9.5d
 		}
 		{
@@ -6142,7 +6145,7 @@
 				item: "moonstone:mhead"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 21.5d
 			y: -8.0d
 		}
 		{
@@ -6171,13 +6174,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "5424404738625830"
-				item: "moonstone:ectoplasmtree"
+				item: "confluence:celestial_stone"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -10.5d
+			x: -27.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6194,7 +6198,7 @@
 				type: "item"
 			}]
 			x: -30.0d
-			y: -10.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6227,8 +6231,8 @@
 				item: "moonstone:ectoplasmshild"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -10.5d
+			x: -29.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6244,8 +6248,8 @@
 				item: "moonstone:ectoplasmhorseshoe"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -10.5d
+			x: -27.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6261,8 +6265,8 @@
 				item: "moonstone:medicinebox"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -27.0d
+			x: 20.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6278,11 +6282,12 @@
 				item: "malstone:breaking_the_weapon"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -19.5d
+			x: -14.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["需要先食用“医药箱”获取药物栏位后才能佩戴。"]
 			id: "375C162D2DA977CC"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -6290,13 +6295,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "747980A0EDAA0E87"
 				item: "moonstone:calcification"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -27.0d
+			x: -28.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6312,8 +6318,8 @@
 				item: "moonstone:masticatory"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -27.0d
+			x: 21.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6329,8 +6335,8 @@
 				item: "moonstone:polyphagia"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -27.0d
+			x: 23.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6346,8 +6352,8 @@
 				item: "moonstone:quadriceps"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -27.0d
+			x: 22.5d
+			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6363,42 +6369,25 @@
 				item: "moonstone:reanimation"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -27.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "6CD40DF2FD69CF64"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A0B69E9E76851C2"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6E379E5DBB977216"
-				item: "moonstone:fungus"
-				type: "item"
-			}]
-			x: 21.5d
+			x: 24.5d
 			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
 			id: "7F4A95F14679090C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "752BF75CE0AB9377"
-				table_id: 2805430797220875844L
-				type: "random"
+				id: "0DE950134AC105B9"
+				type: "xp"
+				xp: 1
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4F5EE4E66D3CEF3F"
-				item: "moonstone:nightmare_base_reversal_orb"
+				item: "enigmaticaddons:quartz_ring"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -9.0d
+			x: -26.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6420,23 +6409,6 @@
 			}]
 			x: -17.0d
 			y: -16.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "1952EF750E074075"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "21DE821AA412F46C"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4483CCCEBC176AB8"
-				item: "moonstone:virus"
-				type: "item"
-			}]
-			x: 22.5d
-			y: -32.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6473,7 +6445,7 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -15.5d
 		}
 		{
@@ -6490,8 +6462,8 @@
 				item: "moonstone:nightmareeye"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -6.0d
+			x: 26.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6524,57 +6496,6 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			id: "70BE2F6C98F25961"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0AF4ED00CE1E1346"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "08C7A3D66FAEB605"
-				item: "moonstone:nightmareanchor"
-				type: "item"
-			}]
-			x: -30.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "5234CF83A0EE0F81"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "702223C32146AF2E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "72D7409838B85C37"
-				item: "moonstone:nightmarecharm"
-				type: "item"
-			}]
-			x: -31.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "038B15D7180A2062"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FDA8CEED130E827"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "400310AE836456DA"
-				item: "moonstone:nightmaremoai"
-				type: "item"
-			}]
-			x: -32.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
 			id: "0389A453A43B9549"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -6587,8 +6508,8 @@
 				item: "moonstone:nightmarestone"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -6.0d
+			x: 27.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6604,25 +6525,8 @@
 				item: "moonstone:nightmaretreasure"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 23.5d
 			y: -3.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "3CB59AF86E644E0A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C2C9D8A525E7E82"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "316F510DBA73EE91"
-				item: "moonstone:nightmare_heart"
-				type: "item"
-			}]
-			x: -26.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6638,8 +6542,8 @@
 				item: "moonstone:nightmare_orb"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -6.0d
+			x: 27.5d
+			y: -21.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6655,8 +6559,8 @@
 				item: "moonstone:nightmarewater"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -6.0d
+			x: 24.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6701,13 +6605,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "3A9B8C8166CFF435"
 				item: "moonstone:necora"
 				type: "item"
 			}]
-			x: -32.5d
-			y: -21.0d
+			x: -29.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6723,7 +6628,7 @@
 				item: "moonstone:ambush"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -6.5d
 		}
 		{
@@ -6740,7 +6645,7 @@
 				item: "moonstone:autolytic"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -6.5d
 		}
 		{
@@ -6757,7 +6662,7 @@
 				item: "moonstone:fermentation"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -19.5d
 		}
 		{
@@ -6774,7 +6679,7 @@
 				item: "moonstone:putrefactive"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -6.5d
 		}
 		{
@@ -6786,13 +6691,20 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "4B236350011CEAA2"
-				item: "moonstone:regenerative"
-				type: "item"
-			}]
-			x: -27.0d
-			y: -9.0d
+			tasks: [
+				{
+					id: "4B236350011CEAA2"
+					item: "moonstone:atp_height"
+					type: "item"
+				}
+				{
+					id: "1E94660773B48D9A"
+					item: "moonstone:cell_preferential"
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6826,7 +6738,7 @@
 				item: "moonstone:flygene"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -6.5d
 		}
 		{
@@ -6838,13 +6750,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "51ED5481A208C692"
 				item: "moonstone:heathgene"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -9.0d
+			x: -24.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6877,8 +6790,8 @@
 				item: "moonstone:cell_immortal"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -9.0d
+			x: -30.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6911,8 +6824,8 @@
 				item: "moonstone:twistedamout"
 				type: "item"
 			}]
-			x: -20.0d
-			y: -18.0d
+			x: -12.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6959,11 +6872,11 @@
 			}]
 			tasks: [{
 				id: "78370E2BC9D96F01"
-				item: "moonstone:blueamout"
+				item: "confluence:sun_stone"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -10.5d
+			x: -30.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -6976,11 +6889,11 @@
 			}]
 			tasks: [{
 				id: "0468AF165C3CF884"
-				item: "moonstone:greedamout"
+				item: "darkdoppelganger:doppelganger_ring"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -10.5d
+			x: -25.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7000,7 +6913,7 @@
 				item: "moonstone:plague_book"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -19.5d
 		}
 		{
@@ -7017,7 +6930,7 @@
 				item: "moonstone:diemug"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 23.5d
 			y: -8.0d
 		}
 		{
@@ -7029,13 +6942,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4A250ABF95F29A95"
-				item: "moonstone:evilcandle"
+				item: "cthulhufishing:frozen_crab_necklace"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -9.0d
+			x: -28.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7055,7 +6969,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
+			x: 22.5d
 			y: -8.0d
 		}
 		{
@@ -7072,8 +6986,8 @@
 				item: "moonstone:obsidianring"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -9.0d
+			x: -24.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7140,7 +7054,7 @@
 				item: "moonstone:mbottle"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.5d
 			y: -8.0d
 		}
 		{
@@ -7157,8 +7071,8 @@
 				item: "moonstone:mbox"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -10.5d
+			x: -33.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7174,7 +7088,7 @@
 				item: "moonstone:meye"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 20.5d
 			y: -8.0d
 		}
 		{
@@ -7191,8 +7105,8 @@
 				item: "moonstone:mkidney"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -8.0d
+			x: -33.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7208,8 +7122,8 @@
 				item: "moonstone:morb"
 				type: "item"
 			}]
-			x: 25.5d
-			y: -8.0d
+			x: -31.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7222,28 +7136,11 @@
 			}]
 			tasks: [{
 				id: "5A35C07A4DB092ED"
-				item: "moonstone:mring"
+				item: "meetyourfight:blossoming_mind"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
-			id: "4302C00B81D60DF5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1AEFB71ED08FCC3E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "401B74FA412A7EB7"
-				item: "moonstone:nightmare_cube"
-				type: "item"
-			}]
-			x: -28.0d
-			y: -6.0d
+			x: -30.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7259,7 +7156,7 @@
 				item: "moonstone:magiceye"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 24.5d
 			y: -3.5d
 		}
 		{
@@ -7276,7 +7173,7 @@
 				item: "moonstone:magicstone"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -19.5d
 		}
 		{
@@ -7293,7 +7190,7 @@
 				item: "moonstone:nanocube"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 25.5d
 			y: -8.0d
 		}
 		{
@@ -7310,7 +7207,7 @@
 				item: "moonstone:nanorobot"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 26.5d
 			y: -8.0d
 		}
 		{
@@ -7371,7 +7268,7 @@
 				}
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -6.5d
 		}
 		{
@@ -7416,7 +7313,7 @@
 				}
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.5d
 			y: -6.5d
 		}
 		{
@@ -7439,7 +7336,7 @@
 				}
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -6.5d
 		}
 		{
@@ -7462,7 +7359,7 @@
 				}
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -6.5d
 		}
 		{
@@ -7485,7 +7382,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -6.5d
 		}
 		{
@@ -7502,7 +7399,7 @@
 				item: "celestial_artifacts:gold_ring"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -5.0d
 		}
 		{
@@ -7520,7 +7417,7 @@
 				item: "celestial_artifacts:amethyst_ring"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -19.5d
 		}
 		{
@@ -7566,7 +7463,7 @@
 				item: "celestial_artifacts:ring_of_life"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.5d
 			y: -5.0d
 		}
 		{
@@ -7578,13 +7475,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0D34091C6F307B1B"
 				item: "celestial_artifacts:thunder_ring"
 				type: "item"
 			}]
-			x: -29.0d
-			y: -18.0d
+			x: -25.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7600,8 +7498,8 @@
 				item: "celestial_artifacts:freeze_ring"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -18.0d
+			x: -27.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7617,7 +7515,7 @@
 				item: "celestial_artifacts:war_dead_badge"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -15.0d
 		}
 		{
@@ -7629,13 +7527,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2C127A589E12256F"
 				item: "celestial_artifacts:undead_charm"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -19.5d
+			x: -30.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7651,8 +7550,8 @@
 				item: "celestial_artifacts:chaotic_etching"
 				type: "item"
 			}]
-			x: -30.5d
-			y: -28.5d
+			x: -24.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7680,13 +7579,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "606C9A89CA50DEA7"
 				item: "celestial_artifacts:life_etching"
 				type: "item"
 			}]
-			x: -28.5d
-			y: -28.5d
+			x: -24.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7697,13 +7597,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2C4B728746ADD236"
 				item: "celestial_artifacts:truth_etching"
 				type: "item"
 			}]
-			x: -32.5d
-			y: -28.5d
+			x: -26.5d
+			y: -24.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7719,8 +7620,8 @@
 				item: "celestial_artifacts:desire_etching"
 				type: "item"
 			}]
-			x: -31.5d
-			y: -28.5d
+			x: 27.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7736,8 +7637,8 @@
 				item: "celestial_artifacts:nihility_etching"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -28.5d
+			x: 27.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7753,8 +7654,8 @@
 				item: "celestial_artifacts:end_etching"
 				type: "item"
 			}]
-			x: -27.5d
-			y: -28.5d
+			x: 27.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7787,8 +7688,8 @@
 				item: "celestial_artifacts:twisted_brain"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -19.5d
+			x: -31.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7846,8 +7747,8 @@
 				item: "celestial_artifacts:cursed_protector"
 				type: "item"
 			}]
-			x: -27.5d
-			y: -16.5d
+			x: -30.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7858,12 +7759,13 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "1BE1CCA4E288C253"
 				item: "celestial_artifacts:cursed_totem"
 				type: "item"
 			}]
-			x: -26.5d
+			x: -29.0d
 			y: -16.5d
 		}
 		{
@@ -7880,7 +7782,7 @@
 				item: "celestial_artifacts:holy_talisman"
 				type: "item"
 			}]
-			x: -29.0d
+			x: -30.0d
 			y: -19.5d
 		}
 		{
@@ -7897,8 +7799,8 @@
 				item: "celestial_artifacts:angel_pearl"
 				type: "item"
 			}]
-			x: -31.0d
-			y: -18.0d
+			x: -25.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -7926,12 +7828,13 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "5329D94D22955D8B"
 				item: "celestial_artifacts:soul_box"
 				type: "item"
 			}]
-			x: -25.5d
+			x: -32.0d
 			y: -16.5d
 		}
 		{
@@ -7948,7 +7851,7 @@
 				item: "celestial_artifacts:solar_magnet"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -19.0d
 			y: -19.5d
 		}
 		{
@@ -7965,8 +7868,8 @@
 				item: "celestial_artifacts:gluttony_badge"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -19.5d
+			x: -28.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8010,8 +7913,8 @@
 				item: "celestial_artifacts:bearing_stamen"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -19.5d
+			x: -25.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8044,7 +7947,7 @@
 				item: "celestial_artifacts:sands_talisman"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -18.0d
 			y: -19.5d
 		}
 		{
@@ -8061,8 +7964,8 @@
 				item: "celestial_artifacts:sacrificial_object"
 				type: "item"
 			}]
-			x: -28.5d
-			y: -16.5d
+			x: -32.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8119,7 +8022,7 @@
 				item: "celestial_artifacts:greedy_heart"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.5d
 			y: -3.5d
 		}
 		{
@@ -8137,7 +8040,7 @@
 				item: "celestial_artifacts:demon_heart"
 				type: "item"
 			}]
-			x: -18.0d
+			x: -19.0d
 			y: -18.0d
 		}
 		{
@@ -8154,7 +8057,7 @@
 				item: "celestial_artifacts:traveler_scroll"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: -9.5d
 		}
 		{
@@ -8172,7 +8075,7 @@
 				item: "confluence:fire_gauntlet"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: -18.0d
 		}
 		{
@@ -8189,7 +8092,7 @@
 				item: "celestial_artifacts:skywalker_scroll"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 26.5d
 			y: -9.5d
 		}
 		{
@@ -8219,11 +8122,11 @@
 			}]
 			tasks: [{
 				id: "2E7CA3C00C2C2442"
-				item: "celestial_artifacts:life_bracelet"
+				item: "celestial_artifacts:knight_shelter"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -18.0d
+			x: -31.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8239,8 +8142,8 @@
 				item: "celestial_artifacts:precious_bracelet"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -18.0d
+			x: -28.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8256,7 +8159,7 @@
 				item: "celestial_artifacts:twisted_scroll"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 22.5d
 			y: -3.5d
 		}
 		{
@@ -8274,8 +8177,8 @@
 				item: "celestial_artifacts:red_ruby_bracelet"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -18.0d
+			x: 27.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8291,8 +8194,8 @@
 				item: "celestial_artifacts:hidden_bracelet"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -24.0d
+			x: 26.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8308,8 +8211,8 @@
 				item: "celestial_artifacts:scarlet_bracelet"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -22.5d
+			x: 26.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8343,7 +8246,7 @@
 				item: "celestial_artifacts:chaotic_pendant"
 				type: "item"
 			}]
-			x: 26.0d
+			x: 24.5d
 			y: -5.0d
 		}
 		{
@@ -8394,8 +8297,8 @@
 				item: "celestial_artifacts:cross_necklace"
 				type: "item"
 			}]
-			x: -27.0d
-			y: -19.5d
+			x: 26.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8462,8 +8365,8 @@
 				item: "celestial_artifacts:holy_necklace"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -19.5d
+			x: -32.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8496,8 +8399,8 @@
 				item: "celestial_artifacts:red_heart_necklace"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -19.5d
+			x: -25.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8519,6 +8422,12 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"佩戴后玩家可以免疫受到的所有弹射物伤害。"
+				""
+				"&6可能对某些极为难缠的Boss有特效。"
+				""
+			]
 			id: "57DC7941876D1E24"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8526,13 +8435,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "41DD2E205604BD0A"
-				item: "celestial_artifacts:ender_protector"
+				item: "eidolon:terminus_mirror"
 				type: "item"
 			}]
-			x: -28.0d
-			y: -19.5d
+			x: -33.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8592,7 +8502,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 11.0d
 			y: -19.5d
 		}
 		{
@@ -8609,8 +8519,8 @@
 				item: "celestial_artifacts:prayer_crown"
 				type: "item"
 			}]
-			x: -31.5d
-			y: -16.5d
+			x: -33.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8626,8 +8536,8 @@
 				item: "celestial_artifacts:guardian_eye"
 				type: "item"
 			}]
-			x: 22.0d
-			y: -5.0d
+			x: -30.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8643,8 +8553,8 @@
 				item: "celestial_artifacts:evil_eye"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -32.0d
+			x: 27.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8660,8 +8570,8 @@
 				item: "celestial_artifacts:abyss_core"
 				type: "item"
 			}]
-			x: -29.5d
-			y: -16.5d
+			x: 25.5d
+			y: -33.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8716,7 +8626,7 @@
 				item: "celestial_artifacts:yellow_duck"
 				type: "item"
 			}]
-			x: 25.0d
+			x: 23.5d
 			y: -5.0d
 		}
 		{
@@ -8738,8 +8648,8 @@
 				item: "celestial_artifacts:angel_desire"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -18.0d
+			x: -24.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8794,6 +8704,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["需要佩戴“堕井”饰品以提供哭泣槽位。"]
 			id: "5A1C2E733729DF54"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -8803,11 +8714,11 @@
 			}]
 			tasks: [{
 				id: "07B353A1A1EE33A7"
-				item: "celestial_artifacts:forest_cloak"
+				item: "malstone:corpse_cauldron"
 				type: "item"
 			}]
-			x: -30.5d
-			y: -16.5d
+			x: -29.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -8823,7 +8734,7 @@
 				item: "celestial_artifacts:leech_scabbard"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: -19.5d
 		}
 		{
@@ -8875,7 +8786,7 @@
 				item: "celestial_artifacts:repent_mirror"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 21.5d
 			y: -5.0d
 		}
 		{
@@ -8892,7 +8803,7 @@
 				item: "celestial_artifacts:backtrack_mirror"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 22.5d
 			y: -5.0d
 		}
 		{
@@ -8926,7 +8837,7 @@
 				item: "enigmaticaddons:ode_to_living"
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.5d
 			y: -12.5d
 		}
 		{
@@ -8975,13 +8886,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2767D8F45878F843"
 				item: "enigmaticaddons:revival_leaf"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -22.5d
+			x: -25.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9020,7 +8932,7 @@
 				item: "enigmaticaddons:void_tome"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -12.5d
 		}
 		{
@@ -9037,7 +8949,7 @@
 				item: "enigmaticaddons:forger_gem"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.5d
 			y: -12.5d
 		}
 		{
@@ -9054,8 +8966,8 @@
 				item: "enigmaticaddons:earth_promise"
 				type: "item"
 			}]
-			x: -32.0d
-			y: -22.5d
+			x: -31.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9075,7 +8987,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.0d
+			x: -20.0d
 			y: -18.0d
 		}
 		{
@@ -9131,6 +9043,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
 			id: "466282E721EFB296"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9138,14 +9051,13 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "&c承受无咒之人才能使用该物品"
 			tasks: [{
 				id: "715446A5B43FA58C"
-				item: "enigmaticlegacy:twisted_potion"
+				item: "goety_revelation:ascension_halo"
 				type: "item"
 			}]
-			x: 22.0d
-			y: -11.0d
+			x: -26.0d
+			y: -27.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9168,8 +9080,8 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: -22.5d
+			x: 21.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9297,7 +9209,7 @@
 				item: "moonstone:the_heart"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 21.5d
 			y: -3.5d
 		}
 		{
@@ -9339,11 +9251,11 @@
 			}]
 			tasks: [{
 				id: "4B1D5419B73C4E47"
-				item: "enigmaticlegacy:hunter_guidebook"
+				item: "goety_revelation:dimensional_will"
 				type: "item"
 			}]
 			x: -33.0d
-			y: -18.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9354,13 +9266,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "77DF57F455DF7FBD"
 				item: "moonstone:nightmare_base_start_pod"
 				type: "item"
 			}]
-			x: -26.0d
-			y: -9.0d
+			x: -33.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9411,8 +9324,8 @@
 				item: "moonstone:nightmare_base_fool_soul"
 				type: "item"
 			}]
-			x: -30.0d
-			y: -9.0d
+			x: -33.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9432,7 +9345,7 @@
 				item: "moonstone:tumour"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -19.5d
 		}
 		{
@@ -9449,8 +9362,8 @@
 				item: "moonstone:maxamout"
 				type: "item"
 			}]
-			x: -31.5d
-			y: -7.5d
+			x: -25.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9498,7 +9411,7 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
+			x: -16.0d
 			y: -19.5d
 		}
 		{
@@ -9548,23 +9461,6 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
-			id: "5D2FDCBB57D755AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F7711473FFDB83E"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2F3857CCCCE3CB76"
-				item: "goety:warlock_robe"
-				type: "item"
-			}]
-			x: -26.0d
-			y: -12.0d
-		}
-		{
-			dependencies: ["6D17311DA4F0AB14"]
 			id: "50B0C2E76D8D54B2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -9572,6 +9468,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2C0DD32D3964DE5C"
 				item: {
@@ -9583,25 +9480,34 @@
 				}
 				type: "item"
 			}]
-			x: -25.0d
-			y: -12.0d
+			x: -25.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"免疫摔落、爆炸伤害，但有较严重负面。"
+				""
+				"&c或许可以搭配某些雷免饰品来免疫负面。"
+				""
+				"&e冷却缩减机制为：在物品冷却时间还剩25%时，直接冷却完毕。"
+				""
+				"&e对某些流派有着较高增益。"
+			]
 			id: "5AA41731799B890B"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3F129CF5C590F918"
-				table_id: 2805430797220875844L
-				type: "random"
+				id: "0A662B1F5F2A24E9"
+				type: "xp"
+				xp: 1
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "41EE66D6EC4C8E2C"
-				item: "embers:explosion_charm"
+				item: "enigmaticaddons:lost_engine"
 				type: "item"
 			}]
-			x: -26.5d
-			y: -7.5d
+			x: -31.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9617,8 +9523,8 @@
 				item: "embers:nonbeliever_amulet"
 				type: "item"
 			}]
-			x: -25.5d
-			y: -7.5d
+			x: -31.0d
+			y: -19.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9634,7 +9540,7 @@
 				item: "ancient_aether:strength_stone"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 12.0d
 			y: -19.5d
 		}
 		{
@@ -9741,8 +9647,8 @@
 				item: "moonstone:nightmare_base_redemption_deception"
 				type: "item"
 			}]
-			x: -32.5d
-			y: -7.5d
+			x: -34.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9758,8 +9664,8 @@
 				item: "moonstone:rage_eye"
 				type: "item"
 			}]
-			x: -25.0d
-			y: -9.0d
+			x: -30.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9781,7 +9687,7 @@
 				}
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -19.5d
 		}
 		{
@@ -9798,7 +9704,7 @@
 				item: "moonstone:cell_dna_suppression"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -15.0d
 		}
 		{
@@ -9815,7 +9721,7 @@
 				item: "moonstone:rage_lock"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -17.0d
 			y: -18.0d
 		}
 		{
@@ -9902,8 +9808,8 @@
 				item: "confluence:mechanical_glove"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -19.5d
+			x: 6.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10310,8 +10216,8 @@
 				item: "irons_spellbooks:frostward_ring"
 				type: "item"
 			}]
-			x: -33.0d
-			y: -24.0d
+			x: -26.5d
+			y: -28.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10351,7 +10257,7 @@
 				item: "meetyourfight:slicers_dice"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -15.0d
 			y: -18.0d
 		}
 		{
@@ -10362,6 +10268,8 @@
 				"在幸运不小于0时，触发几率=(1+幸运)/（6+2×幸运）"
 				""
 				"最大趋近于50%。"
+				""
+				"&c与恩赐卷轴等提供闪避的饰品相乘计算。"
 			]
 			id: "0DF92F52B52EDE5D"
 			rewards: [{
@@ -10370,13 +10278,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "591BD5B83DFBC655"
 				item: "meetyourfight:ace_of_iron"
 				type: "item"
 			}]
-			x: -32.5d
-			y: -25.5d
+			x: -30.5d
+			y: -31.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10404,13 +10313,14 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "6D526ACEE106BD13"
 				item: "meetyourfight:caged_heart"
 				type: "item"
 			}]
 			x: -32.5d
-			y: -16.5d
+			y: -22.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10577,8 +10487,8 @@
 				item: "goety:ring_of_want"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -20.0d
+			x: 24.5d
+			y: -23.0d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11230,22 +11140,29 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "7BB21FB0F5AF47DC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
+			tasks: [
+				{
+					id: "7BB21FB0F5AF47DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"elementalcombat:attack_data": {
+								elementalcombat_attack: { }
+							}
+							"elementalcombat:elemental_defense": {
+								elementalcombat_defense: { }
+							}
 						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
+						id: "enigmaticaddons:avarice_ring"
 					}
-					id: "enigmaticaddons:avarice_ring"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "425BE8EB25D2544F"
+					item: "enigmaticlegacy:avarice_scroll"
+					type: "item"
+				}
+			]
 			x: -17.0d
 			y: -22.5d
 		}
@@ -11414,7 +11331,7 @@
 				item: "confluence:recon_scope"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -20.0d
 			y: -19.5d
 		}
 		{
@@ -11430,7 +11347,7 @@
 				item: "celestial_artifacts:heart_of_revenge"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -14.0d
 			y: -19.5d
 		}
 		{
@@ -11447,7 +11364,7 @@
 				item: "confluence:sniper_scope"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -18.0d
 		}
 		{
@@ -11478,6 +11395,707 @@
 			title: "转转回收分部"
 			x: 1.5d
 			y: -8.5d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
+				"：重要性饰品，推荐获取。"
+				""
+				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
+			]
+			id: "02956C92788CC8A3"
+			rewards: [{
+				id: "13C019382FF6412E"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5BE26B821C42DCC4"
+				title: "护盾/免疫类"
+				type: "checkmark"
+			}]
+			x: -29.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "39EC5ABB7FC2A818"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1984A69AC018EDCC"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F988EC147A22833"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -27.0d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
+				"：重要性饰品，推荐获取。"
+				""
+				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
+			]
+			id: "1CAC14B6FF296761"
+			rewards: [{
+				id: "211A71B4EDBE7641"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "15EAB9D3C3ABC103"
+				title: "护盾/免疫类"
+				type: "checkmark"
+			}]
+			title: "减伤/免伤类"
+			x: -29.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "34AC7064557CB1FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E87E95EAF59BA5D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "29F29F4AB58890D5"
+				item: "moonstone:air"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "343D59201115D7EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D8A0CE1F4D6F833"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D119A69A2EDE201"
+				item: "moonstone:watergen"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["低亮度时会提供减伤。"]
+			id: "2618A3FACF2AB662"
+			rewards: [{
+				id: "5D53CDC972CB7298"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "25DB1C16234157D0"
+				item: "celestial_artifacts:shadow_pendant"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["减免大部分爆炸伤害。"]
+			id: "68E39E4360816163"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C0A55AA14F6646F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "18C20E75A7BBEF72"
+				item: "nameless_trinkets:explosion_proof_jacket"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["佩戴海神两件套时，同时提供对水生生物的减伤。"]
+			id: "5A4649F5FF1C71CD"
+			rewards: [{
+				id: "35F18C5F8017399F"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [
+				{
+					id: "21183C0CD457180A"
+					item: "celestial_artifacts:sea_god_crown"
+					type: "item"
+				}
+				{
+					id: "1A5FDF80F7516024"
+					item: "celestial_artifacts:sea_god_scroll"
+					type: "item"
+				}
+			]
+			x: -31.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "3B828BC17FE74ADA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B89EE422F3489B"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2C2D173FC84CE238"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"不再能从战利品箱或地牢宝藏袋获得。"
+				""
+				"&e只能通过击杀恼鬼获得，有1%几率。"
+			]
+			id: "661E0E6BA63CCEDB"
+			rewards: [{
+				id: "4DA4279D3407CF08"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3F019492FF08DCA6"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "79A38DC81250DB4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C370A49AA0EE2C9"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6F9D307A228AA279"
+				item: "moonstone:magicstone"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["除了近战，其他职业基本都能享受增益。"]
+			id: "28885D8A833A8D10"
+			rewards: [{
+				id: "7657623A78C69DA5"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "54D927A87C6E3FB5"
+				item: "celestial_artifacts:demon_heart"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "0CD10DCBECF8EA17"
+			rewards: [{
+				id: "64C0614F179EE727"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "42CBA6C8FE6BC432"
+				item: "moonstone:rage_lock"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "123450D030A4C0B7"
+			rewards: [{
+				id: "0220BAD9ABDD3C6D"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "7D5A9B062C5581AB"
+				item: "moonstone:nightmare_base_stone_brain"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "1DC73EA67E13E8DC"
+			rewards: [{
+				id: "724811F02B1D94EB"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5BBC55DB19FBF184"
+				item: "goety_revelation:ascension_halo"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "049AE1C2D5A40220"
+			rewards: [{
+				id: "4CA7E289A6B194E9"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "59EC723CD62B4001"
+				item: "goety_revelation:halo_of_the_end"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "5474B45F3EBAB7CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "106ED7F92FE465AE"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6CAE3275A3CCAB45"
+				item: {
+					Count: 1
+					id: "goety_revelation:the_needle"
+					tag: {
+						isRealNeedle: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -19.5d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
+				"：重要性饰品，推荐获取。"
+				""
+				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
+			]
+			id: "5268BCD08CCD2C31"
+			rewards: [{
+				id: "32B084D159327CCD"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0052CD0F714EDAC1"
+				title: "护盾/免疫类"
+				type: "checkmark"
+			}]
+			title: "图腾/复活类"
+			x: -29.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "0CBD25853DDED217"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1860315F943489B3"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A46D1DFE5BEC676"
+				item: "goety_revelation:dimensional_will"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "691EAB84E2431344"
+			rewards: [{
+				id: "2D9C5788F434F781"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "351AF5DD81E164DB"
+				item: "celestial_artifacts:holy_talisman"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "0BAEE1021948306E"
+			rewards: [{
+				id: "38C94963CD139CFE"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0AE7FF88F532BC26"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "7668815ADA28FE7F"
+			rewards: [{
+				id: "70733A4664F2D99C"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "78D9DC5324741325"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "22C2CD51052D2C03"
+			rewards: [{
+				id: "7AB01A01E72D378F"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0229B70239A6B93D"
+				item: "goety_revelation:ascension_halo"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "1337EE409E169CC4"
+			rewards: [{
+				id: "0EF6D8D1F92FD3CA"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "65B7202BB0BBC083"
+				item: "goety_revelation:halo_of_the_end"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -16.5d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
+				"：重要性饰品，推荐获取。"
+				""
+				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
+			]
+			id: "29AE38B0415ABC08"
+			rewards: [{
+				id: "1A65C5E109088F86"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0B78BCFC6023DE46"
+				title: "护盾/免疫类"
+				type: "checkmark"
+			}]
+			title: "生命值/护甲值类"
+			x: -29.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "0FDDA95D46A93C44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29578E87C9E5D551"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CDA75FFBE5C7DC0"
+				item: {
+					Count: 1
+					id: "moonstone:at_a_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -34.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "63D3E36AD945DA68"
+			rewards: [{
+				id: "1E20C9186B9DC0E1"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "54BB6C7D441974C1"
+				item: "moonstone:nightmare_base_insight_drug"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "7A623C27F8125778"
+			rewards: [{
+				id: "227700E3F458AFCF"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2492D7CAA658A458"
+				item: "celestial_artifacts:sakura_hairpin"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			hide_dependency_lines: true
+			id: "1228B488F0F65AFA"
+			rewards: [{
+				id: "460FA6DBCEC37BE4"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "77C74DB7765F635C"
+				item: "nameless_trinkets:gods_crown"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "4FF0AAE41EC7C596"
+			rewards: [{
+				id: "3D784E36558F81D1"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "1D9900630C84D23D"
+				item: "moonstone:rage_crystal_max"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "32463CA60A05DCA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CC7E8D706435C5C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F0763120B999996"
+				item: "moonstone:rage_crystal_big"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "714639C4C4EF0C8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C5DC0922CF8671E"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FAC3B03EF8D9E5B"
+				item: "confluence:shield_of_cthulhu"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["详看[大满开]章节。"]
+			id: "742530CC11EA8D54"
+			rewards: [{
+				id: "76DFE2D54AAD8F5E"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "5288EF8F75A4A02F"
+				item: {
+					Count: 1
+					id: "goety_revelation:the_needle"
+					tag: {
+						isRealNeedle: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: [
+				"免疫摔落、爆炸伤害，但有较严重负面。"
+				""
+				"&c或许可以搭配某些雷免饰品来免疫负面。"
+				""
+				"&e冷却缩减机制为：在物品冷却时间还剩25%时，直接冷却完毕。"
+				""
+				"&e对某些流派有着较高增益。"
+			]
+			id: "102A14D1A3442B2D"
+			rewards: [{
+				id: "77EEFEEF0C299FAC"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "133195D2813EC537"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -32.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				""
+				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
+				"：重要性饰品，推荐获取。"
+				""
+				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
+				""
+				"&7&o为什么不搞记忆之书呢&r"
+			]
+			id: "799F2665FB35A21E"
+			rewards: [{
+				id: "6C778A0770E27CC8"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "599B778051191149"
+				title: "护盾/免疫类"
+				type: "checkmark"
+			}]
+			title: "经验/等级类"
+			x: -29.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			id: "75D7595D7845C971"
+			rewards: [{
+				id: "1015419CC365E7B7"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "420AAD74F3388C88"
+				item: "celestial_artifacts:sands_talisman"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D17311DA4F0AB14"]
+			description: ["佩戴后会限制自身回满血。"]
+			id: "2359DC0DBA34D056"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DCB22D0D30AEF33"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7F00D29F4E96EBD8"
+				item: "malstone:breaking_the_life"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -13.5d
 		}
 	]
 	subtitle: ["&9『饰品』"]

@@ -30,11 +30,9 @@ import crafttweaker.api.item.property.Rarity;
 craftingTable.remove(<item:goose_hardtack:goose_hardtack>);
 craftingTable.addShapeless("goose_hardtack.goose_hardtack", <item:goose_hardtack:goose_hardtack>, [<item:farmersdelight:wheat_dough>, <item:youkaishomecoming:bowl_of_cream>, <item:crockpot:syrup>]);
 
-/*
 //悬赏终端
-craftingTable.remove(<item:gooseworkshop:goose_bounty_terminal>);
-craftingTable.addShaped("gooseworkshop.goose_bounty_terminal", <item:gooseworkshop:goose_bounty_terminal>, [[<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:embers:caminite_plate>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>]]);
-*/
+craftingTable.remove(<item:betterbounty:bounty_terminal>);
+craftingTable.addShaped("betterbounty.bounty_terminal", <item:betterbounty:bounty_terminal>, [[<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:embers:caminite_plate>, <item:minecraft:waxed_cut_copper>], [<item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>, <item:minecraft:waxed_cut_copper>]]);
 
 //时之沙漏
 craftingTable.addShaped("chapter_of_yuusha_3_core.excessive_treatment", <item:chapter_of_yuusha_3_core:excessive_treatment>, [[<item:cataclysm:lacrima>, <item:yuusha:bless_core>.reuse(), <item:cataclysm:lacrima>], [<tag:items:locusazzurro_icaruswings:world_essences>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <tag:items:locusazzurro_icaruswings:world_essences>], [<item:cataclysm:lacrima>, <item:yuusha:bless_star>, <item:cataclysm:lacrima>]]);
@@ -46,7 +44,7 @@ craftingTable.addShaped("chapter_of_yuusha_3_core.esoteric_tesseract", <item:cha
 craftingTable.addShaped("chapter_of_yuusha_3_core.ember_night_gleam", <item:chapter_of_yuusha_3_core:ember_night_gleam>, [[<item:goety_revelation:apocalyptium_ingot>, <item:yuusha:blood_star>, <item:goety_revelation:apocalyptium_ingot>], [<item:yuusha:blood_star>, <item:goety:heart_of_the_night>, <item:yuusha:blood_star>], [<item:goety_revelation:apocalyptium_ingot>, <item:yuusha:blood_star>, <item:goety_revelation:apocalyptium_ingot>]]);
 
 //破空之愿
-craftingTable.addShaped("chapter_of_yuusha_3_core.draw_power", <item:chapter_of_yuusha_3_core:draw_power>, [[<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>], [<item:yuusha:chaos_stone>, <item:ancient_aether:valkyrum_ring>.anyDamage(), <item:yuusha:chaos_stone>], [<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>]]);
+//craftingTable.addShaped("chapter_of_yuusha_3_core.draw_power", <item:chapter_of_yuusha_3_core:draw_power>, [[<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>], [<item:yuusha:chaos_stone>, <item:ancient_aether:valkyrum_ring>.anyDamage(), <item:yuusha:chaos_stone>], [<item:deep_aether:aerglow_blossom>, <item:yuusha:chaos_stone>, <item:deep_aether:aerglow_blossom>]]);
 
 //虫箭「恶意歼灭」
 //stoneCutter.addRecipe("chapter_of_yuusha_3_core.universal_unequip", <item:chapter_of_yuusha_3_core:universal_unequip>, <item:goety_revelation:apocalyptium_ingot>);
@@ -87,6 +85,8 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 });
 
 //
+<item:chapter_of_yuusha_3_core:draw_power>.anyDamage().addTooltip("\u00A76只有选择玩家是刺客世界线才能获取");
+<item:chapter_of_yuusha_3_core:draw_power>.anyDamage().addTooltip("\u00A7c蓄力时间可享受部分拉弓速度缩短");
 <item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A7c佩戴后埋伏性狩猎在非冷却期间击杀生物不会进入冷却");
 <item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A76只有选择玩家是刺客世界线才能获取");
 <item:better_beacon:better_beacon_sss>.anyDamage().addTooltip("\u00A7c佩戴时将自身的负面效果传递给目标生物");
@@ -118,7 +118,13 @@ stoneCutter.addRecipe("chapter_of_yuusha_3_core.dampening_penetration.re", <item
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.dampening_penetration.re.2", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "chapter_of_yuusha_3_core:dampening_penetration"}]}), <item:apotheosis:infused_breath>);
 stoneCutter.addRecipe("chapter_of_yuusha_3_core.fluid_penetration.re", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "chapter_of_yuusha_3_core:fluid_penetration"}]}), <item:hmag:endless_pearl>);
 
-
+//
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:embers:tyrfing>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:embers:cinder_staff>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:embers:blazing_ray>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_quartz>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_magma>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:wizards_reborn:arcane_wand>);
 
 
 

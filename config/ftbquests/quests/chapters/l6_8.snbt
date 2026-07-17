@@ -58,9 +58,23 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "27CD577F6BDC5C1C"
-				title: "戳我"
-				type: "checkmark"
+				id: "09420703500CB3D8"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 36.83533d
+									distance: 3467.33563d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
 			}]
 			title: "遥远世界之书"
 			x: -2.0d
@@ -201,9 +215,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "673427A513968C1F"
-				title: "戳我"
-				type: "checkmark"
+				dimension: "distant_worlds:garhenna"
+				id: "55D616C685A9EE6A"
+				type: "dimension"
 			}]
 			title: "迦赫纳之书"
 			x: 1.0d
@@ -1597,7 +1611,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["31E07CA9DDF0F058"]
+			dependencies: [
+				"31E07CA9DDF0F058"
+				"68B3FB2E17F9984A"
+			]
 			dependency_requirement: "one_completed"
 			id: "479F79F314EF56DA"
 			rewards: [

@@ -1,0 +1,32 @@
+{
+  "type": "eidolon:worktable",
+  "pattern": [
+    " s ",
+    "prp",
+    " p "
+  ],
+  "reagents": "waua",
+  "key": {
+    "p": {
+      "tag": "forge:ingots/pewter"
+    },
+    "u": {
+      "item": "eidolon:holy_symbol"
+    },
+    "r": {
+      "item": "eidolon:basic_ring"
+    },
+    "s": {
+      "item": "eidolon:crimson_gem"
+    },
+    "w": {
+      "item": "faded_conquest_2:key_of_war"
+    },
+    "a": {
+      "item": "ancient_aether:valkyrum"
+    }
+  },
+  "result": {
+    "item": "cthulhufishing:emerald_gold_ring"
+  }
+}

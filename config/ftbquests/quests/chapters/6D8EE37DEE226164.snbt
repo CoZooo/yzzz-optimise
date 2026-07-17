@@ -619,7 +619,7 @@
 				""
 				"在进度在船长幽灵前后可以制作。"
 				""
-				"&c减少的80%攻击伤害，放置在副手时不生效。&r"
+				"&c减少的80%近战伤害，放置在副手时不生效。&r"
 			]
 			id: "4CBB7C8505C747F5"
 			rewards: [{
@@ -915,7 +915,7 @@
 			subtitle: "「杂项」"
 			tasks: [{
 				id: "4AB2E3D06D9C77E7"
-				item: "gooseworkshop:goose_bounty_terminal"
+				item: "betterbounty:bounty_terminal"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1130,13 +1130,11 @@
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
 			description: [
-				"宝藏袋可开出具有会心属性铁质盔甲（属性最大值分别为10%、10%、10%、8%），适合制作更为高级的弓兵盔甲。"
+				"宝藏袋可开出具有会心属性铁质盔甲（属性最大值均为10%），适合制作更为高级的弓兵盔甲。"
 				""
 				"&6弓兵盔甲详见宝具章节任务。"
 				""
 				"&2会心属性：会心几率最高100%，触发会心时，玩家全伤害×2倍。虽然属性面板显示玩家基础会心为0，但实际只要在乘法乘区或独立乘区有加成即可。"
-				""
-				"&e穿透属性：玩家的穿透属性限制为0，没有效果。"
 				""
 				"&c需注意该套盔甲，如果用锻造台等能继承NBT的合成方式，则合成后的盔甲自身属性会消失，例如法师套的法力值等属性。"
 			]
@@ -1925,7 +1923,6 @@
 		}
 		{
 			dependencies: ["79AAC7E0B94BBF31"]
-			description: ["大鹅的护符背包：右键开启27格专属储物界面，仅可存放神话模组药水护符。护符放入背包即可自动生效并正常消耗耐久，无需佩戴至饰品栏；右键点击背包内护符，可快速切换启用/关闭状态。"]
 			id: "73A3A692B5646EDE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1936,7 +1933,7 @@
 			subtitle: "「杂项」"
 			tasks: [{
 				id: "3D17C9C9FC530048"
-				item: "gooseworkshop:goose_talisman_bag"
+				item: "celestial_enchantments:celestial_enchanting_table"
 				type: "item"
 			}]
 			x: -1.5d

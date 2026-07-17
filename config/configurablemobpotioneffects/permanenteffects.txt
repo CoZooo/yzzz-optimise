@@ -26,8 +26,8 @@
 'meetyourfight:swampjaw' : 'minecraft:instant_damage,lvl:1|attributeslib:vitality,lvl:10|minecraft:resistance,lvl:4|enigmaticaddons:pure_resistance,lvl:2|cataclysm:blessing_of_amethyst,lvl:1',
 
 'minecraft:elder_guardian' : 'minecraft:instant_health,lvl:1|attributeslib:vitality,lvl:10|minecraft:resistance,lvl:4|enigmaticaddons:pure_resistance,lvl:2|cataclysm:blessing_of_amethyst,lvl:1',
-'call_of_drowner:drowner' : 'minecraft:instant_damage,lvl:1|attributeslib:vitality,lvl:14|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
-'call_of_drowner:deepwater_piranha' : 'minecraft:instant_health,lvl:1|attributeslib:vitality,lvl:14|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
+'call_of_drowner:drowner' : 'minecraft:instant_damage,lvl:1|attributeslib:vitality,lvl:14|minecraft:resistance,lvl:2|enigmaticaddons:pure_resistance,lvl:2|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
+'call_of_drowner:deepwater_piranha' : 'minecraft:instant_health,lvl:1|attributeslib:vitality,lvl:14|minecraft:resistance,lvl:2|enigmaticaddons:pure_resistance,lvl:2|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
 'cataclysm:the_leviathan' : 'minecraft:instant_health,lvl:2|attributeslib:vitality,lvl:5|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
 'meetyourfight:bellringer' : 'minecraft:instant_damage,lvl:2|attributeslib:vitality,lvl:5|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14|cataclysm:blessing_of_amethyst,lvl:1',
 
@@ -584,10 +584,10 @@
 'goety_cataclysm:wadjet' : 'minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10',
 'goety_cataclysm:kobolediator' : 'minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10',
 
-'goety:slime_servant' : 'minecraft:strength,lvl:10|immortalers_delight:prehistoric_powers,lvl:5',
-'goety:magma_cube_servant' : 'minecraft:strength,lvl:10|immortalers_delight:prehistoric_powers,lvl:5',
-'goety:crypt_slime_servant' : 'minecraft:strength,lvl:10|immortalers_delight:prehistoric_powers,lvl:5',
-'goety:tropical_slime_servant' : 'minecraft:strength,lvl:10|immortalers_delight:prehistoric_powers,lvl:5',
+'goety:slime_servant' : 'minecraft:strength,lvl:5|immortalers_delight:prehistoric_powers,lvl:1',
+'goety:magma_cube_servant' : 'minecraft:strength,lvl:5|immortalers_delight:prehistoric_powers,lvl:1',
+'goety:crypt_slime_servant' : 'minecraft:strength,lvl:5|immortalers_delight:prehistoric_powers,lvl:1',
+'goety:tropical_slime_servant' : 'minecraft:strength,lvl:5|immortalers_delight:prehistoric_powers,lvl:1',
 
 'goety:watchling_servant' : 'minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10',
 'goety:blastling_servant' : 'minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10',

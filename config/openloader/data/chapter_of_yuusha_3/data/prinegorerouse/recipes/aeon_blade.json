@@ -7,13 +7,8 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "name": "slashblade:yamato",
-        "sword_type": [
-          "broken",
-          "sealed"
-        ],
-        "kill": 500,
-        "refine": 5
+        "kill": 1000,
+        "refine": 10
       }
     },
     "E": {

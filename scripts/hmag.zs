@@ -55,9 +55,10 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 <item:hmag:lightning_particle>.addTooltip("\u00A7c击杀闪电苦力怕有几率获得");
 <item:hmag:lightning_particle>.addTooltip("\u00A76相关内容详见上层世界章节");
 <item:hmag:lightning_particle>.addTooltip("\u00A7e利用亡灵军旗召唤亡灵军团时，天气会改为雷雨天");
-<item:hmag:ender_plasm>.addTooltip("\u00A7c只能通过击杀末影处刑者获得");
+<item:hmag:ender_plasm>.addTooltip("\u00A7c玩家击杀末影处刑者可获得");
 <item:hmag:ender_plasm>.addTooltip("\u00A7e开启末地宝箱不再能获得");
-<item:hmag:ender_plasm>.addTooltip("\u00A76更多说明详见末路之地章节");
+<item:hmag:ender_plasm>.addTooltip("\u00A76相关内容详见末路之地章节");
+<item:hmag:ender_plasm>.addTooltip("\u00A75新增非玩家击杀也有小几率获得");
 
 <item:hmag:fortune_crystal_plus>.addTooltip("\u00A76击杀滑行魔石、武神女王、突变毒箭花、远古墨魂化身、帝王云鲸均有几率获得");
 <item:hmag:fortune_crystal_plus>.addTooltip("\u00A7c击杀南瓜月魂怨领主必定获得");

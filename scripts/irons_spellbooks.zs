@@ -103,6 +103,7 @@ import crafttweaker.api.data.IData;
 
 <item:irons_spellbooks:arcane_essence>.addTooltip("\u00A7c击杀亡灵术士等生物可以获得");
 <item:irons_spellbooks:arcane_essence>.addTooltip("\u00A76亡灵术士详见咒法章节卷轴撰写台任务");
+<item:irons_spellbooks:arcane_essence>.addTooltip("\u00A7e用奥术源质右击恶魔南瓜可赋予召唤南瓜伯爵的能力");
 
 <item:irons_spellbooks:permafrost_shard>.addTooltip("\u00A7c可通过制作获得，制作时不消耗研究笔记");
 <item:irons_spellbooks:permafrost_shard>.addTooltip("\u00A7e新增击杀冰封蟹有几率获得");

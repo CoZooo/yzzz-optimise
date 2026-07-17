@@ -1040,6 +1040,537 @@
 			x: -13.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["5408990F3485BD07"]
+			description: [
+				"当前版本推荐使用的优秀枪械。"
+				""
+				"&7&o猜猜为什么会把蓝色恶魔放这里&r"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 12
+					GunFireMode: "SEMI"
+					GunId: "emxarms:emx_kund50ex_al"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2EE8CD25B0F8C6B6"
+			rewards: [{
+				id: "08543DC2185BAFAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "20F82AD8C17DD911"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 45
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_mk951r_ba"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "032CC79E39226636"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "tacz:ak47"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E3127725230F45F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 12
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_kund50ex_al"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D9C271FCA1D68F3"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 5
+							GunFireMode: "SEMI"
+							GunId: "tacz:m700"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "优秀枪械"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19FDDA1B84AC43E6"]
+			description: ["当前版本推荐使用的稀有枪械。"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 40
+					GunFireMode: "AUTO"
+					GunId: "emxarms:emx_rivet"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "3BA0934EFFCFF837"
+			rewards: [{
+				id: "021C7FD6619FC447"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3D66E4FDE3521A6D"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "emxcust:rd704_murusama"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7FF59244CA248E7F"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 40
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_rivet"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A5E6728B7361DE8"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 7
+							GunFireMode: "SEMI"
+							GunId: "applied_armorer:moritz_sniper_semi_k30"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "251CF838E90BFF1C"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:sks_tactical"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4752DB1B09E5A852"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 720
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_sf7b"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "586DF63294AD75DD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 18
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_pulsex2"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "稀有枪械"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D7CD1474FD0DD7B"]
+			description: [
+				"当前版本推荐使用的普通枪械。"
+				""
+				"&c其中CZ75只建议通过用格洛克合成获取，合成后保留无限子弹效果。"
+			]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 17
+					GunFireMode: "AUTO"
+					GunId: "tacz:cz75"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "27AD71C1A56A516B"
+			rewards: [{
+				id: "3AB1A84978E89F84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "75FF73A6EA53A704"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 17
+							GunFireMode: "AUTO"
+							GunId: "tacz:cz75"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0233BBFEA311A569"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 21
+							GunFireMode: "SEMI"
+							GunId: "emxarms:emx_pulse_sc"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "普通枪械"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BC51AC481C52076"]
+			description: ["当前版本推荐使用的史诗枪械。"]
+			id: "02C70DB46DD78CD2"
+			rewards: [{
+				id: "4A14B5D91D723B8B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C15F8C8C65742BC"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "tacz:rpg7"
+						HasBulletInBarrel: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "史诗枪械"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45CDCBD8DD2B9746"]
+			description: ["当前版本推荐使用的传奇枪械。"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 30
+					GunFireMode: "AUTO"
+					GunId: "fibers:arx160"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "2AA8BB0DC0F57704"
+			rewards: [{
+				id: "28B1CA8633975088"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1BAD6D39563B5E99"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 100
+							GunFireMode: "AUTO"
+							GunId: "fibers:bal27"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2BD5C54F32302DD8"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 10
+							GunFireMode: "SEMI"
+							GunId: "tacz:ai_awp"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "211130CBDDE6C9B2"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 30
+							GunFireMode: "AUTO"
+							GunId: "fibers:arx160"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35FE4C6793DC78BD"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 100
+							GunFireMode: "AUTO"
+							GunId: "applied_armorer:moritz_mg_emg_prototype"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "650212F7844B403B"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 32
+							GunFireMode: "AUTO"
+							GunId: "emxarms:emx_draftsman_ev1"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "传奇枪械"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FEAAD0585E30223"]
+			description: ["当前版本推荐使用的终极枪械。"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 16
+					GunFireMode: "SEMI"
+					GunId: "pgp:z761"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "7E365B68AEAA5568"
+			rewards: [{
+				id: "2F2F8CE27E62F9B4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "320EA615FB8876EF"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 3
+							GunFireMode: "SEMI"
+							GunId: "pgp:b101"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "1C6933A614031A60"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 16
+							GunFireMode: "SEMI"
+							GunId: "pgp:z761"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FA8C7D22989C25A"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 36
+							GunFireMode: "AUTO"
+							GunId: "pgp:nak954"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399BA86F557224C5"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 8
+							GunFireMode: "SEMI"
+							GunId: "pgp:cfdz"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08387E8CB234CC13"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 1000
+							GunFireMode: "AUTO"
+							GunId: "pgp:solar0"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "终极枪械"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B720D7E80F6F626"]
+			description: ["当前版本推荐使用的终极枪械。"]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 8
+					GunFireMode: "SEMI"
+					GunId: "pgp:z750"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "0EE91BA65C5887A3"
+			rewards: [{
+				id: "5E60A2A5D9A1023E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3FD10719C67B4B86"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 60
+							GunFireMode: "AUTO"
+							GunId: "fibers:ax94"
+							HasBulletInBarrel: 1b
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "00D842F475951000"
+					item: {
+						Count: 1
+						id: "tacz:modern_kinetic_gun"
+						tag: {
+							GunCurrentAmmoCount: 8
+							GunFireMode: "SEMI"
+							GunId: "pgp:z750"
+							HasBulletInBarrel: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "永恒枪械"
+			x: 0.0d
+			y: -1.0d
+		}
 	]
 	subtitle: [
 		"&9『枪械使用指南』"

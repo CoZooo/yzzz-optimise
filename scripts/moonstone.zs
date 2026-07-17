@@ -933,17 +933,17 @@ craftingTable.remove(<item:moonstone:the_prison_of_sin>);
 craftingTable.addShaped("moonstone.the_prison_of_sin", <item:moonstone:the_prison_of_sin>, [[<item:yuusha:chaos_ingot>, <item:yuusha:bless_core>.reuse(), <item:yuusha:chaos_ingot>], [<item:irons_spellbooks:epic_ink>, <item:enigmaticaddons:despair_insignia>.anyDamage(), <item:reliquary:phoenix_down>], [<item:irons_spellbooks:dragonskin>, <item:yuusha:bless_star>, <item:irons_spellbooks:dragonskin>]]);
 
 //罪恶之红唇
-craftingTable.addShaped("moonstone.nightmare_base_black_eye_red", <item:moonstone:nightmare_base_black_eye_red>, [[<item:meetyourfight:violet_bloom>, <item:yuusha:bless_core>.reuse(), <item:meetyourfight:violet_bloom>], [<item:goety:withered_manuscript>, <item:cataclysm:cursed_eye>, <item:goety:withered_manuscript>], [<item:meetyourfight:violet_bloom>, <item:yuusha:bless_star>, <item:meetyourfight:violet_bloom>]]);
+craftingTable.addShaped("moonstone.nightmare_base_black_eye_red", <item:moonstone:nightmare_base_black_eye_red>, [[<item:distant_worlds:firon_pickaxe>.anyDamage(), <item:yuusha:bless_core>.reuse(), <item:distant_worlds:firon_axe>.anyDamage()], [<item:goety:withered_manuscript>, <item:cataclysm:cursed_eye>, <item:goety:withered_manuscript>], [<item:distant_worlds:firon_shovel>.anyDamage(), <item:meetyourfight:violet_bloom>, <item:distant_worlds:firon_hoe>.anyDamage()]]);
 
 //愕然的权力
-craftingTable.addShaped("moonstone.nightmare_base_start_power", <item:moonstone:nightmare_base_start_power>, [[<item:irons_spellbooks:blood_upgrade_orb>, <item:yuusha:bless_core>.reuse(), <item:irons_spellbooks:blood_upgrade_orb>], [<item:yuusha:dragon_heart>, <item:confluence:titan_glove>.anyDamage(), <item:enigmaticaddons:pure_heart>], [<item:stalwart_dungeons:awful_crystal>, <item:yuusha:bless_star>, <item:stalwart_dungeons:awful_crystal>]]);
+craftingTable.addShaped("moonstone.nightmare_base_start_power", <item:moonstone:nightmare_base_start_power>, [[<item:yuusha:blood_star>, <item:yuusha:bless_core>.reuse(), <item:yuusha:blood_star>], [<item:yuusha:dragon_heart>, <item:confluence:titan_glove>.anyDamage(), <item:enigmaticaddons:pure_heart>], [<item:irons_spellbooks:blood_upgrade_orb>, <item:yuusha:bless_star>, <item:irons_spellbooks:blood_upgrade_orb>]]);
 
 //颠倒之物
 craftingTable.addShaped("moonstone.nightmare_base_reversal", <item:moonstone:nightmare_base_reversal>, [[<item:yuusha:bless_star>, <item:yuusha:bless_core>.reuse(), <item:yuusha:bless_star>], [<item:moonstone:nightmare_base_reversal_orb>.anyDamage(), <item:enigmaticaddons:illusion_lantern>.anyDamage(), <item:moonstone:nightmare_base_reversal_orb>.anyDamage()], [<item:yuusha:ignitium_star>, <item:avaritia:skull_fire_sword>.anyDamage(), <item:yuusha:ignitium_star>]]);
 <item:moonstone:nightmare_base_reversal>.anyDamage().addTooltip("\u00A76可通过制作获得");
 
 //不稳卡片
-craftingTable.addShaped("moonstone.nightmare_base_reversal_card", <item:moonstone:nightmare_base_reversal_card>, [[<item:depthcrawler:corruptingot>, <item:yuusha:bless_core>.reuse(), <item:depthcrawler:corruptingot>], [<item:majruszsaccessories:gambling_card>, <item:moonstone:maxamout>.anyDamage(), <item:majruszsaccessories:gambling_card>], [<item:depthcrawler:corruptingot>, <item:yuusha:bless_star>, <item:depthcrawler:corruptingot>]]);
+craftingTable.addShaped("moonstone.nightmare_base_reversal_card", <item:moonstone:nightmare_base_reversal_card>, [[<item:yuusha:orichalcum>, <item:yuusha:bless_core>.reuse(), <item:yuusha:orichalcum>], [<item:majruszsaccessories:gambling_card>, <item:moonstone:maxamout>.anyDamage(), <item:majruszsaccessories:gambling_card>], [<item:yuusha:orichalcum>, <item:forbidden_arcanus:corrupted_pixie>, <item:yuusha:orichalcum>]]);
 
 //僵尸盒子 加合成
 craftingTable.addShaped("moonstone.zombie_box_nobo", <item:moonstone:zombie_box_nobo>, [[<item:minecraft:iron_ingot>, <item:immortalers_delight:rotten_flesh_cuts>, <item:minecraft:iron_ingot>], [<item:immortalers_delight:rotten_flesh_cuts>, <item:yuusha:remembered_scroll>.reuse(), <item:immortalers_delight:rotten_flesh_cuts>], [<item:minecraft:iron_ingot>, <item:immortalers_delight:rotten_flesh_cuts>, <item:minecraft:iron_ingot>]]);
@@ -1013,8 +1013,8 @@ craftingTable.addShapeless("moonstone.magicstone.re", <item:moonstone:magicstone
 //<tag:items:curios:catastrophe>.add(<item:moonstone:max_eye>);
 <tag:items:curios:curio>.remove(<item:moonstone:max_eye>);
 
-<tag:items:curios:god_hand>.add(<item:moonstone:nightmare_base_black_eye_red>);
 <tag:items:curios:nightmare>.remove(<item:moonstone:nightmare_base_black_eye_red>);
+<tag:items:curios:burning_secret>.add(<item:moonstone:nightmare_base_black_eye_red>);
 
 /*
 

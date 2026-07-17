@@ -38,7 +38,7 @@
 				}
 			],
 			"max_wave_time": 1200,
-			"setup_time": 100
+			"setup_time": 60
 		},
 		{
 			"entities": [
@@ -81,7 +81,7 @@
 				}
 			],
 			"max_wave_time": 3600,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -131,7 +131,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -182,7 +182,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -238,7 +238,7 @@
 				}
 			],
 			"max_wave_time": 3600,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -289,7 +289,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -345,7 +345,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -408,7 +408,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -464,7 +464,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -520,7 +520,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -560,7 +560,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		},
 		{
 			"entities": [
@@ -592,7 +592,7 @@
 				}
 			],
 			"max_wave_time": 2400,
-			"setup_time": 200
+			"setup_time": 100
 		}
 	],
     "rewards": [

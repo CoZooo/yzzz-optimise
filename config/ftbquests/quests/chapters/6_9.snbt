@@ -1021,6 +1021,21 @@
 					item: "celestial_artifacts:holy_necklace"
 					type: "item"
 				}
+				{
+					id: "79E26AA0DBFF8141"
+					item: "nameless_trinkets:ghast_eye"
+					type: "item"
+				}
+				{
+					id: "2C155A0E9506B771"
+					item: "malstone:breaking_the_life"
+					type: "item"
+				}
+				{
+					id: "135CC38EFE6E6CF4"
+					item: "malstone:corpse_cauldron"
+					type: "item"
+				}
 			]
 			x: 1.5d
 			y: 4.0d

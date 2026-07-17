@@ -121,7 +121,7 @@
 			description: [
 				"可用来制作多种简易刀剑武器，建议JEI自行查看可以制作的武器，基本龙前都有着不同等级的武器。"
 				""
-				"&6部分可能用到的简易刀剑武器，如荣缎劈刀、硫磺阔剑、烈风、日炎、噩兆等。"
+				"&6部分可能用到的简易刀剑武器，如荣缎劈刀、硫磺阔剑、穿芯、烈风、日炎、噩兆等。"
 				""
 				"&e硫磺阔剑的附加爆炸伤害、烈风的附加效果伤害、日炎和噩兆的战旗技能，都能很好地破适应。"
 				""
@@ -142,7 +142,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["4B90ECAB3AB1A80A"]
+			dependencies: ["2FE915CEB6FE77C5"]
 			description: ["也许会用到。"]
 			id: "1070A4B1CA140D39"
 			rewards: [{
@@ -162,7 +162,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["42414683631FD44D"]
@@ -304,7 +304,11 @@
 		}
 		{
 			dependencies: ["4B90ECAB3AB1A80A"]
-			description: ["也许会用到。"]
+			description: [
+				"也许会用到。"
+				""
+				"&c主手持双手武器时，副手的武器如属性、效果等将会完全失效。"
+			]
 			id: "19CE5D1E667A5F74"
 			rewards: [{
 				id: "04FFFA61784C005A"
@@ -460,7 +464,7 @@
 		}
 		{
 			dependencies: ["3D7B259CA8DDF429"]
-			description: ["近战攻击为魔法类型攻击，但是不属于魔法伤害。"]
+			description: ["近战攻击为魔法类型攻击，但是不属于魔法伤害，不会享受到魔法属性增益。"]
 			id: "2F2556AFA8560716"
 			rewards: [{
 				id: "4281521E214317C5"
@@ -999,7 +1003,7 @@
 		{
 			dependencies: [
 				"79AAC7E0B94BBF31"
-				"4B90ECAB3AB1A80A"
+				"4C1EA1CEAA9580C8"
 			]
 			description: ["滑行魔石只能用镐类击杀，只要主手持有镐类，无论是施法还是近战，都能攻击到滑行魔石。"]
 			id: "3E8DE0FFFAE525A6"
@@ -1020,7 +1024,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["42414683631FD44D"]
@@ -1051,10 +1055,15 @@
 			description: [
 				"可通过合成获取。"
 				""
-				"新增完成特定进度获取，详见专属章节："
+				"&c新增完成特定进度获取，详见专属章节："
 				"{ \"text\": \"厨神当道\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E668522A0E11DC6\" } }"
 			]
 			id: "516D99B5EEC21D83"
+			rewards: [{
+				id: "04734487755D8031"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				consume_items: false
 				id: "469A65182829ECEC"
@@ -1072,6 +1081,60 @@
 			}]
 			x: 7.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"当前阶段推荐使用的武器。"
+				""
+				"&e穿芯默认光属性+刺击类，自带魔斯场强。"
+			]
+			id: "2FE915CEB6FE77C5"
+			rewards: [{
+				id: "6660DE9A91F3E47D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F79A805F7B0CE23"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"当前阶段推荐使用的武器。"
+				""
+				"&b噩兆默认暗属性+斩击类，右键技能可释放旗帜。"
+			]
+			id: "4C1EA1CEAA9580C8"
+			rewards: [{
+				id: "398DE1CD2D46F3B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A60395976A3B0F5"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
 		}
 	]
 	subtitle: [

@@ -831,7 +831,7 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			subtitle: "需注意有两页任务（可鼠标滚轮上下查看）"
+			subtitle: "需注意有两页任务（第二页可鼠标滚轮查看）"
 			tasks: [{
 				id: "24EB10248D3439FD"
 				item: "bountiful:bountyboard"

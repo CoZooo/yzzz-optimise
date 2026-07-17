@@ -148,11 +148,11 @@
 					"count": 1
                 },
                 {
-                    "entity": "irons_spellbooks:necromancer",
+                    "entity": "born_in_chaos_v1:infernal_spirit",
 					"count": 1
                 },
                 {
-                    "entity": "irons_spellbooks:necromancer",
+                    "entity": "born_in_chaos_v1:infernal_spirit",
 					"count": 1
                 }
             ],
@@ -199,7 +199,7 @@
 					"count": 1
                 },
                 {
-                    "entity": "born_in_chaos_v1:sir_pumpkinhead",
+                    "entity": "irons_spellbooks:necromancer",
 					"count": 1
                 }
             ],

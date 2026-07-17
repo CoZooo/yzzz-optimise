@@ -4,12 +4,12 @@
         "item": "sons_of_sins:soul_steel_block"
     },
     "base": {
-        "item": "minecraft:netherite_boots"
+        "item": "stalwart_dungeons:warted_tungsten_boots"
     },
     "result": {
         "item": "sons_of_sins:remnant_boots"
     },
     "template": {
-        "item": "born_in_chaos_v1:dark_upgrade"
+        "item": "cataclysm:cursium_upgrade_smithing_template"
     }
 }

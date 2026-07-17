@@ -173,8 +173,8 @@
 
 //缚灵 附魔书
 stoneCutter.addRecipe("malum.enchanted_book.haunted.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: "malum:haunted" as string}]}), <item:forbidden_arcanus:darkstone_upgrade_smithing_template>);
-//stoneCutter.addRecipe("malum.enchanted_book.rebound", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "malum:rebound"}]}), <item:malum:soul_stained_steel_ingot>);
-stoneCutter.addRecipe("malum.enchanted_book.spirit_plunder", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "malum:spirit_plunder"}]}), <item:malum:soul_stained_steel_ingot>);
+stoneCutter.addRecipe("malum.enchanted_book.spirit_plunder.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "malum:spirit_plunder"}]}), <item:malum:soul_stained_steel_ingot>);
+stoneCutter.addRecipe("malum.enchanted_book.spirit_plunder.2", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "malum:spirit_plunder"}]}), <item:avaritia:diamond_lattice>);
 craftingTable.addShapeless("malum.enchanted_book.haunted.10", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "malum:haunted" as string}]}), [<item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: "malum:haunted" as string}]}), <item:forbidden_arcanus:dark_nether_star>]);
 
 //复制

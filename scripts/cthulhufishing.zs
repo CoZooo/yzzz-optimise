@@ -85,6 +85,10 @@ craftingTable.addShaped("cthulhufishing.crimson_lure", <item:cthulhufishing:crim
 
 //ban
 <tag:items:curios:ring>.remove(<item:cthulhufishing:emerald_gold_ring>);
+<tag:items:curios:god_hand>.add(<item:cthulhufishing:emerald_gold_ring>);
+
+<item:cthulhufishing:emerald_gold_ring>.anyDamage().addTooltip("\u00A76与虚空商人交易有几率获得");
+<item:cthulhufishing:emerald_gold_ring>.anyDamage().addTooltip("\u00A7e也可通过合成获得");
 
 //附魔
 stoneCutter.addRecipe("minecraft.enchanted_book.sculk_catcher_enchantment", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "cthulhufishing:sculk_catcher_enchantment"}]}), <item:minecraft:heart_of_the_sea>);
@@ -170,8 +174,6 @@ stoneCutter.addRecipe("minecraft.enchanted_book.frozen_catcher_enchantment", <it
 <item:cthulhufishing:reagent>.anyDamage().addTooltip("\u00A76相关内容详见上层世界、天顶巨兽章节");
 <item:cthulhufishing:reagent>.anyDamage().addTooltip("\u00A7e超级血月的怪物也会掉落较多的深渊反应物");
 <item:cthulhufishing:reagent>.anyDamage().addTooltip("\u00A72还可利用深渊遗物获得更多的深渊反应物");
-
-<item:cthulhufishing:emerald_gold_ring>.anyDamage().addTooltip("\u00A7c已禁止穿戴和使用");
 
 <item:cthulhufishing:heavy_fishing_road>.anyDamage().addTooltip("\u00A7c右击垂钓每竿有冷却时间限制");
 <item:cthulhufishing:heavy_fishing_road>.anyDamage().addTooltip("\u00A76可制作获得，相关内容详见上层世界章节任务");

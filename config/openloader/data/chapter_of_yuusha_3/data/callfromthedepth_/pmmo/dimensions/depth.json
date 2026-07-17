@@ -10,7 +10,8 @@
     },
     "positive_effect":{
         "distant_worlds:suppression": 3,
-        "aether_redux:adrenaline_rush": 2
+        "aether_redux:adrenaline_rush": 2,
+		"attributeslib:sundering": 0
     },
     "travel_req":{
         "slayer": 200

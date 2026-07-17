@@ -59,6 +59,7 @@ import mods.jeitweaker.Jei;
 
 <item:embers:tyrfing>.addTooltip("\u00A7e需炼金术合成获得，炼金台详见匠作章节任务");
 <item:embers:nonbeliever_amulet>.anyDamage().addTooltip("\u00A76减少90%受到的魔法伤害");
+<item:embers:nonbeliever_amulet>.anyDamage().addTooltip("\u00A7e新增击杀咒怨死灵巫妖小几率获得");
 <item:embers:ashen_amulet>.anyDamage().addTooltip("\u00A7c佩戴后击杀生物后的掉落物全部化为灰烬");
 <item:embers:ashen_amulet>.anyDamage().addTooltip("\u00A7e新增击杀太古魔像有小几率获得");
 <item:embers:dawnstone_mail>.anyDamage().addTooltip("\u00A7c免疫击退");
@@ -173,8 +174,6 @@ craftingTable.addShaped("embers.inferno_forge", <item:embers:inferno_forge>, [[<
 <tag:items:curios:man>.add(<item:embers:ember_jar>);
 <tag:items:curios:man>.add(<item:embers:ember_bulb>);
 <tag:items:curios:curio>.remove(<item:embers:ember_bulb>);
-
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:embers:tyrfing>);
 
 //盔甲兼容
 <tag:items:embers:augmentables/armors/chestplates>.add([<item:malum:soul_hunter_cloak>, <item:malum:soul_hunter_robe>, <item:malum:soul_hunter_leggings>, <item:malum:soul_hunter_boots>, <item:eidolon:warlock_hat>, <item:born_in_chaos_v1:dark_metal_armor_helmet>, <item:born_in_chaos_v1:dark_metal_armor_chestplate>, <item:born_in_chaos_v1:dark_metal_armor_leggings>, <item:born_in_chaos_v1:dark_metal_armor_boots>, <item:cataclysm:ignitium_helmet>, <item:cataclysm:ignitium_elytra_chestplate>, <item:cataclysm:ignitium_chestplate>, <item:cataclysm:ignitium_leggings>, <item:cataclysm:ignitium_boots>, <item:forbidden_arcanus:draco_arcanus_helmet>, <item:forbidden_arcanus:draco_arcanus_chestplate>, <item:forbidden_arcanus:draco_arcanus_leggings>, <item:forbidden_arcanus:draco_arcanus_boots>, <item:forbidden_arcanus:tyr_helmet>, <item:forbidden_arcanus:tyr_chestplate>, <item:forbidden_arcanus:tyr_leggings>, <item:forbidden_arcanus:tyr_boots>, <item:sons_of_sins:remnant_helmet>, <item:sons_of_sins:remnant_chestplate>, <item:sons_of_sins:remnant_leggings>, <item:sons_of_sins:remnant_boots>, <item:cataclysm:cursium_helmet>, <item:cataclysm:cursium_chestplate>, <item:cataclysm:cursium_leggings>, <item:cataclysm:cursium_boots>]);

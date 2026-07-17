@@ -105,17 +105,30 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "175EA89FB0BBFB63"
-				item: {
-					Count: 1
-					id: "born_in_chaos_v1:pumpkinstaffa"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "175EA89FB0BBFB63"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:pumpkinstaffa"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "59FCA32B58875417"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -0.5d
 		}
@@ -262,6 +275,7 @@
 		}
 		{
 			dependencies: ["7BD8BC169FE54A1C"]
+			description: ["远古巫术需要学习远古巫术手稿后，才能制作与使用。"]
 			id: "042E3FFE8E57C1CB"
 			rewards: [{
 				id: "79046FF96C33DB2C"
@@ -310,7 +324,11 @@
 		}
 		{
 			dependencies: ["7BD8BC169FE54A1C"]
-			description: ["远古巫术系列属于光属性魔法类型伤害。"]
+			description: [
+				"&m远古巫术系列属于光属性魔法类型伤害。"
+				""
+				"&c现在远古巫术系列属于神属性勇者类型伤害。"
+			]
 			id: "276710ABB978744E"
 			rewards: [{
 				id: "4A899E78FBAC6A8A"
@@ -449,11 +467,9 @@
 		{
 			dependencies: ["7BFAFA8D2F8DF73B"]
 			description: [
-				"利用玄奥沙可制作星裂相位附魔，从而让法杖释放的法术可以给目标上星裂效果。"
+				"当前阶段比较好用的法术。"
 				""
-				"&c配合法师克星宝石，可获得更高级别星裂效果。"
-				""
-				"&6制作时需要消耗生命和经验。"
+				"&c月之斩击可合成获取。"
 			]
 			id: "4D88BE16E36C8802"
 			rewards: [{
@@ -461,17 +477,109 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "5CD25DDD9F2B6D0C"
-				item: "apotheosis:epic_material"
-				type: "item"
-			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "493DF0007D2DC654"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2A6457ADDDD3B07A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "55D788259D2FAC36"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "refined_mod:moon_slash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "2B1233BE85E38700"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:arrow_volley"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 5.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7BFAFA8D2F8DF73B"]
 			description: [
+				""
+				"利用玄奥沙可制作星裂相位附魔，从而让法杖释放的法术可以给目标上星裂效果。"
+				""
+				"&c配合法师克星宝石，可获得更高级别星裂效果。"
+				""
+				"&6制作时需要消耗生命和经验。"
+				""
 				"无暇的法师克星宝石可让星裂相位附魔+1，而完美的法师克星宝石可让星裂相位附魔+2。"
 				""
 				"&c需先附魔星裂相位，然后再上法师克星宝石，才能在附魔等级的基础上增加。"
@@ -483,24 +591,31 @@
 				xp: 100
 			}]
 			subtitle: "星裂相位"
-			tasks: [{
-				id: "2BDA4F7ED0009EDA"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "chapter_of_yuusha_3_core:sundering"
-							lvl: 1s
-						}]
+			tasks: [
+				{
+					id: "2BDA4F7ED0009EDA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "chapter_of_yuusha_3_core:sundering"
+								lvl: 1s
+							}]
+						}
 					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
+				{
+					id: "68959839D6A64F4D"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+			]
 			x: 5.0d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["042E3FFE8E57C1CB"]
@@ -1928,6 +2043,426 @@
 			title: "九魔·九厄"
 			x: -7.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			id: "26DD74C05F2D7F87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D38145A2903D21D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A6F89DF4B4F6D9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_spell_mastery"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E90ABFD331440E4"]
+			id: "1038AC9CF308800B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B0C8AFA117D005C"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2784A1E10F84F8A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"elementalcombat:attack_data": {
+							elementalcombat_attack: { }
+						}
+						"elementalcombat:elemental_defense": {
+							elementalcombat_defense: { }
+						}
+					}
+					id: "malum:rune_of_culling"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["729E5ED845164142"]
+			description: ["当前阶段比较好用的法术。"]
+			id: "1F360B8CB594EE29"
+			rewards: [{
+				id: "2FA060CD7ADB8CAB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "24AF79296AD55F80"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "272E2E3757FF311B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5D13FBC07B937A54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "19D66B0A156A5F51"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:heat_surge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "488CCF5D4F947E08"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "power_of_the_void:bloodletting"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "230C4D7C929C96CE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:cleanse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "719DB722971148BE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2012CB6EB3FFCBB8"]
+			description: ["当前阶段比较好用的法术。"]
+			id: "00E94C8AE5A12520"
+			rewards: [{
+				id: "5C34EE2305325FAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "5F5760C49C53CABB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "34C1CD31E4791842"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7F89B233A1B5847C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acid_orb"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6A56996EF753A21E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1D875E122930E6A6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2012CB6EB3FFCBB8"]
+			description: ["袭击内会有生物掉落高级法术书。可以制作袭击传送门。"]
+			id: "0E7DBD787565C85A"
+			rewards: [{
+				id: "7D20F7EA8E6DD98F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3692D0B751F2C789"
+					item: {
+						Count: 1
+						id: "ias_spellbooks:book_of_dark_mutations"
+						tag: {
+							ISB_Spells: {
+								data: [
+									{
+										id: "ias_spellbooks:dragline"
+										index: 0
+										level: 10
+										locked: 1b
+									}
+									{
+										id: "ias_spellbooks:pumpkin_spice"
+										index: 1
+										level: 3
+										locked: 1b
+									}
+								]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: false
+					id: "67671F83969E1780"
+					item: {
+						Count: 1
+						id: "ias_spellbooks:magispellers_legacy"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "ias_spellbooks:restorative_rain"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					match_nbt: false
+					only_from_crafting: false
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: 3.5d
+			y: -2.0d
 		}
 	]
 	subtitle: [

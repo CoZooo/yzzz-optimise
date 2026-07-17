@@ -149,6 +149,8 @@
 				"右击使用时会在一定范围内降下闪电，将周围所有生物包括使用者的生命值降为1点。有30秒冷却时间。"
 				""
 				"&6需自行添加永恒之石才能不毁。"
+				""
+				"&c目前版本已沦为弃子。"
 			]
 			id: "484FCEE21D307A92"
 			rewards: [{
@@ -283,7 +285,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6D4D165B2DC48B60"]
+			dependencies: [
+				"6D4D165B2DC48B60"
+				"20DFE22A8A5BBB49"
+			]
 			description: [
 				"合成隙血组件所需材料中的潜影盒，隙血珍珠必须放置在潜影盒的第一格。"
 				""
@@ -456,7 +461,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["1EF39A35C38DCA6E"]
+			dependencies: [
+				"1EF39A35C38DCA6E"
+				"65C7B50381464B95"
+			]
 			description: ["众所周知，眼睛是一种可“热插拔”的功能性饰品。"]
 			id: "749EA44545104DA1"
 			rewards: [{
@@ -465,11 +473,18 @@
 				table_id: 2805430797220875844L
 				type: "random"
 			}]
-			tasks: [{
-				id: "421D266C2C1D5733"
-				item: "moonstone:beacon"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "421D266C2C1D5733"
+					item: "moonstone:beacon"
+					type: "item"
+				}
+				{
+					id: "11A77313CCA082F1"
+					item: "better_beacon:better_beacon_sss"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: -1.0d
 		}
@@ -527,7 +542,11 @@
 		}
 		{
 			dependencies: ["047999F58D936447"]
-			description: ["通关无尽挑战传送门获得。"]
+			description: [
+				"通关无尽挑战传送门获得。"
+				""
+				"&c可将魂祸战刃升级为惊骇匕首。"
+			]
 			id: "6CE485305D2C6950"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -652,12 +671,14 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: 0.5d
+			x: 18.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6CE485305D2C6950"]
-			description: ["只加成近战伤害。"]
+			dependencies: [
+				"6CE485305D2C6950"
+				"38AB8B6290448DDA"
+			]
 			id: "2C2C9A22FFC0CAF5"
 			rewards: [{
 				id: "1F2294C3C67572FC"
@@ -668,15 +689,15 @@
 				id: "3A75041769158660"
 				item: {
 					Count: 1
-					id: "locusazzurro_icaruswings:chaos_wings"
+					id: "stalwart_dungeons:awful_dagger"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["24CB884F1221ECDD"]
@@ -811,7 +832,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5DFD05397F9C2B27"]
@@ -1059,7 +1080,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["090A4158AB118D08"]
@@ -1094,7 +1115,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5B1D1D71C32DD9B8"]
+			dependencies: ["1134F32A25142099"]
 			id: "0678DA893604E35E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1108,12 +1129,16 @@
 				type: "item"
 			}]
 			title: "虫箭「恶意歼灭」"
-			x: 9.0d
-			y: 3.5d
+			x: 18.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["1EF39A35C38DCA6E"]
-			description: ["也许有用。"]
+			dependencies: ["1E5714A7B8CB8262"]
+			description: [
+				"&m也许有用。&r"
+				""
+				"&c必须使用。"
+			]
 			id: "20DFE22A8A5BBB49"
 			rewards: [{
 				id: "6DA9B2F9E5845E2B"
@@ -1123,6 +1148,100 @@
 			tasks: [{
 				id: "4EBDAB151D4D053C"
 				item: "reliquary:rod_of_lyssa"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["047999F58D936447"]
+			icon: "better_beacon:pure_eden"
+			id: "666468AC807EE7D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30817F66033BDB3F"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1EB4B8713DDC83B8"
+				item: "better_beacon:pure_eden"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B1D1D71C32DD9B8"]
+			description: [
+				"可能会需要用到吧。"
+				""
+				"&c需要打完下界亚伯伦后才能制作。"
+			]
+			id: "146136C1BDC5E6B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E8C7120EBCD880D"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1157A3DD1DF8B408"
+				item: {
+					Count: 1
+					id: "goety_revelation:valettein"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 10
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:wall_of_fire"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:angel_wing"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 3
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E5714A7B8CB8262"]
+			description: ["&c制作双生花与厄难魔眼需要阅读禁书卷轴。"]
+			id: "65C7B50381464B95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6942E8485CF4B349"
+				table_id: 2805430797220875844L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C6256612D855330"
+				item: "goety:forbidden_scroll"
 				type: "item"
 			}]
 			x: 9.0d

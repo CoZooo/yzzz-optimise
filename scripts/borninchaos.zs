@@ -160,8 +160,14 @@ Jei.hideIngredient(<item:born_in_chaos_v1:spiny_shell_armor_chestplate>);
 <item:born_in_chaos_v1:nightmare_scythe>.anyDamage().addGlobalAttributeModifier(<attribute:malum:spirit_spoils> , "attribute.nightmare_scythe", 100, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:born_in_chaos_v1:nightmare_scythe>.addTooltip("\u00A7e攻击会给予目标「化魂」状态");
 
-
-
+//恶魔南瓜
+recipes.addJsonRecipe("born_in_chaos_v1.infernal_evil_pumpkin_s",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "irons_spellbooks:arcane_essence" },
+    block_in: { blocks: ["born_in_chaos_v1:infernal_evil_pumpkin"]},
+    post:  {  type: "execute",  command: "fill ~ ~ ~ ~ ~ ~ born_in_chaos_v1:infernal_evil_pumpkin_s replace born_in_chaos_v1:infernal_evil_pumpkin"}
+});
+<item:born_in_chaos_v1:infernal_evil_pumpkin>.addTooltip("\u00A76用奥术源质右击恶魔南瓜可赋予召唤南瓜伯爵的能力");
 
 
 

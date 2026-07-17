@@ -215,7 +215,7 @@
 			#操作类型: 0=加法, 1=乘法, 2=独立乘法
 			#例如: 'minecraft:generic.max_health,0,1.0,20.0' - 生命值加成，每任务+1，上限20
 			#例如: 'minecraft:generic.attack_damage,1,0.1,2.0' - 攻击伤害倍乘，每任务+10%，上限200%
-			attributes = ["minecraft:generic.max_health,0,0.5,500", "minecraft:generic.movement_speed,1,0.001,0.2", "moonstone:all_attack,1,0.0001,0.1"]
+			attributes = ["minecraft:generic.max_health,0,0.5,500", "minecraft:generic.movement_speed,1,0.001,0.2", "moonstone:all_attack,1,0.0001,0.1", "minecraft:generic.attack_damage,1,0.001,1", "puffish_attributes:player.ranged_damage,1,0.001,1", "eidolon:magic_power,1,0.001,1", "gunsmithlib:bullet_damage,1,0.0002,0.2"]
 			#阶段奖励配置列表，格式: '任务数量,奖励类型,参数...'
 			#奖励类型: attribute=属性奖励, effect=状态效果奖励, curios=槽位奖励
 			#属性奖励格式: '任务数量,attribute,属性ID,操作类型,增益值'
@@ -233,10 +233,10 @@
 			tick_max = -1
 			#每tick伤害独立乘区增加
 			#Range: 0.0 ~ 1.7976931348623157E308
-			power = 0.04
+			power = 0.03
 			#最大伤害乘区,2就是最大能*3的伤害
 			#Range: 0.0 ~ 1.7976931348623157E308
-			power_max = 2.0
+			power_max = 3.0
 
 		#战法师指环配置
 		[coreSettings.CY3_curiosSettings.war_mage_ring]

@@ -18,7 +18,7 @@ import mods.jeitweaker.Jei;
 <item:goety:refuse_bottle>.addTooltip("\u00A77在女巫坩埚酿造药水失败时，装入玻璃瓶可获得");
 <item:goety:venomous_fang>.addTooltip("\u00A76击杀各种蜘蛛生物有几率获得");
 
-<item:goety:animation_core>.addTooltip("\u00A7e可以制作获得，也可击杀巫师小几率获得");
+<item:goety:animation_core>.addTooltip("\u00A7e可击杀巫师小几率获得，特定世界线也可制作获得");
 <item:goety:animation_core>.addTooltip("\u00A76巫师会出现在不祥垠际-诡厄袭击传送门内");
 <item:goety:hunger_core>.addTooltip("\u00A76巫师会出现在不祥垠际-诡厄袭击传送门内");
 <item:goety:wind_core>.addTooltip("\u00A76巫师会出现在不祥垠际-诡厄袭击传送门内");

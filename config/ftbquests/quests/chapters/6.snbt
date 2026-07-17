@@ -4849,34 +4849,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["0B465A702F32CC2C"]
-			id: "12DD696243700ACD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F62FD17EA560991"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1BA650F5209B48A1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "malum:rune_of_spell_mastery"
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: -10.0d
-		}
-		{
 			dependencies: ["77475A8D18BDCAE4"]
 			description: [
 				"放置灵魂方舟将使其绑定放置者作为其所有者。当玩家放下灵魂方舟时，会激活其中的内部灵魂条，并无法再通过灵魂图腾使用灵魂能量。"
@@ -5076,34 +5048,6 @@
 			}]
 			x: 14.0d
 			y: -14.5d
-		}
-		{
-			dependencies: ["12DD696243700ACD"]
-			id: "1038AC9CF308800B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1B0C8AFA117D005C"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2784A1E10F84F8A3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"elementalcombat:attack_data": {
-							elementalcombat_attack: { }
-						}
-						"elementalcombat:elemental_defense": {
-							elementalcombat_defense: { }
-						}
-					}
-					id: "malum:rune_of_culling"
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: -10.0d
 		}
 		{
 			dependencies: ["3464CABD3463B645"]
@@ -5711,53 +5655,32 @@
 			can_repeat: true
 			dependencies: ["23F770C0E18033B5"]
 			description: [
-				"该一次性胶囊，会摆下可完成大部分仪式的黑暗祭坛。"
-				""
-				"&e要注意不能穿戴超级磁铁等具有极强吸力的物品磁铁，否则会无法丢出胶囊。"
+				"该一次性胶囊，右键摆下即可获得全仪式的黑暗祭坛。"
 				""
 				"&c该胶囊内的诅咒之笼，必须放入玩家自身的灵魂图腾或者连接宝石。"
 				""
-				"&6此外该胶囊摆放在高度为128以上的下雪群系，可以基本满足所有在主世界所举行的仪式中需要的条件。"
-				""
-				"&2此胶囊不含下界和末地相关的仪式。"
+				"&6想要实现下界与末地相关的仪式，将该胶囊放置在对应维度即可。"
 			]
-			icon: {
-				Count: 1
-				id: "capsule:capsule"
-				tag: {
-					author: "Proton"
-					canRotate: 0
-					color: 13421772
-					display: {
-						color: 12408663
-					}
-					isReward: 1
-					label: "全仪式黑暗祭坛"
-					oneUse: 1
-					size: 11
-					state: 5
-					structureName: "config/capsule/rewards/allaltar.nbt"
-				}
-			}
+			icon: "goose_universalcapsule:universal_capsule"
 			id: "28A5E9150CB6B899"
 			rewards: [{
-				id: "17DF8E57BC2F3E03"
+				id: "79F7C96AB770A34E"
 				item: {
 					Count: 1
-					id: "capsule:capsule"
+					id: "goose_universalcapsule:universal_capsule"
 					tag: {
-						author: "Proton"
-						canRotate: 0
-						color: 13421772
-						display: {
-							color: 12408663
+						UniversalCapsule: {
+							Author: "dest1ny2"
+							BlockCount: 488
+							DisplayName: ""
+							Mode: "READY"
+							Number: "1"
+							SizeX: 13
+							SizeY: 5
+							SizeZ: 13
+							Style: "#E53935"
+							TemplateId: "quanyishijitan1"
 						}
-						isReward: 1
-						label: "全仪式黑暗祭坛"
-						oneUse: 1
-						size: 11
-						state: 5
-						structureName: "config/capsule/rewards/allaltar.nbt"
 					}
 				}
 				type: "item"
