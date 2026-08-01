@@ -384,7 +384,7 @@ craftingTable.addShaped("celestial_artifacts.cross_necklace", <item:celestial_ar
 craftingTable.addShaped("celestial_artifacts.fang_necklace", <item:celestial_artifacts:fang_necklace>, [[<item:eidolon:lead_ingot>, <item:celestial_core:treasure_fragment>, <item:eidolon:lead_ingot>], [<item:eidolon:lead_ingot>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <item:eidolon:lead_ingot>], [<item:mowziesmobs:naga_fang>, <item:minecraft:poisonous_potato>, <item:mowziesmobs:naga_fang>]]);
 
 //红心项链
-craftingTable.addShaped("celestial_artifacts.red_heart_necklace", <item:celestial_artifacts:red_heart_necklace>, [[<item:eidolon:lead_ingot>, <item:celestial_core:treasure_fragment>, <item:eidolon:lead_ingot>], [<item:eidolon:lead_ingot>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <item:eidolon:lead_ingot>], [<item:call_of_drowner:seagold_ingot>, <item:celestial_core:heart_fragment>, <item:call_of_drowner:seagold_ingot>]]);
+craftingTable.addShaped("celestial_artifacts.red_heart_necklace", <item:celestial_artifacts:red_heart_necklace>, [[<item:eidolon:lead_ingot>, <item:celestial_core:treasure_fragment>, <item:eidolon:lead_ingot>], [<item:eidolon:lead_ingot>, <item:celestial_artifacts:unowned_pendant>.anyDamage(), <item:eidolon:lead_ingot>], [<item:celestial_core:guardian_spike>, <item:celestial_core:heart_fragment>, <item:celestial_core:guardian_spike>]]);
 
 //tag
 <tag:items:curios:necklace>.remove(<item:celestial_artifacts:cross_necklace>);
@@ -395,7 +395,6 @@ craftingTable.addShaped("celestial_artifacts.red_heart_necklace", <item:celestia
 <tag:items:curios:wither_totem_slot>.add(<item:celestial_artifacts:prayer_crown>);
 <tag:items:curios:hands>.add(<item:celestial_artifacts:emerald_bracelet>);
 <tag:items:curios:body>.add(<item:celestial_artifacts:solar_magnet>);
-//<tag:items:curios:charm>.add(<item:celestial_artifacts:precious_necklace>);
 <tag:items:curios:ncrdna>.add(<item:celestial_artifacts:red_ruby_bracelet>);
 <tag:items:curios:devil_hand>.add(<item:celestial_artifacts:spirit_bracelet>);
 <tag:items:diet:vegetables>.add(<item:celestial_artifacts:unlucky_potato>);

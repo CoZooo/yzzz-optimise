@@ -1525,19 +1525,6 @@
 		{
 			"output": 
 			{
-				"item": "relics:ice_breaker",
-				"count":1
-			},
-			"payment": 
-			{
-				"item": "mowziesmobs:ice_crystal",
-				"count":1
-			},
-			"category": "yuusha_weapon"
-		},
-		{
-			"output": 
-			{
 				"item": "relics:wool_mitten",
 				"count":1
 			},

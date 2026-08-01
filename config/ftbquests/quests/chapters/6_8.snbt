@@ -9,129 +9,34 @@
 		{
 			alpha: 128
 			color: 0
-			height: 13.5d
+			height: 15.5d
 			image: ""
 			order: -2
 			rotation: 0.0d
-			width: 19.5d
-			x: -6.5d
-			y: -0.5d
+			width: 21.5d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
 			alpha: 200
 			color: 10551890
-			height: 12.0d
+			height: 14.0d
 			image: "yuusha:textures/gui_researchbackeldritch.png"
 			rotation: 0.0d
-			width: 18.0d
-			x: -6.5d
-			y: -0.5d
+			width: 20.0d
+			x: -8.0d
+			y: 0.5d
 		}
 	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["478A612F781EDE10"]
-			description: [
-				"只有开局选择『玩家是刺客』世界线，才可完成此任务。"
-				""
-				"&e注意，此任务为团队奖励，建议先领取后再与别人组队。"
-			]
-			hide_dependency_lines: false
-			icon: {
-				Count: 1
-				id: "relics:midnight_robe"
-				tag: {
-					abilities: {
-						backstab: {
-							points: 0
-							stats: {
-								damage: 1.44264d
-								distance: 49.35202d
-							}
-						}
-						vanish: {
-							points: 0
-							stats: {
-								light: 1.00439d
-								speed: 0.23118d
-							}
-							temp: {
-								ticking: 1b
-							}
-						}
-					}
-				}
-			}
-			id: "44FE32ED4F1B2A76"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "66845F6570589577"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"elementalcombat:attack_data": {
-								elementalcombat_attack: { }
-							}
-							"elementalcombat:elemental_defense": {
-								elementalcombat_defense: { }
-							}
-						}
-						id: "relics:midnight_robe"
-						tag: {
-							abilities: {
-								backstab: {
-									points: 0
-									stats: {
-										damage: 1.44264d
-										distance: 49.35202d
-									}
-								}
-								vanish: {
-									points: 0
-									stats: {
-										light: 1.00439d
-										speed: 0.23118d
-									}
-									temp: {
-										ticking: 1b
-									}
-								}
-							}
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					command: "/cy3 admin curios equip endless_slash_curse:endless_slash_curse{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\", \"isIntensify\": 1} @s force"
-					elevate_perms: true
-					icon: "endless_slash_curse:endless_slash_curse"
-					id: "73952D0887169E54"
-					team_reward: true
-					title: "&c强制穿戴千斩不绝之咒（自动领取）"
-					type: "command"
-				}
-			]
-			subtitle: "「暗影刺客」"
-			tasks: [{
-				id: "44D676FAB00CAECD"
-				title: "戳我"
-				type: "checkmark"
-			}]
-			title: "午夜斗篷 \\& 千斩不绝之咒"
-			x: -5.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["28C58982CC37413E"]
 			description: [
 				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
 				""
-				"&c只要选择刺客路线，就会自动完成此任务，会将特殊的埋伏性狩猎强制自动穿戴，且有绑定诅咒。如果需走时之刺客路线，可以向下做任务。"
+				"&c此任务完成后，会将特殊的埋伏性狩猎强制自动穿戴，且有绑定诅咒。"
 				""
 				"&e需注意，此任务为团队奖励，建议先领取后再与别人组队。"
 				""
@@ -224,7 +129,48 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
+				}
+				{
+					id: "78F5BD35D5FD4EA4"
+					item: {
+						Count: 1
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.43364d
+										distance: 43.83058d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.46732d
+										speed: 0.2205d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip endless_slash_curse:endless_slash_curse{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\", \"isIntensify\": 1} @s force"
+					elevate_perms: true
+					icon: "endless_slash_curse:endless_slash_curse"
+					id: "6BD9008F59308FA2"
+					team_reward: true
+					title: "&c强制穿戴千斩不绝之咒（自动领取）"
+					type: "command"
 				}
 			]
 			subtitle: "「暗影刺客」"
@@ -240,19 +186,17 @@
 				weak_nbt_match: true
 			}]
 			title: "埋伏性狩猎"
-			x: -6.5d
-			y: -2.0d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["4EABF5BDEB72041C"]
 			description: [
 				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
 				""
-				"&6「暗影刺客」和「时之刺客」只能选一条路线，一般来说「暗影刺客」适合法师、弓兵、近战，「时之刺客」适合枪械。"
+				"&e后续的多种类型「刺客」只能选择一条路线。"
 				""
-				"&c暗影刺客的法师线发展较为简单，而暗影刺客的战士线较为困难。"
-				""
-				"&e向上为暗影刺客路线，向下为时之刺客路线，需选一。"
+				"&c暗影刺客的法师线发展较为简单，而暗影刺客的战士线较为困难。其余待定。"
 			]
 			id: "28C58982CC37413E"
 			rewards: [{
@@ -260,14 +204,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "「暗影刺客」|「时之刺客」"
+			subtitle: "「十步杀一人」"
 			tasks: [{
 				consume_items: false
 				id: "6C5CE83D045F9FF0"
 				item: "yuusha:focus_4_ass"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -12.5d
 			y: -0.5d
 		}
 		{
@@ -295,60 +239,12 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["47EFF30F33E5B9EB"]
-			id: "3915910E99E0A596"
-			rewards: [{
-				id: "78C129B34618A1CB"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4C623938452BC10F"
-				item: "locusazzurro_icaruswings:steel_ingot"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["47EFF30F33E5B9EB"]
-			id: "32A749D14B7853E5"
-			rewards: [{
-				id: "58803669EB9032BF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0FADC97851A21070"
-				item: "confluence:demon_heart"
-				type: "item"
-			}]
 			x: -11.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["47EFF30F33E5B9EB"]
-			id: "51D64FFD272ABFE9"
-			rewards: [{
-				id: "0C33794ED0782B59"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "447118AC4883EB1D"
-				item: "avaritia:eternal_singularity"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0F216D8334EC6BE2"]
-			description: ["也许有用。"]
+			dependencies: ["28C58982CC37413E"]
+			description: ["也许有用。仅对近战生效。"]
 			id: "0032FE345C878F54"
 			rewards: [{
 				id: "01D06C921FAF0F47"
@@ -372,7 +268,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["478A612F781EDE10"]
@@ -392,8 +288,8 @@
 				item: "confluence:sorcerer_emblem"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["478A612F781EDE10"]
@@ -408,6 +304,7 @@
 				{
 					id: "79828275C24C5A44"
 					item: "chapter_of_yuusha_3_core:draw_power"
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -423,77 +320,8 @@
 				type: "item"
 			}]
 			title: " 破空之愿 "
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["28C58982CC37413E"]
-			description: [
-				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。需注意，此为时之刺客路线的入口，提交该物品后无法获得暗影刺客路线的物品，并强制绑定特殊饰品。"
-				""
-				"&c永恒怀表：在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
-				""
-				"&6承载着邦德的意志：持枪瞄准时将进入隐匿状态并每秒获得增伤；暴露时伤害大幅降低，直到重新脱战或一击毙命；蓄满时冻结周围时间流速。"
-				""
-				"&e注意此任务为团队奖励，建议先领取后再与别人组队。"
-				""
-				"&5此路线尚未完善，难度未确定。"
-				""
-				"&5此路线尚未完善，难度未确定。"
-				""
-				"&5此路线尚未完善，难度未确定。"
-			]
-			hide_dependency_lines: false
-			icon: "goety_revelation:eternal_watch"
-			id: "47EFF30F33E5B9EB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2C9C161BEB2CAC28"
-					table_id: 2891126319106072593L
-					type: "choice"
-				}
-				{
-					id: "3D973177162EF48A"
-					item: {
-						Count: 1
-						id: "treasurebags:treasure_bag"
-						tag: {
-							silentlib.LootContainer: {
-								BagType: "treasurebags:spawn"
-								LootTable: "treasurebags:bags/spawn"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "「时之刺客」"
-			tasks: [{
-				consume_items: true
-				id: "74B3F1E15DD8CC23"
-				item: "yuusha:focus_4_ass"
-				type: "item"
-			}]
-			title: "永恒怀表 \\& 承载着邦德的意志"
-			x: -6.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["47EFF30F33E5B9EB"]
-			id: "3BAB2153CA3C38E6"
-			rewards: [{
-				id: "0C4B62B83F0DE1E1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "40CB56AEEFBFCD74"
-				item: "embers:dwarven_oil_bucket"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 1.0d
+			x: -11.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0F216D8334EC6BE2"]
@@ -519,11 +347,11 @@
 				type: "item"
 			}]
 			title: "阴阳玉 "
-			x: -3.5d
-			y: -0.5d
+			x: -9.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["44FE32ED4F1B2A76"]
+			dependencies: ["28C58982CC37413E"]
 			description: ["拥有隐身buff时可无条件获取增伤，同时享受铁魔法“法术冷却缩减”降低CD。"]
 			id: "0140B46F1D49E35C"
 			rewards: [{
@@ -540,11 +368,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -5.0d
+			x: -6.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["44FE32ED4F1B2A76"]
+			dependencies: ["28C58982CC37413E"]
 			description: ["使用主动技能后，对目标背后造成伤害可提供全伤增益。"]
 			id: "59526DA312D15262"
 			rewards: [{
@@ -557,11 +385,11 @@
 				item: "enigmaticlegacy:eye_of_nebula"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["44FE32ED4F1B2A76"]
+			dependencies: ["28C58982CC37413E"]
 			description: ["对目标背后造成伤害可提供全伤增益。"]
 			id: "1FD2EC1966A0FE5C"
 			rewards: [{
@@ -575,7 +403,159 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28C58982CC37413E"]
+			description: [
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				""
+				"&c此任务完成后，会将特殊的承载着邦德的意志强制自动穿戴，且有绑定诅咒。"
+				""
+				"&e需注意，此任务为团队奖励，建议先领取后再与别人组队。"
+				""
+				"&6「时影刺客」路线为玩家一击击杀Boss的挑战路线，有承载着邦德的意志进行限制，可能需要跳过部分Boss。"
+				""
+				"&3需注意，承载着邦德的意志可以同时将枪械的物理伤害和穿甲伤害，进行伤害加成，所以枪械目前适合作为时影刺客线的选择。"
+				""
+				"&2承载着邦德的意志：持枪瞄准时将进入隐匿状态并每秒获得增伤；暴露时伤害大幅降低，直到重新脱战或一击毙命；蓄满时冻结周围时间流速。"
+			]
+			icon: "goose_curios:bond_will"
+			id: "23FDD8F81068B21C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip goose_curios:bond_will{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					elevate_perms: true
+					icon: "goose_curios:bond_will"
+					id: "7589ECF8CC7F533B"
+					team_reward: true
+					title: "&c强制穿戴承载着邦德的意志（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "35663A5F07C9EF9B"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6F292DD5BE8AFC2D"
+					item: {
+						Count: 1
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.43364d
+										distance: 43.83058d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.46732d
+										speed: 0.2205d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "「时影刺客」"
+			tasks: [{
+				consume_items: true
+				id: "737E1381E211D2DA"
+				item: {
+					Count: 1
+					id: "yuusha:focus_4_ass"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "承载着邦德的意志"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28C58982CC37413E"]
+			description: [
+				"只能通过开局选择『玩家是刺客』世界线，才可获得，从而完成此任务。"
+				""
+				"&c此任务完成后，会将特殊的永恒怀表强制自动穿戴，且有绑定诅咒。"
+				""
+				"&e需注意，此任务为团队奖励，建议先领取后再与别人组队。"
+				""
+				"&6「时空刺客」路线为玩家利用单发枪械在时停时间结束后秒杀Boss的挑战路线，永恒怀表没有特殊的限制，可能需要跳过部分Boss。"
+				""
+				"&3永恒怀表：在时停期间，单发的枪械可以时停不造成伤害，在时停结束后才会一起造成伤害。"
+				""
+				"&5此路线尚未完善，难度未确定。"
+			]
+			icon: "goety_revelation:eternal_watch"
+			id: "3D8428CCF9198C61"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip goety_revelation:eternal_watch{id: \"celestial_enchantments:powerless_curse\", \"{lvl\": 1, Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}, {id: \"enigmaticlegacy:sorrow\", lvl: 1}, {id: \"celestial_enchantments:curse_of_illiteracy\", lvl: 1}, {id: \"majruszsenchantments:breaking_curse\", lvl: 1}, {id: \"apotheosis:life_mending\", lvl: 1}, {id: \"majruszsenchantments:fatigue_curse\", lvl: 1}, {id: \"celestial_enchantments:powerless_curse\", lvl: 1}, {id: \"celestial_enchantments:dragging_curse\", lvl: 1}, {id: \"celestial_enchantments:curse_of_gravity\", lvl: 1}, {id: \"celestial_enchantments:curse_of_withering\", lvl: 1}, {id: \"celestial_enchantments:cures_of_corrosion\", lvl: 1}, {id: \"majruszsenchantments:incompatibility_curse\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					elevate_perms: true
+					icon: "goety_revelation:eternal_watch"
+					id: "254295379A50A382"
+					team_reward: true
+					title: "&c强制穿戴永恒怀表（自动领取）"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					id: "7C368A724E43B63F"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "「时空刺客」"
+			tasks: [{
+				consume_items: true
+				id: "570F7978F9866CDD"
+				item: {
+					Count: 1
+					id: "yuusha:focus_4_ass"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "永恒怀表"
+			x: -8.0d
+			y: -0.5d
 		}
 	]
 	subtitle: [

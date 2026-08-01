@@ -19,6 +19,13 @@ craftingTable.remove(<item:locusazzurro_icaruswings:quantum_fuel>);
 craftingTable.remove(<item:locusazzurro_icaruswings:steel_mixture>);
 craftingTable.addShapeless("locusazzurro_icaruswings.steel_mixture", <item:locusazzurro_icaruswings:steel_mixture>*4, [<item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:red_sand>, <item:minecraft:gunpowder>]);
 
+//金果圣酒、生长之金果圣酒
+craftingTable.remove(<item:locusazzurro_icaruswings:golden_apple_infused_mead>);
+craftingTable.addShapeless("locusazzurro_icaruswings.golden_apple_infused_mead", <item:locusazzurro_icaruswings:golden_apple_infused_mead>, [<item:locusazzurro_icaruswings:mead>, <item:immortalers_delight:enchanted_golden_himekaido>, <item:immortalers_delight:enchanted_golden_himekaido>]);
+
+craftingTable.remove(<item:locusazzurro_icaruswings:golden_apple_growth_infused_mead>);
+craftingTable.addShapeless("locusazzurro_icaruswings.golden_apple_growth_infused_mead", <item:locusazzurro_icaruswings:golden_apple_growth_infused_mead>, [<item:locusazzurro_icaruswings:golden_apple_infused_mead>, <item:wizards_reborn:shiny_clover_seed>, <item:wizards_reborn:shiny_clover_seed>, <item:wizards_reborn:shiny_clover_seed>, <item:wizards_reborn:shiny_clover_seed>]);
+
 //狱岩粉
 craftingTable.remove(<item:locusazzurro_icaruswings:magma_mixture>);
 craftingTable.addShapeless("locusazzurro_icaruswings.magma_mixture", <item:locusazzurro_icaruswings:magma_mixture>*4, [<item:eidolon:arcane_gold_ingot>, <item:minecraft:nether_wart>, <item:minecraft:basalt>, <item:celestial_core:fire_essence>]);
@@ -80,6 +87,7 @@ craftingTable.remove(<item:locusazzurro_icaruswings:transport_card_treasure>);
 craftingTable.remove(<item:locusazzurro_icaruswings:colored_feather_bunch>);
 craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <item:locusazzurro_icaruswings:colored_feather_bunch>, [<tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <item:locusazzurro_icaruswings:linen_string>]);
 
+<item:locusazzurro_icaruswings:quantum_fuel>.addTooltip("\u00A76可在切石机中制作多种枪械满级附魔");
 <item:locusazzurro_icaruswings:magma_ingot>.addTooltip("\u00A76新增击杀狱火暗域领主灵颅必定获得");
 <item:locusazzurro_icaruswings:purpur_ingot>.addTooltip("\u00A76新增击杀紫心刚玉影鬼必定获得");
 <item:locusazzurro_icaruswings:golden_apple_growth_infused_mead>.addTooltip("\u00A77在某种程度上也能称其为橙汁");

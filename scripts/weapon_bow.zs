@@ -65,7 +65,7 @@ smithing.remove(<item:morebows:gilded_netherite_bow>);
 smithing.remove(<item:morebows:enderite_bow>);
 smithing.remove(<item:morebows:gilded_enderite_bow>);
 
-smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:minecraft:bow>.anyDamage(), <item:minecraft:copper_block>);
+smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:wizards_reborn:arcane_wood_bow>.anyDamage(), <item:minecraft:copper_block>);
 smithing.addTransformRecipe("morebows.iron_bow", <item:morebows:iron_bow>, <item:hmag:evil_crystal_upgrade_smithing_template>, <item:morebows:copper_bow>.anyDamage(), <item:minecraft:iron_block>);
 smithing.addTransformRecipe("morebows.golden_bow", <item:morebows:golden_bow>, <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:morebows:iron_bow>.anyDamage(), <item:minecraft:gold_block>);
 smithing.addTransformRecipe("morebows.emerald_bow", <item:morebows:emerald_bow>, <item:call_of_drowner:coral_smithing_template>, <item:morebows:golden_bow>.anyDamage(), <item:goety:awakened_emerald_block>);

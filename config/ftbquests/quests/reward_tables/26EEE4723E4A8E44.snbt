@@ -1955,25 +1955,6 @@
 		{
 			item: {
 				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:invisibility"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
 				id: "tacz:modern_kinetic_gun"
 				tag: {
 					GunCurrentAmmoCount: 30

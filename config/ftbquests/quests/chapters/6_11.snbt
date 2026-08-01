@@ -86,6 +86,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -288,11 +289,7 @@
 		}
 		{
 			dependencies: ["1CA0F8ABA3F50C81"]
-			description: [
-				"无赎世界线专署饰品。"
-				""
-				"&6需注意此饰品佩戴在上帝之手栏位。"
-			]
+			description: ["无赎世界线专署饰品。"]
 			id: "5996E2A584477A0A"
 			rewards: [{
 				id: "511436CFCB6C12E6"

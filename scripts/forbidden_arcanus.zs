@@ -6,7 +6,8 @@ import mods.jeitweaker.Jei;
 //说明
 <item:forbidden_arcanus:arcane_bone_meal>.addTooltip("\u00A7c海王锄的耕地不属于原版耕地，无法使用神秘骨粉");
 <item:forbidden_arcanus:arcane_bone_meal>.addTooltip("\u00A7e新增在阿比斯之渊的王之墓穴内宝箱几率找到");
-<item:forbidden_arcanus:dark_matter>.addTooltip("\u00A76需在魔凝机内制作获得");
+<item:forbidden_arcanus:dark_matter>.addTooltip("\u00A76可在魔凝机内制作获得");
+<item:forbidden_arcanus:dark_matter>.addTooltip("\u00A7e新增击杀胡拉坎、冥猴、玛雅战士有几率获得");
 <item:forbidden_arcanus:dark_matter>.addTooltip("\u00A7c多人游戏时魔凝机存在特性需按U键查看合成");
 <item:forbidden_arcanus:dark_rune>.addTooltip("\u00A7c需按咒法章节解锁邪术学研究才能看到合成表");
 <item:forbidden_arcanus:soul>.addTooltip("\u00A7c利用灵魂提取器可获得灵魂，之后可通过合成复制");

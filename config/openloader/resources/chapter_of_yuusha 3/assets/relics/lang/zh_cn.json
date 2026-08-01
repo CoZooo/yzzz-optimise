@@ -237,8 +237,8 @@
   "tooltip.relics.spore_sack.ability.explosion.stat.size.value": "%1$s 每点失去的生命值。",
   "tooltip.relics.spore_sack.ability.explosion.predicate.spore": "囊袋里含有孢子",
 
-  "item.relics.ice_breaker": "破冰靴",
-  "tooltip.relics.ice_breaker.description": "使用“地震”时每降落三格方块增加1点经验。",
+  "item.relics.ice_breaker": "神灵陨落之靴",
+  "tooltip.relics.ice_breaker.description": "使用“地震”时每降落三格方块增加1点经验。如若踩中生物的头部，会直接秒杀目标。",
   "tooltip.relics.ice_breaker.ability.sustainability": "猛站",
   "tooltip.relics.ice_breaker.ability.sustainability.description": "增加下落速度和击退抗性。",
   "tooltip.relics.ice_breaker.ability.sustainability.stat.modifier.title": "击退抗性：",

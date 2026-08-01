@@ -3609,6 +3609,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3620,6 +3621,7 @@
 					auto: "enabled"
 					id: "47EC742C5062497B"
 					item: "chapter_of_yuusha_3_core:task_expert"
+					team_reward: true
 					type: "item"
 				}
 			]

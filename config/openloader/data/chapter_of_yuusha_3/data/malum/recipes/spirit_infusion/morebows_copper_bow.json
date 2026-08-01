@@ -12,7 +12,7 @@
   ],
   "input": {
     "count": 1,
-    "item": "minecraft:bow"
+    "item": "wizards_reborn:arcane_wood_bow"
   },
   "output": {
     "count": 1,

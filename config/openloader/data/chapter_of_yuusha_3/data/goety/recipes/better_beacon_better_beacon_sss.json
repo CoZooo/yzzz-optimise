@@ -6,7 +6,7 @@
   },
   "craftType": "forge",
   "soulCost": 80000,
-  "duration": 10,
+  "duration": 20,
   "research": "forbidden",
   "ingredients": [
     {

@@ -202,6 +202,7 @@ recipes.addJsonRecipe("moonstone.nightmare_base_reversal_mysterious.change",{
 <item:nameless_trinkets:ethereal_wings>.anyDamage().addTooltip("\u00A76可以通过开启「神秘无名饰品」获得");
 <item:nameless_trinkets:ethereal_wings>.anyDamage().addTooltip("\u00A7e也可将该系列饰品通过闪电互相转化");
 <item:nameless_trinkets:what_magnet>.anyDamage().addTooltip("\u00A7c可以通过开启饰品宝藏袋或者「神秘无名饰品」获得");
+<item:nameless_trinkets:what_magnet>.anyDamage().addTooltip("\u00A7e也可通过在终极工作台中合成获得");
 <item:nameless_trinkets:super_magnet>.anyDamage().addTooltip("\u00A7c神一品，基本可以瞬间吸收所有掉落物");
 <item:nameless_trinkets:super_magnet>.anyDamage().addTooltip("\u00A7e超级磁铁及其下级饰品在物品栏内右击可开关");
 
@@ -276,7 +277,7 @@ craftingTable.addShaped("nameless_trinkets.creeper_sense", <item:nameless_trinke
 <tag:items:curios:trinkets>.remove(<item:nameless_trinkets:tick>);
 <tag:items:curios:return_ring_slot>.add(<item:nameless_trinkets:tick>);
 <tag:items:curios:trinkets>.remove(<item:nameless_trinkets:what_magnet>);
-<tag:items:curios:magnet>.add(<item:nameless_trinkets:what_magnet>);
+<tag:items:curios:burning_secret>.add(<item:nameless_trinkets:what_magnet>);
 
 
 

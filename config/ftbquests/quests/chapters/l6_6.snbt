@@ -110,6 +110,51 @@
 			x: 10.0d
 			y: -37.5d
 		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "yuusha:textures/shipin-1.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -29.0d
+			y: -33.0d
+		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "yuusha:textures/shipin-2.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -29.0d
+			y: -25.5d
+		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "yuusha:textures/shipin-3.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -29.0d
+			y: -18.0d
+		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "yuusha:textures/shipin-4.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -29.0d
+			y: -15.0d
+		}
+		{
+			alpha: 200
+			height: 1.5d
+			image: "yuusha:textures/shipin-5.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -29.0d
+			y: -6.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -2035,13 +2080,11 @@
 			description: [
 				"增加下落速度和击退抗性。使坠落加快并在落点产生冲击波，造成伤害并击退附近的生物，冲击波的强弱（大概最多5倍）由玩家的坠落高度决定。享受主手武器的PMMO技能加伤。"
 				""
-				"&6无法开宝箱获得。只能在击杀钢铁守护者（详见天顶巨兽章节）后在星河贸易站交易获得。"
-				""
-				"&c用作星河贸易站交易的材料，不能是手持过或者使用过，会有特殊NBT无法识别。"
-				""
-				"&3在落地时只能接触地面方块，而不能直接接触实体，否则会无效果。"
+				"&6无法开宝箱获得。可通过制作获得。"
 				""
 				"&e在空中时，按下遗物饰品的主动技能键（默认T键），然后鼠标随便左击一下，就会触发坠落技能。"
+				""
+				"&c特性：如若踩中生物的头部，会直接秒杀目标。"
 			]
 			id: "2D6269A6F636CD8D"
 			rewards: [{
@@ -11397,24 +11440,25 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				""
-				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
-				"：重要性饰品，推荐获取。"
+				"◆形任务框为重要性饰品，推荐获取。"
 				""
 				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
 			]
+			icon: "goety_revelation:curios_storage_crystal"
 			id: "02956C92788CC8A3"
 			rewards: [{
 				id: "13C019382FF6412E"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "5BE26B821C42DCC4"
-				title: "护盾/免疫类"
 				type: "checkmark"
 			}]
+			title: "护盾/免疫类"
 			x: -29.0d
 			y: -33.0d
 		}
@@ -11437,22 +11481,22 @@
 			y: -27.0d
 		}
 		{
+			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				""
-				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
-				"：重要性饰品，推荐获取。"
+				"◆形任务框为重要性饰品，推荐获取。"
 				""
 				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
 			]
+			icon: "goety_revelation:curios_storage_crystal"
 			id: "1CAC14B6FF296761"
 			rewards: [{
 				id: "211A71B4EDBE7641"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "15EAB9D3C3ABC103"
-				title: "护盾/免疫类"
 				type: "checkmark"
 			}]
 			title: "减伤/免伤类"
@@ -11718,22 +11762,22 @@
 			y: -19.5d
 		}
 		{
+			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				""
-				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
-				"：重要性饰品，推荐获取。"
+				"◆形任务框为重要性饰品，推荐获取。"
 				""
 				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
 			]
+			icon: "goety_revelation:curios_storage_crystal"
 			id: "5268BCD08CCD2C31"
 			rewards: [{
 				id: "32B084D159327CCD"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0052CD0F714EDAC1"
-				title: "护盾/免疫类"
 				type: "checkmark"
 			}]
 			title: "图腾/复活类"
@@ -11842,22 +11886,22 @@
 			y: -16.5d
 		}
 		{
+			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				""
-				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
-				"：重要性饰品，推荐获取。"
+				"◆形任务框为重要性饰品，推荐获取。"
 				""
 				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
 			]
+			icon: "goety_revelation:curios_storage_crystal"
 			id: "29AE38B0415ABC08"
 			rewards: [{
 				id: "1A65C5E109088F86"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "0B78BCFC6023DE46"
-				title: "护盾/免疫类"
 				type: "checkmark"
 			}]
 			title: "生命值/护甲值类"
@@ -12038,24 +12082,24 @@
 			y: -7.5d
 		}
 		{
+			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				""
-				"{image:ftbquests:textures/shapes/diamond/background.png width:10 height:10 align:left}"
-				"：重要性饰品，推荐获取。"
+				"◆形任务框为重要性饰品，推荐获取。"
 				""
 				"&c列出饰品仅为常用饰品，更多模组饰品可在JEI内自行搜索查询。"
 				""
 				"&7&o为什么不搞记忆之书呢&r"
 			]
+			icon: "goety_revelation:curios_storage_crystal"
 			id: "799F2665FB35A21E"
 			rewards: [{
 				id: "6C778A0770E27CC8"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "hexagon"
 			tasks: [{
 				id: "599B778051191149"
-				title: "护盾/免疫类"
 				type: "checkmark"
 			}]
 			title: "经验/等级类"

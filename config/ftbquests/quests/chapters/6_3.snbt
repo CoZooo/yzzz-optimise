@@ -265,12 +265,19 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					id: "390B1093E01BC5F2"
 					item: "yuusha:moon_core"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0E3A8B657845278D"
+					item: "artifacts:scarf_of_invisibility"
 					team_reward: true
 					type: "item"
 				}
@@ -2695,7 +2702,13 @@
 			}]
 			tasks: [{
 				id: "670597BE8B29B27D"
-				item: "yuusha:dragon_heart"
+				item: {
+					Count: 1
+					id: "entity_303:entity_303_hood_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 56.0d
@@ -2742,7 +2755,7 @@
 		}
 		{
 			dependencies: ["3A6A75C511EBB4F0"]
-			description: ["利用万钧之护等材料，可制作更强大的超限猎人腰带（宠物加伤9625%）。"]
+			description: ["利用异想体之心等材料，可制作更强大的超限猎人腰带（宠物加伤9625%）。"]
 			hide_dependency_lines: true
 			id: "195E5FB546DFF1B5"
 			rewards: [{
@@ -2752,7 +2765,7 @@
 			}]
 			tasks: [{
 				id: "432C1E92E33DEB86"
-				item: "enigmaticaddons:thunder_scroll"
+				item: "yuusha:dragon_heart"
 				type: "item"
 			}]
 			x: 59.5d

@@ -4381,28 +4381,36 @@
 		}
 		{
 			dependencies: ["479232119C07EDDE"]
-			description: ["除非你清楚提交木剑的后果，否则不建议完成此任务。"]
+			description: [
+				"除非你清楚提交木剑的后果，否则不建议完成此任务。"
+				""
+				"&6此任务为团队任务，一个团队只能领取一次。"
+			]
 			icon: "refinedstorage:64k_storage_disk"
 			id: "2480FD0C0D4C9966"
 			rewards: [
 				{
 					id: "35201F90A597BA8B"
 					item: "refinedstorage:creative_controller"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "60D50C872932ACFE"
 					item: "refinedstorage:disk_drive"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "6B5268ECB09D86A2"
 					item: "refinedstorage:crafting_grid"
+					team_reward: true
 					type: "item"
 				}
 				{
 					id: "195307CB2E79D1AE"
 					item: "refinedstorage:64k_storage_disk"
+					team_reward: true
 					type: "item"
 				}
 			]

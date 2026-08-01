@@ -5,20 +5,34 @@
 	group: "27875B8237928FF1"
 	icon: "goose_curios:lovins_wrath"
 	id: "220F3A885CA9F78B"
-	images: [{
-		alpha: 90
-		color: 11908533
-		height: 45.0d
-		image: "yuusha:textures/yuusha_1.png"
-		rotation: 0.0d
-		width: 60.0d
-		x: -14.0d
-		y: 13.0d
-	}]
+	images: [
+		{
+			alpha: 100
+			color: 11908533
+			height: 45.0d
+			image: "yuusha:textures/yuusha_1.png"
+			rotation: 0.0d
+			width: 80.0d
+			x: -12.0d
+			y: 13.0d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 48.0d
+			image: ""
+			order: -3
+			rotation: 0.0d
+			width: 83.0d
+			x: -12.0d
+			y: 13.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4EABF5BDEB72041C"]
 			description: ["本整合包经过大量魔改，不适合刚接触MC整合包的萌新游玩，建议先游玩其他的整合包熟悉一下再来挑战本整合包。"]
 			id: "6CB988B6A1A8425F"
 			rewards: [{

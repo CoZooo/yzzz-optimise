@@ -84,7 +84,7 @@ import mods.jeitweaker.Jei;
 <item:enigmaticlegacy:monster_charm>.anyDamage().addTooltip("\u00A7c该饰品自身属性为全伤害加成，且为独立乘区");
 <item:enigmaticlegacy:darkest_scroll>.anyDamage().addTooltip("\u00A7c可用下界佳肴与猪灵交易获得");
 <item:enigmaticlegacy:darkest_scroll>.anyDamage().addTooltip("\u00A76需猪灵不处于仇恨状态（可佩戴无尽贪婪契约）");
-<item:enigmaticlegacy:darkest_scroll>.anyDamage().addTooltip("\u00A7e在地下墓窟也有几率找到，详见树海化章节额外地牢任务");
+<item:enigmaticlegacy:darkest_scroll>.anyDamage().addTooltip("\u00A7e在凋灵墓窟也有几率找到，详见树海化章节额外地牢任务");
 <item:enigmaticlegacy:cursed_scroll>.anyDamage().addTooltip("\u00A7e该饰品自身属性为全伤害加成，与其它神秘遗物饰品相加计算");
 <item:enigmaticlegacy:cursed_scroll>.anyDamage().addTooltip("\u00A76与恩赐卷轴属于互斥饰品，不能同时佩戴");
 <item:enigmaticlegacy:cursed_scroll>.anyDamage().addTooltip("\u00A7c在死亡或进入存档时，千咒卷轴等饰品会从饰品栏掉落");

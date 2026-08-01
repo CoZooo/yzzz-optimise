@@ -86,8 +86,8 @@ import mods.jeitweaker.Jei;
 <item:confluence:aglet>.anyDamage().addTooltip("\u00A7c新增击杀鹰身女妖、半人马有几率获得");
 
 <item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7c堡垒守护者在下界要塞中自然生成");
-<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7e凋灵死士、凋灵蛮兵、凋灵骷髅骑士在地下墓窟中自然生成");
-<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A76树海化章节额外地牢任务有地下墓窟介绍");
+<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7e凋灵死士、凋灵蛮兵、凋灵骷髅骑士在凋灵墓窟中自然生成");
+<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A76树海化章节额外地牢任务有凋灵墓窟介绍");
 <item:confluence:moon_stone>.anyDamage().addTooltip("\u00A76幻骨蝠自然生成在任何可以看到天空的开阔群系，即除了各种森林、丛林群系");
 <item:confluence:moon_stone>.anyDamage().addTooltip("\u00A7c新增幻骨蝠可用注魔膜召唤");
 

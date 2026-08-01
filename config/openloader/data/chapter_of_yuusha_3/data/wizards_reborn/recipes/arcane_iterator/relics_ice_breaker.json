@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "relics:ice_breaker",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "relics:ice_skates"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "distant_worlds:module_calm_spark"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "yuusha:emper_core"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    },
+    {
+      "item": "goety:hunger_core"
+    },
+    {
+      "item": "goety_revelation:apocalyptium_ingot"
+    }
+  ]
+}

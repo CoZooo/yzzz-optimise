@@ -20,6 +20,7 @@
 <item:malstone:corpse_cauldron>.anyDamage().addTooltip("\u00A7c可以让生命值突破天道限制");
 <item:malstone:martyrdom>.anyDamage().addTooltip("\u00A7c存在特性无实际加伤效果");
 <item:malstone:blade_dath>.anyDamage().addTooltip("\u00A7c存在特性无实际加伤效果");
+<item:malstone:extremely_dead>.anyDamage().addTooltip("\u00A76该饰品实际效果为增加最多100%的魔斯场强");
 
 //
 <tag:items:curios:ring>.remove(<item:malstone:breaking_the_weapon>);

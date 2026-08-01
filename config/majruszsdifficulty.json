@@ -703,7 +703,7 @@
   "mobs": {
     "cursed_armor": {
       "item_drop_chance": 0.5,
-      "custom_name_chance": 0.025,
+      "custom_name_chance": 1.0,
       "custom_names": [
         "死亡骑士"
       ],
@@ -739,13 +739,6 @@
             "minecraft:chests/bastion_other",
             "minecraft:chests/bastion_treasure",
             "minecraft:chests/nether_bridge"
-          ],
-          "chance": 0.75
-        },
-        {
-          "loot": "majruszsdifficulty:gameplay/cursed_armor_end",
-          "chests": [
-            "minecraft:chests/end_city_treasure"
           ],
           "chance": 0.75
         }

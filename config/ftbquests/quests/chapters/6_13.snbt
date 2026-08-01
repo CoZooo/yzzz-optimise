@@ -208,6 +208,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3561,17 +3562,42 @@
 		}
 		{
 			dependencies: ["57086B5D43457A41"]
+			description: ["长鞭的加成与法杖基本相同，但不能右击释放铁之咒语法术。"]
 			id: "175799F7783358F1"
 			rewards: [{
 				id: "58B7939D7CD541D4"
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "623B59BA969F0CA9"
-				item: "irons_spellbooks:blood_staff"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2342B8282C1E3416"
+					item: {
+						Count: 1
+						id: "goety_revelation:venomous_spider_whip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D42BF83DDC781BB"
+					item: {
+						Count: 1
+						id: "goety_revelation:spectre_whip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ECC0F56590F4E12"
+					item: "irons_spellbooks:blood_staff"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 0.0d
 		}

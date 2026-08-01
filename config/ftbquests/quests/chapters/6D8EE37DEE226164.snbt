@@ -806,7 +806,7 @@
 			subtitle: "「杂项」"
 			tasks: [{
 				id: "7DFDA961A72804E9"
-				item: "nameless_trinkets:super_magnet"
+				item: "malstone:condenser"
 				type: "item"
 			}]
 			x: -2.5d
@@ -822,11 +822,22 @@
 				type: "random"
 			}]
 			subtitle: "「杂项」"
-			tasks: [{
-				id: "7DE6A3D54CC2E57D"
-				item: "nameless_trinkets:broken_magnet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DE6A3D54CC2E57D"
+					item: "nameless_trinkets:broken_magnet"
+					type: "item"
+				}
+				{
+					id: "246A592826011E13"
+					item: {
+						Count: 1
+						id: "nameless_trinkets:super_magnet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 1.0d
 		}
@@ -1933,7 +1944,13 @@
 			subtitle: "「杂项」"
 			tasks: [{
 				id: "3D17C9C9FC530048"
-				item: "celestial_enchantments:celestial_enchanting_table"
+				item: {
+					Count: 1
+					id: "ancient_aether:valkyrum_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: -1.5d

@@ -412,6 +412,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{

@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "yuusha:orichalcum"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "celestial_artifacts:heirloom_necklace"
+  },
+  "output": {
+    "item": "goety_revelation:ascension_halo"
+  },
+  "spirits": [
+    {
+      "type": "umbral",
+      "count": 64
+    }
+  ]
+}

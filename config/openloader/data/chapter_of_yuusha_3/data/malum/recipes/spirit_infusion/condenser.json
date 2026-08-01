@@ -1,0 +1,23 @@
+{
+  "type": "malum:spirit_infusion",
+
+  "extra_items": [
+    {
+      "count": 8,
+      "item": "moonstone:ectoplasmball"
+    }
+  ],
+  "input": {
+    "count": 4,
+    "item": "forbidden_arcanus:darkstone"
+  },
+  "output": {
+    "item": "malstone:condenser"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 8
+    }
+  ]
+}

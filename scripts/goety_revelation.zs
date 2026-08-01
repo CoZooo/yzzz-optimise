@@ -14,6 +14,7 @@ import mods.jeitweaker.Jei;
 <item:goety_revelation:broken_halo>.addTooltip("\u00A7e佩戴后获得15%的伤害减免，若玩家处于下界，则获得30%的伤害减免");
 <item:goety_revelation:ascension_halo>.addTooltip("\u00A7c在主世界或者下界击杀亚波伦都可获得");
 <item:goety_revelation:ascension_halo>.addTooltip("\u00A76相关内容详见大满开章节神灵金属锭任务");
+<item:goety_revelation:ascension_halo>.addTooltip("\u00A7e也可通过合成获得");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A7c在主世界或者下界击杀亚波伦都可获得");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A7e还可用亚波伦的掉落材料在星河贸易站内交易获得");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A75主手持末日勋章右击海洛格里夫壁画特定部位会消耗并进入永昼空境");

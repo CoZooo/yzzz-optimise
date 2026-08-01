@@ -1,4 +1,7 @@
 {
+	"entity.aether.mimic": "天境拟箱怪",
+	"item.aether.mimic_spawn_egg": "天境拟箱怪刷怪蛋",
+
 	"effect.aether.inebriation.desc": "伤害玩家并随机移动。",
 	"effect.aether.inebriation.description": "伤害玩家并随机移动。",
 	"effect.aether.remedy.desc": "治愈玩家并免疫醺毒。",

@@ -6,15 +6,11 @@
   },
   "output": {
     "item": "wizards_reborn:arcanum_dust",
-    "count": 8
+    "count": 4
   },
   "extra_items": [
     {
       "item": "malum:hallowed_gold_ingot",
-      "count": 1
-    },
-    {
-      "item": "malum:hex_ash",
       "count": 1
     },
     {
@@ -29,10 +25,6 @@
     },
     {
       "type": "aerial",
-      "count": 1
-    },
-    {
-      "type": "infernal",
       "count": 1
     }
   ]

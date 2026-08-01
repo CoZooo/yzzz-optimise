@@ -60,8 +60,8 @@ stoneCutter.addRecipe("chapter_of_yuusha_3_core.life_limiter.3", <item:chapter_o
 <tag:items:curios:back>.remove(<item:chapter_of_yuusha_3_core:adaptation>);
 
 //
-<tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:forever_love>);
-<tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:forever_love>);
+//<tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:forever_love>);
+//<tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:forever_love>);
 
 <tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:draw_power>);
 <tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:draw_power>);
@@ -125,6 +125,9 @@ stoneCutter.addRecipe("chapter_of_yuusha_3_core.fluid_penetration.re", <item:min
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_quartz>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_magma>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:wizards_reborn:arcane_wand>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:goety_revelation:venomous_spider_whip>);
+<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:goety_revelation:spectre_whip>);
 
 
 

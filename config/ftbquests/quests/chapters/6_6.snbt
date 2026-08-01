@@ -654,11 +654,11 @@
 		{
 			dependencies: ["1E90ABFD331440E4"]
 			description: [
-				"炼金小瓶：利用能量晶核可在切石机中制作。"
+				"炼金小瓶：利用能量晶核可在切石机中制作。饮用可获得暴食饕餮时刻3级效果。"
 				""
-				"暴食聚液：击杀突变体后可用精魂坩埚制作。"
+				"暴食聚液：击杀突变体后可用精魂坩埚制作。饮用可获得暴食饕餮时刻4级效果。"
 				""
-				"&6暴食的加成均在独立乘区。"
+				"&6暴食饕餮时刻效果的加成均在独立乘区。"
 			]
 			id: "2EEDE8FEE0E17370"
 			rewards: [{
@@ -687,12 +687,16 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			x: -8.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1E90ABFD331440E4"]
-			description: ["佩戴后进食烟熏腐肉即可延长暴食的时间。"]
+			description: [
+				"佩戴后进食烟熏腐肉可延长暴食饕餮时刻的时间。"
+				""
+				"&6还可以使得饮用暴食聚液后获得暴食饕餮时刻5级效果。"
+			]
 			id: "702BBC6E5FE6075C"
 			rewards: [{
 				id: "47E66B00408957B6"
@@ -704,7 +708,7 @@
 				item: "malum:ring_of_desperate_voracity"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 1.0d
 		}
 		{
@@ -913,7 +917,11 @@
 		}
 		{
 			dependencies: ["1E90ABFD331440E4"]
-			description: ["需按咒法章节左上角解锁邪术学研究才能看到合成表。"]
+			description: [
+				"佩戴后食用烟熏腐肉等食物，可获得可叠加的2层暴食饕餮时刻效果，最高叠加至10级。"
+				""
+				"&6需按咒法章节左上角解锁邪术学研究才能看到合成表。"
+			]
 			id: "54B7D8A3522D9754"
 			rewards: [{
 				id: "2A814013527440B1"
@@ -1035,7 +1043,11 @@
 		}
 		{
 			dependencies: ["1E90ABFD331440E4"]
-			description: ["在多样性达150点时，也可以获得暴食饕餮10级效果。"]
+			description: [
+				"可获得最高叠加至10级的暴食饕餮时刻效果。"
+				""
+				"&6在多样性达150点时，也可以获得暴食饕餮10级效果。"
+			]
 			id: "176AFB9A6F824524"
 			rewards: [{
 				id: "545FCBEE919E1583"
@@ -1969,6 +1981,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -1995,7 +2008,7 @@
 			description: [
 				"九魔·九厄：佩戴后，只能造成聚晶法术伤害，同时获得额外伤害提升。"
 				""
-				"&c仅供测试，尚未完善。"
+				"&6可能具有一定的难度。"
 			]
 			hide_until_deps_complete: true
 			icon: "goose_curios:nine_demons_nine_calamities"
@@ -2023,6 +2036,7 @@
 							}
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 				{
