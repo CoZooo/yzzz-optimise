@@ -11,7 +11,7 @@
 				"entity": "minecraft:blaze",
 				"rolls": 1
 			}],
-			"max_wave_time": 800,
+			"max_wave_time": 600,
 			"setup_time": 60
 		},
 		{
@@ -50,7 +50,7 @@
 				"entity": "minecraft:blaze",
 				"rolls": 1
 			}],
-			"max_wave_time": 800,
+			"max_wave_time": 600,
 			"setup_time": 60
 		},
 		{
@@ -90,7 +90,7 @@
 				"entity": "minecraft:blaze",
 				"rolls": 1
 			}],
-			"max_wave_time": 800,
+			"max_wave_time": 600,
 			"setup_time": 60
 		},
 		{
@@ -130,7 +130,7 @@
 				"entity": "minecraft:blaze",
 				"rolls": 1
 			}],
-			"max_wave_time": 1000,
+			"max_wave_time": 600,
 			"setup_time": 60
 		},
 		{
@@ -167,12 +167,59 @@
 			],
 			"rewards": [
 				{
-					"type": "gateways:experience",
-					"experience": 500,
-                    "orb_size": 25
+					"type": "gateways:entity_loot",
+					"entity": "minecraft:blaze",
+					"rolls": 1
 				}
 			],
-			"max_wave_time": 1200,
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:blaze",
+                    "count": 8
+				},
+				{
+					"entity": "hmag:fortress_keeper",
+                    "count": 1
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 100
+				}
+			],
+			"max_wave_time": 600,
 			"setup_time": 60
 		}
 	],

@@ -8,14 +8,14 @@
 			"item": "minecraft:iron_pickaxe"
 		},
 		{
-			"item": "distant_worlds:fralite"
+			"item": "immortalers_delight:ancient_wood_planks"
 		},
 		{
-			"item": "distant_worlds:lithum"
+			"tag": "locusazzurro_icaruswings:colored_feathers"
 		}
 	],
 	"result": {
 		"item": "apotheosis:iron_mining_arrow",
-		"count": 16
+		"count": 6
 	}
 }

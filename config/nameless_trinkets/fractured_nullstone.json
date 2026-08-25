@@ -1,6 +1,6 @@
 {
   "config": {
-    "magicDamageReduction": 0.25,
+    "magicDamageReduction": 0.5,
     "isEnable": true
   }
 }

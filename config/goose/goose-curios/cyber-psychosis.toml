@@ -16,4 +16,12 @@
 	#20 tick = 1 秒，超过此时间未攻击则重置爆头率
 	#Range: 0 ~ 6000
 	resetAfterTicks = 200
+	#每达到多少点幸运值计算一档调整，范围：0.01-1000.00，推荐：1.00
+	#正幸运降低初始累计值，负幸运提高初始累计值
+	#Range: 0.01 ~ 1000.0
+	luckPerPenaltyStep = 1.0
+	#每档调整的初始爆头累计值，范围：0.00-1.00，推荐：0.10
+	#内部累计值允许低于 0，实际爆头概率仍限制在 0 到 maxChance
+	#Range: 0.0 ~ 1.0
+	initialChanceReductionPerStep = 0.1
 

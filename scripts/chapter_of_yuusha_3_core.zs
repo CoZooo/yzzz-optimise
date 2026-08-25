@@ -125,7 +125,7 @@ stoneCutter.addRecipe("chapter_of_yuusha_3_core.fluid_penetration.re", <item:min
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_quartz>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:aetherworks:crossbow_magma>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:wizards_reborn:arcane_wand>);
-<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade>);
+//<tag:items:chapter_of_yuusha_3_core:wand>.add(<item:slashblade:slashblade>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:goety_revelation:venomous_spider_whip>);
 <tag:items:chapter_of_yuusha_3_core:wand>.add(<item:goety_revelation:spectre_whip>);
 

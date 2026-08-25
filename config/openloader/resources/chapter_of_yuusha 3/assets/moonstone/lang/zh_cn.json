@@ -1,4 +1,9 @@
 {
+	"item.mhead.tool.string": "大部分生物无法攻击你，但你无法攻击任何生物",
+
+	"item.ectoplasmapple.tool.string": "受到攻击会使周围生物受到2%最大生命值的物理伤害",
+	"item.magiceye.tool.string.1": "将受到50％的范围非玩家魔法伤害",
+
 	"item.moonstone.ectoplasmapple": "「永恒」灵质果",
 
 	"entity.moonstone.small_zombie": "小型细胞僵尸",
@@ -180,7 +185,7 @@
 	"item.nightmare_base_fool_soul.tool.string.1": "治疗增加3%",
 	"item.nightmare_base_fool_soul.tool.string.2": "每佩戴一件噩梦之槽饰品",
 	"item.nightmare_base_fool_soul.tool.string.3": "生命值增加6",
-	"item.rage_eye.tool.string": "手持偷盗者的狂暴之眼左击生物会偷取记录其2%基础属性",
+	"item.rage_eye.tool.string": "手持偷盗者的狂暴之眼左击生物会偷取记录其1%基础属性",
 	"item.rage_eye.tool.string.4": "偷取记录的属性显示于饰品上，最大值不超过你的1%，最后佩戴即可生效",
 	"item.pain_ring.tool.string": "每次恢复血量时+1%抛瓦（不超过50%）",
 	"item.nightmare_base_insight_drug.tool.string": "近战伤害、护甲、生命值提高50%",

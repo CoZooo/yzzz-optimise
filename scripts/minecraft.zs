@@ -518,6 +518,7 @@ brewing.removeRecipeByReagent(<item:mutantmonsters:creeper_shard>);
 brewing.removeRecipeByReagent(<item:minecraft:glistering_melon_slice>);
 brewing.removeRecipeByReagent(<item:aquaculture:leech>);
 brewing.removeRecipeByReagent(<item:eidolon:death_essence>);
+//brewing.removeRecipeByReagent(<item:enigmaticaddons:pure_heart>);
 //brewing.removeRecipeByReagent(<item:minecraft:dragon_breath>);
 
 

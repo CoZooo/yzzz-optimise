@@ -71,7 +71,7 @@
 		[Auto_Values.Xp_Awards.Items]
 
 			[Auto_Values.Xp_Awards.Items."ANVIL_REPAIR Default Xp Award"]
-				smithing = 10
+				smithing = 5
 
 			[Auto_Values.Xp_Awards.Items."BLOCK_PLACE Default Xp Award"]
 				building = 100
@@ -89,7 +89,7 @@
 				fishing = 200
 
 			[Auto_Values.Xp_Awards.Items."SMELT Default Xp Award"]
-				smithing = 100
+				smithing = 200
 
 			[Auto_Values.Xp_Awards.Items."BREW Default Xp Award"]
 				alchemy = 100

@@ -1,5 +1,6 @@
 {
   "skillLocks": {
+	"minecraft:cookie": ["magic:666"],
 	"bosses_of_mass_destruction:void_lily": ["magic:666"],
 	"goety:black_wolf_spawn_egg": ["magic:666"],
 	"goety:skeleton_wolf_spawn_egg": ["magic:666"],

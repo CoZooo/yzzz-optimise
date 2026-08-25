@@ -64,11 +64,13 @@ craftingTable.remove(<item:enigmaticaddons:forger_gem>);
 craftingTable.addShaped("enigmaticaddons.forger_gem.1", <item:enigmaticaddons:forger_gem>, [[<item:born_in_chaos_v1:diamond_termite_shard>, <item:born_in_chaos_v1:diamond_termite_shard>, <item:born_in_chaos_v1:diamond_termite_shard>], [<item:locusazzurro_icaruswings:steel_ingot>, <item:enigmaticlegacy:abyssal_heart>, <item:locusazzurro_icaruswings:steel_ingot>], [<item:minecraft:netherite_scrap>, <item:enigmaticlegacy:iron_ring>.anyDamage(), <item:minecraft:netherite_scrap>]]);
 craftingTable.addShaped("enigmaticaddons.forger_gem.2", <item:enigmaticaddons:forger_gem>, [[<item:born_in_chaos_v1:diamond_termite_shard>, <item:born_in_chaos_v1:diamond_termite_shard>, <item:born_in_chaos_v1:diamond_termite_shard>], [<item:locusazzurro_icaruswings:steel_ingot>, <item:yuusha:moon_core>, <item:locusazzurro_icaruswings:steel_ingot>], [<item:minecraft:netherite_scrap>, <item:enigmaticlegacy:iron_ring>.anyDamage(), <item:minecraft:netherite_scrap>]]);
 
-//
+//暴戾之咒
 craftingTable.remove(<item:enigmaticaddons:violence_scroll>);
-<item:enigmaticaddons:violence_scroll>.anyDamage().addTooltip("\u00A7c暂无法获取");
+craftingTable.addShaped("enigmaticaddons.violence_scroll", <item:enigmaticaddons:violence_scroll>, [[<item:yuusha:curse_dragon_scale>, <item:enigmaticlegacy:twisted_heart>, <item:yuusha:curse_dragon_scale>], [<item:irons_spellbooks:epic_ink>, <item:enigmaticlegacy:darkest_scroll>, <item:reliquary:phoenix_down>],  [<item:yuusha:curse_astral_dust>, <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 20, id: "minecraft:protection"}]}), <item:yuusha:curse_astral_dust>]]);
+//<item:enigmaticaddons:violence_scroll>.anyDamage().addTooltip("\u00A7c暂无法获取");
 
 //说明
+<item:enigmaticaddons:enigmatic_pearl>.addTooltip("\u00A7c新增击杀消失的天使有几率获得");
 <item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A7e右击享受箭术技能、各种投射物等加成");
 <item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A7c若同时佩戴精灵手环，会无法发射魔法匕首");
 <item:enigmaticaddons:quartz_scepter>.addTooltip("\u00A76更多信息详见疾矢章节任务");
@@ -110,6 +112,8 @@ craftingTable.remove(<item:enigmaticaddons:violence_scroll>);
 //
 <tag:items:curios:ring>.remove(<item:enigmaticaddons:earth_promise>);
 <tag:items:curios:malum_ring>.add(<item:enigmaticaddons:earth_promise>);
+<tag:items:curios:scroll>.remove(<item:enigmaticaddons:violence_scroll>);
+<tag:items:curios:satan_contract>.add(<item:enigmaticaddons:violence_scroll>);
 
 //堆叠
 <item:enigmaticaddons:primeval_cube>.setMaxStackSize(64);

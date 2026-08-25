@@ -232,6 +232,7 @@
 <item:yuusha:blood_star>.addTooltip("\u00A76可制作获得，相关内容详见大满开章节任务");
 <item:yuusha:blood_star>.addTooltip("\u00A7c将其丢进酸液内，可将液体转化为孽血液体");
 <item:yuusha:blood_star>.addTooltip("\u00A7e手持血肉下界之星右击袋装星尘方块，可将其转化为阴阳态素块");
+<item:yuusha:blood_star>.addTooltip("\u00A72新增击杀片翼天使复制体可获得");
 
 <item:yuusha:falling_ender_pear>.addTooltip("\u00A7c击杀片翼天使复制体可获得");
 <item:yuusha:falling_ender_pear>.addTooltip("\u00A76相关内容详见大满开章节任务");

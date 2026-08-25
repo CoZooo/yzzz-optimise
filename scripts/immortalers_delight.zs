@@ -29,7 +29,7 @@ campfire.addRecipe("immortalers_delight.cooked_sniffer_slice", <item:immortalers
 <tag:items:forge:vegetables>.remove(<item:immortalers_delight:evolutcorn>);
 
 //
-//<item:immortalers_delight:clear_water_vodka>.addTooltip("\u00A7e只能通过考古远古纤维转化的可疑沙子可获得");
+<item:immortalers_delight:ancient_wood_planks>.addTooltip("\u00A76古木几率出现在荒废的平原住宅、生生不息的樱花树遗迹");
 <item:immortalers_delight:sealed_ancient_rations>.addTooltip("\u00A7e考古生生不息的樱花树遗迹可疑沙砾或沙子可获得");
 <item:immortalers_delight:raw_sniffer_steak>.addTooltip("\u00A7c新增可在星河贸易站交易获得");
 <item:immortalers_delight:enchantal_cooler>.addTooltip("\u00A73需放入青金石充能");

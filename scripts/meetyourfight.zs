@@ -1,6 +1,7 @@
 //说明
 <item:meetyourfight:wilted_ideals>.addTooltip("\u00A76该饰品自身属性属于全伤害加成");
-<item:meetyourfight:wilted_ideals>.addTooltip("\u00A7e新增击杀无名守卫者有几率掉落");
+<item:meetyourfight:wilted_ideals>.addTooltip("\u00A7e会在独立乘区降低血量上限");
+<item:meetyourfight:wilted_ideals>.addTooltip("\u00A7c新增击杀无名守卫者有几率掉落");
 <item:meetyourfight:slicers_dice>.addTooltip("\u00A76该饰品自身属性属于全伤害加成");
 <item:meetyourfight:mossy_tooth>.addTooltip("\u00A7c击杀沼泽巨颌怪可获得");
 <item:meetyourfight:mossy_tooth>.addTooltip("\u00A7e详见天顶巨兽章节任务");

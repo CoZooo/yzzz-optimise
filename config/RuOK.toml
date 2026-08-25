@@ -8,7 +8,7 @@ whiteListedEntities = []
 BlackTagListEntity = []
 WhiteTagListEntity = []
 isAlwaysShowItemCount = false
-startTime = 160.82
+startTime = 120.236
 Hud = true
 HudRXTX = false
 HudFPS = true
@@ -30,7 +30,7 @@ TextureAnimatedSprites = true
 SoundDevicesMonitor = false
 SetParticleMaxAge = true
 ParticleMaxAge = 100
-MinDistance = 2
+MinDistance = 5
 EntityDistance = 120
 ParticlePerformance = false
 ParticleCountLimit = 8192
@@ -44,7 +44,7 @@ MaxBlockEntityCount = 120
 BlockEntityDistance = 64
 onCull = true
 VisibleCulling = false
-EntityRenderPerformance = false
+EntityRenderPerformance = true
 CullMode = "FAST"
 ParticleFastCollision = false
 CullBlockEntity = true
@@ -53,8 +53,8 @@ CullParticle = true
 
 [[HudTextConfig]]
 key = "ruok.options.hud.fps.info"
-x = 707
-y = 160
+x = 0
+y = 2
 enabled = true
 
 [[HudTextConfig]]

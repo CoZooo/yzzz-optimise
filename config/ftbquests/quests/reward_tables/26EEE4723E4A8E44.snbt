@@ -2124,6 +2124,15 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticaddons:unknown_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	title: "时空乱流"
 }

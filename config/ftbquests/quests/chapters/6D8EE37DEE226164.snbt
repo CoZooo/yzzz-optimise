@@ -1830,11 +1830,7 @@
 		}
 		{
 			dependencies: ["257028CB350CC18F"]
-			description: [
-				"它蔓延了：在幽匿催发体半径8格内杀死一个能掉落经验的生物。"
-				""
-				"正中靶心：在玩家与标靶的水平距离超过30米时，玩家发射出的弹射物击中标靶的中心。"
-			]
+			description: ["它蔓延了：在幽匿催发体半径8格内杀死一个能掉落经验的生物。"]
 			icon: "minecraft:sculk_catalyst"
 			id: "441E3544904B00C5"
 			rewards: [{
@@ -1848,20 +1844,12 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
-					criterion: ""
-					id: "22E2EAD460B19BD0"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:adventure/bullseye"
-					criterion: ""
-					id: "43629538B5F85E0C"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+				id: "22E2EAD460B19BD0"
+				type: "advancement"
+			}]
 			x: -1.5d
 			y: 5.5d
 		}

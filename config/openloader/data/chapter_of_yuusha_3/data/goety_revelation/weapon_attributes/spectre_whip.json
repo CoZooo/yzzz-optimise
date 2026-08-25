@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 16.0,
+    "attack_range": 12.0,
     "pose": "bettercombat:pose_two_handed_polearm",
     "two_handed": true,
     "category": "halberd",

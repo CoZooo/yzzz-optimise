@@ -1,11 +1,6 @@
 import mods.jeitweaker.Jei;
 
 //说明
-//<item:confluence:feral_claws>.anyDamage().addTooltip("\u00A7c该配饰及其相关配饰会导致自动攻击异常");
-//<item:confluence:power_glove>.anyDamage().addTooltip("\u00A7c该配饰及其相关配饰会导致自动攻击异常");
-//<item:confluence:berserkers_glove>.anyDamage().addTooltip("\u00A7c该配饰及其相关配饰会导致自动攻击异常");
-//<item:confluence:mechanical_glove>.anyDamage().addTooltip("\u00A7c该配饰及其相关配饰会导致自动攻击异常");
-//<item:confluence:fire_gauntlet>.anyDamage().addTooltip("\u00A7c该配饰及其相关配饰会导致自动攻击异常");
 
 <item:confluence:depth_meter>.anyDamage().addTooltip("\u00A7c击杀坎马卓兹饮血蝙蝠必定获得");
 <item:confluence:depth_meter>.anyDamage().addTooltip("\u00A76而击杀蝙蝠不再获得");
@@ -85,7 +80,7 @@ import mods.jeitweaker.Jei;
 
 <item:confluence:aglet>.anyDamage().addTooltip("\u00A7c新增击杀鹰身女妖、半人马有几率获得");
 
-<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7c堡垒守护者在下界要塞中自然生成");
+<item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7c堡垒守护者在下界要塞中自然生成，烈焰人传送门内也有");
 <item:confluence:sun_stone>.anyDamage().addTooltip("\u00A7e凋灵死士、凋灵蛮兵、凋灵骷髅骑士在凋灵墓窟中自然生成");
 <item:confluence:sun_stone>.anyDamage().addTooltip("\u00A76树海化章节额外地牢任务有凋灵墓窟介绍");
 <item:confluence:moon_stone>.anyDamage().addTooltip("\u00A76幻骨蝠自然生成在任何可以看到天空的开阔群系，即除了各种森林、丛林群系");
@@ -96,8 +91,8 @@ import mods.jeitweaker.Jei;
 
 <item:confluence:workshop>.addTooltip("\u00A76可制作，详见古遗天境章节");
 
-<item:confluence:cross_necklace>.anyDamage().addTooltip("\u00A76· +100% 无敌时间");
-<item:confluence:star_veil>.anyDamage().addTooltip("\u00A76· +100% 无敌时间");
+<item:confluence:cross_necklace>.anyDamage().addTooltip("\u00A76· +150% 无敌时间");
+<item:confluence:star_veil>.anyDamage().addTooltip("\u00A76· +150% 无敌时间");
 
 <item:confluence:magic_mirror>.anyDamage().addTooltip("\u00A7c无法跨维度传送");
 <item:confluence:shark_tooth_necklace>.anyDamage().addTooltip("\u00A7c该饰品所提供的增伤仅增加近战伤害");

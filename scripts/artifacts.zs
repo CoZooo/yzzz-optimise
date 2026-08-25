@@ -17,7 +17,7 @@ import mods.jeitweaker.Jei;
 <item:artifacts:chorus_totem>.anyDamage().addTooltip("\u00A7e新增击杀庇护者有几率获得");
 <item:artifacts:shock_pendant>.anyDamage().addTooltip("\u00A76获取详见树海化章节的奇异饰品任务");
 
-<item:artifacts:cross_necklace>.anyDamage().addTooltip("\u00A76· +100% 无敌时间");
+<item:artifacts:cross_necklace>.anyDamage().addTooltip("\u00A76· +150% 无敌时间");
 <item:artifacts:cross_necklace>.anyDamage().addTooltip("\u00A7e新增击杀末影人突变体有几率获得");
 <item:artifacts:vampiric_glove>.anyDamage().addTooltip("\u00A7c· 最大吸血值为6点");
 <item:artifacts:feral_claws>.anyDamage().addTooltip("\u00A7c击杀宝箱怪有小几率获得");
