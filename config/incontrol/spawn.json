@@ -2,7 +2,8 @@
 	{
 		"when": "onjoin",
 		"mob": ["born_in_chaos_v1:spiritof_chaos"],
-		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "aether:the_aether"],
+		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "faded_conquest_2:the_mirror_realm", "aether:the_aether"],
+		"healthset": 2500,
 		"result": "deny"
 	},
 	{
@@ -33,6 +34,11 @@
 			"amount": 4,
 			"mob": "mokels_witch_boss:witchhat"
 		},
+		"when": "onjoin",
+		"result": "deny"
+	},
+	{
+		"mob": ["aether_redux:blightbunny"],
 		"when": "onjoin",
 		"result": "deny"
 	},
@@ -572,6 +578,7 @@
 	{
 		"when": "onjoin",
 		"healthset": 77500,
+		"knockbackresistanceset": 10,
 		"mob": ["theinkarena:blot"]
 	},
 	{
@@ -589,11 +596,6 @@
 		"when": "onjoin",
 		"healthset": 80000,
 		"mob": ["cataclysm:elite_draugr", "cataclysm:draugr", "cataclysm:royal_draugr"]
-	},
-	{
-		"when": "onjoin",
-		"healthset": 82500,
-		"mob": ["irons_spellbooks:dead_king_corpse"]
 	},
 	{
 		"when": "onjoin",
@@ -624,7 +626,7 @@
 	{
 		"when": "onjoin",
 		"healthset": 97500,
-		"mob": ["irons_spellbooks:dead_king", "infinite_abyss:tempest_of_flame", "infinite_abyss:shadow_eyes"]
+		"mob": ["irons_spellbooks:dead_king_corpse", "irons_spellbooks:dead_king", "infinite_abyss:tempest_of_flame", "infinite_abyss:shadow_eyes"]
 	},
 	{
 		"when": "onjoin",

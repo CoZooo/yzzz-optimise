@@ -1,0 +1,33 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 48
+    },
+    {
+      "item": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "applied_armorer:moritz_rifle_ar77"
+  }
+}

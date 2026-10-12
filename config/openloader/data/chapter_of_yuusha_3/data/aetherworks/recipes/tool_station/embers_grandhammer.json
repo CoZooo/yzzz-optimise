@@ -1,0 +1,26 @@
+{
+  "type": "aetherworks:tool_station",
+  "inputs": [
+    {
+      "item": "embers:shifting_scales"
+    },
+    {
+      "item": "cataclysm:ancient_metal_block"
+    },
+    {
+      "item": "yuusha:gold_skull"
+    },
+    {
+      "item": "enigmaticlegacy:ender_rod"
+    },
+    {
+      "item": "embers:shifting_scales"
+    }
+  ],
+  "output": {
+    "item": "embers:grandhammer",
+    "count": 1
+  },
+  "temperature": 2800,
+  "temperature_rate": 12.0
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "aetherworks:ingot_aether"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "enigmaticlegacy:etherium_ore"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:1xscopeb"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

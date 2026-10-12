@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DFB",
+    "EAE",
+    "BFD"
+  ],
+  "key": {
+    "D": {
+      "item": "infinite_abyss:red_deepstone"
+    },
+	"E": {
+      "item": "cataclysm:burning_ashes"
+    },
+	"F": {
+      "item": "infinite_abyss:deeprock_golem_spirit_stone"
+    },
+	"A": {
+      "item": "endrem:nether_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:fire_crystal"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:second_layer_gate"
+}

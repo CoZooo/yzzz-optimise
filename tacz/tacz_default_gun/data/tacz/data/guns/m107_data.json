@@ -1,25 +1,25 @@
 {
   "ammo": "tacz:50bmg",
-  "ammo_amount": 10,
+  "ammo_amount": 7,
   "extended_mag_ammo_amount": [
-    12,
-    14,
-    20
+    8,
+    9,
+    10
   ],
   "bolt": "manual_action",
-  "rpm": 400,
+  "rpm": 100,
   "bullet": {
     "life": 1.1,
     "bullet_amount": 1,
-    "damage": 1520,
+    "damage": 450,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.625,
-      "head_shot_multiplier": 4.7,
+      "armor_ignore": 0.0,
+      "head_shot_multiplier": 4.0,
       "damage_adjust": [
-        {"distance": 40, "damage": 1520},
-        {"distance": 80, "damage": 1368},
-        {"distance": "infinite", "damage": 1216}
+        {"distance": 40, "damage": 450},
+        {"distance": 80, "damage": 405},
+        {"distance": "infinite", "damage": 390}
       ]
     },
     "speed": 400,
@@ -30,9 +30,10 @@
     "pierce": 5,
     "explosion": {
       "explode": false,
-      "damage": 100,
-      "radius": 1.5,
-      "knockback": true,
+      "damage": 450,
+      "radius": 1.0,
+      "knockback": false,
+      "destroy_block": false,
       "delay": 1
     }
   },
@@ -51,7 +52,7 @@
   "put_away_time": 0.87,
   "aim_time": 0.23,
   "sprint_time": 0.33,
-  "weight": 28.5,
+  "weight": 30,
   "movement_speed": {
     // 默认修正
     "base": 0.0,
@@ -66,29 +67,25 @@
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [6.25, 6.25]},
-      {"time": 0.1, "value": [4.5, 4.5]},
-      {"time": 0.21, "value": [5.85, 5.85]},
-      {"time": 0.33, "value": [4.5, 4.5]},
-      {"time": 0.53, "value": [-0.5, -0.5]},
-      {"time": 0.72, "value": [0.25, 0.25]},
-      {"time": 0.88, "value": [0, 0]},
-      {"time": 1.1, "value": [0, 0]}
+      {"time": 0, "value": [4.5, 4.5]},
+      {"time": 0.32, "value": [4.5, 4.5]},
+      {"time": 0.57, "value": [-0.5, -0.5]},
+      {"time": 0.82, "value": [0.25, 0.25]},
+      {"time": 1.17, "value": [0, 0]},
+      {"time": 1.47, "value": [0, 0]}
     ],
     "yaw": [
-      {"time": 0, "value": [-3.75, -3.75]},
-      {"time": 0.12, "value": [2.75, 2.75]},
-      {"time": 0.23, "value": [-0.75, -0.5]},
-      {"time": 0.33, "value": [0.25, 0.5]},
-      {"time": 0.61, "value": [0, 0]}
+      {"time": 0, "value": [-2.2, -0.9]},
+      {"time": 0.32, "value": [-2.2, -0.9]},
+      {"time": 0.57, "value": [0, 0]}
     ]
   },
   "inaccuracy": {
-    "stand": 18,
-    "move": 23,
-    "sneak": 13,
-    "lie": 12,
-    "aim": 0.05
+    "stand": 6.8,
+    "move": 7.3,
+    "sneak": 6.3,
+    "lie": 6.2,
+    "aim": 0.1
   },
   // 近战相关
   "melee": {
@@ -115,9 +112,11 @@
   },
   "allow_attachment_types": [
     "scope",
+	"grip",
+	"muzzle",
     "extended_mag",
-    "muzzle",
-    "stock"
+    "stock",
+    "laser"
   ],
   "exclusive_attachments": {
    

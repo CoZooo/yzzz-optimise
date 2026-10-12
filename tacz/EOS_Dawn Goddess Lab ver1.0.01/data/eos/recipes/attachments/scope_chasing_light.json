@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "aetherworks:ingot_aether"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "cataclysm:monstrous_eye"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_chasing_light"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

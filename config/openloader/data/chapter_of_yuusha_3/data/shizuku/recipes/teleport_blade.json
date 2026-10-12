@@ -12,8 +12,8 @@
           "broken",
           "sealed"
         ],
-        "kill": 500,
-        "refine": 5
+        "kill": 1000,
+        "refine": 10
       }
     },
     "B": {

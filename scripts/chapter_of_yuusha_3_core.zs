@@ -2,6 +2,8 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.property.Rarity;
 
 //
+<tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:war_mage_ring>);
+<tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:war_mage_ring>);
 <tag:items:curios:back>.remove(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:heartamulet>.add(<item:endless_slash_curse:endless_slash_curse>);
 <tag:items:curios:charm>.remove(<item:better_beacon:better_beacon_sss>);
@@ -85,18 +87,25 @@ recipes.addJsonRecipe("chapter_of_yuusha_3_core.eternal_day_flat_dimension",{
 });
 
 //
+<item:chapter_of_yuusha_3_core:nine_sword_books>.anyDamage().addTooltip("\u00A7c佩戴后除拔刀剑类外都无法造成伤害");
+<item:chapter_of_yuusha_3_core:nine_sword_books>.anyDamage().addTooltip("\u00A7e需注意该饰品的飞剑可无限增殖");
+<item:chapter_of_yuusha_3_core:nine_sword_books>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
+<item:goose_curios:cyber_psychosis>.anyDamage().addTooltip("\u00A7e幸运值会额外修改初始爆头判定几率");
+<item:goose_curios:cyber_psychosis>.anyDamage().addTooltip("\u00A76每点正幸运会降低5%，每点负幸运会提高5%");
 <item:chapter_of_yuusha_3_core:draw_power>.anyDamage().addTooltip("\u00A76只有选择玩家是刺客世界线才能获取");
 <item:chapter_of_yuusha_3_core:draw_power>.anyDamage().addTooltip("\u00A7c蓄力时间可享受部分拉弓速度缩短");
 <item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A7c佩戴后埋伏性狩猎在非冷却期间击杀生物不会进入冷却");
 <item:endless_slash_curse:endless_slash_curse>.anyDamage().addTooltip("\u00A76只有选择玩家是刺客世界线才能获取");
 <item:better_beacon:better_beacon_sss>.anyDamage().addTooltip("\u00A7c佩戴时将自身的负面效果传递给目标生物");
-<item:better_beacon:pure_eden>.anyDamage().addTooltip("\u00A7c佩戴时任意攻击均可清除目标药水效果");
+<item:better_beacon:pure_eden>.anyDamage().addTooltip("\u00A7e佩戴时任意攻击均可清除目标药水效果");
+<item:better_beacon:pure_eden>.anyDamage().addTooltip("\u00A7c佩戴后使用部分拔刀剑的SA会崩游戏");
 <item:better_beacon:better_beacon_sss>.setMaxStackSize(1);
 <item:better_beacon:pure_eden>.setMaxStackSize(1);
 
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7c女仆佩戴后将会有法力值上限限制");
 <item:chapter_of_yuusha_3_core:maid_irons_spell>.addTooltip("\u00A7e但仍是瞬间恢复满法力值");
 <item:chapter_of_yuusha_3_core:war_mage_ring>.anyDamage().addTooltip("\u00A75需注意佩戴后，进食会消耗法力值");
+
 /*
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A7c谨慎使用！会导致不死图腾等复活物品不生效");
 <item:chapter_of_yuusha_3_core:life_limiter>.anyDamage().addTooltip("\u00A76谨慎使用！会导致不死图腾等复活物品不生效");

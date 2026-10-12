@@ -201,36 +201,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "immortalers_delight:torchflower_cookie",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:torchflower_cake",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:torchflower_curry_rice",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:extra_spicy_pasta",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:hot_hi_soup",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:incandescence_sushi",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "immortalers_delight:pitcher_plant_barbecue",
           "weight": 1
         },
@@ -411,11 +381,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "immortalers_delight:vulcan_coktail",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "immortalers_delight:nether_kvass",
           "weight": 1
         },
@@ -446,22 +411,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "immortalers_delight:aromatic_pod_affogato",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
           "name": "immortalers_delight:traveer",
           "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "immortalers_delight:sticky_beer",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "immortalers_delight:piglin_odori_sake",
           "weight": 1
         },
         {

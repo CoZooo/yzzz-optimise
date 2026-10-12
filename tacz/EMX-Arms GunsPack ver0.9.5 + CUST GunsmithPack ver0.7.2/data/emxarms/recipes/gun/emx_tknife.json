@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "simplyswords:empowered_remnant"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_green_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_tknife"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

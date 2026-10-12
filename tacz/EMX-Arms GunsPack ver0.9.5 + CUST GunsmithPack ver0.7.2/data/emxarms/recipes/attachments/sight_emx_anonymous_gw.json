@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "call_of_drowner:seagold_nugget"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "majruszsaccessories:golden_dice"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_anonymous_gw"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

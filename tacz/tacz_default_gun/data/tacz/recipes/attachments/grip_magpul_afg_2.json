@@ -2,15 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "goety:cursed_ingot"
       },
-      "count": 10
+      "count": 12
     },
     {
       "item": {
-        "tag": "forge:leather"
+        "item": "meetyourfight:phantoplasm"
       },
-      "count": 4
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
     }
   ],
   "result": {

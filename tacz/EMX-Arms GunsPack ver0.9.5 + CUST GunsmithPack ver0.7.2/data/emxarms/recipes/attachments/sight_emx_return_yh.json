@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "goety:ice_spike_focus"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_return_yh"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

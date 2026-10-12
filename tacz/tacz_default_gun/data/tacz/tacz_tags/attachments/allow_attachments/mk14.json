@@ -1,9 +1,14 @@
 [
-  "#tacz:scope",
-  "#tacz:muzzle",
-  "#tacz:extended_mag",
-  "#tacz:stock",
-  "#tacz:grip",
-  "#tacz:bayonet_ak",
-  "#tacz:ammo_mod"
+	"tacz:stock_tactical_ar",
+	"tacz:grip_vertical_ranger",
+	"tacz:muzzle_brake_cthulhu",
+	"tacz:sight_uh1",
+
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

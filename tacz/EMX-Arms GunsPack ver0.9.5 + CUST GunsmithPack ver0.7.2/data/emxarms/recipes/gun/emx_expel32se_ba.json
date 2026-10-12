@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 90
+    },
+    {
+      "item": {
+        "item": "meetyourfight:violet_bloom"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_expel32se_ba"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

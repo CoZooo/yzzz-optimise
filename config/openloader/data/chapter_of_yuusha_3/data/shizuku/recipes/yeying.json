@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "proud_soul": 30000,
+        "proud_soul": 60000,
         "name": "slashblade_addon:moonlight_cherry",
-        "refine": 3
+        "refine": 6
       }
     },
     "A": {

@@ -12,16 +12,16 @@
 [base_multiplier]
 	#All base damage number is multiplied by this factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	DamageBaseMultiplier = 1.8
+	DamageBaseMultiplier = 1.0
 	#All armor ignore damage number is multiplied by this factor
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ArmorIgnoreBaseMultiplier = 1.0
 	#All head shot damage number is multiplied by this factor
 	#Range: 0.0 ~ 1.7976931348623157E308
-	HeadShotBaseMultiplier = 1.2
+	HeadShotBaseMultiplier = 1.0
 	#The movement speed will decrease per kg of weight. 0.015 means 1.5% speed decrease per kg. Set a negative value to disable this feature
 	#Range: -1.0 ~ 1.7976931348623157E308
-	WeightSpeedMultiplier = 0.02
+	WeightSpeedMultiplier = 0.01
 
 [misc]
 	#The entity's head hitbox during the headshot
@@ -94,7 +94,7 @@
 	]
 	#The maximum stack size of ammo that the ammo box can hold
 	#Range: > 1
-	AmmoBoxStackSize = 10
+	AmmoBoxStackSize = 100
 	#Deprecated. Use vanilla server resource pack
 	ClientGunPackDownloadUrls = []
 	#Whether or not players are allowed to use the crawl feature

@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DFB",
+    "EAE",
+    "BFD"
+  ],
+  "key": {
+    "D": {
+      "item": "aether:icestone"
+    },
+	"E": {
+      "item": "cataclysm:black_steel_nugget"
+    },
+	"F": {
+      "item": "infinite_abyss:astarium_crystal"
+    },
+	"A": {
+      "item": "endrem:cryptic_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:light_blue_crystal_block"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:sixth_layer_gate"
+}

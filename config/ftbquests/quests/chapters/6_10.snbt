@@ -101,9 +101,9 @@
 				"&6·下界之星：+ 60000 屠夫经验"
 				"&6·暗黑下界之星：+ 100000 屠夫经验"
 				""
-				"&c·幽古合金碎片：+ 500 炼金经验"
-				"&c·暗影精粹：+ 2500 炼金经验"
-				"&c·冥魂锭：+ 3500 炼金经验"
+				"&c·幽古合金碎片、奥术残骸碎片：+ 1000 炼金经验"
+				"&c·暗影精粹：+ 5000 炼金经验"
+				"&c·冥魂锭：+ 7000 炼金经验"
 				""
 				"&9·翡翠：+ 1000 航海经验"
 				"&9·赤铁：+ 1000 航海经验"
@@ -437,6 +437,7 @@
 							Unbreakable: 1
 						}
 					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -531,7 +532,7 @@
 				elevate_perms: true
 				icon: "relics:relic_experience_bottle"
 				id: "1DEA3FA50ABBE71D"
-				team_reward: false
+				team_reward: true
 				title: "将主手的遗物饰品变为满星级"
 				type: "command"
 			}]
@@ -571,7 +572,7 @@
 				elevate_perms: true
 				icon: "relics:relic_experience_bottle"
 				id: "5EDFC9B25FF24DC0"
-				team_reward: false
+				team_reward: true
 				title: "将主手的遗物饰品变为满星级"
 				type: "command"
 			}]
@@ -660,6 +661,128 @@
 			title: "&6妖怪归家模组的首领说明"
 			x: -4.0d
 			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1BAD0890ADF07540"]
+			description: [
+				"提交此任务物品，可清除主手武器的属性附加附魔。"
+				""
+				"&c不会返还被清除的属性附加附魔书。"
+			]
+			icon: "enigmaticlegacy:enchanter_pearl"
+			id: "0BABA832572A1589"
+			rewards: [
+				{
+					command: "/enchant remove @s minecraft:fire_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_fire"
+					id: "5BBF621A049ABF3F"
+					team_reward: true
+					title: "清除主手武器的火属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:ice_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_ice"
+					id: "1A1996FB35A2DFFA"
+					team_reward: true
+					title: "清除主手武器的冰属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:water_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_water"
+					id: "3C2D75B416F5F81D"
+					team_reward: true
+					title: "清除主手武器的水属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:thunder_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_thunder"
+					id: "2940D3A54E19AFB1"
+					team_reward: true
+					title: "清除主手武器的雷属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:darkness_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_darkness"
+					id: "258D0C3D10AA2FE8"
+					team_reward: true
+					title: "清除主手武器的暗属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:light_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_light"
+					id: "275782B6EFD96B96"
+					team_reward: true
+					title: "清除主手武器的光属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:earth_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_earth"
+					id: "1809BC7FF1CCA318"
+					team_reward: true
+					title: "清除主手武器的地属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:wind_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_wind"
+					id: "3E0C15638A676C57"
+					team_reward: true
+					title: "清除主手武器的风属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s elementalcombat:flora_aspect"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "elementalcombat:essence_flora"
+					id: "1047BC176CCE3968"
+					team_reward: true
+					title: "清除主手武器的草属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @s reset 0BABA832572A1589"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "malum:poly_prideweave"
+					id: "6E2476970C2F87FF"
+					team_reward: true
+					title: "&c重置此任务"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5D6001F64ADBDA9B"
+				item: "celestial_artifacts:purified_powder"
+				type: "item"
+			}]
+			title: "清除主手武器的属性附加附魔"
+			x: -2.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["&9『秘境』"]

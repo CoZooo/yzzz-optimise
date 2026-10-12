@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "luminous_halloween:halloween_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "yuusha:ignitium_star"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:norcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

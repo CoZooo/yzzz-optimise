@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DFB",
+    "EAE",
+    "BFD"
+  ],
+  "key": {
+    "D": {
+      "item": "infinite_abyss:seventh_layer_deepstone"
+    },
+	"E": {
+      "item": "depthcrawler:ancientmechanism"
+    },
+	"F": {
+      "item": "infinite_abyss:cut_charium"
+    },
+	"A": {
+      "item": "endrem:cursed_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:seventh_layer_molten_deepstone"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:seventh_layer_gate"
+}

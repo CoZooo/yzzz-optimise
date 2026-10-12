@@ -13,9 +13,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 300,
+        "kill": 600,
 		"name": "slashblade:fox_white",
-        "refine": 3
+        "refine": 6
       }
     },
     "F": {

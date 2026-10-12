@@ -2,15 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "cataclysm:ancient_metal_ingot"
       },
-      "count": 18
+      "count": 12
     },
     {
       "item": {
-        "tag": "forge:ingots/gold"
+        "item": "cataclysm:remnant_skull"
       },
-      "count": 6
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
     }
   ],
   "result": {

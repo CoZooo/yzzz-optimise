@@ -1,11 +1,6 @@
 {
-  "weight": 0.1,
-  "recoil": {
-    "yaw": {
-      "multiplier": 0.95
-    },
-    "pitch": {
-      "multiplier": 0.95
-    }
+  "weight": 5,
+  "damage": {
+    "multiplier": 3.5
   }
 }

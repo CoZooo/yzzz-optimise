@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "ocle:fzj_table"
+    }
+  },
+  "pattern": [
+      "EDE",
+      "AAA",
+      "ECE"
+    ],
+    "key": {
+      "A": {
+        "item": "goety:dark_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "goety:soul_ruby"
+      },
+      "E": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      }
+    }
+}

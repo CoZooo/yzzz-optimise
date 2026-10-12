@@ -144,7 +144,7 @@ craftingTable.remove(<item:enigmaticlegacy:infernal_shield>);
 
 //血战沙场
 craftingTable.remove(<item:enigmaticlegacy:berserk_charm>);
-craftingTable.addShaped("enigmaticlegacy.berserk_charm", <item:enigmaticlegacy:berserk_charm>, [[<item:distant_worlds:culafite_elixir>, <item:avaritia:skull_fire_sword>.anyDamage(), <item:distant_worlds:culafite_elixir>], [<item:forbidden_arcanus:mundabitur_dust>, <item:enigmaticlegacy:twisted_heart>, <item:forbidden_arcanus:mundabitur_dust>], [<item:reliquary:infernal_tear>.anyDamage(), <item:yuusha:ignitium_star>, <item:reliquary:infernal_tear>.anyDamage()]]);
+craftingTable.addShaped("enigmaticlegacy.berserk_charm", <item:enigmaticlegacy:berserk_charm>, [[<item:celestial_artifacts:end_etching>.anyDamage(), <item:avaritia:skull_fire_sword>.anyDamage(), <item:celestial_artifacts:end_etching>.anyDamage()], [<item:forbidden_arcanus:mundabitur_dust>, <item:enigmaticlegacy:twisted_heart>, <item:forbidden_arcanus:mundabitur_dust>], [<item:distant_worlds:culafite_elixir>, <item:yuusha:ignitium_star>, <item:distant_worlds:culafite_elixir>]]);
 
 //杀手附魔
 stoneCutter.addRecipe("enigmaticlegacy.enchanted_book.slayer.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10 as short, id: "enigmaticlegacy:slayer" as string}]}), <item:wizards_reborn:arcanum_lens>);
@@ -303,6 +303,7 @@ craftingTable.addShapeless("minecraft.enchanted_book.sharpshooter.20", <item:min
 
 //tag 
 <tag:items:curios:charm>.remove(<item:enigmaticlegacy:enchanter_pearl>);
+<tag:items:curios:charm>.remove(<item:enigmaticlegacy:eldritch_amulet>);
 
 //千咒
 <tag:items:curios:scroll>.remove(<item:enigmaticlegacy:cursed_scroll>);

@@ -1,0 +1,10 @@
+[
+	"emxarms:sight_emx_array",
+	"emxarms:stock_emx_sleep",
+	"emxarms:grip_emx_extendsex",
+
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"#eos:stock_maid"
+]

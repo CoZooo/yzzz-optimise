@@ -1,9 +1,11 @@
 [
-  "#tacz:scope",
-  "#tacz:sniper_extended_mag",
-  "#tacz:amr_muzzle_silencer",
-  "#tacz:bayonet_ar",
-  "#tacz:ammo_mod",
+  "tacz:muzzle_silencer_vulture",
+  "tacz:scope_elcan_4x",
+  
+  "tacz:oem_stock_tactical",
 	
-	"#tacz:stock"
+  "tacz:ammo_mod_i",
+  "tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

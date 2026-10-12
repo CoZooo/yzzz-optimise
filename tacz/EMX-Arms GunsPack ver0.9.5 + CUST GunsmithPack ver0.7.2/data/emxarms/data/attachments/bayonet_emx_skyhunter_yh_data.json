@@ -1,0 +1,9 @@
+{
+  "weight": 5,
+   "damage": {
+     "multiplier": 5.0
+   },
+  "head_shot":{
+    "multiplier": 9.0
+  }
+}

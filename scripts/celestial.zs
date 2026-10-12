@@ -27,8 +27,9 @@ import mods.jeitweaker.Jei;
 <item:celestial_enchantments:advanced_celestial_catalyst>.addTooltip("\u00A7e部分高级星月附魔可用高级魔引转化合成");
 <item:celestial_enchantments:legendary_celestial_catalyst>.addTooltip("\u00A7e部分传奇星月附魔可用传奇魔引转化合成");
 <item:celestial_artifacts:unlucky_potato>.addTooltip("\u00A7c在星河贸易站可交易获得");
-<item:celestial_artifacts:angel_desire>.addTooltip("\u00A7c只有在进行鞘翅类飞行时会有伤害加成");
-<item:celestial_artifacts:angel_desire>.addTooltip("\u00A7e仅加成近战类伤害");
+<item:celestial_artifacts:angel_desire>.addTooltip("\u00A75可加成近战类伤害");
+<item:celestial_artifacts:angel_desire>.addTooltip("\u00A73据说也加成其他类型伤害");
+<item:celestial_artifacts:angel_desire>.addTooltip("\u00A76只有在进行鞘翅类飞行时会有伤害加成");
 <item:celestial_artifacts:sacrificial_object>.addTooltip("\u00A76无法对大部分友好生物触发殉葬效果");
 <item:celestial_artifacts:sacrificial_object>.addTooltip("\u00A7e属于玩家来源的致死伤害，可以无视除纯化抗性的闪避以外的抗性效果");
 <item:celestial_artifacts:sacrificial_object>.addTooltip("\u00A72佩戴古代殉葬品时，除不死图腾和星月遗物外，其它大部分复活可触发殉葬效果");
@@ -39,11 +40,40 @@ import mods.jeitweaker.Jei;
 <item:celestial_artifacts:backtrack_mirror>.addTooltip("\u00A7e可跨维度无视距离进行传送");
 <item:celestial_artifacts:traveler_scroll>.anyDamage().addTooltip("\u00A76可在星河贸易站内交易获得");
 <item:celestial_artifacts:cursed_totem>.anyDamage().addTooltip("\u00A7c新增击杀未来神巫有几率获得");
+<item:celestial_artifacts:titan_scabbard>.anyDamage().addTooltip("\u00A7c物品描述有误！实际需有强化刀刃效果才会加伤");
 
 //附魔台 改合成
 craftingTable.remove(<item:celestial_enchantments:celestial_enchanting_table>);
 <item:celestial_enchantments:celestial_enchanting_table>.addTooltip("\u00A7e需原版书架提供附魔等级");
 <item:celestial_enchantments:celestial_enchanting_table>.addTooltip("\u00A76部分材料的获取详见古遗天境章节");
+
+//附魔
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.flame_strike", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "celestial_enchantments:flame_strike"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.eyes_in_the_shadows", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:eyes_in_the_shadows"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.knowledge_scholar", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:knowledge_scholar"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.photosynthesis", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "celestial_enchantments:photosynthesis"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.born_in_shadow", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "celestial_enchantments:born_in_shadow"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.photo_dynamic", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:photo_dynamic"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dolphin_assimilation", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:dolphin_assimilation"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.leopard_assimilation", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:leopard_assimilation"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.rabbit_assimilation", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 4, id: "celestial_enchantments:rabbit_assimilation"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.fleet_of_foot", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:fleet_of_foot"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.sun_blessing", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2, id: "celestial_enchantments:sun_blessing"}]}), <item:moonstone:ectoplasmball>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dimension_explorer", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:dimension_explorer"}]}), <item:moonstone:ectoplasmball>);
+
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.holy_prayer", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:holy_prayer"}]}), <item:locusazzurro_icaruswings:linen>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.moon_blessing", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2, id: "celestial_enchantments:moon_blessing"}]}), <item:locusazzurro_icaruswings:linen>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.rain_and_dew_grace", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:rain_and_dew_grace"}]}), <item:locusazzurro_icaruswings:linen>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.have_a_nice_dream", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:have_a_nice_dream"}]}), <item:locusazzurro_icaruswings:linen>);
+
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.corrupt_scholar", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:corrupt_scholar"}]}), <item:grimoireofgaia:book_of_memory>);
+
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.turtle_assimilation", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:turtle_assimilation"}]}), <item:moonstone:ectoplasmcube>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.origin_of_life", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:origin_of_life"}]}), <item:moonstone:ectoplasmcube>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.echo_effect", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3, id: "celestial_enchantments:echo_effect"}]}), <item:enigmaticaddons:artificial_flower>.anyDamage());
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.life_shield", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:life_shield"}]}), <item:yuusha:maggot_0>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.trauma_absorption", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:trauma_absorption"}]}), <item:locusazzurro_icaruswings:golden_fleece>);
+stoneCutter.addRecipe("celestial_enchantments.enchanted_book.solid_armor", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:solid_armor"}]}), <item:yuusha:maggot_0>);
 
 //诅咒附魔
 stoneCutter.addRecipe("celestial_enchantments.enchanted_book.powerless_curse", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:powerless_curse"}]}), <item:callfromthedepth_:soulbell>);
@@ -124,7 +154,7 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 <item:celestial_artifacts:sands_talisman>.anyDamage().addTooltip("\u00A7c在宝箱中无法找到，新增击杀化石鱼有几率获得");
 <item:celestial_artifacts:sands_talisman>.anyDamage().addTooltip("\u00A7e为全伤害加成，基本只要没有冰雪的生物群系都计算为炎热地区");
 <item:celestial_artifacts:heart_of_revenge>.anyDamage().addTooltip("\u00A7c在宝箱中无法找到，新增击杀突变毒箭花、混沌魔影均有几率获得");
-<item:celestial_artifacts:heart_of_revenge>.anyDamage().addTooltip("\u00A76该受伤只计算被怪物攻击，且增加的伤害为全伤害加成");
+<item:celestial_artifacts:heart_of_revenge>.anyDamage().addTooltip("\u00A76该受伤只计算有目标来源的攻击，且增加的伤害为全伤害加成");
 <item:celestial_artifacts:heart_of_revenge>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");
 <item:celestial_artifacts:unowned_pendant>.anyDamage().addTooltip("\u00A7c新增开启地牢宝藏袋有较高几率获得，开启饰品宝藏袋有较低几率获得");
 <item:celestial_artifacts:unowned_pendant>.anyDamage().addTooltip("\u00A7e也可通过考古利用骨头右击沙砾转变的可疑沙砾有几率获得");
@@ -133,7 +163,8 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 <item:celestial_artifacts:twisted_heart>.anyDamage().addTooltip("\u00A76需注意不能佩戴虚无蚀刻板，否则无法获得虚无诅咒从而降低玩家伤害");
 <item:celestial_artifacts:demon_heart>.anyDamage().addTooltip("\u00A7c在宝箱中无法找到，新增击杀幽匿诅咒骑士有几率获得");
 <item:celestial_artifacts:demon_heart>.anyDamage().addTooltip("\u00A76仅计算无厄之册的七种诅咒，且不计算已被翻转的诅咒");
-<item:celestial_artifacts:demon_heart>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤仅加成非近战伤害");
+<item:celestial_artifacts:demon_heart>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤默认仅加成非近战伤害");
+<item:celestial_artifacts:demon_heart>.anyDamage().addTooltip("\u00A73若同时佩戴任意绿宝石、精灵、海神饰品，则还会增加近战伤害");
 <item:celestial_artifacts:red_ruby_bracelet>.anyDamage().addTooltip("\u00A7c新增击杀绯红屠戮者有几率获得");
 <item:celestial_artifacts:spirit_bracelet>.anyDamage().addTooltip("\u00A76只能通过开启丛林宝箱获得，丛林宝箱可通过贸易商人刷怪蛋获取");
 <item:celestial_artifacts:spirit_bracelet>.anyDamage().addTooltip("\u00A7e投射物伤害仅加成大部分箭矢类、三叉戟右击技能和极少模组弹射物，不包括大部分枪械和法术");

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_c",
+    "nbt": {
+      "BlockId": "eos:eos_printer"
+    }
+  },
+  "pattern": [
+      "EDE",
+      "AAA",
+      "ECE"
+    ],
+    "key": {
+      "A": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "forbidden_arcanus:divine_pact"
+      },
+      "E": {
+        "item": "callfromthedepth_:soulingot"
+      }
+    }
+    }
+}

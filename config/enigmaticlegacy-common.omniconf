@@ -911,7 +911,7 @@
     I:CursedRingFortuneBonus=2
 
     # How much knockback bearers of the ring take, measured in percents. [range: 0 ~ 32768, default: 200, synchronized: yes]
-    I:CursedRingKnockbackDebuff=0
+    I:CursedRingKnockbackDebuff=200
 
     # How many bonus Looting levels ring provides [range: 0 ~ 32768, default: 1, synchronized: yes]
     I:CursedRingLootingBonus=2

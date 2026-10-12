@@ -20,7 +20,7 @@
 			image: "yuusha:textures/gui_researchbackeldritch.png"
 			rotation: 0.0d
 			width: 33.0d
-			x: 4.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -31,7 +31,7 @@
 			order: -2
 			rotation: 0.0d
 			width: 34.5d
-			x: 4.5d
+			x: 4.0d
 			y: -2.0d
 		}
 	]
@@ -92,7 +92,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -8.0d
 			y: -2.0d
 		}
 		{
@@ -1134,6 +1134,36 @@
 				type: "item"
 			}]
 			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B90ECAB3AB1A80A"]
+			description: [
+				"基本设定：在用近战武器攻击时，会有特殊的攻击动作，且会对前方较大范围内的生物造成伤害。上述特殊攻击动作可以穿草攻击。"
+				""
+				"&3额外说明一：相比原模组默认距离，大部分武器攻击距离均增加至4格。"
+				""
+				"&6额外说明二：已对大部分武器进行兼容，但可能仍有部分武器遗漏，可进行反馈。"
+				""
+				"&e额外说明三：近战攻击可无视原版无敌帧，最高攻速限制为每秒3.0次，最低攻速限制为每秒0次。最低移速限制为0.01基础值，最高移速限制为0.5基础值。"
+				""
+				"&c特性：双手武器请勿放在副手，以及不要在主手持双手武器时副手持有奇怪的物品，可能会导致在与某些方块交互时副手的双手武器会被清除，还有可能会导致玩家在攻击时游戏崩溃。"
+			]
+			hide_dependency_lines: false
+			icon: "goety:sword_focus"
+			id: "5A1E96F4208CDF08"
+			rewards: [{
+				id: "0485FDB5F0B1A8EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21EAFADF3B157229"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "&e更好的近战说明"
+			x: -6.5d
 			y: -2.0d
 		}
 	]

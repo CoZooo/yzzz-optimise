@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "goety_cataclysm:abyss_essence"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_double_yh"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

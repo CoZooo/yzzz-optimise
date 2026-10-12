@@ -1,0 +1,27 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ignitium_ingot"
+      },
+      "count": 18
+    },
+    {
+      "item": {
+        "item": "yuusha:blood_star"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "applied_armorer:muzzle_chip_atm_x2"
+  }
+}

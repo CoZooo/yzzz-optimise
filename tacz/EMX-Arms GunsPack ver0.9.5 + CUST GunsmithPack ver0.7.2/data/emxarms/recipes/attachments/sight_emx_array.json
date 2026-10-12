@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "goety:poison_dart_focus"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_array"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

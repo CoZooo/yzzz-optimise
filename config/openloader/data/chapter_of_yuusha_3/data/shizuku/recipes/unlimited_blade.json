@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 100,
+        "kill": 200,
         "name": "slashblade_addon:katana",
-        "refine": 1
+        "refine": 2
       }
     },
     "A": {

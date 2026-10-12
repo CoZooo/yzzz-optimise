@@ -7,7 +7,7 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-		"kill": 200,
+		"kill": 250,
         "name": "slashblade:sabigatana",
         "sword_type": [
           "broken",

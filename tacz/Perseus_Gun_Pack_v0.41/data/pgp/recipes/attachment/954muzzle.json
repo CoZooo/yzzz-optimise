@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "celestial_core:virtual_gold_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "moonstone:nightmare_base_insight_insane"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:954muzzle"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

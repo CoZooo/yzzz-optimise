@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 90
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_wings_recharger"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "ocle:ockj"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -4,7 +4,7 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 31
+      "count": 12
     },
     {
       "item": {
@@ -14,23 +14,20 @@
     },
     {
       "item": {
-        "item": "mutantmonsters:endersoul_hand"
+        "item": "avaritia:diamond_lattice"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:uncommon_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }
   ],
   "result": {
     "type": "gun",
-    "id": "tacz:ak47",
-    "attachments": {
-      "stock": "tacz:oem_stock_tactical"
-    }
+    "id": "tacz:ak47"
   },
   "type": "tacz:gun_smith_table_crafting"
 }

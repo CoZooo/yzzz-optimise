@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 300,
+        "kill": 600,
         "name": "ak:dick_wido",
-        "refine": 3
+        "refine": 6
       }
     },
     "H": {

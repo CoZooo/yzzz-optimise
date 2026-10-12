@@ -1,51 +1,31 @@
 {
   "type": "apotheosis_modern_ragnarok:mob_effect_ads",
-  "mob_effect": "aquamirae:armor_decrease",
+  "mob_effect": "attributeslib:sundering",
   "target": "ADS_TARGET",
   "values": {
-    "rare": {
-      "duration": {
-        "min": 120,
-        "steps": 5,
-        "step": 40
-      },
-      "amplifier": 1
-    },
     "epic": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
-      "amplifier": {
-        "min": 1,
-        "steps": 4,
-        "step": 0.3
-      }
+      "amplifier": 0
     },
     "mythic": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
-      "amplifier": {
-        "min": 2,
-        "steps": 4,
-        "step": 0.3
-      }
+      "amplifier": 1
     },
     "ancient": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
-      "amplifier": {
-        "min": 3,
-        "steps": 8,
-        "step": 0.3
-      }
+      "amplifier": 2
     }
   },
   "types": [

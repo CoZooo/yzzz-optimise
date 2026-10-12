@@ -1,4 +1,5 @@
 //说明
+<item:yuusha:ling_shi_2>.addTooltip("\u00A7c击杀萨菲拉有几率获得");
 <item:yuusha:chaos_star>.addTooltip("\u00A7c击杀下界铁掌可获得");
 <item:yuusha:chaos_star>.addTooltip("\u00A76相关内容详见下界炼狱章节");
 <item:yuusha:chaos_star>.addTooltip("\u00A7e女仆世界线可直接制作获得");
@@ -70,8 +71,8 @@
 <item:yuusha:cold_fire_bottle>.addTooltip("\u00A7c手持任意鬼光右击命运之手可获得");
 <item:yuusha:cold_fire_bottle>.addTooltip("\u00A76相关内容详见遥远世界章节任务");
 <item:yuusha:ignitium_star>.addTooltip("\u00A77据说这是焰魔的魔动核心，蕴藏法则之力");
-<item:yuusha:ignitium_star>.addTooltip("\u00A76可以通过制作获得");
-<item:yuusha:ignitium_star>.addTooltip("\u00A7c新增击杀焰魔有小几率获得");
+<item:yuusha:ignitium_star>.addTooltip("\u00A7e可以通过制作获得，也可通过击杀获得");
+<item:yuusha:ignitium_star>.addTooltip("\u00A7c几率从低至高依次为焰魔、咒怨死灵巫妖、使徒");
 <item:yuusha:hot_fire_bottle>.addTooltip("\u00A7c手持特定材料右击异界机械巨蛇战利品可获得");
 <item:yuusha:hot_fire_bottle>.addTooltip("\u00A76相关内容详见幽匿暗域章节任务");
 <item:yuusha:ectoplasm_string>.addTooltip("\u00A76可制作获得，相关内容详见咒法章节任务");
@@ -250,7 +251,7 @@
 <item:yuusha:summon_vessel_of_calamity>.addTooltip("\u00A7c击杀灾厄魂灵后会返还");
 
 <item:yuusha:fake_box>.addTooltip("\u00A7e该物品可通过合成获得");
-<item:yuusha:fake_box>.addTooltip("\u00A7c仅用作在弹丸章节任务兑换全类型无尽弹药盒");
+<item:yuusha:fake_box>.addTooltip("\u00A7c可在弹丸章节任务兑换不同的无尽弹药盒");
 
 <item:yuusha:summon_blot>.addTooltip("\u00A7c双手武器请勿放在副手，可能会导致在与某些方块交互时副手的双手武器会被清除");
 <item:yuusha:summon_blot>.addTooltip("\u00A7e可在工作台中制作为相应的召唤物品");
@@ -347,7 +348,7 @@ recipes.addJsonRecipe("yuusha.uncommon_material",{
 //稀有
 recipes.addJsonRecipe("yuusha.rare_material",{ 
     type:"lychee:item_inside",
-    item_in: { item: "yuusha:ice_shard" },
+    item_in: { item: "endrem:guardian_eye" },
     block_in: { blocks: ["embers:dwarven_oil_block"], 
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "yuusha:rare_material", count : 1}
@@ -356,7 +357,7 @@ recipes.addJsonRecipe("yuusha.rare_material",{
 //史诗强化
 recipes.addJsonRecipe("yuusha.epic_material",{ 
     type:"lychee:item_inside",
-    item_in: { item: "yuusha:blood_bone_heart" },
+    item_in: { item: "obscure_api:astral_dust" },
     block_in: { blocks: ["embers:dwarven_oil_block"], 
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "yuusha:epic_material", count : 1}
@@ -375,7 +376,7 @@ recipes.addJsonRecipe("yuusha.legendary_material",{
 //终极强化
 recipes.addJsonRecipe("yuusha.ultimate_material",{ 
     type:"lychee:item_inside",
-    item_in: { item: "graveyard:white_bone_staff" },
+    item_in: { item: "cataclysm:witherite_block" },
     block_in: { blocks: ["embers:dwarven_oil_block"], 
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "yuusha:ultimate_material", count : 1}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "celestial_core:virtual_gold_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "faded_conquest_2:eye_of_the_storm"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:408mars"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

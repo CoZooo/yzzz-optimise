@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DFB",
+    "EAE",
+    "BFD"
+  ],
+  "key": {
+    "D": {
+      "item": "infinite_abyss:deep_prismarine"
+    },
+	"E": {
+      "item": "infinite_abyss:eyeball_frog_meat"
+    },
+	"F": {
+      "item": "infinite_abyss:vicerite_crystal"
+    },
+	"A": {
+      "item": "endrem:undead_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:violet_diamond_block"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:fifth_layer_gate"
+}

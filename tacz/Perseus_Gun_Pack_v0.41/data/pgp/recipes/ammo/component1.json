@@ -1,0 +1,22 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:lacrima"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "pgp:component_lv1",
+    "count": 4
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -22,7 +22,7 @@
   "properties": {
     "attack_base": 36.0,
     "max_damage": 72,
-    "slash_art": "shizuku:unlimited_blade_works",
+    "slash_art": "shizuku:tornado_slash",
     "special_effects": [
       "shizuku:shizuku"
     ],

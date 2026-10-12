@@ -164,7 +164,7 @@
 				item: "locusazzurro_icaruswings:zephir_essence"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 9.0d
 		}
 		{
@@ -372,23 +372,6 @@
 		}
 		{
 			dependencies: ["151E2F186E5DF4E1"]
-			description: ["在流浪商人处可交易获得。用于制作[阿涅摩伊之杖]。该杖可突破磁力、瘫痪等怪物的多种禁锢。"]
-			id: "376307340005F41C"
-			rewards: [{
-				id: "07925887D1FCC5E1"
-				table_id: 2805430797220875844L
-				type: "random"
-			}]
-			tasks: [{
-				id: "658E5722B3079F07"
-				item: "locusazzurro_icaruswings:anemone"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["151E2F186E5DF4E1"]
 			description: [
 				"击杀[娜迦]可额外获得[狩猎]和[飞行]技能经验。"
 				""
@@ -449,7 +432,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -688,7 +671,7 @@
 				item: "reliquary:slime_pearl"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
@@ -995,7 +978,7 @@
 				item: "buzzier_bees:four_leaf_clover"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 9.0d
 		}
 		{
@@ -1293,7 +1276,7 @@
 				item: "minecraft:scute"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.0d
 			y: 9.0d
 		}
 		{
@@ -1434,7 +1417,7 @@
 				item: "born_in_chaos_v1:dark_metal_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
@@ -1528,7 +1511,7 @@
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 9.0d
 		}
 		{
@@ -1600,7 +1583,7 @@
 				item: "born_in_chaos_v1:fire_dust"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -1622,7 +1605,7 @@
 				item: "forbidden_arcanus:nipa"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 9.0d
 		}
 		{
@@ -1724,7 +1707,7 @@
 				item: "buzzier_bees:buttercup"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -2367,8 +2350,8 @@
 				item: "sons_of_sins:ether_ashes"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 9.0d
+			x: -0.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["151E2F186E5DF4E1"]

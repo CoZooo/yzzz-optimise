@@ -1,0 +1,13 @@
+[
+	"emxarms:grip_emx_double_yh",
+	"emxarms:sight_emx_koei1",
+	"emxarms:muzzle_emx_catch",
+
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
+]

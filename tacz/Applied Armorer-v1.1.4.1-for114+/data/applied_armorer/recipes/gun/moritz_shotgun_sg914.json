@@ -5,29 +5,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 25
+      "count": 48
     },
     {
       "item": {
-        "item": "refinedstorage:destruction_core"
+        "item": "celestial_core:death_essence"
       },
-      "count": 4
+      "count": 8
     },
     {
       "item": {
-        "item": "embers:archaic_circuit"
-      },
-      "count": 4
-    },
-    {
-      "item": {
-        "item": "yuusha:ice_blood"
+        "item": "yuusha:epic_material"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:epic_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

@@ -1,0 +1,28 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:quartz"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "applied_armorer:etched_quartz_bullet",
+    "count": 64
+  }
+}

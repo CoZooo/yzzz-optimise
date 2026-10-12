@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "emxcust:emxcust"
+    }
+  },
+  "pattern": [
+      "AEA",
+      "BCB",
+      "B B"
+    ],
+    "key": {
+      "A": {
+        "item": "embers:reinforced_sealed_planks"
+      },
+      "B": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "C": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "E": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+}

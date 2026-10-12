@@ -1,9 +1,9 @@
 {
+	"item.yuusha.ling_shi_2": "魔女涎香",
+	
 	"item.yuusha.maggot_0": "{flow}寰宇星蛆{/flow}",
 
 	"death.attack.thorns.player": "玩家因双刃剑附魔等荆棘效果死亡。",
-	
-	"enchantment.minecraft.infinity.desc": "发射普通箭矢不会消耗箭，可以对妖弓和封弓起效，并能直接不消耗射出特殊箭。",
 
 	"item.minecraft.bow": "弓『封弓』★ 1",
 	"item.goety.hunters_bow": "猎人之弓『封弓』★ 1",

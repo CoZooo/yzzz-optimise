@@ -1,5 +1,6 @@
 //说明 
 <item:mokels_witch_boss:totem_of_rot_and_decay>.addTooltip("\u00A76需制作获得，相关内容详见古遗天境章节");
+<item:mokels_witch_boss:totem_of_rot_and_decay>.addTooltip("\u00A7e相关内容详见天顶巨兽章节萨菲拉任务");
 <item:mokels_witch_boss:totem_of_rot_and_decay>.addTooltip("\u00A7c在被束缚的女巫萨菲拉建筑的宝箱内不再能找到");
 <item:mokels_witch_boss:flask_of_healing>.removeTooltip("healing");
 <item:mokels_witch_boss:flask_of_healing>.addTooltip("\u00A7c击杀被束缚的女巫萨菲拉可获得");

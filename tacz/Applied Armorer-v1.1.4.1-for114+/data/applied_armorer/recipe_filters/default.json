@@ -2,11 +2,16 @@
   "whitelist": [
     "^applied_armorer:gun.*$",
 	
-	"fibers:gun/renetti",
-	"tacz:gun/m16a4",
-	"tacz:gun/scar_h",
-	"tacz:gun/rpk",
+	"trisdyna:gun/fs2000",
+	"trisdyna:gun/ch104",
+	"trisdyna:gun/fl3e",
+
+	"tacz:gun/m249",
 	"tacz:gun/rpg7",
+	
+	"eos:gun/wa2000_snake_kiss",
+	
+	"emxarms:gun/emx_rivet_gw",
 	"emxarms:gun/emx_expel32_lb",
 	"emxarms:gun/emx_umx57h"
   ],
@@ -14,6 +19,9 @@
 	"applied_armorer:gun/niklas_lever_vigenere",
 	"applied_armorer:gun/moritz_sniper_semi_k30",
 	"applied_armorer:gun/moritz_mg_emg_prototype",
-	"applied_armorer:gun/moritz_gernade_gl3"
+	"applied_armorer:gun/moritz_gernade_gl3",
+	"applied_armorer:gun/niklas_pistol_double_win_win",
+	"applied_armorer:gun/moritz_mg_hmg22",
+	"applied_armorer:gun/niklas_smg_freedom"
   ]
 }

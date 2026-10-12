@@ -3,7 +3,7 @@ import mods.jeitweaker.Jei;
 //永恒奇点
 recipes.addJsonRecipe("avaritia.eternal_singularity",{ 
     type:"lychee:item_inside",
-    item_in: { item: "yuusha:twist_ingot" },
+    item_in: { item: "cataclysm:cursium_block" },
     block_in: { blocks: ["embers:dwarven_oil_block"], 
 	            state: { level: 0}},
     post:  {  type: "drop_item",  item: "avaritia:eternal_singularity", count : 1}
@@ -93,9 +93,6 @@ craftingTable.addShaped("avaritia.infinity_totem", <item:avaritia:infinity_totem
 //寰宇肉丸 超级煲
 craftingTable.addShapeless("avaritia.ultimate_stew", <item:avaritia:ultimate_stew>*6, [<item:avaritia:ultimate_stew>, <item:stalwart_dungeons:awful_crystal>]);
 craftingTable.addShapeless("avaritia.cosmic_meatballs", <item:avaritia:cosmic_meatballs>*6, [<item:avaritia:cosmic_meatballs>, <item:stalwart_dungeons:awful_crystal>]);
-
-//复制
-craftingTable.addShapeless("avaritia.infinity_totem.copy", <item:avaritia:infinity_totem>*2, [<item:avaritia:infinity_totem>, <item:yuusha:blood_star>, <item:yuusha:bad_soul_gem>.reuse()]);
 
 //钻石晶格 能量晶核
 craftingTable.remove(<item:avaritia:diamond_lattice>);

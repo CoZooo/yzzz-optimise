@@ -13,7 +13,7 @@
 		clusterAwarenessRadius = 12
 		#Death Blade: Can increase attack damage equivalent to the maximum life of the target
 		#Range: 0.0 ~ 1.0
-		deathBladePercentDamage = 0.02
+		deathBladePercentDamage = 0.01
 		#Death Blow: How much critical damage attribute can be increased
 		#Range: 0.0 ~ 1024.0
 		deathBlowAttribute = 0.15
@@ -61,7 +61,7 @@
 		shadowTouchBrightness = 15
 		#Shadow Touch: How many additional Abyss damage can be caused
 		#Range: 0 ~ 1024
-		shadowTouchDamage = 100
+		shadowTouchDamage = 50
 		#Suppression Blade: Suppressed effect duration per level in seconds
 		#Range: 0 ~ 1024
 		suppressionBladeEffectDuration = 0
@@ -79,7 +79,7 @@
 		vampireSlashHealRate = 0.1
 		#Void Chain: Causing damage equivalent to attack damage to targets around the target
 		#Range: 0.0 ~ 10.0
-		voidChainSpread = 0.01
+		voidChainSpread = 0.005
 		#Void Chain: What radius will the attack cause damage to the target within
 		#Range: 0 ~ 1024
 		voidChainRadius = 1
@@ -111,16 +111,16 @@
 		corruptScholarChance = 0.25
 		#Corrupt Scholar: Exp pickup bonus per level
 		#Range: 0.0 ~ 1.0
-		corruptScholarExpBonus = 0.8
+		corruptScholarExpBonus = 1.0
 		#Dimension Explorer: Duration of effects in seconds to gain
 		#Range: 0 ~ 600
-		dimensionExplorerDuration = 60
+		dimensionExplorerDuration = 600
 		#Echo Effect: Percentage of max health to heal
 		#Range: 0.0 ~ 1.0
-		echoEffectHeal = 0.05
+		echoEffectHeal = 0.2
 		#Echo Effect: Cool down of totem effect
 		#Range: 0 ~ 60000
-		echoEffectCooldown = 600
+		echoEffectCooldown = 60
 		#Eyes in Shadows: maximum light level to give Night Vision
 		#Range: 0 ~ 15
 		eyesInShadowsMaxLight = 5
@@ -132,7 +132,7 @@
 		flameStrikeDuration = 2
 		#Fleet of Foot: speed bonus
 		#Range: 0.0 ~ 1.0
-		fleetOfFootSpeed = 0.1
+		fleetOfFootSpeed = 0.15
 		#Frost Thorn: thorn damage
 		#Range: 0 ~ 100
 		frostThornDamage = 1
@@ -147,13 +147,13 @@
 		giftOfThunderGodDuration = 10
 		#Have a Nice Dream: duration of effects to gain
 		#Range: 0 ~ 600
-		haveANiceDreamDuration = 60
+		haveANiceDreamDuration = 600
 		#Knowledge Scholar: Exp pickup bonus
 		#Range: 0.0 ~ 1.0
-		knowledgeScholarExpBonus = 0.1
+		knowledgeScholarExpBonus = 0.15
 		#Life Shield: Absorption healing percentage
 		#Range: 0.0 ~ 1.0
-		lifeShieldPercentage = 0.2
+		lifeShieldPercentage = 0.1
 		#Origin of Life: Duration of positive effects to get when healing
 		#Range: 0 ~ 600
 		originOfLifeDuration = 5
@@ -165,10 +165,10 @@
 		potionAffinityExtension = 0.15
 		#Solid Armor: Damage reduction per level
 		#Range: 0.0 ~ 1.0
-		solidArmorReduction = 0.03
+		solidArmorReduction = 0.05
 		#Trauma Absorption: Healing per level
 		#Range: 0.0 ~ 1.0
-		traumaAbsorptionHeal = 0.04
+		traumaAbsorptionHeal = 0.1
 		#Void Protection: Void damage reduction per level
 		#Range: 0.0 ~ 1.0
 		voidProtectionReduction = 0.04
@@ -269,13 +269,13 @@
 		bornInShadowMaxLight = 5
 		#Born in Shadow: Durability to recover per level
 		#Range: 0 ~ 1000
-		bornInShadowRecover = 1
+		bornInShadowRecover = 20
 		#Photo Dynamic: Min brightness to boost mining speed
 		#Range: 0 ~ 15
-		photoDynamicMinLight = 10
+		photoDynamicMinLight = 1
 		#Photo Dynamic: Mining speed bonus per level
 		#Range: 0.0 ~ 10.0
-		photoDynamicSpeedBonus = 0.12
+		photoDynamicSpeedBonus = 0.25
 		#Photosynthesis: Interval in seconds to recover durability
 		#Range: 1 ~ 1000
 		photosynthesisInterval = 10
@@ -284,7 +284,7 @@
 		photosynthesisMinLight = 10
 		#Photosynthesis: Durability to recover per level
 		#Range: 0 ~ 1000
-		photosynthesisRecover = 1
+		photosynthesisRecover = 20
 
 	[Enchantments.Curse]
 		#Curse of Corrosion: time interval in seconds between durability lost

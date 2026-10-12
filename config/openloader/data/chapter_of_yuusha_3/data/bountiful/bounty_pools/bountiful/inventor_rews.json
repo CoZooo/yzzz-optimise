@@ -106,7 +106,18 @@
                 "max": 1
             },
             "unitWorth": 128000,
-            "weightMult": 0.1
+            "weightMult": 0.2
+        },
+        "inventor_objs_creative_fluid_storage_disk": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "refinedstorage:creative_fluid_storage_disk",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 128000,
+            "weightMult": 0.2
         }
 	}
 }

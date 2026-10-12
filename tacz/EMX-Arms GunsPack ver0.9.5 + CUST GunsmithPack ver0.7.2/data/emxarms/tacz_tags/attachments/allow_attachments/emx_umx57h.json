@@ -1,0 +1,15 @@
+[
+	"emxarms:sight_emx_aw_h",
+	"trisdyna:muzzle_tris2",
+	"emxarms:grip_emx_double_h",
+	"emxarms:stock_emx_reentrantlock",
+	"emxarms:muzzle_emx_catch",
+
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
+]

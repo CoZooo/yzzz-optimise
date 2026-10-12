@@ -38,13 +38,6 @@
 
 		[[Perks.For_Event.SKILL_UP]]
 			skill = "magic"
-			per_level = 0
-			perk = "pmmo:attribute"
-			attribute = "irons_spellbooks:spell_power"
-			max_boost = 0
-
-		[[Perks.For_Event.SKILL_UP]]
-			skill = "magic"
 			per_level = 2.5E-4
 			perk = "pmmo:attribute"
 			attribute = "irons_spellbooks:cooldown_reduction"
@@ -85,7 +78,7 @@
 			per_level = 0.001
 
 		[[Perks.For_Event.DEAL_DAMAGE]]
-			applies_to = ["minecraft:bow", "minecraft:crossbow", "wizards_reborn:arcane_wood_bow", "aether:phoenix_bow", "goety:hunters_bow", "aquaculture:neptunium_bow", "cataclysm:cursed_bow", "enigmaticaddons:dragon_bow", "hmag:crimson_bow", "callfromthedepth_:soulbow", "avaritia:infinity_bow", "aether_redux:subzero_crossbow", "irons_spellbooks:autoloader_crossbow", "cataclysm:laser_gatling", "aquamirae:poisoned_chakra", "aquamirae:maze_rose", "relics:solid_snowball", "cataclysm:wrath_of_the_desert", "goety_revelation:bow_of_revelation", "morebows:copper_bow", "morebows:diamond_bow", "morebows:netherite_bow", "morebows:gilded_netherite_bow", "morebows:enderite_bow", "morebows:golden_bow", "morebows:iron_bow", "morebows:emerald_bow", "morebows:gilded_enderite_bow", "too_many_bows:frostbite", "too_many_bows:auroras_grace", "too_many_bows:burnt_relic", "too_many_bows:aethers_call", "too_many_bows:ancient_sage_bow", "too_many_bows:arc_heavens", "too_many_bows:arcane_bow", "too_many_bows:astral_bound", "too_many_bows:crimson_nexus", "too_many_bows:cyroheart_bow", "too_many_bows:dark_bow", "too_many_bows:demons_grasp", "too_many_bows:dragons_breath", "too_many_bows:dusk_reaper", "too_many_bows:emerald_sage_bow", "too_many_bows:ethereal_hunter", "too_many_bows:flame_bow", "too_many_bows:ironclad_bow", "too_many_bows:necro_flame_bow", "too_many_bows:radiance", "too_many_bows:scatter_bow", "too_many_bows:sentinels_wrath", "too_many_bows:shulker_blast", "too_many_bows:solar_bow", "too_many_bows:spectral_whisper", "too_many_bows:tidal_bow", "too_many_bows:torchbearer", "too_many_bows:twin_shadows", "too_many_bows:verdant_vigor", "too_many_bows:verdant_viper", "too_many_bows:vitality_weaver", "too_many_bows:webstring", "too_many_bows:wind_bow", "too_many_bows:hunter_bow"]
+			applies_to = ["minecraft:bow", "minecraft:crossbow", "wizards_reborn:arcane_wood_bow", "aether:phoenix_bow", "goety:hunters_bow", "aquaculture:neptunium_bow", "cataclysm:cursed_bow", "enigmaticaddons:dragon_bow", "hmag:crimson_bow", "callfromthedepth_:soulbow", "avaritia:infinity_bow", "aether_redux:subzero_crossbow", "irons_spellbooks:autoloader_crossbow", "cataclysm:laser_gatling", "aquamirae:poisoned_chakra", "aquamirae:maze_rose", "relics:solid_snowball", "cataclysm:wrath_of_the_desert", "goety_revelation:bow_of_revelation", "morebows:copper_bow", "morebows:diamond_bow", "morebows:netherite_bow", "morebows:gilded_netherite_bow", "morebows:enderite_bow", "morebows:golden_bow", "morebows:iron_bow", "morebows:emerald_bow", "morebows:gilded_enderite_bow", "too_many_bows:frostbite", "too_many_bows:auroras_grace", "too_many_bows:burnt_relic", "too_many_bows:aethers_call", "too_many_bows:ancient_sage_bow", "too_many_bows:arc_heavens", "too_many_bows:arcane_bow", "too_many_bows:astral_bound", "too_many_bows:crimson_nexus", "too_many_bows:cyroheart_bow", "too_many_bows:dark_bow", "too_many_bows:demons_grasp", "too_many_bows:dragons_breath", "too_many_bows:dusk_reaper", "too_many_bows:emerald_sage_bow", "too_many_bows:ethereal_hunter", "too_many_bows:flame_bow", "too_many_bows:ironclad_bow", "too_many_bows:necro_flame_bow", "too_many_bows:radiance", "too_many_bows:scatter_bow", "too_many_bows:sentinels_wrath", "too_many_bows:shulker_blast", "too_many_bows:solar_bow", "too_many_bows:spectral_whisper", "too_many_bows:tidal_bow", "too_many_bows:torchbearer", "too_many_bows:twin_shadows", "too_many_bows:verdant_vigor", "too_many_bows:verdant_viper", "too_many_bows:vitality_weaver", "too_many_bows:webstring", "too_many_bows:wind_bow", "too_many_bows:hunter_bow", "locusazzurro_icaruswings:artemis_launcher", "mowziesmobs:sculptor_staff", "mowziesmobs:blowgun", "mowziesmobs:earthrend_gauntlet"]
 			skill = "archery"
 			perk = "pmmo:damage_boost"
 			per_level = 0.004

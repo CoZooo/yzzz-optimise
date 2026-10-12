@@ -333,6 +333,7 @@
 					auto: "enabled"
 					command: "/lichdom grant @s"
 					elevate_perms: true
+					exclude_from_claim_all: true
 					icon: "goety:undeath_potion"
 					id: "33CB3027487B6746"
 					team_reward: true

@@ -1,6 +1,6 @@
 {
-  "weight": 0.15,
-  "effective_range": {
-    "multiplier": 1.2
+  "weight": 5,
+  "damage": {
+    "multiplier": 2.2
   }
 }

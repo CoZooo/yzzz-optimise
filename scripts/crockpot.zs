@@ -18,6 +18,7 @@
 <tag:items:diet:sugars>.add(<item:crockpot:volt_goat_jelly>);
 
 //
+<item:crockpot:milk_bottle>.addTooltip("\u00A76用玻璃瓶右击牛即可获得");
 <item:crockpot:hoglin_nose>.addTooltip("\u00A76击杀疣猪兽可获得");
 <item:crockpot:flower_salad>.addTooltip("\u00A7e需注意花沙拉有两种烹饪方式");
 <item:crockpot:collected_dust>.addTooltip("\u00A7c可制作或者对着炼狱锻炉中心Shift右击分解凋灵图腾获得");

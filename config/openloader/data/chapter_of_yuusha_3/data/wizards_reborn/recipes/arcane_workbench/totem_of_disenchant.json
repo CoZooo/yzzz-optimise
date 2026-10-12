@@ -1,0 +1,30 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "GAG",
+    "WBW",
+    "WGW",
+    "CCCC"
+  ],
+  "key": {
+    "G": {
+      "tag": "wizards_reborn:arcane_gold_ingot"
+    },
+    "W": {
+      "tag": "wizards_reborn:arcane_wood_planks"
+    },
+    "C": {
+      "item": "wizards_reborn:enchanted_calx"
+    },
+    "B": {
+      "item": "apotheosis:ancient_material"
+    },
+    "A": {
+      "tag": "wizards_reborn:arcacite"
+    }
+  },
+  "output": {
+    "item": "wizards_reborn:totem_of_disenchant"
+  },
+  "wissen": 2000
+}

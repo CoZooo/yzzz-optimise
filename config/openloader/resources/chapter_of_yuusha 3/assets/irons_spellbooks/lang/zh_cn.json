@@ -1,8 +1,18 @@
 {
+	"item.irons_spellbooks.priest_spawn_egg": "牧师术士刷怪蛋",
+	"entity.irons_spellbooks.priest": "牧师术士",
+	"affix.irons_spellbooks:spellbook/attribute/holy_spell_power": "牧师术士的",
+	"item.irons_spellbooks.priest_helmet": "牧师术士面具",
+	"item.irons_spellbooks.priest_chestplate": "牧师术士法袍",
+	"item.irons_spellbooks.priest_leggings": "牧师术士护腿",
+	"item.irons_spellbooks.priest_boots": "牧师术士靴子",
+
 	"entity.irons_spellbooks.summoned_vex": "召唤出的恼鬼「堕天地狱形态」",
 
 	"item.irons_spellbooks.dragonskin_spell_book": "龙皮魔导书",
 	"item.irons_spellbooks.dragonskin": "龙皮",
+
+    "effect.irons_spellbooks.gluttony": "暴食♦沙耶之歌♦",
 
 	"spell.irons_spellbooks.oakskin": "树皮",
 

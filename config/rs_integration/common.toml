@@ -1,0 +1,269 @@
+
+#基本设置
+[general]
+	#启用机器绑定
+	#机器绑定功能的总开关；关闭后所有按模组设置的绑定功能都会停用。
+	enableBinding = true
+	#附近绑定水平半径（格）
+	#单次附近绑定的水平搜索半径；只扫描已加载的区块。
+	#Range: 1 ~ 64
+	nearbyBindingHorizontalRadius = 24
+	#附近绑定垂直半径（格）
+	#玩家上下的搜索半径；小于水平半径可避免扫描无用高度。
+	#Range: 1 ~ 24
+	nearbyBindingVerticalRadius = 12
+	#单次附近绑定机器上限
+	#限制一次扫描绑定的机器数量，避免连接器 NBT 过大。
+	#Range: 1 ~ 128
+	nearbyBindingMaxMachines = 128
+	#附近绑定每 tick 预算（微秒）
+	#服务端每 tick 用于附近绑定扫描的时间预算；达到后在后续 tick 继续。
+	#Range: 100 ~ 5000
+	nearbyBindingTickBudgetMicros = 1000
+	#附近绑定冷却（毫秒）
+	#同一玩家两次附近绑定请求之间的最小时间间隔。
+	#Range: 250 ~ 10000
+	nearbyBindingCooldownMs = 2000
+	#自动合成
+	#材料不足时通过存储网络递归合成中间材料；关闭后只使用已有库存。
+	enableAutoCrafting = true
+
+#模组兼容
+[integrations]
+	#启用诡厄巫法兼容
+	#支持黑暗祭坛等机器绑定与远程合成。
+	enableGoety = true
+	#启用灵灾兼容
+	#支持精魂祭坛、精魂坩埚等机器绑定与远程合成。
+	enableMalum = true
+	#启用植物魔法兼容
+	#支持植物魔法机器参与递归合成。
+	enableBotania = true
+	#启用巫师重生兼容
+	#支持智慧结晶器、奥术迭代器等机器的远程合成。
+	enableWizardsReborn = true
+	#启用禁忌与奥秘兼容
+	#支持赫菲斯托斯锻炉远程仪式合成。
+	enableForbiddenArcanus = true
+	#启用幻梦兼容
+	#支持幻之坩锅等机器的远程合成。
+	enableEidolon = true
+	#启用车万女仆兼容
+	#支持女仆祭坛远程合成。
+	enableTouhouLittleMaid = true
+	#启用拔刀剑兼容
+	#支持带 NBT 条件的拔刀剑工作台配方。
+	enableSlashblade = true
+	#启用无尽贪婪兼容
+	#支持无尽合成台、终极锻造台、中子态素收集器、箱子、超立方体及铁砧。
+	enableAvaritia = true
+	#启用汇流来世兼容
+	#支持汇流来世工作坊递归合成。
+	enableConfluence = true
+	#启用千古乐事兼容
+	#支持魔凝机远程合成。
+	enableImmortersDelight = true
+	#启用农夫乐事兼容
+	#支持烹饪锅和煎锅远程合成。
+	enableFarmersDelight = true
+	#启用妖怪归家兼容
+	#支持摩卡壶、蒸锅等机器的远程合成。
+	enableYoukaisHomecoming = true
+	#启用农夫暇事兼容
+	#支持水壶的流体泡制。
+	enableFarmersRespite = true
+	#启用更多熔炉兼容
+	#支持普通熔炉和工厂的熔炼、烧炼及烟熏配方；不支持发电模式。
+	enableIronFurnaces = true
+	#启用遥远世界兼容
+	#支持锂祭坛的 Firon 配方。
+	enableDistantWorlds = true
+	#启用lychee虚拟合成
+	#只支持已适配的 item_inside 配方；共振盘必须有匹配的基底桶，基底不会被消耗。
+	enableLychee = true
+	#启用 PMMO 回收兼容
+	#通过配置指定的回收方块递归回收；请求数量为独立尝试次数，不保证相同数量的产物。
+	enablePmmoSalvage = true
+	#lychee虚拟配方白名单
+	#填写配方 ID，只接受已内置适配的细雪、希腊火、矮人油和深层天境毒液类型；清空后关闭所有虚拟配方。
+	lycheeRecipeAllowlist = ["crafttweaker:avaritia.diamond_lattice.1", "crafttweaker:avaritia.diamond_lattice.2", "crafttweaker:avaritia.diamond_lattice.3", "crafttweaker:avaritia.diamond_lattice.4", "crafttweaker:avaritia.diamond_lattice.6", "crafttweaker:avaritia.diamond_lattice.7", "crafttweaker:avaritia.diamond_lattice.8", "crafttweaker:avaritia.diamond_lattice.9", "crafttweaker:avaritia.diamond_lattice.10", "crafttweaker:avaritia.diamond_lattice.11", "crafttweaker:avaritia.diamond_lattice.12", "crafttweaker:eidolon.lead_ingot.1", "crafttweaker:eidolon.lead_ingot.2", "crafttweaker:eidolon.lead_ingot.3", "crafttweaker:eidolon.silver_ingot.1", "crafttweaker:eidolon.silver_ingot.2", "crafttweaker:eidolon.silver_ingot.3", "crafttweaker:minecraft.copper_block", "crafttweaker:minecraft.exposed_copper", "crafttweaker:minecraft.oxidized_copper", "crafttweaker:minecraft.weathered_copper", "crafttweaker:minecraft.sugar.1", "crafttweaker:minecraft.sugar.2", "crafttweaker:nameless_trinkets.dubious_dust", "crafttweaker:refinedstorage.advanced_processor", "crafttweaker:refinedstorage.basic_processor", "crafttweaker:refinedstorage.improved_processor", "crafttweaker:refinedstorage.processor_binding.1", "crafttweaker:refinedstorage.processor_binding.2", "crafttweaker:refinedstorage.silicon", "crafttweaker:avaritia.eternal_singularity", "crafttweaker:embers.lead_ingot.special", "crafttweaker:embers.silver_ingot.special", "crafttweaker:yuusha.epic_material", "crafttweaker:yuusha.legendary_material", "crafttweaker:yuusha.rare_material", "crafttweaker:yuusha.ultimate_material", "crafttweaker:yuusha.uncommon_material", "crafttweaker:deep_aether.sterling_aercloud", "crafttweaker:aether_redux.sentrite", "crafttweaker:hmag.evil_crystal_fragment"]
+	#允许跳过遥远世界研究要求
+	#RSI 自动化可不持有 distant_worlds:incandescent_forever 进度执行 Firon 配方；原模组祭坛操作不受影响。
+	allowDistantWorldsResearchBypass = true
+	#关闭 Firon 仪式随机失败
+	#关闭 distant_worlds:firon_* 祭坛仪式的随机失败和爆炸分支，使自动合成稳定产出真实结果。
+	disableDistantWorldsFironFailure = true
+	#自动供给遥远世界熔炉燃料
+	#RSI 祭坛合成期间为附近遥远世界熔炉补充符合标签的燃料。
+	allowDistantWorldsFuelAutomation = true
+	#遥远世界熔炉搜索半径（格）
+	#祭坛合成寻找遥远世界熔炉时使用的最大方块半径。
+	#Range: 1 ~ 16
+	distantWorldsFuelSearchRadius = 8
+	#遥远世界熔炉单次补充燃料上限
+	#每次补充到选中遥远世界熔炉的最大燃料数量。
+	#Range: 1 ~ 64
+	distantWorldsFuelBatchSize = 4
+	#遥远世界熔炉燃料优先级
+	#填写物品 ID，越靠前优先级越高。
+	distantWorldsFuelPriority = ["distant_worlds:curelite_block", "distant_worlds:raw_curelite_block", "distant_worlds:curelite", "distant_worlds:raw_curelite"]
+	#启用神化兼容
+	#支持制箭台配方及远程界面；仅在安装神化时生效。
+	enableApotheosis = true
+	#启用铁魔法兼容
+	#支持卷轴撰写台及奥术铁砧。
+	enableIronsSpellbooks = true
+	#启用学徒法典兼容
+	#支持精华熏制炉及施法工作台递归合成。
+	enableApprenticeCodex = true
+	#启用奥术交错兼容
+	#支持奥术交错台递归合成。
+	enableIssCsw = true
+	#启用天华工艺兼容
+	#支持天华砧远程合成及自动敲击。
+	enableAetherworks = true
+	#启用天境兼容
+	#支持冷冻器、孵化器及祭坛。
+	enableAether = true
+	#启用新生魔艺兼容
+	#只自动化浸润仪和附魔装置的物品配方；附魔、魔符、反应及染色等涉及 NBT 或世界交互的配方仍需手动完成。
+	enableArsNouveau = true
+	#启用烹饪锅兼容
+	#支持烹饪锅和便携烹饪锅。
+	enableCrockPot = true
+	#启用永恒枪械工坊兼容
+	#支持枪械工作台递归合成。
+	enableTacz = true
+	#启用余烬炼金兼容
+	#支持余烬复燃的炼金台远程合成。
+	enableEmbersAlchemy = true
+	#启用余烬炼金计算模式
+	#显示确定的基座布局；关闭后仅可使用试错推断模式，需要同时启用余烬炼金兼容。
+	enableEmbersAlchemyCalculate = false
+	#启用原版机器兼容
+	#支持熔炉、高炉、烟熏炉、营火、切石机及锻造台的绑定和远程合成。
+	enableVanillaMachines = true
+	#启用精妙背包兼容
+	#启用基于 RS 网络的背包升级物品。
+	enableSophisticatedBackpacks = true
+	#计入 FTB 任务外部存入进度
+	#背包升级和合成实际存入 RS 的物品计入符合条件的物品任务；模拟、销毁、退款及回收物品不计入。
+	enableFtbQuestExternalItemProgress = true
+	#启用 JEI 兼容
+	#在 JEI 配方页显示远程合成加号；由服务端同步开关到客户端。
+	enableJeiIntegration = true
+	#启用 JEI 物品框选
+	#在 JEI 物品列表拖动框选以批量收藏或隐藏；与其他拖动操作冲突时可关闭，由服务端同步开关。
+	enableJeiMarqueeSelection = true
+	#启用 JEI 书签框选
+	#在 JEI 左侧书签栏拖动框选以批量移除或隐藏，由服务端同步开关。
+	enableJeiBookmarkMarqueeSelection = true
+	#启用 RS 网格滑动取出
+	#按住 Ctrl 在 RS 网格中拖动鼠标，每个经过的物品取出一个；与其他手势冲突时可关闭。
+	enableRSGridSwipeExtract = true
+	#启用懒人厨房兼容
+	#支持贸易站等已适配机器的远程操作。
+	enableFarmingForBlockheads = true
+	#启用许愿泉兼容
+	#支持完整许愿泉的绑定及产物类愿望的递归合成；天气愿望仍需手动进行。
+	enableWishingFountain = true
+	#显示 JEI 网络库存标记
+	#在 JEI 物品槽显示 RS 或超越维度网络库存；初始快照后使用增量更新，由服务端同步开关。
+	enableJeiNetworkOverlay = true
+	#显示 JEI 合成缺料标记
+	#在 JEI 物品槽显示当前递归合成计划的红色缺料标记，与网络库存数字分开，由服务端同步开关。
+	enableJeiCraftingShortageOverlay = true
+	#启用召唤仪式兼容
+	#通过远程存储准备及回收祭坛物品；不会启动仪式或收集世界掉落物。
+	enableBetterSummoningRituals = true
+	#启用血肉重铸兼容
+	#支持生物炼金机器绑定与远程合成。
+	enableBiomancy = true
+	#显示 FTB 任务批量确认按钮
+	#在侧边栏显示批量确认勾选任务的按钮。
+	enableFtbQuestCheckmarkButton = true
+	#显示 FTB 任务库存扫描按钮
+	#在侧边栏显示一次性扫描存储网络和玩家背包的按钮。
+	enableFtbQuestStorageScanButton = true
+
+#自动合成
+[autoCrafting]
+	#中间材料使用多方块机器
+	#递归合成时可用祭坛、锻炉、坩埚等机器制作中间材料；关闭后中间材料仅使用原版工作台配方。
+	enableMultiblockAutoCrafting = true
+
+#精妙背包
+[sophisticated_backpacks]
+	#存入升级连接 RS 网络
+	#开启后背包存入升级可向 RS 终端推送物品；关闭后使用精妙背包原有行为。
+	depositUpgradeRS = true
+	#压缩升级合并 MAJ 饰品
+	#匹配白名单的 Majrusz 饰品会两两合并，从最高效率饰品开始，直到达到 100%。
+	enableMajAccessoryCompression = true
+
+#被动效果
+[passiveEffects]
+	#启用网络被动效果
+	#绑定 RS 网络中的物品可提供原本在背包或快捷栏生效的被动效果，包括属性、白名单物品 tick 及已适配事件效果。
+	enableRSPassiveEffects = true
+	#模拟背包 tick 的物品
+	#格式为 modid:item_id 或 modid:item_id|mutates；带 mutates 的条目会取出、执行 tick 并存回以保存 NBT，其他条目使用只读副本。
+	passiveTickItems = ["reliquary:pyromancer_staff|mutates", "enigmaticaddons:artificial_flower|mutates", "forbidden_arcanus:spectral_eye_amulet|mutates", "apotheosis:potion_charm|mutates", "muyimeng_charm:fused_potion_charm|mutates", "composite_material:primitive_totem"]
+	#九剑书生效数量上限
+	#统计玩家背包和共振盘中的九剑书；超出数量不生效，原版快捷栏上限为 9。
+	#Range: 1 ~ 36
+	nineSwordMaxCount = 9
+
+#自动进食
+[autoEat]
+	#启用自动进食
+	#在 RS 和超越维度终端提供多样饮食、堆叠暴食及膳食均衡；食物和消耗物品由所选存储网络提供。
+	enableAutoEat = true
+	#自动进食所需状态效果
+	#填写 modid:effect_id；留空表示无需效果，例如 crockpot:gnaws_gift。
+	requiredEffect = "irons_spellbooks:gluttony"
+	#自动进食消耗物品
+	#填写 modid:item_id；minecraft:air 表示不消耗物品。
+	costItem = "minecraft:air"
+	#每份食物消耗数量
+	#每吃一份食物需从网络扣除的消耗物品数量；0 表示免费。
+	#Range: 0 ~ 64
+	costPerItem = 0
+	#单次进食数量上限
+	#每次批量进食最多吃掉的食物数量。
+	#Range: 1 ~ 1024
+	maxPerBatch = 128
+
+#容器传输
+[containerTransfer]
+	#启用一键容器传输
+	#打开容器后按指定按键将物品存入绑定网络；需要维度访问器及已绑定的 RS 网络。
+	enableContainerTransfer = true
+
+#侧边面板
+[sidePanel]
+	#启用 RS 侧边面板
+	#通过指定按键显示可折叠、拖动的网络物品面板。
+	enableRSSidePanel = true
+
+#远程机器
+[remoteMachineGui]
+	#启用虚拟机器界面
+	#在机器中心和 RS 终端显示虚拟机器界面；关闭后拒绝相应远程请求，与机器是否必须绑定的选项独立。
+	enableMachineGuiTabs = true
+	#自定义远程界面模组
+	#填写模组 ID，为其机器提供绑定和远程打开界面，不提供批量合成；已有完整模块支持的模组无需填写。
+	customGuiMachineMods = ["crabbersdelight", "metalbarrels", "pgp", "emxarms", "ancientreforging"]
+	#远程界面要求机器绑定
+	#开启后拒绝打开未绑定机器的界面；关闭后有效机器位置可直接远程打开。
+	requireMachineBindingForGui = true
+	#虚拟工作站要求实体机器
+	#虚拟切石机、锻造台和铁砧必须有已绑定的对应实体机器；原生 3×3 合成不受影响。
+	requireBoundMachineForVirtualStation = true
+
+#高级设置
+[advanced]
+	#启用详细诊断日志
+	#仅建议排查问题时启用，可能产生大量服务端日志。
+	diagnosticVerboseLogging = false
+

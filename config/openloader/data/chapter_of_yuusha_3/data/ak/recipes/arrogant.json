@@ -16,9 +16,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "shizuku:void_blade",
-        "refine": 5
+        "refine": 10
       }
     }
   },

@@ -28,7 +28,7 @@ import mods.jeitweaker.Jei;
 
 <item:goety_cataclysm:extinct_flame_focus>.addTooltip("\u00A76需按住右键引导4秒后释放，冷却时间6秒，需放入魔杖施法");
 <item:goety_cataclysm:extinct_flame_focus>.addTooltip("\u00A7e焰魔火球会给予目标可叠加的炽热烙印效果");
-<item:goety_cataclysm:extinct_flame_focus>.addTooltip("\u00A7c击杀焰魔有小几率获得");
+<item:goety_cataclysm:extinct_flame_focus>.addTooltip("\u00A7c击杀焰魔有极小几率获得");
 
 <item:goety_cataclysm:ashen_breath_focus>.addTooltip("\u00A72· 110 基础伤害");
 <item:goety_cataclysm:ashen_breath_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导0.5秒后释放，冷却时间0.5秒，需放入魔杖施法");

@@ -2,15 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 18
+      "count": 8
     },
     {
       "item": {
-        "tag": "forge:leather"
+        "item": "embers:ash"
       },
-      "count": 6
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
     }
   ],
   "result": {

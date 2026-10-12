@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "callfromthedepth_:soullight"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:screen"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

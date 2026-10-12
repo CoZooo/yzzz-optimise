@@ -1,23 +1,22 @@
 import mods.jeitweaker.Jei;
 
 //说明
-//<item:mowziesmobs:earth_talisman>.removeTooltip("创造模式");
-//<item:mowziesmobs:earthbore_gauntlet>.anyDamage().removeTooltip("创造模式");
-//<item:mowziesmobs:grant_suns_blessing>.anyDamage().addTooltip("\u00A7c右击技能不属于玩家伤害，击杀生物不能获得必须玩家击杀的掉落物");
-//<item:mowziesmobs:wrought_axe>.anyDamage().addTooltip("\u00A7c右击技能不属于玩家伤害，击杀生物不能获得必须玩家击杀的掉落物");
 
-<item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A7c右击技能不属于玩家伤害");
+<item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A7c右击技能为非玩家伤害");
 <item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A7e击杀生物不能获得必须玩家击杀的掉落物");
+<item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A76也无法获得玩家的伤害加成");
 <item:mowziesmobs:naga_spawn_egg>.addTooltip("\u00A7c据说放入刷怪笼内会导致游戏崩溃");
 
 <item:mowziesmobs:grant_suns_blessing>.anyDamage().addTooltip("\u00A7c击杀乌姆武蒂-太阳鸟可获得");
 <item:mowziesmobs:grant_suns_blessing>.anyDamage().addTooltip("\u00A7e太阳祝福的技能可以增加箭术技能经验");
+<item:mowziesmobs:grant_suns_blessing>.anyDamage().addTooltip("\u00A76但享受魔能强度、魔灵之力等加成");
 <item:mowziesmobs:sol_visage>.anyDamage().addTooltip("\u00A7c击杀乌姆武蒂-太阳鸟可获得");
 
 <item:mowziesmobs:earthrend_gauntlet>.anyDamage().addTooltip("\u00A76通过雕刻师-通臂大师的试炼后可获得");
 <item:mowziesmobs:earthrend_gauntlet>.anyDamage().addTooltip("\u00A7c隧道技能不属于玩家伤害，击杀生物不能获得必须玩家击杀的掉落物");
 <item:mowziesmobs:earthrend_gauntlet>.anyDamage().addTooltip("\u00A7e用作星河贸易站交易时不能有NBT，可通过合成清除");
 <item:mowziesmobs:earthrend_gauntlet>.anyDamage().addTooltip("\u00A73在召唤祭坛中合成丘比娃娃需一个游戏天的时间");
+<item:mowziesmobs:earthrend_gauntlet>.anyDamage().addTooltip("\u00A75该武器技能享受箭术技能等级加成");
 
 <item:mowziesmobs:naga_fang>.addTooltip("\u00A7c娜迦在山地或者塔楼均可自然生成");
 <item:mowziesmobs:naga_fang>.addTooltip("\u00A76相关内容详见上层世界娜迦毒牙任务");
@@ -25,6 +24,9 @@ import mods.jeitweaker.Jei;
 <item:mowziesmobs:glowing_jelly>.addTooltip("\u00A7c击杀荧光浮灯会掉落荧光胶冻");
 <item:mowziesmobs:glowing_jelly>.addTooltip("\u00A7e荧光浮灯在黑森林的树林上空生成");
 <item:mowziesmobs:umvuthana_mask_faith>.addTooltip("\u00A76可在切石机中制作生命提升附魔");
+
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
+<item:mowziesmobs:sculptor_staff>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
 
 <item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A7e右击使用会消耗");
 <item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A76还可通过精魂坩埚较为简易地制作获得");

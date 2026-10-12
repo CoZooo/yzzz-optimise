@@ -7,9 +7,15 @@
     "irons_spellbooks:artificer_cane",
     "irons_spellbooks:ice_staff",
     "irons_spellbooks:lightning_rod",
-    "irons_spellbooks:blood_staff"
+    "irons_spellbooks:blood_staff",
+    "goety:dark_wand",
+    "malum:crude_scythe",
+    "malum:soul_stained_steel_scythe"
   ],
   "whitelist": [
     "minecraft:diamond_sword"
+  ],
+  "catalysts": [
+    "touhou_little_maid:hakurei_gohei"
   ]
 }

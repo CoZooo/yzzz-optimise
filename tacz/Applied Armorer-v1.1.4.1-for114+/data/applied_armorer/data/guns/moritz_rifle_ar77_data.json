@@ -1,0 +1,109 @@
+{
+  "ammo": "applied_armorer:etched_quartz_bullet",
+  "ammo_amount": 30,
+  "extended_mag_ammo_amount": [
+    35,
+    40,
+    45
+  ],
+  "bolt": "open_bolt",
+  "rpm": 720,
+  "bullet": {
+    "life": 1,
+    "bullet_amount": 1,
+    "damage": 200,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0.55,
+      "head_shot_multiplier": 1.2,
+      "damage_adjust": [
+        {"distance": 20, "damage": 200},
+        {"distance": 40, "damage": 160},
+        {"distance": "infinite", "damage": 120}
+      ]
+    },
+    "speed": 360,
+    "gravity": 0.15,
+    "knockback": 0,
+    "friction": 0.015,
+    "ignite": false,
+    "ignite_entity_time": 6,
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 100,
+      "radius": 1.5,
+      "knockback": false,
+      "destroy_block": false,
+      "delay": 1
+    }
+  },
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 1.5,
+      "tactical": 1.5
+    },
+    "cooldown": {
+      "empty": 2.67,
+      "tactical": 2.67
+    }
+  },
+  "draw_time": 0.75,
+  "put_away_time": 0.58,
+  "aim_time": 0.2,
+  "sprint_time": 0.2,
+  "weight": 50,
+  "movement_speed": {
+    "base": 0.0,
+    "aim": -0.1,
+    "reload": -0.05
+  },
+  "crawl_recoil_multiplier": 0.25,
+  "fire_mode": [
+    "auto",
+    "semi"
+  ],
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [1.4, 1.4]},
+      {"time": 0.2, "value": [1.4, 1.4]},
+      {"time": 0.3, "value": [-0.05, -0.05]},
+      {"time": 0.5, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-1.2, 1.2]},
+      {"time": 0.2, "value": [-1.2, 1.2]},
+      {"time": 0.35, "value": [0, 0]}
+    ]
+  },
+  "inaccuracy": {
+    "stand": 2,
+    "move": 3,
+    "sneak": 1.5,
+    "lie": 1,
+    "aim": 0.1
+  },
+  "melee": {
+    "distance": 1,
+    "cooldown": 1.0,
+    "default": {
+      "animation_type": "melee_stock",
+      "distance": 1.25,
+      "range_angle": 30,
+      "damage": 7,
+      "knockback": 1,
+      "prep": 0.1
+    }
+  },
+  "builtin_attachments": {
+  },
+  "allow_attachment_types": [
+    "scope",
+    "grip",
+    "muzzle",
+    "extended_mag",
+    "stock",
+    "laser"
+  ]
+}

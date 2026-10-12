@@ -3,11 +3,11 @@
 	"attack_element":"god",
 	"defense_element":{
 		"god":91,
-		"normal":91,
+		"light":91,
 		"darkness":94,
 		"fire":94,
 		"ice":94,
-		"light":94,
+		"normal":94,
 		"water":94,
 		"thunder":94,
 		"flora":94,

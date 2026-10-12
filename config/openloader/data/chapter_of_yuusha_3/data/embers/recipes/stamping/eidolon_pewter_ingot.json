@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "eidolon:pewter_blend"
+  },
+  "fluid": {
+    "amount": 40,
+    "name": "aetherworks:alchemic_precursor"
+  },
+  "output": {
+    "item": "eidolon:pewter_ingot",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:ingot_stamp"
+  }
+}

@@ -1,0 +1,33 @@
+{
+   "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "item": "sons_of_sins:soul_steel"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_draftsman_ev"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

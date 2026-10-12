@@ -7,72 +7,72 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:rage",
-        "refine": 5
+        "refine": 10
       }
     },
     "B": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:greedy",
-        "refine": 5
+        "refine": 10
       }
     },
     "C": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:lust",
-        "refine": 5
+        "refine": 10
       }
     },
     "D": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:lazy",
-        "refine": 5
+        "refine": 10
       }
     },
     "E": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:arrogant",
-        "refine": 5
+        "refine": 10
       }
     },
     "F": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:jealous",
-        "refine": 5
+        "refine": 10
       }
     },
     "G": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "ak:tai_ti",
-        "refine": 5
+        "refine": 10
       }
     },
     "I": {
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "shizuku:teleport_blade",
-        "refine": 5
+        "refine": 10
       }
     },
     "H": {

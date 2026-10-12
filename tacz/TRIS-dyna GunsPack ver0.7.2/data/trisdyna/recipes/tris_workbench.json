@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "tacz:workbench_b",
+    "nbt": {
+      "BlockId": "trisdyna:tris_workbench"
+    }
+  },
+  "pattern": [
+      "EAE",
+      "ADA",
+      "ECE"
+  ],
+    "key": {
+      "A": {
+        "item": "aetherworks:aether_shard"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "embers:archaic_circuit"
+      },
+      "E": {
+        "item": "aquaculture:neptunium_ingot"
+      }
+    }
+}

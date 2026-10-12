@@ -6,7 +6,7 @@ import mods.jeitweaker.Jei;
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7c击杀生于混沌模组的部分怪物可获得");
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7e在极尽深渊的阿比斯之渊内会生成大量生于混沌模组生物");
 
-<item:born_in_chaos_v1:spiritof_chaos_spawn_egg>.addTooltip("\u00A7c混沌恶灵只能在阿比斯之渊内生成");
+<item:born_in_chaos_v1:spiritof_chaos_spawn_egg>.addTooltip("\u00A7c混沌恶灵只能在主世界内生成");
 <item:born_in_chaos_v1:pumpkinstaffa>.addTooltip("\u00A7c击杀南瓜伯爵头颅可获得");
 <item:born_in_chaos_v1:smoldering_infernal_ember>.addTooltip("\u00A7c击杀南瓜伯爵头颅可获得");
 <item:born_in_chaos_v1:smoldering_infernal_ember>.addTooltip("\u00A7e在阿比斯之渊会刷新生于混沌模组的生物");
@@ -45,6 +45,7 @@ import mods.jeitweaker.Jei;
 <item:born_in_chaos_v1:ethereal_spirit>.addTooltip("\u00A7e在极尽深渊的阿比斯之渊内会生成大量生于混沌模组生物");
 <item:born_in_chaos_v1:fangofthe_hound_leader>.addTooltip("\u00A7e在阿比斯之渊内会生成骇狼首领");
 <item:born_in_chaos_v1:soulbane>.anyDamage().addTooltip("\u00A7e灵魂剥离效果结束后会清除目标的星灵之力等原版效果");
+<item:born_in_chaos_v1:soulbane>.anyDamage().addTooltip("\u00A76请勿给女仆使用，可能会导致过挑战门失败");
 
 <item:born_in_chaos_v1:death_totem>.addTooltip("\u00A75免疫一次死亡并消耗，只能放在主手或副手生效");
 <item:born_in_chaos_v1:death_totem>.addTooltip("\u00A73复活后会给予玩家魔力耗尽状态，在该效果下无法使用死灵图腾");

@@ -7,6 +7,10 @@
     "malum:scythe_melee",
     "malum:scythe_sweep",
     "malum:voodoo",
-    "malum:voodoo_playerless"
+    "malum:voodoo_playerless",
+	"tacz:bullet",
+    "tacz:bullet_ignore_armor",
+    "tacz:bullet_void",
+    "tacz:bullet_void_ignore_armor"
   ]
 }

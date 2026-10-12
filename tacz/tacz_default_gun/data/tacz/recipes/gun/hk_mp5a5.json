@@ -4,17 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 16
+      "count": 12
     },
     {
       "item": {
         "tag": "forge:gems/lapis"
       },
-      "count": 4
+      "count": 8
     },
     {
       "item": {
         "item": "avaritia:diamond_lattice"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

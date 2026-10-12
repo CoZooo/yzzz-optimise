@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "celestial_core:guardian_ocean_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "meetyourfight:mossy_tooth"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_green_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:bayonet_emx_skyhunter0"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

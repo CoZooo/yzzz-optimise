@@ -2,15 +2,15 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "goety:cursed_ingot"
       },
-      "count": 16
+      "count": 12
     },
     {
       "item": {
-        "tag": "forge:leather"
+        "item": "yuusha:slot_2"
       },
-      "count": 5
+      "count": 1
     }
   ],
   "result": {

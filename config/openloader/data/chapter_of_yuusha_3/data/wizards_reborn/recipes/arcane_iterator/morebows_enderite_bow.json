@@ -7,7 +7,7 @@
   "wissen": 8000,
   "ingredients": [
     {
-      "item": "yuusha:aja_blue_stone"
+      "item": "yuusha:fire_ingot_ex"
     },
     {
       "item": "stalwart_dungeons:ancient_fire"
@@ -16,7 +16,7 @@
       "item": "enigmaticlegacy:astral_dust"
     },
     {
-      "item": "enigmaticlegacy:etherium_block"
+      "item": "enigmaticlegacy:etherium_scraps"
     },
     {
       "item": "enigmaticlegacy:astral_dust"

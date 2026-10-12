@@ -11,15 +11,14 @@
   "bullet": {
     "life": 0.9,
     "bullet_amount": 1,
-    "damage": 512,
+    "damage": 250,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.35,
-      "head_shot_multiplier": 12.5,
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 4.0,
       "damage_adjust": [
-        {"distance": 40, "damage": 512},
-        {"distance": 80, "damage": 512},
-        {"distance": "infinite", "damage": 512}
+	    {"distance": 100, "damage": 250},
+        {"distance": "infinite", "damage": 250}
       ]
     },
     "speed": 450,
@@ -28,7 +27,15 @@
     "friction": 0.015,
     "ignite": false,
     "ignite_entity_time": 6,
-    "pierce": 3
+    "pierce": 3,
+    "explosion": {
+      "explode": false,
+      "damage": 200,
+      "radius": 1.5,
+      "knockback": false,
+      "destroy_block": false,
+      "delay": 1
+    }
   },
   "reload": {
     "type": "magazine",
@@ -46,7 +53,7 @@
   "aim_time": 0.2,
   "bolt_action_time": 0.89,
   "sprint_time": 0.2,
-  "weight": 15.9,
+  "weight": 40,
   "movement_speed": {
     "base": 0.0,
     "aim": -0.3,
@@ -58,16 +65,16 @@
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [2.2, 2.2]},
-      {"time": 0.32, "value": [2.2, 2.2]},
-      {"time": 0.57, "value": [-0.5, -0.5]},
+      {"time": 0, "value": [15.2, 15.2]},
+      {"time": 0.32, "value": [13.2, 13.2]},
+      {"time": 0.57, "value": [-2.5, -2.5]},
       {"time": 0.82, "value": [0.25, 0.25]},
       {"time": 1.17, "value": [0, 0]},
       {"time": 1.47, "value": [0, 0]}
     ],
     "yaw": [
-      {"time": 0, "value": [-0.5, 0.5]},
-      {"time": 0.32, "value": [-0.5, 0.5]},
+      {"time": 0, "value": [-5.5, 5.5]},
+      {"time": 0.32, "value": [-3.5, 3.5]},
       {"time": 0.57, "value": [0, 0]}
     ]
   },
@@ -90,14 +97,12 @@
       "prep": 0.1
     }
   },
-  "builtin_attachments": {
-    "scope": "applied_armorer:si_xs_07"
-  },
   "allow_attachment_types": [
+    "scope",
+	"grip",
+	"muzzle",
     "extended_mag",
     "stock",
-    "scope",
-    "muzzle",
-    "grip"
+    "laser"
   ]
 }

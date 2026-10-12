@@ -84,7 +84,7 @@
   "enchantment.chapter_of_yuusha_3_core.piercing.desc": "允许箭矢穿透实体，每级附魔增加一实体。",
   "enchantment.chapter_of_yuusha_3_core.multishot.desc": "一次射出多只箭，每级附魔增加一箭矢，额外的箭矢只会造成较低的伤害，过多的箭矢可能会导致卡顿。",
   "enchantment.chapter_of_yuusha_3_core.magical_arrow": "魔化箭矢",
-  "enchantment.chapter_of_yuusha_3_core.magical_arrow.desc": "命中实体后对其造成回响打击，附加箭矢伤害的2%×附魔等级的法术伤害，不享受法术强度加成。",
+  "enchantment.chapter_of_yuusha_3_core.magical_arrow.desc": "命中实体后附加回响打击，伤害为箭矢的2%×附魔等级的法术伤害，不享受法术强度加成，但享受其他魔法加成。",
   "enchantment.chapter_of_yuusha_3_core.sundering": "星裂相位",
   "enchantment.chapter_of_yuusha_3_core.sundering.desc": "仅适用于法杖，施法可赋予附魔等级的星裂效果，可用无暇以上的法师克星宝石提升等级。",
 

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "avaritia:crystal_matrix_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_if_ev"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 42
+      "count": 48
     },
     {
       "item": {
-        "item": "cataclysm:ancient_metal_ingot"
+        "item": "embers:flame_barrier"
       },
-      "count": 8
-    },
-    {
-      "item": {
-        "item": "born_in_chaos_v1:smoldering_scorched_log"
-      },
-      "count": 6
-    },
-    {
-      "item": {
-        "item": "obscure_api:astral_dust"
-      },
-      "count": 4
+      "count": 12
     },
     {
       "item": {
         "item": "yuusha:epic_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

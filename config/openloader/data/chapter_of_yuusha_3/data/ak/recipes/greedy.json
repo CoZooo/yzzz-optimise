@@ -16,9 +16,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 500,
+        "kill": 1000,
         "name": "slashblade_addon:kamuy_fire",
-        "refine": 5
+        "refine": 10
       }
     }
   },

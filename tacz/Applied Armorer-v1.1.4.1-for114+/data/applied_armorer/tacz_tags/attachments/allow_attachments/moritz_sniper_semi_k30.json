@@ -1,10 +1,18 @@
 [
-  "#applied_armorer:fluix_extended_mag",
-  "#applied_armorer:chip_moritz",
-  "#applied_armorer:bracelet",
-  "#tacz:scope",
-  "#tacz:sniper_scope",
-  "#tacz:grip",
+	"emxarms:grip_emx_double_rsi",
 	
-	"#tacz:stock"
+	"applied_armorer:si_zako_2403",
+	"applied_armorer:si_pricision",
+	
+	"applied_armorer:scope_ms_14",
+	
+	"#applied_armorer:bracelet",
+	
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

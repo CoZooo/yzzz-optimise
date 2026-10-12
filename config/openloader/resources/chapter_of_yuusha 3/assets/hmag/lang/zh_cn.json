@@ -1,4 +1,6 @@
 {
+	"block.hmag.tinted_reinforced_glass" : "强化遮光玻璃",
+
 	"effect.hmag.darkness_resistance" : "暗黑免疫",
 	"effect.hmag.darkness_resistance.description" : "免疫并移除已有的失明和黑暗。",
 

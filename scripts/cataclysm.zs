@@ -42,6 +42,7 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:amethyst_crab_meat>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
 <item:cataclysm:amethyst_crab_shell>.addTooltip("\u00A7c紫水晶巨蟹可用虚空百合等材料召唤");
 <item:cataclysm:amethyst_crab_shell>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
+<item:cataclysm:amethyst_crab_shell>.addTooltip("\u00A7e可在切石机中制作多种附魔书");
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A7c紫水晶巨蟹可用虚空百合等材料召唤");
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
 
@@ -329,4 +330,11 @@ recipes.addJsonRecipe("cataclysm.flame_eye.prot",{
 //
 furnace.remove(<item:cataclysm:ancient_metal_nugget>);
 blastFurnace.remove(<item:cataclysm:ancient_metal_nugget>);
+
+//
+stoneCutter.addRecipe("enchanted_book.apotheosis.natures_blessing", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis:natures_blessing"}]}), <item:cataclysm:amethyst_crab_shell>);
+stoneCutter.addRecipe("enchanted_book.majruszsenchantments.harvester", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "majruszsenchantments:harvester"}]}), <item:cataclysm:amethyst_crab_shell>);
+stoneCutter.addRecipe("enchanted_book.celestial_enchantments.accelerate_growth", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "celestial_enchantments:accelerate_growth"}]}), <item:cataclysm:amethyst_crab_shell>);
+
+
 

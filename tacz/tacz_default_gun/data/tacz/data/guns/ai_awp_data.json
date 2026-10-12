@@ -1,5 +1,5 @@
 {
-  "ammo": "tacz:338",
+  "ammo": "tacz:50bmg",
   "ammo_amount": 10,
   "extended_mag_ammo_amount": [
     12,
@@ -7,20 +7,19 @@
     16
   ],
   "bolt": "manual_action",
-  "rpm": 171,
+  "rpm": 160,
   "bullet": {
     "life": 0.9,
     "bullet_amount": 1,
-    "damage": 4320,
+    "damage": 150,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.75,
-      "head_shot_multiplier": 2.5,
+      "armor_ignore": 0.0,
+      "head_shot_multiplier": 5.0,
       "damage_adjust": [
-        //{"distance": 2, "damage": 0},
-        {"distance": 40, "damage": 4320},
-        {"distance": 80, "damage": 3888},
-        {"distance": "infinite", "damage": 3456}
+        {"distance": 40, "damage": 150},
+        {"distance": 80, "damage": 135},
+        {"distance": "infinite", "damage": 120}
       ]
     },
     "speed": 450,
@@ -31,9 +30,10 @@
     "pierce": 4,
     "explosion": {
       "explode": false,
-      "damage": 480,
-      "radius": 1.25,
-      "knockback": true,
+      "damage": 40,
+      "radius": 2.0,
+      "knockback": false,
+      "destroy_block": false,
       "delay": 1
     }
   },
@@ -53,7 +53,7 @@
   "aim_time": 0.25,
   "sprint_time": 0.2,
   "bolt_action_time": 0.7,
-  "weight": 31.2,
+  "weight": 20.0,
   "movement_speed": {
     "base": 0.0,
     "aim": -0.4,
@@ -83,7 +83,7 @@
     "move": 23,
     "sneak": 13,
     "lie": 12,
-    "aim": 0.05
+    "aim": 0.1
   },
   // 近战相关
   "melee": {
@@ -109,9 +109,11 @@
     }
   },
   "allow_attachment_types": [
-    "extended_mag",
     "scope",
+    "grip",
     "muzzle",
-    "stock"
+    "extended_mag",
+    "stock",
+    "laser"
   ]
 }

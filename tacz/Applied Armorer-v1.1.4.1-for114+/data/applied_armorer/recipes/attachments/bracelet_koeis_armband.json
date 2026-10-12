@@ -3,15 +3,21 @@
   "materials": [
     {
       "item": {
-        "item": "minecraft:red_wool"
+        "item": "locusazzurro_icaruswings:magma_ingot"
       },
-      "count": 4
+      "count": 8
     },
     {
       "item": {
-        "tag": "forge:dyes/black"
+        "item": "yuusha:ice_blood"
       },
-      "count": 2
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
     }
   ],
   "result": {

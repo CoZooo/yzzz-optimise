@@ -221,6 +221,7 @@
 				""
 				"&6战士刺客可用此武器作为前期武器。龙后基本就用正常战士线的武器。"
 			]
+			icon: "confluence:warrior_emblem"
 			id: "0F216D8334EC6BE2"
 			rewards: [{
 				id: "6C2D9EF001A60684"
@@ -289,30 +290,27 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["478A612F781EDE10"]
+			dependencies: ["5BBEEA35B79B60CF"]
 			description: [
-				"弓兵暗夜刺客线，未完善。"
+				"&e新增对一击弓补强。"
 				""
-				"&c除非你想要挑战，否则不要用弓来玩刺客世界线。"
+				"&c弓兵刺客线，未完善。除非你想要挑战，否则不建议用弓来玩刺客世界线。"
 			]
 			icon: "chapter_of_yuusha_3_core:draw_power"
 			id: "4386DEF0B85B55DB"
-			rewards: [
-				{
-					id: "79828275C24C5A44"
-					item: "chapter_of_yuusha_3_core:draw_power"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2F3F85D83243DE76"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				command: "/cy3 admin curios equip chapter_of_yuusha_3_core:draw_power{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}]} @s force"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "chapter_of_yuusha_3_core:draw_power"
+				id: "38EDCC42F9B1D263"
+				team_reward: true
+				title: "&c强制穿戴特定饰品"
+				type: "command"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "6862AEBBB2A4A1CE"
@@ -320,26 +318,24 @@
 				type: "item"
 			}]
 			title: " 破空之愿 "
-			x: -11.0d
-			y: 4.0d
+			x: -9.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0F216D8334EC6BE2"]
-			description: ["&e新增对一击战补强。&r"]
+			description: ["&e新增对一击战补强。"]
 			icon: "chapter_of_yuusha_3_core:recoil_absorber"
 			id: "10A7A53C02AD7C35"
-			rewards: [
-				{
-					id: "3712FDE0FBA811ED"
-					item: "chapter_of_yuusha_3_core:recoil_absorber"
-					type: "item"
-				}
-				{
-					id: "6AB258CA2B6084F8"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				command: "/cy3 admin curios equip chapter_of_yuusha_3_core:recoil_absorber{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}]} @s force"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "chapter_of_yuusha_3_core:recoil_absorber"
+				id: "3CE5951363D3224F"
+				team_reward: true
+				title: "&c强制穿戴特定饰品"
+				type: "command"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "177216FD4E72541B"
@@ -556,6 +552,30 @@
 			title: "永恒怀表"
 			x: -8.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["478A612F781EDE10"]
+			icon: "confluence:ranger_emblem"
+			id: "5BBEEA35B79B60CF"
+			rewards: [{
+				id: "186AC1DDE91FF0F3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48B35270ECD0A298"
+				item: {
+					Count: 1
+					id: "wizards_reborn:arcane_wood_bow"
+					tag: {
+						Damage: 0
+						arcaneEnchantments: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
 		}
 	]
 	subtitle: [

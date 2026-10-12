@@ -1,10 +1,9 @@
 [
-  "#applied_armorer:fluix_extended_battery",
-  "#applied_armorer:chip_moritz",
-  "#applied_armorer:bracelet",
-  "#tacz:scope",
-  "#tacz:sniper_scope",
-  "#tacz:grip",
+	"#pgp:pgp_beamcore",
+
+	"trisdyna:grip_shimmer",
+  
+	"#applied_armorer:bracelet",
 	
-	"#tacz:stock"
+	"#eos:stock_maid"
 ]

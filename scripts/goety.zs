@@ -17,6 +17,8 @@ import mods.jeitweaker.Jei;
 <item:goety:feline_amulet>.addTooltip("\u00A77装备后使玩家拥有猫一样的特性");
 <item:goety:refuse_bottle>.addTooltip("\u00A77在女巫坩埚酿造药水失败时，装入玻璃瓶可获得");
 <item:goety:venomous_fang>.addTooltip("\u00A76击杀各种蜘蛛生物有几率获得");
+<item:goety:grave_dust>.addTooltip("\u00A76新增击杀缠魂甲胄可获得");
+<item:goety:grave_dust>.addTooltip("\u00A7c无法通过掘墓者之铲获得");
 
 <item:goety:animation_core>.addTooltip("\u00A7e可击杀巫师小几率获得，特定世界线也可制作获得");
 <item:goety:animation_core>.addTooltip("\u00A76巫师会出现在不祥垠际-诡厄袭击传送门内");
@@ -749,7 +751,8 @@ stoneCutter.addRecipe("goety.rampaging_axe.2", <item:goety:rampaging_axe>, <item
 stoneCutter.addRecipe("goety.rampaging_axe.3", <item:goety:rampaging_axe>, <item:cthulhufishing:purple_gem_ring>);
 stoneCutter.addRecipe("goety.rampaging_axe.4", <item:goety:rampaging_axe>, <item:cthulhufishing:green_gem_ring>);
 
-//Jei.hideIngredient(<item:goety:death_scythe>);
+stoneCutter.addRecipe("goety.ominous_shard", <item:goety:ominous_shard>*4, <item:goety:ominous_orb>);
+
 Jei.hideIngredient(<item:goety:magic_bolt_focus>);
 
 <tag:items:curios:necklace>.remove(<item:goety:star_amulet>);

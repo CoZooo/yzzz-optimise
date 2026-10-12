@@ -2,15 +2,27 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 16
+      "count": 8
     },
     {
       "item": {
-        "tag": "forge:ingots/gold"
+        "item": "cthulhufishing:drip_void"
       },
-      "count": 5
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "moonstone:blood_jelly"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
     }
   ],
   "result": {

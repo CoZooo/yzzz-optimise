@@ -11,8 +11,8 @@
       "item": "slashblade:slashblade",
       "request": {
         "name": "slashblade_addon:dark_raven",
-        "kill": 200,
-        "refine": 2
+        "kill": 400,
+        "refine": 4
       }
     },
     "E": {

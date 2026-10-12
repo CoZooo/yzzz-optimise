@@ -1,0 +1,9 @@
+{
+  "weight": 5,
+  "ads": {
+    "addend": 0.1
+  },
+  "head_shot":{
+    "multiplier": 2.5
+  }
+}

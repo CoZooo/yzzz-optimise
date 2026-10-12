@@ -1,11 +1,9 @@
 {
-  "weight": 0.35,
-  "recoil": {
-    "pitch": {
-      "multiplier": 0.95
-    }
-  },
+  "weight": 5,
   "ads": {
-    "addend": 0.02
+    "addend": 0.1
+  },
+  "head_shot":{
+    "multiplier": 3.0
   }
 }

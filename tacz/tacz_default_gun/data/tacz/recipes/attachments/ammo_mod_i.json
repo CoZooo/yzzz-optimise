@@ -16,6 +16,12 @@
         "item": "locusazzurro_icaruswings:nether_essence"
       },
       "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
     }
   ],
   "result": {

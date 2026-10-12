@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:ammo_h2"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "celestial_artifacts:guardian_eye"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:ammo_h3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,7 +1,8 @@
 [
-  "#tacz:db_short_stock",
-  "#tacz:bayonet_ak",
-  "#tacz:ammo_mod_no_fmj",
+  "tacz:oem_stock_tactical",
 	
-	"#tacz:stock"
+  "tacz:ammo_mod_i",
+  "tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

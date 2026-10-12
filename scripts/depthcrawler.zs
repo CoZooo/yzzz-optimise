@@ -29,7 +29,8 @@ import mods.jeitweaker.Jei;
 <item:depthcrawler:emptyancientinjector>.addTooltip("\u00A7c用来制作充满的远古注灵器");
 
 <item:depthcrawler:ancientmechanism>.removeTooltip("it");
-<item:depthcrawler:ancientmechanism>.addTooltip("\u00A7c击杀大部分渊兽必定获得");
+<item:depthcrawler:ancientmechanism>.addTooltip("\u00A7e击杀大部分渊兽必定获得");
+<item:depthcrawler:ancientmechanism>.addTooltip("\u00A7c最终极之涡传送门只能在最终极之涡使用");
 
 <item:depthcrawler:greengem>.removeTooltip("Deep");
 <item:depthcrawler:greengem>.addTooltip("\u00A76右击召唤林中渊兽");

@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 200,
+        "kill": 400,
         "name": "shizuku:unlimited_blade",
-        "refine": 2
+        "refine": 4
       }
     },
     "S": {

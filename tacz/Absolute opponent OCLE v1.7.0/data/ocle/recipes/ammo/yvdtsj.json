@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "moonstone:ectoplasmprism"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "moonstone:warcrystal"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "moonstone:greedcrystal"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "moonstone:rage_crystal"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "ocle:yvdtsj",
+    "count": 1
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

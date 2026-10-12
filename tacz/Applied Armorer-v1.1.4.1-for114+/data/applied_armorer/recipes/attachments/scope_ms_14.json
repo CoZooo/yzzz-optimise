@@ -3,25 +3,25 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "celestial_core:guardian_ocean_ingot"
       },
       "count": 8
     },
     {
       "item": {
-        "tag": "forge:dusts/glowstone"
+        "item": "goety_cataclysm:abyss_essence"
       },
       "count": 4
     },
     {
       "item": {
-        "tag": "forge:dusts/redstone"
+        "item": "cataclysm:remnant_skull"
       },
-      "count": 2
+      "count": 1
     },
     {
       "item": {
-        "tag": "forge:gems/amethyst"
+        "item": "yuusha:slot_3"
       },
       "count": 1
     }

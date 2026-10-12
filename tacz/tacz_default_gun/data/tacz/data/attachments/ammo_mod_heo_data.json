@@ -1,7 +1,13 @@
 {
-  "weight": 0.6,
+  "weight": 5,
+  "armor_ignore": {
+    "multiplier": 0
+  },
   "damage": {
-    "multiplier": 9.0
+    "multiplier": 13.0
+  },
+  "rpm": {
+    "multiplier":0.5
   },
   "extended_mag_level": 3
 }

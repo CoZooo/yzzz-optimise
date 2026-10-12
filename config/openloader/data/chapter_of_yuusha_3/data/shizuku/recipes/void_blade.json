@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 400,
+        "kill": 800,
         "name": "ak:pocket_knife",
-        "refine": 4
+        "refine": 8
       }
     },
     "C": {

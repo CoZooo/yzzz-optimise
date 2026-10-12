@@ -1,3 +1,8 @@
 {
+  "gui.diet.title": "均衡营养",
+  "tooltip.diet.effects": "§6均衡营养增益效果",
+  "key.diet.category": "均衡营养",
+  "key.diet.open.desc": "打开均衡营养界面",
+  
 	"groups.diet.soulgem.name": "灵魂宝石净化度"
 }

@@ -3,21 +3,27 @@
   "materials": [
     {
       "item": {
-        "tag": "minecraft:soul_fire_base_blocks"
+        "item": "celestial_core:guardian_ocean_ingot"
       },
-      "count": 16
+      "count": 8
     },
     {
       "item": {
-        "tag": "forge:heads"
+        "item": "goety_cataclysm:abyss_essence"
       },
-      "count": 2
+      "count": 4
     },
     {
       "item": {
-        "tag": "forge:gems/amethyst"
+        "item": "moonstone:blood_jelly"
       },
-      "count": 2
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
     }
   ],
   "result": {

@@ -11,10 +11,7 @@
   },
   "spirits": [
     {
-      "type": "earthen"
-    },
-    {
-      "type": "aqueous"
+      "type": "arcane"
     }
   ]
 }

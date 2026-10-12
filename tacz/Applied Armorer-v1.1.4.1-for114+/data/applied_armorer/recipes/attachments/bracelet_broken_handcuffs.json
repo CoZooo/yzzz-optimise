@@ -3,19 +3,19 @@
   "materials": [
     {
       "item": {
-        "item": "minecraft:leather"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "tag": "forge:dyes/pink"
-      },
-      "count": 2
-    },
-    {
-      "item": {
         "item": "minecraft:chain"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "celestial_core:sakura_fragment"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
       },
       "count": 1
     }

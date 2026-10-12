@@ -3907,7 +3907,7 @@
 			}]
 			title: "&5增加一个饰品栏位：神遗护符"
 			x: -0.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3935,7 +3935,7 @@
 			}]
 			title: "&5增加一个饰品栏位：戒指"
 			x: -2.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3963,7 +3963,7 @@
 			}]
 			title: "&5增加一个饰品栏位：头饰"
 			x: -7.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -3991,7 +3991,7 @@
 			}]
 			title: "&5增加一个饰品栏位：项链"
 			x: -4.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4019,7 +4019,7 @@
 			}]
 			title: "&5增加一个饰品栏位：背饰"
 			x: -5.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4047,7 +4047,7 @@
 			}]
 			title: "&5增加一个饰品栏位：胸饰"
 			x: -0.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4075,7 +4075,7 @@
 			}]
 			title: "&5增加一个饰品栏位：胸针"
 			x: 1.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4103,7 +4103,7 @@
 			}]
 			title: "&5增加一个饰品栏位：奥秘卷轴"
 			x: -6.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4131,7 +4131,7 @@
 			}]
 			title: "&5增加一个饰品栏位：术石"
 			x: -4.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4159,7 +4159,7 @@
 			}]
 			title: "&5增加一个饰品栏位：头饰"
 			x: -5.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4187,7 +4187,7 @@
 			}]
 			title: "&5增加一个饰品栏位：手镯"
 			x: -5.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4215,7 +4215,7 @@
 			}]
 			title: "&5增加一个饰品栏位：手饰"
 			x: -3.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4243,7 +4243,7 @@
 			}]
 			title: "&5增加一个饰品栏位：徽章"
 			x: -3.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4271,7 +4271,7 @@
 			}]
 			title: "&5增加一个饰品栏位：圣遗腰带"
 			x: -7.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4418,7 +4418,7 @@
 			}]
 			title: "&5增加一个饰品栏位：头饰"
 			x: -6.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4446,7 +4446,7 @@
 			}]
 			title: "&5增加一个饰品栏位：项链"
 			x: -3.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4474,7 +4474,7 @@
 			}]
 			title: "&5增加一个饰品栏位：胸饰"
 			x: 0.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4502,7 +4502,7 @@
 			}]
 			title: "&5增加一个饰品栏位：星谕项链"
 			x: -1.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4530,7 +4530,7 @@
 			}]
 			title: "&5增加一个饰品栏位：徽章"
 			x: -2.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4558,7 +4558,7 @@
 			}]
 			title: "&5增加一个饰品栏位：护符"
 			x: -1.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4586,7 +4586,7 @@
 			}]
 			title: "&5增加一个饰品栏位：戒指"
 			x: -1.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -4614,7 +4614,7 @@
 			}]
 			title: "&5增加一个饰品栏位：戒指"
 			x: -0.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9152,7 +9152,7 @@
 			}]
 			title: "&5增加一个饰品栏位：达利特存储"
 			x: 0.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9180,7 +9180,7 @@
 			}]
 			title: "&5增加一个饰品栏位：达利特存储"
 			x: 1.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9208,7 +9208,7 @@
 			}]
 			title: "&5增加一个饰品栏位：背饰"
 			x: -4.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9236,7 +9236,7 @@
 			}]
 			title: "&5增加一个饰品栏位：无名饰品"
 			x: -7.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9281,7 +9281,7 @@
 			}]
 			title: "&5增加一个饰品栏位：项链"
 			x: -2.5d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9500,7 +9500,7 @@
 			}]
 			title: "&5增加一个饰品栏位：神遗护符"
 			x: 0.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9612,7 +9612,7 @@
 			}]
 			title: "&5增加一个饰品栏位：噩梦腰带"
 			x: -6.5d
-			y: -4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9640,7 +9640,7 @@
 			}]
 			title: "&5增加一个饰品栏位：神遗护符"
 			x: 1.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9912,8 +9912,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：圣戒"
-			x: 1.5d
-			y: -3.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9940,8 +9940,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -0.5d
-			y: -3.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9968,8 +9968,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -5.5d
-			y: -3.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -9996,8 +9996,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -4.5d
-			y: -3.5d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10024,8 +10024,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -3.5d
-			y: -3.5d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10052,8 +10052,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -2.5d
-			y: -3.5d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10080,8 +10080,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: -1.5d
-			y: -3.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10108,8 +10108,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：魔戒"
-			x: 0.5d
-			y: -3.5d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10135,8 +10135,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：噩梦之槽"
-			x: -2.5d
-			y: -7.5d
+			x: -1.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10163,8 +10163,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：深渊遗物"
-			x: 0.5d
-			y: -7.5d
+			x: -1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10191,8 +10191,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：深渊遗物"
-			x: 1.5d
-			y: -7.5d
+			x: 0.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10218,8 +10218,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：修罗之手"
-			x: -4.5d
-			y: -7.5d
+			x: -5.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10440,8 +10440,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：额外无名饰品"
-			x: -5.5d
-			y: -7.5d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10559,8 +10559,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：星月-心"
-			x: -0.5d
-			y: -7.5d
+			x: -2.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10588,14 +10588,11 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：星月-心"
-			x: -1.5d
-			y: -7.5d
+			x: -3.0d
+			y: -8.5d
 		}
 		{
-			dependencies: [
-				"59AC63668E05CCA5"
-				"6D17311DA4F0AB14"
-			]
+			dependencies: ["6D17311DA4F0AB14"]
 			hide_dependency_lines: true
 			id: "01F055573422A158"
 			rewards: [{
@@ -10619,8 +10616,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：额外配饰"
-			x: -6.5d
-			y: -7.5d
+			x: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -10652,8 +10649,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：配饰"
-			x: -6.5d
-			y: -3.5d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -10684,8 +10681,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -6.5d
-			y: -8.5d
+			x: -6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10716,8 +10713,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -5.5d
-			y: -8.5d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10748,8 +10745,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -4.5d
-			y: -8.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10780,8 +10777,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -3.5d
-			y: -8.5d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10824,8 +10821,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -2.5d
-			y: -8.5d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10868,8 +10865,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -1.5d
-			y: -8.5d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -10921,8 +10918,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：塔罗牌"
-			x: -0.5d
-			y: -8.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11026,10 +11023,7 @@
 			y: -16.5d
 		}
 		{
-			dependencies: [
-				"59AC63668E05CCA5"
-				"6D17311DA4F0AB14"
-			]
+			dependencies: ["6D17311DA4F0AB14"]
 			hide_dependency_lines: true
 			id: "3742C93C34F51CFB"
 			rewards: [{
@@ -11064,14 +11058,11 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：千变魔盒"
-			x: -7.5d
-			y: -8.5d
+			x: -5.5d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"59AC63668E05CCA5"
-				"6D17311DA4F0AB14"
-			]
+			dependencies: ["6D17311DA4F0AB14"]
 			hide_dependency_lines: true
 			id: "63CD2C38343C888D"
 			rewards: [{
@@ -11095,14 +11086,11 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：千变魔盒"
-			x: 0.5d
-			y: -8.5d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"59AC63668E05CCA5"
-				"6D17311DA4F0AB14"
-			]
+			dependencies: ["6D17311DA4F0AB14"]
 			hide_dependency_lines: true
 			id: "44D8887CB5F737ED"
 			rewards: [{
@@ -11137,8 +11125,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：天境遗物"
-			x: -7.5d
-			y: -7.5d
+			x: -3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11244,8 +11232,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：修罗之手"
-			x: -3.5d
-			y: -7.5d
+			x: -4.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11272,8 +11260,8 @@
 				type: "item"
 			}]
 			title: "&5增加一个饰品栏位：眼饰"
-			x: -7.5d
-			y: -3.5d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
@@ -11436,8 +11424,8 @@
 				type: "item"
 			}]
 			title: "转转回收分部"
-			x: 1.5d
-			y: -8.5d
+			x: -2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]

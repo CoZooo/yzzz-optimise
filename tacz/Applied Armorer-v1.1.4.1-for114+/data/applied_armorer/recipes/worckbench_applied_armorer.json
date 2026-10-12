@@ -7,25 +7,22 @@
     }
   },
   "pattern": [
-      "AEA",
-      "BCB",
-      "BDB"
+      "ABA",
+      "BDB",
+      "ACA"
     ],
     "key": {
       "A": {
-        "item": "wizards_reborn:enchanted_calx"
+        "item": "avaritia:crystal_matrix_ingot"
       },
       "B": {
-        "item": "locusazzurro_icaruswings:steel_ingot"
+        "item": "hmag:reinforced_glass"
       },
       "C": {
         "item": "locusazzurro_icaruswings:daedalus_decryptor"
       },
       "D": {
         "item": "refinedstorage:construction_core"
-      },
-      "E": {
-        "item": "embers:focal_lens"
       }
     }
 }

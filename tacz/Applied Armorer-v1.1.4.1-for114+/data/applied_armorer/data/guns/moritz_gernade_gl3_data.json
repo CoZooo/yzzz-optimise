@@ -1,5 +1,5 @@
 {
-  "ammo": "tacz:40mm",
+  "ammo": "tacz:762x39",
   "rpm": 180,
   "ammo_amount": 8,
   "extended_mag_ammo_amount": [
@@ -11,12 +11,13 @@
   "bullet": {
     "life": 5,
     "bullet_amount": 1,
-    "damage": 100,
+    "damage": 150,
     "extra_damage": {
-      "armor_ignore": 0.3,
-      "head_shot_multiplier": 1.25,
+      "armor_ignore": 0.4,
+      "head_shot_multiplier": 1.2,
       "damage_adjust": [
-        {"distance": 40, "damage": 100},
+        {"distance": 20, "damage": 150},
+        {"distance": 40, "damage": 120},
         {"distance": "infinite", "damage": 90}
       ]
     },
@@ -28,8 +29,8 @@
     "pierce": 0,
     "explosion": {
       "explode": true,
-      "damage": 5000,
-      "radius": 3.5,
+      "damage": 10000,
+      "radius": 2.5,
       "knockback": false,
       "delay": 30
     }
@@ -49,7 +50,7 @@
   "put_away_time": 0.58,
   "aim_time": 0.2,
   "sprint_time": 0.15,
-  "weight": 16.1,
+  "weight": 40,
   "movement_speed": {
     "base": 0.0,
     "aim": -0.1,
@@ -92,14 +93,12 @@
       "prep": 0.1
     }
   },
-  "builtin_attachments": {
-    "scope": "applied_armorer:si_xs_07"
-  },
   "allow_attachment_types": [
-    "extended_mag",
     "scope",
+	"grip",
+	"muzzle",
+    "extended_mag",
     "stock",
-    "muzzle",
-    "grip"
+    "laser"
   ]
 }

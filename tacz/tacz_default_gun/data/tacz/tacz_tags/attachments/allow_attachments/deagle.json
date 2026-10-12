@@ -1,8 +1,10 @@
 [
-  "#tacz:deagle_sight",
-  "#tacz:pistol_muzzle",
-  "#tacz:light_extended_mag",
-  "#tacz:ammo_mod",
+  "emxarms:stock_emx_reentrantlock",
+  
+  "tacz:oem_stock_tactical",
 	
-	"#tacz:stock"
+  "tacz:ammo_mod_i",
+  "tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

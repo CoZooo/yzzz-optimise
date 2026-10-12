@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 48
+    },
+    {
+      "item": {
+        "item": "cataclysm:desert_eye"
+      },
+      "count": 14
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:wa2000_snake_kiss"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "refinedstorage:silicon"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "avaritia:neutron_nugget"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "eos:alloy",
+    "count": 4
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

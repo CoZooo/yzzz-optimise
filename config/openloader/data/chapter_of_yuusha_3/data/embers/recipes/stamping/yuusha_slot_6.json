@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "tag": "yuusha:aja_stone"
+  },
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_iron"
+  },
+  "output": {
+    "item": "yuusha:slot_6",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

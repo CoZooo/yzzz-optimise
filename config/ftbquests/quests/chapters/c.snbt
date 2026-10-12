@@ -244,6 +244,8 @@
 				"&3饵钓V、饵钓III"
 				"&9分裂、拆分、捕捉V、噬魂V"
 				"&c诅咒附魔：永恒绑定诅咒、悲恸诅咒、绑定诅咒、消失诅咒、狂怒、滑手诅咒、吸血鬼诅咒、锈蚀诅咒、矛盾诅咒、易损诅咒、疲劳诅咒、生命修补"
+				""
+				"&e新增灵质球、亚麻布、记忆之书、灵质立方、魔法石英花、寰宇星蛆、金羊毛可制作多种辅助的星月附魔。"
 			]
 			id: "41264B48A1063918"
 			rewards: [{
@@ -3561,6 +3563,7 @@
 						structureName: "config/capsule/rewards/bee.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -3621,6 +3624,7 @@
 						structureName: "config/capsule/rewards/spwners.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -3677,6 +3681,7 @@
 						structureName: "config/capsule/rewards/home-finalversion.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -3838,6 +3843,7 @@
 						structureName: "config/capsule/rewards/farm.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -3909,6 +3915,7 @@
 						structureName: "config/capsule/rewards/rabit_house.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -3965,6 +3972,7 @@
 						structureName: "config/capsule/rewards/startroom.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -4020,6 +4028,7 @@
 						structureName: "config/capsule/rewards/home_mid.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -4075,6 +4084,7 @@
 						structureName: "config/capsule/rewards/table_1.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -4130,6 +4140,7 @@
 						structureName: "config/capsule/rewards/enchanter"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [
@@ -4193,6 +4204,7 @@
 						structureName: "config/capsule/rewards/guo_lu_fang"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [
@@ -4257,6 +4269,7 @@
 						structureName: "config/capsule/rewards/sheng_dan_shu"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -4366,6 +4379,7 @@
 						structureName: "config/capsule/rewards/touhou.nbt"
 					}
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -4604,6 +4618,83 @@
 			title: "兑换 一次性«自动控温天华锻座»胶囊"
 			x: 9.5d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5F57A7E5CE4CF56E"]
+			description: [
+				"群友都说不好用，谁提交了谁是「S B」。"
+				""
+				"{image:yuusha:textures/yujin_1.png width:126 height:35 align:center}"
+				""
+				"{image:yuusha:textures/yujin_2.png width:159 height:36 align:center}"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "goose_universalcapsule:universal_capsule"
+				tag: {
+					UniversalCapsule: {
+						Author: "Marine_QAQ"
+						BlockCount: 101
+						DisplayName: "yujin"
+						Mode: "READY"
+						Number: "10"
+						SizeX: 7
+						SizeY: 5
+						SizeZ: 10
+						Style: "#E53935"
+						TemplateId: "yujin"
+					}
+				}
+			}
+			id: "495D7DA77CD2CC18"
+			rewards: [
+				{
+					id: "32A808CBF9F11D8D"
+					item: {
+						Count: 1
+						id: "goose_universalcapsule:universal_capsule"
+						tag: {
+							UniversalCapsule: {
+								Author: "Marine_QAQ"
+								BlockCount: 101
+								DisplayName: "yujin"
+								Mode: "READY"
+								Number: "10"
+								SizeX: 7
+								SizeY: 5
+								SizeZ: 10
+								Style: "#E53935"
+								TemplateId: "yujin"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/say 我是傻逼"
+					elevate_perms: true
+					icon: "youkaishomecoming:fairy_ice_crystal"
+					id: "14DF1258BB2F9F6F"
+					team_reward: true
+					title: "我是傻逼"
+					type: "command"
+				}
+			]
+			subtitle: "群友都说不好用，谁提交了谁是「S B」"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7363B98357EF1BEA"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			title: "兑换 一次性«余烬炼金机+熔炼炉»胶囊"
+			x: 3.5d
+			y: -4.5d
 		}
 	]
 	subtitle: ["&9『发展』"]

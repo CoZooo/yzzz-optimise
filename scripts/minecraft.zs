@@ -335,6 +335,9 @@ stoneCutter.addRecipe("minecraft.enchanted_book.infinity", <item:minecraft:encha
 //横扫之刃附魔
 stoneCutter.addRecipe("minecraft.enchanted_book.sweeping", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "minecraft:sweeping"}]}), <item:yuusha:ember_heart>);
 
+//耐久附魔
+stoneCutter.addRecipe("minecraft.enchanted_book.unbreaking", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "minecraft:unbreaking"}]}), <item:yuusha:ember_heart>);
+
 //火矢附魔
 stoneCutter.addRecipe("minecraft.enchanted_book.flame", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "minecraft:flame"}]}), <item:minecraft:torchflower>);
 

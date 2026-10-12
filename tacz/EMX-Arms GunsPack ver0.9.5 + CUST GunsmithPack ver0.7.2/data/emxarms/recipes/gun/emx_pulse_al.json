@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "item": "meetyourfight:mossy_tooth"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_pulse_al"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

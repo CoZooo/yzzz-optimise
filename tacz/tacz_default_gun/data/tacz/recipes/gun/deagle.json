@@ -4,23 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 21
+      "count": 24
     },
     {
       "item": {
-        "tag": "forge:ingots/gold"
+        "item": "refinedstorage:quartz_enriched_iron"
       },
-      "count": 6
-    },
-    {
-      "item": {
-        "tag": "forge:gems/diamond"
-      },
-      "count": 2
+      "count": 12
     },
     {
       "item": {
         "item": "yuusha:uncommon_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

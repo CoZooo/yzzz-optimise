@@ -1,10 +1,17 @@
 [
-  "#tacz:scope",
-  "#applied_armorer:chip_niklas",
-  "#applied_armorer:bracelet",
-  "#tacz:sniper_scope",
-  "#tacz:grip",
-  "#tacz:ammo_mod",
+	"emxarms:grip_emx_double_rsi",
 	
-	"#tacz:stock"
+	"applied_armorer:si_zako_2403",
+	
+	"applied_armorer:si_double_sided_mirror",
+	
+	"#applied_armorer:bracelet",
+	
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

@@ -1,0 +1,7 @@
+{
+  "weight": 20,
+   "damage": {
+     "multiplier": 2.25
+   },
+  "extended_mag_level": 1
+}

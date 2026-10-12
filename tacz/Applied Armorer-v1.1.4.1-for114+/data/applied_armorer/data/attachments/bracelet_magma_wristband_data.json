@@ -1,6 +1,6 @@
 {
-  "weight": 0.15,
-  "ignite": {
-    "entity": true
+  "weight": 5,
+  "damage": {
+    "multiplier": 1.5
   }
 }

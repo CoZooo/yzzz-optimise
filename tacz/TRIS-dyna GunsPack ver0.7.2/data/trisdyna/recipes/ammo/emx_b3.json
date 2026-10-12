@@ -1,0 +1,28 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:quantum_fuel"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "id": "trisdyna:emx_b3",
+    "count": 64
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

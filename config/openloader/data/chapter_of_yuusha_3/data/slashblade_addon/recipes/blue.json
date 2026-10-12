@@ -20,7 +20,7 @@
       "item": "slashblade:slashblade",
       "request": {
 	    "name": "slashblade:rodai_stone",
-        "kill": 50
+        "kill": 100
       }
     }
   },

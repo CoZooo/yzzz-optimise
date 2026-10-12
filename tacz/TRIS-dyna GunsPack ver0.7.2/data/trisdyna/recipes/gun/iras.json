@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 90
+    },
+    {
+      "item": {
+        "item": "infinite_abyss:dead_crystal_heart"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trisdyna:iras"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -10,6 +10,8 @@
 <item:eidolon:withered_heart>.addTooltip("\u00A7c击杀凋灵可获得凋零心脏");
 //<item:eidolon:withered_heart>.addTooltip("\u00A7e属于腐败食物，可配合可厌聚集戒指");
 <item:eidolon:illwood_sapling>.addTooltip("\u00A76灾厄树苗在主世界的黑森林等生物群系可以找到");
+<item:eidolon:warded_mail>.anyDamage().addTooltip("\u00A76实际将魔法类伤害转化为物理伤害");
+<item:eidolon:warded_mail>.anyDamage().addTooltip("\u00A7c谨慎佩戴！可能会导致玩家更脆");
 <item:eidolon:glass_hand>.anyDamage().addTooltip("\u00A7e· +100% 全伤害");
 <item:eidolon:glass_hand>.anyDamage().addTooltip("\u00A7c· +400% 受到伤害");
 <item:eidolon:deathbringer_scythe>.anyDamage().addTooltip("\u00A7e无法用于收集幻灵碎晶");
@@ -77,9 +79,10 @@
 <item:eidolon:terminus_mirror>.addTooltip("\u00A7c新增击杀末影处刑者有小几率获得");
 
 <item:eidolon:wraith_heart>.addTooltip("\u00A7c击杀片翼天使复制体有几率获得");
-<item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A7c大天使之视可以让大部分弹射物，包括如星海落瀑等法术，能够自动锁定生物");
-<item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A7e此外也可能因弹射物过多而导致卡顿，如猩红刺狱等");
+<item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A7e大天使之视可以让大部分弹射物，包括如星海落瀑等法术，能够自动锁定生物");
+<item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A73此外也可能因弹射物过多而导致卡顿，如猩红刺狱等");
 <item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A76该锁定可能会导致攻击部分生物时模型错位而没伤害");
+<item:eidolon:angels_sight>.anyDamage().addTooltip("\u00A7c佩戴后使用部分拔刀剑的SA会崩游戏");
 
 //tag
 <tag:items:curios:necklace>.remove(<item:eidolon:glass_hand>);

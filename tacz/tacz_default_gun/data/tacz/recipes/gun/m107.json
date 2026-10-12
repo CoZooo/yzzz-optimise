@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 30
+      "count": 24
     },
     {
       "item": {
         "item": "embers:cinder_jet"
       },
-      "count": 2
+      "count": 4
     },
     {
       "item": {
-        "item": "callfromthedepth_:soullight"
+        "item": "yuusha:uncommon_material"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "forbidden_arcanus:divine_pact"
-      },
-      "count": 1
-    },
-    {
-      "item": {
-        "item": "yuusha:legendary_material"
+        "item": "yuusha:aja_red_stone"
       },
       "count": 1
     }

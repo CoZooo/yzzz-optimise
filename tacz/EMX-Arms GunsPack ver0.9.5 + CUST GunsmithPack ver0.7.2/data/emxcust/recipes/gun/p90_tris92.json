@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "call_of_yucutan:ancient_gold_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxcust:p90_tris92"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

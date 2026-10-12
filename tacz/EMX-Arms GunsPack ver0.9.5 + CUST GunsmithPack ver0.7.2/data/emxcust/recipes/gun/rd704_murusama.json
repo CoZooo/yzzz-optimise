@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 36
+    },
+    {
+      "item": {
+        "item": "mutantmonsters:creeper_shard"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:rare_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxcust:rd704_murusama"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

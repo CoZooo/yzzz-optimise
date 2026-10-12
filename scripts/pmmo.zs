@@ -182,19 +182,25 @@ recipes.addJsonRecipe("pmmo.exp.alchemy.1",{
     type:"lychee:block_interacting",
     item_in: { item: "goety:shadow_essence" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 2500"}
+    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 5000"}
 });
 recipes.addJsonRecipe("pmmo.exp.alchemy.2",{ 
     type:"lychee:block_interacting",
     item_in: { item: "callfromthedepth_:immemorialscrap" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 500"}
+    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 1000"}
+});
+recipes.addJsonRecipe("pmmo.exp.alchemy.4",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "irons_spellbooks:arcane_salvage" },
+    block_in: "cataclysm:goddess_statue",
+    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 1000"}
 });
 recipes.addJsonRecipe("pmmo.exp.alchemy.3",{ 
     type:"lychee:block_interacting",
     item_in: { item: "callfromthedepth_:soulingot" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 3500"}
+    post:  {  type: "execute",  command: "pmmo admin @p add alchemy xp 5500"}
 });
 recipes.addJsonRecipe("pmmo.exp.sailing.1",{ 
     type:"lychee:block_interacting",

@@ -1,0 +1,6 @@
+{
+  "weight": 5,
+  "damage":{
+    "multiplier": 3.0
+  }
+}

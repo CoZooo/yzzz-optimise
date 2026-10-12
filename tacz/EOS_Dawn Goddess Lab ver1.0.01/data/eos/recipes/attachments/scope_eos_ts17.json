@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "callfromthedepth_:soulbell"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_eos_ts17"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

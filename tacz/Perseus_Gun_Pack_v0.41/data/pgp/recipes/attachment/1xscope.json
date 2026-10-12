@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "whisperwoods:hirschgeist_skull"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:1xscope"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

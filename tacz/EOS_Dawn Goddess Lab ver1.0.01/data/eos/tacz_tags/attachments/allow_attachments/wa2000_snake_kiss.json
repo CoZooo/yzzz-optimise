@@ -1,0 +1,15 @@
+[
+	"emxarms:stock_emx_sleep",
+	
+	"eos:scope_schmidt_bender_10x56mm",
+	"applied_armorer:si_zako_2403",
+	"emxarms:grip_emx_double_yh",
+	
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"tacz:ammo_mod_i",
+	"tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
+]

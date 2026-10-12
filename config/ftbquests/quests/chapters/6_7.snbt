@@ -19,7 +19,7 @@
 			image: ""
 			order: -2
 			rotation: 0.0d
-			width: 30.5d
+			width: 31.5d
 			x: 0.25d
 			y: -3.5d
 		}
@@ -29,7 +29,7 @@
 			height: 12.0d
 			image: "yuusha:textures/gui_researchbackeldritch.png"
 			rotation: 0.0d
-			width: 29.0d
+			width: 30.0d
 			x: 0.25d
 			y: -3.5d
 		}
@@ -38,7 +38,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["59AC63668E05CCA5"]
+			dependencies: [
+				"59AC63668E05CCA5"
+				"7AB050273283B14D"
+			]
 			description: [
 				"树海化任务里会奖励一把无限附魔的不可破坏的弓。此外在各种宝箱内，可能会出现『妖弓』和『印弓』。"
 				""
@@ -53,11 +56,18 @@
 				"&e元素战斗：1.大部分弓类发射的箭，其元素战斗的属性和攻击类型，会优先计算弓类所显示的种类，如果弓类为无属性，则再计算箭矢的属性。2.印弓的元素属性为直接继承弓的，无属性的印弓不会继承箭矢的属性。"
 			]
 			id: "2C6FBF1EF4E43EEE"
-			rewards: [{
-				id: "41F70944B13B20B7"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "41F70944B13B20B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "019180AF3C35BA18"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
 			subtitle: "「矢量突破」"
 			tasks: [{
 				id: "20859E0353C0CE86"
@@ -78,14 +88,11 @@
 				weak_nbt_match: true
 			}]
 			title: "弓"
-			x: -11.0d
+			x: -9.5d
 			y: -3.5d
 		}
 		{
-			dependencies: [
-				"2C6FBF1EF4E43EEE"
-				"004624B200B604AE"
-			]
+			dependencies: ["2C6FBF1EF4E43EEE"]
 			dependency_requirement: "one_completed"
 			description: [
 				"现在无限附魔无需箭矢也能直接使用。弓比较好用的附魔还有无限箭袋、力量、猎手等。"
@@ -471,7 +478,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["59AC63668E05CCA5"]
+			dependencies: [
+				"59AC63668E05CCA5"
+				"2C6FBF1EF4E43EEE"
+			]
 			description: [
 				"可搭配叠装弩箭、神射手、快速装填、无尽弩箭等附魔。"
 				""
@@ -508,7 +518,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7721B659F55DD983"]
@@ -1268,6 +1278,34 @@
 			}]
 			x: -0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["59AC63668E05CCA5"]
+			description: [
+				"开局树海化章节有任务奖励特殊武器，可以开局用用。"
+				""
+				"&6该武器享受箭术技能等级加成。"
+			]
+			id: "7AB050273283B14D"
+			rewards: [{
+				id: "751628B966CF883F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "「矢量突破」"
+			tasks: [{
+				id: "45FB7703D3681962"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
 		}
 	]
 	subtitle: [

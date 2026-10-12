@@ -1,0 +1,15 @@
+[
+	"emxarms:grip_emx_double_rsi",
+	"emxarms:stock_emx_reentrantlock",
+
+	"emxarms:muzzle_sf7b_super6",
+	"emxarms:muzzle_sf7b_uac9000",
+	
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+  "tacz:ammo_mod_i",
+  "tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
+]

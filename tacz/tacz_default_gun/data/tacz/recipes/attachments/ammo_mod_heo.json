@@ -1,0 +1,31 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "yuusha:ignitium_star"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      }
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
+      }
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "tacz:ammo_mod_heo"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -7,5 +7,6 @@
 
 	"block.tacz.statue": "石制神像",
 	"item.tacz.ammo_box.all_type_creative": "全类型无尽弹药盒",
+	"item.tacz.ammo_box.creative": "无尽弹药盒",
 	"attribute.name.tacz.bullet_resistance": "枪械抗性"
 }

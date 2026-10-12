@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "cataclysm:sandstorm_in_a_bottle"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:muzzle_sf7b_uac9000"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 41
+      "count": 12
     },
     {
       "item": {
         "item": "embers:dawnstone_ingot"
       },
-      "count": 16
+      "count": 8
     },
     {
       "item": {
-        "item": "ancient_aether:valkyrum"
-      },
-      "count": 3
-    },
-    {
-      "item": {
-        "item": "born_in_chaos_v1:lord_pumpkinheads_lamp"
+        "item": "avaritia:diamond_lattice"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:legendary_material"
+        "item": "yuusha:aja_red_stone"
       },
       "count": 1
     }

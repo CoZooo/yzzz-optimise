@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "embers:resonating_bell"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:stock_emx_sleep"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

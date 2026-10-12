@@ -1,0 +1,10 @@
+{
+  "type": "cataclysm:amethyst_bless",
+  "ingredients": {
+    "item": "refinedstorage:64k_storage_disk"
+  },
+  "result": {
+    "item": "rs_integration:resonance_storage_disk"
+  },
+  "time": 200
+}

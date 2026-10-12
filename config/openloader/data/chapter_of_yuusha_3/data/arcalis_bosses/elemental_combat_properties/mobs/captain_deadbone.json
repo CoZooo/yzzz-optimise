@@ -15,8 +15,8 @@
 	},
 	"defense_element":{
 		"god":90,
-		"normal":90,
-		"light":93,
+		"light":90,
+		"normal":93,
 		"ice":93,
 		"darkness":93,
 		"fire":93,

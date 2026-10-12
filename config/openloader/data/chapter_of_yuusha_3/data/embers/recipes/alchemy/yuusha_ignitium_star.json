@@ -1,0 +1,35 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/dawnstone"
+    },
+    {
+      "tag": "embers:aspectus/aetherium"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "goety:soul_ruby"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    }
+  ],
+  "output": {
+    "item": "yuusha:ignitium_star",
+	"count": 1
+  },
+  "tablet": {
+    "item": "forbidden_arcanus:dark_nether_star"
+  }
+}

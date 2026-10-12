@@ -1,0 +1,6 @@
+{
+  "weight": 5,
+  "head_shot":{
+    "multiplier": 1.75
+  }
+}

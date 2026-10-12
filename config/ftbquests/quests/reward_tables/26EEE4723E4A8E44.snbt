@@ -1656,156 +1656,7 @@
 				tag: {
 					ISB_Spells: {
 						data: [{
-							id: "irons_spellbooks:ray_of_siphoning"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:fang_strike"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				ForgeCaps: {
-					"elementalcombat:attack_data": {
-						elementalcombat_attack: { }
-					}
-					"elementalcombat:elemental_defense": {
-						elementalcombat_defense: { }
-					}
-				}
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:fang_ward"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:firebolt"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
 							id: "irons_spellbooks:heal"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:icicle"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:shockwave"
-							index: 0
-							level: 1
-							locked: 1b
-						}]
-						maxSpells: 1
-						mustEquip: 0b
-						spellWheel: 0b
-					}
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "irons_spellbooks:scroll"
-				tag: {
-					ISB_Spells: {
-						data: [{
-							id: "irons_spellbooks:poison_arrow"
 							index: 0
 							level: 1
 							locked: 1b
@@ -1950,30 +1801,6 @@
 					}
 				}
 				id: "eidolon:raven_cloak"
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tacz:modern_kinetic_gun"
-				tag: {
-					GunCurrentAmmoCount: 30
-					GunFireMode: "AUTO"
-					GunId: "tacz:hk_mp5a5"
-					HasBulletInBarrel: 1b
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1
-				id: "tacz:modern_kinetic_gun"
-				tag: {
-					GunCurrentAmmoCount: 20
-					GunFireMode: "AUTO"
-					GunId: "tacz:uzi"
-					HasBulletInBarrel: 1b
-				}
 			}
 		}
 		{ item: "mokels_witch_boss:flask_of_healinglvltwo" }
@@ -2129,6 +1956,7 @@
 				Count: 1
 				id: "enigmaticaddons:unknown_sword"
 				tag: {
+					AnniAvailable: 1L
 					Damage: 0
 				}
 			}

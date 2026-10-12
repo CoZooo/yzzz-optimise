@@ -8,8 +8,8 @@
       "item": "slashblade:slashblade",
       "request": {
 	    "name": "slashblade_addon:blue",
-        "kill": 100,
-        "refine": 1
+        "kill": 200,
+        "refine": 2
       }
     },
     "F": {

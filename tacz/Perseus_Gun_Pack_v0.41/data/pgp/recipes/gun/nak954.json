@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 72
+    },
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:demeter_charge"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pgp:nak954"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

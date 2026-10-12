@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+      "item": "tacz:workbench_b",
+      "nbt":{
+        "BlockId": "pgp:printer"
+      }
+    },
+    "pattern": [
+      "EAE",
+      "ADA",
+      "ECE"
+    ],
+    "key": {
+      "A": {
+        "item": "refinedstorage:destruction_core"
+      },
+      "C": {
+        "item": "locusazzurro_icaruswings:daedalus_decryptor"
+      },
+      "D": {
+        "item": "aetherworks:glass_aetherium"
+      },
+      "E": {
+        "item": "ancient_aether:valkyrum"
+      }
+    }
+  }

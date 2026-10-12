@@ -2,7 +2,7 @@
 	"attack_style":"yuusha",
 	"attack_element":"god",
 	"defense_style":{
-		"hit":-50
+		"bash":-50
 	},
 	"defense_element":{
 		"ice":50,

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "embers:focal_lens"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:blood_bone_heart"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_char2_ev"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

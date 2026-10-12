@@ -4,33 +4,30 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 32
+      "count": 24
     },
     {
       "item": {
-        "item": "refinedstorage:quartz_enriched_iron"
+        "item": "graveyard:dark_iron_ingot"
       },
       "count": 16
-    },
-    {
-      "item": {
-        "item": "forbidden_arcanus:mundabitur_dust"
-      },
-      "count": 4
     },
     {
       "item": {
         "item": "yuusha:uncommon_material"
       },
       "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
     }
   ],
   "result": {
     "type": "gun",
-    "id": "tacz:hk416d",
-    "attachments": {
-      "stock": "tacz:oem_stock_tactical"
-    }
+    "id": "tacz:hk416d"
   },
   "type": "tacz:gun_smith_table_crafting"
 }

@@ -4,5 +4,6 @@
 <item:ak:dragon_cross>.addTooltip("\u00A7e·渊眼苍龙、渊兽领主、远古渊兽领主");
 
 <item:ak:unknown_secret_sauce>.addTooltip("\u00A76右击可使用并习得暴血能力");
-<item:ak:unknown_secret_sauce>.addTooltip("\u00A7e暴血能力只会增加拔刀剑的伤害");
+<item:ak:unknown_secret_sauce>.addTooltip("\u00A7e每次挥刀攻击均有几率触发暴血效果");
+<item:ak:unknown_secret_sauce>.addTooltip("\u00A7c暴血效果会增加全伤害");
 

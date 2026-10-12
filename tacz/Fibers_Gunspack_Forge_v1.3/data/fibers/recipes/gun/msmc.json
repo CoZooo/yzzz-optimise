@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 72
+    },
+    {
+      "item": {
+        "item": "irons_spellbooks:dragonskin"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "yuusha:ultimate_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "fibers:msmc"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

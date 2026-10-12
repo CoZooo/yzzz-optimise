@@ -163,6 +163,96 @@
           ]
         }
       ]
+    },
+    {
+      "name": "aquaculture:curios",
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "confluence:dps_meter",
+          "entryName": "dps_meter",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:metal_detector",
+          "entryName": "metal_detector",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:stopwatch",
+          "entryName": "stopwatch",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:radar",
+          "entryName": "radar",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:life_form_analyzer",
+          "entryName": "life_form_analyzer",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:tally_counter",
+          "entryName": "tally_counter",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:angler_earring",
+          "entryName": "angler_earring",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:shark_tooth_necklace",
+          "entryName": "shark_tooth_necklace",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:flipper",
+          "entryName": "flipper",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "confluence:frog_leg",
+          "entryName": "frog_leg",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "nameless_trinkets:amphibious_hands",
+          "entryName": "amphibious_hands",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "nameless_trinkets:gills",
+          "entryName": "gills",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "nameless_trinkets:tear_of_the_sea",
+          "entryName": "tear_of_the_sea",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "malum:necklace_of_tidal_affinity",
+          "entryName": "necklace_of_tidal_affinity",
+          "weight": 1
+        }
+      ]
     }
   ]
 }

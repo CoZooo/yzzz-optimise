@@ -5,29 +5,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 34
+      "count": 36
     },
     {
       "item": {
-        "item": "refinedstorage:destruction_core"
+        "item": "forbidden_arcanus:dark_nether_star"
       },
-      "count": 4
-    },
-    {
-      "item": {
-        "item": "call_of_drowner:seagold_ingot"
-      },
-      "count": 1
-    },
-    {
-      "item": {
-        "item": "embers:focal_lens"
-      },
-      "count": 1
+      "count": 8
     },
     {
       "item": {
         "item": "yuusha:rare_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
       },
       "count": 1
     }

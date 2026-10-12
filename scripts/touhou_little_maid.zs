@@ -27,6 +27,9 @@
 <item:touhou_little_maid_spell:wound_rime_blade>.addTooltip("\u00A7e该物品会导致各种奇怪的特性");
 <item:touhou_little_maid_spell:blue_note>.addTooltip("\u00A7c请勿使用，会导致游戏崩溃");
 
+//复制
+craftingTable.addShapeless("touhou_little_maid.ultramarine_orb_elixir.copy", <item:touhou_little_maid:ultramarine_orb_elixir>*2, [<item:touhou_little_maid:ultramarine_orb_elixir>, <item:yuusha:blood_star>, <item:yuusha:bad_soul_gem>.reuse()]);
+
 /*
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A7c谨慎使用！会导致不死图腾等复活物品不生效");
 <item:touhou_little_maid_spell:spring_ring>.addTooltip("\u00A76谨慎使用！会导致不死图腾等复活物品不生效");

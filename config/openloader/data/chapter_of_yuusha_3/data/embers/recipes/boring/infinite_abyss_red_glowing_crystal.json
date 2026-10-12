@@ -9,7 +9,7 @@
   },
   "required_block": {
     "amount": 1,
-    "block_tag": "yuusha:void_blocks"
+    "block_tag": "yuusha:budding_amethyst"
   },
-  "weight": 20
+  "weight": 4
 }

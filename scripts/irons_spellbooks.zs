@@ -23,16 +23,18 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:common_ink>.addTooltip("\u00A7e新增在秘法、牧师悬赏内有几率出现");
 <item:irons_spellbooks:uncommon_ink>.addTooltip("\u00A7e击杀任意突变体后可制作，详见咒法章节卓越墨水任务");
 <item:irons_spellbooks:uncommon_ink>.addTooltip("\u00A76在之后也可击杀暗夜巫妖获得");
-//<item:irons_spellbooks:uncommon_ink>.addTooltip("\u00A7c据说连锁闪电法术可能会导致游戏崩溃");
+<item:irons_spellbooks:uncommon_ink>.addTooltip("\u00A75需解锁邪术学研究才能看到合成表");
 <item:irons_spellbooks:rare_ink>.addTooltip("\u00A7e击杀利维坦后可制作，详见咒法章节高级墨水任务");
 <item:irons_spellbooks:rare_ink>.addTooltip("\u00A76在之后也可击杀死者之王、狱火暗域领主获得");
-//<item:irons_spellbooks:rare_ink>.addTooltip("\u00A7c不要对着天空使用烟火四射法术，游戏会卡死");
+<item:irons_spellbooks:rare_ink>.addTooltip("\u00A75需解锁邪术学研究才能看到合成表");
 <item:irons_spellbooks:epic_ink>.addTooltip("\u00A7e击杀死者之王后可制作，详见咒法章节史诗墨水任务");
 <item:irons_spellbooks:epic_ink>.addTooltip("\u00A76之后击杀爆烈下界合金巨兽、焰魔也可获得");
 <item:irons_spellbooks:epic_ink>.addTooltip("\u00A7c需注意黑洞法术可能会把掉落物吃掉，谨慎使用");
+<item:irons_spellbooks:epic_ink>.addTooltip("\u00A75需解锁邪术学研究才能看到合成表");
 <item:irons_spellbooks:legendary_ink>.addTooltip("\u00A7c击杀焰魔和灾厄宰相后可制作，击杀天空守卫者后可复制");
 <item:irons_spellbooks:legendary_ink>.addTooltip("\u00A76相关内容详见咒法章节");
 <item:irons_spellbooks:legendary_ink>.addTooltip("\u00A7e枯萎术无法通过卷轴撰写台制作，只能用工作台合成获得");
+<item:irons_spellbooks:legendary_ink>.addTooltip("\u00A75需解锁邪术学研究才能看到合成表");
 <item:irons_spellbooks:upgrade_orb>.addTooltip("\u00A7c可制作获得");
 <item:irons_spellbooks:upgrade_orb>.addTooltip("\u00A76后续击杀死者之王也可获得");
 <item:irons_spellbooks:blank_rune>.addTooltip("\u00A7e前期可击杀术士生物后制作获得");
@@ -72,7 +74,7 @@ import crafttweaker.api.data.IData;
 <item:irons_spellbooks:blood_rune>.addTooltip("\u00A7e可用作召唤祭坛召唤邪术师");
 <item:irons_spellbooks:blood_rune>.addTooltip("\u00A7c后续击杀末日巫妖可获得");
 <item:irons_spellbooks:holy_rune>.addTooltip("\u00A76相关内容详见咒法章节空白符文任务");
-<item:irons_spellbooks:holy_rune>.addTooltip("\u00A7e可用作召唤祭坛召唤牧师");
+<item:irons_spellbooks:holy_rune>.addTooltip("\u00A7e可用作召唤祭坛召唤牧师术士");
 <item:irons_spellbooks:holy_rune>.addTooltip("\u00A7c后续击杀末日巫妖可获得");
 
 <item:irons_spellbooks:pumpkin_helmet>.addTooltip("\u00A7c惊悚南瓜套装后续可分为两条法师盔甲发展路线");
@@ -180,6 +182,11 @@ import crafttweaker.api.data.IData;
 <tag:items:irons_spellbooks:school_focus>.remove(<item:minecraft:blaze_rod>);
 <tag:items:irons_spellbooks:fire_focus>.add(<item:celestial_core:fire_essence>);
 <tag:items:irons_spellbooks:school_focus>.add(<item:celestial_core:fire_essence>);
+<tag:items:irons_spellbooks:fire_focus>.add(<item:irons_spellbooks:fire_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:fire_rune>);
+
+<tag:items:irons_spellbooks:ice_focus>.add(<item:irons_spellbooks:ice_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:ice_rune>);
 
 <tag:items:irons_spellbooks:eldritch_focus>.remove(<item:minecraft:echo_shard>);
 <tag:items:irons_spellbooks:school_focus>.remove(<item:minecraft:echo_shard>);
@@ -190,6 +197,20 @@ import crafttweaker.api.data.IData;
 <tag:items:irons_spellbooks:school_focus>.remove(<item:minecraft:poisonous_potato>);
 <tag:items:irons_spellbooks:nature_focus>.add(<item:mowziesmobs:naga_fang>);
 <tag:items:irons_spellbooks:school_focus>.add(<item:mowziesmobs:naga_fang>);
+<tag:items:irons_spellbooks:nature_focus>.add(<item:irons_spellbooks:nature_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:nature_rune>);
+
+<tag:items:irons_spellbooks:blood_focus>.add(<item:irons_spellbooks:blood_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:blood_rune>);
+
+<tag:items:irons_spellbooks:holy_focus>.add(<item:irons_spellbooks:holy_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:holy_rune>);
+
+<tag:items:irons_spellbooks:lightning_focus>.add(<item:irons_spellbooks:lightning_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:lightning_rune>);
+
+<tag:items:irons_spellbooks:ender_focus>.add(<item:irons_spellbooks:ender_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:ender_rune>);
 
 <tag:items:irons_spellbooks:evocation_focus>.remove(<item:minecraft:emerald>);
 <tag:items:irons_spellbooks:school_focus>.remove(<item:minecraft:emerald>);
@@ -199,6 +220,8 @@ import crafttweaker.api.data.IData;
 <tag:items:irons_spellbooks:school_focus>.add(<item:illagerinvasion:unusual_dust>);
 <tag:items:irons_spellbooks:evocation_focus>.add(<item:minecraft:echo_shard>);
 <tag:items:irons_spellbooks:school_focus>.add(<item:minecraft:echo_shard>);
+<tag:items:irons_spellbooks:evocation_focus>.add(<item:irons_spellbooks:evocation_rune>);
+<tag:items:irons_spellbooks:school_focus>.add(<item:irons_spellbooks:evocation_rune>);
 
 <tag:items:curios:magic_ring>.add(<item:irons_spellbooks:mana_ring>);
 <tag:items:curios:ring>.remove(<item:irons_spellbooks:mana_ring>);

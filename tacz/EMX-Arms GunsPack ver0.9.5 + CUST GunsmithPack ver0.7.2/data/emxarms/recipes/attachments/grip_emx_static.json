@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "depthcrawler:soullessgem"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_static"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

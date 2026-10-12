@@ -87,8 +87,8 @@ craftingTable.remove(<item:sophisticatedbackpacks:xp_pump_upgrade>);
 craftingTable.addShaped("sophisticatedbackpacks.xp_pump_upgrade", <item:sophisticatedbackpacks:xp_pump_upgrade>, [[<item:minecraft:experience_bottle>, <item:enigmaticlegacy:xp_scroll>.anyDamage().reuse(), <item:minecraft:experience_bottle>], [<item:hmag:ancient_stone>, <item:sophisticatedbackpacks:pump_upgrade>, <item:hmag:ancient_stone>], [<item:minecraft:experience_bottle>, <item:reliquary:hero_medallion>.anyDamage().reuse(), <item:minecraft:experience_bottle>]]);
 
 //RS拾取
-craftingTable.addShapeless("sophisticatedbackpacks.rs_pickup_upgrade", <item:sophisticatedbackpacks:rs_pickup_upgrade>, [<item:sophisticatedbackpacks:pickup_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
-craftingTable.addShapeless("sophisticatedbackpacks.rs_magnet_upgrade", <item:sophisticatedbackpacks:rs_magnet_upgrade>, [<item:sophisticatedbackpacks:magnet_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
+craftingTable.addShapeless("sophisticatedbackpacks.rs_pickup_upgrade", <item:sophisticatedbackpacks:rs_pickup_upgrade>, [<item:sophisticatedbackpacks:advanced_pickup_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
+craftingTable.addShapeless("sophisticatedbackpacks.rs_magnet_upgrade", <item:sophisticatedbackpacks:rs_magnet_upgrade>, [<item:sophisticatedbackpacks:advanced_magnet_upgrade>, <item:locusazzurro_icaruswings:purpur_ingot>]);
 
 
 

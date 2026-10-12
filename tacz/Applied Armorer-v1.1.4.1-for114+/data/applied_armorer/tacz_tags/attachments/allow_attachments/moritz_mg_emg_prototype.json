@@ -1,5 +1,8 @@
 [
-  "#applied_armorer:fluix_extended_battery",
+	"#applied_armorer:bracelet",
 	
-	"#tacz:stock"
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"#eos:stock_maid"
 ]

@@ -6,6 +6,18 @@
         "item": "minecraft:magma_cream"
       },
       "count": 4
+    },
+    {
+      "item": {
+        "item": "goety:ominous_orb"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
     }
   ],
   "result": {

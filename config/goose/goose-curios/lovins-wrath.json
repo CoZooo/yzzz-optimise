@@ -1,10 +1,15 @@
 {
   "initial_wrath": 0,
 
-  "allowed_curios": [],
+  "allowed_curios": [
+	"enigmaticlegacy:cursed_ring",
+	"celestial_artifacts:catastrophe_scroll"
+  ],
 
   "allowed_weapons": [
-    "minecraft:wooden_sword"
+    "grimoireofgaia:metal_club",
+	"enigmaticaddons:annihilating_sword",
+	"stalwart_dungeons:awful_dagger"
   ],
 
   "allowed_armor": [
@@ -25,9 +30,9 @@
 
   "attribute_bonus": {
     "mode": "all",
-    "base_percent": 100.0,
+    "base_percent": 0.0,
     "per_wrath_percent": 10.0,
-    "max_percent": -1,
+    "max_percent": 200,
     "operation": "multiply_base",
     "blacklist": [
       "forge:entity_gravity"

@@ -7,8 +7,8 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade_silverbamboo",
       "request": {
-        "proud_soul": 1000,
-        "refine": 1
+        "proud_soul": 2000,
+        "refine": 2
       }
     },
     "C": {

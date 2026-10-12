@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "aetherworks:ingot_aether"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "moonstone:rage_crystal"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trisdyna:stock_tris2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,27 @@
+[
+	"#emxarms:bayonet",
+	
+	"emxarms:muzzle_emx_catch",
+	"emxarms:stock_emx_reentrantlock",
+	"emxarms:grip_emx_double_rsi",
+	"emxarms:grip_emx_double_yh",
+	"emxarms:grip_emx_double_h",
+	"emxarms:stock_emx_sleep",
+	"trisdyna:stock_tris2",
+	"trisdyna:grip_shimmer",
+	"pgp:screen",
+	"trisdyna:stock_sf7e_sp",
+	"applied_armorer:muzzle_chip_pcs_x1",
+	"applied_armorer:muzzle_chip_atm_x2",
+	
+	"emxarms:ammo_h1",
+	"emxarms:ammo_h2",
+	"emxarms:ammo_h3",
+	"emxarms:ammo_h3r",
+	
+	"eos:magazine_t3_1",
+	"eos:magazine_t3_2",
+	"eos:magazine_t3_4",
+	
+	"#eos:stock_maid"
+]

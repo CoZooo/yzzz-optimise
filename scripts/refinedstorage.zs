@@ -7,6 +7,10 @@ import mods.jeitweaker.Jei;
 <item:rsinfinitybooster:dimension_card>.addTooltip("\u00A7c放入次元访问点，可无限距离、无视维度打开存储网络");
 <item:rsinfinitybooster:dimension_card>.addTooltip("\u00A76需存储所在区块加载，相关内容详见须弥章节任务");
 <item:rsinfinitybooster:dimension_card>.addTooltip("\u00A7e此外开启渔夫宝藏袋有小几率获得");
+<item:refinedstorage:creative_storage_disk>.anyDamage().addTooltip("\u00A76可通过发明悬赏小几率获得");
+<item:refinedstorage:creative_fluid_storage_disk>.anyDamage().addTooltip("\u00A76可通过发明悬赏小几率获得");
+<item:refinedstorage:creative_storage_disk>.anyDamage().addTooltip("\u00A7c需注意用作合成时不会保留内部数据");
+<item:refinedstorage:creative_fluid_storage_disk>.anyDamage().addTooltip("\u00A7c需注意用作合成时不会保留内部数据");
 
 //tag
 <tag:items:curios:curio>.remove(<item:refinedstorage:creative_wireless_grid>);
@@ -83,6 +87,25 @@ recipes.addJsonRecipe("refinedstorage.silicon",{
 });
 <item:malum:blazing_quartz>.setFireResistant(true);
 <item:refinedstorage:silicon>.setFireResistant(true);
+
+//共振存储盘
+craftingTable.remove(<item:rs_integration:resonance_storage_disk>);
+
+//
+craftingTable.remove(<item:rs_integration:unified_storage_disk>);
+craftingTable.addShapeless("rs_integration.unified_storage_disk", <item:rs_integration:unified_storage_disk>, [<item:refinedstorage:creative_storage_disk>.anyDamage(), <item:refinedstorage:creative_fluid_storage_disk>.anyDamage()]);
+
+craftingTable.remove(<item:rs_integration:rs_pickup_upgrade>);
+craftingTable.addShapeless("rs_integration.rs_pickup_upgrade", <item:rs_integration:rs_pickup_upgrade>, [<item:sophisticatedbackpacks:rs_pickup_upgrade>.anyDamage()]);
+
+craftingTable.remove(<item:rs_integration:rs_magnet_upgrade>);
+craftingTable.addShapeless("rs_integration.rs_magnet_upgrade", <item:rs_integration:rs_magnet_upgrade>, [<item:sophisticatedbackpacks:rs_magnet_upgrade>.anyDamage()]);
+
+craftingTable.remove(<item:rs_integration:rs_refill_upgrade>);
+craftingTable.addShapeless("rs_integration.rs_refill_upgrade", <item:rs_integration:rs_refill_upgrade>, [<item:sophisticatedbackpacks:advanced_refill_upgrade>, <item:aquamirae:abyssal_amethyst>]);
+
+craftingTable.remove(<item:rs_integration:rs_feeding_upgrade>);
+craftingTable.addShapeless("rs_integration.rs_feeding_upgrade", <item:rs_integration:rs_feeding_upgrade>, [<item:sophisticatedbackpacks:advanced_feeding_upgrade>, <item:aquamirae:abyssal_amethyst>]);
 
 //外壳
 craftingTable.remove(<item:refinedstorage:machine_casing>);

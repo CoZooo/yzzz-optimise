@@ -24,7 +24,12 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.08
+          "amount": 0.04
+        },
+        {
+          "name": "gunsmithlib:bullet_damage",
+          "operation": "multiply_base",
+          "amount": 0.02
         }
       ],
       "conditions": [
@@ -51,7 +56,12 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.08
+          "amount": 0.04
+        },
+        {
+          "name": "gunsmithlib:bullet_damage",
+          "operation": "multiply_base",
+          "amount": 0.02
         },
         {
           "name": "minecraft:generic.armor_toughness",
@@ -83,7 +93,12 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.10
+          "amount": 0.5
+        },
+        {
+          "name": "gunsmithlib:bullet_damage",
+          "operation": "multiply_base",
+          "amount": 0.025
         },
         {
           "name": "minecraft:generic.movement_speed",
@@ -121,7 +136,12 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.10
+          "amount": 0.5
+        },
+        {
+          "name": "gunsmithlib:bullet_damage",
+          "operation": "multiply_base",
+          "amount": 0.025
         }
       ],
       "status_effects": [

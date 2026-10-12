@@ -30,6 +30,7 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:giga_gear>.setMaxStackSize(64);
 
 //说明
+<item:grimoireofgaia:book_of_memory>.addTooltip("\u00A7e可在切石机中制作附魔");
 <item:grimoireofgaia:withered_brain>.addTooltip("\u00A76击杀狱火暗域领主灵颅可获得");
 <item:grimoireofgaia:heavy_barbell>.addTooltip("\u00A76最多可同时佩戴三个");
 <item:grimoireofgaia:seashell_hairpin>.addTooltip("\u00A76最多可同时佩戴三个");

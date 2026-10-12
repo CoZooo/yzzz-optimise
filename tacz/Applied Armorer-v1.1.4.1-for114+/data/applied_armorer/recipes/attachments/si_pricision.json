@@ -1,0 +1,27 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "hmag:reinforced_glass"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "applied_armorer:si_pricision"
+  }
+}

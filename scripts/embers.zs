@@ -102,6 +102,9 @@ Jei.hideIngredient(<item:embers:raw_gear_stamp>);
 Jei.hideIngredient(<item:embers:gear_stamp>);
 Jei.hideIngredient(<item:embers:mithril_block>);
 
+//锤
+craftingTable.remove(<item:embers:grandhammer>);
+
 //射线枪 法杖
 craftingTable.remove(<item:embers:blazing_ray>);
 craftingTable.addShaped("embers.blazing_ray", <item:embers:blazing_ray>, [[<item:minecraft:air>, <item:embers:dawnstone_ingot>, <item:embers:dawnstone_plate>], [<item:embers:dawnstone_ingot>, <item:eidolon:completed_research>.withTag({research: "eidolon:flames"}), <item:locusazzurro_icaruswings:steel_ingot>], [<item:meetyourfight:phantoplasm>, <item:born_in_chaos_v1:dark_rod>, <item:minecraft:air>]]);

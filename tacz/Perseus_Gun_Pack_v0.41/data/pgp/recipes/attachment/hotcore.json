@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "yuusha:twist_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "goety:withered_manuscript"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:hotcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

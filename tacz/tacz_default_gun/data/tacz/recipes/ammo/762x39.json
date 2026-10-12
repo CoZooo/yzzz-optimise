@@ -2,15 +2,15 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/copper"
+        "item": "minecraft:blaze_powder"
       },
-      "count": 15
+      "count": 4
     },
     {
       "item": {
         "tag": "forge:gunpowder"
       },
-      "count": 3
+      "count": 2
     },
     {
       "item": {
@@ -22,7 +22,7 @@
   "result": {
     "type": "ammo",
     "id": "tacz:762x39",
-    "count": 45
+    "count": 64
   },
   "type": "tacz:gun_smith_table_crafting"
 }

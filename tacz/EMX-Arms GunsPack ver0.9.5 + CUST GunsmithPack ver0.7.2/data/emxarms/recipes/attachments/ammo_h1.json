@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:ammo_h1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

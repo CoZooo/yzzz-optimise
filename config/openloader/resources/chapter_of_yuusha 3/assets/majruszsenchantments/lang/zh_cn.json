@@ -3,7 +3,7 @@
   "enchantment.majruszsenchantments.absorber.desc": "盾牌会消耗耐久值来抵挡负面效果",
   "enchantment.majruszsenchantments.absorber.description": "盾牌会消耗耐久值来抵挡负面效果",
   "enchantment.majruszsenchantments.death_wish": "死神祝福",
-  "enchantment.majruszsenchantments.death_wish.desc": "按损失生命值的百分比增加造成伤害、额外受到或降低伤害",
+  "enchantment.majruszsenchantments.death_wish.desc": "按当前血量（100%~0%）增加造成伤害（+0%~+75%）、受到伤害（200%~50%）",
   "enchantment.majruszsenchantments.death_wish.description": "按损失生命值的百分比增加造成伤害、额外受到或降低伤害",
   "enchantment.majruszsenchantments.dodge": "灵巧",
   "enchantment.majruszsenchantments.dodge.desc": "受到任何来源的伤害时都有概率回避",

@@ -2,21 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "goety:cursed_ingot"
       },
-      "count": 10
+      "count": 24
     },
     {
       "item": {
-        "tag": "forge:gems/amethyst"
+        "item": "callfromthedepth_:soulingot"
       },
-      "count": 3
+      "count": 12
     },
     {
       "item": {
-        "tag": "forge:dusts/redstone"
+        "item": "yuusha:slot_3"
       },
-      "count": 8
+      "count": 1
     }
   ],
   "result": {

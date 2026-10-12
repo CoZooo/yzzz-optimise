@@ -1,14 +1,9 @@
 {
-  "weight": 0.2,
-  "recoil": {
-    "yaw": {
-      "multiplier": 0.95
-    }
-  },
-  "inaccuracy": {
-    "multiplier": 0.9
-  },
+  "weight": 5,
   "ads": {
-    "addend": -0.02
+    "addend": 0.1
+  },
+  "head_shot":{
+    "multiplier": 3.0
   }
 }

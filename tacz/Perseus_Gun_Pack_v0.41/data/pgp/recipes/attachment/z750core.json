@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "yuusha:orichalcum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "stalwart_dungeons:void_crystal"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:z750core"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,9 +1,8 @@
 [
-  "#tacz:scope",
-  "#tacz:muzzle",
-  "#tacz:extended_mag",
-  "#tacz:oem_stock",
-  "#tacz:stock",
-  "#tacz:bayonet_ak",
-  "#tacz:ammo_mod_no_he"
+  "tacz:oem_stock_tactical",
+  
+  "tacz:ammo_mod_i",
+  "tacz:ammo_mod_fire_i",
+	
+	"#eos:stock_maid"
 ]

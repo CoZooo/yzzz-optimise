@@ -1,0 +1,58 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#464547",
+	"base_wave": {
+        "entities": [
+			{
+				"entity": "infinite_abyss:fire_vortex",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:ignited_revenant",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:ignited_berserker",
+				"count": 2
+			},
+			{
+				"entity": "stalwart_dungeons:reinforced_blaze",
+				"count": 2
+			},
+			{
+				"entity": "infinite_abyss:deeprock_golem",
+				"count": 4
+			}
+		],
+        "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "infinite_abyss:opal",
+				"count": 1
+			}
+        }],
+        "max_wave_time": 300,
+        "setup_time": 20
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 1,
+                "max": 1
+            },
+            "modifiers": [{
+                "attribute": "generic.max_health",
+                "operation": "multiply_base",
+                "value": 1.0
+            }]
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "boss_bar"
+    },
+    "spawn_algorithm": "gateways:inward_spiral"
+}

@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "youkaishomecoming:ice_cube"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "avaritia:diamond_lattice"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_mac100"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

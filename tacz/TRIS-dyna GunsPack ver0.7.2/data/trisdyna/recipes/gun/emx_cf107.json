@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 90
+    },
+    {
+      "item": {
+        "item": "cataclysm:monstrous_horn"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trisdyna:emx_cf107"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

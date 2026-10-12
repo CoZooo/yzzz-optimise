@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:bayonet_emx_skyhunter2"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "celestial_core:virtual_gold_ingot"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:bayonet_emx_skyhunter_yh"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

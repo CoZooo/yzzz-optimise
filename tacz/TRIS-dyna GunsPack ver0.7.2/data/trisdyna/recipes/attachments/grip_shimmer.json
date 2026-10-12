@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "ancient_aether:valkyrum"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "aetherworks:aether_amalgam"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "callfromthedepth_:soulbell"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trisdyna:grip_shimmer"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

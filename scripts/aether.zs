@@ -12,6 +12,7 @@ import crafttweaker.api.block.Block;
 <item:deep_aether:aerglow_blossom>.addTooltip("\u00A7e瑰根树可在天境内找到");
 
 <item:ancient_aether:grapes>.addTooltip("\u00A76可在古遗天境维度内找到");
+<item:aether_redux:blightbunny_spawn_egg>.addTooltip("\u00A7c该生物被禁止生成");
 
 <item:deep_aether:aerwhale_saddle>.addTooltip("\u00A7c在召唤祭坛中用灵质云和咒灰等材料可召唤云鲸");
 <item:aether:enchanted_gravitite>.addTooltip("\u00A7c开启突变毒箭花等天境宝箱有几率获得");

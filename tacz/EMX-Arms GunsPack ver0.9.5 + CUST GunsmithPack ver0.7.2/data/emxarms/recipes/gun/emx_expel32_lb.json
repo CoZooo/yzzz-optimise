@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 48
+    },
+    {
+      "item": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "emxarms:emx_expel32_lb"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

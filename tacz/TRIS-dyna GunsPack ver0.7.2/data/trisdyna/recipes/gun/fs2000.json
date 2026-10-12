@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 48
+    },
+    {
+      "item": {
+        "item": "embers:wildfire_core"
+      },
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "yuusha:epic_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "trisdyna:fs2000"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

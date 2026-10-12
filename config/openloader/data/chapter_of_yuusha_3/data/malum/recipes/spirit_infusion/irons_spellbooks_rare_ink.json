@@ -12,12 +12,20 @@
     {
       "item": "wizards_reborn:precision_crystal",
       "count": 2
+    },
+    {
+      "item": "wizards_reborn:natural_calx",
+      "count": 2
     }
   ],
   "spirits": [
     {
       "type": "arcane",
-      "count": 4
+      "count": 16
+    },
+    {
+      "type": "umbral",
+      "count": 16
     }
   ]
 }

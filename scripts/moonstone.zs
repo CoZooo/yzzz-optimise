@@ -54,9 +54,7 @@ Jei.hideIngredient(<item:moonstone:cell_constant>);
 Jei.hideIngredient(<item:moonstone:nightmare_virus>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_fool_betray>);
 Jei.hideIngredient(<item:moonstone:nightmare_base_insight_collapse>);
-//Jei.hideIngredient(<item:moonstone:the_prison_of_sin>);
 
-//Jei.hideIngredient(<item:moonstone:max_eye>);
 Jei.hideIngredient(<item:moonstone:end_bone>);
 <item:moonstone:end_bone>.anyDamage().addTooltip("\u00A7c无法使用或获取");
 <item:moonstone:raw>.anyDamage().addTooltip("\u00A7c无法使用或获取");
@@ -107,8 +105,6 @@ Jei.hideIngredient(<item:moonstone:end_bone>);
 <item:moonstone:nightmare_base_fool_betray>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:nightmare_base_insight_collapse>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 
-//<item:moonstone:nightmare_base_start_power>.anyDamage().addTooltip("\u00A7e无法使用或获取");
-//<item:moonstone:the_prison_of_sin>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:cell_desecrate>.anyDamage().addTooltip("\u00A7e无法使用或获取，属于对非亡灵生物的全伤害加成");
 <item:moonstone:cell_desecrate>.anyDamage().addTooltip("\u00A76需同时带上暗影瘟疫才能生效");
 <item:moonstone:cell_doctor>.anyDamage().addTooltip("\u00A76需同时带上暗影瘟疫才能生效");
@@ -274,7 +270,6 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <tag:items:curios:two>.add(<item:moonstone:maxamout>);
 <tag:items:curios:charm>.remove(<item:moonstone:probability_stone>);
 <tag:items:curios:charm>.remove(<item:moonstone:evil_mob>);
-//<tag:items:curios:curio>.remove(<item:moonstone:the_prison_of_sin>);
 
 <tag:items:curios:curio>.remove(<item:moonstone:fortunecrystal>);
 //<tag:items:curios:medicine>.add(<item:moonstone:fortunecrystal>);
@@ -346,9 +341,6 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <tag:items:curios:time>.add(<item:moonstone:ectoplasmapple>);
 
 //修罗 剑
-//Jei.hideIngredient(<item:moonstone:doomeye>);
-//Jei.hideIngredient(<item:moonstone:wind_and_rain>);
-//Jei.hideIngredient(<item:moonstone:doomswoud>);
 <tag:items:curios:head>.remove(<item:moonstone:doomeye>);
 <tag:items:curios:seven_sword>.add(<item:moonstone:doomeye>);
 <tag:items:curios:belt>.remove(<item:moonstone:doomswoud>);
@@ -364,13 +356,18 @@ stoneCutter.addRecipe("moonstone.muscle_conversion", <item:moonstone:muscle_conv
 <item:moonstone:nine_sword_books>.anyDamage().addTooltip("\u00A7c佩戴后除剑类武器外都无法造成伤害");
 <item:moonstone:nine_sword_books>.anyDamage().addTooltip("\u00A76在独立乘区降低近战伤害、生命值，而增加的近战伤害仅在乘法乘区增加");
 <item:moonstone:nine_sword_books>.anyDamage().addTooltip("\u00A72目前存在特性，关闭飞剑功能后无法获得修炼经验，但是有加伤");
+<item:moonstone:nine_sword_books>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:million>.anyDamage().addTooltip("\u00A7c只能通过击杀沙漠守卫者几率获得");
 <item:moonstone:million>.anyDamage().addTooltip("\u00A76该饰品所提供的增伤仅加成近战伤害");
 <item:moonstone:million>.anyDamage().addTooltip("\u00A7e同时佩戴七剑修罗万法和剑阵之章时，额外+20%全伤害，但不再发射飞剑");
+<item:moonstone:million>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:doomeye>.anyDamage().addTooltip("\u00A7c只能通过击杀钢铁守护者或基诺拉几率获得");
+<item:moonstone:doomeye>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:wind_and_rain>.anyDamage().addTooltip("\u00A7c只能通过击杀钢铁守护者或基诺拉几率获得");
 <item:moonstone:wind_and_rain>.anyDamage().addTooltip("\u00A7e请勿给原本有右击技能的武器使用，可能会有特性");
+<item:moonstone:wind_and_rain>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:doomswoud>.anyDamage().addTooltip("\u00A7c只能通过击杀钢铁守护者或基诺拉几率获得");
+<item:moonstone:doomswoud>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:deceased_contract>.anyDamage().addTooltip("\u00A7e击杀4种突变体均有小几率获得");
 
 
@@ -419,6 +416,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:ectoplasmball>.addTooltip("\u00A76用熔岩钓鱼竿在下界岩浆钓鱼会必定获得");
 <item:moonstone:ectoplasmball>.addTooltip("\u00A7c击杀怪物或者开启宝箱不再能获得");
 <item:moonstone:ectoplasmball>.addTooltip("\u00A72在星河贸易站内也能交易获得");
+<item:moonstone:ectoplasmball>.addTooltip("\u00A73可在切石机中制作多种附魔");
 <item:moonstone:the_heart>.anyDamage().addTooltip("\u00A7e打开物品栏后左击拿起物品，然后对着富饶之心右击即可放入");
 <item:moonstone:the_heart>.anyDamage().addTooltip("\u00A76手持富饶之心右击会将里面的物品丢出");
 <item:moonstone:the_heart>.anyDamage().addTooltip("\u00A7c击杀死尸术士或黑暗萨满均有几率获得");
@@ -502,8 +500,9 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:virus>.anyDamage().addTooltip("\u00A76佩戴培养皿并存在虚弱效果时被凋零骷髅攻击有几率获得");
 <item:moonstone:virus>.anyDamage().addTooltip("\u00A7c后续击杀带镰血肉兽有几率获得，带镰血肉兽需详见大满开章节");
 <item:moonstone:germ>.anyDamage().addTooltip("\u00A76新增在海底废墟的可疑方块处考古有几率获得");
-<item:moonstone:germ>.anyDamage().addTooltip("\u00A7c谨慎佩戴，会与其它饰品发生奇妙的化学反应");
-<item:moonstone:germ>.anyDamage().addTooltip("\u00A7e从而导致玩家不定时掉血、饰品掉落、游戏崩溃");
+<item:moonstone:germ>.anyDamage().addTooltip("\u00A7c无法佩戴，仅用作合成");
+//<item:moonstone:germ>.anyDamage().addTooltip("\u00A7c谨慎佩戴，会与其它饰品发生奇妙的化学反应");
+//<item:moonstone:germ>.anyDamage().addTooltip("\u00A7e从而导致玩家不定时掉血、饰品掉落、游戏崩溃");
 
 <item:moonstone:soulbook>.addTooltip("\u00A7e现在无法通过宝箱获得月之石模组的任何饰品");
 <item:moonstone:soulbook>.addTooltip("\u00A76具体获取途径在饰品处有说明");
@@ -611,6 +610,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:watergen>.anyDamage().addTooltip("\u00A73据说此饰品没有实际效果");
 <item:moonstone:as_amout>.anyDamage().addTooltip("\u00A7c只能通过击杀基诺拉几率获得");
 <item:moonstone:as_amout>.anyDamage().addTooltip("\u00A7e同时佩戴七剑修罗万法和剑阵之章时，额外+20%全伤害，但不再发射飞剑");
+<item:moonstone:as_amout>.anyDamage().addTooltip("\u00A75谨慎开启飞剑形态！容易导致游戏崩溃");
 <item:moonstone:badgeofthedead>.anyDamage().addTooltip("\u00A7c只能通过击杀异端堕落先知几率获得");
 <item:moonstone:badgeofthedead>.anyDamage().addTooltip("\u00A7e该饰品所提供的增伤为对亡灵生物的独立乘区且全伤害加成");
 <item:moonstone:soulcube>.anyDamage().addTooltip("\u00A7c只能通过击杀在下界生成的凋零牛几率获得");
@@ -634,7 +634,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:nightmare_heart>.anyDamage().addTooltip("\u00A7c只能通过击杀远古渊兽领主几率获得");
 
 <item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A76击杀渊兽领主有几率获得");
-<item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
+//<item:moonstone:nightmaretreasure>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A76击杀远古渊兽领主有几率获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7e新增可通过制作获得");
 <item:moonstone:nightmarestone>.anyDamage().addTooltip("\u00A7c需注意佩戴后所有负面效果时长为无限而非延长");
@@ -696,6 +696,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:cell_god>.addTooltip("\u00A76该基因残片可通过遥远世界章节的基因残片宝藏袋获得");
 <item:moonstone:cell_inheritance>.addTooltip("\u00A75最多64个，相同属性只取最后放入的基因残片");
 <item:moonstone:cell_inheritance>.addTooltip("\u00A76该基因残片可通过遥远世界章节的基因残片宝藏袋获得");
+<item:moonstone:cell_inheritance>.addTooltip("\u00A7e每个+0.3125%伤害抗性");
 <item:moonstone:cell_digestion>.addTooltip("\u00A75最多64个，相同属性只取最后放入的基因残片");
 <item:moonstone:cell_digestion>.addTooltip("\u00A76该基因残片可通过遥远世界章节的基因残片宝藏袋获得");
 <item:moonstone:cell_eyes>.addTooltip("\u00A75最多64个，相同属性只取最后放入的基因残片");
@@ -712,6 +713,7 @@ craftingTable.remove(<item:moonstone:killer>);
 <item:moonstone:ectoplasmcloub>.addTooltip("\u00A7c用特定物品喂食鹦鹉也可获得灵质云");
 <item:moonstone:ectoplasmcloub>.addTooltip("\u00A7e灵质云可在切石机中制作各种气球");
 <item:moonstone:ectoplasmcube>.addTooltip("\u00A7e用特定物品喂食鹦鹉也可获得");
+<item:moonstone:ectoplasmcube>.addTooltip("\u00A76可在切石机中制作多种附魔");
 <item:moonstone:ectoplasmprism>.addTooltip("\u00A7e用特定物品喂食鹦鹉也可获得");
 
 
@@ -935,7 +937,7 @@ craftingTable.addShapeless("moonstone.immortal", <item:moonstone:immortal>, [<it
 
 //罪孽囚笼
 craftingTable.remove(<item:moonstone:the_prison_of_sin>);
-craftingTable.addShaped("moonstone.the_prison_of_sin", <item:moonstone:the_prison_of_sin>, [[<item:yuusha:chaos_ingot>, <item:yuusha:bless_core>.reuse(), <item:yuusha:chaos_ingot>], [<item:irons_spellbooks:epic_ink>, <item:enigmaticaddons:despair_insignia>.anyDamage(), <item:reliquary:phoenix_down>], [<item:irons_spellbooks:dragonskin>, <item:yuusha:bless_star>, <item:irons_spellbooks:dragonskin>]]);
+craftingTable.addShaped("moonstone.the_prison_of_sin", <item:moonstone:the_prison_of_sin>, [[<item:eeeabsmobs:immortal_ingot>, <item:yuusha:bless_core>.reuse(), <item:eeeabsmobs:immortal_ingot>], [<item:irons_spellbooks:epic_ink>, <item:enigmaticaddons:despair_insignia>.anyDamage(), <item:slashblade_useful_addon:soul_crystal>], [<item:majruszsdifficulty:enderium_ingot>, <item:yuusha:bless_star>, <item:majruszsdifficulty:enderium_ingot>]]);
 
 //罪恶之红唇
 craftingTable.addShaped("moonstone.nightmare_base_black_eye_red", <item:moonstone:nightmare_base_black_eye_red>, [[<item:distant_worlds:firon_pickaxe>.anyDamage(), <item:yuusha:bless_core>.reuse(), <item:distant_worlds:firon_axe>.anyDamage()], [<item:goety:withered_manuscript>, <item:cataclysm:cursed_eye>, <item:goety:withered_manuscript>], [<item:distant_worlds:firon_shovel>.anyDamage(), <item:meetyourfight:violet_bloom>, <item:distant_worlds:firon_hoe>.anyDamage()]]);
@@ -1015,14 +1017,14 @@ craftingTable.addShapeless("moonstone.magicstone.re", <item:moonstone:magicstone
 <tag:items:curios:god_hand>.add(<item:moonstone:the_prison_of_sin>);
 <tag:items:curios:curio>.remove(<item:moonstone:the_prison_of_sin>);
 
-//<tag:items:curios:catastrophe>.add(<item:moonstone:max_eye>);
 <tag:items:curios:curio>.remove(<item:moonstone:max_eye>);
 
+<item:moonstone:germ>.setMaxStackSize(64);
+<tag:items:curios:medicine>.remove(<item:moonstone:germ>);
 <tag:items:curios:nightmare>.remove(<item:moonstone:nightmare_base_black_eye_red>);
 <tag:items:curios:burning_secret>.add(<item:moonstone:nightmare_base_black_eye_red>);
 
 /*
-
 <tag:items:curios:ring>.add(<item:moonstone:the_divine_fall_ring>);
 <tag:items:curios:curio>.remove(<item:moonstone:the_divine_fall_ring>);
 
@@ -1069,7 +1071,6 @@ Jei.hideIngredient(<item:moonstone:seven_star>);
 craftingTable.remove(<item:moonstone:nightmare_base_black_eye>);
 <tag:items:curios:nightmare>.remove(<item:moonstone:nightmare_base_black_eye>);
 <tag:items:curios:nightmare_start>.add(<item:moonstone:nightmare_base_black_eye>);
-//craftingTable.remove(<item:moonstone:nightmare_base_reversal>);
 <tag:items:curios:nightmare>.remove(<item:moonstone:nightmare_base_reversal>);
 <tag:items:curios:nightmare_start>.add(<item:moonstone:nightmare_base_reversal>);
 craftingTable.remove(<item:moonstone:nightmare_base_redemption>);
@@ -1093,7 +1094,6 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 
 <item:moonstone:nightmare_base>.anyDamage().addTooltip("\u00A7e可同时佩戴「落魄」饰品抵消此饰品的负面效果");
 <item:moonstone:nightmare_base_black_eye>.anyDamage().addTooltip("\u00A7e暂时无法获取或使用");
-//<item:moonstone:nightmare_base_reversal>.anyDamage().addTooltip("\u00A7e暂时无法获取或使用");
 <item:moonstone:nightmare_base_redemption>.anyDamage().addTooltip("\u00A7e暂时无法获取或使用");
 <item:moonstone:nightmare_base_fool>.anyDamage().addTooltip("\u00A7e暂时无法获取或使用");
 <item:moonstone:nightmare_base_insight>.anyDamage().addTooltip("\u00A7e暂时无法获取或使用");
@@ -1123,10 +1123,8 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 <item:moonstone:nightmare_base_black_eye_eye>.anyDamage().addTooltip("\u00A76特定路线可以通过制作获得");
 <item:moonstone:nightmare_base_black_eye_eye>.anyDamage().addTooltip("\u00A7e谨慎佩戴！部分领主在失明后会有特性");
 <item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A76特定路线可以通过制作获得");
-//<item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7e也可佩戴颠倒之物饰品后击杀末影龙获得");
 <item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7c需同时佩戴颠倒之物饰品才可获得增益");
 <item:moonstone:nightmare_base_reversal_card>.anyDamage().addTooltip("\u00A7e同时佩戴后无需死亡复活即可生效获得属性");
-//<item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7e无法使用或获取");
 <item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7e新增击杀使徒有小几率获得");
 <item:moonstone:nightmare_base_redemption_degenerate>.anyDamage().addTooltip("\u00A7c该饰品不能防止着火特效");
 <item:moonstone:nightmare_base_redemption_down_and_out>.anyDamage().addTooltip("\u00A76击杀敲钟人有几率获得");
@@ -1135,7 +1133,7 @@ craftingTable.remove(<item:moonstone:nightmare_base_stone>);
 craftingTable.addShapeless("moonstone.atp_height.copy", <item:moonstone:atp_height>, [<item:yuusha:grief_crystal>.reuse(), <item:born_in_chaos_v1:magical_holiday_candy>]);
 
 //
-stoneCutter.addRecipe("moonstone.nightmare_axe_change.1", <item:moonstone:nightmaretreasure>, <item:moonstone:nightmare_axe>);
+//stoneCutter.addRecipe("moonstone.nightmare_axe_change.1", <item:moonstone:nightmaretreasure>, <item:moonstone:nightmare_axe>);
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.2", <item:moonstone:nightmarestone>, <item:moonstone:nightmare_axe>);
 stoneCutter.addRecipe("moonstone.nightmare_axe_change.3", <item:moonstone:nightmaremoai>, <item:moonstone:nightmare_axe>);
 

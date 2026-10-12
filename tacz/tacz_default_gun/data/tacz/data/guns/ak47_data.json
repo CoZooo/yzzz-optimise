@@ -1,13 +1,13 @@
 {
   // 指定枪械弹药
-  "ammo": "tacz:762x39",
+  "ammo": "tacz:556x45",
   // 弹容
   "ammo_amount": 30,
   // 扩容弹夹弹药总数
   "extended_mag_ammo_amount": [
-    34,
-    37,
-    40
+    35,
+    45,
+    55
   ],
   // 枪栓类型：开膛待机（open_bolt）、闭膛待击（closed_bolt）、手动上膛（manual_action)
   "bolt": "closed_bolt",
@@ -20,24 +20,21 @@
     // 用于霰弹，默认为 1，每发的伤害 / bullet_amount，每次射击扣除一发子弹
     "bullet_amount": 1,
     // 伤害
-    "damage": 90,
+    "damage": 45,
     // 曳光弹间隔数量，没有此字段则不发射曳光弹
     // 设置为 0 则是每发都是曳光弹
     "tracer_count_interval": 0,
     // 额外伤害的内容，为空则表示没有任何额外伤害计算内容
     "extra_damage": {
       // 护甲穿透率，默认为 0，也就是没有穿甲伤害
-      "armor_ignore": 0.10,
+      "armor_ignore": 0.1,
       // 爆头伤害 x1.5
       "head_shot_multiplier": 1.5,
       // 距离-伤害分段常函数
       "damage_adjust": [
-        //{"distance": 0, "damage": 90},
-        //{"distance": 4, "damage": 0},
-        {"distance": 15, "damage": 90},
-        {"distance": 30, "damage": 76.5},
-        {"distance": 45, "damage": 63},
-        {"distance": "infinite", "damage": 49.5}
+        {"distance": 20, "damage": 45},
+        {"distance": 40, "damage": 36},
+        {"distance": "infinite", "damage": 27}
       ]
     },
     // 速度 m/s
@@ -59,7 +56,15 @@
     // 点燃时间，默认为 2 秒，仅用于实体
     "ignite_entity_time": 2,
     // 穿透数
-    "pierce": 1
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 10,
+      "radius": 1.0,
+      "knockback": false,
+      "destroy_block": false,
+      "delay": 1
+    }
     // 储存爆炸的相关数据，如果没有的话会有一套默认的配置
     // "explosion": {
       // 是否爆炸，默认为 false，如果希望默认爆炸则设置为 true
@@ -108,7 +113,7 @@
   // 重量，枪械的总重将影响“移速属性”，默认-1.5%移动速度/kg，可在ServerConfig中调整
   // 调整的属性会作为“百分比增加”类型(MULTIPLY_BASE)的属性修饰器添加至实体上
   // 注意，移速属性并不能直接反应实际移速，此属性对实际移速的影响较为复杂，请自行查阅相关资料
-  "weight": 8.5,
+  "weight": 20.0,
   // 额外移速修正，多种情况同时满足时，仅计算最后一个修正
   // 对于其中的每个情况，最终的修正值是枪械和所有配件该情况下修正值的和
   // 调整的属性将作为“最终乘算”类型(MULTIPLY_TOTAL)的属性修饰器添加至实体上
@@ -238,9 +243,11 @@
   // scope, stock, muzzle, grip, laser, extended_mag
   "allow_attachment_types": [
     "scope",
-    "stock",
+    "grip",
     "muzzle",
-    "extended_mag"
+    "extended_mag",
+    "stock",
+    "laser"
   ],
   // 配件槽的默认配件，当未安装配件时使用
   // 默认配件的data将不会被应用，仅仅有外观效果

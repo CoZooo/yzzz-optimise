@@ -2,21 +2,27 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "netherdepthsupgrade:lava_sponge"
       },
-      "count": 16
+      "count": 4
     },
     {
       "item": {
-        "tag": "forge:leather"
+        "item": "celestial_artifacts:guardian_eye"
       },
-      "count": 6
+      "count": 1
     },
     {
       "item": {
-        "tag": "forge:dusts/redstone"
+        "item": "yuusha:slot_4"
       },
-      "count": 2
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
+      },
+      "count": 1
     }
   ],
   "result": {

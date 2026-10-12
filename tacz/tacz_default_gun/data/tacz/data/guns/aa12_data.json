@@ -1,19 +1,18 @@
 {
-  "ammo": "tacz:12g",
+  "ammo": "tacz:556x45",
   "rpm": 350,
   "bullet": {
     "life": 0.6,
     "bullet_amount": 4,
-    "damage": 100,
+    "damage": 200,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.0,
-      "head_shot_multiplier": 1.25,
+      "armor_ignore": 0.25,
+      "head_shot_multiplier": 1.35,
       "damage_adjust": [
-        {"distance": 10, "damage": 100},
-        {"distance": 20, "damage": 80},
-        {"distance": 30, "damage": 60},
-        {"distance": "infinite", "damage": 40}
+        {"distance": 15, "damage": 200},
+        {"distance": 30, "damage": 140},
+        {"distance": "infinite", "damage": 80}
       ]
     },
     "speed": 130,
@@ -21,13 +20,21 @@
     "knockback": 0.15,
     "friction": 0.05,
     "ignite": false,
-    "pierce": 1
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 10,
+      "radius": 1.0,
+      "knockback": false,
+      "destroy_block": false,
+      "delay": 1
+    }
   },
-  "ammo_amount": 4,
+  "ammo_amount": 12,
   "extended_mag_ammo_amount": [
-    6,
-    8,
-    10
+    16,
+    20,
+    24
   ],
   "bolt": "open_bolt",
   "reload": {
@@ -45,7 +52,7 @@
   "put_away_time": 0.6,
   "aim_time": 0.2,
   "sprint_time": 0.21,
-  "weight": 6.8,
+  "weight": 30,
   "movement_speed": {
     // 默认修正
     "base": 0.0,
@@ -56,36 +63,37 @@
   },
   "crawl_recoil_multiplier": 0.9,
   "fire_mode": [
-    "semi",
-    "auto"
+    "auto",
+    "semi"
   ],
   "allow_attachment_types": [
     "scope",
-	  "muzzle",
+	"grip",
+	"muzzle",
     "extended_mag",
-    "grip",
-    "stock"
+    "stock",
+    "laser"
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [10.25, 10.25]},
-      {"time": 0.125, "value": [10.25, 10.25]},
+      {"time": 0, "value": [4.25, 4.25]},
+      {"time": 0.125, "value": [4.25, 4.25]},
       {"time": 0.4, "value": [-3.25, -3.25]},
       {"time": 0.55, "value": [0, 0]}
     ],
     "yaw": [
-      {"time": 0, "value": [-2.5, 2.5]},
-      {"time": 0.1, "value": [-2.5, 2.5]},
+      {"time": 0, "value": [-2.25, 2.25]},
+      {"time": 0.1, "value": [-2.25, 2.25]},
       {"time": 0.2, "value": [0.15, 0.15]},
       {"time": 0.4, "value": [0, 0]}
     ]
   },
   "inaccuracy": {
-    "stand": 11,
-    "move": 16,
-    "sneak": 8,
-    "lie": 6,
-    "aim": 4
+    "stand": 4.4,
+    "move": 6.4,
+    "sneak": 3.2,
+    "lie": 2.4,
+    "aim": 0.4
   },
   // 近战相关
   "melee": {

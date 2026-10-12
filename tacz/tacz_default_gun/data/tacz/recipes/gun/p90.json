@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 42
+      "count": 24
     },
     {
       "item": {
-        "item": "embers:dawnstone_ingot"
+        "item": "embers:copper_plate"
       },
-      "count": 7
+      "count": 8
     },
     {
       "item": {
-        "item": "ancient_aether:valkyrum"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "callfromthedepth_:soullight"
+        "item": "yuusha:uncommon_material"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:legendary_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

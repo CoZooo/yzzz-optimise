@@ -3,19 +3,19 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "celestial_core:guardian_ocean_ingot"
       },
-      "count": 2
+      "count": 8
     },
     {
       "item": {
-        "tag": "forge:gems/diamond"
+        "item": "cataclysm:abyssal_egg"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "minecraft:blaze_powder"
+        "item": "yuusha:slot_2"
       },
       "count": 1
     }

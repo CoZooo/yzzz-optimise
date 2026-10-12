@@ -15,6 +15,10 @@ blastFurnace.remove(<item:locusazzurro_icaruswings:steel_ingot>);
 //量子燃料改
 craftingTable.remove(<item:locusazzurro_icaruswings:quantum_fuel>);
 
+//西瓜
+craftingTable.remove(<item:locusazzurro_icaruswings:melon>);
+stoneCutter.addRecipe("locusazzurro_icaruswings.melon", <item:locusazzurro_icaruswings:melon>, <item:minecraft:melon>);
+
 //碳素粉
 craftingTable.remove(<item:locusazzurro_icaruswings:steel_mixture>);
 craftingTable.addShapeless("locusazzurro_icaruswings.steel_mixture", <item:locusazzurro_icaruswings:steel_mixture>*4, [<item:minecraft:iron_ingot>, <item:minecraft:coal>, <item:minecraft:red_sand>, <item:minecraft:gunpowder>]);
@@ -87,6 +91,7 @@ craftingTable.remove(<item:locusazzurro_icaruswings:transport_card_treasure>);
 craftingTable.remove(<item:locusazzurro_icaruswings:colored_feather_bunch>);
 craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <item:locusazzurro_icaruswings:colored_feather_bunch>, [<tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <tag:items:locusazzurro_icaruswings:colored_feathers>, <item:locusazzurro_icaruswings:linen_string>]);
 
+<item:locusazzurro_icaruswings:linen>.addTooltip("\u00A7e可在切石机中制作多种附魔");
 <item:locusazzurro_icaruswings:quantum_fuel>.addTooltip("\u00A76可在切石机中制作多种枪械满级附魔");
 <item:locusazzurro_icaruswings:magma_ingot>.addTooltip("\u00A76新增击杀狱火暗域领主灵颅必定获得");
 <item:locusazzurro_icaruswings:purpur_ingot>.addTooltip("\u00A76新增击杀紫心刚玉影鬼必定获得");
@@ -134,9 +139,9 @@ craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <it
 <item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7c玩家击杀潜影贝有小几率获得");
 <item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A7e新增所有生物击杀潜影贝有低几率获得");
 <item:locusazzurro_icaruswings:void_essence>.addTooltip("\u00A76相关内容详见末路之地章节");
-<item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A7c与流浪商人交易可获得");
-<item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A76详见上层世界章节");
+<item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A7c流浪商人交易、任务奖励几率获得");
 <item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A7e后续击杀混沌魔影也可获得");
+<item:locusazzurro_icaruswings:anemone>.addTooltip("\u00A76可在切石机中制作多种附魔");
 <item:locusazzurro_icaruswings:mead>.addTooltip("\u00A7e可利用陶制蜜酒罐制作");
 <item:locusazzurro_icaruswings:mead>.addTooltip("\u00A76相关内容详见好好吃章节");
 <item:locusazzurro_icaruswings:greek_fire_bucket>.addTooltip("\u00A7c与流浪商人或武器匠（职业方块为砂轮）村民交易可获得");
@@ -157,6 +162,7 @@ craftingTable.addShapeless("locusazzurro_icaruswings.colored_feather_bunch", <it
 <item:locusazzurro_icaruswings:green_feather>.addTooltip("\u00A76详见匠作章节鹦鹉刷怪蛋任务");
 <item:locusazzurro_icaruswings:cyan_feather>.addTooltip("\u00A76详见匠作章节鹦鹉刷怪蛋任务");
 <item:locusazzurro_icaruswings:gray_feather>.addTooltip("\u00A76详见匠作章节鹦鹉刷怪蛋任务");
+<item:locusazzurro_icaruswings:artemis_launcher>.anyDamage().addTooltip("\u00A76可享受箭术技能加成");
 
 
 //罐
@@ -187,6 +193,13 @@ stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.survival_instin
 stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.last_stand", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:last_stand"}]}), <item:locusazzurro_icaruswings:quantum_fuel>);
 stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.perfect_block", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:perfect_block"}]}), <item:locusazzurro_icaruswings:quantum_fuel>);
 stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.projection_magic", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:projection_magic"}]}), <item:locusazzurro_icaruswings:quantum_fuel>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.stability.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "apotheosis_modern_ragnarok:stability"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.emergency_protector.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 10, id: "apotheosis_modern_ragnarok:emergency_protector"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.riptide_warhead.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:riptide_warhead"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.survival_instinct.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:survival_instinct"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.last_stand.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:last_stand"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.perfect_block.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:perfect_block"}]}), <item:locusazzurro_icaruswings:anemone>);
+stoneCutter.addRecipe("apotheosis_modern_ragnarok.enchanted_book.projection_magic.1", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5, id: "apotheosis_modern_ragnarok:projection_magic"}]}), <item:locusazzurro_icaruswings:anemone>);
 
 
 

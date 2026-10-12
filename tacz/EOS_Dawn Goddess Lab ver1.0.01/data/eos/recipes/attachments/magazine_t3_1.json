@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:ammo_h3r"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:ink_heart"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:magazine_t3_1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "call_of_drowner:seagold_ingot"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_double_rsi"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

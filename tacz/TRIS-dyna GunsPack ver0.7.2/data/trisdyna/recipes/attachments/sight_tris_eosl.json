@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "callfromthedepth_:soulingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "celestial_core:pure_nether_star"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trisdyna:sight_tris_eosl"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

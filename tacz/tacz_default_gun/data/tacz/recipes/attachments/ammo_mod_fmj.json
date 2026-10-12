@@ -17,6 +17,12 @@
         "item": "embers:ember_crystal_cluster"
       },
       "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
     }
   ],
   "result": {

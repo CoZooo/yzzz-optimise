@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 60
+    },
+    {
+      "item": {
+        "item": "refinedstorage:construction_core"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pgp:n3516"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

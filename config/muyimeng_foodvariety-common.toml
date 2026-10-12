@@ -1,0 +1,4 @@
+#Maximum number of foods to keep in the diversity list (1-64)
+#Range: 1 ~ 64
+maxFoods = 8
+

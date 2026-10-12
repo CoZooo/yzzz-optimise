@@ -5,30 +5,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 64
+      "count": 60
     },
     {
       "item": {
-        "item": "born_in_chaos_v1:pumpkinhandgun"
+        "item": "cataclysm:remnant_skull"
       },
-      "count": 4
+      "count": 8
     },
-    {
-      "item": {
-        "item": "locusazzurro_icaruswings:demeter_charge"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "refinedstorage:creative_controller"
-      },
-      "count": 1
-    },
-    
     {
       "item": {
         "item": "yuusha:legendary_material"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

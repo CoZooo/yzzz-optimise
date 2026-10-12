@@ -7,8 +7,8 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "kill": 1000,
-        "refine": 10
+        "kill": 2000,
+        "refine": 20
       }
     },
     "E": {

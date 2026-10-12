@@ -2,6 +2,53 @@
   "type": "minecraft:gift",
   "pools": [
     {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:metal_lure",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:angler_trophy",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "majruszsaccessories:unbreakable_fishing_line",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:anglers_hat",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:sextant",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:weather_radio",
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "confluence:fishermans_pocket_guide",
+          "weight": 10,
+          "quality": 0
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
@@ -54,31 +101,15 @@
     },
     {
       "rolls": {
-        "min": 4.0,
-        "max": 6.0,
+        "min": 2.0,
+        "max": 4.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_iron",
-          "weight": 30,
-          "quality": 0,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 20,
+          "weight": 10,
           "quality": 0,
           "functions": [
             {
@@ -94,7 +125,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 12,
+          "weight": 10,
           "quality": 0,
           "functions": [
             {
@@ -109,40 +140,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold",
-          "weight": 12,
-          "quality": 0,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_copper",
-          "weight": 8,
-          "quality": 0,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 8,
+          "weight": 10,
           "quality": 0,
           "functions": [
             {
@@ -153,13 +152,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:scute",
-          "weight": 7,
+          "weight": 10,
           "quality": 0
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 3,
+          "weight": 10,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 10,
           "quality": 0
         }
       ]

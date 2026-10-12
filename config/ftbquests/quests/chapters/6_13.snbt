@@ -858,6 +858,8 @@
 				"&6魔能与声名相关内容，详见秘仪教典。"
 				""
 				"&e此物品并非必须通关物品，可选制作。"
+				""
+				"&c请勿用奴役对待亡灵化的队友，会导致游戏崩溃。"
 			]
 			id: "0C933D6A6E1E5A76"
 			rewards: [{
@@ -2715,6 +2717,7 @@
 						}
 					}
 					id: "367307DDEA419E1F"
+					team_reward: true
 					title: "扫除召唤的僵尸（自动领取）"
 					type: "command"
 				}
@@ -2731,6 +2734,7 @@
 						}
 					}
 					id: "2473342C4B2448BA"
+					team_reward: true
 					title: "扫除召唤的骷髅（自动领取）"
 					type: "command"
 				}
@@ -2747,6 +2751,7 @@
 						}
 					}
 					id: "221312487F1F1383"
+					team_reward: true
 					title: "扫除召唤的北极熊（自动领取）"
 					type: "command"
 				}
@@ -2763,6 +2768,7 @@
 						}
 					}
 					id: "78E7A54B7D69464B"
+					team_reward: true
 					title: "扫除召唤的恼鬼（自动领取）"
 					type: "command"
 				}
@@ -2779,6 +2785,7 @@
 						}
 					}
 					id: "61ECDAAC09AF1252"
+					team_reward: true
 					title: "扫除召唤的腐败蜘蛛（自动领取）"
 					type: "command"
 				}
@@ -2795,6 +2802,7 @@
 						}
 					}
 					id: "05DE04E4E423434F"
+					team_reward: true
 					title: "扫除召唤的狼（自动领取）"
 					type: "command"
 				}
@@ -3326,6 +3334,7 @@
 					elevate_perms: true
 					icon: "minecraft:zombie_head"
 					id: "16E6789F9A606F3D"
+					team_reward: true
 					title: "扫除召唤的僵尸"
 					type: "command"
 				}
@@ -3334,6 +3343,7 @@
 					elevate_perms: true
 					icon: "minecraft:skeleton_skull"
 					id: "641E3061207A2CE3"
+					team_reward: true
 					title: "扫除召唤的骷髅"
 					type: "command"
 				}
@@ -3342,6 +3352,7 @@
 					elevate_perms: true
 					icon: "minecraft:cod"
 					id: "394BF5F970CB5AA3"
+					team_reward: true
 					title: "扫除召唤的北极熊"
 					type: "command"
 				}
@@ -3350,6 +3361,7 @@
 					elevate_perms: true
 					icon: "xtraarrows:vex_wing"
 					id: "7F049A20C41299CD"
+					team_reward: true
 					title: "扫除召唤的恼鬼"
 					type: "command"
 				}
@@ -3358,6 +3370,7 @@
 					elevate_perms: true
 					icon: "goety_revelation:spider_fang"
 					id: "14E2BEF6F3925E3E"
+					team_reward: true
 					title: "扫除召唤的腐败蜘蛛"
 					type: "command"
 				}
@@ -3366,14 +3379,17 @@
 					elevate_perms: true
 					icon: "minecraft:bone"
 					id: "35CCB176A1B231FD"
+					team_reward: true
 					title: "扫除召唤的狼"
 					type: "command"
 				}
 				{
 					command: "/ftbquests change_progress @s reset 4CEB456DE84A7478"
 					elevate_perms: true
+					exclude_from_claim_all: true
 					icon: "sons_of_sins:touch_of_greed"
 					id: "0481F08DA89834BD"
+					team_reward: true
 					title: "重置此任务"
 					type: "command"
 				}

@@ -8,8 +8,8 @@
       "item": "slashblade:slashblade",
       "request": {
         "name": "slashblade:yasha_true",
-        "proud_soul": 50000,
-        "refine": 5
+        "proud_soul": 100000,
+        "refine": 10
       }
     },
     "M": {

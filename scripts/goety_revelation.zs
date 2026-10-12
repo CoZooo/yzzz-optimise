@@ -46,7 +46,8 @@ import mods.jeitweaker.Jei;
 <item:goety_revelation:spider_fang>.addTooltip("\u00A76击杀育母蜘蛛可获得");
 <item:goety_revelation:spider_fang>.addTooltip("\u00A7c在下界、阿比斯之渊、死寂之海放置蜘蛛网可转化为蜘蛛之母巢穴");
 <item:goety_revelation:spider_fang>.addTooltip("\u00A7e破坏蜘蛛之母巢穴会召唤出育母蜘蛛");
-<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7e· 该武器只享受“弹射物伤害”及全伤害等加成");
+<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7e· 该武器享受“弹射物伤害”及全伤害等加成");
+<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7c· 该武器仅不享受破空之势加成");
 
 //破妄附魔
 stoneCutter.addRecipe("goety_revelation.enchanted_book.reality_piercer.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "goety_revelation:reality_piercer"}]}), <item:goety_revelation:apocalyptium_ingot>);

@@ -12,11 +12,11 @@
   "pattern": [
     "    A    ",
     "   AAA   ",
-    "   ABA   ",
+    "   A A   ",
     " AAABAAA ",
-    "AABBBBBAA",
+    "AA BBB AA",
     " AAABAAA ",
-    "   ABA   ",
+    "   A A   ",
     "   AAA   ",
     "    A    "
   ],

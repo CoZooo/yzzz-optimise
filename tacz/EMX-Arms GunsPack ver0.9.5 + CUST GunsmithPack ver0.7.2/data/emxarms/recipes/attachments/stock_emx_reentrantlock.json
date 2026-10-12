@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "embers:intelligent_apparatus"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:ling_shi_2"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:stock_emx_reentrantlock"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

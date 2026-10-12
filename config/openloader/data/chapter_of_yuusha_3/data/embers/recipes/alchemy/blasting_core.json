@@ -20,7 +20,8 @@
     }
   ],
   "output": {
-    "item": "embers:blasting_core"
+    "item": "embers:blasting_core",
+	"count": 4
   },
   "tablet": {
     "tag": "forge:gunpowder"

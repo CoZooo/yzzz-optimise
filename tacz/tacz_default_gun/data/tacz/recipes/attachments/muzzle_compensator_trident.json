@@ -2,15 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "goety:cursed_ingot"
       },
-      "count": 10
+      "count": 24
     },
     {
       "item": {
-        "tag": "forge:ingots/gold"
+        "item": "callfromthedepth_:immemorialscrap"
       },
-      "count": 4
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
     }
   ],
   "result": {

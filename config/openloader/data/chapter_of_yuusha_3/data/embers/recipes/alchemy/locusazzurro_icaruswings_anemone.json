@@ -1,0 +1,41 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "eidolon:silver_ingot"
+    },
+    {
+      "item": "eidolon:silver_ingot"
+    },
+    {
+      "item": "eidolon:silver_ingot"
+    },
+    {
+      "item": "eidolon:silver_ingot"
+    }
+  ],
+  "output": {
+    "item": "locusazzurro_icaruswings:anemone",
+	"count": 8
+  },
+  "tablet": {
+    "item": "wizards_reborn:shiny_clover"
+  }
+}

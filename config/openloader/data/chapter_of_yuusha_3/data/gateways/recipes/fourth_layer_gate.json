@@ -1,0 +1,30 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DFB",
+    "EAE",
+    "BFD"
+  ],
+  "key": {
+    "D": {
+      "item": "infinite_abyss:fourth_layer_deepslate"
+    },
+	"E": {
+      "item": "infinite_abyss:glow_bulb"
+    },
+	"F": {
+      "item": "infinite_abyss:deepsilver_plate"
+    },
+	"A": {
+      "item": "endrem:lost_eye"
+    },
+	"B": {
+      "item": "infinite_abyss:cursed_opal_block"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:fourth_layer_gate"
+}

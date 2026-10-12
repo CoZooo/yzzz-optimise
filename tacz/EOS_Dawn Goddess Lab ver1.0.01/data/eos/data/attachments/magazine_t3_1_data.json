@@ -1,0 +1,10 @@
+{
+  "weight": 50,
+   "damage": {
+     "multiplier": 4.0
+   },
+  "head_shot":{
+    "multiplier": 2.0
+  },
+  "extended_mag_level": 3
+}

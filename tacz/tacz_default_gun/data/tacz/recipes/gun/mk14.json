@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 38
+      "count": 36
     },
     {
       "item": {
-        "item": "embers:dawnstone_ingot"
+        "item": "irons_spellbooks:arcane_salvage"
       },
-      "count": 8
+      "count": 12
     },
     {
       "item": {
-        "item": "ancient_aether:valkyrum"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "callfromthedepth_:soullight"
+        "item": "yuusha:rare_material"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:legendary_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

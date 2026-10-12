@@ -5,6 +5,7 @@
 		"darkness":-25
 	},
 	"defense_style":{
+		"yuusha":85,
 		"bash":85,
 		"magic":85,
 		"hit":85,

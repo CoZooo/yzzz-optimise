@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "forbidden_arcanus:obsidian_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "meetyourfight:phantoplasm"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "moonstone:blood_jelly"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:sight_emx_koei1"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

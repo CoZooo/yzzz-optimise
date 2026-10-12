@@ -43,7 +43,7 @@
   "tooltip.relics.relic.reset.locked": "要想使用你需要升级该能力至少一次。",
 
   "item.relics.infinity_ham": "无限火腿",
-  "tooltip.relics.infinity_ham.description": "食用来自能力“再生”的每片都会获得1点经验。需注意食用只能获得饱食度，无法获得营养。玩家缺乏营养会有严重负面效果，相关内容详见树海化章节「食物营养」任务。",
+  "tooltip.relics.infinity_ham.description": "食用来自能力“再生”的每片都会获得1点经验。需注意食用只能获得饱食度，无法获得食物营养。玩家缺乏营养会有严重负面效果，相关内容详见树海化章节「食物营养」任务。",
   "tooltip.relics.infinity_ham.ability.autophagy": "再生",
   "tooltip.relics.infinity_ham.ability.autophagy.description": "使用遗物时回复使用者的饱食度。",
   "tooltip.relics.infinity_ham.ability.autophagy.stat.feed.title": "饱食度：",

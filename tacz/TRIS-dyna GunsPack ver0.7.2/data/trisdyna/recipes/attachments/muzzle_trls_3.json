@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "celestial_core:virtual_gold_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "faded_conquest_2:key_of_death"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "trisdyna:muzzle_trls_3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

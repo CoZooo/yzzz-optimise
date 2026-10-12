@@ -1,0 +1,37 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:steel_ingot"
+      },
+      "count": 90
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:ammo",
+        "nbt": {
+          "AmmoId": "eos:alloy"
+        }
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "item": "avaritia:eternal_singularity"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_yellow_stone"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "eos:elp_34_t3"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -13,7 +13,7 @@
 				"key": "anything",
 				"types": [
 					"bow", "crossbow", "pickaxe", "shovel",
-					"heavy_weapon", "helmet", "chestplate",
+					"helmet", "chestplate",
 					"leggings", "boots", "shield",
 					"trident"
 				]

@@ -1,0 +1,25 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "emxarms:ammo_h3"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "obscure_api:astral_dust"
+      },
+      "count": 4
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:ammo_h3r"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

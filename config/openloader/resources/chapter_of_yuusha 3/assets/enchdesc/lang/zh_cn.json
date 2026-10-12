@@ -1,4 +1,6 @@
 {
+	"enchantment.minecraft.infinity.desc": "发射普通箭矢不会消耗箭，只对妖弓和印弓起效，并能直接不消耗射出特殊箭，无法对封弓起效。",
+
 	"enchantment.minecraft.binding_curse.desc": "阻止有此魔咒的物品从任意槽位取下",
 	"enchantment.minecraft.fire_protection.desc": "减少火焰伤害和着火燃烧时间，并大幅降低饮水值消耗",
 	

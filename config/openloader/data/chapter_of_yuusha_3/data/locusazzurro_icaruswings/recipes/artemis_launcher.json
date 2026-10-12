@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "SDS",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:charcoal"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "locusazzurro_icaruswings:artemis_launcher",
+    "count": 1
+  }
+}

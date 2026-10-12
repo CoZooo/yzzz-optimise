@@ -1,0 +1,9 @@
+{
+  "weight": 5,
+  "rpm": {
+    "multiplier": 1.1
+  },
+  "damage": {
+    "multiplier": 3.0
+  }
+}

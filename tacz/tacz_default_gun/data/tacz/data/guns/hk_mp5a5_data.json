@@ -1,19 +1,18 @@
 {
-  "ammo": "tacz:9mm",
+  "ammo": "tacz:556x45",
   "rpm": 720,
   "bullet": {
     "life": 0.75,
     "bullet_amount": 1,
-    "damage": 20,
+    "damage": 40,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.05,
+      "armor_ignore": 0.1,
       "head_shot_multiplier": 1.25,
       "damage_adjust": [
-        {"distance": 10, "damage": 20},
-        {"distance": 20, "damage": 16},
-        {"distance": 30, "damage": 12},
-        {"distance": "infinite", "damage": 8}
+        {"distance": 15, "damage": 40},
+        {"distance": 30, "damage": 28},
+        {"distance": "infinite", "damage": 16}
       ]
     },
     "speed": 180,
@@ -21,7 +20,15 @@
     "knockback": 0,
     "friction": 0.02,
     "ignite": false,
-    "pierce": 1
+    "pierce": 1,
+    "explosion": {
+      "explode": false,
+      "damage": 10,
+      "radius": 1.0,
+      "knockback": false,
+      "destroy_block": false,
+      "delay": 1
+    }
   },
   "ammo_amount": 30,
   "extended_mag_ammo_amount": [
@@ -45,7 +52,7 @@
   "put_away_time": 0.35,
   "sprint_time": 0.12,
   "aim_time": 0.17,
-  "weight": 3.1,
+  "weight": 20.0,
   "movement_speed": {
     "base": 0.0,
     "aim": -0.1,
@@ -65,10 +72,11 @@
   },
   "allow_attachment_types": [
     "scope",
-    "stock",
     "grip",
     "muzzle",
-    "extended_mag"
+    "extended_mag",
+    "stock",
+    "laser"
   ],
   "recoil": {
     "pitch": [

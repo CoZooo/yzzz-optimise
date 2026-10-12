@@ -10,10 +10,14 @@
 	"emxarms:gun/emx_mk951r_ba",
 	"emxarms:gun/emx_scgraves",
 	"emxarms:gun/emx_kund50ex_yh",
-	"emxarms:gun/emx_mg90"
+	"emxarms:gun/emx_mg90",
+	
+	"applied_armorer:gun/niklas_pistol_double_win_win",
+	"applied_armorer:gun/niklas_smg_freedom"
   ],
   // 黑名单，在白名单中的配方中，如果在黑名单中，则不会被显示
   "blacklist": [
+	"^trisdyna:.*$",
     "tacz:test",
 	"tacz:gun/cz75",
 	"tacz:gun/glock_17",
@@ -32,17 +36,15 @@
 	"tacz:gun/scar_h",
 	"tacz:gun/rpk",
 	"tacz:gun/rpg7",
+	"tacz:gun/ak47",
 	"fibers:gun/renetti",
 	"fibers:gun/bal27",
 	"fibers:gun/arx160",
 	"tacz:gun/m870",
 	"tacz:gun/mk14",
-	"tacz:gun/p90",
-	"tacz:gun/m107",
 	"tacz:gun/ai_awp",
 	"tacz:gun/m249",
 	"tacz:gun/m95",
-	"tacz:gun/aug",
 	"tacz:gun/qbz_95",
 	"fibers:gun/ax94",
 	"fibers:gun/raygun",

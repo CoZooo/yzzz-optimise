@@ -303,10 +303,10 @@
 		School = "irons_spellbooks:nature"
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 20.0
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 5.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 100.0
+		CooldownInSeconds = 60.0
 		AllowCrafting = true
 
 	#irons_spellbooks:ice
@@ -382,7 +382,7 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 10.0
+		ManaCostMultiplier = 15.0
 		SpellPowerMultiplier = 50.0
 		CooldownInSeconds = 5.0
 		AllowCrafting = true
@@ -471,7 +471,7 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "EPIC"
-		ManaCostMultiplier = 10.0
+		ManaCostMultiplier = 24.0
 		SpellPowerMultiplier = 2000.0
 		CooldownInSeconds = 5.0
 		AllowCrafting = true
@@ -1291,9 +1291,9 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 4.0
-		SpellPowerMultiplier = 35.0
-		CooldownInSeconds = 5.0
+		ManaCostMultiplier = 5.0
+		SpellPowerMultiplier = 15.0
+		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
 	[Spells."ias_spellbooks:dragline"]

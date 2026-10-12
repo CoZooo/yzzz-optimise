@@ -2,33 +2,26 @@
   "materials": [
     {
       "item": {
-        "item": "irons_spellbooks:ender_rune"
+        "item": "aetherworks:ingot_aether"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "moonstone:rage_crystal"
       },
       "count": 4
     },
     {
       "item": {
-        "item": "irons_spellbooks:lightning_rune"
-      },
-      "count": 4
-    },
-    {
-      "item": {
-        "item": "yuusha:twist_ingot"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "enigmaticlegacy:soul_dust"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "infinite_abyss:dead_crystal_heart"
+        "item": "yuusha:tomb_stone"
       },
       "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      }
     }
   ],
   "result": {

@@ -2,21 +2,27 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
+        "item": "locusazzurro_icaruswings:steel_ingot"
       },
       "count": 16
     },
     {
       "item": {
-        "tag": "forge:gems/amethyst"
+        "item": "hmag:reinforced_glass"
       },
-      "count": 5
+      "count": 4
     },
     {
       "item": {
-        "tag": "forge:dusts/redstone"
+        "item": "yuusha:slot_3"
       },
-      "count": 10
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
+      },
+      "count": 1
     }
   ],
   "result": {

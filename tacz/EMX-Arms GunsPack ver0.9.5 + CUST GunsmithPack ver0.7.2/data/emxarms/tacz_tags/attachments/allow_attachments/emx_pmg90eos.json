@@ -1,0 +1,9 @@
+[
+	"emxarms:sight_emx_return_eos",
+	"emxarms:stock_emx_sleep",
+
+	"tacz:ammo_mod_fmj",
+	"tacz:ammo_mod_fire_fmj",
+	
+	"#eos:stock_maid"
+]

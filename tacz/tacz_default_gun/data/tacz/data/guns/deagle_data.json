@@ -1,19 +1,18 @@
 {
-  "ammo": "tacz:50ae",
-  "rpm": 300,
+  "ammo": "tacz:556x45",
+  "rpm": 400,
   "bullet": {
     "life": 0.7,
     "bullet_amount": 1,
-    "damage": 95,
+    "damage": 200,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.10,
-      "head_shot_multiplier": 1.75,
+      "armor_ignore": 0.25,
+      "head_shot_multiplier": 1.5,
       "damage_adjust": [
-        {"distance": 15, "damage": 95},
-        {"distance": 30, "damage": 81},
-        {"distance": 45, "damage": 67},
-        {"distance": "infinite", "damage": 53}
+        {"distance": 20, "damage": 200},
+        {"distance": 40, "damage": 160},
+        {"distance": "infinite", "damage": 120}
       ]
     },
     "speed": 170,
@@ -24,17 +23,18 @@
     "pierce": 1,
     "explosion": {
       "explode": false,
-      "damage": 180,
-      "radius": 0.75,
-      "knockback": true,
+      "damage": 200,
+      "radius": 1.5,
+      "knockback": false,
+      "destroy_block": false,
       "delay": 1
     }
   },
-  "ammo_amount": 9,
+  "ammo_amount": 23,
   "extended_mag_ammo_amount": [
-    10,
-    12,
-    14
+    28,
+    33,
+    38
   ],
   "bolt": "closed_bolt",
   "reload": {
@@ -52,7 +52,7 @@
   "put_away_time": 0.33,
   "aim_time": 0.2,
   "sprint_time": 0.2,
-  "weight": 6.5,
+  "weight": 30,
   "movement_speed": {
     "base": 0.0,
     "aim": -0.1,
@@ -60,18 +60,33 @@
   },
   "crawl_recoil_multiplier": 0.75,
   "fire_mode": [
+    "burst",
     "semi"
   ],
+  "burst_data": {
+    "continuous_shoot": false,
+    "count": 3,
+    "bpm": 920,
+    "min_interval": 0.2
+  },
+  "fire_mode_adjust": {
+    "burst": {
+    "damage": -60,
+    "rpm": -370
+    }
+  },
   "allow_attachment_types": [
     "scope",
-    "muzzle",
+	"grip",
+	"muzzle",
     "extended_mag",
-    "stock"
+    "stock",
+    "laser"
   ],
   "recoil": {
     "pitch": [
-      {"time": 0, "value": [4.95, 4.95]},
-      {"time": 0.4, "value": [4.95, 4.95]},
+      {"time": 0, "value": [2.95, 2.95]},
+      {"time": 0.4, "value": [2.95, 2.95]},
       {"time": 0.65, "value": [-0.225, -0.225]},
       {"time": 0.85, "value": [0.125, 0.125]},
       {"time": 1.1, "value": [0, 0]},
@@ -83,10 +98,10 @@
     ]
   },
   "inaccuracy": {
-    "stand": 7,
-    "move": 10,
-    "sneak": 5,
-    "lie": 3,
+    "stand": 2.8,
+    "move": 4.0,
+    "sneak": 2.0,
+    "lie": 1.2,
     "aim": 0.1
   }
 }

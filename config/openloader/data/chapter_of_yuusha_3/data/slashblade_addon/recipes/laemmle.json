@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "proud_soul": 20000,
+        "proud_soul": 40000,
 		"name": "ak:spider",
-        "refine": 2
+        "refine": 4
       }
     },
     "G": {

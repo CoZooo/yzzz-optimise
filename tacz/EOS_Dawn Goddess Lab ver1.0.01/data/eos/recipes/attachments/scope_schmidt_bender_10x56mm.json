@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "cataclysm:ancient_metal_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "cataclysm:sandstorm_in_a_bottle"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_schmidt_bender_10x56mm"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

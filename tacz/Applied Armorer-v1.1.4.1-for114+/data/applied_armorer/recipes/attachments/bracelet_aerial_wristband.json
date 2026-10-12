@@ -3,9 +3,21 @@
   "materials": [
     {
       "item": {
-        "item": "minecraft:prismarine_shard"
+        "item": "callfromthedepth_:soulingot"
       },
-      "count": 4
+      "count": 16
+    },
+    {
+      "item": {
+        "item": "yuusha:ice_blood"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
     }
   ],
   "result": {

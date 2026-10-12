@@ -49,7 +49,6 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 <item:hmag:alraune_spawn_egg>.addTooltip("\u00A7e可消耗孢子花等材料在召唤祭坛中召唤");
 <item:hmag:mysterious_petal>.addTooltip("\u00A7e花精灵可消耗孢子花等材料在召唤祭坛中召唤");
 <item:hmag:reinforcing_chain>.addTooltip("\u00A7c可制作获得，开宝箱也有几率获得");
-//<item:hmag:endless_pearl>.addTooltip("\u00A76可用作星河贸易站交易");
 
 //说明
 <item:hmag:lightning_particle>.addTooltip("\u00A7c击杀闪电苦力怕有几率获得");
@@ -77,6 +76,18 @@ craftingTable.remove(<item:hmag:purification_cloth>);
 craftingTable.addShapeless("hmag.purification_cloth.2", <item:hmag:purification_cloth>*8, [<item:majruszsdifficulty:cloth>, <item:hmag:soul_powder>, <item:minecraft:phantom_membrane>, <item:minecraft:amethyst_shard>, <tag:items:hmag:milk>]);
 craftingTable.addShapeless("hmag.purification_cloth.1", <item:hmag:purification_cloth>*8, [<item:locusazzurro_icaruswings:linen>, <item:hmag:soul_powder>, <item:minecraft:phantom_membrane>, <item:minecraft:amethyst_shard>, <tag:items:hmag:milk>]);
 craftingTable.addShapeless("hmag.purification_cloth.0", <item:hmag:purification_cloth>*8, [<item:hmag:lich_cloth>, <item:hmag:soul_powder>, <item:minecraft:phantom_membrane>, <item:minecraft:amethyst_shard>, <tag:items:hmag:milk>]);
+
+//强化金属
+craftingTable.remove(<item:hmag:reinforced_block>);
+craftingTable.addShaped("hmag.reinforced_block", <item:hmag:reinforced_block>*16, [[<item:hmag:netherite_nugget>, <item:forbidden_arcanus:deorum_chain>, <item:hmag:netherite_nugget>], [<item:forbidden_arcanus:deorum_chain>, <item:yuusha:mutant_cube>, <item:forbidden_arcanus:deorum_chain>], [<item:hmag:netherite_nugget>, <item:forbidden_arcanus:deorum_chain>, <item:hmag:netherite_nugget>]]);
+
+//强化玻璃
+craftingTable.remove(<item:hmag:reinforced_glass>);
+craftingTable.addShapeless("hmag.reinforced_glass", <item:hmag:reinforced_glass>, [<item:hmag:reinforced_block>, <item:minecraft:glass>]);
+
+//强化遮光玻璃
+craftingTable.remove(<item:hmag:tinted_reinforced_glass>);
+craftingTable.addShapeless("hmag.tinted_reinforced_glass", <item:hmag:tinted_reinforced_glass>, [<item:hmag:reinforced_block>, <item:minecraft:tinted_glass>]);
 
 //堡垒盾牌
 craftingTable.remove(<item:hmag:fortress_shield>);

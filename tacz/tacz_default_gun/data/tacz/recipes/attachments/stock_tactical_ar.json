@@ -2,21 +2,21 @@
   "materials": [
     {
       "item": {
-        "tag": "forge:ingots/iron"
-      },
-      "count": 18
-    },
-    {
-      "item": {
-        "tag": "forge:ingots/gold"
+        "item": "locusazzurro_icaruswings:steel_ingot"
       },
       "count": 4
     },
     {
       "item": {
-        "tag": "forge:leather"
+        "item": "born_in_chaos_v1:armor_plate_from_dark_metal"
       },
-      "count": 4
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_2"
+      },
+      "count": 1
     }
   ],
   "result": {

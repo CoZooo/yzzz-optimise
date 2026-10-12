@@ -5,29 +5,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 28
+      "count": 36
     },
     {
       "item": {
-        "item": "refinedstorage:destruction_core"
+        "item": "goety:ominous_shard"
       },
-      "count": 4
+      "count": 12
     },
     {
       "item": {
-        "item": "embers:archaic_circuit"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "bosses_of_mass_destruction:crystal_fruit"
+        "item": "yuusha:rare_material"
       },
       "count": 1
     },
     {
       "item": {
-        "item": "yuusha:rare_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

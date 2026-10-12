@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "aetherworks:ingot_aether"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "goety:ice_cube"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "pgp:coldcore"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

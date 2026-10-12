@@ -10,6 +10,10 @@
   },
   "extra_items": [
     {
+      "item": "goety:redstone_monstrosity_head",
+      "count": 1
+    },
+    {
       "item": "yuusha:ignitium_star",
       "count": 1
     }
@@ -17,7 +21,11 @@
   "spirits": [
     {
       "type": "arcane",
-      "count": 4
+      "count": 16
+    },
+    {
+      "type": "umbral",
+      "count": 16
     }
   ]
 }

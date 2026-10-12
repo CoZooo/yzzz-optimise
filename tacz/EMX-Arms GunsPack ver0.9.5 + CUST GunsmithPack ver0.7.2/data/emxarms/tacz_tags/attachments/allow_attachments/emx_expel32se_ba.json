@@ -1,0 +1,13 @@
+[
+	"emxarms:grip_emx_double_rsi",
+	"emxarms:stock_emx_sleep",
+	"emxarms:muzzle_emx_catch",
+	"emxarms:grip_emx_static",
+	"applied_armorer:si_zako_2403",
+	"emxarms:sight_emx_koei1",
+	"emxarms:sight_emx_aps",
+
+	"#pgp:pgp_beamcore",
+	
+	"#eos:stock_maid"
+]

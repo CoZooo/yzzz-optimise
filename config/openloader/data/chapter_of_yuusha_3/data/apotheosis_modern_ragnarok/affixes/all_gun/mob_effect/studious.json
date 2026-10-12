@@ -5,25 +5,25 @@
   "values": {
     "epic": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
       "amplifier": 0
     },
     "mythic": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
       "amplifier": 1
     },
     "ancient": {
       "duration": {
-        "min": 120,
+        "min": 300,
         "steps": 5,
-        "step": 40
+        "step": 60
       },
       "amplifier": 2
     }

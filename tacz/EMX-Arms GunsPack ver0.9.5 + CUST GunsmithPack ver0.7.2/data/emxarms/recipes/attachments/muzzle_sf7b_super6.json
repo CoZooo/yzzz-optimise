@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "goety:cursed_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "bosses_of_mass_destruction:ancient_anima"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:muzzle_sf7b_super6"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "aetherworks:aetherium_anvil",
+  "difficulty": 5,
+  "emberPerHit": 50,
+  "input": {
+    "item": "enigmaticlegacy:etherium_ingot"
+  },
+  "numberOfHits": 35,
+  "result": [
+    {
+      "chance": 1.0,
+      "count": 1,
+      "item": "yuusha:fire_ingot_ex"
+    }
+  ],
+  "temperatureMax": 2950,
+  "temperatureMin": 2600
+}

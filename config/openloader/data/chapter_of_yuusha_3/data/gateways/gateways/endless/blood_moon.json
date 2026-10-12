@@ -58,7 +58,7 @@
     "failures": [
     ],
     "boss_event": {
-        "mode": "name_plate"
+        "mode": "boss_bar"
     },
     "spawn_algorithm": "gateways:inward_spiral"
 }

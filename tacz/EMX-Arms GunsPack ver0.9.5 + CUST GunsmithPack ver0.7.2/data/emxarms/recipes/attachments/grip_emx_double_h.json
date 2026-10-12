@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "deep_aether:stratus_ingot"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "item": "cataclysm:sandstorm_in_a_bottle"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_6"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:grip_emx_double_h"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

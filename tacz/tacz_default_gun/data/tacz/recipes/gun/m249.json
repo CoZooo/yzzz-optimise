@@ -4,29 +4,23 @@
       "item": {
         "item": "locusazzurro_icaruswings:steel_ingot"
       },
-      "count": 45
+      "count": 48
     },
     {
       "item": {
-        "item": "enigmaticlegacy:etherium_ingot"
+        "item": "avaritia:crystal_matrix_ingot"
       },
-      "count": 11
+      "count": 18
     },
     {
       "item": {
-        "item": "aetherworks:aspectus_aetherium"
+        "item": "yuusha:epic_material"
       },
-      "count": 4
+      "count": 1
     },
     {
       "item": {
-        "item": "cataclysm:void_eye"
-      },
-      "count": 2
-    },
-    {
-      "item": {
-        "item": "yuusha:ultimate_material"
+        "item": "yuusha:aja_purple_stone"
       },
       "count": 1
     }

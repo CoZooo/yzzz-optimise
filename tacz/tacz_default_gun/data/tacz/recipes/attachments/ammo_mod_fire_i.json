@@ -4,16 +4,23 @@
       "item": {
         "item": "minecraft:crying_obsidian"
       },
-      "count": 2
+      "count": 4
     },
     {
       "item": {
         "item": "celestial_core:fire_essence"
-      }
+      },
+      "count": 2
     },
     {
       "item": {
-        "item": "locusazzurro_icaruswings:nether_essence"
+        "item": "yuusha:slot_1"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "yuusha:aja_red_stone"
       },
       "count": 1
     }

@@ -7,7 +7,7 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "proud_soul": 10000,
+        "proud_soul": 20000,
         "name": "slashblade:orotiagito_rust"
       }
     },

@@ -7,9 +7,9 @@
       "type": "slashblade:blade",
       "item": "slashblade:slashblade",
       "request": {
-        "proud_soul": 40000,
+        "proud_soul": 80000,
         "name": "slashblade_addon:kirisaya",
-        "refine": 4
+        "refine": 8
       }
     },
     "C": {

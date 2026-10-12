@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "locusazzurro_icaruswings:synapse_alloy_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "depthcrawler:reinforcedeye"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_3"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:scope_elp_52_t3_default"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

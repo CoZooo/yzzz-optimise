@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "celestial_core:virtual_gold_ingot"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "item": "arcalis_bosses:cursed_cloth_shard"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_4"
+      },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:muzzle_chasing_light"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

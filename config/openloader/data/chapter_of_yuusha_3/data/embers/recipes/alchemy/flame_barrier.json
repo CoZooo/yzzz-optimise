@@ -3,6 +3,9 @@
   "aspects": [
     {
       "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/dawnstone"
     }
   ],
   "inputs": [
@@ -20,9 +23,10 @@
     }
   ],
   "output": {
-    "item": "embers:flame_barrier"
+    "item": "embers:flame_barrier",
+	"count": 4
   },
   "tablet": {
-    "item": "embers:ember_crystal"
+    "item": "embers:ember_crystal_cluster"
   }
 }

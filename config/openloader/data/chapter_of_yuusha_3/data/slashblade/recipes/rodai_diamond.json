@@ -8,7 +8,7 @@
       "item": "slashblade:slashblade",
       "request": {
 	    "name": "slashblade:rodai_wooden",
-        "kill": 50
+        "kill": 100
       }
     },
     "P": {
