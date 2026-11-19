@@ -2,7 +2,8 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:bow",
-    "apotheosis:bow_tome"
+    "apotheosis:bow_tome",
+	"cataclysm:cursed_bow"
   ],
   "incompatible": [
     "apotheosis:endless_quiver",

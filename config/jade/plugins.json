@@ -77,13 +77,16 @@
     "distance": false,
     "block_face": false,
     "coordinates": false,
-    "registry_name": "ON",
+    "registry_name": "OFF",
     "mod_name": true
   },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "rs_integration": {
+    "witch_cauldron": true
   },
   "touhou_little_maid": {
     "maid": true,

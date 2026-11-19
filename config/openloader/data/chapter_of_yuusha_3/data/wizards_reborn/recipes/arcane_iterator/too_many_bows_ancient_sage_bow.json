@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:ancient_sage_bow",
+    "count": 1
+  },
+  "wissen": 1500,
+  "ingredients": [
+    {
+      "item": "too_many_bows:power_crystal"
+    },
+    {
+      "item": "cataclysm:remnant_skull"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:remnant_skull"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    },
+    {
+      "item": "cataclysm:koboleton_bone"
+    }
+  ]
+}

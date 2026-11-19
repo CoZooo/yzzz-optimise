@@ -1,1 +1,15 @@
-[]
+[
+	{
+		"random": 0.1,
+		"block": {
+            "block": "wizards_reborn:arcanum_seed"
+        },
+		"bothhandsitem": [
+            "goety:philosophers_stone"
+        ],
+		"setblock": {
+            "block": "wizards_reborn:arcanum_growth"
+        }
+	}
+
+]

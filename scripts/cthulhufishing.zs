@@ -166,7 +166,7 @@ stoneCutter.addRecipe("minecraft.enchanted_book.frozen_catcher_enchantment", <it
 
 <item:cthulhufishing:runic_tablet>.anyDamage().addTooltip("\u00A7e可在树海化章节召唤超级血月");
 <item:cthulhufishing:runic_tablet>.anyDamage().addTooltip("\u00A76手持符文石板右击克苏鲁海洋祭坛也可召唤超级血月");
-<item:cthulhufishing:runic_tablet>.anyDamage().addTooltip("\u00A7c也可制作超级血月传送门珍珠，只能在主世界使用");
+<item:cthulhufishing:runic_tablet>.anyDamage().addTooltip("\u00A7c可制作超级血月传送门珍珠，只能在主世界64格高度以上使用");
 
 <item:cthulhufishing:relic>.anyDamage().addTooltip("\u00A76可制作获得，详见上层世界章节");
 

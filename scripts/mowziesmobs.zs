@@ -2,6 +2,7 @@ import mods.jeitweaker.Jei;
 
 //说明
 
+<item:mowziesmobs:elokosa_paw_new>.addTooltip("\u00A76可在新月时击杀片翼天使复制体获得");
 <item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A7c右击技能为非玩家伤害");
 <item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A7e击杀生物不能获得必须玩家击杀的掉落物");
 <item:mowziesmobs:ice_crystal>.anyDamage().addTooltip("\u00A76也无法获得玩家的伤害加成");
@@ -25,20 +26,23 @@ import mods.jeitweaker.Jei;
 <item:mowziesmobs:glowing_jelly>.addTooltip("\u00A7e荧光浮灯在黑森林的树林上空生成");
 <item:mowziesmobs:umvuthana_mask_faith>.addTooltip("\u00A76可在切石机中制作生命提升附魔");
 
-<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A76享受箭术技能、投射物等加成");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7e兼容利箭附魔，不兼容力量附魔");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A7c请勿上穿透引弓附魔！否则会导致游戏崩溃");
+<item:mowziesmobs:blowgun>.anyDamage().addTooltip("\u00A72无限附魔即可无限发射，物品栏内无需吹镖");
 <item:mowziesmobs:sculptor_staff>.anyDamage().addTooltip("\u00A76享受箭术技能等级加成");
 
-<item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A7e右击使用会消耗");
-<item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A76还可通过精魂坩埚较为简易地制作获得");
+<item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A7e右击使用不再会消耗");
+<item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A76也可通过精魂坩埚较为简易地复制");
 <item:mowzies_cataclysm:tongbi_eye>.addTooltip("\u00A7c使用时可能会有延迟，需等待片刻");
-<item:mowzies_cataclysm:frostmaw_eye>.addTooltip("\u00A7e右击使用会消耗");
-<item:mowzies_cataclysm:frostmaw_eye>.addTooltip("\u00A76还可通过精魂坩埚较为简易地制作获得");
+<item:mowzies_cataclysm:frostmaw_eye>.addTooltip("\u00A7e右击使用不再会消耗");
+<item:mowzies_cataclysm:frostmaw_eye>.addTooltip("\u00A76也可通过精魂坩埚较为简易地复制");
 <item:mowzies_cataclysm:frostmaw_eye>.addTooltip("\u00A7c使用时可能会有延迟，需等待片刻");
-<item:mowzies_cataclysm:sun_eye>.addTooltip("\u00A7e右击使用会消耗");
-<item:mowzies_cataclysm:sun_eye>.addTooltip("\u00A76还可通过精魂坩埚较为简易地制作获得");
+<item:mowzies_cataclysm:sun_eye>.addTooltip("\u00A7e右击使用不再会消耗");
+<item:mowzies_cataclysm:sun_eye>.addTooltip("\u00A76也可通过精魂坩埚较为简易地复制");
 <item:mowzies_cataclysm:sun_eye>.addTooltip("\u00A7c使用时可能会有延迟，需等待片刻");
-<item:mowzies_cataclysm:wrought_eye>.addTooltip("\u00A7e右击使用会消耗");
-<item:mowzies_cataclysm:wrought_eye>.addTooltip("\u00A76还可通过精魂坩埚较为简易地制作获得");
+<item:mowzies_cataclysm:wrought_eye>.addTooltip("\u00A7e右击使用不再会消耗");
+<item:mowzies_cataclysm:wrought_eye>.addTooltip("\u00A76也可通过精魂坩埚较为简易地复制");
 <item:mowzies_cataclysm:wrought_eye>.addTooltip("\u00A7c使用时可能会有延迟，需等待片刻");
 
 <item:mowziesmobs:bluff_rod>.addTooltip("\u00A7c可击杀寺庙内的泥峭人获得");
@@ -77,7 +81,9 @@ stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.3", <item:treasurebags:tr
 stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.4", <item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/nature", BagType: "treasurebags:nature"}}), <item:mowziesmobs:geomancer_belt>);
 stoneCutter.addRecipe("mowziesmobs.treasurebags.nature.5", <item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/nature", BagType: "treasurebags:nature"}}), <item:mowziesmobs:geomancer_sandals>);
 
-
+//吹筒
+craftingTable.remove(<item:mowziesmobs:blowgun>);
+craftingTable.addShaped("mowziesmobs.blowgun", <item:mowziesmobs:blowgun>, [[<item:locusazzurro_icaruswings:linen_string>, <item:minecraft:bamboo>, <item:locusazzurro_icaruswings:linen_string>], [<item:too_many_bows:power_crystal>, <item:minecraft:bamboo>, <item:too_many_bows:power_crystal>], [<item:locusazzurro_icaruswings:linen_string>, <item:minecraft:bamboo> , <item:locusazzurro_icaruswings:linen_string>]]);
 
 
 

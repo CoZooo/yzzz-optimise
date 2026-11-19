@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 600,
+  "durabilityCost": 0,
+  "input": {
+    "item": "goety:philosophers_stone"
+  },
+  "output": {
+    "item": "yuusha:knowledge_fragment",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 16
+    },
+    {
+      "type": "eldritch",
+      "count": 16
+    },
+    {
+      "type": "arcane",
+      "count": 16
+    },
+    {
+      "type": "umbral",
+      "count": 16
+    }
+  ]
+}

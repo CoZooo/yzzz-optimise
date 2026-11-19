@@ -68,9 +68,10 @@ import mods.jeitweaker.Jei;
 <item:simplyswords:harbinger>.anyDamage().addTooltip("\u00A7c将魔化遗剑丢进哭泣之井可获得");
 <item:simplyswords:harbinger>.anyDamage().addTooltip("\u00A7e需先解锁邪术学研究，详见咒法章节奥秘全典任务");
 
-<item:simplyswords:magiscythe>.anyDamage().addTooltip("\u00A7c可通过腐朽遗杖在特定条件转化获得");
-<item:simplyswords:magispear>.anyDamage().addTooltip("\u00A7c可通过腐朽遗杖在特定条件转化获得");
-<item:simplyswords:magiblade>.anyDamage().addTooltip("\u00A7c可通过腐朽遗杖在特定条件转化获得");
+<item:simplyswords:magiscythe>.anyDamage().addTooltip("\u00A76可通过腐朽遗杖在特定条件转化获得");
+<item:simplyswords:magiscythe>.anyDamage().addTooltip("\u00A7c此武器无法触发虚空锁链等附魔");
+<item:simplyswords:magispear>.anyDamage().addTooltip("\u00A76可通过腐朽遗杖在特定条件转化获得");
+<item:simplyswords:magiblade>.anyDamage().addTooltip("\u00A76可通过腐朽遗杖在特定条件转化获得");
 
 //强能容器
 craftingTable.remove(<item:simplyswords:contained_remnant>);

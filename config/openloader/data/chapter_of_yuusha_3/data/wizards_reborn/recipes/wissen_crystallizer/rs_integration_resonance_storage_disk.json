@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:wissen_crystallizer",
+  "output": {
+    "item": "rs_integration:resonance_storage_disk",
+    "count": 1
+  },
+  "wissen": 2000,
+  "ingredients": [
+    {
+      "item": "refinedstorage:64k_storage_disk"
+    },
+    {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    {
+      "item": "aquamirae:abyssal_amethyst"
+    },
+    {
+      "item": "aquamirae:abyssal_amethyst"
+    }
+  ]
+}

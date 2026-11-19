@@ -78,12 +78,12 @@
 	"eos.attachment.sight_eos_hs02.name": "§eEOSlab HS-02 全息瞄准镜「瞄具」",
 
 	"eos.attachment.wa2000_grip.name": "WA2000 水平两脚架",
-	"eos.attachment.grip_eos_bipod_1.name": "§e水平两脚架「收纳」",
+	"eos.attachment.grip_eos_bipod_1.name": "§e水平两脚架|收纳",
 	"eos.attachment.grip_eos_bipod_2.name": "§e水平两脚架",
 	"eos.attachment.grip_eos_grip_1.name": "§e直角握把",
 
 	"eos.attachment.stock_eos_tactical.name": "§e重型枪托",
-	"eos.attachment.stock_t3_core_2.name": "§4「曙光女神」会战核心",
+	"eos.attachment.stock_t3_core_2.name": "§4“曙光女神”会战核心「激光指示器」",
 	//子弹
     "eos.ammo.28x300.name": "§e28x300mm 柱状质量弹",
     "eos.ammo.85x76.name": "§e8.5x76mm 狙击弹",

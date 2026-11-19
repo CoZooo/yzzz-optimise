@@ -14,7 +14,8 @@
 		"attributeslib:sundering": 0
     },
     "travel_req":{
-        "slayer": 200
+        "slayer": 200,
+        "sky": 100
     },
     "vein_blacklist":["minecraft:bedrock"],
     "mob_multiplier": {}

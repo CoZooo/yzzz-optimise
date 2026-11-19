@@ -1,0 +1,61 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#F2EADA",
+	"base_wave": {
+        "entities": [
+			{
+				"entity": "call_of_yucutan:undead_warrior",
+				"count": 4
+			},
+			{
+				"entity": "call_of_yucutan:blowgun_huracan",
+				"count": 4
+			},
+			{
+				"entity": "call_of_yucutan:mitnal_monkey",
+				"count": 4
+			}
+		],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "attributeslib:vitality",
+						"amplifier": 4
+					}
+				}
+            ],
+        "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "minecraft:bone",
+				"count": 1
+			}
+        }],
+        "max_wave_time": 2400,
+        "setup_time": 120
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 2,
+                "max": 10
+            },
+            "modifiers": [{
+                "attribute": "generic.attack_damage",
+                "operation": "multiply_base",
+                "value": 0.1
+            }],
+            "max_wave_time": -200,
+            "setup_time": -10
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "boss_bar"
+    },
+    "spawn_algorithm": "gateways:open_field"
+}

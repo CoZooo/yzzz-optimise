@@ -18,6 +18,7 @@
 <tag:items:diet:sugars>.add(<item:crockpot:volt_goat_jelly>);
 
 //
+<item:crockpot:pot_upgrade_smithing_template>.addTooltip("\u00A76用金锭与猪灵交易几率获得");
 <item:crockpot:milk_bottle>.addTooltip("\u00A76用玻璃瓶右击牛即可获得");
 <item:crockpot:hoglin_nose>.addTooltip("\u00A76击杀疣猪兽可获得");
 <item:crockpot:flower_salad>.addTooltip("\u00A7e需注意花沙拉有两种烹饪方式");

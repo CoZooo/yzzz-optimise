@@ -1,44 +1,67 @@
 {
+	"curios.identifier.glove": "琳琅手套",
+	"curios.modifiers.glove": "佩戴琳琅手套时：",
+
 	"item.too_many_bows.hunter_bow": "猎手之弓『印弓』★ 1",
 	"item.too_many_bows.emerald_sage_bow": "绿宝石贤者之弓『印弓』★ 1",
-	
-	"item.too_many_bows.spectral_whisper": "幽灵轻语『印弓』★ 2",
+	"item.too_many_bows.aethers_call": "以太之唤『印弓』★ 1",
+	"item.many_bows.aether_bow.tooltip": "与以太之风调谐的弓，完全充能的射击释放以太爆发",
+	"item.many_bows.aether_bow.tooltip.extended": "持有者获得缓降，撞击时产生闪烁的以太粒子",
+
 	"item.too_many_bows.flame_bow": "葬火之拥『印弓』★ 2",
-	"item.too_many_bows.scatter_bow": "驱散射击『印弓』★ 2",
-	"item.too_many_bows.verdant_viper": "苍翠毒蝰『印弓』★ 2",
-	
-	"item.too_many_bows.frostbite": "霜噬『印弓』★ 3",
-	"item.too_many_bows.astral_bound": "星体之缚『印弓』★ 3",
-	"item.too_many_bows.demons_grasp": "恶魔之握『封弓』★ 3",
-	"item.too_many_bows.aethers_call": "以太之唤『封弓』★ 3",
-	"item.too_many_bows.torchbearer": "执炬『印弓』★ 3",
-	
-	"item.too_many_bows.burnt_relic": "焰灼遗物『妖弓』★ 4",
-	"item.too_many_bows.radiance": "光辉『印弓』★ 4",
-	"item.too_many_bows.auroras_grace": "极光之耀『印弓』★ 4",
-	"item.too_many_bows.vitality_weaver": "生机织弓『印弓』★ 4",
+	"item.too_many_bows.frostbite": "霜噬『印弓』★ 2",
+	"item.too_many_bows.spectral_whisper": "幽灵轻语『印弓』★ 2",
+	"item.too_many_bows.spectral_whisper.tooltip": "箭矢能穿透障碍物，但不再具有矢量突破",
+	"item.too_many_bows.spectral_whisper.details": "这把弓发射穿过方块的幽灵箭矢，伤害实体",
+	"item.too_many_bows.ironclad_bow": "幽古坚弓『印弓』★ 2",
+	"item.too_many_bows.ironclad_bow.tooltip.ability": "磁脉冲可造成较高伤害",
+	"item.too_many_bows.ironclad_bow.tooltip.legend": "箭矢不再具有引力",
+  
+	"item.too_many_bows.verdant_viper": "苍翠毒蝰『印弓』★ 3",
+	"item.too_many_bows.demons_grasp": "恶魔之握『印弓』★ 3",
+	"item.too_many_bows.sentinels_wrath": "哨卫之怒『印弓』★ 3",
+
+	"item.too_many_bows.tidal_bow": "潮汐之弓『印弓』★ 4",
 	"item.too_many_bows.wind_bow": "风之弓『印弓』★ 4",
-	"item.too_many_bows.sentinels_wrath": "哨卫之怒『印弓』★ 4",
-	
-	"item.too_many_bows.tidal_bow": "潮汐之弓『印弓』★ 5",
+	"item.too_many_bows.wind_bow.tooltip.ability": "能力：§b狂风爆发§r • 直接命中造成轻微魔法伤害",
+	"item.too_many_bows.astral_bound": "星体之缚『印弓』★ 4",
+
+	"item.too_many_bows.vitality_weaver": "生机织弓『印弓』★ 5",
 	"item.too_many_bows.arc_heavens": "天空之弧『印弓』★ 5",
-	"item.too_many_bows.dragons_breath": "龙之吐息『印弓』★ 5",
-	"item.too_many_bows.shulker_blast": "潜影冲击『印弓』★ 5",
-	"item.too_many_bows.solar_bow": "太阳耀斑『印弓』★ 5",
-	
-	"item.too_many_bows.dark_bow": "黑暗之弓『印弓』★ 6",
+	"item.too_many_bows.burnt_relic": "焰灼遗物『印弓』★ 5",
+	"item.too_many_bows.radiance": "光辉『印弓』★ 5",
+
 	"item.too_many_bows.ancient_sage_bow": "古代贤者之弓『印弓』★ 6",
+	"item.many_bows.ancient_sage_bow.tooltip.ability": "穿透一定百分比的护甲防御。",
 	"item.too_many_bows.cyroheart_bow": "凛心弓『印弓』★ 6",
-	"item.too_many_bows.crimson_nexus": "绯红联结『妖弓』★ 6",
-	"item.too_many_bows.twin_shadows": "双生对影『妖弓』★ 6",
+	"item.too_many_bows.twin_shadows": "双生对影『印弓』★ 6",
 	
-	"item.too_many_bows.ethereal_hunter": "超凡猎弓『印弓』★ 7",
-	"item.too_many_bows.ironclad_bow": "幽古暗雷坚弓『印弓』★ 7",
 	"item.too_many_bows.arcane_bow": "奥术之弓『印弓』★ 7",
-	"item.too_many_bows.webstring": "网弦『印弓』★ 7",
+	"item.too_many_bows.crimson_nexus": "绯红联结『印弓』★ 7",
+	"item.too_many_bows.scatter_bow": "驱散射击『印弓』★ 7",	
 	"item.too_many_bows.verdant_vigor": "苍翠活力『印弓』★ 7",
+
+	"item.too_many_bows.dragons_breath": "龙之吐息『印弓』★ 8",
+	"item.too_many_bows.shulker_blast": "潜影冲击『印弓』★ 8",
+	"item.too_many_bows.shulker_blast_bow.shift_title": "§6较高伤害",
+	"item.too_many_bows.ethereal_hunter": "超凡猎弓『印弓』★ 8",
+
+	"item.too_many_bows.torchbearer": "执炬『印弓』★ 9",
+	"item.too_many_bows.torchbearer_bow.effect": "具有较高伤害",
+	"item.too_many_bows.dusk_reaper": "黄昏死神『印弓』★ 9",
+	"item.many_bows.dusk_reaper.tooltip.debuff": "对被标记的目标施加虚弱、缓慢。",
+	"item.too_many_bows.webstring": "网弦『印弓』★ 9",
+
+	"item.too_many_bows.solar_bow": "太阳耀斑『印弓』★ 10",
+	"item.too_many_bows.auroras_grace": "极光之耀『印弓』★ 10",
+	"item.too_many_bows.necro_flame_bow": "死灵烈焰弓『印弓』★ 10",
+	"item.too_many_bows.cursed_flame_bow.tooltip": "充满诅咒火焰的弓，以不可熄灭的怒火燃烧。",
+	"item.too_many_bows.cursed_flame_bow.tooltip.ability": "射击后附加诅咒之火灼伤敌人",
+
+	"item.too_many_bows.spectral_bow": "幽灵之弓『印弓』",
 	
-	"item.too_many_bows.spectral_bow": "幽灵之弓『妖弓』",
-	"item.too_many_bows.necro_flame_bow": "死灵烈焰弓『印弓』",
-	"item.too_many_bows.dusk_reaper": "黄昏死神『印弓』"
+	"item.too_many_bows.dark_bow": "黑暗之弓『印弓』☆ 8",
+  "item.too_many_bows.sonic_bow.tooltip": "嫁接于监守者咆哮的破坏力（属非玩家伤害）",
+  "item.too_many_bows.sonic_bow.tooltip.ability": "发射强大的冲击波,以巨大力量穿透敌人",
+  "item.too_many_bows.sonic_bow.tooltip.legend": "从深暗之域的回声中锻造,这把弓释放纯粹的毁灭。"
 }

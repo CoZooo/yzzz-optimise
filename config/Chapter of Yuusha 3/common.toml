@@ -112,7 +112,7 @@
 		multishotArrowUnload = true
 		#魔化箭矢伤害转换百分比
 		#Range: 0.001 ~ 100.0
-		magicalArrowDamage = 0.02
+		magicalArrowDamage = 0.01
 		#魔化箭矢附魔生效上限
 		#Range: 0 ~ 255
 		magicalArrowMax = 5
@@ -242,10 +242,10 @@
 		[coreSettings.CY3_curiosSettings.war_mage_ring]
 			#法力恢复的独立乘区数值
 			#Range: 0.0 ~ 100.0
-			mana_regeneration = 0.25
+			mana_regeneration = 1.0
 			#每点法力能抵抗的伤害值
 			#Range: 0.0 ~ 3.4028234663852886E38
-			damageResistancePerMana = 0.5
+			damageResistancePerMana = 0.1
 
 		#奥数专精
 		[coreSettings.CY3_curiosSettings.arcane_specialty]
@@ -401,7 +401,7 @@
 			baseCurseCount = 20
 			#完成指定任务提升诅咒生效上限配置列表，格式: '任务ID,数量'
 			#例如: '236157B049B38896,50' - 完成236157B049B38896任务后,诅咒数量上限提升50
-			ftbCurseCount = ["76FC9361919880D0,15", "555FD97CE5538E94,50", "0482FB3C029760BE,15", "43609A81D4903CB6,150", "631EFE433B3E6327,30"]
+			ftbCurseCount = ["76FC9361919880D0,20", "555FD97CE5538E94,40", "0482FB3C029760BE,20", "43609A81D4903CB6,150", "631EFE433B3E6327,40"]
 
 #虚空之力配置
 [powerOfTheVoidCommonSettings]

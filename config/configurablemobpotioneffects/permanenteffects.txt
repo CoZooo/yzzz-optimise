@@ -270,9 +270,10 @@
 'eeeabsmobs:immortal_golem' : 'minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14',
 'eeeabsmobs:corpse' : 'minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14',
 
+'bygonenether:warped_enderman' : 'minecraft:instant_health,lvl:2|attributeslib:vitality,lvl:6|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14',
+
 'grimoireofgaia:ender_dragon_girl' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10',
 'hmag:ender_executor' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10|enigmaticaddons:pure_resistance,lvl:1',
-'goety:endersent' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10|enigmaticaddons:pure_resistance,lvl:1',
 'hmag:monolith' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4|attributeslib:vitality,lvl:10|enigmaticaddons:pure_resistance,lvl:1',
 'minecraft:shulker' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4',
 'stalwart_dungeons:propulk' : 'minecraft:instant_health,lvl:4|minecraft:resistance,lvl:4',
@@ -302,8 +303,6 @@
 'binah:dronevul' : 'minecraft:instant_health,lvl:3|attributeslib:vitality,lvl:20|enigmaticaddons:pure_resistance,lvl:1|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:16',
 'binah:drone_missile' : 'minecraft:instant_health,lvl:3|attributeslib:vitality,lvl:20|enigmaticaddons:pure_resistance,lvl:1|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:16',
 'binah:black_cube' : 'minecraft:instant_health,lvl:3|attributeslib:vitality,lvl:20|enigmaticaddons:pure_resistance,lvl:1|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:16',
-
-'bygonenether:warped_enderman' : 'minecraft:instant_health,lvl:2|attributeslib:vitality,lvl:6|minecraft:resistance,lvl:4|irons_spellbooks:oakskin,lvl:14',
 
 'infinite_abyss:deeprock_golem' : 'minecraft:speed,lvl:3|minecraft:instant_health,lvl:3|attributeslib:vitality,lvl:20|enigmaticaddons:pure_resistance,lvl:1|minecraft:resistance,lvl:5|irons_spellbooks:oakskin,lvl:16', 
 'infinite_abyss:fire_vortex' : 'minecraft:speed,lvl:3|minecraft:instant_damage,lvl:3|attributeslib:vitality,lvl:20|enigmaticaddons:pure_resistance,lvl:1|minecraft:resistance,lvl:5|irons_spellbooks:oakskin,lvl:16', 

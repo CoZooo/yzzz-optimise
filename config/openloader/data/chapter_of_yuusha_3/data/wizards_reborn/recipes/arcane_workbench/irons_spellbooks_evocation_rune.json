@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "AB_",
+    "___",
+    "___",
+    "____"
+  ],
+  "key": {
+    "B": {
+      "item": "illagerinvasion:primal_essence"
+    },
+    "A": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:evocation_rune"
+  },
+  "wissen": 200
+}

@@ -9,7 +9,7 @@
 	{
 		"when": "onjoin",
 		"mob": ["youkaishomecoming:rumia", "youkaishomecoming:shrine_maiden", "youkaishomecoming:cirno", "youkaishomecoming:yukari", "youkaishomecoming:kochiya_sanae", "youkaishomecoming:kirisame_marisa", "youkaishomecoming:komeiji_koishi", "youkaishomecoming:remilia_scarlet", "youkaishomecoming:mystia_lorelei", "youkaishomecoming:eternity_larva", "youkaishomecoming:clownpiece", "youkaishomecoming:small_fairy"],
-		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "chapter_of_yuusha_3_core:eternal_day_flat_dimension", "chapter_of_yuusha_3_core:eternal_night_flat_dimension", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "aether:the_aether"],
+		"dimension": ["callfromthedepth_:depth", "binah:endlessdesert", "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether", "minecraft:the_end", "distant_worlds:garhenna", "infinite_abyss:first_layer", "infinite_abyss:second_layer", "infinite_abyss:fourth_layer", "infinite_abyss:fifth_layer", "infinite_abyss:sixth_layer", "infinite_abyss:seventh_layer", "graveyard:past", "faded_conquest_2:the_abyss", "aether:the_aether"],
 		"result": "deny"
 	},
 	{

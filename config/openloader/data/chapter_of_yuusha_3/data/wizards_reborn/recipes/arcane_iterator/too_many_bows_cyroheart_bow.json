@@ -1,0 +1,31 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:cyroheart_bow",
+    "count": 1
+  },
+  "wissen": 1500,
+  "ingredients": [
+    {
+      "item": "too_many_bows:power_crystal"
+    },
+    {
+      "item": "confluence:frozen_turtle_shell"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "confluence:frozen_turtle_shell"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    }
+  ]
+}

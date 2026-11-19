@@ -86,19 +86,25 @@ furnace.addRecipe("infinite_abyss.astarium_crystal", <item:infinite_abyss:astari
 <item:infinite_abyss:puffball_heart>.addTooltip("\u00A76新增击杀末日蘑蛛、恶意发光球茎有几率获得");
 //<item:infinite_abyss:puffball_heart>.addTooltip("\u00A7e需喂食升级辅助玩家进食");
 
-<item:infinite_abyss:first_layer>.addTooltip("\u00A7c可制作获得，部分所需材料在主世界可以找到");
+<item:infinite_abyss:first_layer>.addTooltip("\u00A7e可制作获得，部分所需材料在主世界可找到");
 <item:infinite_abyss:first_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:infinite_abyss:second_layer>.addTooltip("\u00A7c可制作获得，部分所需材料在阿比斯之渊可以找到");
+<item:infinite_abyss:first_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
+<item:infinite_abyss:second_layer>.addTooltip("\u00A7e可制作获得，部分所需材料在阿比斯之渊可找到");
 <item:infinite_abyss:second_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:infinite_abyss:fourth_layer>.addTooltip("\u00A7c可制作获得，部分所需材料在无间之炼狱可以找到");
+<item:infinite_abyss:second_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
+<item:infinite_abyss:fourth_layer>.addTooltip("\u00A7e可制作获得，部分所需材料在无间之炼狱可找到");
 <item:infinite_abyss:fourth_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:infinite_abyss:fifth_layer>.addTooltip("\u00A7c可制作获得，部分所需材料在诱惑之森可以找到");
+<item:infinite_abyss:fourth_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
+<item:infinite_abyss:fifth_layer>.addTooltip("\u00A7e可制作获得，部分所需材料在诱惑之森可找到");
 <item:infinite_abyss:fifth_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:infinite_abyss:sixth_layer>.addTooltip("\u00A7c击杀亡骸之海维度的守护骑士、眼球蛙、巨型眼球蛙、咀嚼者都有几率掉落冰封钥匙");
+<item:infinite_abyss:fifth_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
+<item:infinite_abyss:sixth_layer>.addTooltip("\u00A7e击杀亡骸之海维度的守护骑士、眼球蛙、巨型眼球蛙、咀嚼者都有几率掉落冰封钥匙");
 <item:infinite_abyss:sixth_layer>.addTooltip("\u00A73还可以对着炼狱锻炉中心Shift右击回收守护骑士的盔甲几率获得");
 <item:infinite_abyss:sixth_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:infinite_abyss:seventh_layer>.addTooltip("\u00A7c可制作获得，部分所需材料在来无回之都维度可以找到");
+<item:infinite_abyss:sixth_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
+<item:infinite_abyss:seventh_layer>.addTooltip("\u00A7e可制作获得，部分所需材料在来无回之都维度可找到");
 <item:infinite_abyss:seventh_layer>.addTooltip("\u00A76相关内容详见极尽深渊章节");
+<item:infinite_abyss:seventh_layer>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
 
 <item:infinite_abyss:glowing_green_crystal_block>.addTooltip("\u00A7c在阿比斯之渊维度可获得");
 <item:infinite_abyss:glowing_green_crystal_block>.addTooltip("\u00A76相关内容详见极尽深渊章节");
@@ -129,8 +135,10 @@ furnace.addRecipe("infinite_abyss.astarium_crystal", <item:infinite_abyss:astari
 
 <item:infinite_abyss:cursed_opal>.addTooltip("\u00A7c在诱惑之森维度可获得");
 <item:infinite_abyss:cursed_opal>.addTooltip("\u00A76相关内容详见极尽深渊章节");
+<item:infinite_abyss:cursed_opal>.addTooltip("\u00A7e新增击杀诱惑之森的生物有几率获得");
 <item:infinite_abyss:deepsilver_plate>.addTooltip("\u00A7c在诱惑之森维度可获得");
 <item:infinite_abyss:deepsilver_plate>.addTooltip("\u00A76相关内容详见极尽深渊章节");
+<item:infinite_abyss:deepsilver_plate>.addTooltip("\u00A7e新增击杀诱惑之森的生物有几率获得");
 <item:infinite_abyss:enchanted_puffball_heart>.addTooltip("\u00A7c在诱惑之森维度击杀巨大尘孢可获得，也可制作获得");
 <item:infinite_abyss:enchanted_puffball_heart>.addTooltip("\u00A76相关内容详见极尽深渊章节");
 <item:infinite_abyss:glow_bulb>.addTooltip("\u00A7c在诱惑之森维度击杀恶意发光球茎或者采集可获得");

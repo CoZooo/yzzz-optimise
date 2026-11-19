@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "AB_",
+    "___",
+    "___",
+    "____"
+  ],
+  "key": {
+    "B": {
+      "item": "irons_spellbooks:divine_pearl"
+    },
+    "A": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:holy_rune"
+  },
+  "wissen": 200
+}

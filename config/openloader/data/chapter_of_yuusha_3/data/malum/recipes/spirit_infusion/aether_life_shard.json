@@ -1,0 +1,27 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [
+    {
+      "count": 4,
+      "item": "bhc:red_heart_melted"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "minecraft:echo_shard"
+  },
+  "output": {
+    "count": 1,
+    "item": "aether:life_shard"
+  },
+  "spirits": [
+    {
+      "type": "sacred",
+      "count": 2
+    },
+    {
+      "type": "earthen",
+      "count": 2
+    }
+  ]
+}

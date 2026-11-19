@@ -1,8 +1,10 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:aquamirae:oxygelium>.addTooltip("\u00A76需铁斧以上等级才能挖掘获得");
 <item:aquamirae:sharp_bones>.addTooltip("\u00A76在冰冻深海群系的遗迹、搁浅沉船处可以找到");
 <item:aquamirae:sharp_bones>.addTooltip("\u00A7c食用棘鱼后也会获得，击杀冰冻深海群系的部分生物也可获得");
+<item:aquamirae:sharp_bones>.addTooltip("\u00A73熟棘鱼可通过开启食物宝藏袋获得");
 <item:aquamirae:poseidons_breakfast>.addTooltip("\u00A7e新增开启亡骸之海维度的蓝宝石板条箱可获得");
 <item:aquamirae:treasure_pouch>.addTooltip("\u00A7e击杀科妮莉亚船长幽灵可获得");
 <item:aquamirae:treasure_pouch>.addTooltip("\u00A76此外通过海灵物语模组建筑内的宝箱和生物也有几率获得");
@@ -32,6 +34,7 @@ import mods.jeitweaker.Jei;
 <item:aquamirae:frozen_key>.addTooltip("\u00A7c击杀科妮莉亚船长幽灵可获得");
 <item:aquamirae:frozen_key>.addTooltip("\u00A7e可在星河贸易站内交易获得深寒星尘等材料");
 <item:aquamirae:frozen_key>.addTooltip("\u00A76更多相关信息详见上层世界章节冻结的钥匙任务");
+<item:aquamirae:frozen_key>.addTooltip("\u00A73冻结的箱子也可通过滴水石锥制作生成");
 
 <item:aquamirae:sweet_lance>.anyDamage().addTooltip("\u00A7c新增击杀科妮莉亚船长幽灵额外有50%几率获得");
 <item:aquamirae:terrible_sword>.anyDamage().addTooltip("\u00A7c可制作获得");

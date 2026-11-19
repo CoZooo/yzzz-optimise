@@ -1,32 +1,76 @@
 {
 	"weight": 5,
-	"quality": 0.1,
+	"quality": 0,
 	"dimensions": ["minecraft:overworld"],
 	"unique": true,
 	"min_rarity": "uncommon",
-	"bonuses": [{
-			"type": "apotheosis:all_stats",
+	"bonuses": [
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "gem.apotheosis:overworld/royalty.bonus.helmet",
 			"gem_class": {
 				"key": "helmet",
 				"types": [
 					"helmet"
 				]
 			},
-			"operation": "MULTIPLY_BASE",
-			"values": {
-				"uncommon": 0.05,
-				"rare": 0.10,
-				"epic": 0.15,
-				"mythic": 0.20,
-				"ancient": 0.25
-			},
-            "attributes": [
-                "minecraft:generic.max_health",
-                "minecraft:generic.attack_damage",
-                "minecraft:generic.luck",
-                "attributeslib:crit_chance",
-                "attributeslib:crit_damage"
-            ]
+			"modifiers": [
+				{
+					"attribute": "attributeslib:crit_chance",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.15,
+						"epic": 0.20,
+						"mythic": 0.25,
+						"ancient": 0.3
+					}
+				},
+				{
+					"attribute": "attributeslib:crit_damage",
+					"operation": "ADDITION",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.15,
+						"epic": 0.20,
+						"mythic": 0.25,
+						"ancient": 0.3
+					}
+				},
+				{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.15,
+						"epic": 0.20,
+						"mythic": 0.25,
+						"ancient": 0.3
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.15,
+						"epic": 0.20,
+						"mythic": 0.25,
+						"ancient": 0.3
+					}
+				},
+				{
+					"attribute": "minecraft:generic.luck",
+					"operation": "MULTIPLY_BASE",
+					"values": {
+						"uncommon": 0.1,
+						"rare": 0.15,
+						"epic": 0.20,
+						"mythic": 0.25,
+						"ancient": 0.3
+					}
+				}
+			]
 		},
 		{
 			"type": "apotheosis:drop_transform",

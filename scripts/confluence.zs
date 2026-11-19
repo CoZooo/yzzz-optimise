@@ -33,6 +33,8 @@ import mods.jeitweaker.Jei;
 <item:confluence:eye_of_the_golem>.anyDamage().addTooltip("\u00A7e丛林宝箱获取可见匠作章节贸易商人刷怪蛋任务");
 <item:confluence:eye_of_the_golem>.anyDamage().addTooltip("\u00A76该饰品的神化暴击率为全伤害加成");
 <item:confluence:frozen_turtle_shell>.anyDamage().addTooltip("\u00A7c新增击杀冰封蟹有几率获得");
+<item:confluence:frozen_turtle_shell>.anyDamage().addTooltip("\u00A76据说需同时佩戴冰冻护盾和冰冻海龟壳才能生效");
+<item:confluence:frozen_shield>.anyDamage().addTooltip("\u00A76据说需同时佩戴冰冻护盾和冰冻海龟壳才能生效");
 <item:confluence:panic_necklace>.anyDamage().addTooltip("\u00A7c新增击杀冰封蟹有几率获得");
 <item:confluence:paladins_shield>.anyDamage().addTooltip("\u00A7c新增击杀沙漠守卫者有几率获得");
 <item:confluence:shackle>.anyDamage().addTooltip("\u00A7c新增击杀僵尸蛮种有几率获得");
@@ -299,6 +301,8 @@ craftingTable.addShaped("confluence.accessories_icon", <item:confluence:accessor
 
 //额外配饰
 <tag:items:curios:extra_accessory>.add([<item:confluence:bezoar>, <item:confluence:holy_water>, <item:confluence:detoxification_capsule>, <item:confluence:vitamins>, <item:confluence:energy_bar>, <item:confluence:nutrient_solution>, <item:confluence:blindfold>, <item:confluence:flashlight>, <item:confluence:searchlight>, <item:confluence:fast_clock>, <item:confluence:trifold_map>, <item:confluence:the_plan>, <item:confluence:hand_drill>, <item:confluence:shot_put>, <item:confluence:explorers_equipment>, <item:confluence:ankh_charm>, <item:confluence:ankh_shield>, <item:confluence:cobalt_shield>, <item:confluence:obsidian_shield>, <item:confluence:climbing_claws>, <item:confluence:shoe_spikes>, <item:confluence:tiger_climbing_gear>, <item:confluence:tabi>, <item:confluence:master_ninja_gear>, <item:confluence:flipper>, <item:confluence:frog_leg>, <item:confluence:frog_flipper>, <item:confluence:frog_webbing>, <item:confluence:frog_gear>, <item:confluence:hand_warmer>, <item:confluence:paladins_shield>, <item:confluence:frozen_turtle_shell>, <item:confluence:frozen_shield>, <item:confluence:lava_charm>, <item:confluence:obsidian_rose>]);
+
+<tag:items:curios:accessory>.remove([<item:confluence:bezoar>, <item:confluence:holy_water>, <item:confluence:detoxification_capsule>, <item:confluence:vitamins>, <item:confluence:energy_bar>, <item:confluence:nutrient_solution>, <item:confluence:blindfold>, <item:confluence:flashlight>, <item:confluence:searchlight>, <item:confluence:fast_clock>, <item:confluence:trifold_map>, <item:confluence:the_plan>, <item:confluence:hand_drill>, <item:confluence:shot_put>, <item:confluence:explorers_equipment>, <item:confluence:ankh_charm>]);
 
 //气球
 stoneCutter.addRecipe("confluence.cloud_in_a_balloon", <item:confluence:cloud_in_a_balloon>, <item:moonstone:ectoplasmcloub>);

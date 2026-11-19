@@ -11,7 +11,7 @@
 		{ "item": "touhou_little_maid:hakurei_gohei" }
     ],
     "inputs": [
-        { "ingredient": { "item": "cataclysm:witherite_ingot" }, "count": 1 },
+        { "ingredient": { "item": "yuusha:summon_the_harbinger" }, "count": 1 },
         { "ingredient": { "item": "malum:hex_ash" }, "count": 1 }
     ],
     "recipe_time": 60

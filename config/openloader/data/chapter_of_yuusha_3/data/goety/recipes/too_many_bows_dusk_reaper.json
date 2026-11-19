@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "too_many_bows:power_crystal"
+  },
+  "craftType": "forge",
+  "soulCost": 4000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "luminous_halloween:halloween_ingot"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "yuusha:cold_fire_bottle"
+    },
+    {
+      "item": "eeeabsmobs:heart_of_pagan"
+    },
+    {
+      "item": "eeeabsmobs:heart_of_pagan"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:dusk_reaper"
+  }
+}

@@ -1,18 +1,21 @@
+import mods.jeitweaker.Jei;
+
 //说明
+<item:callfromthedepth_:rottencameli>.addTooltip("\u00A76新增击杀腐猎兽和腐噬兽有几率获得");
 <item:callfromthedepth_:depth>.addTooltip("\u00A76可用赫菲斯托斯锻造或炼金术制作获得");
 <item:callfromthedepth_:depth>.addTooltip("\u00A7e在赫菲斯托斯锻炉中合成时需«诅咒契约»作为增强遗物");
 <item:callfromthedepth_:depth>.addTooltip("\u00A72此外击杀监守者有5%几率获得");
-<item:callfromthedepth_:depth>.addTooltip("\u00A7c多人游戏时存在特性JEI无法完全显示锻炉的合成表");
+<item:callfromthedepth_:depth>.addTooltip("\u00A7c选择空岛世界线无法进入幽匿暗域维度");
 <item:callfromthedepth_:immemorialupgradesmithingtemplate>.addTooltip("\u00A7c在幽匿暗域维度特殊建筑的宝箱内可获得");
 <item:callfromthedepth_:immemorialupgradesmithingtemplate>.addTooltip("\u00A76相关信息详见幽匿暗域章节");
 <item:callfromthedepth_:sculkhearth>.addTooltip("\u00A7e击杀监守者可获得，相关信息详见幽匿暗域章节");
 <item:callfromthedepth_:sculkhearth>.addTooltip("\u00A76女仆世界线也可制作获得");
 <item:callfromthedepth_:sculkhearth>.addTooltip("\u00A7c可对着炼狱锻炉中心Shift右击几率回收为监守者刷怪蛋");
-<item:callfromthedepth_:soulinagony>.addTooltip("\u00A7e手持苦痛幽魂右击献祭之石可召唤永恒苦痛之灵");
-<item:callfromthedepth_:soulinagony>.addTooltip("\u00A7c苦痛幽魂不会消耗，如果一直右击会召唤多个");
+<item:callfromthedepth_:soulinagony>.addTooltip("\u00A7e手持苦痛幽魂右击献祭之石等待片刻召唤永恒苦痛之灵");
+<item:callfromthedepth_:soulinagony>.addTooltip("\u00A7c右击不会消耗并可持续右击召唤多个");
 <item:callfromthedepth_:soulinagony>.addTooltip("\u00A76可以与幽匿村民的2级交易获得，相关信息详见幽匿暗域章节");
-<item:callfromthedepth_:weepingsoul>.addTooltip("\u00A7e手持哭泣幽魂右击哭泣之石可召唤幽匿诅咒骑士，哭泣幽魂不会消耗");
-<item:callfromthedepth_:weepingsoul>.addTooltip("\u00A7c如果一直右击会召唤多个");
+<item:callfromthedepth_:weepingsoul>.addTooltip("\u00A7e手持哭泣幽魂右击哭泣之石等待片刻召唤幽匿诅咒骑士");
+<item:callfromthedepth_:weepingsoul>.addTooltip("\u00A7c右击不会消耗并可持续右击召唤多个");
 <item:callfromthedepth_:weepingsoul>.addTooltip("\u00A76可制作获得，相关信息详见幽匿暗域章节");
 <item:callfromthedepth_:poisonwater_bucket>.addTooltip("\u00A7c幽匿暗域有自然生成的酸液液体，也可与幽匿村民交易获得");
 <item:callfromthedepth_:poisonwater_bucket>.addTooltip("\u00A76相关信息详见幽匿暗域章节");
@@ -40,6 +43,9 @@
 <item:callfromthedepth_:soulingot>.addTooltip("\u00A7c用冥魂锭对着炼狱锻炉中心Shift右击几率回收为幽匿城堡守卫者刷怪蛋");
 <item:callfromthedepth_:citadelguardian_spawn_egg>.addTooltip("\u00A7c用冥魂锭对着炼狱锻炉中心Shift右击几率回收为幽匿城堡守卫者刷怪蛋");
 <item:callfromthedepth_:corruptedstone>.addTooltip("\u00A7c请勿采掘，无法获得掉落物，且无法放下");
+
+//
+Jei.hideIngredient(<item:callfromthedepth_:soulbow>);
 
 //幽匿之心
 craftingTable.remove(<item:callfromthedepth_:sculkhearth>);

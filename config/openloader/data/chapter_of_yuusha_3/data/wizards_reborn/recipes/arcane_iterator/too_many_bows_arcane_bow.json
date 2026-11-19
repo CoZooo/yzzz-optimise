@@ -4,22 +4,34 @@
     "item": "too_many_bows:arcane_bow",
     "count": 1
   },
-  "wissen": 5000,
+  "wissen": 2000,
   "ingredients": [
     {
-      "item": "morebows:netherite_bow"
+      "item": "too_many_bows:power_crystal"
     },
     {
-      "item": "callfromthedepth_:soullight"
+      "item": "callfromthedepth_:marble_gem"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "yuusha:chaos_ingot"
+    },
+    {
+      "item": "goety:shadow_essence"
+    },
+    {
+      "item": "callfromthedepth_:marble_gem"
+    },
+    {
+      "item": "goety:shadow_essence"
     },
     {
       "item": "yuusha:chaos_ingot"
     },
     {
-      "item": "hmag:fortune_crystal_plus"
-    },
-    {
-      "item": "yuusha:chaos_ingot"
+      "item": "goety:shadow_essence"
     }
   ]
 }

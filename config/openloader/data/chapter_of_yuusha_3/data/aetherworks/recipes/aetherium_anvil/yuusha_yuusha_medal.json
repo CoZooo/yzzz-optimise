@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 4,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "yuusha:ancient_aether_shard"
   },

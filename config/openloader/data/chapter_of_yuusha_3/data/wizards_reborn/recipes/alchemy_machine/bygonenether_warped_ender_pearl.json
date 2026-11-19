@@ -1,0 +1,34 @@
+{
+  "type": "wizards_reborn:alchemy_machine",
+  "outputItem": {
+    "item": "bygonenether:warped_ender_pearl",
+    "count": 1
+  },
+  "steam": 500,
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "immortalers_delight:warped_laurel"
+    },
+    {
+      "item": "wizards_reborn:ground_warped_fungus"
+    },
+    {
+      "item": "wizards_reborn:ground_warped_fungus"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    },
+    {
+      "item": "netherdepthsupgrade:warped_kelp"
+    }
+  ],
+  "fluidIngredients": [
+    {
+      "name": "wizards_reborn:hellish_mushroom_brew",
+      "amount" : 1000
+    }
+  ]
+}

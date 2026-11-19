@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "aether_redux:veridium_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "yuusha:aja_stone"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "confluence:accessories_icon"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_5"
+        },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "eos:stock_t3_core_2"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

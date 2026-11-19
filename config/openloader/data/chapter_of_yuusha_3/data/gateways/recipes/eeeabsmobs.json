@@ -1,0 +1,21 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "FFF",
+    "FAF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "cthulhufishing:ancient_coin"
+    },
+	"A": {
+      "item": "grimoireofgaia:giga_gear"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:eeeabsmobs"
+}

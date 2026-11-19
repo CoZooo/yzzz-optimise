@@ -1,10 +1,16 @@
 import mods.jeitweaker.Jei;
 
 //
+<item:born_in_chaos_v1:mother_spider_spawn_egg>.addTooltip("\u00A76夜晚地下自然生成");
+<item:born_in_chaos_v1:mother_spider_spawn_egg>.addTooltip("\u00A7e也可用蜘蛛巢等材料在召唤祭坛召唤");
+<item:born_in_chaos_v1:fused_bone>.addTooltip("\u00A76击杀连体小骷髅可获得，主世界可生成");
+<item:born_in_chaos_v1:fused_bone>.addTooltip("\u00A7e右击沙子可将其转变为可疑沙子（蔓生神庙）");
+<item:born_in_chaos_v1:evil_carved_pumpkin>.addTooltip("\u00A76对着施肥南瓜使用剪刀可获得");
 <item:born_in_chaos_v1:seedof_chaos>.addTooltip("\u00A7c击杀生于混沌模组的部分怪物可获得");
 <item:born_in_chaos_v1:seedof_chaos>.addTooltip("\u00A7e在极尽深渊的阿比斯之渊内会生成大量生于混沌模组生物");
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7c击杀生于混沌模组的部分怪物可获得");
 <item:born_in_chaos_v1:pieceofdarkmetal>.addTooltip("\u00A7e在极尽深渊的阿比斯之渊内会生成大量生于混沌模组生物");
+<item:born_in_chaos_v1:damned_demomans_hat_helmet>.anyDamage().addTooltip("\u00A7e谨慎佩戴！会无法取下");
 
 <item:born_in_chaos_v1:spiritof_chaos_spawn_egg>.addTooltip("\u00A7c混沌恶灵只能在主世界内生成");
 <item:born_in_chaos_v1:pumpkinstaffa>.addTooltip("\u00A7c击杀南瓜伯爵头颅可获得");
@@ -67,6 +73,7 @@ import mods.jeitweaker.Jei;
 <item:born_in_chaos_v1:bloody_gadfly_eye>.addTooltip("\u00A7e可在星河贸易站内交易获得");
 <item:born_in_chaos_v1:nightmare_claw>.addTooltip("\u00A76在阿比斯之渊内也会生成梦魇寻踪兽");
 <item:born_in_chaos_v1:lifestealer_bone>.addTooltip("\u00A76在阿比斯之渊内也会生成窃命者");
+<item:born_in_chaos_v1:lifestealer_bone>.addTooltip("\u00A7e右击沙子可将其转变为可疑沙子（致命神庙）");
 <item:born_in_chaos_v1:spiritual_dust>.addTooltip("\u00A76在阿比斯之渊内也会生成骷髅召唤师");
 
 <item:born_in_chaos_v1:dark_rod>.addTooltip("\u00A76可制作，详见咒法章节");
@@ -154,7 +161,7 @@ Jei.hideIngredient(<item:born_in_chaos_v1:spiny_shell_armor_chestplate>);
 <tag:items:minecraft:flowers>.add(<item:born_in_chaos_v1:marigolds>);
 
 //汉化
-<item:born_in_chaos_v1:darkwarblade>.anyDamage().addTooltip("\u00A7c只能移除目标的『生命恢复』效果");
+<item:born_in_chaos_v1:darkwarblade>.anyDamage().addTooltip("\u00A7c只能移除目标的「生命恢复」效果");
 
 <item:born_in_chaos_v1:sea_terror_eye>.addTooltip("\u00A7e可在星河贸易站内交易获得");
 

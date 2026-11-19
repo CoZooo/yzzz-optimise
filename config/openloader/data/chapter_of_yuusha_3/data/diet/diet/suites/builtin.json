@@ -93,7 +93,7 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.5
+          "amount": 0.05
         },
         {
           "name": "gunsmithlib:bullet_damage",
@@ -136,7 +136,7 @@
         {
           "name": "irons_spellbooks:spell_power",
           "operation": "multiply_base",
-          "amount": 0.5
+          "amount": 0.05
         },
         {
           "name": "gunsmithlib:bullet_damage",

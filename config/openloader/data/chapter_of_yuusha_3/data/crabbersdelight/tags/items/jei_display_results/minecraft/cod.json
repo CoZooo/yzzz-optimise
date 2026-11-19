@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "crabbersdelight:crab",
+    "crabbersdelight:coral_fragments",
+    "minecraft:bamboo",
+    "farmersdelight:rope",
+    "minecraft:nautilus_shell"
+  ]
+}

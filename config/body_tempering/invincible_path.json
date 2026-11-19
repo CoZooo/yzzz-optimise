@@ -1,0 +1,32 @@
+{
+  "_comment_zh": [
+    "归墟佩戴限制 | Invincible Path restrictions",
+    "装备/携带归墟时，禁用除命运栏位、命运饰品以外的所有饰品，并禁止穿戴装备（护甲）。",
+    "字段说明：",
+    "  enabled: 总开关（true/false）",
+    "  require_equipped: true=必须把归墟装备在饰品栏（命运栏位）才触发；false=背包携带也触发",
+    "  restrict_curios: 是否禁用其它饰品栏（true/false）",
+    "  allowed_curio_slots: 允许使用的饰品栏类型 ID 列表（默认 [\"fate\"] 命运栏位；命运栏位可拓展，多个槽位都允许）",
+    "  allow_fate_tagged_curios: 是否允许“命运饰品”（curios:fate 物品标签内的物品，可用数据包扩展标签）",
+    "  extra_allowed_items: 额外允许的饰品物品 ID 列表（例如想让某些模组的命运类饰品也生效）",
+    "  restrict_armor: 是否禁止穿戴装备（护甲四件套）",
+    "  restrict_offhand: 是否禁止使用副手（默认 false）",
+    "  enforce_interval_ticks: 强制卸下检查间隔（tick，20=1秒）",
+    "  eject_to_inventory: true=卸下后放回背包（背包满则掉落）；false=直接掉落",
+    "  notify_player: 被卸下/阻止时是否在动作栏提示",
+    "修改后需重启游戏或 /temper reload 生效。"
+  ],
+  "enabled": true,
+  "require_equipped": true,
+  "restrict_curios": true,
+  "allowed_curio_slots": [
+    "fate"
+  ],
+  "allow_fate_tagged_curios": true,
+  "extra_allowed_items": [],
+  "restrict_armor": true,
+  "restrict_offhand": false,
+  "enforce_interval_ticks": 10,
+  "eject_to_inventory": false,
+  "notify_player": true
+}

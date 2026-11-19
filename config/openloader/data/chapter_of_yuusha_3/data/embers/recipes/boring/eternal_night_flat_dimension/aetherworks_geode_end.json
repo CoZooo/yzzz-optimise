@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "chapter_of_yuusha_3_core:eternal_night_flat_dimension"
+  ],
+  "max_height": 255,
+  "output": {
+    "item": "aetherworks:geode_end"
+  },
+  "required_block": {
+    "amount": 1,
+    "block_tag": "embers:abyssal_egg"
+  },
+  "weight": 10
+}

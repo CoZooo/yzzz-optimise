@@ -3,20 +3,16 @@
   "extra_items": [
     {
       "count": 4,
-      "item": "minecraft:netherite_scrap"
-    },
-    {
-      "count": 1,
       "item": "grimoireofgaia:rotten_heart"
     },
     {
-      "count": 1,
-      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+      "count": 2,
+      "item": "yuusha:mutant_cube"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:iron_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -26,10 +22,6 @@
     {
       "type": "eldritch",
       "count": 8
-    },
-    {
-      "type": "arcane",
-      "count": 4
     },
     {
       "type": "wicked",

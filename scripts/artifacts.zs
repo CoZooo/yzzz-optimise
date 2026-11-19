@@ -25,6 +25,9 @@ import mods.jeitweaker.Jei;
 <item:artifacts:feral_claws>.anyDamage().addTooltip("\u00A7e也可在星河贸易站内交易获得");
 <item:artifacts:flame_pendant>.anyDamage().addTooltip("\u00A7c不能完全防火，只提供火属性抗性");
 
+//
+craftingTable.addShapeless("artifacts.cloud_in_a_bottle", <item:artifacts:cloud_in_a_bottle>, [<item:confluence:cloud_in_a_bottle>.anyDamage()]);
+
 //tag
 <tag:items:curios:necklace>.remove(<item:artifacts:cross_necklace>);
 <tag:items:curios:wither_totem_slot>.add(<item:artifacts:cross_necklace>);

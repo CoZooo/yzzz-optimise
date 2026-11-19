@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "endrem:guardian_eye"
+  },
+  "fluid": {
+    "amount": 500,
+    "name": "embers:dwarven_oil"
+  },
+  "output": {
+    "item": "yuusha:rare_material",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

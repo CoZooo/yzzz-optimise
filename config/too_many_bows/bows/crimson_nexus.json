@@ -1,0 +1,22 @@
+{
+  "base_damage": 35.0,
+  "use_ranged_damage_attribute": true,
+  "ranged_damage_attribute_divisor": 2.5,
+  "crit_damage_multiplier": 1.5,
+  "arrow_velocity": 3.0,
+  "arrow_inaccuracy": 1.0,
+  "health_cost": 10.0,
+  "minimum_health_to_pay_cost": 20.0,
+  "full_health_fire_seconds": 200,
+  "life_drain_enabled": true,
+  "life_drain_window_ticks": -1,
+  "life_drain_interval_ticks": 20,
+  "life_drain_horizontal_radius": 8.0,
+  "life_drain_vertical_radius": 4.0,
+  "life_drain_max_targets": 1,
+  "life_drain_ignores_players": true,
+  "life_drain_base_damage": 50.0,
+  "life_drain_ranged_damage_divisor": 4.0,
+  "life_drain_heal_per_target": 50.0,
+  "life_drain_damages_bow": true
+}

@@ -2,7 +2,7 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "morebows:diamond_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "craftType": "forge",
   "soulCost": 1200,
@@ -24,7 +24,13 @@
       "item": "ancient_aether:ancient_dungeon_key"
     },
     {
-      "item": "deep_aether:stratus_smithing_template"
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "item": "ancient_aether:laboratory_dungeon_key"
+    },
+    {
+      "item": "aether:bronze_dungeon_key"
     }
   ],
   "result": {

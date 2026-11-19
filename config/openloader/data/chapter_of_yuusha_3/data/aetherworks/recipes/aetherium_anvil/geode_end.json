@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 1,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "aetherworks:geode_end"
   },
@@ -11,6 +11,11 @@
       "chance": 10.0,
       "count": 4,
       "item": "distant_worlds:raw_firon"
+    },
+    {
+      "chance": 15.0,
+      "count": 16,
+      "item": "callfromthedepth_:deepstone"
     },
     {
       "chance": 10.0,

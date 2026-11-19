@@ -5,8 +5,8 @@
     "item": "goety:empty_focus"
   },
   "craftType": "magic",
-  "soulCost": 500,
-  "duration": 5,
+  "soulCost": 50000,
+  "duration": 10,
   "ingredients": [
     {
       "item": "minecraft:crying_obsidian"
@@ -31,6 +31,18 @@
     },
     {
       "item": "reliquary:salamander_eye"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:blood_star"
+    },
+    {
+      "item": "yuusha:blood_star"
     }
   ],
   "result": {

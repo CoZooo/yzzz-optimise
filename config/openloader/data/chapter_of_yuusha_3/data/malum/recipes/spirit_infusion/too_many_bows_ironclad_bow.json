@@ -2,17 +2,17 @@
   "type": "malum:spirit_infusion",
   "extra_items": [
     {
-      "item": "cataclysm:monstrous_eye",
-      "count": 1
+      "item": "locusazzurro_icaruswings:steel_ingot",
+      "count": 8
     },
     {
-      "item": "callfromthedepth_:immemorialupgradesmithingtemplate",
-      "count": 1
+      "item": "minecraft:echo_shard",
+      "count": 4
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:netherite_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -21,11 +21,11 @@
   "spirits": [
     {
       "type": "infernal",
-      "count": 2
+      "count": 8
     },
     {
       "type": "earthen",
-      "count": 2
+      "count": 4
     }
   ]
 }

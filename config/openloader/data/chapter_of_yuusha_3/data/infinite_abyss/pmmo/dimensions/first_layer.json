@@ -15,7 +15,9 @@
 		"distant_worlds:suppression": 1,
 		"attributeslib:sundering": 0
     },
-    "travel_req":{},
+    "travel_req":{
+        "sky": 100
+    },
     "vein_blacklist":["minecraft:bedrock"],
     "mob_multiplier": {}
 }

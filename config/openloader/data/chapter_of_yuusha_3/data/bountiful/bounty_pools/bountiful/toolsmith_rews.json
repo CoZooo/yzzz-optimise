@@ -25,6 +25,17 @@
             "nbt": "{StoredEnchantments:[{lvl:1s,id:\"majruszsenchantments:smelter\"}]}"
         },
 
+        "toolsmith_rew_ench_book_silk_touch": {
+            "type": "item",
+            "content": "minecraft:enchanted_book",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 3500,
+            "nbt": "{StoredEnchantments:[{lvl:1s,id:\"minecraft:silk_touch\"}]}"
+        },
+
         "toolsmith_rew_ench_book_fortune": {
             "type": "item",
             "content": "minecraft:enchanted_book",

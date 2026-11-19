@@ -1,0 +1,9 @@
+{
+  "type": "malum:spirit_transmutation",
+  "input": {
+    "item": "minecraft:cherry_sapling"
+  },
+  "output": {
+    "item": "eidolon:illwood_sapling"
+  }
+}

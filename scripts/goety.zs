@@ -1,6 +1,11 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:goety:reaper_spawn_egg>.addTooltip("\u00A76玩家击杀幻翼有小几率生成");
+<item:goety:wraith_spawn_egg>.addTooltip("\u00A76玩家击杀死灵法师有几率生成");
+<item:goety:border_wraith_spawn_egg>.addTooltip("\u00A76玩家击杀流髑死灵法师有几率生成");
+<item:goety:necromancer_spawn_egg>.addTooltip("\u00A76在要塞内会较高几率自然生成");
+<item:goety:philosophers_stone>.anyDamage().addTooltip("\u00A76只有特定空岛任务线才能获得");
 <item:goety:end_soil>.addTooltip("\u00A76可通过秘术粉转化获得");
 <item:goety:chorus_sapling>.addTooltip("\u00A7c在2×2格末地壤上种植紫颂树苗会长成巨大的紫颂树");
 <item:goety:chorus_sapling>.addTooltip("\u00A76需周围有大量的空间，据说需要在末地维度");
@@ -17,8 +22,11 @@ import mods.jeitweaker.Jei;
 <item:goety:feline_amulet>.addTooltip("\u00A77装备后使玩家拥有猫一样的特性");
 <item:goety:refuse_bottle>.addTooltip("\u00A77在女巫坩埚酿造药水失败时，装入玻璃瓶可获得");
 <item:goety:venomous_fang>.addTooltip("\u00A76击杀各种蜘蛛生物有几率获得");
-<item:goety:grave_dust>.addTooltip("\u00A76新增击杀缠魂甲胄可获得");
+<item:goety:grave_dust>.addTooltip("\u00A76击杀收割者、死灵法师、流髑死灵法师几率获得");
+<item:goety:grave_dust>.addTooltip("\u00A7e新增击杀缠魂甲胄可获得");
 <item:goety:grave_dust>.addTooltip("\u00A7c无法通过掘墓者之铲获得");
+<item:goety:grave_dust>.addTooltip("\u00A73可用于召唤食尸鬼和亡魂");
+<item:goety:haunting_scroll>.addTooltip("\u00A7e新增击杀骷髅领主有几率获得");
 
 <item:goety:animation_core>.addTooltip("\u00A7e可击杀巫师小几率获得，特定世界线也可制作获得");
 <item:goety:animation_core>.addTooltip("\u00A76巫师会出现在不祥垠际-诡厄袭击传送门内");
@@ -104,6 +112,7 @@ import mods.jeitweaker.Jei;
 <item:goety:mistral_scroll>.addTooltip("\u00A7e新增后续击杀惊骇恶魂也有几率获得");
 <item:goety:totem_of_roots>.addTooltip("\u00A7c佩戴后击杀生物可获得灵魂能量");
 <item:goety:totem_of_roots>.addTooltip("\u00A7e女仆世界线也可通过给女神雕像献祭物品获得灵魂能量");
+<item:goety:totem_of_roots>.addTooltip("\u00A76也可通过牧师悬赏获得");
 <item:goety:shade_stone>.addTooltip("\u00A76可通过诅咒注入器制作，详见咒法章节任务");
 <item:goety:witch_cauldron>.addTooltip("\u00A7c女巫坩埚只能用没有NBT的纯净水桶才能装填水");
 <item:goety:witch_cauldron>.addTooltip("\u00A7e上述纯净水桶可通过先用帝王圣杯右击流体容器放入水");
@@ -181,7 +190,7 @@ import mods.jeitweaker.Jei;
 <item:goety:redstone_monstrosity_head>.addTooltip("\u00A7c新增击杀异化红石巨兽必定获得");
 <item:goety:grave_golem_skull>.addTooltip("\u00A7c击杀天空之城的墓灵巨像有几率获得");
 <item:goety:grave_golem_skull>.addTooltip("\u00A76详见遥远世界章节");
-<item:goety:treasure_pouch>.addTooltip("\u00A7c新增击杀部分魔法生物也可获得");
+<item:goety:treasure_pouch>.addTooltip("\u00A76击杀灾厄教父等生物可获得");
 <item:goety:withered_manuscript>.addTooltip("\u00A7c只有击杀咒怨凋零死灵巫妖获得");
 <item:goety:withered_manuscript>.addTooltip("\u00A76相关内容详见天顶巨兽章节任务");
 <item:goety:blazing_horn>.addTooltip("\u00A76用来召唤咒怨凋零死灵巫妖");
@@ -211,7 +220,8 @@ import mods.jeitweaker.Jei;
 <item:goety:warlock_robe_dark>.anyDamage().addTooltip("\u00A7c对大部分魔法伤害均有抗性，包括铁之咒语法术");
 
 <item:goety:jade>.addTooltip("\u00A76玉矿石自然生成在各种山地生物群系，且高度需在64以上");
-<item:goety:cursed_infuser>.addTooltip("\u00A76详见咒法章节任务");
+<item:goety:cursed_infuser>.addTooltip("\u00A76相关内容详见咒法章节任务");
+<item:goety:cursed_infuser>.addTooltip("\u00A7e也可通过秘法悬赏获得");
 <item:goety:dark_altar>.addTooltip("\u00A7c需按咒法章节解锁邪术学研究才能看到合成表");
 <item:goety:dark_altar>.addTooltip("\u00A76相关内容详见咒法章节任务");
 <item:goety:dark_altar>.addTooltip("\u00A7e野外特定建筑内也可找到");
@@ -315,7 +325,7 @@ import mods.jeitweaker.Jei;
 <item:goety:bombardment_focus>.addTooltip("\u00A75该聚晶可享受“击中目标造成星裂效果”神化词条");
 <item:goety:bombardment_focus>.addTooltip("\u00A7e下界魔杖可提升伤害，下界长袍可让其无视火焰免疫");
 
-<item:goety:lavaball_focus>.addTooltip("\u00A72· 250 基础伤害");
+<item:goety:lavaball_focus>.addTooltip("\u00A72· 300 基础伤害");
 <item:goety:lavaball_focus>.addTooltip("\u00A76伤害已大幅提升，需按住右键引导0.5秒后释放，冷却时间1.5秒，需放入魔杖施法");
 <item:goety:lavaball_focus>.addTooltip("\u00A7c该聚晶为火属性伤害，额外可享受箭术和箭矢伤害加成");
 <item:goety:lavaball_focus>.addTooltip("\u00A75该聚晶可享受“击中目标造成星裂效果”神化词条");
@@ -454,7 +464,7 @@ import mods.jeitweaker.Jei;
 <item:goety:blossoming_focus>.addTooltip("\u00A7e投掷和后续会分别造成一段伤害");
 <item:goety:blossoming_focus>.addTooltip("\u00A7c该聚晶为草属性类型伤害");
 
-<item:goety:skull_focus>.addTooltip("\u00A72· 325 基础伤害");
+<item:goety:skull_focus>.addTooltip("\u00A72· 250 基础伤害");
 <item:goety:skull_focus>.addTooltip("\u00A76需按住右键引导0.5秒后释放，冷却时间0.5秒，需放入魔杖施法");
 <item:goety:skull_focus>.addTooltip("\u00A7c该聚晶为无属性魔法类型伤害");
 
@@ -467,8 +477,9 @@ import mods.jeitweaker.Jei;
 <item:goety:trident_storm_focus>.addTooltip("\u00A7e可以造成多段伤害");
 
 <item:goety:empty_focus>.addTooltip("\u00A7e可通过考古骨头右击转变的可疑沙砾几率获得");
+<item:goety:empty_focus>.addTooltip("\u00A76也可通过牧师悬赏获得");
 <item:goety:empty_focus>.addTooltip("\u00A7c法力值为零时，则攻击速度也会变为零");
-<item:goety:empty_focus>.addTooltip("\u00A76攻击速度为零时，魔能强度也会变为零");
+<item:goety:empty_focus>.addTooltip("\u00A73攻击速度为零时，魔能强度也会变为零");
 
 <item:goety:poison_quill_seed>.addTooltip("\u00A76无法制作获得");
 <item:goety:poison_quill_seed>.addTooltip("\u00A7e在毒刺藤或者毒海葵死亡时会掉落");

@@ -1,0 +1,18 @@
+{
+  "type": "malum:spirit_infusion",
+  "extra_items": [],
+  "input": {
+    "count": 4,
+    "item": "hmag:mysterious_petal"
+  },
+  "output": {
+    "count": 1,
+    "item": "minecraft:spore_blossom"
+  },
+  "spirits": [
+    {
+      "type": "earthen",
+      "count": 4
+    }
+  ]
+}

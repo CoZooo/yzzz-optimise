@@ -8,6 +8,7 @@
 <item:xtraarrows:diamond_arrow>.addTooltip("\u00A7e还可通过制作获得");
 <item:xtraarrows:netherite_arrow>.addTooltip("\u00A7c击杀幽匿诅咒骑士必定获得");
 <item:xtraarrows:netherite_arrow>.addTooltip("\u00A7e也可通过制作获得");
+<item:xtraarrows:bat_skin>.addTooltip("\u00A76击杀蝙蝠可获得");
 
 <item:xtraarrows:flint_life_steal_arrow>.addTooltip("\u00A7e吸血箭类会额外附加魔法伤害");
 <item:xtraarrows:iron_life_steal_arrow>.addTooltip("\u00A7e吸血箭类会额外附加魔法伤害");

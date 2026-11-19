@@ -15,6 +15,25 @@ import crafttweaker.api.ingredient.IIngredient;
 <item:eidolon:bonelord_greaves>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:healing_received> , "attribute.bonelord_greaves.4", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 
 //
+craftingTable.addShapeless("irons_spellbooks.staff_of_the_nines", <item:irons_spellbooks:staff_of_the_nines>, [<item:graveyard:dark_iron_block>, <item:yuusha:remembered_scroll>.reuse()]);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.1", <item:goety:frost_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.2", <item:goety:wild_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.3", <item:goety:abyss_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.4", <item:goety:void_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.5", <item:goety:nether_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.6", <item:goety:necro_crown>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.7", <item:goety:necro_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.8", <item:goety:wind_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.9", <item:goety:storm_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.10", <item:goety:frost_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.11", <item:goety:wild_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.12", <item:goety:nether_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.13", <item:goety:ominous_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.14", <item:goety:abyss_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.15", <item:goety:geo_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+stoneCutter.addRecipe("irons_spellbooks.staff_of_the_nines.16", <item:goety:void_staff>, <item:irons_spellbooks:staff_of_the_nines>);
+
+//
 craftingTable.addShaped("apotheosis.mageslayer.summon", <item:apotheosis:gem>.withTag({affix_data: {rarity: "apotheosis:epic"}, gem: "apotheosis:the_end/mageslayer"}), [[<item:apotheosis:epic_material>, <item:cataclysm:witherite_ingot>, <item:apotheosis:epic_material>], [<item:cataclysm:witherite_ingot>, <item:yuusha:dice_13>, <item:cataclysm:witherite_ingot>], [<item:apotheosis:epic_material>, <item:cataclysm:witherite_ingot>, <item:apotheosis:epic_material>]]);
 
 //

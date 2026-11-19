@@ -1,3 +1,4 @@
 {
-	"attack_style":"projectile"
+	"attack_style":"projectile",
+    "attack_element":"light"
 }

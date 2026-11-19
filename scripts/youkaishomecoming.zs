@@ -1,6 +1,7 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:youkaishomecoming:donation_box>.addTooltip("\u00A76新增击杀雕刻家通臂大师必定获得");
 <item:youkaishomecoming:raw_lamprey>.addTooltip("\u00A7c手持生八目鳗右击鹦鹉会召唤米斯蒂娅·萝蕾拉");
 <item:youkaishomecoming:raw_lamprey>.addTooltip("\u00A7e妖怪归家首领现在只能在众神万神殿维度生成");
 <item:youkaishomecoming:raw_lamprey>.addTooltip("\u00A73八目鳗实体鱼现在只会生成在河流和冷水区域");
@@ -73,9 +74,27 @@ craftingTable.addShapeless("youkaishomecoming.reimu_hairband", <item:youkaishome
 
 //发酵桶
 craftingTable.remove(<item:youkaishomecoming:fermentation_tank>);
-craftingTable.addShaped("youkaishomecoming.fermentation_tank", <item:youkaishomecoming:fermentation_tank>, [[<item:minecraft:mud_bricks>, <item:forbidden_arcanus:edelwood_trapdoor>, <item:minecraft:mud_bricks>], [<item:minecraft:mud_bricks>, <item:aether:skyroot_bucket>, <item:minecraft:mud_bricks>], [<item:minecraft:mud_bricks>, <item:minecraft:mud_bricks>, <item:minecraft:mud_bricks>]]);
+craftingTable.addShaped("youkaishomecoming.fermentation_tank", <item:youkaishomecoming:fermentation_tank>, [[<item:minecraft:mud_bricks>, <item:youkaishomecoming:straw_trap_door>, <item:minecraft:mud_bricks>], [<item:minecraft:mud_bricks>, <item:farmersdelight:rich_soil>, <item:minecraft:mud_bricks>], [<item:minecraft:mud_bricks>, <item:minecraft:mud_bricks>, <item:minecraft:mud_bricks>]]);
 
-
+//
+recipes.addJsonRecipe("summon.youkaishomecoming.cirno",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "youkaishomecoming:shaved_ice_over_rice" },
+    block_in: "youkaishomecoming:donation_box",
+    post:  {  type: "execute",  command: "summon youkaishomecoming:cirno"}
+});
+recipes.addJsonRecipe("summon.youkaishomecoming.komeiji_koishi",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "youkaishomecoming:koishi_mousse" },
+    block_in: "youkaishomecoming:donation_box",
+    post:  {  type: "execute",  command: "summon youkaishomecoming:komeiji_koishi"}
+});
+recipes.addJsonRecipe("summon.youkaishomecoming.rumia",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "youkaishomecoming:flesh_feast" },
+    block_in: "youkaishomecoming:donation_box",
+    post:  {  type: "execute",  command: "summon youkaishomecoming:rumia"}
+});
 
 
 

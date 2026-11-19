@@ -1,0 +1,58 @@
+{
+	icon: "reliquary:glacial_staff"
+	id: "74569026D5A00F59"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "malum:totemic_staff"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:magic_missile"
+							index: 0
+							level: 1
+							locked: 0
+						}]
+						maxSpells: 1
+						mustEquip: 0
+						spellWheel: 1
+					}
+				}
+			}
+			title: "图腾法杖（铁之咒语）"
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [{
+							Count: 1b
+							Slot: 0
+							id: "goety:skull_focus"
+						}]
+						Size: 1
+						slot: 0
+					}
+				}
+				id: "goety:dark_wand"
+				tag: {
+					cap: {
+						Items: [{
+							Count: 1b
+							Slot: 0
+							id: "goety:skull_focus"
+						}]
+						Size: 1
+						slot: 0
+					}
+				}
+			}
+			title: "黑暗魔杖（诡厄巫法）"
+		}
+	]
+	title: "法师武器选择"
+}

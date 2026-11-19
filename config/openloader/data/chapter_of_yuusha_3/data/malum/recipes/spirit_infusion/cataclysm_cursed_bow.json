@@ -16,7 +16,7 @@
   ],
   "input": {
     "count": 1,
-    "item": "morebows:diamond_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,

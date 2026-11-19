@@ -1,0 +1,9 @@
+{
+  "type": "malum:spirit_transmutation",
+  "input": {
+    "item": "slashblade_useful_addon:proud_soul_sampling"
+  },
+  "output": {
+    "item": "forbidden_arcanus:growing_edelwood"
+  }
+}

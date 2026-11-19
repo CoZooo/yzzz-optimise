@@ -3,20 +3,16 @@
   "extra_items": [
     {
       "count": 4,
-      "item": "minecraft:poisonous_potato"
-    },
-    {
-      "count": 1,
       "item": "mowziesmobs:naga_fang"
     },
     {
-      "count": 1,
-      "item": "hmag:evil_crystal_upgrade_smithing_template"
+      "count": 2,
+      "item": "yuusha:mutant_cube"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:copper_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -26,10 +22,6 @@
     {
       "type": "earthen",
       "count": 8
-    },
-    {
-      "type": "aerial",
-      "count": 4
     },
     {
       "type": "aqueous",

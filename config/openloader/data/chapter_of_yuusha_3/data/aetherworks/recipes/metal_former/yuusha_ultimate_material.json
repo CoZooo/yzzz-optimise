@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 100,
+  "fluid": {
+    "amount": 500,
+    "name": "embers:dwarven_oil"
+  },
+  "input": {
+    "item": "cataclysm:witherite_block"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "yuusha:ultimate_material"
+  },
+  "temperature": 2650
+}

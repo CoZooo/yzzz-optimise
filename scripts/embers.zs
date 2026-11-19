@@ -1,6 +1,8 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:embers:raw_lead>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
+<item:embers:raw_silver>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
 <item:embers:archaic_brick>.addTooltip("\u00A76击杀天境维度的太古魔像可获得");
 <item:embers:ashen_fabric>.addTooltip("\u00A76新增在余烬悬赏内有几率出现");
 <item:embers:isolated_materia>.addTooltip("\u00A7c可以通过余烬炼金台制作获得");
@@ -30,10 +32,10 @@ import mods.jeitweaker.Jei;
 <item:embers:ancient_motive_core>.addTooltip("\u00A7c击杀太古魔像可获得");
 <item:embers:ancient_motive_core>.addTooltip("\u00A76太古魔像只会生成在古遗天境的黑暗环境");
 <item:embers:ancient_motive_core>.addTooltip("\u00A7e太古动力核心右击辊压机也可制作余烬晶体");
-<item:embers:dwarven_oil_bucket>.addTooltip("\u00A7c可通过余烬模组制作获得，详见匠作章节任务");
-<item:embers:dwarven_oil_bucket>.addTooltip("\u00A76也可利用特殊材料在工作台中制作获得");
-<item:embers:dwarven_oil_bucket>.addTooltip("\u00A7e制作烬铸原液桶时不消耗万能溶剂之经");
-<item:embers:dwarven_oil_bucket>.addTooltip("\u00A75合成时万能溶剂之经必须为空，如无法合成可放入红石后再取出");
+<item:embers:dwarven_oil_bucket>.addTooltip("\u00A7c可通过余烬模组制作获得");
+<item:embers:dwarven_oil_bucket>.addTooltip("\u00A76相关内容详见匠作章节任务");
+//<item:embers:dwarven_oil_bucket>.addTooltip("\u00A7e制作烬铸原液桶时不消耗万能溶剂之经");
+//<item:embers:dwarven_oil_bucket>.addTooltip("\u00A75合成时万能溶剂之经必须为空，如无法合成可放入红石后再取出");
 <item:embers:ember_grit>.addTooltip("\u00A7c可以通过余烬晶体开采机获得");
 
 <item:embers:blazing_ray>.anyDamage().addTooltip("\u00A72· 625 魔法伤害");
@@ -75,7 +77,7 @@ import mods.jeitweaker.Jei;
 <item:embers:lead_ingot>.addTooltip("\u00A76也可将粗铅块丢进烬铸原液获得");
 
 //烬铸原液桶
-craftingTable.addShapeless("embers.dwarven_oil_bucket.special", <item:embers:dwarven_oil_bucket>, [<item:locusazzurro_icaruswings:greek_fire_bucket>, <item:mowziesmobs:ice_crystal>, <item:mowziesmobs:grant_suns_blessing>, <item:mowziesmobs:wrought_helmet>.anyDamage(), <item:celestial_artifacts:purified_powder>, <item:reliquary:alkahestry_tome>.reuse()]);
+//craftingTable.addShapeless("embers.dwarven_oil_bucket.special", <item:embers:dwarven_oil_bucket>, [<item:locusazzurro_icaruswings:greek_fire_bucket>, <item:mowziesmobs:ice_crystal>, <item:mowziesmobs:grant_suns_blessing>, <item:mowziesmobs:wrought_helmet>.anyDamage(), <item:celestial_artifacts:purified_powder>, <item:reliquary:alkahestry_tome>.reuse()]);
 
 //复制
 craftingTable.addShapeless("embers.dawnstone_nugget.copy", <item:embers:dawnstone_nugget>*3, [<item:embers:dawnstone_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);

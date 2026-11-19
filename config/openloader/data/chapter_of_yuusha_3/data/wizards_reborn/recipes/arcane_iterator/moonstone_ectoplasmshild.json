@@ -10,7 +10,7 @@
       "item": "moonstone:blueamout"
     },
     {
-      "item": "moonstone:ectoplasmcube"
+      "item": "hmag:ancient_stone"
     },
     {
       "item": "moonstone:ectoplasmball"
@@ -19,10 +19,10 @@
       "item": "moonstone:ectoplasmprism"
     },
     {
-      "item": "moonstone:ectoplasmcloub"
+      "item": "moonstone:ectoplasmball"
     },
     {
-      "item": "hmag:ancient_stone_block"
+      "item": "hmag:ancient_stone"
     },
     {
       "item": "moonstone:ectoplasmball"
@@ -31,7 +31,7 @@
       "item": "moonstone:ectoplasmprism"
     },
     {
-      "item": "moonstone:ectoplasmcloub"
+      "item": "moonstone:ectoplasmball"
     }
   ]
 }

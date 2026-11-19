@@ -39,6 +39,7 @@ craftingTable.addShapeless("majruszsdifficulty.enderium_shard", <item:majruszsdi
 <item:majruszsdifficulty:enderium_ingot>.addTooltip("\u00A76详见末路之地章节末影晶锭任务");
 <item:majruszsdifficulty:enderium_shard>.addTooltip("\u00A7e可与远古晶石合成复制");
 <item:majruszsdifficulty:enderium_shard>.addTooltip("\u00A76详见末路之地章节末影晶锭任务");
+<item:majruszsdifficulty:enderium_shard>.addTooltip("\u00A7c新增击杀黑曜石柱可获得");
 
 <item:majruszsdifficulty:angler_treasure_bag>.addTooltip("\u00A76有小几率开出无限增幅卡、无限维度增幅卡、丘比娃娃");
 

@@ -1,0 +1,63 @@
+{
+  "type": "eidolon:crucible",
+  "steps": [
+    {
+      "items": [
+        {
+          "item": "irons_spellbooks:uncommon_ink"
+        }
+      ]
+    },
+    {
+      "items": [
+        {"item": "wizards_reborn:precision_crystal"},
+        {"item": "wizards_reborn:precision_crystal"},
+        {"item": "wizards_reborn:natural_calx"},
+        {"item": "wizards_reborn:natural_calx"}
+      ]
+    },
+    {
+      "items": [
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:arcane_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"},
+        {"item": "malum:umbral_spirit"}
+      ]
+    },
+    {
+      "stirs": 2
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:rare_ink",
+    "count": 1
+  }
+}

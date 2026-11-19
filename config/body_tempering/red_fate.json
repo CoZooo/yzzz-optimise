@@ -1,0 +1,27 @@
+{
+  "_comment_zh": [
+    "红色（仙品）机缘配置 | Red Fate (ascension) config",
+    "红色锻体词条本身（类型/效果/开关/权重）不做修改，仍在 body_tempering.json 的 ascension 段。",
+    "本文件只控制：红色机缘概率、红色提升数值范围、是否额外红色、幸运饰品重试。",
+    "字段说明：",
+    "  use_extra_red: 触发红色后是否再判定一次“额外红色”（再获得一次红色机缘）。",
+    "  extra_red_chance: 额外红色概率 0~1；use_extra_red=true 且该值<=0 时，使用该食物自身的红色概率再判定一次。",
+    "  value_range: 红色提升数值范围（小数，0.30 = 30%）。min==max 且>0 时固定该值；min<max 时区间内均匀随机；",
+    "               两者均<=0 时回退到 ascension 词条自身的 min/max（旧行为）。",
+    "  food_chances: 三个食品各自的红色概率 0~1；缺省回退旧版 foods.*.ascension_chance，再回退 0.01/0.02/0.05。",
+    "  fortune_retry: 佩戴对应幸运饰品时，红色判定失败是否再判定一次。",
+    "修改后需重启游戏（服务器）生效。"
+  ],
+  "use_extra_red": false,
+  "extra_red_chance": 0.0,
+  "value_range": {
+    "min": 0.3,
+    "max": 0.7
+  },
+  "food_chances": {
+    "zhongsheng_blood_pill": 0.01,
+    "dragon_scale_fruit": 0.02,
+    "divine_demon_blood": 0.05
+  },
+  "fortune_retry": true
+}

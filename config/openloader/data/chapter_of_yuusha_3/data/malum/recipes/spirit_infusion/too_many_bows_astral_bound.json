@@ -3,20 +3,16 @@
   "extra_items": [
     {
       "count": 4,
-      "tag": "aether:swet_balls"
+      "item": "goety:ominous_shard"
     },
     {
-      "count": 1,
-      "item": "reliquary:slime_pearl"
-    },
-    {
-      "count": 1,
-      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
+      "count": 2,
+      "item": "minecraft:nether_star"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:iron_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -29,10 +25,6 @@
     },
     {
       "type": "aerial",
-      "count": 4
-    },
-    {
-      "type": "aqueous",
       "count": 4
     }
   ]

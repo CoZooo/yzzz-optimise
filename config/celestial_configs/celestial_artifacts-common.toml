@@ -546,10 +546,10 @@
 	crossNecklaceInvulTick = 10
 	#Gallop Necklace: speed bonus
 	#Range: 0.0 ~ 10.0
-	gallopNecklaceSpeedBonus = 0.1
+	gallopNecklaceSpeedBonus = 0.15
 	#Gallop Necklace: damage factor of speed
 	#Range: 0.0 ~ 100000.0
-	gallopNecklaceDamageFactor = 150.0
+	gallopNecklaceDamageFactor = 100.0
 	#Emerald Necklace: factor of dropping an emerald
 	#Range: 0.0 ~ 1.0
 	emeraldNecklaceDropEmerald = 0.02

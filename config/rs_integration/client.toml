@@ -76,6 +76,7 @@
 	#启用磁盘搜索缓存
 	#将已经完成的 RS tooltip 与拼音搜索文本保存到本地磁盘。
 	#再次启动客户端时可直接复用，避免每次进入世界都重新冷预热。
+	#缓存位于游戏目录 rs_integration/cache/grid_search，不写入配置文件。
 	diskCacheEnabled = true
 	#磁盘搜索缓存条目上限
 	#磁盘搜索缓存最多保留的物品/流体变体数量。
@@ -95,6 +96,10 @@
 	#在 RS 网格和 JEI 物品列表中使用轻量的 SlashBlade 图标渲染。
 	#保留刀身与纹理，但省略发光、3D 耐久装饰和附魔的重复模型绘制。
 	lightweightSlashBladeRendering = false
+	#预热整个 JEI 物品目录的搜索缓存
+	#默认关闭，避免为未出现在 RS 网格中的物品采集 tooltip 和生成拼音。
+	#RS 网格内的物品仍会补全全部搜索数据，并复用磁盘缓存。
+	jeiCataloguePrewarm = false
 
 #搜索历史
 [recentSearch]
@@ -145,4 +150,187 @@
 	#保留 JEI 材料悬停预览
 	#鼠标离开 JEI 材料后保留最近的悬停预览；目标、槽位、蓝图或工作台变化时清除。
 	keepJeiMaterialPreview = true
+
+#版本更新
+[updates]
+	#检测 Modrinth 更新
+	#启用后每次启动异步检查一次已发布的 Forge 版本，进入世界后最多提示一次。
+	#只提示正式版和 beta 版，不自动下载；关闭后不发起新的检测请求，也不显示提示。
+	enabled = false
+
+#物品提示框
+#仅影响本地客户端，重新加载配置后生效。兼容开关仅作用于启用了 RSI 自定义底板的物品。
+[tooltips]
+	#启用 RSI 自定义提示框底板
+	#为共振盘、归墟盘、经验杖、点餐终端和次元升级等特殊物品绘制主题底板。
+	#关闭后不绘制 RSI 底板，也不阻止其他提示框模组接管这些物品。
+	customBackgrounds = true
+	#防止 Obscure Tooltips 覆盖 RSI 底板
+	#开启后，拥有 RSI 自定义底板的物品跳过 Obscure Tooltips 的整套提示框渲染。
+	#关闭后允许 Obscure Tooltips 接管；其他物品始终遵循该模组的原有设置。
+	obscureTooltipsCompat = true
+	#防止 Modern UI 圆角提示框覆盖 RSI 底板
+	#开启后，拥有 RSI 自定义底板的物品跳过 Modern UI 的提示框绘制和取消事件。
+	#关闭后允许 Modern UI 接管；不影响其他物品的圆角、字体和界面效果。
+	modernUiCompat = true
+
+#合成界面配色
+#计划列表、计划材料格、合成监控器和共用控件的本地配色。
+#使用引号包围的 #RRGGBB 或 #AARRGGBB；AA 为透明度，FF 不透明，00 全透明。
+#配置重新加载后生效；可在游戏内客户端配置界面修改并应用。
+#监控器 theme 为 CUSTOM 时使用以下颜色；递归树由 treeTheme 单独控制。
+[craftingUi]
+	#面板背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#D0CFD6
+	panel = "#D0CFD6"
+	#内容区域背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#A1A5BB
+	canvas = "#A1A5BB"
+	#边框
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#666B82
+	border = "#666B82"
+	#正文文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#292832
+	text = "#292832"
+	#次要文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#464550
+	muted = "#464550"
+	#提示文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#83869B
+	hint = "#83869B"
+	#强调色与主按钮
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#706E88
+	accent = "#706E88"
+	#成功文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#29795D
+	success = "#29795D"
+	#警告文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#9A6725
+	warning = "#9A6725"
+	#错误与取消文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#A44D53
+	danger = "#A44D53"
+	#高亮边缘
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#F0F0F5
+	highlight = "#F0F0F5"
+	#网格分隔线
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#CFD0DC
+	gridLine = "#CFD0DC"
+	#面板投影
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#50000000
+	panelShadow = "#50000000"
+	#面板顶部亮边
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#F1F1F5
+	panelTopEdge = "#F1F1F5"
+	#面板左侧亮边
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#E5E6ED
+	panelLeftEdge = "#E5E6ED"
+	#按钮底部与右侧暗边
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#9294A5
+	edgeShadow = "#9294A5"
+	#计划图标底色
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#F6FAFC
+	iconPaper = "#F6FAFC"
+	#监控器计划图标底色
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#ECEAF1
+	monitorIconPaper = "#ECEAF1"
+	#普通按钮背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#A6ABC0
+	button = "#A6ABC0"
+	#普通按钮悬停背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#B8BDCF
+	buttonHover = "#B8BDCF"
+	#主按钮悬停背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#777E9C
+	buttonPrimaryHover = "#777E9C"
+	#禁用按钮背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#B9BCCB
+	buttonDisabled = "#B9BCCB"
+	#按钮文字
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#F7F7FA
+	buttonText = "#F7F7FA"
+	#侧栏按钮悬停背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#E4E2EB
+	sideButtonHover = "#E4E2EB"
+	#列表卡片与输入框背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#FFFFFF
+	row = "#FFFFFF"
+	#计划卡片悬停背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#E6F3F8
+	rowHover = "#E6F3F8"
+	#监控器选中任务背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#B8DCF2
+	selectedRow = "#B8DCF2"
+	#监控器搜索框背景
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#DFE1EA
+	input = "#DFE1EA"
+	#滚动条滑块
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#9CA1BA
+	scrollbar = "#9CA1BA"
+	#滚动条滑块悬停
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#BBC0D5
+	scrollbarHover = "#BBC0D5"
+	#无滚动内容时的滑块
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#B3B5C4
+	scrollbarDisabled = "#B3B5C4"
+	#禁用滑块边框
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#858798
+	scrollbarDisabledBorder = "#858798"
+	#滑块握柄
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#5E6279
+	scrollbarGrip = "#5E6279"
+	#禁用滑块握柄
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#8D90A2
+	scrollbarDisabledGrip = "#8D90A2"
+	#材料状态：已有库存
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#A1A5BB
+	materialStored = "#A1A5BB"
+	#材料状态：正在合成
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#88B0AD
+	materialRunning = "#88B0AD"
+	#材料状态：等待合成
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#C3B887
+	materialScheduled = "#C3B887"
+	#材料状态：缺料或阻塞
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#C6929B
+	materialBlocked = "#C6929B"
+	#材料状态：正在停止
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#B3A0C4
+	materialStopping = "#B3A0C4"
+	#材料状态：已完成
+	#格式：#RRGGBB 或 #AARRGGBB。默认：#A4B89A
+	materialCompleted = "#A4B89A"
+	#监控器主题
+	#只切换合成监控器和计划列表，无需重启；递归树使用独立的 treeTheme。
+	#CUSTOM：使用下方颜色和 plan_ui.toml 的自定义配色（保留已有设置）。
+	#FOREST：森林绿；OCEAN：冰川蓝；AMETHYST：丁香紫；WARM_PAPER：暖纸色。
+	#VANILLA：原版灰；BRASS：黄铜工坊；ARCANE：绯月秘法；QUARTZ：石英终端。
+	#ROSE：樱霞；EMBER：余烬；GRAPHITE：石墨。
+	#FROSTED_GLASS：高透磨砂玻璃；BLACK_GLASS：高透黑玻璃。
+	#DEEP_SPACE：宇宙深空。
+	#预设模式下暂不使用自定义颜色；切回 CUSTOM 即可恢复，布局不受影响。
+	#Allowed Values: CUSTOM, FOREST, OCEAN, AMETHYST, WARM_PAPER, VANILLA, BRASS, ARCANE, QUARTZ, ROSE, EMBER, GRAPHITE, FROSTED_GLASS, BLACK_GLASS, DEEP_SPACE
+	theme = "WARM_PAPER"
+	#递归树主题
+	#只影响递归树、材料表及树内控件，不改变监控器配色。
+	#Allowed Values: CUSTOM, FOREST, OCEAN, AMETHYST, WARM_PAPER, VANILLA, BRASS, ARCANE, QUARTZ, ROSE, EMBER, GRAPHITE, FROSTED_GLASS, BLACK_GLASS, DEEP_SPACE
+	treeTheme = "WARM_PAPER"
+	#独立主题配置迁移版本；由程序维护。
+	#Range: 0 ~ 1
+	themeSchema = 1
+
+#计算任务提示；默认屏幕右侧居中，打开界面时隐藏。
+[planningHud]
+	#位置配置迁移版本，由模组自动维护。
+	#Range: > 0
+	layoutVersion = 1
+	#显示计算状态和打开计划的快捷键提示。
+	visible = true
+	#提示在可用区域内的水平位置：0 左侧，1 右侧。
+	#Range: 0.0 ~ 1.0
+	horizontalPosition = 1.0
+	#提示在可用区域内的垂直位置：0 顶部，1 底部。
+	#默认右侧居中；可按其他 HUD 的位置调整。
+	#Range: 0.0 ~ 1.0
+	verticalPosition = 0.5
 

@@ -85,7 +85,52 @@
           "name": "minecraft:chests/village/village_weaponsmith"
         }
       ]
-    }
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:leather_belt"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:magic_mirror"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:roller_skates"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:space_dissector"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:spatial_sign"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:horse_flute"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:enders_hand"
+        },
+        {
+          "type": "minecraft:item",
+		  "weight": 1,
+          "name": "relics:elytra_booster"
+        }
+      ]
+	}
   ],
   "random_sequence": "treasurebags:bags/ingots"
 }

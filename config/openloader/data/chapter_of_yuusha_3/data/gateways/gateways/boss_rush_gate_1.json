@@ -66,8 +66,8 @@
 				{
 					"type": "gateways:mob_effect",
 					"effect": {
-						"effect": "enigmaticaddons:pure_resistance",
-						"amplifier": 0
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
 					}
 				}
             ],
@@ -111,14 +111,9 @@
 				{
 					"type": "gateways:mob_effect",
 					"effect": {
-						"effect": "enigmaticaddons:pure_resistance",
-						"amplifier": 0
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
 					}
-				},
-				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.25
 				}
             ],
 			"rewards": [
@@ -167,9 +162,11 @@
 					}
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.5
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -223,9 +220,11 @@
 					}
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.5
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -276,6 +275,13 @@
 					"effect": {
 						"effect": "irons_spellbooks:oakskin",
 						"amplifier": 15
+					}
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
 					}
 				}
             ],
@@ -330,9 +336,11 @@
 					}
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.75
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -393,9 +401,11 @@
 					}
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.75
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -449,9 +459,11 @@
 					}
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.75
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -498,15 +510,10 @@
 					"value": 100
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.25
-				},
-				{
 					"type": "gateways:mob_effect",
 					"effect": {
-						"effect": "enigmaticaddons:pure_resistance",
-						"amplifier": 0
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 59
 					}
 				}
             ],
@@ -545,9 +552,11 @@
 					"value": 100
 				},
 				{
-					"attribute": "obscure_api:dodge",
-					"operation": "ADDITION",
-					"value": 0.25
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -577,8 +586,8 @@
 				{
 					"type": "gateways:mob_effect",
 					"effect": {
-						"effect": "attributeslib:sundering",
-						"amplifier": 0
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
 					}
 				}
             ],
@@ -591,7 +600,7 @@
 					}
 				}
 			],
-			"max_wave_time": 2400,
+			"max_wave_time": 3600,
 			"setup_time": 100
 		}
 	],

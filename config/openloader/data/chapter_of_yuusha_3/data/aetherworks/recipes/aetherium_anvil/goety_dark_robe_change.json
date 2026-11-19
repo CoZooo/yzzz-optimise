@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 3,
-  "emberPerHit": 25,
+  "emberPerHit": 100,
   "input": {
     "item": "goety:dark_robe"
   },

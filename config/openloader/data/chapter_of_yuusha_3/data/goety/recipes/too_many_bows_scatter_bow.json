@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "too_many_bows:power_crystal"
+  },
+  "craftType": "forge",
+  "soulCost": 1200,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "youkaishomecoming:crab_meat"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "youkaishomecoming:crab_meat"
+    },
+    {
+      "item": "goety:dark_fabric"
+    },
+    {
+      "item": "ancient_aether:ancient_dungeon_key"
+    },
+    {
+      "item": "aether:silver_dungeon_key"
+    },
+    {
+      "item": "ancient_aether:laboratory_dungeon_key"
+    },
+    {
+      "item": "aether:bronze_dungeon_key"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:scatter_bow"
+  }
+}

@@ -1,0 +1,171 @@
+{
+	"size": "small",
+	"color": "#BED742",
+	"waves": [{
+			"entities": [
+				{
+					"entity": "callfromthedepth_:deepspider",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:riper",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:seeker",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:screamer",
+					"count": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "callfromthedepth_:mushroom",
+					"count": 3
+				},
+				{
+					"entity": "callfromthedepth_:rotwalker",
+					"count": 3
+				},
+				{
+					"entity": "callfromthedepth_:roteater",
+					"count": 3
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "callfromthedepth_:citadelguardian",
+					"count": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "callfromthedepth_:deepspider",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:riper",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:seeker",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:screamer",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:mushroom",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:rotwalker",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:roteater",
+					"count": 2
+				},
+				{
+					"entity": "callfromthedepth_:citadelguardian",
+					"count": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "callfromthedepth_:sculkcreeper",
+					"count": 4
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "goety:wight",
+					"count": 4
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "callfromthedepth_:marble_gem",
+					"count": 4
+				}
+			}],
+			"modifiers": [],
+			"max_wave_time": 600,
+			"setup_time": 60
+		}
+	],
+    "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "callfromthedepth_:immemorialupgradesmithingtemplate",
+				"count": 4
+			}
+        }
+    ],
+    "failures": [
+    ]
+}

@@ -76,6 +76,7 @@
 					}
 					match_nbt: false
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: -1.0d

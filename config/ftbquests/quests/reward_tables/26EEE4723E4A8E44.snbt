@@ -1954,10 +1954,10 @@
 		{
 			item: {
 				Count: 1
-				id: "enigmaticaddons:unknown_sword"
+				id: "illager_additions:master_katana"
 				tag: {
-					AnniAvailable: 1L
 					Damage: 0
+					Unbreakable: 1
 				}
 			}
 		}

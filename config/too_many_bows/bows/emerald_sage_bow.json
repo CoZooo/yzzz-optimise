@@ -1,0 +1,6 @@
+{
+  "direct_hit_damage_override": 5.0,
+  "spawn_xp_on_living_hit": true,
+  "discard_after_entity_hit": true,
+  "allow_pickup": false
+}

@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 5,
-  "emberPerHit": 65,
+  "emberPerHit": 100,
   "input": {
     "item": "goety_revelation:ascension_halo"
   },

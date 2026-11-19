@@ -16,4 +16,6 @@ craftingTable.addShaped("gateways.apotheosis_boss_gate_the_nether", <item:gatewa
 <recipetype:farmersdelight:cutting>.addRecipe("gateways.boss_rush_gate_2", <item:angelcraft_bosses:recompensa_boss>, [<item:gateways:gate_pearl>.withTag({gateway: "gateways:boss_rush_gate_2"})], <item:goety_revelation:dimensional_will>);
 <recipetype:farmersdelight:cutting>.addRecipe("gateways.boss_rush_gate_3", <item:yuusha:falling_ender_pear>, [<item:gateways:gate_pearl>.withTag({gateway: "gateways:boss_rush_gate_3"})], <item:goety_revelation:dimensional_will>);
 
+//
+craftingTable.addShaped("gateways.basic.callfromthedepth", <item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/callfromthedepth" as string}), [[<item:minecraft:sculk>, <item:eidolon:tattered_cloth>, <item:minecraft:sculk>], [<item:eidolon:tattered_cloth>, <item:callfromthedepth_:depth>.reuse(), <item:eidolon:tattered_cloth>], [<item:minecraft:sculk>, <item:eidolon:tattered_cloth>, <item:minecraft:sculk>]]);
 

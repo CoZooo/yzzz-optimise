@@ -12,6 +12,14 @@
     },
     {
       "chance": 0.01,
+      "item": "malum:runewood_sapling"
+    },
+    {
+      "chance": 0.01,
+      "item": "malum:azure_runewood_sapling"
+    },
+    {
+      "chance": 0.01,
       "item": "simplyswords:bramblethorn"
     }
   ],

@@ -109,7 +109,7 @@
 		poison_duration = 100
 		#Multiply all damage done with the blowgun/darts by this amount.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		attack_damage = 100.0
+		attack_damage = 50.0
 
 	[tools_and_abilities.geomancerArmor]
 

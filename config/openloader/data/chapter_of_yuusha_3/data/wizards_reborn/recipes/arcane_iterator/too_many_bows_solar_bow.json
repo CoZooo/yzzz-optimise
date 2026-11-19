@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:solar_bow",
+    "count": 1
+  },
+  "wissen": 5000,
+  "ingredients": [
+    {
+      "item": "too_many_bows:power_crystal"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "irons_spellbooks:fire_upgrade_orb"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "irons_spellbooks:fire_upgrade_orb"
+    }
+  ]
+}

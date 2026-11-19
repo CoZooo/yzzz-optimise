@@ -49,7 +49,24 @@ import crafttweaker.api.recipe.SmithingRecipeManager;
 
 <item:goety_revelation:bow_of_revelation>.anyDamage().addGlobalAttributeModifier(<attribute:attributeslib:arrow_damage> , "attribute.bow_of_revelation.2", 10, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 
-//合成
+
+//弓移除合成
+craftingTable.remove(<item:too_many_bows:necro_flame_bow>);
+craftingTable.remove(<item:too_many_bows:frostbite>);
+craftingTable.remove(<item:too_many_bows:verdant_viper>);
+craftingTable.remove(<item:too_many_bows:ironclad_bow>);
+craftingTable.remove(<item:too_many_bows:twin_shadows>);
+craftingTable.remove(<item:too_many_bows:dusk_reaper>);
+craftingTable.remove(<item:too_many_bows:verdant_vigor>);
+craftingTable.remove(<item:too_many_bows:ethereal_hunter>);
+craftingTable.remove(<item:too_many_bows:crimson_nexus>);
+craftingTable.remove(<item:too_many_bows:radiance>);
+craftingTable.remove(<item:too_many_bows:tidal_bow>);
+craftingTable.remove(<item:too_many_bows:sentinels_wrath>);
+craftingTable.remove(<item:too_many_bows:hunter_bow>);
+
+craftingTable.remove(<item:aquaculture:neptunium_bow>);
+
 craftingTable.remove(<item:morebows:copper_bow>);
 craftingTable.remove(<item:morebows:iron_bow>);
 craftingTable.remove(<item:morebows:golden_bow>);
@@ -65,65 +82,20 @@ smithing.remove(<item:morebows:gilded_netherite_bow>);
 smithing.remove(<item:morebows:enderite_bow>);
 smithing.remove(<item:morebows:gilded_enderite_bow>);
 
-smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:wizards_reborn:arcane_wood_bow>.anyDamage(), <item:minecraft:copper_block>);
+//合成
+smithing.addTransformRecipe("morebows.copper_bow", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:minecraft:bow>.anyDamage(), <item:minecraft:copper_block>);
 smithing.addTransformRecipe("morebows.iron_bow", <item:morebows:iron_bow>, <item:hmag:evil_crystal_upgrade_smithing_template>, <item:morebows:copper_bow>.anyDamage(), <item:minecraft:iron_block>);
 smithing.addTransformRecipe("morebows.golden_bow", <item:morebows:golden_bow>, <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:morebows:iron_bow>.anyDamage(), <item:minecraft:gold_block>);
 smithing.addTransformRecipe("morebows.emerald_bow", <item:morebows:emerald_bow>, <item:call_of_drowner:coral_smithing_template>, <item:morebows:golden_bow>.anyDamage(), <item:goety:awakened_emerald_block>);
 smithing.addTransformRecipe("morebows.diamond_bow", <item:morebows:diamond_bow>, <item:cataclysm:cursium_upgrade_smithing_template>, <item:morebows:emerald_bow>.anyDamage(), <item:minecraft:diamond_block>);
 smithing.addTransformRecipe("morebows.netherite_bow", <item:morebows:netherite_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:diamond_bow>.anyDamage(), <item:minecraft:netherite_block>);
 
-//死灵烈焰弓
-craftingTable.remove(<item:too_many_bows:necro_flame_bow>);
+//猎手之弓
+craftingTable.addShaped("too_many_bows.hunter_bow", <item:too_many_bows:hunter_bow>, [[<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>], [<item:minecraft:leather>, <item:too_many_bows:power_crystal>, <item:minecraft:leather>], [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]]);
 
-//弓
-craftingTable.remove(<item:too_many_bows:frostbite>);
-craftingTable.remove(<item:too_many_bows:verdant_viper>);
-craftingTable.remove(<item:too_many_bows:ironclad_bow>);
-craftingTable.remove(<item:too_many_bows:twin_shadows>);
-craftingTable.remove(<item:too_many_bows:dusk_reaper>);
-craftingTable.remove(<item:too_many_bows:verdant_vigor>);
-craftingTable.remove(<item:too_many_bows:ethereal_hunter>);
-craftingTable.remove(<item:too_many_bows:crimson_nexus>);
-craftingTable.remove(<item:too_many_bows:radiance>);
-craftingTable.remove(<item:too_many_bows:tidal_bow>);
-craftingTable.remove(<item:too_many_bows:sentinels_wrath>);
-craftingTable.remove(<item:aquaculture:neptunium_bow>);
-
-//获得 返还
-smithing.addTransformRecipe("too_many_bows.ironclad_bow", <item:too_many_bows:ironclad_bow>, <item:callfromthedepth_:immemorialupgradesmithingtemplate>, <item:morebows:netherite_bow>.anyDamage(), <item:cataclysm:monstrous_eye>);
-
-smithing.addTransformRecipe("too_many_bows.frostbite.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:frostbite>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.auroras_grace.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:auroras_grace>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.burnt_relic.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:burnt_relic>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.arc_heavens.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arc_heavens>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.twin_shadows.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:twin_shadows>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.crimson_nexus.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:crimson_nexus>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("aquaculture.neptunium_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:aquaculture:neptunium_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ironclad_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ironclad_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ethereal_hunter.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ethereal_hunter>.anyDamage(), <item:hmag:purification_cloth>);
-
-smithing.addTransformRecipe("too_many_bows.spectral_whisper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:spectral_whisper>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.scatter_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:scatter_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.verdant_viper.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_viper>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.flame_bow.re", <item:morebows:copper_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:flame_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.astral_bound.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:astral_bound>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.demons_grasp.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:demons_grasp>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.aethers_call.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:aethers_call>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.torchbearer.re", <item:morebows:iron_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:torchbearer>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.vitality_weaver.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:vitality_weaver>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.wind_bow.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:wind_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.sentinels_wrath.re", <item:morebows:golden_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:sentinels_wrath>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.dragons_breath.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dragons_breath>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.shulker_blast.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:shulker_blast>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.solar_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:solar_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.tidal_bow.re", <item:morebows:emerald_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:tidal_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.dark_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:dark_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.ancient_sage_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:ancient_sage_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.cyroheart_bow.re", <item:morebows:diamond_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:cyroheart_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.arcane_bow.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:arcane_bow>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.webstring.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:webstring>.anyDamage(), <item:hmag:purification_cloth>);
-smithing.addTransformRecipe("too_many_bows.verdant_vigor.re", <item:morebows:netherite_bow>, <item:morebows:bow_upgrade_smithing_template>, <item:too_many_bows:verdant_vigor>.anyDamage(), <item:hmag:purification_cloth>);
-
+//以太之唤
+craftingTable.addShaped("too_many_bows.aethers_call", <item:too_many_bows:aethers_call>, [[<item:malum:processed_soulstone>, <item:eidolon:silver_ingot>, <item:malum:processed_soulstone>], [<item:eidolon:silver_ingot>, <item:too_many_bows:power_crystal>, <item:eidolon:silver_ingot>], [<item:malum:processed_soulstone>, <item:eidolon:silver_ingot>, <item:malum:processed_soulstone>]]);
+<item:too_many_bows:aethers_call>.anyDamage().addTooltip("\u00A7e该武器可给予目标「化魂」状态");
 
 //锻造模板
 craftingTable.remove(<item:morebows:bow_upgrade_smithing_template>);
@@ -137,17 +109,8 @@ stoneCutter.addRecipe("autofirebowenchant.enchanted_book.instinctive_release", <
 <item:too_many_bows:hunter_bow>.anyDamage().addTooltip("\u00A7e还可获得需要农夫乐事小刀击杀的产物");
 <item:too_many_bows:rift_shard>.anyDamage().addTooltip("\u00A76即使极光之耀有无限附魔射击时仍需要消耗该材料");
 <item:too_many_bows:emerald_sage_bow>.anyDamage().addTooltip("\u00A7e悬赏板的制箭悬赏有几率获得");
-<item:too_many_bows:ironclad_bow>.anyDamage().addTooltip("\u00A7c请勿用来打末影龙，可能会导致末影龙消失");
-<item:too_many_bows:ethereal_hunter>.anyDamage().addTooltip("\u00A7c谨慎使用，每次使用都会降低灵魂净化度及其它营养值");
-<item:too_many_bows:ethereal_hunter>.anyDamage().addTooltip("\u00A7e请勿给女仆等生物使用，超凡猎弓会直接消失");
-<item:too_many_bows:verdant_viper>.anyDamage().addTooltip("\u00A7e该武器可给予目标「化魂」状态");
 
-<item:too_many_bows:necro_flame_bow>.anyDamage().addTooltip("\u00A76该武器只有女仆可以使用");
-<item:too_many_bows:necro_flame_bow>.anyDamage().addTooltip("\u00A7e女仆使用时仅有属性加成，箭矢无特殊效果");
 
-//<item:too_many_bows:verdant_viper>.anyDamage().addTooltip("\u00A7c无法获取");
-
-<item:aquaculture:neptunium_bow>.anyDamage().addTooltip("\u00A76有几率从海王恩惠中开出");
 
 <item:too_many_bows:cursed_stone>.addTooltip("\u00A7c暂无特殊用途");
 <item:too_many_bows:soul_fragment>.addTooltip("\u00A7c暂无特殊用途");
@@ -172,20 +135,53 @@ craftingTable.remove(<item:too_many_bows:cursed_stone>);
 craftingTable.remove(<item:too_many_bows:rift_shard>);
 craftingTable.addShapeless("too_many_bows.rift_shard", <item:too_many_bows:rift_shard>*64, [<item:minecraft:amethyst_shard>, <item:aetherworks:aether_shard>, <item:minecraft:quartz>, <item:forbidden_arcanus:ender_pearl_fragment>]);
 
-//加伤
+//蕴力凝晶
+recipes.addJsonRecipe("too_many_bows.power_crystal.ex",{ 
+    type:"lychee:item_inside",
+    item_in: { tag: "too_many_bows:collected_bows" },
+    block_in: { blocks: ["minecraft:powder_snow"]},
+    post:  {  type: "drop_item",  item: "too_many_bows:power_crystal", count : 1}
+});
+
+//
+<item:aquaculture:neptunium_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.neptunium_bow.2", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:aether:phoenix_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.phoenix_bow.2", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:wizards_reborn:arcane_wood_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.arcane_wood_bow.2", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+
+/*
+<item:too_many_bows:necro_flame_bow>.anyDamage().addTooltip("\u00A76该武器只有女仆可以使用");
+<item:too_many_bows:necro_flame_bow>.anyDamage().addTooltip("\u00A7e女仆使用时仅有属性加成，箭矢无特殊效果");
+
+<item:too_many_bows:dusk_reaper>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.dusk_reaper.1", 0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:necro_flame_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.necro_flame_bow.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:mutantmonsters:mutant_skeleton_skull>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.electromancer_helmet.1", -0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:head>]);
+<item:too_many_bows:ancient_sage_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.ancient_sage_bow.1", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:dark_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.dark_bow.1", 2.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:dark_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.dark_bow.2", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:frostbite>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.frostbite.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:burnt_relic>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.burnt_relic.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:arc_heavens>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.arc_heavens.2", 1.45, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:arc_heavens>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.arc_heavens.3", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:dragons_breath>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.dragons_breath.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:verdant_viper>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.verdant_viper.1", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:solar_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.solar_bow.1", 0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:shulker_blast>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.shulker_blast.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:aethers_call>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.aethers_call.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:aethers_call>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.aethers_call.2", 0.6, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:spectral_whisper>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.spectral_whisper.1", 0.55, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:astral_bound>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.astral_bound.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:demons_grasp>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.demons_grasp.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:torchbearer>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.torchbearer.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:verdant_vigor>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.verdant_vigor.1", 1.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:verdant_vigor>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.verdant_vigor.2", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:flame_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.flame_bow.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
+<item:too_many_bows:burnt_relic>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.burnt_relic.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:cyroheart_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.cyroheart_bow.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:wind_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.wind_bow.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:demons_grasp>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.demons_grasp.2", 0.6, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:aethers_call>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.aethers_call.2", 0.6, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:astral_bound>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.astral_bound.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:emerald_sage_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.emerald_sage_bow.2", 0.45, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:twin_shadows>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.twin_shadows.2", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:crimson_nexus>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.crimson_nexus.2", 1.45, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:aquaculture:neptunium_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.neptunium_bow.2", 0.5, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:crimson_nexus>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.crimson_nexus.3", 0.55, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:ironclad_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.ironclad_bow.3", 0.55, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:ironclad_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.ironclad_bow.2", 1.45, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
@@ -193,38 +189,7 @@ craftingTable.addShapeless("too_many_bows.rift_shard", <item:too_many_bows:rift_
 <item:too_many_bows:tidal_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.tidal_bow.3", 2.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:ethereal_hunter>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.ethereal_hunter.3", 0.55, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
 <item:too_many_bows:ethereal_hunter>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.ethereal_hunter.2", 1.85, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-
-<item:too_many_bows:spectral_whisper>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.spectral_whisper.1", 0.55, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:astral_bound>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.astral_bound.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:demons_grasp>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.demons_grasp.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:aethers_call>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.aethers_call.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:torchbearer>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.torchbearer.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:dragons_breath>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.dragons_breath.1", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:solar_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.solar_bow.1", 0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:dark_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.dark_bow.1", 2.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:dark_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.dark_bow.2", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:verdant_vigor>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.verdant_vigor.1", 1.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:verdant_vigor>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.verdant_vigor.2", 0.25, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:verdant_viper>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.verdant_viper.1", 1.2, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-
-<item:too_many_bows:flame_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.flame_bow.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:shulker_blast>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.shulker_blast.1", 0.15, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:ancient_sage_bow>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.ancient_sage_bow.1", 0.35, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-
-<item:too_many_bows:dusk_reaper>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.dusk_reaper.1", 0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-<item:too_many_bows:necro_flame_bow>.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:critical_hit> , "attribute.necro_flame_bow.1", 1.0, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:mainhand>]);
-
-<item:mutantmonsters:mutant_skeleton_skull>.anyDamage().addGlobalAttributeModifier(<attribute:l2damagetracker:bow_strength> , "attribute.electromancer_helmet.1", -0.65, crafttweaker.api.entity.attribute.AttributeOperation.MULTIPLY_TOTAL, [<constant:minecraft:equipmentslot:head>]);
-
-//蕴力凝晶
-recipes.addJsonRecipe("too_many_bows.power_crystal.ex",{ 
-    type:"lychee:item_inside",
-    item_in: { tag: "too_many_bows:collected_bows" },
-    block_in: { blocks: ["minecraft:powder_snow"]},
-    post:  {  type: "drop_item",  item: "too_many_bows:power_crystal", count : 4}
-});
-
-
+*/
 
 
 

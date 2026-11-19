@@ -12,7 +12,8 @@
 
 <item:theinkarena:ink_power_scroll>.addTooltip("\u00A76可合成获得，也可击杀任意墨怪有几率掉落");
 <item:theinkarena:soul_power_scroll>.addTooltip("\u00A76可合成获得，也可击杀任意墨怪有几率掉落");
-<item:theinkarena:ink_titan_skull>.addTooltip("\u00A76击杀远古墨魂-时之侵袭传送门珍珠的泰坦墨怪可获得");
+<item:theinkarena:ink_titan_skull>.addTooltip("\u00A76击杀泰坦墨怪可获得");
+<item:theinkarena:ink_titan_skull>.addTooltip("\u00A7e远古墨魂-时之侵袭传送门珍珠可召唤泰坦墨怪");
 <item:theinkarena:soul_brush>.addTooltip("\u00A7c无法获取和使用");
 
 <item:theinkarena:soul_sigil>.anyDamage().removeTooltip("from");
@@ -46,4 +47,3 @@ recipes.addJsonRecipe("summon.theinkarena.blot.2",{
     block_in: "theinkarena:ink_titan_skull",
     post:  {  type: "execute",  command: "summon theinkarena:blot ~ ~1 ~"}
 });
-

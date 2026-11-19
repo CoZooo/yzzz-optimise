@@ -1,6 +1,7 @@
 import crafttweaker.api.block.Block;
 
 //说明
+<item:aether_redux:grand_victory_medal>.anyDamage().addTooltip("\u00A76放在物品栏内也可重玩女武神的战斗");
 <item:aether:freezer>.addTooltip("\u00A76需冰石作为燃料");
 <item:aether:quicksoil>.addTooltip("\u00A76可在天境特定生物群系找到");
 <item:ancient_aether:valkyrie_clay_ball>.addTooltip("\u00A76可在天境特定生物群系找到白金粘土块，湖泊处居多");
@@ -10,8 +11,12 @@ import crafttweaker.api.block.Block;
 <item:aether_redux:blighted_spores>.addTooltip("\u00A76疫纤树生长于天境的特殊生物群系");
 <item:deep_aether:aerglow_blossom>.addTooltip("\u00A76采掘开花的瑰根树叶可获得");
 <item:deep_aether:aerglow_blossom>.addTooltip("\u00A7e瑰根树可在天境内找到");
+<item:deep_aether:aerglow_blossom>.addTooltip("\u00A7c新增击杀紫水晶巨蟹有几率获得");
 
 <item:ancient_aether:grapes>.addTooltip("\u00A76可在古遗天境维度内找到");
+<item:ancient_aether:grapes>.addTooltip("\u00A7e新增击杀金黄史维特有小几率获得");
+<item:aether:blue_berry>.addTooltip("\u00A7e新增击杀天蓝史维特有小几率获得");
+<item:aether:white_apple>.addTooltip("\u00A7e新增击杀节日史维特有小几率获得");
 <item:aether_redux:blightbunny_spawn_egg>.addTooltip("\u00A7c该生物被禁止生成");
 
 <item:deep_aether:aerwhale_saddle>.addTooltip("\u00A7c在召唤祭坛中用灵质云和咒灰等材料可召唤云鲸");
@@ -29,7 +34,8 @@ import crafttweaker.api.block.Block;
 <item:deep_aether:purple_squash>.addTooltip("\u00A76等待一定时间可转化为紫色南瓜，可能需要多尝试几次");
 <item:deep_aether:purple_squash>.addTooltip("\u00A73详见古遗天境章节");
 <item:aether:aechor_petal>.addTooltip("\u00A7c在古遗天境维度击杀箭毒花或者在地牢宝箱内获得");
-<item:aether:aechor_petal>.addTooltip("\u00A76详见古遗天境章节");
+<item:aether:aechor_petal>.addTooltip("\u00A76相关内容详见古遗天境章节");
+<item:aether:aechor_petal>.addTooltip("\u00A7e新增击杀香草史维特有小几率获得");
 <item:aether:white_flower>.addTooltip("\u00A7c生成在古遗天境维度");
 <item:aether_redux:gravitite_ingot>.addTooltip("\u00A7c重力晶矿生成在古遗天境维度较低高度处");
 <item:aether_redux:gravitite_ingot>.addTooltip("\u00A76详见古遗天境章节任务");
@@ -88,15 +94,20 @@ import crafttweaker.api.block.Block;
 
 <item:lost_aether_content:platinum_key>.addTooltip("\u00A7c击杀帝王云鲸获得");
 <item:lost_aether_content:platinum_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:lost_aether_content:platinum_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether:silver_dungeon_key>.addTooltip("\u00A7c击杀武神女王获得");
 <item:aether:silver_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:aether:silver_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether:bronze_dungeon_key>.addTooltip("\u00A7c击杀滑行魔石获得");
 <item:aether:bronze_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:aether:bronze_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A7c击杀突变毒箭花获得");
 <item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A76详见古遗天境章节");
+<item:ancient_aether:laboratory_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7c只有在墨魂神殿区域击杀远古墨魂化身才可获得");
+<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A72在其它地方击杀远古墨魂化身也有几率获得");
 <item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A76相关内容详见古遗天境章节");
-<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7e仅用作合成材料，无对应的宝箱开启");
+<item:ancient_aether:ancient_dungeon_key>.addTooltip("\u00A7e也可在切石机中制作对应的地牢宝箱");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A7c需女武神镐及以上等级才可挖掘女武神金属矿石");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A76女武神金属矿石生成在古遗天境维度较低高度处");
 <item:aether_redux:raw_valkyrum>.addTooltip("\u00A7e后续击杀腐化英雄也可获得粗瓦尔基里矿");
@@ -292,7 +303,12 @@ craftingTable.remove(<item:aether_redux:sentry_ring>);
 craftingTable.addShapeless("aether_redux.veridium_nugget.copy", <item:aether_redux:veridium_nugget>*3, [<item:aether_redux:veridium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("aether_redux.sentrite_chunk.copy", <item:aether_redux:sentrite_chunk>*3, [<item:aether_redux:refined_sentrite_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 
-
+//
+stoneCutter.addRecipe("aether.bronze_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/bronze/bronze_dungeon_reward"}}), <item:aether:bronze_dungeon_key>);
+stoneCutter.addRecipe("aether.silver_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/silver/silver_dungeon_reward"}}), <item:aether:silver_dungeon_key>);
+stoneCutter.addRecipe("ancient_aether.sentry_laboratory_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"ancient_aether:chests/dungeon/laboratory/sentry_laboratory_reward"}}), <item:ancient_aether:laboratory_dungeon_key>);
+stoneCutter.addRecipe("lost_aether_content.platinum_treasure_loot", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"lost_aether_content:chests/platinum_treasure_loot"}}), <item:lost_aether_content:platinum_key>);
+stoneCutter.addRecipe("aether.gold_dungeon_reward", <item:goety:lofty_chest>.withTag({BlockEntityTag:{LootTable:"aether:chests/dungeon/gold/gold_dungeon_reward"}}), <item:ancient_aether:ancient_dungeon_key>);
 
 
 

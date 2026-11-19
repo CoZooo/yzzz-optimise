@@ -1,0 +1,11 @@
+{
+  "light_arrow_base_damage": 20.0,
+  "dark_arrow_base_damage": 20.0,
+  "use_ranged_damage_attribute": false,
+  "light_arrow_ranged_damage_divisor": 3.0,
+  "dark_arrow_ranged_damage_divisor": 2.0,
+  "crit_damage_multiplier": 1.5,
+  "arrow_velocity": 3.0,
+  "arrow_inaccuracy": 1.0,
+  "dark_arrow_yaw_offset_degrees": 3.0
+}

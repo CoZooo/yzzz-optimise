@@ -344,7 +344,7 @@
 		lavaBombTime = 10
 		#How much base damage Lavaballs deal when directly hitting a mob, Default: 6.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		lavaballDamage = 250.0
+		lavaballDamage = 300.0
 		#Lava Bomb Spell Cooldown, Default: 40
 		#Range: > 0
 		lavaBombCoolDown = 30
@@ -352,7 +352,7 @@
 		lavaballGriefing = false
 		#Lava Bomb Spell Cost, Default: 16
 		#Range: > 0
-		lavaBombCost = 0
+		lavaBombCost = 1
 
 	[Spells."Charge Spell"]
 		#How much base damage Charge deals after gaining 2 Levels, Default: 4.0
@@ -1176,10 +1176,10 @@
 		skullLimit = 8
 		#How much base damage Haunted Skulls deal when directly hitting a mob, Default: 5.0
 		#Range: 1.0 ~ 1.7976931348623157E308
-		hauntedSkullDamage = 325.0
+		hauntedSkullDamage = 250.0
 		#Skull Spell Cost, Default: 16
 		#Range: > 0
-		hauntedSkullCost = 1
+		hauntedSkullCost = 0
 		#Skull Spell Summon Down, Default: 0
 		#Range: 0 ~ 72000
 		hauntedSkullSummonDown = 60

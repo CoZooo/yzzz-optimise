@@ -1258,72 +1258,21 @@
 		{
 			can_repeat: true
 			dependencies: ["3390F4DD2E24284D"]
-			description: ["此任务为可重复，仅用作清空玩家所有营养值（包括灵魂宝石净化度）。"]
+			description: ["此任务为可重复，仅用作清空玩家的灵魂宝石净化度。"]
 			hide_dependency_lines: false
 			icon: "graveyard:hanged_wither_skeleton"
 			id: "4B8862775C5CF951"
-			rewards: [
-				{
-					auto: "invisible"
-					command: "/diet set @s fruits 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "3A94C05CA9DB4754"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/diet set @s grains 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "31A61FDB3A618DD1"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/diet set @s proteins 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "5291403C6CFF68DB"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/diet set @s sugars 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "368E2294A5C03090"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-				{
-					auto: "invisible"
-					command: "/diet set @s vegetables 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "343A244D4D7CA046"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/diet set @s soulgem 0"
-					elevate_perms: true
-					icon: "yuusha:bad_soul_gem"
-					id: "3CD17DAFE350F606"
-					team_reward: true
-					title: "&c将所有营养值（包括灵魂宝石净化度）设为零（自动领取）"
-					type: "command"
-				}
-			]
+			rewards: [{
+				auto: "enabled"
+				command: "/diet set @s soulgem 0"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "yuusha:bad_soul_gem"
+				id: "3CD17DAFE350F606"
+				team_reward: true
+				title: "&c将灵魂宝石净化度设为零（自动领取）"
+				type: "command"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "202ACCF39DDF2451"

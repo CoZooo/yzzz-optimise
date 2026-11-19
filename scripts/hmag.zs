@@ -15,6 +15,8 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 <item:hmag:insomnia_fruit>.anyDamage().addTooltip("\u00A7c携带后会无法睡觉");
 <item:hmag:insomnia_sword>.anyDamage().addTooltip("\u00A7c携带后会无法睡觉");
 
+<item:hmag:banshee_spawn_egg>.addTooltip("\u00A7e用腐化粉末右击鹰身女妖巢穴可召唤报丧女妖");
+<item:hmag:bat_stew>.addTooltip("\u00A7e开启贸易商人的各种宝箱有几率获得");
 <item:hmag:cubic_nucleus>.addTooltip("\u00A7e任意生物击杀史莱姆娘都必定掉落一个");
 <item:hmag:evil_crystal_fragment>.addTooltip("\u00A7e考古骨头转化的可疑方块可获得");
 
@@ -64,7 +66,7 @@ craftingTable.remove(<item:hmag:endless_pearl>);
 
 <item:hmag:bat_wing>.addTooltip("\u00A7c击杀蝙蝠可获得，手持血蝠翼右击灵魂营火，可召唤蝙蝠");
 <item:hmag:bat_wing>.addTooltip("\u00A76也可在星河贸易站内交易获得");
-<item:hmag:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
+//<item:hmag:bat_wing>.addTooltip("\u00A7e现在蝙蝠在所有加载区块内有存在数量上限");
 
 //锻造模板
 <item:hmag:evil_crystal_upgrade_smithing_template>.addTooltip("\u00A7c用作在锻造台中进行符文武器刷新符文之力时");

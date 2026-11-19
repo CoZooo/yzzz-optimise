@@ -19,12 +19,12 @@
     "gravity": 0.15,
     "knockback": 0,
     "friction": 0.025,
-    "ignite": false,
-    "pierce": 0,
+    "ignite": true,
+    "pierce": 1,
     "explosion": {
       "explode": false,
-      "damage": 4,
-      "radius": 1,
+      "damage": 15,
+      "radius": 0.5,
       "knockback": false,
       "destroy_block": false,
       "delay": 1
@@ -86,10 +86,10 @@
     ]
   },
   "inaccuracy": {
-    "stand": 7,
-    "move": 10,
-    "sneak": 5,
-    "lie": 3,
-    "aim": 0.22
+    "stand": 1.5,
+    "move": 2,
+    "sneak": 1,
+    "lie": 1,
+    "aim": 0.5
   }
 }

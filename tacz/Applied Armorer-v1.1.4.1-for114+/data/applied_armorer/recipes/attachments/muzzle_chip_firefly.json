@@ -1,0 +1,33 @@
+{
+  "type": "tacz:gun_smith_table_crafting",
+  "materials": [
+    {
+      "item": {
+        "item": "aether_redux:veridium_ingot"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "yuusha:aja_stone"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "mowziesmobs:glowing_jelly"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_5"
+        },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "applied_armorer:muzzle_chip_firefly"
+  }
+}

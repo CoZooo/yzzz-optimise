@@ -3,20 +3,16 @@
   "extra_items": [
     {
       "count": 4,
-      "item": "cataclysm:lacrima"
+      "item": "cataclysm:essence_of_the_storm"
     },
     {
-      "count": 1,
-      "item": "locusazzurro_icaruswings:zephir_essence"
-    },
-    {
-      "count": 1,
-      "item": "minecraft:netherite_upgrade_smithing_template"
+      "count": 2,
+      "item": "minecraft:nether_star"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:golden_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -29,10 +25,6 @@
     },
     {
       "type": "sacred",
-      "count": 4
-    },
-    {
-      "type": "aqueous",
       "count": 4
     }
   ]

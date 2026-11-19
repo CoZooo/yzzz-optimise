@@ -16,11 +16,11 @@
       ],
       "recipe": {
         "type": "reliquary:alkahestry_crafting",
-        "charge": 32,
+        "charge": 16,
         "ingredient": {
           "item": "embers:silver_ingot"
         },
-        "result_count": 4
+        "result_count": 8
       }
     }
   ]

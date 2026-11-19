@@ -13,6 +13,7 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:gauntlet_of_bulwark>.addTooltip("\u00A7c该武器渲染存在特性，可以尝试开关光影");
 <item:cataclysm:strange_key>.addTooltip("\u00A7c击杀冥行武弁可获得");
 <item:cataclysm:void_lantern_block>.addTooltip("\u00A76在末影守卫的废弃堡垒建筑内可以找到");
+<item:cataclysm:void_lantern_block>.addTooltip("\u00A7e新增击杀末影傀儡必定获得");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A76可制作获得，相关内容详见上层世界章节");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A7c击杀利维坦会返还召唤物");
 <item:cataclysm:abyssal_sacrifice>.addTooltip("\u00A7e渊灵术士、珊瑚巨像均可召唤");
@@ -46,7 +47,7 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A7c紫水晶巨蟹可用虚空百合等材料召唤");
 <item:cataclysm:amethyst_crab_spawn_egg>.addTooltip("\u00A76相关内容详见好好吃章节受祝福的紫水晶蟹肉任务");
 
-<item:cataclysm:void_core>.addTooltip("\u00A7c击杀末影傀儡可获得");
+<item:cataclysm:void_core>.addTooltip("\u00A7c击杀末影傀儡可获得，可用于召唤末影傀儡");
 <item:cataclysm:void_core>.addTooltip("\u00A76相关内容详见末路之地章节");
 <item:cataclysm:void_jaw>.addTooltip("\u00A7c击杀末影甲虫可获得");
 <item:cataclysm:void_jaw>.addTooltip("\u00A76相关内容详见末路之地章节");
@@ -54,6 +55,9 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:chain_of_soul_binding>.addTooltip("\u00A76可制作获得，相关内容详见幽匿暗域章节");
 <item:cataclysm:witherite_ingot>.addTooltip("\u00A7c击杀先驱者可获得");
 <item:cataclysm:witherite_ingot>.addTooltip("\u00A76相关内容详见幽匿暗域章节");
+<item:cataclysm:witherite_ingot>.addTooltip("\u00A7e可在召唤祭坛中召唤徘徊者和观测者");
+<item:cataclysm:the_watcher_spawn_egg>.addTooltip("\u00A76可在召唤祭坛中用凋灵合金锭等材料召唤");
+<item:cataclysm:the_prowler_spawn_egg>.addTooltip("\u00A76可在召唤祭坛中用凋灵合金锭等材料召唤");
 
 <item:cataclysm:ignitium_ingot>.addTooltip("\u00A7c击杀焰魔可获得");
 <item:cataclysm:ignitium_ingot>.addTooltip("\u00A76相关内容详见极尽深渊章节");
@@ -72,8 +76,10 @@ import mods.jeitweaker.Jei;
 <item:cataclysm:aptrgangr_head>.addTooltip("\u00A76相关内容详见极尽深渊章节");
 <item:cataclysm:draugr_head>.addTooltip("\u00A7c在苦寒监牢可找到");
 <item:cataclysm:draugr_head>.addTooltip("\u00A76相关内容详见极尽深渊章节");
-<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7c击杀珊瑚傀儡可获得");
-<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋类生物群系中稀有地自然生成珊瑚傀儡");
+<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7c击杀珊瑚傀儡可获得晶化珊瑚碎片");
+<item:cataclysm:crystallized_coral_fragments>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋生物群系稀有自然生成珊瑚傀儡");
+<item:cataclysm:crystallized_coral>.addTooltip("\u00A7c击杀珊瑚傀儡可获得晶化珊瑚碎片");
+<item:cataclysm:crystallized_coral>.addTooltip("\u00A7e利维坦首次被击杀后，在任意海洋生物群系稀有自然生成珊瑚傀儡");
 <item:cataclysm:coral_chunk>.addTooltip("\u00A7c击杀珊瑚巨像可获得，在沉没之城内可以找到");
 <item:cataclysm:coral_chunk>.addTooltip("\u00A7e利用珊瑚残片右击深渊祭坛，可召唤珊瑚巨像");
 <item:cataclysm:athame>.addTooltip("\u00A7c击杀渊灵术士、渊灵祭司可获得，在沉没之城内可以找到");
@@ -150,10 +156,13 @@ import mods.jeitweaker.Jei;
 
 <item:cataclysm:wrath_of_the_desert>.anyDamage().addTooltip("\u00A7c· 每级力量附魔会提供5%增伤");
 <item:cataclysm:wrath_of_the_desert>.anyDamage().addTooltip("\u00A7e· 除此之外基本只享受全伤害加成");
-<item:cataclysm:wrath_of_the_desert>.anyDamage().addTooltip("\u00A76· 可以无视灾变模组的动态减伤效果");
+<item:cataclysm:wrath_of_the_desert>.anyDamage().addTooltip("\u00A76· 无需无限附魔即可发射箭矢");
+<item:cataclysm:wrath_of_the_desert>.anyDamage().addTooltip("\u00A75· 可以无视灾变模组的动态减伤效果");
 
 <item:cataclysm:cursed_bow>.anyDamage().addTooltip("\u00A7c· 不享受力量附魔加成");
-<item:cataclysm:cursed_bow>.anyDamage().addTooltip("\u00A7e· 基本只享受“弹射物加成”和全伤害加成");
+<item:cataclysm:cursed_bow>.anyDamage().addTooltip("\u00A7e· 基本只享受弹射物加成和全伤害加成");
+<item:cataclysm:cursed_bow>.anyDamage().addTooltip("\u00A76· 可上无限附魔不消耗普通箭矢发射");
+<item:cataclysm:cursed_bow>.anyDamage().addTooltip("\u00A75· 上特殊箭矢反而会导致伤害下降");
 
 //
 <item:cataclysm:goddess_statue>.addTooltip("\u00A7e部分物品可右击献给女神雕像，从而给最近的玩家赐予特定奖励");
@@ -299,7 +308,7 @@ recipes.addJsonRecipe("summon.cataclysm.coralssus",{
     type:"lychee:block_interacting",
     item_in: { item: "crabbersdelight:coral_fragments" },
     block_in: "cataclysm:altar_of_abyss",
-    post:  {  type: "execute",  command: "summon cataclysm:coralssus"}
+    post:  {  type: "execute",  command: "summon cataclysm:coralssus ~ ~10 ~"}
 });
 
 //召唤渊灵术士
@@ -307,7 +316,7 @@ recipes.addJsonRecipe("summon.cataclysm.deepling_warlock",{
     type:"lychee:block_interacting",
     item_in: { item: "eidolon:oanna_bloom" },
     block_in: "cataclysm:altar_of_abyss",
-    post:  {  type: "execute",  command: "summon cataclysm:deepling_warlock"}
+    post:  {  type: "execute",  command: "summon cataclysm:deepling_warlock ~ ~10 ~"}
 });
 
 //tag

@@ -28,6 +28,8 @@
 		"minecraft:base_stone_overworld"
 		"c:*_ores"
 		"forge:ores/*"
+		"forge:ores"
+		"minecraft:logs"
 		"malum:runewood_logs"
 		"malum:soulwood_logs"
 		"forbidden_arcanus:edelwood_logs"

@@ -40,7 +40,7 @@
 		{
 			dependencies: ["59AC63668E05CCA5"]
 			description: [
-				"开局任务会送一把，默认按V键可施法。可获得魔法技能经验，但是不享受魔法技能等级加成。"
+				"开局树海化章节有任务奖励特殊武器，可以开局用用。虽然有黑暗魔杖，但仍需至少获得根之图腾才能攻击。"
 				""
 				"&e法师发展需研究咒法章节，具有一定难度。铁之咒语法术可能比聚晶法术要难。"
 				""
@@ -51,19 +51,23 @@
 				"&2法师路线的星月词缀选择，建议魔息、魔殇、源泉、勇猛均匀分配。也可选择佩戴增加乘法乘区攻速的饰品。"
 			]
 			id: "1E90ABFD331440E4"
-			rewards: [{
-				id: "1F3EF15202F27200"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1F3EF15202F27200"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1680BDBD71643D99"
+					table_id: 8383046252863950681L
+					type: "choice"
+				}
+			]
 			subtitle: "「异界法师」"
 			tasks: [{
 				id: "78ADA3D8FE89FB43"
-				item: {
-					Count: 1
-					id: "bhc:blade_of_vitality"
-					tag: { }
-				}
+				item: "cataclysm:void_assault_shoulder_weapon"
 				match_nbt: false
 				type: "item"
 			}]
@@ -429,7 +433,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["415CA5A2A9FD668F"]
+			dependencies: ["063B68C423DF0F26"]
 			description: [
 				"部分聚晶可以用寻位眼镜来辅助瞄准。"
 				""
@@ -813,11 +817,7 @@
 		}
 		{
 			dependencies: ["415CA5A2A9FD668F"]
-			description: [
-				"部分聚晶可享受箭术和箭矢伤害加成，聚晶内会有相关说明。"
-				""
-				"&6JEI搜索“箭术”可查看相关内容。而“箭矢伤害”基本只有精灵花冠或者精灵饰品套装这种直接增加箭矢伤害才算。“投射物”加成不算。"
-			]
+			description: ["头颅聚晶：被召唤后，缠魂飞颅会在周围寻找目标，找到目标后会迅速冲向目标，在接触目标时自爆并造成伤害。"]
 			id: "0E284081D4E6EC46"
 			rewards: [{
 				id: "10F52C68F28048FD"
@@ -826,7 +826,7 @@
 			}]
 			tasks: [{
 				id: "33614AB8B059B466"
-				item: "goety:lavaball_focus"
+				item: "goety:skull_focus"
 				type: "item"
 			}]
 			x: -2.5d
@@ -954,9 +954,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["415CA5A2A9FD668F"]
+			dependencies: ["1E90ABFD331440E4"]
 			description: [
-				"在前期所需的魔法经验，可通过紫晶刺剑、虚空突击肩炮获得。"
+				"在前期所需的魔法经验，可通过紫晶刺剑、虚空突击肩炮等获得。"
 				""
 				"&6空法术聚晶可通过考古获得。其它合成材料可在死寂之海的特定建筑内找到。相关内容详见物品说明及JEI。"
 				""
@@ -1613,7 +1613,11 @@
 		}
 		{
 			dependencies: ["0E284081D4E6EC46"]
-			description: ["头颅聚晶：被召唤后，缠魂飞颅会在周围寻找目标，找到目标后会迅速冲向目标，在接触目标时自爆并造成伤害。"]
+			description: [
+				"部分聚晶可享受箭术和箭矢伤害加成，聚晶内会有相关说明。"
+				""
+				"&6JEI搜索“箭术”可查看相关内容。而“箭矢伤害”基本只有精灵花冠或者精灵饰品套装这种直接增加箭矢伤害才算。“投射物”加成不算。"
+			]
 			id: "7A7C18069DB3291C"
 			rewards: [{
 				id: "435F67AF032797BA"
@@ -1627,13 +1631,13 @@
 					type: "item"
 				}
 				{
-					id: "6A39C29B00C35033"
-					item: "goety:skull_focus"
+					id: "2D8B1BD6DB71E5D0"
+					item: "goety:updraft_focus"
 					type: "item"
 				}
 				{
-					id: "2D8B1BD6DB71E5D0"
-					item: "goety:updraft_focus"
+					id: "5DA77767EDFC968D"
+					item: "goety:lavaball_focus"
 					type: "item"
 				}
 			]
@@ -2043,6 +2047,20 @@
 					id: "3325EDDEDF597FD4"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EFC59785AB1F0B4"
+					item: {
+						Count: 1
+						id: "goety:totem_of_roots"
+						tag: {
+							"Max Souls": 800
+							Souls: 0
+						}
+					}
+					team_reward: true
+					type: "item"
 				}
 			]
 			subtitle: "「堕魔」"

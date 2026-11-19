@@ -1,0 +1,26 @@
+
+
+
+
+profile Saved activate HOT6
+	HOT1
+		"enigmaticaddons:annihilating_sword" -> "Enchantments" : [{id:"minecraft:sharpness",lvl:20},{id:"minecraft:smite",lvl:20}]
+	HOT2
+		"tacz:modern_kinetic_gun"
+	HOT4
+		"hmag:purification_cloth"
+	HOT5
+		"reliquary:emperor_chalice"
+	HOT8
+		"goety:totem_of_souls"
+	HOT9
+		"celestial_artifacts:repent_mirror"
+	HEAD
+		"call_of_yucutan:warrior_helmet" -> "Enchantments" : [{id:"elementalcombat:magic_protection",lvl:5},{id:"majruszsenchantments:magic_protection",lvl:5}]
+	CHEST
+		"locusazzurro_icaruswings:melan_wings"
+	LEGS
+		"cthulhufishing:frozen_leggins_leggings"
+	FEET
+		"netherdepthsupgrade:soul_sucker_boots" -> "Enchantments" : [{id:"minecraft:soul_speed",lvl:3},{id:"majruszsenchantments:magic_protection",lvl:5},{id:"elementalcombat:magic_protection",lvl:5}]
+

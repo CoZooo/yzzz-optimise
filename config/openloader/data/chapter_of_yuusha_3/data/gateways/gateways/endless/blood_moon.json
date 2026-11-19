@@ -60,5 +60,5 @@
     "boss_event": {
         "mode": "boss_bar"
     },
-    "spawn_algorithm": "gateways:inward_spiral"
+    "spawn_algorithm": "gateways:open_field"
 }

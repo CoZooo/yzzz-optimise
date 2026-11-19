@@ -212,16 +212,16 @@
 		sharpArrowDamage = 0.4
 		#Morning Star: What is the probability of summoning lightning
 		#Range: 0.0 ~ 1.0
-		morningStarChance = 0.25
+		morningStarChance = 0.3
 		#Divine Projection: How much damage can each grid distance increase for arrows
 		#Range: 0.0 ~ 1.0
-		divineProjectionDamage = 0.03
+		divineProjectionDamage = 0.01
 		#Burst Arrow: What is the probability of an explosion occurring
 		#Range: 0.0 ~ 1.0
-		burstArrowChance = 0.2
+		burstArrowChance = 0.3
 		#Burst Arrow: How much explosive strength will it cause
 		#Range: 0 ~ 100
-		burstArrowStrength = 3
+		burstArrowStrength = 5
 		#Arrow Storm: Will cause damage equivalent to the original damage to targets around the target
 		#Range: 0.0 ~ 100.0
 		arrowStormDamage = 0.05

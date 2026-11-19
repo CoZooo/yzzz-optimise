@@ -1,0 +1,25 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:burnt_relic",
+    "count": 1
+  },
+  "wissen": 1000,
+  "ingredients": [
+    {
+      "item": "too_many_bows:power_crystal"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    {
+      "item": "celestial_core:heart_fragment"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    }
+  ]
+}

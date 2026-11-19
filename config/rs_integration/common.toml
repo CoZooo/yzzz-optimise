@@ -120,7 +120,7 @@
 	#支持奥术交错台递归合成。
 	enableIssCsw = true
 	#启用天华工艺兼容
-	#支持天华砧远程合成及自动敲击。
+	#支持天华砧、锻造工具站及金属成型台远程与递归合成。
 	enableAetherworks = true
 	#启用天境兼容
 	#支持冷冻器、孵化器及祭坛。
@@ -185,6 +185,49 @@
 	#显示 FTB 任务库存扫描按钮
 	#在侧边栏显示一次性扫描存储网络和玩家背包的按钮。
 	enableFtbQuestStorageScanButton = true
+	#启用克苏鲁生物血肉祭坛兼容
+	#支持带数量的材料、批量投料、多祭坛并行、远程界面与递归合成。
+	enableCthulhuCreatures = true
+	#启用直至永恒兼容
+	#支持终末工作台的远程绑定与递归合成。
+	enableUntilEternity = true
+	#启用余烬机器兼容
+	#支持熔炼炉、混合离心器、压印锤和微型锅炉的远程合成；流体材料与产物需要 RS 流体存储。
+	enableEmbersMachines = true
+	#启用地牢乐事兼容
+	#支持怪物锅递归合成、批量预载及多台机器并发。
+	enableDungeonsDelight = true
+	#允许 RS 灵魂能量反向补货灵魂方舟
+	#开启后，灵魂方舟发生灵魂消耗时从绑定 RS 网络按剩余容量一次补满；每 20 tick 最多尝试一次
+	#关闭时只保留灵魂方舟溢出写入 RS 的原行为
+	enableGoetySoulReverseRefill = false
+	#亡灵火炉与女巫坩埚自动炼制虚拟烛台数
+	#无实体灵魂烛台时，递归合成使用指定数量的内存烛台。每 tick 每个烛台推进 1 点进度并消耗 1 点灵魂，总成本不变。
+	#亡灵火炉递归合成和女巫坩埚一键炼制共用，最多 1024；玩家手动点火仍遵循 Goety 原版烛台结构。
+	#Range: 1 ~ 1024
+	goetyBrazierVirtualCandleCount = 64
+	#启用暮色乐事兼容
+	#支持炽铁锅远程合成。炽铁锅复用农夫乐事烹饪锅配方，自带热源。
+	enableTwilightDelight = true
+	#启用 BOMD 乐事兼容
+	#支持灵魂锅远程合成。热源是下方方块的冷源标签（冰 / 浮冰 / 蓝冰），配方类型独立。
+	enableBossesDelight = true
+	#启用随意乐事兼容
+	#支持炸锅远程合成。成品以世界掉落物弹出，由插件自动回收。
+	enableCasualnessDelight = true
+	#启用田园乐事兼容
+	#支持烹饪锅（整合包内叫"宴会锅"）与烘焙机，需要下方火炉类热源方块。
+	enableFarmAndCharm = true
+	#启用烛火晚宴兼容
+	#支持大汤锅（汤锅 / 铜汤锅），需要本模组的炉灶方块作热源。
+	enableCandlelight = true
+	#启用烘焙屋兼容
+	#支持小烹饪锅。它与田园乐事/烛火晚宴共用 pot_cooking 配方与槽位布局，需要下方火炉类热源方块。
+	enableBakery = true
+	#启用女巫坩埚集成
+	#启用 RSI 的女巫坩埚访问器入口、补水和递归炼制；同时需要 enableGoety 开启。
+	#关闭后保留 Goety 原生坩埚及已有数据，不影响其他 Goety 集成；修改后需重启游戏。
+	enableGoetyCauldron = true
 
 #自动合成
 [autoCrafting]
@@ -232,7 +275,7 @@
 	#单次进食数量上限
 	#每次批量进食最多吃掉的食物数量。
 	#Range: 1 ~ 1024
-	maxPerBatch = 128
+	maxPerBatch = 64
 
 #容器传输
 [containerTransfer]
@@ -244,12 +287,12 @@
 [sidePanel]
 	#启用 RS 侧边面板
 	#通过指定按键显示可折叠、拖动的网络物品面板。
-	enableRSSidePanel = true
+	enableRSSidePanel = false
 
 #远程机器
 [remoteMachineGui]
 	#启用虚拟机器界面
-	#在机器中心和 RS 终端显示虚拟机器界面；关闭后拒绝相应远程请求，与机器是否必须绑定的选项独立。
+	#允许从 RSI 控制中心和终端收藏栏远程打开已绑定机器；关闭后拒绝相应远程请求。
 	enableMachineGuiTabs = true
 	#自定义远程界面模组
 	#填写模组 ID，为其机器提供绑定和远程打开界面，不提供批量合成；已有完整模块支持的模组无需填写。
@@ -266,4 +309,42 @@
 	#启用详细诊断日志
 	#仅建议排查问题时启用，可能产生大量服务端日志。
 	diagnosticVerboseLogging = false
+
+#食物点单
+[foodOrder]
+	#启用食物点单
+	#允许使用点餐终端查看未吃过的食物，并通过 RS Integration 自动下单。
+	enableFoodOrder = true
+	#列表单包条目上限
+	#每个同步包最多携带的食物数量；完整目录分包发送，不限制可搜索食物总数。
+	#Range: 10 ~ 5000
+	maxListEntries = 800
+	#每种食物尝试的配方数
+	#列表判定时每种食物最多检查多少个配方，越小越省时。
+	#Range: 1 ~ 32
+	maxRecipesPerFood = 6
+	#每批下单数量
+	#「全部下单」按此数量分批预检和提交，前一批结束后自动继续；不限制总菜数。
+	#实际批次还受 Consumer API 的检查会话和并发上限约束。
+	#Range: 1 ~ 64
+	maxOrdersPerBatch = 32
+	#下单冷却
+	#两次下单操作之间至少间隔的 tick 数，防止误触连续提交。
+	#Range: 0 ~ 200
+	orderCooldownTicks = 20
+	#下单步骤间隔
+	#下单状态机每步（查询规划/提交）之间的 tick 间隔，用于削平服务端尖峰。
+	#Range: 1 ~ 100
+	orderIntervalTicks = 2
+	#跳过已吃食物
+	#开启后列表只显示当前玩家未吃过的食物；已吃记录来自本模组和 Sol Carrot。
+	skipEaten = true
+	#列表判定预算
+	#每 tick 判定食物状态的微秒预算，超出后自动在后续 tick 继续；完整目录始终可搜索。
+	#Range: 2000 ~ 50000
+	listBudgetMicros = 10000
+	#下单会话超时
+	#预检或提交无进展的超时 tick 数；等待已提交订单执行期间不计总队列时长。
+	#Range: 20 ~ 1200
+	sessionTimeoutTicks = 200
 

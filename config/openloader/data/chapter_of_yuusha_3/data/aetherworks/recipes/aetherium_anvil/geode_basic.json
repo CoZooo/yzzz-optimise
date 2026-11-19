@@ -1,12 +1,17 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 1,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "aetherworks:geode_basic"
   },
   "numberOfHits": 1,
   "result": [
+    {
+      "chance": 10.0,
+      "count": 16,
+      "item": "aether:holystone"
+    },
     {
       "chance": 10.0,
       "count": 8,

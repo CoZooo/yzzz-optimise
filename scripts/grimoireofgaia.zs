@@ -10,6 +10,9 @@
 <tag:items:diet:proteins>.add(<item:grimoireofgaia:withered_brain>);
 
 //玩偶
+stoneCutter.addRecipe("grimoireofgaia.deco_nest_harpy", <item:grimoireofgaia:deco_nest_harpy>, <item:malum:poppet>);
+stoneCutter.addRecipe("grimoireofgaia.bust_gorgon", <item:grimoireofgaia:bust_gorgon>, <item:malum:poppet>);
+stoneCutter.addRecipe("grimoireofgaia.bust_minotaur", <item:grimoireofgaia:bust_minotaur>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.doll_creeper_girl", <item:grimoireofgaia:doll_creeper_girl>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.doll_dryad", <item:grimoireofgaia:doll_dryad>, <item:malum:poppet>);
 stoneCutter.addRecipe("grimoireofgaia.doll_dullahan", <item:grimoireofgaia:doll_dullahan>, <item:malum:poppet>);
@@ -30,24 +33,30 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:giga_gear>.setMaxStackSize(64);
 
 //说明
+<item:grimoireofgaia:shaman_spawn_egg>.addTooltip("\u00A76在夜晚高度大于60的丛林生物群系自然生成");
+<item:grimoireofgaia:witch_spawn_egg>.addTooltip("\u00A76来末地的神化Boss有几率生成");
+<item:grimoireofgaia:anubis_spawn_egg>.addTooltip("\u00A76来无回之都的神化Boss有几率生成");
 <item:grimoireofgaia:book_of_memory>.addTooltip("\u00A7e可在切石机中制作附魔");
 <item:grimoireofgaia:withered_brain>.addTooltip("\u00A76击杀狱火暗域领主灵颅可获得");
 <item:grimoireofgaia:heavy_barbell>.addTooltip("\u00A76最多可同时佩戴三个");
 <item:grimoireofgaia:seashell_hairpin>.addTooltip("\u00A76最多可同时佩戴三个");
 <item:grimoireofgaia:weresheep_token>.addTooltip("\u00A76可在牧羊悬赏内获得");
 <item:grimoireofgaia:ring_of_jump>.addTooltip("\u00A76手持兔子脚右击石制神像下半部分可获得跳跃指环");
-<item:grimoireofgaia:trader_token>.addTooltip("\u00A76可通过贸易商人获得，详见贸易商人刷怪蛋物品说明");
+<item:grimoireofgaia:trader_token>.addTooltip("\u00A73可通过贸易商人获得，详见贸易商人刷怪蛋物品说明");
 <item:grimoireofgaia:trader_token>.addTooltip("\u00A7e右击石制神像下半部分可进入永夜空境维度");
-<item:grimoireofgaia:trader_token>.addTooltip("\u00A7c需战斗和采掘100级才能进入，相关内容详见死寂幻乡章节");
+<item:grimoireofgaia:trader_token>.addTooltip("\u00A76需战斗和采掘100级才能进入，相关内容详见死寂幻乡章节");
+<item:grimoireofgaia:trader_token>.addTooltip("\u00A7c选择空岛世界线可进入此维度");
 <item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A76可通过悬赏板获得，悬赏板详见匠作章节");
-<item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A7c可用作完成悬赏板任务或者在星河贸易站内交易");
+<item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A72可用作完成悬赏板任务或者在星河贸易站内交易");
 <item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A7e后续击杀远古遗魂可用余烬之心交易获得");
 <item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A73右击石制神像下半部分可进入众神万神殿维度，相关内容详见死寂幻乡章节");
+<item:grimoireofgaia:holstaurus_token>.addTooltip("\u00A7c选择空岛世界线无法进入此维度");
 <item:grimoireofgaia:soulfire>.addTooltip("\u00A76击杀魔典盖亚的部分生物会掉落，在星河贸易站也可以交易获得");
 <item:grimoireofgaia:giga_gear>.addTooltip("\u00A76开启陈旧包裹有几率获得");
 <item:grimoireofgaia:giga_gear>.addTooltip("\u00A7c新增击杀释缚的鹿之精魂亦可获得");
-<item:grimoireofgaia:fireshard>.addTooltip("\u00A76魅魔在下界有几率生成");
+<item:grimoireofgaia:fireshard>.addTooltip("\u00A7c魅魔在下界有几率生成");
 <item:grimoireofgaia:fireshard>.addTooltip("\u00A7e新增击杀烈焰人有较低几率获得");
+<item:grimoireofgaia:fireshard>.addTooltip("\u00A76新增击杀岩浆娘必定获得");
 <item:grimoireofgaia:spawn_trader>.addTooltip("\u00A76星河贸易站可交易获得");
 <item:grimoireofgaia:spawn_creeper_girl>.addTooltip("\u00A76星河贸易站可交易获得");
 <item:grimoireofgaia:spawn_ender_girl>.addTooltip("\u00A76星河贸易站可交易获得");
@@ -77,9 +86,15 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:premium_monster_feed>.addTooltip("\u00A7c虚伪宝箱怪刷怪蛋在星河贸易站可交易获得");
 <item:grimoireofgaia:mandrake>.addTooltip("\u00A7c用锹类击杀青花或者曼陀罗草有较高几率获得");
 
+<item:grimoireofgaia:mummy_spawn_egg>.addTooltip("\u00A76在沙漠生物群系夜晚常见生成");
+<item:grimoireofgaia:mummy_spawn_egg>.addTooltip("\u00A7c玩家杀死斯芬克斯时有几率召唤木乃伊");
+<item:grimoireofgaia:gryphon_spawn_egg>.addTooltip("\u00A76在高山生物群系常见生成");
+<item:grimoireofgaia:deathword_spawn_egg>.addTooltip("\u00A76可用禁书碎片等材料在召唤祭坛召唤");
 <item:grimoireofgaia:arachne_spawn_egg>.addTooltip("\u00A76阿拉克涅在夜晚时生成于高度小于32的地下");
 <item:grimoireofgaia:sphinx_spawn_egg>.addTooltip("\u00A76斯芬克斯在夜晚时生成于高度大于60的沙漠");
+<item:grimoireofgaia:sphinx_spawn_egg>.addTooltip("\u00A7c玩家杀死木乃伊时有几率召唤斯芬克斯");
 <item:grimoireofgaia:banshee_spawn_egg>.addTooltip("\u00A76女鬼在夜晚时生成于高度大于60的位置");
+<item:grimoireofgaia:banshee_spawn_egg>.addTooltip("\u00A7e玩家击杀死神有小几率生成");
 <item:grimoireofgaia:bee_spawn_egg>.addTooltip("\u00A76杀人蜂在白昼时生成于高度大于60的森林");
 <item:grimoireofgaia:mermaid_spawn_egg>.addTooltip("\u00A76人鱼战士在夜晚时生成于高度小于60的深海");
 <item:grimoireofgaia:sharko_spawn_egg>.addTooltip("\u00A76鲨鱼战士在夜晚时生成于高度小于32的深海");
@@ -87,6 +102,7 @@ stoneCutter.addRecipe("grimoireofgaia.giga_gear", <item:grimoireofgaia:giga_gear
 <item:grimoireofgaia:cecaelia_spawn_egg>.addTooltip("\u00A76章鱼人在夜晚时生成于高度小于60的暖水或沙滩区域");
 <item:grimoireofgaia:golden_apple_pie_slice>.addTooltip("\u00A7c新增击杀古遗天境维度的女武神有几率获得");
 <item:grimoireofgaia:golden_apple_pie_slice>.addTooltip("\u00A7e在武神族神庙内可找到女武神，详见天顶巨兽章节武神女王任务");
+<item:grimoireofgaia:golden_apple_pie_slice>.addTooltip("\u00A76牛头人等生物可通过樱花碎片右击特定玩偶召唤");
 
 //召唤凝视者
 recipes.addJsonRecipe("summon.grimoireofgaia.behender",{ 

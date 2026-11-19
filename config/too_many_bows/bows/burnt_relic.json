@@ -1,0 +1,9 @@
+{
+  "base_damage": 25.0,
+  "use_ranged_damage_attribute": true,
+  "ranged_damage_attribute_divisor": 2.5,
+  "ranged_damage_flat_bonus": 1.5,
+  "crit_damage_multiplier": 1.5,
+  "arrow_velocity": 3.0,
+  "arrow_inaccuracy": 1.0
+}

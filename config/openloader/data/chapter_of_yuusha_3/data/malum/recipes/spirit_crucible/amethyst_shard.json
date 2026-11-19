@@ -1,0 +1,22 @@
+{
+  "type": "malum:spirit_focusing",
+  "durabilityCost": 1,
+  "input": {
+    "item": "malum:alchemical_impetus"
+  },
+  "output": {
+    "count": 16,
+    "item": "minecraft:amethyst_shard"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 1
+    },
+    {
+      "type": "aerial",
+      "count": 1
+    }
+  ],
+  "time": 100
+}

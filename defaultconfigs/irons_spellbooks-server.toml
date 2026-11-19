@@ -304,7 +304,7 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "COMMON"
-		ManaCostMultiplier = 5.0
+		ManaCostMultiplier = 4.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 60.0
 		AllowCrafting = true
@@ -689,7 +689,7 @@
 	[Spells."irons_spellbooks:sculk_tentacles"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 30.0
@@ -701,7 +701,7 @@
 	[Spells."irons_spellbooks:telekinesis"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 10.0
@@ -712,7 +712,7 @@
 	[Spells."irons_spellbooks:planar_sight"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 10.0
@@ -723,7 +723,7 @@
 	[Spells."irons_spellbooks:eldritch_blast"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 20.0
@@ -734,7 +734,7 @@
 	[Spells."irons_spellbooks:abyssal_shroud"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 20.0
@@ -745,7 +745,7 @@
 	[Spells."irons_spellbooks:sonic_boom"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "LEGENDARY"
 		ManaCostMultiplier = 7.5
@@ -1292,7 +1292,7 @@
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 5.0
-		SpellPowerMultiplier = 15.0
+		SpellPowerMultiplier = 5.0
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 

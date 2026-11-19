@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_focusing",
+  "time": 100,
+  "durabilityCost": 0,
+  "input": {
+    "item": "relics:wool_mitten"
+  },
+  "output": {
+    "item": "relics:solid_snowball",
+    "count": 1
+  },
+  "spirits": [
+    {
+      "type": "aqueous"
+    },
+    {
+      "type": "aerial"
+    }
+  ]
+}

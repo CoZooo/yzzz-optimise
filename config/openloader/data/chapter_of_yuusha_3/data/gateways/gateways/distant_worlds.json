@@ -1,0 +1,86 @@
+{
+	"size": "small",
+	"color": "#CF352E",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "realmrpg_demons:imp_guard",
+					"count": 4
+				},
+				{
+					"entity": "realmrpg_demons:imp",
+					"count": 4
+				},
+				{
+					"entity": "realmrpg_demons:chort",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "irons_spellbooks:blood_vial",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "realmrpg_demons:demon_lord",
+					"count": 4
+				},
+				{
+					"entity": "realmrpg_demons:demon",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "irons_spellbooks:blood_vial",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "realmrpg_demons:ancient_demon_lord",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "irons_spellbooks:blood_vial",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "irons_spellbooks:blood_vial",
+				"count": 1
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

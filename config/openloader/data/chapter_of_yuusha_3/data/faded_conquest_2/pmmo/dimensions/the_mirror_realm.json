@@ -10,6 +10,9 @@
         "attributeslib:knowledge": 0,
 		"attributeslib:sundering": 0
     },
+    "travel_req":{
+        "sky": 100
+    },
     "vein_blacklist":["minecraft:bedrock"],
     "mob_multiplier": {}
 }

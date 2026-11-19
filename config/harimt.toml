@@ -31,4 +31,9 @@
 	#Default: 200ms.
 	#Range: 50 ~ 5000
 	staleTaskTimeoutMs = 200
+	#Experimental Vulkan broad-phase diagnostics.
+	#Disabled by default because the current collision pairs are telemetry-only and
+	#do not replace Minecraft collision resolution. Enabling this may initialize a
+	#Vulkan device on the server.
+	enableGpuCollision = false
 

@@ -1,0 +1,36 @@
+{
+	icon: "faded_conquest_2:fcspawner"
+	id: "177432B2E71ADBB6"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "yuusha:summon_entity_303" }
+		{ item: "yuusha:summon_boos" }
+		{ item: "yuusha:summon_apostle" }
+		{ item: "yuusha:summon_vessel_of_calamity" }
+		{ item: "yuusha:summon_ancientdeep" }
+		{ item: "yuusha:summon_deepboss" }
+		{ item: "yuusha:summon_jabberwock" }
+		{ item: "yuusha:summon_wither_necromancer" }
+		{ item: "yuusha:summon_frozen_wither" }
+		{ item: "yuusha:summon_maledictus" }
+		{ item: "yuusha:summon_crystal_construct" }
+		{ item: "yuusha:summon_charya" }
+		{ item: "yuusha:summon_captain_deadbone" }
+		{ item: "yuusha:summon_faded_king" }
+		{ item: "yuusha:summon_rosalyne" }
+		{ item: "yuusha:summon_obsessed_eye_boss" }
+		{ item: "yuusha:summon_the_deathbringer" }
+		{ item: "yuusha:summon_jack" }
+		{ item: "yuusha:summon_doomharbor_lich" }
+		{ item: "yuusha:summon_aero_guardian" }
+		{ item: "yuusha:summon_vizier" }
+		{ item: "yuusha:summon_hostile_redstone_monstrosity" }
+		{ item: "yuusha:summon_furiousarmor" }
+		{ item: "yuusha:summon_ignis" }
+		{ item: "yuusha:summon_netherite_monstrosity" }
+		{ item: "yuusha:summon_awful_ghast" }
+		{ item: "yuusha:summon_gauntlet" }
+	]
+	title: "首领召唤物"
+}

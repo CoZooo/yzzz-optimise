@@ -77,7 +77,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["269E4D32033DB321"]
+			dependencies: ["5F891CAD961BD6A0"]
 			description: [
 				"利用风暴之眼在死寂之海维度可以找到卫城，女神雕像在卫城建筑的特定地方。"
 				""
@@ -119,9 +119,9 @@
 				"&e·骷髅突变体残骸：+ 10000 箭术经验"
 				"&e·虚空之颚：+ 500000 箭术经验"
 				""
-				"&9·奥术源质：+ 35000 魔法经验"
-				"&9·空白符文：+ 115000 魔法经验"
-				"&9·灵能墓石：+ 1350000 魔法经验"
+				"&9·奥术源质：+ 70000 魔法经验"
+				"&9·空白符文：+ 130000 魔法经验"
+				"&9·灵能墓石：+ 1500000 魔法经验"
 				""
 				"&6·遗物经验瓶：+ 2500 巧匠经验"
 				"&6·虚空庇晶：+ 750000 巧匠经验"
@@ -153,7 +153,7 @@
 				item: "cataclysm:goddess_statue"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -5.5d
 			y: 0.5d
 		}
 		{
@@ -184,7 +184,7 @@
 				type: "observation"
 			}]
 			x: -4.0d
-			y: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7EBCDF791BDF57C4"]
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			title: "将主手的遗物饰品变为满星级"
-			x: -1.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
@@ -594,7 +594,7 @@
 				type: "item"
 			}]
 			title: "将主手的遗物饰品变为满星级"
-			x: 0.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -628,7 +628,7 @@
 			description: [
 				"妖怪归家模组的大部分首领都会额外在万神殿维度自然生成，此外模组还有自带的生成方式。"
 				""
-				"&c上述生物无法进入其它维度，具体包括以下："
+				"&c上述生物无法进入除永夜空境、永昼空境外其它维度。"
 				""
 				"&e博丽灵梦&r：在村民面前第一次食用怪肉时，会得到短暂的黑暗效果，并得到警告，再次食用怪肉后，在附近会刷出博丽灵梦。并直接进入敌对状态。在妖怪化或半妖怪化状态下攻击村民，会得到短暂的黑暗效果 ，并得到警告，再次在妖怪化或半妖怪化状态下攻击村民后，在附近会刷出博丽灵梦，并直接进入敌对状态。也可在赛钱箱中投入8颗绿宝石或金锭召唤。玩家未拥有妖怪化效果时将会一直回复生命值。半妖怪化状态下，灵梦会直接进入敌对状态。妖怪化状态下无反应。弹幕击杀掉落物：「梦想天生」。"
 				""
@@ -660,7 +660,7 @@
 			}]
 			title: "&6妖怪归家模组的首领说明"
 			x: -4.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -680,7 +680,7 @@
 					icon: "elementalcombat:essence_fire"
 					id: "5BBF621A049ABF3F"
 					team_reward: true
-					title: "清除主手武器的火属性附加附魔"
+					title: "&e清除主手武器的火属性附加附魔"
 					type: "command"
 				}
 				{
@@ -690,7 +690,7 @@
 					icon: "elementalcombat:essence_ice"
 					id: "1A1996FB35A2DFFA"
 					team_reward: true
-					title: "清除主手武器的冰属性附加附魔"
+					title: "&e清除主手武器的冰属性附加附魔"
 					type: "command"
 				}
 				{
@@ -700,7 +700,7 @@
 					icon: "elementalcombat:essence_water"
 					id: "3C2D75B416F5F81D"
 					team_reward: true
-					title: "清除主手武器的水属性附加附魔"
+					title: "&e清除主手武器的水属性附加附魔"
 					type: "command"
 				}
 				{
@@ -710,7 +710,7 @@
 					icon: "elementalcombat:essence_thunder"
 					id: "2940D3A54E19AFB1"
 					team_reward: true
-					title: "清除主手武器的雷属性附加附魔"
+					title: "&e清除主手武器的雷属性附加附魔"
 					type: "command"
 				}
 				{
@@ -720,7 +720,7 @@
 					icon: "elementalcombat:essence_darkness"
 					id: "258D0C3D10AA2FE8"
 					team_reward: true
-					title: "清除主手武器的暗属性附加附魔"
+					title: "&e清除主手武器的暗属性附加附魔"
 					type: "command"
 				}
 				{
@@ -730,7 +730,7 @@
 					icon: "elementalcombat:essence_light"
 					id: "275782B6EFD96B96"
 					team_reward: true
-					title: "清除主手武器的光属性附加附魔"
+					title: "&e清除主手武器的光属性附加附魔"
 					type: "command"
 				}
 				{
@@ -740,7 +740,7 @@
 					icon: "elementalcombat:essence_earth"
 					id: "1809BC7FF1CCA318"
 					team_reward: true
-					title: "清除主手武器的地属性附加附魔"
+					title: "&e清除主手武器的地属性附加附魔"
 					type: "command"
 				}
 				{
@@ -750,7 +750,7 @@
 					icon: "elementalcombat:essence_wind"
 					id: "3E0C15638A676C57"
 					team_reward: true
-					title: "清除主手武器的风属性附加附魔"
+					title: "&e清除主手武器的风属性附加附魔"
 					type: "command"
 				}
 				{
@@ -760,7 +760,17 @@
 					icon: "elementalcombat:essence_flora"
 					id: "1047BC176CCE3968"
 					team_reward: true
-					title: "清除主手武器的草属性附加附魔"
+					title: "&e清除主手武器的草属性附加附魔"
+					type: "command"
+				}
+				{
+					command: "/enchant remove @s apotheosis:knowledge"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "obscure_api:vial_of_knowledge"
+					id: "66917E41CD36B3AC"
+					team_reward: true
+					title: "&e清除主手武器的阅历附魔"
 					type: "command"
 				}
 				{
@@ -781,7 +791,7 @@
 				type: "item"
 			}]
 			title: "清除主手武器的属性附加附魔"
-			x: -2.5d
+			x: -5.5d
 			y: 2.0d
 		}
 	]

@@ -21,7 +21,8 @@ craftingTable.addShapeless("graveyard.upper_bone_staff", <item:graveyard:upper_b
 
 <item:graveyard:corruption>.addTooltip("\u00A7c击杀死神等生物可获得");
 <item:graveyard:corruption>.addTooltip("\u00A76利用棺材可无限制召唤死神");
-<item:graveyard:corruption>.addTooltip("\u00A7e新增击杀魔法骷髅、海盗骷髅、杂耍骷髅、鬼魂、凋零鬼魂也可获得");
+<item:graveyard:corruption>.addTooltip("\u00A7e新增击杀魔法骷髅、海盗骷髅、杂耍骷髅、鬼魂、凋零鬼魂可获得");
+<item:graveyard:corruption>.addTooltip("\u00A73在三天不睡觉后夜晚几率生成有食尸鬼和亡魂的墓园军团");
 //<item:graveyard:bone_dagger>.addTooltip("\u00A7c享受祈愿技能等级的伤害加成");
 
 <item:graveyard:white_bone_staff>.addTooltip("\u00A76所有古尔之杖都可转化为此");
@@ -30,6 +31,7 @@ craftingTable.addShapeless("graveyard.upper_bone_staff", <item:graveyard:upper_b
 <item:graveyard:red_bone_staff>.addTooltip("\u00A7c击杀腐化英雄可获得");
 <item:graveyard:cyan_bone_staff>.addTooltip("\u00A7c击杀腐化英雄可获得");
 <item:graveyard:purple_bone_staff>.addTooltip("\u00A7c击杀腐化英雄可获得");
+<item:graveyard:nightmare_spawn_egg>.addTooltip("\u00A7c玩家杀死食尸鬼或亡魂时有几率生成");
 
 //骨杖辞典
 <tag:items:graveyard:bone_staff>.add(<item:graveyard:white_bone_staff>);

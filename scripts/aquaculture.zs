@@ -18,6 +18,7 @@ stoneCutter.addRecipe("aquaculture.neptunium_ingot.recycle", <item:aquaculture:n
 <item:aquaculture:starshell_turtle>.addTooltip("\u00A7c新增击杀溺尸有几率获得");
 
 <item:aquaculture:neptunes_bounty>.addTooltip("\u00A76和原版宝藏一样需在开阔水域钓鱼才能获得宝箱");
+<item:aquaculture:neptunes_bounty>.addTooltip("\u00A73该水域至少需半径5格深3格但无需在海洋群系");
 <item:aquaculture:neptunes_bounty>.addTooltip("\u00A7e享受幸运值和海之眷顾附魔的加成");
 
 <item:aquaculture:neptunium_hoe>.anyDamage().addTooltip("\u00A7c海王锄的耕地不属于原版耕地，无法使用神秘骨粉");

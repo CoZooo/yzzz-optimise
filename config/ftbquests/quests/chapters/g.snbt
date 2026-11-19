@@ -953,7 +953,7 @@
 						id: "tacz:modern_kinetic_gun"
 						tag: {
 							GunCurrentAmmoCount: 0
-							GunFireMode: "SEMI"
+							GunFireMode: "AUTO"
 							GunId: "tacz:glock_17"
 							HasBulletInBarrel: 0b
 						}
@@ -1186,7 +1186,7 @@
 				""
 				"&6解锁和查看：需先进食100次食物才解锁食物多样性。食物显示的多样性为你当前食用所获得的数值。午餐袋、午餐盒有特性，只能给予食物多样性，无法兼容食物营养值和种类。"
 				""
-				"&e提醒：食物多样性达100点给予饱和、滋养、抗性提升4效果，达150点时给予暴食饕餮10效果，达200点时给予抗性提升5效果。"
+				"&e提醒：食物多样性达48点给予生命恢复5级，64点给予生命恢复10级，100点给予饱和1级、滋养1级、抗性提升4级。后续多样性还可给予暴食饕餮、交叉火力、箭矢增强效果。"
 				""
 				"&5特性：在满饥饿值时进食，能顺利增加食物多样性。"
 				""
@@ -2712,7 +2712,19 @@
 					type: "choice"
 				}
 				{
-					id: "2963D0309ED4E95F"
+					id: "126067413E454473"
+					item: {
+						Count: 1
+						id: "illager_additions:master_katana"
+						tag: {
+							Damage: 0
+							Unbreakable: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14FE5761EE8FE3E6"
 					type: "xp"
 					xp: 100
 				}
@@ -2811,6 +2823,8 @@
 				"&c饰品特性：使用Shift键快速穿脱饰品，可能会导致玩家部分属性异常，可用左击拿起饰品进行穿脱。或者重新进入游戏、玩家死亡等均能刷新属性。"
 				""
 				"&3规则怪谈：任务引导在大部分情况下是对的，但也许在大部分情况下是对的。"
+				""
+				"&2你知道吗？可在创建世界时，选择世界类型为“空岛”，从而开启为科技包玩家特供空岛路线。在自定义内可选择“default”常规开局，和“fish”钓鱼开局。"
 			]
 			hide_dependency_lines: true
 			id: "28CF009E99ED3A14"
@@ -2961,7 +2975,7 @@
 						id: "tacz:modern_kinetic_gun"
 						tag: {
 							GunCurrentAmmoCount: 0
-							GunFireMode: "SEMI"
+							GunFireMode: "AUTO"
 							GunId: "tacz:glock_17"
 							HasBulletInBarrel: 0b
 						}
@@ -3173,7 +3187,7 @@
 			tasks: [{
 				consume_items: true
 				id: "3A0F5F07C5F6E6D3"
-				item: "irons_spellbooks:ender_rune"
+				item: "irons_spellbooks:evocation_rune"
 				type: "item"
 			}]
 			title: "&5&l向下方瞬移100格"
@@ -3470,6 +3484,16 @@
 					id: "0A0BAC37FAB41CD1"
 					type: "xp"
 					xp: 100
+				}
+				{
+					amount: 100
+					auto: "enabled"
+					exclude_from_claim_all: true
+					id: "58DF838A95818807"
+					skill: "sky"
+					team_reward: false
+					title: "&e灵墟等级 +100级"
+					type: "pmmo:levelreward"
 				}
 			]
 			tasks: [{

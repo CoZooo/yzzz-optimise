@@ -42,3 +42,8 @@
 	#Range: 10.0 ~ 500.0
 	chainLightningMaxAbsoluteDistance = 50.0
 
+#炼金锅配方黑名单。填写配方 ID 后，禁止处理并隐藏对应的 JEI 配方。
+[alchemist_cauldron]
+	#填写炼金锅注册表中的配方 ID，格式为 namespace:path。内置配方例如 irons_spellbooks:uncommon_ink。卷轴融化成墨水使用特殊 ID irons_spellbooks:scroll_to_ink。修改后重启游戏以刷新 JEI。
+	blockedRecipes = ["irons_spellbooks:scroll_to_ink", "irons_spellbooks:uncommon_ink", "irons_spellbooks:rare_ink", "irons_spellbooks:epic_ink", "irons_spellbooks:legendary_ink"]
+

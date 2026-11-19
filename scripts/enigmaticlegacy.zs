@@ -182,7 +182,7 @@ craftingTable.addShaped("enigmaticlegacy.heaven_scroll", <item:enigmaticlegacy:h
 
 //猎宝者护符
 craftingTable.remove(<item:enigmaticlegacy:mining_charm>);
-craftingTable.addShaped("enigmaticlegacy.mining_charm", <item:enigmaticlegacy:mining_charm>, [[<item:aquaculture:neptunium_nugget>, <item:locusazzurro_icaruswings:steel_ingot>, <item:aquaculture:neptunium_nugget>], [<item:malum:hallowed_gold_ingot>, <item:enigmaticaddons:earth_heart_fragment>, <item:malum:hallowed_gold_ingot>], [<item:infinite_abyss:yellow_glowing_crystal>, <item:reliquary:void_tear>.anyDamage(), <item:infinite_abyss:yellow_glowing_crystal>]]);
+craftingTable.addShaped("enigmaticlegacy.mining_charm", <item:enigmaticlegacy:mining_charm>, [[<item:aquaculture:neptunium_nugget>, <item:minecraft:iron_ingot>, <item:aquaculture:neptunium_nugget>], [<item:malum:hallowed_gold_ingot>, <item:enigmaticaddons:earth_heart_fragment>, <item:malum:hallowed_gold_ingot>], [<item:aquaculture:neptunium_nugget>, <item:minecraft:iron_ingot>, <item:aquaculture:neptunium_nugget>]]);
 
 //怪物猎人
 craftingTable.remove(<item:enigmaticlegacy:monster_charm>);

@@ -1,4 +1,6 @@
 {
+	"gem.apotheosis:overworld/royalty.bonus.helmet": "%s§9、神化暴击伤害、生命值、幸运值、近战攻击",
+
 	"enchantment.apotheosis.knowledge.desc": "将敌人的部分掉落物销毁并转化为经验。",
 	"item.apotheosis.potion_charm_broke": "任意药水护符",
 	

@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 1,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "aetherworks:geode_magical"
   },
@@ -9,17 +9,17 @@
   "result": [
     {
       "chance": 10.0,
-      "count": 16,
+      "count": 64,
       "item": "aether:ambrosium_shard"
     },
     {
       "chance": 10.0,
-      "count": 8,
+      "count": 16,
       "item": "aether:zanite_gemstone"
     },
     {
       "chance": 10.0,
-      "count": 8,
+      "count": 16,
       "item": "deep_aether:skyjade"
     },
     {
@@ -34,12 +34,27 @@
     },
     {
       "chance": 10.0,
+      "count": 8,
+      "item": "malum:raw_soulstone"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "malum:cluster_of_brilliance"
+    },
+    {
+      "chance": 10.0,
+      "count": 8,
+      "item": "wizards_reborn:arcanum"
+    },
+    {
+      "chance": 10.0,
       "count": 4,
       "item": "forbidden_arcanus:rune"
     },
     {
       "chance": 10.0,
-      "count": 2,
+      "count": 4,
       "item": "aether_redux:raw_valkyrum"
     },
     {

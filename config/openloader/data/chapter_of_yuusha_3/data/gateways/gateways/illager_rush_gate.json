@@ -28,6 +28,10 @@
                 {
                     "entity": "illagerinvasion:firecaller",
 					"count": 1
+                },
+                {
+                    "entity": "illagerinvasion:sorcerer",
+					"count": 1
                 }
             ],
 			"rewards": [
@@ -127,15 +131,15 @@
 					"count": 1
                 },
                 {
-                    "entity": "goety:crusher",
-					"count": 1
-                },
-                {
                     "entity": "illagerinvasion:necromancer",
 					"count": 1
                 },
                 {
                     "entity": "illagerinvasion:provoker",
+					"count": 1
+                },
+                {
+                    "entity": "illagerinvasion:sorcerer",
 					"count": 1
                 }
             ],
@@ -174,11 +178,11 @@
 					"count": 1
                 },
                 {
-                    "entity": "goety:crusher",
+                    "entity": "illagerinvasion:necromancer",
 					"count": 1
                 },
                 {
-                    "entity": "illagerinvasion:necromancer",
+                    "entity": "illageandspillage:crocofang",
 					"count": 1
                 },
                 {
@@ -251,19 +255,15 @@
 					"count": 1
                 },
                 {
+                    "entity": "illageandspillage:crocofang",
+					"count": 1
+                },
+                {
                     "entity": "minecraft:evoker",
 					"count": 1
                 },
                 {
                     "entity": "minecraft:ravager",
-					"count": 1
-                },
-                {
-                    "entity": "illagerinvasion:inquisitor",
-					"count": 1
-                },
-                {
-                    "entity": "illageandspillage:twittollager",
 					"count": 1
                 },
 				{
@@ -309,11 +309,11 @@
 					"count": 1
                 },
                 {
-                    "entity": "goety:crusher",
+                    "entity": "illagerinvasion:provoker",
 					"count": 1
                 },
                 {
-                    "entity": "illagerinvasion:provoker",
+                    "entity": "illageandspillage:crocofang",
 					"count": 1
                 },
                 {
@@ -322,6 +322,10 @@
                 },
                 {
                     "entity": "minecraft:vindicator",
+					"count": 1
+                },
+                {
+                    "entity": "illagerinvasion:inquisitor",
 					"count": 1
                 },
                 {
@@ -387,6 +391,10 @@
 					"count": 1
                 },
                 {
+                    "entity": "illageandspillage:twittollager",
+					"count": 1
+                },
+                {
                     "entity": "minecraft:ravager",
 					"count": 1
                 },
@@ -422,10 +430,6 @@
                 },
                 {
                     "entity": "illager_additions:spearman",
-					"count": 1
-                },
-                {
-                    "entity": "goety:crusher",
 					"count": 1
                 },
                 {

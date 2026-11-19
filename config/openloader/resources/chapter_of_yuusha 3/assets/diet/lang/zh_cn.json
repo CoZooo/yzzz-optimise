@@ -1,4 +1,6 @@
 {
+  "diet.naturalRegeneration": "自然回血速度",
+
   "gui.diet.title": "均衡营养",
   "tooltip.diet.effects": "§6均衡营养增益效果",
   "key.diet.category": "均衡营养",

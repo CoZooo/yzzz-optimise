@@ -1171,6 +1171,11 @@
 					item: "nethersdelight:hoglin_hide"
 					type: "item"
 				}
+				{
+					id: "1DF3ECDE174223FF"
+					title: "戳我"
+					type: "checkmark"
+				}
 			]
 			title: "特定材料获取 \\& 殽核「刺客」"
 			x: 4.0d

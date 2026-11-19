@@ -1,6 +1,6 @@
 //心之容器
 craftingTable.remove(<item:bhc:canister>);
-craftingTable.addShaped("bhc.canister", <item:bhc:canister>, [[<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>], [<tag:items:forge:ingots/silver>, <item:theinkarena:ink_waste>, <tag:items:forge:ingots/silver>], [<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>]]);
+craftingTable.addShaped("bhc.canister", <item:bhc:canister>, [[<item:minecraft:air>, <item:locusazzurro_icaruswings:steel_ingot>, <item:minecraft:air>], [<item:locusazzurro_icaruswings:steel_ingot>, <item:theinkarena:ink_waste>, <item:locusazzurro_icaruswings:steel_ingot>], [<item:minecraft:air>, <item:locusazzurro_icaruswings:steel_ingot>, <item:minecraft:air>]]);
 
 //遗物苹果
 craftingTable.remove(<item:bhc:relic_apple>);

@@ -2,6 +2,7 @@
 //<recipetype:malum:spirit_infusion>.removeByName("malum:spirit_infusion/alchemical_calx");
 
 //说明
+<item:malum:raw_soulstone>.addTooltip("\u00A76可通过幸运岩石在主世界挖掘石头获得");
 <item:malum:erosion_scepter>.addTooltip("\u00A76可给予目标静默效果");
 <item:malum:stripped_runewood_log>.addTooltip("\u00A76将原木放置在地上，用斧子右击可去皮");
 <item:malum:rune_of_the_hells>.addTooltip("\u00A7c在佩戴者着火时会灭火");

@@ -113,6 +113,26 @@
             "unitWorth": 1000
         },
 
+        "cleric_rew_empty_focus": {
+            "type": "item",
+            "content": "goety:empty_focus",
+            "amount": {
+                "min": 1,
+                "max": 2
+            },
+            "unitWorth": 800
+        },
+
+        "cleric_rew_totem_of_roots": {
+            "type": "item",
+            "content": "goety:totem_of_roots",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 1200
+        },
+
         "cleric_rew_inscription_table": {
             "type": "item",
             "content": "irons_spellbooks:inscription_table",

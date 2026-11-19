@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:gunpowder"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "yuusha:aja_stone"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "nethersdelight:propelpearl"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "item": "yuusha:slot_5"
+        },
+      "count": 1
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "emxarms:stock_emx_yield"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

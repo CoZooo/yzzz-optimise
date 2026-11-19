@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "AB_",
+    "___",
+    "___",
+    "____"
+  ],
+  "key": {
+    "B": {
+      "item": "locusazzurro_icaruswings:magic_membrane"
+    },
+    "A": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:cooldown_rune"
+  },
+  "wissen": 200
+}

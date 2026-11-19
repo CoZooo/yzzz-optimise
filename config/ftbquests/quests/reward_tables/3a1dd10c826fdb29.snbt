@@ -67,16 +67,6 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "enigmaticaddons:unknown_sword"
-				tag: {
-					AnniAvailable: 1L
-					Damage: 0
-				}
-			}
-		}
 	]
 	title: "特殊武器"
 }

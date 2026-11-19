@@ -13,6 +13,15 @@
 
 	[Skills.Entry]
 
+		[Skills.Entry.sky]
+			maxLevel = 1000
+			icon = "locusazzurro_icaruswings:textures/item/transport_card_chrono.png"
+			iconSize = 16
+			color = 15919834
+			noAfkPenalty = true
+			displayGroupName = false
+			useTotalLevels = false
+
 		[Skills.Entry.maid]
 			maxLevel = 1000
 			icon = "touhou_little_maid:textures/item/spawn_box.png"

@@ -5,20 +5,20 @@
     "item": "goety:empty_focus"
   },
   "craftType": "magic",
-  "soulCost": 800,
+  "soulCost": 10000,
   "duration": 10,
   "ingredients": [
     {
       "item": "goety:dark_ingot"
     },
     {
-      "item": "goety:cursed_ingot"
+      "item": "yuusha:chaos_ingot"
     },
     {
       "item": "goety:dark_ingot"
     },
     {
-      "item": "goety:cursed_ingot"
+      "item": "yuusha:chaos_ingot"
     },
     {
       "item": "goety:mystic_core"

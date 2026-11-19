@@ -22,13 +22,19 @@
       "item": "cataclysm:essence_of_the_storm"
     },
     {
-      "item": "moonstone:greedcrystal"
+      "item": "moonstone:fortunecrystal"
     },
     {
-      "item": "moonstone:ectoplasmball"
+      "item": "cataclysm:essence_of_the_storm"
     },
     {
-      "item": "moonstone:warcrystal"
+      "item": "moonstone:ectoplasmprism"
+    },
+    {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    {
+      "item": "moonstone:mayhemcrystal"
     }
   ],
   "output": {

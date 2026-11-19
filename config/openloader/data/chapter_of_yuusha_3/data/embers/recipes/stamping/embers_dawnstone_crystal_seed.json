@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "avaritia:diamond_lattice"
+  },
+  "fluid": {
+    "amount": 360,
+    "tag": "forge:molten_dawnstone"
+  },
+  "output": {
+    "item": "embers:dawnstone_crystal_seed",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:nugget_stamp"
+  }
+}

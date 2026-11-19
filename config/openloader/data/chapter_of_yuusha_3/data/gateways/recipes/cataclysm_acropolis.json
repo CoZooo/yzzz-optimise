@@ -1,0 +1,33 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "BCB",
+    "DAE",
+    "BFB"
+  ],
+  "key": {
+	"A": {
+      "item": "endrem:lost_eye"
+    },
+	"B": {
+      "item": "minecraft:scute"
+    },
+	"C": {
+      "item": "minecraft:cod"
+    },
+	"D": {
+      "item": "minecraft:salmon"
+    },
+	"E": {
+      "item": "minecraft:tropical_fish"
+    },
+	"F": {
+      "item": "minecraft:pufferfish"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:cataclysm_acropolis"
+}

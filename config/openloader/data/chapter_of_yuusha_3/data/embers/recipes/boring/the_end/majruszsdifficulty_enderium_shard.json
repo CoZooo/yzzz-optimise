@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "max_height": 128,
+  "output": {
+    "item": "majruszsdifficulty:enderium_shard"
+  },
+  "required_block": {
+    "amount": 1,
+    "block_tag": "embers:world_bottom"
+  },
+  "weight": 10
+}

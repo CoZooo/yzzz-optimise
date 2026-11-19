@@ -693,7 +693,7 @@
         "boss": {
           "type": "majruszsdifficulty:giant",
           "equipment": "majruszsdifficulty:undead_army/wave_6_mob",
-          "count": 1
+          "count": 2
         },
         "game_stage": "master",
         "exp": 48

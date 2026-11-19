@@ -36,5 +36,157 @@
       "norestrictions": true,
       "attempts": 1
     }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "graveyard:ghoul",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.25
+    },
+    "spawn": {
+      "mob": "graveyard:nightmare",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "graveyard:revenant",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.25
+    },
+    "spawn": {
+      "mob": "graveyard:nightmare",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "graveyard:reaper",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.1
+    },
+    "spawn": {
+      "mob": "grimoireofgaia:banshee",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "grimoireofgaia:mummy",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.25
+    },
+    "spawn": {
+      "mob": "grimoireofgaia:sphinx",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "grimoireofgaia:sphinx",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.25
+    },
+    "spawn": {
+      "mob": "grimoireofgaia:mummy",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "goety:cairn_necromancer",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.35
+    },
+    "spawn": {
+      "mob": "goety:border_wraith",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "goety:necromancer",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.35
+    },
+    "spawn": {
+      "mob": "goety:wraith",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "minecraft:phantom",
+      "player": true
+    },
+    "conditions": {
+      "random": 0.02
+    },
+    "spawn": {
+      "mob": "goety:reaper",
+      "mindistance": 1,
+      "maxdistance": 4,
+      "mincount": 1,
+      "maxcount": 1,
+      "norestrictions": true,
+      "attempts": 1
+    }
   }
 ]

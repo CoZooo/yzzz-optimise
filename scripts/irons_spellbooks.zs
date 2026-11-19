@@ -5,12 +5,11 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.data.IData;
 
 //说明
-<item:irons_spellbooks:alchemist_cauldron>.addTooltip("\u00A7c已被禁止使用");
-<item:irons_spellbooks:alchemist_cauldron>.addTooltip("\u00A76制作鲜血精华可以用炼药锅替代");
 
 <item:irons_spellbooks:hogskin>.addTooltip("\u00A7c利用疣猪兽粗皮等材料可在召唤祭坛中召唤疣猪兽");
 <item:irons_spellbooks:hogskin>.addTooltip("\u00A7e相关内容详见下界炼狱章节任务");
 
+<item:irons_spellbooks:protection_rune>.addTooltip("\u00A76新增击杀灾厄教父有几率获得");
 <item:irons_spellbooks:scroll_forge>.addTooltip("\u00A76可制作，详见咒法章节");
 <item:irons_spellbooks:scroll_forge>.addTooltip("\u00A7e也可通过牧师悬赏获得");
 <item:irons_spellbooks:inscription_table>.addTooltip("\u00A76可制作，详见咒法章节");
@@ -251,9 +250,11 @@ craftingTable.remove(<item:irons_spellbooks:netherite_mage_leggings>);
 craftingTable.remove(<item:irons_spellbooks:netherite_mage_boots>);
 
 //锅
-craftingTable.remove(<item:irons_spellbooks:alchemist_cauldron>);
+//craftingTable.remove(<item:irons_spellbooks:alchemist_cauldron>);
 //Jei.hideIngredient(<item:irons_spellbooks:alchemist_cauldron>);
-Jei.hideCategory(<resource:irons_spellbooks:alchemist_cauldron>);
+//Jei.hideCategory(<resource:irons_spellbooks:alchemist_cauldron>);
+//<item:irons_spellbooks:alchemist_cauldron>.addTooltip("\u00A7c已被禁止使用");
+//<item:irons_spellbooks:alchemist_cauldron>.addTooltip("\u00A76制作鲜血精华可以用炼药锅替代");
 
 //神圣珍珠
 craftingTable.remove(<item:irons_spellbooks:divine_pearl>);
@@ -264,40 +265,41 @@ craftingTable.addShapeless("irons_spellbooks.legendary_ink.copy", <item:irons_sp
 
 //符文
 craftingTable.remove(<item:irons_spellbooks:nature_rune>);
+craftingTable.remove(<item:irons_spellbooks:fire_rune>);
+craftingTable.remove(<item:irons_spellbooks:lightning_rune>);
+craftingTable.remove(<item:irons_spellbooks:ice_rune>);
+craftingTable.remove(<item:irons_spellbooks:ender_rune>);
+craftingTable.remove(<item:irons_spellbooks:evocation_rune>);
+craftingTable.remove(<item:irons_spellbooks:blood_rune>);
+craftingTable.remove(<item:irons_spellbooks:protection_rune>);
+craftingTable.remove(<item:irons_spellbooks:holy_rune>);
+craftingTable.remove(<item:irons_spellbooks:cooldown_rune>);
+craftingTable.remove(<item:irons_spellbooks:arcane_rune>);
+
+/*
 craftingTable.addShapeless("irons_spellbooks.nature_rune", <item:irons_spellbooks:nature_rune>, [<item:irons_spellbooks:blank_rune>, <item:wizards_reborn:natural_calx>]);
 
-craftingTable.remove(<item:irons_spellbooks:fire_rune>);
-craftingTable.addShapeless("irons_spellbooks.fire_rune.1", <item:irons_spellbooks:fire_rune>, [<item:irons_spellbooks:blank_rune>, <item:forbidden_arcanus:smelter_prism>]);
 craftingTable.addShapeless("irons_spellbooks.fire_rune.2", <item:irons_spellbooks:fire_rune>, [<item:irons_spellbooks:blank_rune>, <item:grimoireofgaia:fireshard>]);
 
-craftingTable.remove(<item:irons_spellbooks:lightning_rune>);
 craftingTable.addShapeless("irons_spellbooks.lightning_rune", <item:irons_spellbooks:lightning_rune>, [<item:irons_spellbooks:blank_rune>, <item:irons_spellbooks:energized_core>]);
 
-craftingTable.remove(<item:irons_spellbooks:ice_rune>);
 craftingTable.addShapeless("irons_spellbooks.ice_rune.1", <item:irons_spellbooks:ice_rune>, [<item:irons_spellbooks:blank_rune>, <item:irons_spellbooks:permafrost_shard>]);
 craftingTable.addShapeless("irons_spellbooks.ice_rune.2", <item:irons_spellbooks:ice_rune>, [<item:irons_spellbooks:blank_rune>, <item:youkaishomecoming:fairy_ice_crystal>]);
 
-craftingTable.remove(<item:irons_spellbooks:ender_rune>);
 craftingTable.addShapeless("irons_spellbooks.ender_rune", <item:irons_spellbooks:ender_rune>, [<item:irons_spellbooks:blank_rune>, <item:malum:warp_flux>]);
 
-craftingTable.remove(<item:irons_spellbooks:evocation_rune>);
 craftingTable.addShapeless("irons_spellbooks.evocation_rune", <item:irons_spellbooks:evocation_rune>, [<item:irons_spellbooks:blank_rune>, <item:illagerinvasion:primal_essence>]);
 
-craftingTable.remove(<item:irons_spellbooks:blood_rune>);
 craftingTable.addShapeless("irons_spellbooks.blood_rune", <item:irons_spellbooks:blood_rune>, [<item:irons_spellbooks:blank_rune>, <item:malum:living_flesh>]);
 
-craftingTable.remove(<item:irons_spellbooks:protection_rune>);
 craftingTable.addShapeless("irons_spellbooks.protection_rune", <item:irons_spellbooks:protection_rune>, [<item:irons_spellbooks:blank_rune>, <item:minecraft:pufferfish>]);
 
-craftingTable.remove(<item:irons_spellbooks:holy_rune>);
 craftingTable.addShapeless("irons_spellbooks.holy_rune", <item:irons_spellbooks:holy_rune>, [<item:irons_spellbooks:blank_rune>, <item:irons_spellbooks:divine_pearl>]);
 
-craftingTable.remove(<item:irons_spellbooks:cooldown_rune>);
 craftingTable.addShapeless("irons_spellbooks.cooldown_rune", <item:irons_spellbooks:cooldown_rune>, [<item:irons_spellbooks:blank_rune>, <item:locusazzurro_icaruswings:magic_membrane>]);
 
-//奥术符文
-craftingTable.remove(<item:irons_spellbooks:arcane_rune>);
 craftingTable.addShapeless("irons_spellbooks.arcane_rune", <item:irons_spellbooks:arcane_rune>, [<item:irons_spellbooks:blank_rune>, <item:irons_spellbooks:arcane_ingot>]);
+*/
 
 //雷电瓶
 craftingTable.addShapeless("irons_spellbooks.lightning_bottle.1", <item:irons_spellbooks:lightning_bottle>, [<item:minecraft:glass_bottle>, <item:hmag:lightning_particle>]);

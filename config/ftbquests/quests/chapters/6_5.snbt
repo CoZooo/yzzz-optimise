@@ -81,7 +81,9 @@
 							AttachmentId: "tacz:ammo_mod_fire_i"
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: -13.5d
@@ -254,7 +256,13 @@
 		}
 		{
 			dependencies: ["2A0E4CB59961B8DB"]
-			description: ["可在曙光女神武器箱中制作部分枪械。"]
+			description: [
+				"可在曙光女神武器箱中制作部分枪械。"
+				""
+				"&6部分诡厄巫法、灾变的首领，对枪械有额外的减伤。"
+				""
+				"&e高级别的月华和阳炎宝石可给枪械增加冰霜、火焰伤害，配合高频枪械，可用以破除使徒等限伤。"
+			]
 			id: "3FEAAD0585E30223"
 			rewards: [{
 				id: "0FE7D2E52EBD7D12"
@@ -271,7 +279,11 @@
 		}
 		{
 			dependencies: ["2A0E4CB59961B8DB"]
-			description: ["可在U2-次元复制机中制作部分枪械。"]
+			description: [
+				"可在U2-次元复制机中制作部分枪械。"
+				""
+				"&6上级挑战门内的部分生物，可能需要末影禁锢等药水才好打。"
+			]
 			id: "7B720D7E80F6F626"
 			rewards: [{
 				id: "34AEA326728E10B4"
@@ -288,7 +300,11 @@
 		}
 		{
 			dependencies: ["2A0E4CB59961B8DB"]
-			description: ["烬铸原液流体可通过余烬模组制作获得，也可在工作台中制作获得该流体桶，详见匠作章节任务。"]
+			description: [
+				"相关内容详见匠作章节任务。"
+				""
+				"{ \"text\": \"点击即可跳转\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6351E7A8D69C8153\" } ,\"color\":\"dark_purple\",\"italic\":\"true\",\"bold\":\"true\"}"
+			]
 			id: "35AE3DEFA0F605CB"
 			rewards: [{
 				id: "4A32FA6BD9DB4290"
@@ -920,7 +936,7 @@
 							AttachmentId: "tacz:ammo_mod_fmj"
 						}
 					}
-					match_nbt: false
+					match_nbt: true
 					only_from_crafting: false
 					type: "item"
 					weak_nbt_match: true
@@ -934,7 +950,9 @@
 							AttachmentId: "tacz:ammo_mod_fire_fmj"
 						}
 					}
+					match_nbt: true
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			x: -13.5d
@@ -946,7 +964,9 @@
 			description: [
 				"JEI中无法搜索到，但可以制作和使用。"
 				""
-				"&6该配件可装配在大部分枪械的激光指示器栏位，使其发射的子弹产生爆炸效果。"
+				"&6崩坏能转化星核配件可装配在大部分枪械的激光指示器栏位，使其发射的子弹产生爆炸效果。"
+				""
+				"&e烟花超频芯片只能装在特定枪械上，使其射速提高但伤害降低。"
 			]
 			id: "2374E269F485330E"
 			rewards: [{
@@ -954,17 +974,32 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [{
-				id: "68EF6D954E8CDACB"
-				item: {
-					Count: 1
-					id: "tacz:attachment"
-					tag: {
-						AttachmentId: "emxarms:stock_emx_yield"
+			tasks: [
+				{
+					id: "68EF6D954E8CDACB"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "emxarms:stock_emx_yield"
+						}
 					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
-				type: "item"
-			}]
+				{
+					id: "4FB558E8EAC0B550"
+					item: {
+						Count: 1
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "applied_armorer:muzzle_chip_firework"
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -13.5d
 			y: -5.5d
 		}
@@ -1073,6 +1108,7 @@
 		}
 		{
 			dependencies: ["46BE421F0A008B57"]
+			dependency_requirement: "one_started"
 			description: [
 				"可用于制作特定枪械。"
 				""

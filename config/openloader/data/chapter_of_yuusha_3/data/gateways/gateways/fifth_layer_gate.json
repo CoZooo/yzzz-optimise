@@ -9,16 +9,8 @@
 				"count": 2
 			},
 			{
-				"entity": "infinite_abyss:eyeball_frog",
-				"count": 4
-			},
-			{
-				"entity": "infinite_abyss:giant_eyeball_frog",
-				"count": 3
-			},
-			{
 				"entity": "infinite_abyss:chomper",
-				"count": 3
+				"count": 8
 			}
 		],
         "rewards": [{
@@ -28,9 +20,9 @@
 				"count": 1
 			}
         }],
-        "max_wave_time": 300,
+        "max_wave_time": 600,
         "setup_time": 20
-    },
+    }, 
     "modifiers": [
         {
             "application_mode": {
@@ -50,5 +42,5 @@
     "boss_event": {
         "mode": "boss_bar"
     },
-    "spawn_algorithm": "gateways:inward_spiral"
+    "spawn_algorithm": "gateways:open_field"
 }

@@ -1,0 +1,100 @@
+
+#递归合成树界面布局；尺寸使用 Minecraft GUI 像素。
+#仅影响本机显示。修改并保存后可在重新打开界面时查看效果。
+[layout]
+	#右侧详情面板期望宽度；小屏幕自动收缩并为树保留空间。
+	#Range: 180 ~ 480
+	panelWidth = 270
+	#材料候选、材料清单和步骤列表的行高。
+	#Range: 22 ~ 40
+	listRowHeight = 28
+	#树连线粗细。
+	#Range: 1 ~ 4
+	connectorWidth = 2
+	#在树节点内显示物品名称和数量；关闭可恢复紧凑图标布局。
+	showNodeNames = true
+	#在原材料叶子上也显示名称；默认以紧凑物品槽显示，减小大树横向宽度。
+	showLeafNames = false
+	#树节点文字区域宽度。
+	#Range: 60 ~ 180
+	nodeLabelWidth = 78
+	#右下缩略导航期望宽度；小窗口会自动缩小。
+	#Range: 100 ~ 300
+	minimapWidth = 160
+	#右下缩略导航期望高度。
+	#Range: 70 ~ 200
+	minimapHeight = 100
+
+#颜色支持 #RRGGBB（不透明）或 #AARRGGBB（含透明度）。
+#AA 为透明度：00 完全透明，FF 完全不透明。
+#client.toml 的 craftingUi.treeTheme 为 CUSTOM 时使用这些颜色；预设模式不改写这些值。
+[colors]
+	#树画布背景
+	background = "#FF111E17"
+	#侧栏背景
+	panel = "#FF17251E"
+	#卡片和输入框底色
+	surface = "#FF1B2D22"
+	#鼠标悬停底色
+	hover = "#FF294332"
+	#选中卡片底色
+	selected = "#FF203D2B"
+	#普通边框
+	border = "#FF314939"
+	#强调色和选中边框
+	accent = "#FF8BE3AC"
+	#主要文字
+	text = "#FFE5EEE8"
+	#次要文字
+	muted = "#FFA2B8AC"
+	#禁用文字
+	disabled = "#FF6D8375"
+	#材料齐全和可执行
+	ready = "#FF86D6A2"
+	#材料不足和提示
+	warning = "#FFE9C875"
+	#缺料和阻断条件
+	error = "#FFEB9B92"
+	#阻断提示底色
+	errorSurface = "#FF412C2D"
+	#树连线
+	connector = "#FF84C99B"
+	#等待重算时的连线
+	connectorPending = "#FF567661"
+	#目标节点底色
+	root = "#FF1B2D22"
+	#制作步骤节点底色
+	step = "#FF1B2D22"
+	#原材料节点底色
+	leaf = "#FF1A2C21"
+	#共享产出引用标记
+	reference = "#FF91BCD8"
+	#引用节点遮罩
+	referenceOverlay = "#33102018"
+	#面板和节点阴影
+	shadow = "#A0000000"
+	#浮动文字衬底
+	textBackdrop = "#B0102018"
+	#物品槽悬停遮罩
+	hoverOverlay = "#30FFFFFF"
+	#整体窗体背景
+	frame = "#FF101B18"
+	#标题区背景
+	header = "#FF18251F"
+	#普通按钮底色
+	button = "#FF1A2722"
+	#节点边框
+	nodeBorder = "#FF4C6B55"
+	#活动页签边框
+	activeBorder = "#FF5B9C75"
+	#缺料卡片底色
+	warningSurface = "#FF302B1E"
+	#缺料卡片边框
+	warningBorder = "#FF74643E"
+	#主要操作按钮底色
+	primary = "#FF245E42"
+	#主要操作按钮边框
+	primaryBorder = "#FF8BE6B1"
+	#画布点阵
+	grid = "#FF25382B"
+

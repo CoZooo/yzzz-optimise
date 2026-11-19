@@ -1,0 +1,17 @@
+{
+  "type": "embers:mixing",
+  "inputs": [
+    {
+      "amount": 4,
+      "name": "aetherworks:aether_gas_impure"
+    },
+    {
+      "amount": 4,
+      "name": "deep_aether:poison_fluid"
+    }
+  ],
+  "output": {
+    "amount": 4,
+    "fluid": "callfromthedepth_:poisonwater"
+  }
+}

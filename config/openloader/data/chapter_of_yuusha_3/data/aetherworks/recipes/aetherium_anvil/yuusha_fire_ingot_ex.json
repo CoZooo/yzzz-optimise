@@ -1,11 +1,11 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 5,
-  "emberPerHit": 50,
+  "emberPerHit": 100,
   "input": {
     "item": "enigmaticlegacy:etherium_ingot"
   },
-  "numberOfHits": 35,
+  "numberOfHits": 50,
   "result": [
     {
       "chance": 1.0,

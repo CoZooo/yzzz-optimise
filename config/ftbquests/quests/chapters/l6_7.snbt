@@ -556,7 +556,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["3491239F1B3DD848"]
+			dependencies: [
+				"3491239F1B3DD848"
+				"59AC63668E05CCA5"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"战斗、魔力技能树解锁：手持神秘龙蛋右击天空之城奖杯、长者雕像，即可分别解锁战斗、魔力技能树（确保离奖杯最近的是你）。成功时会消耗物品，但不会有声音等反馈。默认按K键打开技能树界面。"
 				""

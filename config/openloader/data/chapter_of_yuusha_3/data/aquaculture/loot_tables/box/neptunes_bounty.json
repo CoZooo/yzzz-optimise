@@ -95,12 +95,6 @@
           "name": "aquaculture:neptunium_fillet_knife",
           "entryName": "neptunium_fillet_knife",
           "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "aquaculture:neptunium_bow",
-          "entryName": "neptunium_bow",
-          "weight": 1
         }
       ]
     },

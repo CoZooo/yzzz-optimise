@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "AB_",
+    "___",
+    "___",
+    "____"
+  ],
+  "key": {
+    "B": {
+      "item": "wizards_reborn:natural_calx"
+    },
+    "A": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:nature_rune"
+  },
+  "wissen": 200
+}

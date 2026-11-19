@@ -20,6 +20,10 @@ import mods.jeitweaker.Jei;
 <tag:items:curios:curio>.remove(<item:refinedstorageaddons:creative_wireless_crafting_grid>);
 <tag:items:curios:ncrdna>.add(<item:refinedstorageaddons:creative_wireless_crafting_grid>);
 
+//
+craftingTable.remove(<item:rs_integration:resonant_experience_wand>);
+craftingTable.addShaped("rs_integration.resonant_experience_wand", <item:rs_integration:resonant_experience_wand>, [[<item:minecraft:experience_bottle>, <item:enigmaticlegacy:xp_scroll>.anyDamage().reuse(), <item:minecraft:experience_bottle>], [<item:hmag:ancient_stone>, <item:forbidden_arcanus:draco_arcanus_staff>, <item:hmag:ancient_stone>], [<item:minecraft:experience_bottle>, <item:reliquary:hero_medallion>.anyDamage().reuse(), <item:minecraft:experience_bottle>]]);
+
 //回路
 furnace.remove(<item:refinedstorage:basic_processor>);
 recipes.addJsonRecipe("refinedstorage.basic_processor",{ 
@@ -92,6 +96,9 @@ recipes.addJsonRecipe("refinedstorage.silicon",{
 craftingTable.remove(<item:rs_integration:resonance_storage_disk>);
 
 //
+craftingTable.remove(<item:rs_integration:order_terminal>);
+craftingTable.addShapeless("rs_integration.order_terminal", <item:rs_integration:order_terminal>, [<item:refinedstorageaddons:creative_wireless_crafting_grid>.anyDamage(), <item:goose_hardtack:goose_hardtack>]);
+
 craftingTable.remove(<item:rs_integration:unified_storage_disk>);
 craftingTable.addShapeless("rs_integration.unified_storage_disk", <item:rs_integration:unified_storage_disk>, [<item:refinedstorage:creative_storage_disk>.anyDamage(), <item:refinedstorage:creative_fluid_storage_disk>.anyDamage()]);
 
@@ -105,7 +112,6 @@ craftingTable.remove(<item:rs_integration:rs_refill_upgrade>);
 craftingTable.addShapeless("rs_integration.rs_refill_upgrade", <item:rs_integration:rs_refill_upgrade>, [<item:sophisticatedbackpacks:advanced_refill_upgrade>, <item:aquamirae:abyssal_amethyst>]);
 
 craftingTable.remove(<item:rs_integration:rs_feeding_upgrade>);
-craftingTable.addShapeless("rs_integration.rs_feeding_upgrade", <item:rs_integration:rs_feeding_upgrade>, [<item:sophisticatedbackpacks:advanced_feeding_upgrade>, <item:aquamirae:abyssal_amethyst>]);
 
 //外壳
 craftingTable.remove(<item:refinedstorage:machine_casing>);
@@ -125,7 +131,8 @@ craftingTable.addShaped("refinedstorage.disk_drive", <item:refinedstorage:disk_d
 //无线终端
 craftingTable.addShaped("refinedstorage.creative_wireless_grid", <item:refinedstorage:creative_wireless_grid>, [[<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:ender_eye>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <tag:items:refinedstorage:grid>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron>]]);
 
-craftingTable.addShapeless("refinedstorageaddons.creative_wireless_crafting_grid", <item:refinedstorageaddons:creative_wireless_crafting_grid>, [<item:refinedstorage:creative_wireless_grid>.anyDamage(), <item:minecraft:crafting_table>]);
+craftingTable.addShapeless("refinedstorageaddons.creative_wireless_crafting_grid.1", <item:refinedstorageaddons:creative_wireless_crafting_grid>, [<item:refinedstorage:creative_wireless_grid>.anyDamage(), <item:minecraft:crafting_table>]);
+craftingTable.addShaped("refinedstorageaddons.creative_wireless_crafting_grid.2", <item:refinedstorageaddons:creative_wireless_crafting_grid>, [[<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:ender_eye>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <tag:items:refinedstorage:crafting_grid>, <item:refinedstorage:quartz_enriched_iron>], [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:advanced_processor>, <item:refinedstorage:quartz_enriched_iron>]]);
 
 craftingTable.addShapeless("refinedstorage.creative_wireless_fluid_grid", <item:refinedstorage:creative_wireless_fluid_grid>, [<item:refinedstorage:creative_wireless_grid>.anyDamage(), <item:minecraft:bucket>]);
 

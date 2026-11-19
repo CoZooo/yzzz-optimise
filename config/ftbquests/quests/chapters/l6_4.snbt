@@ -9,7 +9,7 @@
 		{
 			alpha: 128
 			color: 5407967
-			height: 10.0d
+			height: 11.5d
 			image: "yuusha:textures/mission_background_1.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -56,7 +56,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["65526C0EDBBC8DBF"]
@@ -73,7 +73,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1CFFB9742A66B82A"]
@@ -90,7 +90,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19BB6413A992413E"]
@@ -107,7 +107,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F3330ABB91E4F1D"]
@@ -124,7 +124,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74BA6DDA803DED34"]
@@ -141,7 +141,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19BB6413A992413E"]
@@ -158,7 +158,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["175274E19561A846"]
@@ -179,7 +179,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00E6FEE63F9EEDB3"]
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3011948EA6907E98"]
@@ -235,7 +235,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["00E6FEE63F9EEDB3"]
@@ -257,7 +257,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -278,7 +278,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -301,7 +301,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -318,7 +318,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -339,7 +339,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["74BA6DDA803DED34"]
@@ -356,7 +356,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -380,7 +380,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["268F470FD7EE59E0"]
@@ -413,7 +413,7 @@
 				}
 			]
 			x: 8.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12419FE3EAF4EB55"]
@@ -443,7 +443,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12419FE3EAF4EB55"]
@@ -461,7 +461,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["00E6FEE63F9EEDB3"]
@@ -484,7 +484,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12419FE3EAF4EB55"]
@@ -506,7 +506,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1639BFA4390FC082"]
@@ -530,7 +530,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["12419FE3EAF4EB55"]
@@ -554,7 +554,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["268F470FD7EE59E0"]
@@ -572,7 +572,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5317519AC0BF670B"]
@@ -596,7 +596,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2CE4AA72C6388805"]
@@ -626,7 +626,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1745BB0D5ADC591F"]
@@ -644,7 +644,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1745BB0D5ADC591F"]
@@ -662,7 +662,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["572501A946906E3A"]
@@ -680,7 +680,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["42FFB5C68179A6CB"]
@@ -715,7 +715,7 @@
 				}
 			]
 			x: 0.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39F49C9821ED3C95"]
@@ -755,7 +755,236 @@
 				}
 			]
 			x: 8.0d
-			y: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00E6FEE63F9EEDB3"]
+			description: ["此整合包具有共振存储模组。可以从JEI发起请求，预览完整的配方依赖树，让系统递归准备中间材料、调度已绑定的机器，并将最终产物送回RS网络。"]
+			icon: "refinedstorage:orange_creative_controller"
+			id: "1967C391AA57BEE1"
+			rewards: [{
+				id: "643B3587370B70CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67E374E371D6BCD5"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "共振存储"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"在JEI中点击“RS自动合成（递归）” 按钮，即可预览并开始合成。按P键可查看进度。"
+				""
+				"&6机器需绑定才能使用。手持次元合成访问器潜行右击机器即可绑定。也可按“；”号自动绑定附近机器。"
+			]
+			icon: "refinedstorage:orange_security_manager"
+			id: "39E4AB873D51C46C"
+			rewards: [{
+				id: "11BFEE1E6CF14BD9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D1B1991D649679D"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "递归合成"
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"打开RS合成网络后，打开相应的左侧栏，可以直接食用网络内存放的食物。"
+				""
+				"&6多样饮食&r：自动吃掉还没有记录过的食物种类。"
+				""
+				"&6堆叠暴食&r：选择一种食物自动吃到饱或达到上限。"
+				""
+				"&6膳食均衡&r：自动选择食物补充较低的营养组。"
+				""
+				"&c可以设置食物黑名单和状态效果黑名单，避免误吃不想使用的食物。"
+			]
+			icon: {
+				Count: 1
+				id: "wizards_reborn:tarkhuna_bottle"
+				tag: { }
+			}
+			id: "1C5F7CD9FE1CFEC4"
+			rewards: [{
+				id: "1579DA6465C6214D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0376089B7E11A528"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "自动进食"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"在村民交易界面选中一项交易后按空格键，自动补充两个付款槽，便于连续交易。"
+				""
+				"&6重铸台补货&r：在神化重铸台界面按空格，自动从RS网络补充符石；缺少时会加入JEI收藏。"
+				""
+				"&6铁砧材料记忆与补货功能&r：自动记录每名玩家最近使用的6种铁砧材料。点击记忆栏即可从玩家背包和RS网络补充材料。支持一键交换铁砧的主物品槽与材料槽。"
+				""
+				"&6一键整理next兼容&r：可在自动补货时从RS补齐材料。"
+				""
+				"&e优先使用玩家背包中的匹配物品，再从当前可访问的RS网络提取剩余数量。"
+			]
+			icon: "mowziesmobs:captured_grottol"
+			id: "2AC1BDF6717C63C7"
+			rewards: [{
+				id: "29C7EDA65AEE5851"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7679570642C8EAA0"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "自动补货"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"打开箱子、机器输入界面等容器后按F键，即可把容器中的物品全部转移出去。"
+				""
+				"&e按G键可以切换转移目标：发送到已绑定的RS网络，或发送到精妙背包。"
+				""
+				"&6转移过程中会遵守过滤器、物品黑名单和目标容量；无法转移的物品会留在原容器中。"
+			]
+			icon: "whisperwoods:bottled_moth"
+			id: "6323AF54E7600A2F"
+			rewards: [{
+				id: "79201A7E7B50B88A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DFDD8E663F34903"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "容器一键转移"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"共振磁盘是一种特殊RS存储磁盘，盘内物品可以像玩家随身携带一样参与效果与资源查找。"
+				""
+				"&6默认支持药水护符、烈焰术士法杖、魔法石英花、幽灵之眼护符、九剑归一诀。"
+				""
+				"&3支持细雪桶、希腊火桶、毒液桶等的存放，存放后支持递归合成。"
+				""
+				"&e支持将共振存储盘丢入哭泣之井中，或者携带有次元合成访问器的人跳入井中（需将共振存储盘放进RS）获得虚空恩惠的能力。"
+				""
+				"&c同一个RS网络只能启用一张共振磁盘，避免被动效果和资源重复计算。"
+			]
+			id: "0C686393EEBB15E2"
+			rewards: [{
+				id: "43FA59114DF911AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76113B61E9792DF8"
+				item: "rs_integration:resonance_storage_disk"
+				type: "item"
+			}]
+			title: "共振存储盘"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"提供了四种RS专用精妙背包升级。"
+				""
+				"&6这些升级都可以潜行右键RS控制器绑定网络；升级界面可以启用/禁用升级并配置过滤物品。"
+				""
+				"&e压缩升级增强：可以按过滤规则自动压制口袋饰品，逐步合并不同品质，直到达到100%或无法继续合并。"
+				""
+				"&3磁铁升级（包括原模组的）可吸取突变生物残骸。"
+			]
+			id: "2BBE5ACE9C28FB87"
+			rewards: [{
+				id: "6BF48599396F361A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "35F58E44A38C3A96"
+					item: "rs_integration:rs_pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "5FB8DAA7D2BF3283"
+					item: "rs_integration:rs_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "380D615F832B37C0"
+					item: "rs_integration:rs_refill_upgrade"
+					type: "item"
+				}
+				{
+					id: "18FF7405C02CDB5B"
+					item: "rs_integration:rs_feeding_upgrade"
+					type: "item"
+				}
+			]
+			title: "精妙背包改造"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1967C391AA57BEE1"]
+			description: [
+				"检测由RS合成、容器转移、磁铁、拾取和其他外部物品移动带来的物品数量变化。"
+				""
+				"&eFTB任务由进玩家背包改成掉落物掉落。"
+				""
+				"&6物品实际进入RS网络后，会同步到FTB任务的物品任务进度。"
+				""
+				"&3在FTB任务界面点击提交时，可以直接从RS网络扣除缺少的物品；缺少的物品会进入JEI收藏"
+				""
+				"&2增加一键整理next兼容，可在自动补货时从 RS 补齐材料。"
+			]
+			icon: "ftbquests:task_screen_configurator"
+			id: "58AA530032716582"
+			rewards: [{
+				id: "743294BD74E54F09"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63055008ACC62FAD"
+				title: "戳我"
+				type: "checkmark"
+			}]
+			title: "FTB 任务物品检测"
+			x: 8.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["&9『存储』"]

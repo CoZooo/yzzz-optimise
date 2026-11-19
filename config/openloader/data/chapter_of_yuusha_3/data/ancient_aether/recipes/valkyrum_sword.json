@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 5,
-  "emberPerHit": 75,
+  "emberPerHit": 100,
   "input": {
     "item": "ancient_aether:valkyrum_block"
   },

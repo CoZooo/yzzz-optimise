@@ -1,0 +1,30 @@
+{
+  "type": "wizards_reborn:crystal_infusion",
+  "output": {
+    "item": "irons_spellbooks:legendary_ink",
+    "count": 1
+  },
+  "light": 1000,
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:epic_ink"
+    },
+    {
+      "item": "irons_spellbooks:holy_upgrade_orb"
+    },
+    {
+      "item": "goety:redstone_monstrosity_head"
+    },
+    {
+      "item": "irons_spellbooks:lightning_upgrade_orb"
+    },
+    {
+      "item": "yuusha:ignitium_star"
+    },
+    {
+      "item": "irons_spellbooks:blood_upgrade_orb"
+    }
+  ]
+}
+
+

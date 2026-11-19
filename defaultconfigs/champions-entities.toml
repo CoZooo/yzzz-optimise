@@ -2958,7 +2958,7 @@
 	maxTier = 5
 	minTier = 5
 	entity = "faded_conquest_2:the_plauge_bringer"
-	presetAffixes = ["hasty", "air_break", "wounding", "paralyzing"]
+	presetAffixes = ["hasty", "magnetic", "wounding", "paralyzing"]
 
 [[entities]]
 	affixPermission = "WHITELIST"

@@ -16,6 +16,8 @@ isUButtomShown = true
 isUpdateManagerOn = true
 isSelfUpdateAutoCheckOn = false
 isPresetFuncOn = true
+isPackFuncOn = true
+isPButtomShown = true
 ShowOnFirstRun = false
 WaitingTime = 0
 serverSupport = false
@@ -34,8 +36,6 @@ noticePanelOffsetX = 0
 noticePanelOffsetY = 0
 noticePanelWidth = 0
 noticePanelHeight = 0
-modpackUrl = ""
-updateGithubRepo = "https://gitcode.com/CoZooo/yzzz-optimise,https://github.com/CoZooo/yzzz-optimise"
 
 [downloads]
 maxConcurrentDownloads = 64
@@ -44,3 +44,11 @@ minSegmentMB = 1
 maxRetryCount = 5
 connectTimeoutSeconds = 10
 taskTimeoutSeconds = 120
+downloadMirrorMode = "smart_precheck"
+downloadMirrorProbeCount = 3
+downloadMirrorProbeStrategy = "single"
+
+[modpack]
+modpack = ""
+modpackUrl = ""
+updateGitRepo = "https://gitcode.com/CoZooo/yzzz-optimise"

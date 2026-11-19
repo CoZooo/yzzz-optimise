@@ -4833,7 +4833,7 @@
 		{
 			dependencies: ["6D17311DA4F0AB14"]
 			description: [
-				"在起床时有50%几率获得。"
+				"在起床时有100%几率获得。"
 				""
 				"&e多个相同配饰可以合成出一个新的配饰，用以刷新效果加成。其效果加成部分取决于之前的配饰。"
 				""
@@ -7519,11 +7519,18 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "0D34091C6F307B1B"
-				item: "celestial_artifacts:thunder_ring"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0D34091C6F307B1B"
+					item: "celestial_artifacts:thunder_ring"
+					type: "item"
+				}
+				{
+					id: "0C2B575F4DCBDB1C"
+					item: "chapter_of_yuusha_3_core:insulation"
+					type: "item"
+				}
+			]
 			x: -25.5d
 			y: -28.5d
 		}
@@ -9069,6 +9076,7 @@
 		}
 		{
 			dependencies: ["6D17311DA4F0AB14"]
+			description: ["饰品的加成数值描述有误，实际为100+血战加成/4，其为全伤害加成，但非近战伤害仅享受一半的加成。"]
 			id: "465E3AF53C61663F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -10620,11 +10628,14 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["6D17311DA4F0AB14"]
+			dependencies: [
+				"6D17311DA4F0AB14"
+				"5078EEE4FED07AC5"
+			]
 			description: [
 				"也许这也能叫作“天体洋葱”。"
 				""
-				"&c特性：请先用恶魔之心获得第七个配饰栏位，然后再完成此任务。否则恶魔之心不再生效。"
+				"&c特性：请先用&e恶魔之心&c获得第七个配饰栏位，然后再完成此任务。否则恶魔之心不再生效。"
 			]
 			hide_dependency_lines: false
 			id: "7AAAF825131F4BB9"

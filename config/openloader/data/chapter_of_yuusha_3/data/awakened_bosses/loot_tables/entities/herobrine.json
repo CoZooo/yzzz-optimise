@@ -8,6 +8,27 @@
       },
       "entries": [
         {
+          "type": "item",
+          "name": "mowziesmobs:elokosa_paw_new",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "mowziesmobs:night_form"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
           "type": "minecraft:item",
           "name": "awakened_bosses:herobrine_nugget",
           "weight": 7,

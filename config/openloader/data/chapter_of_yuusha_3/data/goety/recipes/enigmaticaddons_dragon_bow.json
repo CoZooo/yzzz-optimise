@@ -2,7 +2,7 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "morebows:gilded_netherite_bow"
+    "item": "yuusha:fire_ingot_ex"
   },
   "craftType": "forge",
   "soulCost": 80000,

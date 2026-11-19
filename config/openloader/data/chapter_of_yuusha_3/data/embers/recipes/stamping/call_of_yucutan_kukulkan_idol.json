@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "minecraft:nether_star"
+  },
+  "fluid": {
+    "amount": 250,
+    "name": "embers:molten_electrum"
+  },
+  "output": {
+    "item": "call_of_yucutan:kukulkan_idol",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

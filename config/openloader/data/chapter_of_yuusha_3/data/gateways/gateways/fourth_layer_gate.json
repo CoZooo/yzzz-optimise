@@ -6,15 +6,15 @@
         "entities": [
 			{
 				"entity": "infinite_abyss:mushroom_spider",
-				"count": 4
+				"count": 5
 			},
 			{
 				"entity": "infinite_abyss:disgruntled_glow_bulb",
-				"count": 4
+				"count": 5
 			},
 			{
 				"entity": "infinite_abyss:puffball",
-				"count": 4
+				"count": 2
 			}
 		],
         "rewards": [{
@@ -24,7 +24,7 @@
 				"count": 1
 			}
         }],
-        "max_wave_time": 300,
+        "max_wave_time": 600,
         "setup_time": 20
     },
     "modifiers": [
@@ -46,5 +46,5 @@
     "boss_event": {
         "mode": "boss_bar"
     },
-    "spawn_algorithm": "gateways:inward_spiral"
+    "spawn_algorithm": "gateways:open_field"
 }

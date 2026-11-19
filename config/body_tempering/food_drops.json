@@ -1,0 +1,27 @@
+{
+  "_comment_zh": [
+    "归墟掉落配置 | Guixu (Invincible Path) food drops",
+    "佩戴「归墟」（invincible_path，命运饰品）时击杀生物，按概率掉落对应锻体丹。",
+    "三段列表互相独立判定（同一个生物可以同时出现在多个列表里）：",
+    "  zhongsheng_blood_pill → 气血丹；dragon_scale_fruit → 龙鳞果；divine_demon_blood → 巫神血。",
+    "字段说明：",
+    "  id: 实体注册 ID，例如 \"minecraft:zombie\"、\"mowziesmobs:naga\"（必填）。",
+    "  percent: 每次击杀掉落概率 0~100（1 = 1%）。",
+    "  max_dry（可选）: 连续多少只该生物未掉落后，下一只必掉（保底，默认不启用；不写或写 0 表示关闭）。",
+    "  min_kill（可选）: 累计击杀该生物达到该次数后才开始判定掉落（默认不启用；不写或写 0 表示不限制）。",
+    "  max_drops（4.5.0 可选）: 该条目最多累计掉落多少颗丹药，达到后不再掉落（击杀数仍继续累加；不写或写 0 表示无上限）。",
+    "  max_kill（4.5.0 可选）: 该条目最多计入多少次击杀，达到后不再掉落（击杀数仍继续累加显示；不写或写 0 表示无上限）。",
+    "  判定顺序: max_kill → max_drops → min_kill → 概率；上限优先于解锁（上限已达成时不再判定）。",
+    "  计数按「玩家 + 食物 + 生物」分别记录并存档。",
+    "示例：",
+    "  \"zhongsheng_blood_pill\": [",
+    "    { \"id\": \"minecraft:zombie\", \"percent\": 5, \"max_dry\": 100, \"min_kill\": 10, \"max_kill\": 200, \"max_drops\": 5 },",
+    "    { \"id\": \"mowziesmobs:naga\", \"percent\": 1 }",
+    "  ]",
+    "默认三段都是空列表（不启用任何归墟掉落）；把生物条目写进对应列表即可启用。",
+    "修改后需重启游戏（服务器）生效。"
+  ],
+  "zhongsheng_blood_pill": [],
+  "dragon_scale_fruit": [],
+  "divine_demon_blood": []
+}

@@ -1,0 +1,21 @@
+{
+  "type": "wizards_reborn:arcane_workbench",
+  "pattern": [
+    "AB_",
+    "___",
+    "___",
+    "____"
+  ],
+  "key": {
+    "B": {
+      "item": "irons_spellbooks:energized_core"
+    },
+    "A": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "output": {
+    "item": "irons_spellbooks:lightning_rune"
+  },
+  "wissen": 200
+}

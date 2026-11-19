@@ -35,3 +35,12 @@ Jei.hideIngredient(<item:rustic_engineer:logo_01>);
 
 //烧太阳锭
 blastFurnace.addRecipe("rustic_engineer.solarite_ingot", <item:rustic_engineer:solarite_ingot>, <item:rustic_engineer:raw_solarite_ore>, 1.0, 100);
+
+//
+stoneCutter.addRecipe("rustic_engineer.solarite_ingot.spider_mech_item", <item:rustic_engineer:solarite_ingot>*8, <item:rustic_engineer:spider_mech_item>);
+stoneCutter.addRecipe("rustic_engineer.solarite_ingot.air_ship_item", <item:rustic_engineer:solarite_ingot>*8, <item:rustic_engineer:air_ship_item>);
+stoneCutter.addRecipe("rustic_engineer.solarite_ingot.dragonfly_item", <item:rustic_engineer:solarite_ingot>*8, <item:rustic_engineer:dragonfly_item>);
+stoneCutter.addRecipe("rustic_engineer.solarite_ingot.abyssal_submarine_item", <item:rustic_engineer:solarite_ingot>*8, <item:rustic_engineer:abyssal_submarine_item>);
+
+
+

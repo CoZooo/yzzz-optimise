@@ -15,7 +15,8 @@
 		"attributeslib:sundering": 0
     },
     "travel_req":{
-        "flying": 5
+        "flying": 5,
+        "sky": 100
     },
     "vein_blacklist":["minecraft:bedrock"],
     "mob_multiplier": {}

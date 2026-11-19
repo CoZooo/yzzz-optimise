@@ -59,21 +59,7 @@
 			}]
 			tasks: [{
 				id: "09420703500CB3D8"
-				item: {
-					Count: 1
-					id: "relics:magic_mirror"
-					tag: {
-						abilities: {
-							teleport: {
-								points: 0
-								stats: {
-									cooldown: 36.83533d
-									distance: 3467.33563d
-								}
-							}
-						}
-					}
-				}
+				item: "distant_worlds:wither_totem"
 				type: "item"
 			}]
 			title: "遥远世界之书"
@@ -142,11 +128,15 @@
 				item: "castle_in_the_sky:yellow_key"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.5d
 			y: -9.0d
 		}
 		{
-			dependencies: ["2D17E8C627BD8EDE"]
+			dependencies: [
+				"2D17E8C627BD8EDE"
+				"59AC63668E05CCA5"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"穿过天空城堡内的地牢，并找到一个拥有大片缠怨藤的房间，其中有飞行石晶体，站在飞行石晶体上即可解锁“征服城堡”的进度，随后即可领取奖励。利用探险家指南针搜索“castle in the sky”可以找到天空之城。"
 				""
@@ -493,7 +483,7 @@
 				item: "castle_in_the_sky:red_key"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.5d
 			y: -9.0d
 		}
 		{
@@ -515,7 +505,7 @@
 				item: "castle_in_the_sky:blue_key"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: -9.0d
 		}
 		{
@@ -1614,6 +1604,7 @@
 			dependencies: [
 				"31E07CA9DDF0F058"
 				"68B3FB2E17F9984A"
+				"59AC63668E05CCA5"
 			]
 			dependency_requirement: "one_completed"
 			id: "479F79F314EF56DA"
@@ -1648,6 +1639,8 @@
 				"击杀迦赫纳维度的恶魔领主、远古恶魔、恶魔、小鬼守卫、小鬼、恶鬼都有几率获得。上述生物只会在迦赫纳维度生成，无法在其它维度生成。"
 				""
 				"&c也可用魂心水晶制作获得。"
+				""
+				"&e可制作迦赫纳传送门来刷各种恶魔。"
 			]
 			id: "033DB447527090EA"
 			rewards: [{
@@ -1707,6 +1700,7 @@
 		{
 			can_repeat: true
 			dependencies: ["1815728008A7A3E0"]
+			description: ["不能穿戴超级磁铁等物品磁铁，否则无法丢出胶囊。"]
 			icon: {
 				Count: 1
 				id: "capsule:capsule"

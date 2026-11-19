@@ -1,0 +1,77 @@
+{
+    "type": "gateways:endless",
+	"size": "medium",
+	"color": "#F2EADA",
+	"base_wave": {
+        "entities": [
+			{
+				"entity": "cataclysm:deepling",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:deepling_angler",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:deepling_priest",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:deepling_warlock",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:deepling_brute",
+				"count": 2
+			},
+			{
+				"entity": "cataclysm:coral_golem",
+				"count": 1
+			},
+			{
+				"entity": "cataclysm:coralssus",
+				"count": 1
+			}
+		],
+			"modifiers": [
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "attributeslib:vitality",
+						"amplifier": 4
+					}
+				}
+            ],
+        "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "crabbersdelight:coral_fragments",
+				"count": 1
+			}
+        }],
+        "max_wave_time": 2400,
+        "setup_time": 60
+    },
+    "modifiers": [
+        {
+            "application_mode": {
+                "type": "gateways:after_every_n_waves",
+                "waves": 2,
+                "max": 20
+            },
+            "modifiers": [{
+                "attribute": "generic.attack_damage",
+                "operation": "multiply_base",
+                "value": 0.1
+            }],
+            "max_wave_time": -200,
+            "setup_time": -5
+        }
+    ],
+    "failures": [
+    ],
+    "boss_event": {
+        "mode": "boss_bar"
+    },
+    "spawn_algorithm": "gateways:open_field"
+}

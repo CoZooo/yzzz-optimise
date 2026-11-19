@@ -27,6 +27,7 @@ recipes.addJsonRecipe("hand_of_fate.summon.wisp",{
 });
 
 //说明
+<item:whisperwoods:zotzpyre_spawn_egg>.addTooltip("\u00A76可用蝙蝠皮等材料在召唤祭坛召唤");
 <item:whisperwoods:ghost_light_electric_blue>.addTooltip("\u00A7c击杀鬼火有几率获得");
 <item:whisperwoods:ghost_light_fiery_orange>.addTooltip("\u00A7c击杀鬼火有几率获得");
 <item:whisperwoods:ghost_light_gold>.addTooltip("\u00A7c击杀鬼火有几率获得");

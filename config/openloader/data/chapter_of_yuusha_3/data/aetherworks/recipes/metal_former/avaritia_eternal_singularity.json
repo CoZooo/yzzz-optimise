@@ -1,0 +1,16 @@
+{
+  "type": "aetherworks:metal_forming",
+  "craft_time": 100,
+  "fluid": {
+    "amount": 500,
+    "name": "embers:dwarven_oil"
+  },
+  "input": {
+    "item": "cataclysm:cursium_block"
+  },
+  "match_exactly": false,
+  "output": {
+    "item": "avaritia:eternal_singularity"
+  },
+  "temperature": 2650
+}

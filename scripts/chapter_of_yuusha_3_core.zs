@@ -2,6 +2,8 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.property.Rarity;
 
 //
+<tag:items:curios:ring>.remove(<item:goose_curios:lovins_wrath>);
+<tag:items:curios:satan_contract>.add(<item:goose_curios:lovins_wrath>);
 <tag:items:curios:ring>.remove(<item:chapter_of_yuusha_3_core:war_mage_ring>);
 <tag:items:curios:burning_secret>.add(<item:chapter_of_yuusha_3_core:war_mage_ring>);
 <tag:items:curios:back>.remove(<item:endless_slash_curse:endless_slash_curse>);

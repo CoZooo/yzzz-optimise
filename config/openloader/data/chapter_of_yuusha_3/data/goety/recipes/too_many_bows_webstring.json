@@ -2,26 +2,35 @@
   "type": "goety:ritual",
   "ritual_type": "goety:craft",
   "activation_item": {
-    "item": "morebows:netherite_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "craftType": "forge",
-  "soulCost": 1200,
+  "soulCost": 4000,
   "duration": 10,
   "ingredients": [
     {
-      "item": "callfromthedepth_:soulbell"
+      "item": "yuusha:chaos_ingot"
     },
     {
       "item": "yuusha:chaos_ingot"
     },
     {
-      "item": "hmag:fortune_crystal_plus"
+      "item": "yuusha:chaos_ingot"
     },
     {
       "item": "yuusha:chaos_ingot"
     },
     {
-      "item": "ancient_aether:ancient_dungeon_key"
+      "item": "cataclysm:witherite_block"
+    },
+    {
+      "item": "cataclysm:witherite_block"
+    },
+    {
+      "item": "cataclysm:enderite_block"
+    },
+    {
+      "item": "cataclysm:enderite_block"
     }
   ],
   "result": {

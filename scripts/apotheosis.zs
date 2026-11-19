@@ -190,6 +190,19 @@ recipes.addJsonRecipe("apotheosis.uncommon_material.void",{
     post:  {  type: "drop_item",  item: "apotheosis:uncommon_material", count : 1}
 });
 
+/*
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.1", <item:artifacts:night_vision_goggles>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.2", <item:moonstone:ectoplasmsoul>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_night_vision.3", <item:grimoireofgaia:ring_of_night>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_night_vision", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.1", <item:confluence:shiny_red_balloon>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.2", <item:artifacts:cloud_in_a_bottle>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.strong_leaping.3", <item:confluence:cloud_in_a_bottle>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:strong_leaping", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_slow_falling.1", <item:artifacts:umbrella>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_slow_falling", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_slow_falling.2", <item:aether:valkyrie_cape>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_slow_falling", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+<recipetype:farmersdelight:cutting>.addRecipe("apotheosis.potion_charm.long_slow_falling.3", <item:eidolon:raven_cloak>.anyDamage(), [<item:apotheosis:potion_charm>.withTag({Potion: "minecraft:long_slow_falling", Modifier: "forbidden_arcanus:eternal"})], <item:enigmaticaddons:unknown_sword>);
+*/
 
 
 

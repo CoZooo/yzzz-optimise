@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "sophisticatedbackpacks:upgrade_base"
+  },
+  "fluid": {
+    "amount": 720,
+    "name": "aetherworks:alchemic_precursor"
+  },
+  "output": {
+    "item": "sophisticatedbackpacks:compacting_upgrade",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:flat_stamp"
+  }
+}

@@ -6,17 +6,13 @@
       "item": "youkaishomecoming:ice_cube"
     },
     {
-      "count": 1,
+      "count": 2,
       "item": "mowziesmobs:ice_crystal"
-    },
-    {
-      "count": 1,
-      "item": "forbidden_arcanus:darkstone_upgrade_smithing_template"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:iron_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -24,12 +20,8 @@
   },
   "spirits": [
     {
-      "type": "arcane",
-      "count": 8
-    },
-    {
       "type": "aerial",
-      "count": 4
+      "count": 8
     },
     {
       "type": "aqueous",

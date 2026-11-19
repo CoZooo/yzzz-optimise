@@ -1,0 +1,3406 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_15"
+	group: "4D78AB976801888E"
+	icon: {
+		Count: 1
+		id: "goety:philosophers_stone"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3B03551D733DA3A7"
+	images: [
+		{
+			alpha: 200
+			color: 9492460
+			height: 40.0d
+			image: "yuusha:textures/gui_researchbackeldritch.png"
+			rotation: 0.0d
+			width: 57.0d
+			x: 12.75d
+			y: -0.5d
+		}
+		{
+			alpha: 128
+			color: 0
+			height: 42.0d
+			image: ""
+			order: -2
+			rotation: 0.0d
+			width: 59.0d
+			x: 12.75d
+			y: -0.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4EABF5BDEB72041C"]
+			description: [
+				"开局送的其它物品，最好留着以供匠作章节的转转回收任务，以获得精致存储。"
+				""
+				"&c谨记先用FTB圈地，以防出现意外。"
+				""
+				"&6/skyblock spawn 可回到出生点。"
+				""
+				"&e大部分维度均会由于灵墟等级归零限制而无法进入。基本只有永夜空境、主世界、下界、末地、遥远世界、异界沙漠、永昼空境可进入。"
+				""
+				"&3不建议普通玩家选择此路线。需要发展大量科技，为科技包玩家特供路线。"
+				""
+				"&2基本除了魔女殉葬路线无法在空岛毕业外，其余职业应该都能毕业。"
+				"{@pagebreak}"
+				"空岛队伍相关指令，多人时创建队伍即为新空岛："
+				""
+				"&6创建队伍&r：/skyblock create <队名> <玩家>"
+				""
+				"&6邀请玩家&r：/skyblock invite <玩家>"
+				""
+				"&6接受邀请&r：/skyblock accept <队名>"
+				""
+				"&6拒绝邀请&r：/skyblock decline <队名>"
+				""
+				"&6加入队伍&r：/skyblock join <队名>"
+				""
+				"&6接受加入&r：/skyblock team accept <玩家>"
+				""
+				"&6拒绝加入&r：/skyblock team deny <玩家>"
+				""
+				"&6访问队伍&r：/skyblock visit <队名>"
+				""
+				"&6访问权限&r：/skyblock team allowVisits <true/false>"
+				""
+				"&6修改队名&r：/skyblock team <新队名> <原队名>"
+				""
+				"&6离开队伍&r：/skyblock leave"
+			]
+			id: "7839FE7663B8C86B"
+			invisible: true
+			rewards: [
+				{
+					id: "393C5D90921DB667"
+					type: "xp"
+					xp: 100
+				}
+				{
+					amount: -100
+					auto: "enabled"
+					exclude_from_claim_all: true
+					id: "52776E16EB445FB2"
+					skill: "sky"
+					team_reward: false
+					title: "&e灵墟等级修正归零"
+					type: "pmmo:levelreward"
+				}
+			]
+			subtitle: "本来无一物，何处惹尘埃"
+			tasks: [
+				{
+					id: "0454AA5243776557"
+					item: {
+						Count: 1
+						id: "goety:philosophers_stone"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "celestial_enchantments:born_in_shadow"
+									lvl: 5
+								}
+								{
+									id: "celestial_enchantments:photosynthesis"
+									lvl: 5
+								}
+							]
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					disable_toast: true
+					id: "661252F6738ADD04"
+					requiredLevel: 100
+					skill: "sky"
+					type: "pmmo:skill"
+				}
+			]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: [
+				"可用贤者之石制作。"
+				""
+				"&6如果选择钓鱼开局，各种树苗可通过开启盒子等获得。"
+			]
+			id: "26DDAA6AC40CFB44"
+			rewards: [{
+				id: "73C537C1CD7D4D8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29CBC271FF956738"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["32DD82A564D9462C"]
+			description: ["可用贤者之石制作。"]
+			id: "080B2737EC7E8E8A"
+			rewards: [{
+				id: "321E49CABD2CDCC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01B461E87AD1F35F"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: ["可用贤者之石制作。相当于范围骨粉药水。"]
+			id: "44012A8543217936"
+			rewards: [{
+				id: "5E8E5AE45F3CD813"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "398ADA8A6CFE1CBF"
+				item: "reliquary:fertile_potion"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: ["可用贤者之石制作。"]
+			id: "3F239B0860B26957"
+			rewards: [{
+				id: "221E18ECC7D98F27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DDB68109EB63815"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["080B2737EC7E8E8A"]
+			description: ["可用炼药锅获得。"]
+			id: "70941F0500CCF3D1"
+			rewards: [{
+				id: "49B8FDA88C331DC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C0C2CDD3C9E2867"
+				item: "irons_spellbooks:blood_vial"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F239B0860B26957"]
+			description: [
+				"睡觉即可获得。"
+				""
+				"&6可召唤苦力怕产生爆炸，该爆炸可破坏方块。注意保护自身和领地。"
+			]
+			id: "32715FBCE502E2A1"
+			rewards: [{
+				id: "5218A0DFE24AD5C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "397DDB3BE0D95FA1"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:dream_catcher"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["42FA25832823C3E0"]
+			id: "4281692FA707C37B"
+			rewards: [{
+				id: "3693B88714AB8CDC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7351A9006E5B115F"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F239B0860B26957"]
+			description: ["符文木板可以防烧。"]
+			id: "70FCF34E10C842DA"
+			rewards: [{
+				id: "2792B29FF75E7818"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "76C56A1E0591E0D5"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					id: "3E078AC84F2966AB"
+					item: "malum:azure_runewood_sapling"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4281692FA707C37B"]
+			description: ["铁块可加速。"]
+			id: "213E5124963EC72A"
+			rewards: [{
+				id: "2A0D264C2FD7FBD3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7476FFD8BE694FF1"
+				item: "helpwanted:villagerpost"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: ["开局送的书可变为纸，也可用树皮制作。"]
+			id: "32DD82A564D9462C"
+			rewards: [{
+				id: "53C864745ED0D859"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5789F90AE3263167"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: [
+				"可用营火制作。"
+				""
+				"&6如果选择钓鱼开局，获得的罐头、锡罐可烧制为粗铁。"
+			]
+			id: "0E7AE55B297125D0"
+			rewards: [{
+				id: "2A85EE535C787867"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "324293FF680D9397"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["32DD82A564D9462C"]
+			description: ["可用营火制作。"]
+			id: "182B86860510371E"
+			rewards: [{
+				id: "293578A0B34CC919"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30DEF784B8919C1C"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0BFA47F7711535FF"]
+			id: "60E3ADA6F94D2EF9"
+			rewards: [{
+				id: "77D3E933103259DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77B7627F5A2E2904"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4281692FA707C37B"]
+			id: "53C1DFBC0154440E"
+			rewards: [{
+				id: "5628E3DC92313B63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F2BC829CF0521E7"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70FCF34E10C842DA"]
+			dependency_requirement: "one_started"
+			description: [
+				"英灵树叶和英灵木，可在方块爆炸后，分别变为冰块和熔岩。"
+				""
+				"&c需注意必须用能破坏方块的爆炸，且必须解除FTB的圈地，才能触发该转变。例如苦力怕、TNT等。"
+				""
+				"&6建议在获得剪刀后，再合理安排位置。"
+			]
+			id: "16FC983127FC5E69"
+			rewards: [{
+				id: "3DF00F52B970E187"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只需前置任务的其中一个物品完成即可解锁"
+			tasks: [{
+				id: "388E792E488FD0A5"
+				item: "slashblade_useful_addon:proud_soul_sampling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["645A47FDC7B44C67"]
+			id: "3B8BE14579A7D251"
+			rewards: [{
+				id: "55ACE92D9ECFF164"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6CA3D85367544A1A"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70FCF34E10C842DA"]
+			dependency_requirement: "one_started"
+			id: "6BAE7166B6F307CE"
+			rewards: [{
+				id: "016EF97CCAAA4AAB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只需前置任务的其中一个物品完成即可解锁"
+			tasks: [{
+				id: "44C79FFB9C8A3ABF"
+				item: "malum:runic_sap"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["42FA25832823C3E0"]
+			id: "201099C8E16A57EA"
+			rewards: [{
+				id: "45235CC3FA5326B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A13C6A43040AC39"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["182B86860510371E"]
+			description: [
+				"可用苦力怕爆炸（会破坏方块）粗矿获得。也可用凋灵突击肩炮、虚空突击肩炮（不能破坏方块）。"
+				""
+				"&c可用FTB圈地，圈地后所有爆炸都只会破坏物品，无法破坏方块。"
+			]
+			id: "42FA25832823C3E0"
+			rewards: [{
+				id: "739BABD1685366EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57335AB30E52E31C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["201099C8E16A57EA"]
+			id: "3C1551D63A877728"
+			rewards: [{
+				id: "69E028D254631ABB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DF1BA4090911126"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16FC983127FC5E69"]
+			id: "393EC3834E19980B"
+			rewards: [{
+				id: "766ADE59CDC751FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5379095F5425C0BA"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["080B2737EC7E8E8A"]
+			description: [
+				"在下界合金桶底下会有冰，可变成水。"
+				""
+				"&6需先获得游泳等级才能装水瓶。"
+			]
+			id: "56402F1FFB155CA5"
+			rewards: [{
+				id: "22CF801DF34ECBF4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18592B74F6CD5692"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+						Purity: 3
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4281692FA707C37B"]
+			id: "11267CEA1D9BB7EC"
+			rewards: [{
+				id: "23DDE908DC8DA650"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79FFA8EA69227BCC"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11267CEA1D9BB7EC"]
+			id: "798CB56107ACF90B"
+			rewards: [{
+				id: "424264E49AD556C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76446E158ABEA431"
+				item: "minecraft:smooth_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["798CB56107ACF90B"]
+			description: [
+				"滴水石锥可放置在任何方块下面，并以该方块上方的流体为准（不消耗），缓慢嬗变滴水石锥下方的方块。"
+				""
+				"&6建议搞大规模的滴水石锥（数十个）以获得材料。"
+				""
+				"&c需注意所有的转化所需的流体，必须为流体源方块，不能是流动的。"
+			]
+			id: "2CA839C4639BCD46"
+			rewards: [{
+				id: "4F9E6811653152E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FB04B292DC36710"
+				item: "minecraft:pointed_dripstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2CA839C4639BCD46"]
+			description: ["可利用滴水石锥嬗变获得。"]
+			id: "645A47FDC7B44C67"
+			rewards: [{
+				id: "2013717856FD2170"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E723DE843490392"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["645A47FDC7B44C67"]
+			description: ["可利用滴水石锥嬗变获得。"]
+			id: "300365E8EF5F2E3B"
+			rewards: [{
+				id: "5F8D3ECA4C769B52"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07844FE3C1D04FAF"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["645A47FDC7B44C67"]
+			description: ["锄头对着砂土右击可将其变为泥土。"]
+			id: "143B8897888FA71C"
+			rewards: [{
+				id: "42FC34D79AB62C71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28288FFEA50C3FC0"
+				item: "minecraft:coarse_dirt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["300365E8EF5F2E3B"]
+			description: ["可利用滴水石锥嬗变获得。"]
+			id: "59917D2E892131F1"
+			rewards: [{
+				id: "71F3C468AD518A55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52D4FF36CE499E69"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["213E5124963EC72A"]
+			description: ["制箭台等可作为村民的职业方块。"]
+			id: "0BFA47F7711535FF"
+			rewards: [{
+				id: "21C3DDA2DEF0E8A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69EAC0A580BC6208"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["万神殿维度不再能进入。"]
+			id: "5D9AA1E5C210732F"
+			rewards: [{
+				id: "3B3E300AFBDA283F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "782807BB777A3A9A"
+				item: "grimoireofgaia:holstaurus_token"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D9AA1E5C210732F"]
+			description: ["永夜空境维度可以进入。"]
+			id: "57E4711DEFD16A6D"
+			rewards: [{
+				id: "1822CFE50A25D594"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41D328AA0B85FE9C"
+				item: "grimoireofgaia:trader_token"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["393EC3834E19980B"]
+			description: [
+				"挖掘熔岩与水方块生成的石头，也有小几率获得。"
+				""
+				"&6建议搞大规模的石头生成（可连锁64个）。"
+				""
+				"&c需注意是石头而不是圆石。高位熔岩接触低位水流方块时会生成石头。"
+			]
+			id: "1502D72799908B49"
+			rewards: [{
+				id: "705E21EC3BBAE393"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C6487859AEE8F59"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:lucky_rock"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6BAE7166B6F307CE"]
+			description: ["可通过幸运岩石等方式获得金锭。"]
+			id: "1A2C6A9FD20263A4"
+			rewards: [{
+				id: "5EA571536D35BCFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41AF275731E11A3B"
+				item: "forbidden_arcanus:aurum_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1A2C6A9FD20263A4"]
+			id: "58FCB3DDFA1887D6"
+			rewards: [{
+				id: "2322593276765DE7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "142A23E498B50D86"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["可通过村民交易或者悬赏板获得。"]
+			id: "38F2B7710B86AAFD"
+			rewards: [{
+				id: "11583C1F9154BFDC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1650ECAC09661475"
+				item: "locusazzurro_icaruswings:greek_fire_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1502D72799908B49"]
+			id: "572F802AA18A8D10"
+			rewards: [{
+				id: "6D68D82B94ACA448"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7CB51F997C5ECB82"
+					item: "eidolon:raw_lead"
+					type: "item"
+				}
+				{
+					id: "628AB730BEB89101"
+					item: "eidolon:raw_silver"
+					type: "item"
+				}
+				{
+					id: "605BC1049992098F"
+					item: "malum:raw_soulstone"
+					type: "item"
+				}
+				{
+					id: "30C6BEC09012FFCF"
+					item: "embers:raw_silver"
+					type: "item"
+				}
+				{
+					id: "1AD13B2451FBE3EF"
+					item: "embers:raw_lead"
+					type: "item"
+				}
+			]
+			title: "粗魔铅、粗魔银、粗灵魂石、粗银、粗铅"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2CA839C4639BCD46"]
+			description: ["可利用滴水石锥嬗变获得太阳石矿石。"]
+			id: "0F30F8252F3A267D"
+			rewards: [{
+				id: "6C9CD207EC395CBC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4906853FB21559D3"
+				item: "rustic_engineer:raw_solarite_ore"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F30F8252F3A267D"]
+			id: "0E9613E5309174CC"
+			rewards: [{
+				id: "3A9B4D0F51E83E67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "104219F523AB0F81"
+				item: "malum:spirit_altar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["38F2B7710B86AAFD"]
+			description: [
+				"树脂可转化为糖。"
+				""
+				"&6糖可制作蜂箱。"
+			]
+			id: "7A4FB954323839FF"
+			rewards: [{
+				id: "0807B8ACE66D7831"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C0939B3D3C9C684"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["利用悬赏（工具和铁匠）可获得精准采集附魔。"]
+			id: "41B33A4FE3AC3AC8"
+			rewards: [{
+				id: "4AFEC6F00555E923"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "402C9C28F9093DD1"
+					item: "minecraft:ice"
+					type: "item"
+				}
+				{
+					id: "6283776FC5A85964"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+			]
+			title: "冰、浮冰"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			description: ["利用樱花碎片右击女仆玩偶可召唤妖精女仆。"]
+			id: "089CD3F65E3DB8C5"
+			rewards: [{
+				id: "337A3291B64B8861"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58180266450C2466"
+				item: "malum:hallowed_gold_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["42FA25832823C3E0"]
+			description: ["可开启前往下界的通路。"]
+			id: "76B176DD1D44B756"
+			rewards: [{
+				id: "3087BD8D60C9BEBA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43F0BD2F3FCD2919"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: ["应急物品可获得悲叹之种。"]
+			id: "0C4E7344C5E484A4"
+			rewards: [{
+				id: "5B04A0092E36D2BC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F583E57132E5CC8"
+				item: "yuusha:grief_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["41B33A4FE3AC3AC8"]
+			dependency_requirement: "one_started"
+			description: ["在下界放置冰可转化为下界石英矿石。"]
+			id: "1E1ABE65A71B9E5A"
+			rewards: [{
+				id: "655F4CC93EF67F2D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02EC55FA687A3F3E"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["58FCB3DDFA1887D6"]
+			id: "407F239907142825"
+			rewards: [{
+				id: "4DCFDE14D68C0C11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C0D581B7BDA5FAA"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			description: ["可制作多种雕像。"]
+			id: "69D4F00C2D34E455"
+			rewards: [{
+				id: "4C0B4CAFE7BDA960"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E175C49A64F3FE4"
+				item: "malum:poppet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["089CD3F65E3DB8C5"]
+			description: [
+				"苦力怕可用樱花碎片召唤。"
+				""
+				"&6利用前面的材料可召唤霜冻巨兽。"
+			]
+			id: "09DC0DA23F46A425"
+			rewards: [{
+				id: "0EF9A9DD9EB8310A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "485C25B668C4040C"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E1ABE65A71B9E5A"]
+			id: "772571A1451F764D"
+			rewards: [{
+				id: "15576046DA19FC98"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "584E2C8C9A56D88C"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "75975FAFBC01A022"
+					item: "minecraft:granite"
+					type: "item"
+				}
+				{
+					id: "31107F0A0EF0FFCA"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			title: "闪长岩、花岗岩、安山岩"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["772571A1451F764D"]
+			dependency_requirement: "one_started"
+			description: ["可用贤者之石合成。"]
+			id: "4F25F89643821D9E"
+			rewards: [{
+				id: "082D49647D585ADF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只需前置任务的其中一个物品完成即可解锁"
+			tasks: [
+				{
+					id: "48501002812FD8D1"
+					item: "aether:holystone"
+					type: "item"
+				}
+				{
+					id: "058812DE92C7624F"
+					item: "aetherworks:suevite"
+					type: "item"
+				}
+			]
+			title: "圣石、陨磺砾岩"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: [
+				"渔民悬赏可获得饵钓附魔。"
+				""
+				"&6钓鱼可获得多种材料。"
+			]
+			id: "0C470BCF9FF62F77"
+			rewards: [{
+				id: "7E25F074B82DFC13"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3828817DC56EC77E"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			id: "3BF093242B38C674"
+			rewards: [{
+				id: "68F0E6BB2BB4F041"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "37F8748A86EA28B0"
+				item: "eidolon:candle"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09DC0DA23F46A425"]
+			description: [
+				"天根木可利用自然宝藏袋、树妖等途径获得。"
+				""
+				"&6樱花碎片可召唤树妖。"
+			]
+			id: "2A7BAEEB099F8573"
+			rewards: [{
+				id: "02DE06D7CAC6FDAF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56FAAB346656A446"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			id: "43154F6A90AA9AB0"
+			rewards: [{
+				id: "5D742BB0BF479B64"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "050B62C42CA4BB80"
+				item: "malum:hex_ash"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["450F5018690C6FDF"]
+			description: ["获得能量晶核。"]
+			id: "4452C677CCF99EF8"
+			rewards: [{
+				id: "0C34EDD688A02417"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54ACE71212031F64"
+				item: "avaritia:diamond_lattice"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77D623FFCE126C8F"]
+			description: ["可通过悬赏获得。"]
+			id: "019FF5AB99AC347F"
+			rewards: [{
+				id: "45D8015EEB9B5857"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1D547E3249C73787"
+				item: "aetherworks:forge_anvil"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CA839C4639BCD46"]
+			description: ["可利用滴水石锥嬗变获得雪块。"]
+			id: "0710EEDCE2566DC3"
+			rewards: [{
+				id: "18EA8BE2FD183651"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3589CE5EDE98307F"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4452C677CCF99EF8"]
+			id: "3CDFF08F59D85018"
+			rewards: [{
+				id: "73B4BE2ECB9B3048"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CDF5BC5AC35FEAB"
+				item: "embers:mechanical_core"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DA509488689A7CB"]
+			description: ["击杀冰霜女巫有几率获得。"]
+			id: "450F5018690C6FDF"
+			rewards: [{
+				id: "20A07BEF085950C2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E26B80B70B8A772"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09DC0DA23F46A425"]
+			description: ["可用于召唤冰霜女巫。"]
+			id: "7DA509488689A7CB"
+			rewards: [{
+				id: "642622B5BD2081C8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "090D4F41A809DE6F"
+				item: "relics:solid_snowball"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57E4711DEFD16A6D"]
+			description: ["利用贸易商人售卖的各种宝箱可几率获得。"]
+			id: "387C2A4113D52BFC"
+			rewards: [{
+				id: "7624B66F909F5CCE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A0175D6CF3D72EA"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7839FE7663B8C86B"]
+			description: [
+				"任务奖励可几率获得。"
+				""
+				"&6如实在抽不到，甚至值得自选。"
+				""
+				"&e可用于复制部分矿物。"
+			]
+			id: "015A52275B3140C2"
+			rewards: [
+				{
+					id: "64B6041C486A623B"
+					item: "confluence:hand_of_creation"
+					type: "item"
+				}
+				{
+					id: "74F4D017625D886C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "387F292A252945EC"
+				item: {
+					Count: 1
+					id: "reliquary:alkahestry_tome"
+					tag: {
+						Damage: 10000
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7E7C893A09CC5CDB"]
+			description: [
+				"余烬晶体在主世界的开采，现在最高可在128高度处。"
+				""
+				"&6可用于召唤太阳鸟。"
+			]
+			id: "0D719BCA1D45C1C0"
+			rewards: [{
+				id: "363C1269553F7BA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24142DFBDD8135D2"
+				item: "embers:ember_crystal"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CDFF08F59D85018"]
+			id: "7E7C893A09CC5CDB"
+			rewards: [{
+				id: "7E42A859D747D688"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "728A325CBAC6C904"
+				item: "embers:ember_bore"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			description: ["有机肥料可转化为沃土，用于召唤通臂大师。"]
+			id: "511746DF6A014D54"
+			rewards: [{
+				id: "66174ED6C4ECB623"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AD4F3535EFC368D"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3CDFF08F59D85018"]
+			description: [
+				"可通过碳素钢混料获得。"
+				""
+				"{ \"text\": \"点击链接查看红沙任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3393CFBA2B956F5B\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"
+			]
+			id: "07EA771B99BEF1E2"
+			rewards: [{
+				id: "23D8A108ABC723C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2424DA7504B04F9A"
+				item: "locusazzurro_icaruswings:steel_ingot"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["击杀太阳鸟的召唤生物可获得羽毛。"]
+			id: "231A0426D5F9F234"
+			rewards: [{
+				id: "13BB77C96EA6308C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AF956F1A5EE4447"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: ["可利用史维特传送门获得。"]
+			id: "25D3A7D5FD1D30BB"
+			rewards: [{
+				id: "7D3FA171EF1B156E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76A143B453DA3B2B"
+				item: "aether_redux:vanilla_swet_ball"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["可兑换水椰种植获得。"]
+			id: "64E9F1DECB0D162A"
+			rewards: [{
+				id: "063764A4C2C85097"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65AF8170E72C0D2F"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["300365E8EF5F2E3B"]
+			description: ["可通过天华砧获得。也可通过滴水石锥转化。"]
+			id: "3393CFBA2B956F5B"
+			rewards: [{
+				id: "0494B9558F11FA11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B4D43587E6D77F0"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["231A0426D5F9F234"]
+			id: "1045F184D94D4665"
+			rewards: [{
+				id: "7D8158A85269F3F6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D4E770852805814"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B9B4E107B018A01"]
+			description: ["余烬晶体采矿机可采掘上述方块获得矿物。"]
+			id: "0C2FF29DC92EF3F3"
+			rewards: [{
+				id: "548FC025CCF76158"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "39B629B4367F44AC"
+					item: "embers:copper_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "5BEC8430BEAB8D76"
+					item: "embers:iron_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "244A0FF030DE57B6"
+					item: "embers:gold_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "3D0EF8DE3C0AE105"
+					item: "embers:lead_crystal_seed"
+					type: "item"
+				}
+				{
+					id: "30D6A470E81D7F11"
+					item: "embers:silver_crystal_seed"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["可制作史莱姆传送门。"]
+			id: "066103B2A29A0B0D"
+			rewards: [{
+				id: "7DDA02F99FE83B66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DD35759418B091C"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["066103B2A29A0B0D"]
+			description: ["击杀史莱姆有小几率获得。"]
+			id: "237FC12D43F35282"
+			rewards: [{
+				id: "0AD44F0CAEEBB622"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "65D31DE66ADDA70B"
+					item: "buzzier_bees:bee_bottle"
+					type: "item"
+				}
+				{
+					id: "5C0586F920346D78"
+					item: "buzzier_bees:silverfish_bottle"
+					type: "item"
+				}
+				{
+					id: "1E867FC830BE97E6"
+					item: {
+						Count: 1
+						id: "buzzier_bees:endermite_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1E1ABE65A71B9E5A"]
+			description: ["下界石英矿石经历爆炸可获得（不能有圈地防爆）。"]
+			id: "7560D6B1444653CC"
+			rewards: [{
+				id: "2CE3BE39B16235F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B96A0D9ABF94DD9"
+				item: "malum:blazing_quartz"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E1ABE65A71B9E5A"]
+			description: ["可将方块形式的下界石英矿石闪电转化获得。"]
+			id: "4C5111782FD591FC"
+			rewards: [{
+				id: "2604E942A4692B82"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A799DB8F715AF12"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54DE242DA69C1BAF"]
+			description: ["可通过释缚仪式获得。"]
+			id: "7FAD06B0FA998E82"
+			rewards: [{
+				id: "0DB2FC6E59956831"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "41F131151976CA67"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+				{
+					id: "571170577E27EF8D"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "625DB7C24704201F"
+					item: "forbidden_arcanus:darkstone"
+					type: "item"
+				}
+				{
+					id: "36D296FAAE7F1956"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E9613E5309174CC"]
+			description: [
+				"释缚仪式可转化部分方块。"
+				""
+				"&6放置在物品台上的物品，也能转化。"
+			]
+			id: "54DE242DA69C1BAF"
+			rewards: [{
+				id: "438ACE49522B49C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E571B72DB72DAB9"
+				item: "malum:runewood_totem_base"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A4FB954323839FF"]
+			description: ["可利用糖、燧石、木炭合成。"]
+			id: "3E270DFB26D8A360"
+			rewards: [{
+				id: "6EFB67AA579A30F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31961A8829AC41F4"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F25F89643821D9E"]
+			dependency_requirement: "one_started"
+			id: "329BDCE704BA456D"
+			rewards: [{
+				id: "468B6F8EE78EA100"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只需前置任务的其中一个物品完成即可解锁"
+			tasks: [{
+				id: "6798971AA79601B7"
+				item: "aetherworks:ore_aether"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BFA47F7711535FF"]
+			description: [
+				"可制作主世界夜袭传送门召唤僵尸等生物。"
+				""
+				"&6僵尸、骷髅等生物生成时有几率穿戴破旧布料盔甲。"
+			]
+			id: "2F1D65C2CB187AF7"
+			rewards: [{
+				id: "4AA90F06A843C50C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48559A7889C70CE5"
+				item: "majruszsdifficulty:cloth"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1ABE65A71B9E5A"]
+			id: "64DAE5FC10FAD1A7"
+			rewards: [{
+				id: "7902D717667AD6F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11FBF546216F6262"
+				item: "tacz:statue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4452C677CCF99EF8"]
+			id: "04AC7BE3E14D9913"
+			rewards: [{
+				id: "718BB83AE0B378BC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EC2FD8C7D2A6553"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04AC7BE3E14D9913"]
+			id: "474294CC5D741AB9"
+			rewards: [{
+				id: "0E537EB5E6C27A59"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "413B1918F8B4EF74"
+				item: "bosses_of_mass_destruction:soul_star"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			dependency_requirement: "one_started"
+			description: [
+				"利用符文等材料可召唤亡灵术士。"
+				""
+				"&6可制作阿比斯之渊传送门。"
+			]
+			id: "792ED39BE7EDD77D"
+			rewards: [{
+				id: "4EA13BD063004A4B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只需前置任务的其中一个物品完成即可解锁"
+			tasks: [{
+				id: "1ED0FF3C254AFA76"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["792ED39BE7EDD77D"]
+			id: "5ADAC48FDCB61698"
+			rewards: [{
+				id: "583DCC2C6B838E5E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4429D6FD6AF7518E"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["474294CC5D741AB9"]
+			id: "3A48B887BA26A955"
+			rewards: [{
+				id: "7E5C56D786DDE10D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BF8AC702328AB6F"
+				item: "yuusha:mutant_cube"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C470BCF9FF62F77"]
+			id: "771D7D10D728D373"
+			rewards: [{
+				id: "43FA414C6DEAB27C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2413B2453563D716"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["771D7D10D728D373"]
+			id: "2CDF639CDCD71E27"
+			rewards: [{
+				id: "1C36E6520368A1FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63785FB258A38DAB"
+				item: "youkaishomecoming:drying_rack"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["54DE242DA69C1BAF"]
+			description: [
+				"可通过释缚仪式获得。"
+				""
+				"&6释缚仪式：嬗变放置在附近腐枯壤、腐枯土上的方块，若该方块为放置了相应方块物品的物品基座、物品台、符文工作台也可生效，嬗变后的物品将直接掉落。"
+			]
+			id: "700CBE3D807C3320"
+			rewards: [{
+				id: "772FC8D91E015CAF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CA5DA76E1F297A4"
+				item: "forbidden_arcanus:growing_edelwood"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			description: ["只可提交一次获得一个召唤物。"]
+			id: "102266EEA025D868"
+			rewards: [{
+				count: 2
+				id: "533CAECF5CB8B495"
+				item: "yuusha:summon_scylla"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "4F744D712B1A0F0C"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E7C893A09CC5CDB"]
+			description: ["余烬晶体采矿机可采掘上述方块获得燃料。"]
+			id: "6B9B4E107B018A01"
+			rewards: [{
+				id: "68FDBAEE0F2451B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AA703C424253932"
+				item: "embers:dawnstone_crystal_seed"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			id: "12A70E2335ACBEE7"
+			rewards: [{
+				count: 2
+				id: "3ACC5A2E6ECEA1F1"
+				item: "yuusha:summon_boss_mantyd"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "147E7B077C2FB1F5"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CDFF08F59D85018"]
+			description: [
+				"可通过悬赏获得。"
+				""
+				"{ \"text\": \"点击链接查看天华锻座任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"496474BEE3E67D70\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"
+			]
+			id: "77D623FFCE126C8F"
+			rewards: [{
+				id: "4F5972EDF2C72B30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E200CAB41ADA804"
+				item: "aetherworks:aether_forge"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			id: "74CDC5FBD6E8550C"
+			rewards: [{
+				count: 2
+				id: "03E94B82C4E57B95"
+				item: "yuusha:summon_witchboss"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "36B624E34AF0FC20"
+				item: "aether:ambrosium_block"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: [
+				"秘法悬赏内可兑换到。"
+				""
+				"&6以方块形式放置在地上，雷击（可用瓶装雷电等）可将其转化为残缺的哭泣之井残缺。"
+				""
+				"&c该残缺的哭泣之井只能通过转化共振存储盘来获得哭泣之井的转化合成能力。"
+			]
+			id: "1AAFFF82909FB1BD"
+			rewards: [{
+				id: "1A179DDA460F91DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F5135F0C4B312AF"
+				item: "goety:void_block"
+				type: "item"
+			}]
+			title: "残缺的哭泣之井"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1AAFFF82909FB1BD"]
+			id: "4B9A46F4FA9CE2AA"
+			rewards: [{
+				id: "2C9071C77AE40132"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A733A455AA0DD44"
+				item: "malum:fused_consciousness"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			description: ["炼金石灰可通过制作获得。"]
+			id: "3D21A913D6E68B00"
+			rewards: [{
+				count: 2
+				id: "268FC2077D8F9C26"
+				item: "yuusha:summon_the_plauge_bringer"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "3B8F418EB59041E5"
+				item: "wizards_reborn:alchemy_calx"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			description: ["利用冰石等材料，可在召唤祭坛召唤灾厄教父。"]
+			id: "07D8D5CD5787A499"
+			rewards: [{
+				id: "4E6E0BB98F694AD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E6631A1CAFA65D0"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			id: "46C0EA5E9C3A256E"
+			rewards: [{
+				count: 2
+				id: "78B309D257B84409"
+				item: "yuusha:summon_elder_guardian"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "48D80803BA7E5A73"
+				item: "wizards_reborn:natural_calx"
+				type: "item"
+			}]
+			x: 28.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E7C893A09CC5CDB"]
+			description: [
+				"可将其转化为海洋祭坛、紫水晶祭坛、深渊祭坛。"
+				""
+				"&e建议尽早准备。"
+				""
+				"&6粗奥术金可通过余烬晶体采矿机获得。"
+			]
+			id: "7110CDF77E6CD905"
+			rewards: [{
+				id: "643E026DEB05CC94"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "549E15DE5DDD643F"
+				item: "wizards_reborn:wissen_altar"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["102266EEA025D868"]
+			description: ["{ \"text\": \"点击链接查看祭坛任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7110CDF77E6CD905\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"]
+			id: "2C4A1DC0FFB33201"
+			rewards: [{
+				id: "5B3CB33B4079FED5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "210913B557B6663F"
+				item: "call_of_drowner:broken_drowned_soul"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04AC7BE3E14D9913"]
+			description: ["阿比斯之渊无法前往。"]
+			id: "26EEB73EE1E7993C"
+			rewards: [{
+				id: "5089F7D11117402E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CE9F05CA7F22B3B"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60E3ADA6F94D2EF9"]
+			description: ["可制作太古砖。可用召唤祭坛召唤太古魔像。"]
+			id: "5FF6828653808302"
+			rewards: [{
+				id: "71E287CF83793D38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E97987E7F0C9606"
+				item: "eidolon:elder_brick"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			id: "3E3A36D40714652B"
+			rewards: [{
+				count: 2
+				id: "7792D26C134E2B2C"
+				item: "yuusha:summon_lich"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "47C554276A90893A"
+				item: "hmag:lich_cloth"
+				type: "item"
+			}]
+			x: 33.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			description: [
+				"在用自然指南针获取冰冻深海坐标后，可通过下界交通，开启传送门强行生成下界门作为落脚点。"
+				""
+				"&6迷阵之母会在63格以下的水体强制几率生成。巨鳗会在63格以上的方块强制几率生成。"
+				""
+				"&c需在冰冻深海群系高度64格以上，且站在冰块上，附近有大片水域（可用海洋精华生成）才能使用成功。"
+			]
+			id: "25CC42979AF3D4CA"
+			rewards: [{
+				id: "004DCE47150658EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34D261C0C8FEC8E0"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: 34.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["需注意花沙拉有两种烹饪方式。"]
+			id: "7DE7E83069A8F3FE"
+			rewards: [{
+				count: 2
+				id: "5329271D25498228"
+				item: "yuusha:summon_void_blossom"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "70C4AF7FDCA6509D"
+				item: "crockpot:flower_salad"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["可用滴水石锥将其嬗变为惊骇十之骑士召唤方块。"]
+			id: "670DC62CBB9EC7B6"
+			rewards: [{
+				id: "4C7B55723655911F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "759183D9F630A004"
+				item: "grimoireofgaia:bust_gorgon"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["可用滴水石锥将其嬗变为封印沙罐方块。"]
+			id: "25A052957BD7DA71"
+			rewards: [{
+				id: "2A51F019EA368650"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B8E690246DDC0E8"
+				item: "forbidden_arcanus:utrem_jar"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["远古金属粒可在召唤祭坛中召唤骸龙等生物。"]
+			id: "505E8C99BA815823"
+			rewards: [{
+				count: 2
+				id: "72AFDC43C67349DA"
+				item: "yuusha:summon_ancient_remnant"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "22758F1866454F53"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			id: "122373FB9D4C37E8"
+			rewards: [{
+				count: 2
+				id: "5F2F64C2C8219887"
+				item: "yuusha:summon_slider"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "26DCAB25C297A4BD"
+				item: "aether_redux:veridium_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["{ \"text\": \"女武神的召唤详见链接\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A6DBF8176FC7C8B\" } ,\"color\":\"yellow\",\"italic\":\"false\",\"bold\":\"false\"}"]
+			id: "4002D737711EACCE"
+			rewards: [{
+				count: 2
+				id: "13751D1756A42CCE"
+				item: "yuusha:summon_valkyrie_queen"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "343C35701A968722"
+				item: "ancient_aether:valkyrum"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			id: "55C2E63D44533763"
+			rewards: [{
+				count: 2
+				id: "01429EE64E8503BA"
+				item: "yuusha:summon_mutated_aechor_plant"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "75BECD59BF76BE79"
+				item: "aether:zanite_block"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			id: "6EB4E047126361B9"
+			rewards: [{
+				count: 2
+				id: "767AA248A51D0819"
+				item: "yuusha:summon_aerwhale_king"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "66187F89131C381C"
+				item: "deep_aether:stratus_ingot"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: [
+				"樱花碎片可对着不同雕像右击召唤不同生物。"
+				""
+				"&6金苹果派可用于召唤祭坛召唤女武神。"
+			]
+			id: "1A6DBF8176FC7C8B"
+			rewards: [{
+				id: "699C9B053B2EEA75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "161FE70137411249"
+				item: "grimoireofgaia:golden_apple_pie"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: ["石器花瓶可用滴水石锥转变为古冰冻石器花瓶。"]
+			id: "328481D581DC09A0"
+			rewards: [{
+				id: "6A179E5BDAA49FFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7180E0997FC0F323"
+				item: "ancient_aether:holystone_vase"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: ["可用于召唤爆破哨石。"]
+			id: "365FA890476429F4"
+			rewards: [{
+				id: "12FFC574C2F4ABF5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42B0751563471AAC"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: [
+				"以上材料均可获取，获取后可制作时之侵袭传送门。"
+				""
+				"&6随后可召唤远古墨魂化身。"
+			]
+			id: "477FE2F17F78CF7B"
+			rewards: [{
+				id: "2493380DBC8B6CF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "165EE18F302AF46B"
+					item: "theinkarena:ink_block"
+					type: "item"
+				}
+				{
+					id: "1A9D660F7525CD8E"
+					item: "theinkarena:ink_waste"
+					type: "item"
+				}
+				{
+					id: "7EDBC12E8549CBDA"
+					item: "yuusha:ink_soul"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: ["可在召唤祭坛召唤骷髅领主。"]
+			id: "06CBD6CFE3FCCDFA"
+			rewards: [{
+				id: "50EDF69AE0E2FEB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00D397A854752DE9"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: ["通过幽匿暗域传送门可获得。"]
+			id: "27B68D9ECF6A3BD8"
+			rewards: [{
+				id: "646A2424E346206F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D6854B0E6A2DBC0"
+				item: "callfromthedepth_:marble_gem"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: [
+				"幽匿尖啸体可利用滴水石锥及酸液嬗变幽匿块获得。"
+				""
+				"&6在幽匿尖啸体上蹦蹦跳跳即可召唤监守者。"
+				""
+				"&c需注意，不能挖掘后放置，会无法召唤监守者。"
+			]
+			id: "4350F69F56C0EDCA"
+			rewards: [{
+				id: "173F342510907298"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:sculk_shrieker"
+				id: "12992D3BF8924894"
+				observe_type: 0
+				timer: 0L
+				title: "幽匿尖啸体"
+				to_observe: "minecraft:sculk_shrieker"
+				type: "observation"
+			}]
+			title: "观察：幽匿尖啸体"
+			x: 34.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D719BCA1D45C1C0"]
+			description: ["利用深渊之钥可制作幽匿暗域传送门。"]
+			id: "30F97248BA430CD5"
+			rewards: [{
+				id: "3B58B2A6ABEF9E73"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4124C35FF942D38C"
+				item: {
+					Count: 1
+					id: "callfromthedepth_:depth"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4E7E65B05A6FBCA7"]
+			id: "6CB25A4E5B5C34F9"
+			rewards: [{
+				id: "54D9891E9819FC63"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C9A649F51B27862"
+				item: "callfromthedepth_:stalkertable"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: [
+				"酸液可制作。制作所需的流体无法直接放入机器内。"
+				""
+				"&6必须用共振存储来制作。"
+			]
+			id: "4E7E65B05A6FBCA7"
+			rewards: [{
+				id: "56120014EE144889"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DB029DEC3017798"
+				item: "callfromthedepth_:poisonwater_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: ["哭泣之石、献祭之石可通过滴水石锥转化获得。"]
+			id: "4B2A55BE9FB1D5DC"
+			rewards: [{
+				id: "4D0655AA63BBC8BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "47190AC263A0A71A"
+					item: "callfromthedepth_:weepingsoul"
+					type: "item"
+				}
+				{
+					id: "03BEE026A6B8B3DC"
+					item: "callfromthedepth_:soulinagony"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: ["可用来制作古陵传送门。"]
+			id: "2430B75BED64A5BE"
+			rewards: [{
+				id: "26C40CE64BD78848"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "16F0E85EC159B60F"
+				item: "grimoireofgaia:giga_gear"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			id: "6E83CA6725E66F9C"
+			rewards: [{
+				count: 2
+				id: "0E364CF0EABC2773"
+				item: "yuusha:chaos_ingot"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [
+				{
+					consume_items: true
+					id: "3371B193450E0DAE"
+					item: "eeeabsmobs:ancient_drive_crystal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5F5D0C63194FA8EA"
+					item: "eeeabsmobs:immortal_debris"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			id: "4C7E388D89416EA6"
+			rewards: [{
+				count: 2
+				id: "420DC30665EB0769"
+				item: "yuusha:summon_lords_felsteed"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "32C96179F72DE330"
+				item: "irons_spellbooks:arcane_rune"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: ["可制作。"]
+			id: "2D125D2A3D4D3227"
+			rewards: [{
+				id: "1E3A5E0A43AA713E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "173A2A288299AD26"
+				item: "born_in_chaos_v1:transmuting_elixir"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["30F97248BA430CD5"]
+			description: [
+				"主世界前往末地的要塞是为数不多还残存的建筑。"
+				""
+				"&6末地目前仅保留有末地主岛。"
+			]
+			id: "2E785EC141010190"
+			rewards: [{
+				id: "58A52FFD83B3337B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "1302DDA660E6FB54"
+				observe_type: 0
+				timer: 0L
+				title: "观察：末地传送门框架"
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			x: 16.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["102266EEA025D868"]
+			description: ["迦赫纳维度可以进入。"]
+			id: "1C7356DCC2906BC0"
+			rewards: [{
+				id: "2E5EF00D33E5C4ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76318367F04F1BCD"
+				item: "distant_worlds:charged_wither_totem"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["064D0C6B1D50AC96"]
+			id: "12D5F0C8DBAC7B74"
+			rewards: [{
+				id: "0EECCD686ECF519E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "48780457F411924C"
+					item: "call_of_yucutan:ah_puch_idol"
+					type: "item"
+				}
+				{
+					id: "0BA5FEE3466FE41B"
+					item: "call_of_yucutan:kukulkan_idol"
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["019FF5AB99AC347F"]
+			description: [
+				"在永夜空境可用余烬采矿机开采精湛水晶块，也可获得各种晶球。"
+				""
+				"{ \"text\": \"点击链接查看祭坛任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7110CDF77E6CD905\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"
+			]
+			id: "064D0C6B1D50AC96"
+			rewards: [{
+				id: "7384FFF22A4533F2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11D6EAEAEB9E352B"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			description: ["击杀黑曜石柱有几率获得末影碎片。"]
+			id: "1B2179E0A2C8F1A2"
+			rewards: [{
+				count: 2
+				id: "71C4FAD0D5005255"
+				item: "yuusha:summon_obsidilith"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "4E564A14810B3915"
+				item: "forbidden_arcanus:processed_obsidian_block"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			id: "4E76A4F0E7C67EEA"
+			rewards: [{
+				count: 2
+				id: "7751E54C69883CBB"
+				item: "yuusha:summon_ender_guardian"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "093A6DF7D5E03259"
+				item: "majruszsdifficulty:enderium_ingot"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			id: "482FC10F920875FA"
+			rewards: [{
+				count: 2
+				id: "1D96D3E0E096F821"
+				item: "eeeabsmobs:heart_of_pagan"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "102B1A92ABFD4C15"
+				item: "eidolon:shadow_gem"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1045F184D94D4665"]
+			id: "5C0F16F835F612C8"
+			rewards: [{
+				id: "5501C1B0A094ADED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "47F58FAAA2CBE002"
+					item: "born_in_chaos_v1:fused_bone"
+					type: "item"
+				}
+				{
+					id: "014D62C1E2F7B520"
+					item: "born_in_chaos_v1:lifestealer_bone"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			id: "354D938944CC2CFF"
+			rewards: [{
+				count: 2
+				id: "7472EC48BF8D0C39"
+				item: "yuusha:summon_the_harbinger"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "56081A38385CB77E"
+					item: "callfromthedepth_:soulingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4AC72DB6FCA157FF"
+					item: "callfromthedepth_:soulrose"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			description: ["异界沙漠可以前往。"]
+			id: "16C59103EC103AAE"
+			rewards: [{
+				id: "164317E182DEAA67"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "10FD6E73698F33B3"
+				item: "binah:desert_jade"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A3D7B213850FF66"]
+			description: [
+				"可消耗天命碎片抽取首领召唤物（仅包括下界铁掌至异想体303号）。"
+				""
+				"&6天命碎片可制作获得。"
+				""
+				"&c大部分生物都需要在永夜空境打，否则生成会有问题。"
+			]
+			id: "6A461E99EAF6869E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D28D9468C56C8A6"
+				table_id: 1690031504133643190L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6C664BB7197CE3C3"
+				item: "yuusha:knowledge_fragment"
+				type: "item"
+			}]
+			title: "召唤物随机抽取"
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["74CDC5FBD6E8550C"]
+			description: [
+				"利用天使核心，可悬空摆放方块。"
+				""
+				"&6需站在方块上，才能Ctrl+Shift+右键来改变配置使用。"
+			]
+			id: "42F091F8DC438D49"
+			rewards: [{
+				id: "0097087A3773C5ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "648B25EA25DB2FA6"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4281692FA707C37B"]
+			description: ["可制作发酵蛆，然后获得自然宝藏袋。"]
+			id: "33EDF01D62E97358"
+			rewards: [{
+				id: "03266322F1B027EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CF6E4601D320036"
+				item: "youkaishomecoming:fermentation_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["450F5018690C6FDF"]
+			description: [
+				"骷髅在细雪里停留一定时候后会变为流濁。"
+				""
+				"&6可制作现世与冥界的逆转传送门获得陈旧骨头。"
+			]
+			id: "182696CC236C73E0"
+			rewards: [{
+				id: "0CE112CD81A1DCE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "004A113DF1D32C66"
+				item: "call_of_yucutan:elder_bone"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F30F8252F3A267D"]
+			description: ["有额外的合成路线。"]
+			id: "0F8F1413C1B1877D"
+			rewards: [{
+				id: "41262AF166572133"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68931C748136B992"
+				item: "goety:marble_wind_blower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["798CB56107ACF90B"]
+			description: [
+				"用特定物品右击特定方块可生成半径63格的特定平台。"
+				""
+				"&6该平台会以特定方块的高度为平面。"
+			]
+			id: "2C1D8E6AF72FB8A7"
+			rewards: [{
+				id: "1C87E3FE30E32147"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1130825C2437B178"
+					item: "celestial_core:earth_core"
+					type: "item"
+				}
+				{
+					id: "0372E53D0E7DE970"
+					item: "celestial_core:fire_essence"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4452C677CCF99EF8"]
+			description: [
+				"用海洋精华右击潮涌核心可生成半径36格的水平台。"
+				""
+				"&6该平台会以潮涌核心的高度为水平面。"
+			]
+			id: "23177727D93A7976"
+			rewards: [{
+				id: "1A08F0767C7DD3BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39D933D9662B37BC"
+				item: "celestial_core:ocean_essence"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09DC0DA23F46A425"]
+			description: [
+				"妖怪归家的首领可在永夜空境、永昼空境维度召唤。"
+				""
+				"{ \"text\": \"点击链接查看博丽灵梦召唤\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6265C327C934098F\" } ,\"color\":\"red\",\"italic\":\"false\",\"bold\":\"false\"}"
+				""
+				"{ \"text\": \"点击链接查看雾雨魔理沙、东风谷早苗、八云紫、米斯蒂娅·萝蕾拉召唤\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6265C327C934098F\" } ,\"color\":\"yellow\",\"italic\":\"false\",\"bold\":\"false\"}"
+				""
+				"&6琪露诺、古明地恋、露米娅：分别用儿童刨冰盖饭、恋恋慕斯、绝望肉宴右击塞钱箱可召唤。"
+			]
+			id: "3AFC0E123DA73AD6"
+			rewards: [{
+				id: "7422E5CCFF37C981"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1694B37FDEAEACFA"
+				item: "youkaishomecoming:donation_box"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			description: [
+				"可在末地用余烬晶体采矿机获得。"
+				""
+				"&6还可开采出多种末地生物的刷怪蛋。"
+			]
+			id: "21B33AC7C19DF9BC"
+			rewards: [{
+				id: "3ED03640E466D3EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2D425B2AD9E889C3"
+					item: "majruszsdifficulty:enderium_shard"
+					type: "item"
+				}
+				{
+					id: "472904328A850C92"
+					item: "majruszsdifficulty:enderium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["07D8D5CD5787A499"]
+			id: "746B6A43F0A76E80"
+			rewards: [{
+				id: "3004551304D527DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41029000244A841A"
+				item: "irons_spellbooks:protection_rune"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			id: "3A3D7B213850FF66"
+			rewards: [{
+				id: "5D1BD92288EF441A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77D0759F5107D177"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2E785EC141010190"]
+			id: "5E0C6F3AE9353B5F"
+			rewards: [{
+				count: 2
+				id: "295C520371061330"
+				item: "yuusha:summon_graveyard_lich"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "召唤物兑换"
+			tasks: [{
+				consume_items: true
+				id: "1D4B72521C0996B7"
+				item: "eeeabsmobs:heart_of_pagan"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1502D72799908B49"]
+			description: ["贤者之石对着秘术水晶种子长按右击，有几率使其变为生长中的秘术水晶。"]
+			id: "6756B7B37B9E09DA"
+			rewards: [{
+				id: "39B177D67620F5F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2951365AF2D6C05F"
+				item: "wizards_reborn:arcanum_seed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A3D7B213850FF66"]
+			description: [
+				"可消耗天命碎片抽取龙后传送门。"
+				""
+				"&e天命碎片可制作获得。"
+				""
+				"&c除了主世界、下界、末地的专属传送门，其他传送门都需要在永夜空境打，否则生成会有问题。"
+				""
+				"&6用青蛙卵等材料可召唤眼球蛙。"
+			]
+			id: "0DC5ED38CD9FA50A"
+			rewards: [{
+				id: "651104A13498E94C"
+				table_id: 4683303691057507557L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "273C4B271665DDAF"
+				item: "yuusha:knowledge_fragment"
+				type: "item"
+			}]
+			title: "召唤物随机抽取"
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["11267CEA1D9BB7EC"]
+			description: [
+				"沙漠宝箱可以出熔火核心。"
+				""
+				"&6烈焰粉可进行考古。"
+				""
+				"&c在下界刷怪也可获得。虽然下界要塞不生成，但是在该原本生成的位置，仍会刷下界要塞的专属怪物。"
+			]
+			id: "7F19F2312BBF65EF"
+			rewards: [{
+				id: "31C61BADE90623E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EB1ED50AA7A6C5D"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CA839C4639BCD46"]
+			description: ["可通过下界特定群系自然刷新的猪灵交易获得。"]
+			id: "733FD23CD1E06D4B"
+			rewards: [{
+				id: "6104E333418351C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DAD0948915A0B6D"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["477FE2F17F78CF7B"]
+			description: ["可用于召唤巫婆。"]
+			id: "71FAFB4F48A1B679"
+			rewards: [{
+				id: "3807862204DF5271"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E3A1B0A06BD64D1"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25D3A7D5FD1D30BB"]
+			description: ["缠怨藤和垂泪藤的获取，需到对应下界群系，然后用史维特球转换下界岩为对应菌岩后骨粉催熟。"]
+			id: "1D2630AAB151974F"
+			rewards: [{
+				id: "4C7E0A841A5A49EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6F6989B0674436DD"
+					item: "minecraft:twisting_vines"
+					type: "item"
+				}
+				{
+					id: "55D7A31403B0C0FF"
+					item: "minecraft:weeping_vines"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2CA839C4639BCD46"]
+			description: ["可利用滴水石锥嬗变获得被感染的钻石矿石。"]
+			id: "75CDADBE71878790"
+			rewards: [{
+				id: "3572E4E7E26D959B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6AF3FDE3D6AB86C2"
+				item: "born_in_chaos_v1:diamond_termite_shard"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["53C1DFBC0154440E"]
+			description: ["可用于召唤祭坛召唤猪灵蛮兵。"]
+			id: "209E559C90921459"
+			rewards: [{
+				id: "07575ED9AF803557"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "017970B144E471B7"
+				item: "minecraft:piglin_head"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["09DC0DA23F46A425"]
+			description: [
+				"生肉可回收为相应的刷怪蛋。"
+				""
+				"&6杀怪有小几率获得食物宝藏袋。冷冻器可将相应的熟肉变为生肉。"
+				""
+				"&e伏特羊可用生羊肉、雷电粒子等材料召唤。"
+			]
+			id: "3A2C4A218635B1D7"
+			rewards: [{
+				id: "57FECF07711E06E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "15B592F5CE300188"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					id: "05176E0B39F29D02"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					id: "77CC7E1415405B4A"
+					item: "minecraft:mutton"
+					type: "item"
+				}
+				{
+					id: "29F63EA388B36969"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					id: "0D46C6851E34873E"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["12A70E2335ACBEE7"]
+			description: ["可制作沉没之城传送门。"]
+			id: "4750BF29F723EC6D"
+			rewards: [{
+				id: "5EBB4AD275C21721"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7AD115EE1404DBD6"
+				item: "eidolon:oanna_bloom"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["&9『空岛』"]
+	title: "&6※ 无尘"
+}

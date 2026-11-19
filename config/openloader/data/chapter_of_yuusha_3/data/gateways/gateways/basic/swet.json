@@ -1,0 +1,220 @@
+{
+	"size": "small",
+	"color": "#BED742",
+	"waves": [{
+			"entities": [
+				{
+					"entity": "ancient_aether:festive_swet",
+					"count": 1
+				},
+				{
+					"entity": "aether:blue_swet",
+					"count": 1
+				},
+				{
+					"entity": "aether:golden_swet",
+					"count": 1
+				},
+				{
+					"entity": "aether_redux:vanilla_swet",
+					"count": 1
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "minecraft:sugar",
+					"count": 1
+				}
+			}],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "ancient_aether:festive_swet",
+					"count": 1
+				},
+				{
+					"entity": "aether:blue_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether:golden_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether_redux:vanilla_swet",
+					"count": 1
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "minecraft:sugar",
+					"count": 1
+				}
+			}],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 10
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 1.0
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "ancient_aether:festive_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether:blue_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether:golden_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether_redux:vanilla_swet",
+					"count": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "minecraft:sugar",
+					"count": 1
+				}
+			}],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 15
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 1.50
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "ancient_aether:festive_swet",
+					"count": 2
+				},
+				{
+					"entity": "aether:blue_swet",
+					"count": 3
+				},
+				{
+					"entity": "aether:golden_swet",
+					"count": 3
+				},
+				{
+					"entity": "aether_redux:vanilla_swet",
+					"count": 2
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "minecraft:sugar",
+					"count": 1
+				}
+			}],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 20
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 2.0
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "ancient_aether:festive_swet",
+					"count": 3
+				},
+				{
+					"entity": "aether:blue_swet",
+					"count": 3
+				},
+				{
+					"entity": "aether:golden_swet",
+					"count": 3
+				},
+				{
+					"entity": "aether_redux:vanilla_swet",
+					"count": 3
+				}
+			],
+			"rewards": [{
+				"type": "gateways:stack",
+				"stack": {
+					"item": "minecraft:sugar",
+					"count": 1
+				}
+			}],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 25
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 2.50
+				}
+			],
+			"max_wave_time": 600,
+			"setup_time": 60
+		}
+	],
+    "rewards": [{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "minecraft:sugar",
+				"count": 1
+			}
+        }
+    ],
+    "failures": [
+    ]
+}

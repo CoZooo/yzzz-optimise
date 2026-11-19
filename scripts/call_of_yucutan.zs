@@ -46,6 +46,12 @@ craftingTable.remove(<item:call_of_yucutan:obsidian_arrow>);
 <item:call_of_yucutan:hematite>.addTooltip("\u00A7e在死寂之海维度的蔓生神庙、致命墓穴建筑内可获得");
 <item:call_of_yucutan:hematite>.addTooltip("\u00A7c由该物品制成的赤铁块、赤铁盾、反射器都可以向特定方向反射日光射线");
 
+<item:call_of_yucutan:ancient_gold_ingot>.addTooltip("\u00A76可用融合骨或窃命者之骨转化的可疑沙子获得");
+<item:call_of_yucutan:jade>.addTooltip("\u00A76可用融合骨或窃命者之骨转化的可疑沙子获得");
+<item:yuusha:magic_dust>.addTooltip("\u00A76可用融合骨或窃命者之骨转化的可疑沙子获得");
+<item:call_of_yucutan:hematite>.addTooltip("\u00A76可用融合骨或窃命者之骨转化的可疑沙子获得");
+<item:call_of_yucutan:elder_bone>.addTooltip("\u00A76可用融合骨或窃命者之骨转化的可疑沙子获得");
+
 //tag
 <tag:items:diet:vegetables>.add(<item:call_of_yucutan:chili_pepper>);
 <tag:items:forge:ingots/gold>.remove(<item:call_of_yucutan:ancient_gold_ingot>);

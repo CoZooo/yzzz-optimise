@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 1,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "aetherworks:geode_hot"
   },

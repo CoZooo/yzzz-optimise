@@ -1,0 +1,176 @@
+{
+	"size": "medium",
+	"color": "#666699",
+	"spawn_range": 32,
+	"leash_range": 256,
+    "waves": [{
+            "entities": [
+				{
+                    "entity": "cataclysm:symbiocto",
+					"count": 4
+                },
+                {
+                    "entity": "cataclysm:urchinkin",
+					"count": 4
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "cataclysm:symbiocto",
+					"count": 4
+                },
+                {
+                    "entity": "cataclysm:urchinkin",
+					"count": 4
+                },
+                {
+                    "entity": "cataclysm:cindaria",
+					"count": 4
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+                {
+                    "entity": "cataclysm:cindaria",
+					"count": 12
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        },
+        {
+			"entities": [
+				{
+                    "entity": "cataclysm:symbiocto",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:urchinkin",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:cindaria",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:hippocamtus",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+				{
+                    "entity": "cataclysm:symbiocto",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:urchinkin",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:cindaria",
+					"count": 3
+                },
+                {
+                    "entity": "cataclysm:clawdian",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        },
+		{
+            "entities": [
+                {
+                    "entity": "cataclysm:cindaria",
+					"count": 8
+                },
+                {
+                    "entity": "cataclysm:hippocamtus",
+					"count": 1
+                },
+                {
+                    "entity": "cataclysm:clawdian",
+					"count": 1
+                }
+            ],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:ink_sac",
+						"count": 1
+					}
+				}
+			],
+            "max_wave_time": 1200,
+            "setup_time": 60
+        }
+    ],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "minecraft:glow_ink_sac",
+				"count": 1
+			}
+		}
+	],
+    "failures": [
+    ]
+}

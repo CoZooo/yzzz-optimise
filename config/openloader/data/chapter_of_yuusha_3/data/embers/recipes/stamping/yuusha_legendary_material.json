@@ -1,0 +1,17 @@
+{
+  "type": "embers:stamping",
+  "input": {
+    "item": "yuusha:ink_heart"
+  },
+  "fluid": {
+    "amount": 500,
+    "name": "embers:dwarven_oil"
+  },
+  "output": {
+    "item": "yuusha:legendary_material",
+	"count": 1
+  },
+  "stamp": {
+    "item": "embers:plate_stamp"
+  }
+}

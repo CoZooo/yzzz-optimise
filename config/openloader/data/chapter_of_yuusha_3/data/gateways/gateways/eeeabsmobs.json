@@ -1,0 +1,78 @@
+{
+	"size": "small",
+	"color": "#FFFF84",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "eeeabsmobs:guling_sentinel",
+					"count": 4
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:netherite_scrap",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "eeeabsmobs:guling_sentinel_heavy",
+					"count": 1
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:netherite_scrap",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		},
+		{
+			"entities": [
+				{
+					"entity": "eeeabsmobs:guling_sentinel",
+					"count": 8
+				},
+				{
+					"entity": "eeeabsmobs:guling_sentinel_heavy",
+					"count": 1
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:stack",
+					"stack": {
+						"item": "minecraft:netherite_scrap",
+						"count": 1
+					}
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 60
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:stack",
+			"stack": {
+				"item": "minecraft:netherite_scrap",
+				"count": 1
+			}
+		}
+    ],
+    "failures": [
+    ]
+}

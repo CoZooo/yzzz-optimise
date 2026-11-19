@@ -1,10 +1,16 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:bow",
-    "apotheosis:bow_tome",
-    "cataclysm:cursed_bow",
-    "cataclysm:wrath_of_the_desert"
+    "morebows:copper_bow",
+    "morebows:iron_bow",
+    "morebows:golden_bow",
+    "morebows:emerald_bow",
+    "morebows:diamond_bow",
+    "morebows:netherite_bow",
+    "morebows:gilded_netherite_bow",
+    "morebows:enderite_bow",
+    "morebows:gilded_enderite_bow",
+    "apotheosis:bow_tome"
   ],
   "incompatible": [
     "majruszsenchantments:incompatibility_curse"

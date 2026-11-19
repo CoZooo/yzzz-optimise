@@ -23,7 +23,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -49,7 +56,14 @@
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
                     "value": 5.0
-                }
+                },
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
+				}
             ],
 			"rewards": [
 				{
@@ -84,7 +98,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -120,7 +141,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -153,7 +181,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -192,7 +227,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -231,7 +273,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.85
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 79
+					}
 				}
             ],
 			"rewards": [
@@ -267,7 +316,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.75
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -303,7 +359,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.75
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -336,7 +399,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.75
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -372,7 +442,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.75
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -405,7 +482,14 @@
 				{
 					"attribute": "obscure_api:dodge",
 					"operation": "ADDITION",
-					"value": 0.75
+					"value": 0.5
+				},
+				{
+					"type": "gateways:mob_effect",
+					"effect": {
+						"effect": "endless_slash_curse:damage_resist",
+						"amplifier": 49
+					}
 				}
             ],
 			"rewards": [
@@ -442,7 +526,7 @@
 					}
 				}
 			],
-			"max_wave_time": 6000,
+			"max_wave_time": 3600,
 			"setup_time": 60
 		}
 	],
@@ -451,7 +535,7 @@
 			"type": "gateways:stack",
 			"stack": {
 				"item": "yuusha:unstable_glowstone_part",
-				"count": 3
+				"count": 4
 			}
 		},
 		{

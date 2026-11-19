@@ -18,6 +18,7 @@
 <item:majruszsaccessories:discount_voucher>.anyDamage().addTooltip("\u00A7c折扣券、捕梦网、药水秘方可在工作台中制作皇家符文");
 <item:majruszsaccessories:dream_catcher>.anyDamage().addTooltip("\u00A7e可特定途径获得，详见礼装章节");
 <item:majruszsaccessories:dream_catcher>.anyDamage().addTooltip("\u00A7c折扣券、捕梦网、药水秘方可在工作台中制作皇家符文");
+<item:majruszsaccessories:dream_catcher>.anyDamage().addTooltip("\u00A76右击基岩会消耗并在上方8格处召唤苦力怕");
 <item:majruszsaccessories:idol_of_fertility>.anyDamage().addTooltip("\u00A7e可特定途径获得，详见礼装章节");
 <item:majruszsaccessories:idol_of_fertility>.anyDamage().addTooltip("\u00A7c驯化之证、繁育神像、被驯化的马铃薯甲虫可在工作台中制作自然符文");
 <item:majruszsaccessories:lucky_rock>.anyDamage().addTooltip("\u00A7e可特定途径获得，详见礼装章节");
@@ -82,7 +83,13 @@ stoneCutter.addRecipe("born_in_chaos_v1.spirit_guideicon.13", <item:majruszsacce
 stoneCutter.addRecipe("born_in_chaos_v1.spirit_guideicon.14", <item:majruszsaccessories:tool_scraps>, <item:yuusha:destructed_dimension_will>);
 stoneCutter.addRecipe("born_in_chaos_v1.spirit_guideicon.15", <item:majruszsaccessories:unbreakable_fishing_line>, <item:yuusha:destructed_dimension_will>);
 
-
+//
+recipes.addJsonRecipe("summon.minecraft.creeper",{ 
+    type:"lychee:block_interacting",
+    item_in: { item: "majruszsaccessories:dream_catcher" },
+    block_in: "minecraft:bedrock",
+    post:  {  type: "execute",  command: "summon minecraft:creeper ~ ~8 ~"}
+});
 
 
 

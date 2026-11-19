@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "too_many_bows:power_crystal"
+  },
+  "craftType": "forge",
+  "soulCost": 2500,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale"
+    },
+    {
+      "item": "apotheosis:infused_breath"
+    },
+    {
+      "item": "apotheosis:infused_breath"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    },
+    {
+      "item": "moonstone:rage_crystal"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:dragons_breath"
+  }
+}

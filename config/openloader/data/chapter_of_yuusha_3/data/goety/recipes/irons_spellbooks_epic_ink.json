@@ -1,0 +1,29 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "irons_spellbooks:rare_ink"
+  },
+  "craftType": "magic",
+  "soulCost": 8000,
+  "duration": 5,
+  "research": "warred",
+  "ingredients": [
+    {
+      "item": "yuusha:tomb_stone"
+    },
+    {
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "item": "yuusha:ink_heart"
+    },
+    {
+      "item": "malum:fused_consciousness"
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:epic_ink"
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "type": "wizards_reborn:arcanum_dust_transmutation",
+  "from": {
+    "item": "wizards_reborn:shiny_clover"
+  },
+  "to": {
+    "item": "forbidden_arcanus:yellow_orchid"
+  }
+}

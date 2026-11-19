@@ -1,6 +1,9 @@
 [
 	"#emxarms:bayonet",
 	
+	"applied_armorer:muzzle_chip_firefly",
+	"applied_armorer:muzzle_chip_firework",
+	
 	"emxarms:muzzle_emx_catch",
 	"emxarms:stock_emx_reentrantlock",
 	"emxarms:grip_emx_double_rsi",

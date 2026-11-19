@@ -82,12 +82,13 @@ craftingTable.remove(<item:distant_worlds:noarhorn_gloves>);
 <item:distant_worlds:alpha_salmoran_spawn_egg>.addTooltip("\u00A7c熟的塞摩壬兽Shift右击炼狱锻炉几率回收为阿尔法塞摩壬兽刷怪蛋");
 
 <item:distant_worlds:wither_totem>.addTooltip("\u00A7c需玩家击杀凋灵才可获得，可对着炼狱锻炉中心Shift右击分解为下界佳肴");
-<item:distant_worlds:wither_totem>.addTooltip("\u00A7e达琍特指示器可显示迦赫纳维度的侵袭程度，如果停留时间过长可能会永久死亡");
-<item:distant_worlds:wither_totem>.addTooltip("\u00A76详见遥远世界章节充能的凋灵图腾任务");
-<item:distant_worlds:wither_totem>.addTooltip("\u00A73女仆世界线可制作获得");
-<item:distant_worlds:charged_wither_totem>.addTooltip("\u00A7c可制作获得，需炼金等级使用，在好好吃章节完成药水任务可快速获得炼金技能经验");
-<item:distant_worlds:charged_wither_totem>.addTooltip("\u00A7e达琍特指示器可显示迦赫纳维度的侵袭程度，如果停留时间过长可能会永久死亡");
+<item:distant_worlds:wither_totem>.addTooltip("\u00A76相关内容详见遥远世界章节充能的凋灵图腾任务");
+<item:distant_worlds:wither_totem>.addTooltip("\u00A72达琍特指示器可显示迦赫纳维度的侵袭程度，如果停留时间过长可能会永久死亡");
+<item:distant_worlds:wither_totem>.addTooltip("\u00A73女仆世界线也可制作获得");
+<item:distant_worlds:charged_wither_totem>.addTooltip("\u00A73可制作获得，需炼金等级使用，在好好吃章节完成药水任务可快速获得炼金技能经验");
+<item:distant_worlds:charged_wither_totem>.addTooltip("\u00A72达琍特指示器可显示迦赫纳维度的侵袭程度，如果停留时间过长可能会永久死亡");
 <item:distant_worlds:charged_wither_totem>.addTooltip("\u00A76相关内容详见遥远世界章节充能的凋灵图腾任务");
+<item:distant_worlds:charged_wither_totem>.addTooltip("\u00A75选择空岛世界线可进入遥远世界维度");
 
 <item:distant_worlds:dalite_indicator>.anyDamage().addTooltip("\u00A7c可显示迦赫纳维度的侵袭程度，如果停留时间过长可能会永久死亡");
 <item:distant_worlds:dalite_indicator>.anyDamage().addTooltip("\u00A76相关内容详见遥远世界章节达琍特指示器任务");

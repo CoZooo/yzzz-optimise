@@ -1,0 +1,10 @@
+{
+  "type": "cataclysm:amethyst_bless",
+  "ingredients": {
+    "item": "sophisticatedbackpacks:advanced_feeding_upgrade"
+  },
+  "result": {
+    "item": "rs_integration:rs_feeding_upgrade"
+  },
+  "time": 200
+}

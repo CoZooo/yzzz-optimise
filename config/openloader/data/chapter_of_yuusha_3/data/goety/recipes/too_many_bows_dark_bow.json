@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "too_many_bows:power_crystal"
+  },
+  "craftType": "forge",
+  "soulCost": 2000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "yuusha:blood_bone_heart"
+    },
+    {
+      "item": "yuusha:blood_bone_heart"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    },
+    {
+      "item": "callfromthedepth_:soulingot"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:dark_bow"
+  }
+}

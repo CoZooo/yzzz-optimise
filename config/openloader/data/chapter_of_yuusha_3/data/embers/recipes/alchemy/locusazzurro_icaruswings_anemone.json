@@ -29,11 +29,17 @@
     },
     {
       "item": "eidolon:silver_ingot"
+    },
+    {
+      "item": "eidolon:silver_ingot"
+    },
+    {
+      "item": "eidolon:silver_ingot"
     }
   ],
   "output": {
     "item": "locusazzurro_icaruswings:anemone",
-	"count": 8
+	"count": 1
   },
   "tablet": {
     "item": "wizards_reborn:shiny_clover"

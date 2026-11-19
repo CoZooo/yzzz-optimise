@@ -1,0 +1,39 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "too_many_bows:power_crystal"
+  },
+  "craftType": "forge",
+  "soulCost": 5000,
+  "duration": 10,
+  "ingredients": [
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "stalwart_dungeons:awful_crystal"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    },
+    {
+      "item": "moonstone:blood_jelly"
+    }
+  ],
+  "result": {
+    "item": "too_many_bows:necro_flame_bow"
+  }
+}

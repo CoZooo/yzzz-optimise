@@ -1,0 +1,8 @@
+aether_redux:aether_caves
+ancient_aether:aether_cave
+ancient_aether:aether_cave_elevated
+ancient_aether:aether_cave_sakura
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:nether_cave

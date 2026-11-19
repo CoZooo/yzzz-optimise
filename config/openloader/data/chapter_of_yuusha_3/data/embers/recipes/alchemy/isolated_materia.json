@@ -1,0 +1,32 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/copper"
+    },
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    },
+    {
+      "tag": "embers:aspectus/silver"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ancient_aether:valkyrie_clay_ball"
+    },
+    {
+      "item": "crockpot:blackstone_dust"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "embers:isolated_materia"
+  },
+  "tablet": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  }
+}

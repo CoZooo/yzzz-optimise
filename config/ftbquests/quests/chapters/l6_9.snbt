@@ -1154,7 +1154,7 @@
 			y: 0.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: false
 			dependencies: ["047999F58D936447"]
 			icon: "better_beacon:pure_eden"
 			id: "666468AC807EE7D0"

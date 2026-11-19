@@ -1,6 +1,12 @@
 import mods.jeitweaker.Jei;
 
 //说明
+<item:celestial_core:ocean_essence>.addTooltip("\u00A76右击潮涌核心可生成半径36格的水平台");
+<item:celestial_core:fire_essence>.addTooltip("\u00A76右击下界砖混下界岩可生成半径63格的下界岩平台");
+<item:celestial_core:earth_core>.addTooltip("\u00A76右击平滑石头可生成半径63格的石头平台");
+<item:celestial_core:ocean_essence>.addTooltip("\u00A7c生成时可能会稍有卡顿");
+<item:celestial_core:fire_essence>.addTooltip("\u00A7c生成时可能会稍有卡顿");
+<item:celestial_core:earth_core>.addTooltip("\u00A7c生成时可能会稍有卡顿");
 <item:celestial_artifacts:knight_shelter>.addTooltip("\u00A7c新增击杀名称有“骑士”字段的生物小几率掉落");
 <item:celestial_artifacts:holy_sword>.addTooltip("\u00A7c每损失1点生命值会提高玩家1%全伤害（无上限）");
 <item:celestial_artifacts:flight_ring>.addTooltip("\u00A7c只能通过击杀薄暮之锋罗莎琳有几率获得");
@@ -20,6 +26,9 @@ import mods.jeitweaker.Jei;
 <item:celestial_core:shulker_scrap>.addTooltip("\u00A7c新增击杀潜影蝶有几率获得，潜影蝶在末地城会生成");
 <item:celestial_core:shulker_scrap>.addTooltip("\u00A76潜影壳碎片可对着炼狱锻炉中心Shift右击几率回收为潜影贝刷怪蛋");
 <item:celestial_core:sakura_fragment>.addTooltip("\u00A76樱花碎片可对着炼狱锻炉中心Shift右击几率回收为妖精女仆刷怪蛋");
+<item:celestial_core:sakura_fragment>.addTooltip("\u00A7e右击女仆玩偶可召唤妖精女仆，右击苦力怕女孩玩偶可召唤苦力怕");
+<item:celestial_core:sakura_fragment>.addTooltip("\u00A73右击树妖玩偶可召唤树妖，右击人鱼战士玩偶可召唤人鱼战士");
+<item:celestial_core:sakura_fragment>.addTooltip("\u00A72此外还可右击多种玩偶生成对应的怪物");
 <item:celestial_core:virtual_gold_ingot>.addTooltip("\u00A7c击杀死亡到临者可获得虚金残骸");
 //<item:celestial_core:virtual_gold_ingot>.addTooltip("\u00A7e远古巫术系列属于光属性魔法类型伤害");
 <item:celestial_core:pure_nether_star>.addTooltip("\u00A76女仆世界线可制作获得");
@@ -115,6 +124,7 @@ stoneCutter.addRecipe("celestial_enchantments.enchanted_book.dragging_curse", <i
 <item:celestial_artifacts:the_end_dust>.addTooltip("\u00A7c新增女仆杀死末影人时有50%几率掉落");
 <item:celestial_artifacts:the_end_dust>.addTooltip("\u00A7e女仆世界线也可通过制作获得");
 <item:celestial_artifacts:origin_etching>.anyDamage().addTooltip("\u00A73该刻蚀板所反转的诅咒仅加成近战伤害");
+<item:celestial_artifacts:desire_etching>.anyDamage().addTooltip("\u00A73部分伤害如箭矢等击杀无法获得");
 
 <item:celestial_core:light_fragment>.addTooltip("\u00A76在额外地牢的利维坦结构内会有尸壳的非原版刷怪笼");
 <item:celestial_core:light_fragment>.addTooltip("\u00A7e该结构详见树海化章节额外地牢任务介绍");

@@ -9,21 +9,21 @@
 		{
 			alpha: 100
 			color: 11908533
-			height: 45.0d
+			height: 47.0d
 			image: "yuusha:textures/yuusha_1.png"
 			rotation: 0.0d
-			width: 80.0d
+			width: 83.5d
 			x: -12.0d
 			y: 13.0d
 		}
 		{
 			alpha: 128
 			color: 0
-			height: 48.0d
+			height: 50.0d
 			image: ""
 			order: -3
 			rotation: 0.0d
-			width: 83.0d
+			width: 86.5d
 			x: -12.0d
 			y: 13.0d
 		}
@@ -33,7 +33,7 @@
 	quests: [
 		{
 			dependencies: ["4EABF5BDEB72041C"]
-			description: ["本整合包经过大量魔改，不适合刚接触MC整合包的萌新游玩，建议先游玩其他的整合包熟悉一下再来挑战本整合包。"]
+			description: ["本整合包经过大量魔改，不适合刚接触MC整合包的萌新游玩，建议先游玩其他的整合包熟悉一下再来&c挑战&r本整合包。"]
 			id: "6CB988B6A1A8425F"
 			rewards: [{
 				id: "550F408696EDA085"
@@ -4141,6 +4141,141 @@
 			title: "水晶灌注"
 			x: -19.5d
 			y: 17.0d
+		}
+		{
+			dependencies: [
+				"357B74FAD7D07998"
+				"6CB988B6A1A8425F"
+			]
+			description: [
+				"罪怒业火需击杀特定罪业生物获得愤怒值加成。打过后的罪业生物，会显示在未完成内较前处。"
+				""
+				"&c罪怒业火佩戴后只能使用特定武器、少数饰品和少量单件盔甲，具体可对着饰品Shift+右击查看介绍。"
+				""
+				"&e在前中期，食物营养、食物多样性、技能树所提供的属性很重要。"
+				""
+				"&6罪怒业火会使玩家受到治疗大幅增加，包括营火、多样性等给予的生命恢复，会变得极为快速。"
+				""
+				"&3盔甲主要用来上魔法保护等附魔，提升保命能力。"
+				""
+				"&2该饰品增加的伤害抗性实际为每点愤怒0.135%，饰品上仅显示四舍五入后的数值。"
+				""
+				"&5你知道吗？在饰品栏位可搜索，从而将特定栏位显示。"
+			]
+			hide_until_deps_complete: true
+			icon: "goose_curios:lovins_wrath"
+			id: "38C470D4A8D5D5D7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/cy3 admin curios equip goose_curios:lovins_wrath{Enchantments: [{id: \"enigmaticlegacy:eternal_binding\", lvl: 1}], itemModifier: \"celestial_forge:hasty\"} @s force"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "goose_curios:lovins_wrath"
+					id: "1D5DA8BFFABA8AFF"
+					team_reward: true
+					title: "&c强制绑定特定罪怒业火饰品"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					exclude_from_claim_all: true
+					id: "2ED426E4BFE8C363"
+					item: {
+						Count: 1
+						id: "treasurebags:treasure_bag"
+						tag: {
+							silentlib.LootContainer: {
+								BagType: "treasurebags:spawn"
+								LootTable: "treasurebags:bags/spawn"
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53E0D0B4A14924DA"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:unknown_sword"
+						tag: {
+							AnniAvailable: 1L
+							AnniCacheDemand: 192
+							Damage: 0
+							itemModifier: "celestial_forge:vicious"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "「罪恶同调」"
+			tasks: [{
+				consume_items: true
+				id: "11D54633EF4ECC20"
+				item: "yuusha:focus_9"
+				type: "item"
+			}]
+			title: "罪怒业火"
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["38C470D4A8D5D5D7"]
+			description: [
+				"穿戴前面任务给予的乱码武器在头盔栏位，然后用任意武器击杀192种任意生物可将其变为寂灭之决。"
+				""
+				"&6随击杀生物种类增加，该乱码武器会在独立乘区降低玩家血量，并在上面显示，当显示-90%时，即接近成功。"
+				""
+				"&c寂灭之决的斩杀效果杀死生物无法计算进罪怒业火，必须直接攻击击杀。请勿给予他人，此武器会直接消失。"
+				""
+				"&e寂灭之决可上锋利附魔，大幅度增加伤害，与锋利附魔等级相关。属性附加附魔可改变其元素战斗属性。"
+				""
+				"&3寂灭之决可放在副手进行充能蓄力。"
+			]
+			id: "1E8F7A094F0B0435"
+			rewards: [{
+				id: "716C343DAC7CF09E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A1D9BFADA5896F4"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:annihilating_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1E8F7A094F0B0435"]
+			description: ["此任务前置任务为寂灭之决，但一般来说除了近战需要此饰品外，其它职业并不需要此饰品。"]
+			id: "37054CAE4704BCC6"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "2FCFEDCC5698BF3B"
+				item: "moonstone:raw"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "248D95B94B650C31"
+				item: "yuusha:unstable_glowstone_part"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.0d
 		}
 	]
 	subtitle: ["&9『异世界龙傲天系统』"]

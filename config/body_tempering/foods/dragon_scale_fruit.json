@@ -1,0 +1,1070 @@
+{
+  "_comment_zh": [
+    "龙鳞果 · 全属性锻体池配置 | foodId = dragon_scale_fruit",
+    "普通/稀有/完美品质从玩家实际拥有的全部属性中随机抽取；本文件控制本食品的数值、权重与禁用项。",
+    "本文件缺失时自动生成；首次生成会从旧主配置 body_tempering.json 的 foods 段迁移 weights / extra_draw_chance。",
+    "字段说明：",
+    "  rarity_weights: 普通/稀有/完美三档权重（非负，按比例归一化；总和<=0 时回退 0.60/0.30/0.10）。",
+    "  extra_draw_chance: 额外再抽一次的概率 0~1（额外抽取不包含红色/仙品）。",
+    "  max_uses: 使用次数上限（4.0.0 新增；-1 = 无限；气血丹/龙鳞果默认 10，巫神血默认 -1）。",
+    "  tribulation_failure_chance: 渡劫失败概率 0~1（4.3.0 新增；默认 0.01 = 1%；失败时本次锻体抽取的属性将转为负面加成）。",
+    "  config_version: 配置结构版本（当前 4；旧版文件会自动按加法语义升级并补全 max_uses / tribulation_failure_chance）。",
+    "  default_operation: 未单独配置的属性的默认运算，3.2.0 起默认 multiply_base（乘法区，百分比）；",
+    "                    addition（加法）/ multiply_base（乘法区）/ multiply_total（独立乘区）三选一。",
+    "  default_values: 三档稀有度的默认数值上限（乘法区时为百分比，如 0.05 = +5%；属性未在 attribute_values 单独配置时使用）。",
+    "  value_fluctuation: 抽取时数值是否在 0~配置值 之间均匀波动（默认 true；配置值是上限，0 是下限）。",
+    "  value_fluctuation_steps: 波动粒度（默认 1000 = 0.1% 步进；0..steps 均匀随机，含 0 与最大值）。",
+    "  attribute_values: 指定属性数值。值可写数字（三档同值）或对象 {normal, rare, perfect, operation}；",
+    "                    缺省的稀有度回退 default_values；旧版文件缺省 operation 视为 addition，新版文件回退 default_operation。",
+    "                    基础值为 0 的属性（暴击率/护甲等）乘法区无效，建议 operation 写 addition。",
+    "                    3.3.0：TACZ 相关属性已迁出食品随机池，改由 body_tempering_tacz 的 /armed「武装」系统获取；",
+    "                    旧版本残留的 body_tempering_tacz:fire_rate / magazine_capacity / headshot_damage 与",
+    "                    tacz:tacz.bullet_resistance 四个键读取时会被跳过并自动从本文件删除。",
+    "  disabled_attributes: 本食品额外禁用的属性 ID 列表（全局黑名单在主配置 all_attributes.blacklist）。",
+    "属性 ID 查询：config/attributefix.json。",
+    "以 _ 开头的键为注释，读取时忽略；修改后需重启游戏（服务器）生效。"
+  ],
+  "config_version": 4,
+  "rarity_weights": {
+    "normal": 0.4,
+    "rare": 0.4,
+    "perfect": 0.2
+  },
+  "extra_draw_chance": 0.1,
+  "max_uses": -1,
+  "tribulation_failure_chance": 0.05,
+  "default_operation": "multiply_base",
+  "default_values": {
+    "normal": 0.03,
+    "rare": 0.075,
+    "perfect": 0.15
+  },
+  "value_fluctuation": true,
+  "value_fluctuation_steps": 1000,
+  "attribute_values": {
+    "apotheosis_modern_ragnarok:posture": {
+      "normal": 0.0075,
+      "rare": 0.0225,
+      "perfect": 0.045,
+      "operation": "addition"
+    },
+    "attributeslib:armor_pierce": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "attributeslib:armor_shred": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "attributeslib:arrow_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:arrow_velocity": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:cold_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "attributeslib:crit_chance": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "attributeslib:crit_damage": {
+      "normal": 0.010001,
+      "rare": 0.025001,
+      "perfect": 0.05,
+      "operation": "multiply_base"
+    },
+    "attributeslib:current_hp_damage": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "attributeslib:dodge_chance": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "attributeslib:draw_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:experience_gained": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:fire_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "attributeslib:ghost_health": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "attributeslib:healing_received": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:life_steal": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "attributeslib:mining_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "attributeslib:overheal": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "attributeslib:prot_pierce": {
+      "normal": 0.375,
+      "rare": 0.75,
+      "perfect": 1.5,
+      "operation": "addition"
+    },
+    "attributeslib:prot_shred": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "caelus:fall_flying": {
+      "normal": 1.5E-4,
+      "rare": 1.5E-4,
+      "perfect": 1.5E-4,
+      "operation": "multiply_base"
+    },
+    "celestial_core:arrow_knock": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "celestial_core:arrow_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "celestial_core:regen_rate": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "chapter_of_yuusha_3_core:excessive_treatment": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "confluence:aggro": {
+      "normal": 0.0,
+      "rare": 0.0,
+      "perfect": 0.0,
+      "operation": "addition"
+    },
+    "confluence:armor_pass": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "confluence:crit_chance": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "confluence:dodge_chance": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "confluence:magic_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "confluence:mining_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "confluence:pickup_range": {
+      "normal": 0.375,
+      "rare": 0.75,
+      "perfect": 1.5,
+      "operation": "addition"
+    },
+    "confluence:ranged_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "confluence:ranged_velocity": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "cthulhufishing:summon_counter": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "cthulhufishing:summon_damage": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "diet:natural_regeneration": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "eeeabsmobs:crit_chance": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "eidolon:chanting_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "eidolon:magic_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "eidolon:max_soul_hearts": {
+      "normal": 0.0125,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "eidolon:persistent_soul_hearts": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "forge:block_reach": {
+      "normal": 0.033333,
+      "rare": 0.083334,
+      "perfect": 0.166667,
+      "operation": "multiply_base"
+    },
+    "forge:entity_gravity": {
+      "normal": 1.5E-4,
+      "rare": 1.5E-4,
+      "perfect": 1.5E-4,
+      "operation": "multiply_base"
+    },
+    "forge:entity_reach": {
+      "normal": 0.025001,
+      "rare": 0.05,
+      "perfect": 0.125,
+      "operation": "multiply_base"
+    },
+    "forge:nametag_distance": {
+      "normal": 1.5E-4,
+      "rare": 1.5E-4,
+      "perfect": 1.5E-4,
+      "operation": "multiply_base"
+    },
+    "forge:step_height_addition": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "forge:swim_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:abyss_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:armor_penetration": {
+      "normal": 0.0075,
+      "rare": 0.015,
+      "perfect": 0.03,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:cast_duration": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:enchantment_piercing": {
+      "normal": 0.0075,
+      "rare": 0.015,
+      "perfect": 0.03,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:frost_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:geomancy_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:ill_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:necromancy_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:nether_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:none_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:resistance": {
+      "normal": 0.0075,
+      "rare": 0.015,
+      "perfect": 0.03,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:soul_decrease_reduction": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:soul_increase_efficiency": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:soul_stealing": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:spell_burning_value": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:spell_cooldown": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:spell_duration": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:spell_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:spell_power_multiplier": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:spell_radius": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "goety_revelation:spell_range": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:spell_velocity": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "goety_revelation:storm_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:void_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:wild_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "goety_revelation:wind_power": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "gunsmithlib:bullet_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "gunsmithlib:bullet_speed": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "gunsmithlib:horz_recoil": {
+      "normal": -0.015,
+      "rare": -0.0375,
+      "perfect": -0.075,
+      "operation": "multiply_base"
+    },
+    "gunsmithlib:rpm": {
+      "normal": 0.015,
+      "rare": 0.040001,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "gunsmithlib:vert_recoil": {
+      "normal": -0.015,
+      "rare": -0.0375,
+      "perfect": -0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:blood_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:blood_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:cast_time_reduction": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:cooldown_reduction": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:eldritch_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:eldritch_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:ender_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:ender_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:evocation_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:evocation_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:fire_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:fire_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:holy_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:holy_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:ice_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:ice_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:lightning_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:lightning_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:mana_regen": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:max_mana": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:nature_magic_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:nature_spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:spell_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:spell_resist": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "irons_spellbooks:summon_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:bow_strength": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:crit_damage": {
+      "normal": 0.03,
+      "rare": 0.075,
+      "perfect": 0.15,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:crit_rate": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "l2damagetracker:damage_absorption": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "l2damagetracker:damage_reduction": {
+      "normal": -0.015,
+      "rare": -0.0375,
+      "perfect": -0.075,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:explosion_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:fire_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "l2damagetracker:magic_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "lodestone:magic_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "lodestone:magic_proficiency": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "lodestone:magic_resistance": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "malstone:chaos_erosion": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "malstone:damage_res": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "malstone:eat_speed": {
+      "normal": -0.015,
+      "rare": -0.0375,
+      "perfect": -0.075,
+      "operation": "multiply_base"
+    },
+    "malstone:magic_res": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "malstone:super_malicious": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "malstone:tough_blood": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "malum:arcane_resonance": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "malum:malignant_conversion": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "malum:reserve_staff_charges": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "malum:scythe_proficiency": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "malum:soul_ward_capacity": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "malum:soul_ward_integrity": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "malum:soul_ward_recovery_rate": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "malum:spirit_spoils": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "minecraft:generic.armor": {
+      "normal": 0.75,
+      "rare": 1.5,
+      "perfect": 2.25,
+      "operation": "addition"
+    },
+    "minecraft:generic.armor_toughness": {
+      "normal": 0.375,
+      "rare": 0.75,
+      "perfect": 1.5,
+      "operation": "addition"
+    },
+    "minecraft:generic.attack_damage": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "minecraft:generic.attack_knockback": {
+      "normal": 0.075,
+      "rare": 0.225,
+      "perfect": 0.375,
+      "operation": "addition"
+    },
+    "minecraft:generic.attack_speed": {
+      "normal": 0.01875,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "minecraft:generic.knockback_resistance": {
+      "normal": 0.0075,
+      "rare": 0.03,
+      "perfect": 0.075,
+      "operation": "addition"
+    },
+    "minecraft:generic.luck": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "minecraft:generic.max_health": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "minecraft:generic.movement_speed": {
+      "normal": 0.03,
+      "rare": 0.075,
+      "perfect": 0.15,
+      "operation": "multiply_base"
+    },
+    "moonstone:all_attack": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "moonstone:break_speed": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "moonstone:cit": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "moonstone:heal": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "moonstone:hurt": {
+      "normal": -0.015,
+      "rare": -0.0375,
+      "perfect": -0.075,
+      "operation": "multiply_base"
+    },
+    "moonstone:zombie_attack_damage": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "obscure_api:accuracy": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:critical_damage": {
+      "normal": 0.0075,
+      "rare": 0.01875,
+      "perfect": 0.0375,
+      "operation": "multiply_base"
+    },
+    "obscure_api:critical_hit": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:dodge": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:healing_power": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "obscure_api:magic_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "obscure_api:magic_resistance": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:parry": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:penetration": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "obscure_api:regeneration": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "obscure_api:resilience": {
+      "normal": 0.75,
+      "rare": 3.0,
+      "perfect": 7.5,
+      "operation": "addition"
+    },
+    "puffish_attributes:player.stamina": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "rough_blade:max_slash_power": {
+      "normal": 0.0075,
+      "rare": 0.01875,
+      "perfect": 0.0375,
+      "operation": "multiply_base"
+    },
+    "rough_blade:slash_power_effect": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "slashblade:slashblade_damage": {
+      "normal": 0.15,
+      "rare": 0.3,
+      "perfect": 0.45,
+      "operation": "multiply_base"
+    },
+    "wizards_reborn:arcane_damage": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "wizards_reborn:magic_armor": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "wizards_reborn:magic_modifier": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "wizards_reborn:wissen_discount": {
+      "normal": 0.75,
+      "rare": 2.25,
+      "perfect": 4.5,
+      "operation": "addition"
+    },
+    "youkaishomecoming:graze_effectiveness": {
+      "normal": 0.015,
+      "rare": 0.0375,
+      "perfect": 0.075,
+      "operation": "multiply_base"
+    },
+    "youkaishomecoming:hit_box": {
+      "normal": 0.0,
+      "rare": 0.0,
+      "perfect": 0.0,
+      "operation": "addition"
+    },
+    "youkaishomecoming:initial_power": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "youkaishomecoming:initial_resource": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "youkaishomecoming:max_power": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    },
+    "youkaishomecoming:max_resource": {
+      "normal": 0.15,
+      "rare": 0.375,
+      "perfect": 0.75,
+      "operation": "addition"
+    }
+  },
+  "disabled_attributes": [
+    "l2damagetracker:damage_absorption",
+    "l2damagetracker:damage_reduction",
+    "attributeslib:life_steal",
+    "malstone:eat_speed",
+    "moonstone:hurt",
+    "goety_revelation:resistance",
+    "goety_revelation:armor_penetration",
+    "goety_revelation:enchantment_piercing"
+  ]
+}

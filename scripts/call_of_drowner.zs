@@ -7,7 +7,7 @@
 <item:call_of_drowner:seagold_nugget>.addTooltip("\u00A7c只能通过击杀溺亡者获得");
 <item:call_of_drowner:seagold_nugget>.addTooltip("\u00A7e无法通过开启唤潮者塔楼的宝箱或者击杀唤潮者获得");
 
-<item:call_of_drowner:broken_drowned_soul>.addTooltip("\u00A7c击杀唤潮者可获得");
+<item:call_of_drowner:broken_drowned_soul>.addTooltip("\u00A7c击杀唤潮者必定获得，击杀斯库拉几率获得");
 <item:call_of_drowner:broken_drowned_soul>.addTooltip("\u00A7e此外击杀唤潮者有几率获得溺尸腰带");
 <item:call_of_drowner:broken_drowned_soul>.addTooltip("\u00A76详见上层世界章节溺魂任务，新增唤潮者可召唤");
 <item:call_of_drowner:drowned_soul>.addTooltip("\u00A7e手持溺魂右击海洋祭坛可召唤溺亡者");

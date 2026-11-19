@@ -3,20 +3,16 @@
   "extra_items": [
     {
       "count": 4,
-      "item": "goety:ominous_shard"
+      "item": "illagerinvasion:unusual_dust"
     },
     {
-      "count": 1,
-      "item": "minecraft:nether_star"
-    },
-    {
-      "count": 1,
-      "item": "minecraft:netherite_upgrade_smithing_template"
+      "count": 2,
+      "item": "yuusha:mutant_cube"
     }
   ],
   "input": {
     "count": 1,
-    "item": "morebows:golden_bow"
+    "item": "too_many_bows:power_crystal"
   },
   "output": {
     "count": 1,
@@ -29,10 +25,6 @@
     },
     {
       "type": "sacred",
-      "count": 4
-    },
-    {
-      "type": "earthen",
       "count": 4
     }
   ]

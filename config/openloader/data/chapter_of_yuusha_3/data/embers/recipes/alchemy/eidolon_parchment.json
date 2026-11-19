@@ -10,6 +10,9 @@
   ],
   "inputs": [
     {
+      "item": "embers:ash"
+    },
+    {
       "item": "minecraft:paper"
     },
     {
@@ -17,6 +20,9 @@
     },
     {
       "item": "embers:ash"
+    },
+    {
+      "item": "minecraft:paper"
     },
     {
       "item": "minecraft:paper"

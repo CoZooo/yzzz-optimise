@@ -1,0 +1,38 @@
+{
+  "type": "embers:alchemy",
+  "aspects": [
+    {
+      "tag": "embers:aspectus/iron"
+    },
+    {
+      "tag": "embers:aspectus/lead"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "immortalers_delight:travarice"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "immortalers_delight:travarice"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "immortalers_delight:travarice"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "embers:adhesive"
+  },
+  "tablet": {
+    "item": "minecraft:clay_ball"
+  }
+}

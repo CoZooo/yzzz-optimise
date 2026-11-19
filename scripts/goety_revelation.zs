@@ -18,6 +18,7 @@ import mods.jeitweaker.Jei;
 <item:goety_revelation:doom_medal>.addTooltip("\u00A7c在主世界或者下界击杀亚波伦都可获得");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A7e还可用亚波伦的掉落材料在星河贸易站内交易获得");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A75主手持末日勋章右击海洛格里夫壁画特定部位会消耗并进入永昼空境");
+<item:goety_revelation:doom_medal>.addTooltip("\u00A72空岛世界也可进入此维度");
 <item:goety_revelation:doom_medal>.addTooltip("\u00A76相关内容详见大满开章节末日勋章任务");
 <item:goety_revelation:apocalyptium_ingot>.addTooltip("\u00A7c击杀亚波伦可制作获得");
 <item:goety_revelation:apocalyptium_ingot>.addTooltip("\u00A76相关内容详见大满开章节神灵金属锭任务");
@@ -47,7 +48,8 @@ import mods.jeitweaker.Jei;
 <item:goety_revelation:spider_fang>.addTooltip("\u00A7c在下界、阿比斯之渊、死寂之海放置蜘蛛网可转化为蜘蛛之母巢穴");
 <item:goety_revelation:spider_fang>.addTooltip("\u00A7e破坏蜘蛛之母巢穴会召唤出育母蜘蛛");
 <item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7e· 该武器享受“弹射物伤害”及全伤害等加成");
-<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7c· 该武器仅不享受破空之势加成");
+<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A76· 该武器仅不享受破空之势加成");
+<item:goety_revelation:bow_of_revelation>.addTooltip("\u00A7c· 射击不朽者等生物会导致游戏崩溃");
 
 //破妄附魔
 stoneCutter.addRecipe("goety_revelation.enchanted_book.reality_piercer.5", <item:minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1, id: "goety_revelation:reality_piercer"}]}), <item:goety_revelation:apocalyptium_ingot>);

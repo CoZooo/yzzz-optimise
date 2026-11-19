@@ -1,13 +1,15 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:bow_and_crossbow",
+    "mowziesmobs:blowgun",
+    "minecraft:bow",
+    "goety:hunters_bow",
+    "wizards_reborn:arcane_wood_bow",
+    "aquaculture:neptunium_bow",
+    "aether:phoenix_bow",
     "apotheosis:bow_tome"
   ],
   "incompatible": [
-    "minecraft:power",
-    "celestial_enchantments:sharp_arrow",
-    "majruszsenchantments:incompatibility_curse",
-    "celestial_enchantments:arrow_storm"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

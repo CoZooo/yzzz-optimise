@@ -3,12 +3,12 @@
         "minecraft:sheep_spawn_egg": {
             "salvageMax": 1,
             "baseChance": 0.0,
-            "maxChance": 0.1,
+            "maxChance": 0.25,
             "chancePerLevel": {
                 "smithing": 0.001
             },
             "levelReq": {
-                "smithing": 50
+                "smithing": 0
             },
             "xpPerItem": {
                 "smithing": 5000

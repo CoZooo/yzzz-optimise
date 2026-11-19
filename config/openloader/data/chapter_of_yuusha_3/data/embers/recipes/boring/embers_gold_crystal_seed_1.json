@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": 255,
+  "output": {
+    "item": "minecraft:raw_gold"
+  },
+  "required_block": {
+    "amount": 1,
+    "block_tag": "embers:gold_crystal_seed"
+  },
+  "weight": 5
+}

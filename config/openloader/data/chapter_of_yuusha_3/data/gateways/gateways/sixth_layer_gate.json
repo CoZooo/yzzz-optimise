@@ -23,6 +23,10 @@
 			{
 				"entity": "infinite_abyss:lightning_ghost",
 				"count": 3
+			},
+			{
+				"entity": "cataclysm:draugr",
+				"count": 1
 			}
 		],
         "rewards": [{
@@ -32,7 +36,7 @@
 				"count": 1
 			}
         }],
-        "max_wave_time": 300,
+        "max_wave_time": 600,
         "setup_time": 20
     },
     "modifiers": [
@@ -54,5 +58,5 @@
     "boss_event": {
         "mode": "boss_bar"
     },
-    "spawn_algorithm": "gateways:inward_spiral"
+    "spawn_algorithm": "gateways:open_field"
 }

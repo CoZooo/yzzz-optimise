@@ -4,10 +4,10 @@
     "item": "too_many_bows:verdant_vigor",
     "count": 1
   },
-  "wissen": 5000,
+  "wissen": 2000,
   "ingredients": [
     {
-      "item": "morebows:netherite_bow"
+      "item": "too_many_bows:power_crystal"
     },
     {
       "item": "yuusha:chaos_stone"

@@ -6,30 +6,18 @@ import crafttweaker.api.item.property.Rarity;
 Jei.hideIngredient(<item:tacz:modern_kinetic_gun>);
 Jei.hideIngredient(<item:tacz:ammo>);
 Jei.hideIngredient(<item:tacz:attachment>);
+/*
+Jei.hideIngredient(<item:tacz:workbench_b>);
+Jei.hideIngredient(<item:tacz:workbench_a>);
+Jei.hideIngredient(<item:tacz:workbench_c>);
+*/
 
 //工作台
-//craftingTable.addShapeless("tacz.modern_kinetic_gun_cz75",<item:tacz:modern_kinetic_gun>.withTag({GunFireMode: "AUTO",GunId: "tacz:cz75"}),[<item:tacz:modern_kinetic_gun>.withTag({GunId: "tacz:glock_17"}), <item:forbidden_arcanus:darkstone_upgrade_smithing_template>, <item:yuusha:ember_heart>, <item:minecraft:redstone>]);
-
 craftingTable.addShaped("cataclysm.emp",<item:cataclysm:emp>,[[<item:cataclysm:black_steel_ingot>,<item:cataclysm:black_steel_ingot>,<item:cataclysm:black_steel_ingot>],[<item:embers:superheater>,<item:minecraft:redstone_block>,<item:embers:superheater>],[<item:cataclysm:black_steel_ingot>,<item:cataclysm:black_steel_ingot>,<item:cataclysm:black_steel_ingot>]]);
 
 //枪械说明
 <item:tacz:modern_kinetic_gun>.withTag({ GunId: "ocle:ocjm"}).addTooltip("\u00A76· 牵引能量进行精准打击，距离每增加10格伤害增加1倍，最高50+格伤害增加5倍");
 <item:tacz:modern_kinetic_gun>.withTag({ GunId: "ocle:ockj"}).addTooltip("\u00A76· 可将其转化为爆炸模式，爆炸伤害高额，范围为16格且会伤害玩家");
-/*
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "ocle:ocjm"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "emx:pulse_dl1"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "emxarms:emx_pmg90eos"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "pgp:z750"}).addTooltip("\u00A7e· 可安装特定配件使之附加爆炸伤害");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "pgp:z750"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "emxcust:rd704_murusama"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "emxarms:emx_draftsman_ev1"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "tacz:rpg7"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "tacz:m320"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "ocle:ocml"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "ocle:ockj"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "applied_armorer:moritz_gernade_gl3"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-<item:tacz:modern_kinetic_gun>.withTag({ GunId: "applied_armorer:moritz_mg_emg_prototype"}).addTooltip("\u00A7c· 谨慎射击，爆炸可能会炸毁掉落物");
-*/
 
 <item:tacz:attachment>.withTag({AttachmentId: "tacz:oem_stock_tactical"}).addTooltip("\u00A76· +75% 腰射精度");
 <item:tacz:attachment>.withTag({AttachmentId: "tacz:oem_stock_tactical"}).addTooltip("\u00A7e· -50% 后坐力");
@@ -135,6 +123,12 @@ craftingTable.addShaped("cataclysm.emp",<item:cataclysm:emp>,[[<item:cataclysm:b
 <item:tacz:attachment>.withTag({AttachmentId: "emxarms:muzzle_sf7b_uac9000"}).addTooltip("\u00A7c· +200% 子弹伤害");
 <item:tacz:attachment>.withTag({AttachmentId: "emxarms:muzzle_sf7b_uac9000"}).addTooltip("\u00A7e· +10% 射速");
 
+<item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firefly"}).addTooltip("\u00A7e· ×500% 射速");
+<item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firefly"}).addTooltip("\u00A7c· ×20% 子弹伤害");
+
+<item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firework"}).addTooltip("\u00A7e· ×500% 射速");
+<item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firework"}).addTooltip("\u00A7c· ×20% 子弹伤害");
+
 //相剑
 <item:tacz:attachment>.withTag({AttachmentId: "emxarms:ammo_h1"}).addTooltip("\u00A76· +50% 子弹伤害");
 <item:tacz:attachment>.withTag({AttachmentId: "emxarms:ammo_h2"}).addTooltip("\u00A76· +125% 子弹伤害");
@@ -222,6 +216,24 @@ craftingTable.remove(<item:tacz:statue>);
 craftingTable.addShaped("tacz.statue", <item:tacz:statue>, [[<item:minecraft:air>, <item:minecraft:quartz_slab>, <item:minecraft:air>], [<item:minecraft:quartz_stairs>, <item:yuusha:ember_heart>, <item:minecraft:quartz_stairs>], [<item:minecraft:air>, <item:minecraft:chiseled_quartz_block>, <item:minecraft:air>]]);
 
 //崩坏能 爆炸
-craftingTable.addShaped("emxarms.stock_emx_yield", <item:tacz:attachment>.withTag({AttachmentId: "emxarms:stock_emx_yield"}), [[<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>], [<item:nethersdelight:propelpearl>, <item:yuusha:slot_5>, <item:nethersdelight:propelpearl>], [<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>]]);
+craftingTable.addShaped("tacz.emxarms.stock_emx_yield", <item:tacz:attachment>.withTag({AttachmentId: "emxarms:stock_emx_yield"}), [[<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>], [<item:nethersdelight:propelpearl>, <item:yuusha:slot_5>, <item:nethersdelight:propelpearl>], [<item:minecraft:gunpowder>, <tag:items:yuusha:aja_stone>, <item:minecraft:gunpowder>]]);
+
+//“曙光女神”会战核心
+craftingTable.addShaped("tacz.emxarms.stock_t3_core_2", <item:tacz:attachment>.withTag({AttachmentId: "eos:stock_t3_core_2"}), [[<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>], [<item:confluence:accessories_icon>, <item:yuusha:slot_5>, <item:confluence:accessories_icon>], [<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>]]);
+
+//
+craftingTable.addShaped("tacz.applied_armorer.muzzle_chip_firefly", <item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firefly"}), [[<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>], [<item:mowziesmobs:glowing_jelly>, <item:yuusha:slot_5>, <item:mowziesmobs:glowing_jelly>], [<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>]]);
+craftingTable.addShaped("tacz.applied_armorer.muzzle_chip_firework", <item:tacz:attachment>.withTag({AttachmentId: "applied_armorer:muzzle_chip_firework"}), [[<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>], [<item:minecraft:firework_star>.anyDamage(), <item:yuusha:slot_5>, <item:minecraft:firework_star>.anyDamage()], [<item:aether_redux:veridium_ingot>, <tag:items:yuusha:aja_stone>, <item:aether_redux:veridium_ingot>]]);
+
+
+
+
+
+
+
+
+
+
+
 
 

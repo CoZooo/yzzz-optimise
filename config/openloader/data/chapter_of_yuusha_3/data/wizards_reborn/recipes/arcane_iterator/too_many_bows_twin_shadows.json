@@ -4,22 +4,34 @@
     "item": "too_many_bows:twin_shadows",
     "count": 1
   },
-  "wissen": 5000,
+  "wissen": 1500,
   "ingredients": [
     {
-      "item": "morebows:diamond_bow"
+      "item": "too_many_bows:power_crystal"
     },
     {
       "item": "yuusha:ink_heart"
     },
     {
-      "item": "hmag:fortune_crystal_plus"
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
     },
     {
       "item": "ancient_aether:valkyrum"
     },
     {
       "item": "yuusha:ice_blood"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
+    },
+    {
+      "item": "ancient_aether:valkyrum"
     }
   ]
 }

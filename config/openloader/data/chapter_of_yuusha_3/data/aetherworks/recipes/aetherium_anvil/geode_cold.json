@@ -1,7 +1,7 @@
 {
   "type": "aetherworks:aetherium_anvil",
   "difficulty": 1,
-  "emberPerHit": 10,
+  "emberPerHit": 100,
   "input": {
     "item": "aetherworks:geode_cold"
   },
@@ -31,6 +31,11 @@
       "chance": 10.0,
       "count": 16,
       "item": "minecraft:blue_ice"
+    },
+    {
+      "chance": 10.0,
+      "count": 2,
+      "item": "aether:icestone"
     },
     {
       "chance": 10.0,

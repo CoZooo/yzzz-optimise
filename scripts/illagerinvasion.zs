@@ -23,7 +23,9 @@ craftingTable.addShaped("illagerinvasion.lost_candle", <item:illagerinvasion:los
 <item:illagerinvasion:lost_candle>.addTooltip("\u00A7e不详之兆的获取详见上层世界章节铂金板材任务");
 
 <item:illagerinvasion:platinum_sheet>.addTooltip("\u00A7c手持铂金板材右击灵魂营火会给予附近玩家5级不祥之兆效果");
+<item:illagerinvasion:platinum_sheet>.addTooltip("\u00A73原版的村庄袭击可能会存在部分生物失踪的特性");
 <item:illagerinvasion:platinum_sheet>.addTooltip("\u00A7e铂金板材和铂金碎块可制作不同的不祥垠际传送门珍珠");
+<item:illagerinvasion:platinum_sheet>.addTooltip("\u00A76任务奖励有小几率获得");
 
 <item:illagerinvasion:platinum_chunk>.addTooltip("\u00A7c新增击杀大部分灾厄生物都可获得");
 

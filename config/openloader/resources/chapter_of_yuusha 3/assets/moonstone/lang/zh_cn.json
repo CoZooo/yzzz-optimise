@@ -1,4 +1,7 @@
 {
+	"item.moonstone.raw": "原始人的愤怒",
+	"item.raw.tool.string": "§c月之石模组所有饰品的特殊效果无效化",
+
 	"item.mhead.tool.string": "大部分生物无法攻击你，但你无法攻击任何生物",
 
 	"item.ectoplasmapple.tool.string": "受到攻击会使周围生物受到2%最大生命值的物理伤害",

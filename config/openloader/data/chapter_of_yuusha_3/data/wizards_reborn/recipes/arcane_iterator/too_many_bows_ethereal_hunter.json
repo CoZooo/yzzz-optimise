@@ -1,0 +1,37 @@
+{
+  "type": "wizards_reborn:arcane_iterator",
+  "output": {
+    "item": "too_many_bows:ethereal_hunter",
+    "count": 1
+  },
+  "wissen": 2500,
+  "ingredients": [
+    {
+      "item": "too_many_bows:power_crystal"
+    },
+    {
+      "item": "callfromthedepth_:immemorialingot"
+    },
+    {
+      "item": "hmag:ender_plasm_block"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "hmag:ender_plasm_block"
+    },
+    {
+      "item": "callfromthedepth_:immemorialingot"
+    },
+    {
+      "item": "hmag:ender_plasm_block"
+    },
+    {
+      "item": "irons_spellbooks:dragonskin"
+    },
+    {
+      "item": "hmag:ender_plasm_block"
+    }
+  ]
+}

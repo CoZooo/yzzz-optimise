@@ -2,12 +2,13 @@
 <item:fluffy_fur:silly_treat>.addTooltip("\u00A7c手持愚者之宴右击女神雕像可将天气变为晴天");
 <item:fluffy_fur:silly_treat>.addTooltip("\u00A76食用后玩家会有特殊的换装效果");
 
-<item:wizards_reborn:arcane_wood_bow>.anyDamage().addTooltip("\u00A7e悬赏板的制箭悬赏有几率获得");
+<item:wizards_reborn:arcane_wood_bow>.anyDamage().addTooltip("\u00A76开启灾厄教父等生物掉落的宝藏袋几率获得");
 
 <item:wizards_reborn:arcane_workbench>.addTooltip("\u00A7e详见咒法章节任务");
 <item:wizards_reborn:arcanum_ore>.addTooltip("\u00A76在主世界地下可找到");
 <item:wizards_reborn:deepslate_arcanum_ore>.addTooltip("\u00A76在主世界地下可找到");
 <item:wizards_reborn:arcanum>.addTooltip("\u00A76在主世界可找到矿石");
+<item:wizards_reborn:arcanum>.addTooltip("\u00A7e空岛世界可通过天华砧获得");
 <item:wizards_reborn:arcanum_lens>.addTooltip("\u00A7e新增击杀铁之咒语的术士生物较低几率获得");
 <item:wizards_reborn:arcanum_lens>.addTooltip("\u00A76即包括咒法章节空白符文任务内除远古骑士外");
 
@@ -49,8 +50,9 @@
 <item:wizards_reborn:steam_extractor>.addTooltip("\u00A7e会从周围容器提取物品，不能单个提取器使用，必须配合物品管道才能运输");
 <item:wizards_reborn:fluid_extractor>.addTooltip("\u00A7c右击可激活，也可用红石信号激活");
 <item:wizards_reborn:fluid_extractor>.addTooltip("\u00A7e会从周围容器提取流体，不能单个提取器使用，必须配合流体管道才能运输");
-<item:wizards_reborn:arcanum_dust>.addTooltip("\u00A7c前期可通过精魂灌注制作获得");
-<item:wizards_reborn:arcanum_dust>.addTooltip("\u00A7e有小几率出现在流浪商人的交易列表内");
+<item:wizards_reborn:arcanum_dust>.addTooltip("\u00A7c可通过精魂灌注制作获得");
+<item:wizards_reborn:arcanum_dust>.addTooltip("\u00A7e也可以通过秘法悬赏获得");
+<item:wizards_reborn:arcanum_dust>.addTooltip("\u00A73有小几率出现在流浪商人的交易列表内");
 <item:wizards_reborn:arcanum_dust>.addTooltip("\u00A76还可击杀流浪商人、突变箭毒花、灾厄宰相获得");
 
 <item:wizards_reborn:mor>.addTooltip("\u00A7c在沼泽生物群系可以找到");
@@ -99,6 +101,7 @@
 
 <item:wizards_reborn:arcanum_seed>.addTooltip("\u00A76新增击杀药剂师必定获得，详见咒法章节空白符文任务");
 <item:wizards_reborn:arcanum_seed>.addTooltip("\u00A7c种在地上后需秘术粉将其激活为生长状态才会生长");
+<item:wizards_reborn:arcanum_seed>.addTooltip("\u00A7e可通过幸运岩石在主世界挖掘石头获得");
 <item:wizards_reborn:earth_crystal_seed>.addTooltip("\u00A76新增击杀高位唤魔者必定获得，详见咒法章节空白符文任务");
 <item:wizards_reborn:earth_crystal_seed>.addTooltip("\u00A7c种在地上后必须用秘术粉将其激活为生长状态才会生长");
 <item:wizards_reborn:water_crystal_seed>.addTooltip("\u00A76新增击杀冰霜术士必定获得，详见咒法章节空白符文任务");
@@ -148,6 +151,9 @@ craftingTable.addShapeless("wizards_reborn.arcane_gold_nugget.copy", <item:wizar
 craftingTable.addShapeless("wizards_reborn.sarcon_nugget.copy", <item:wizards_reborn:sarcon_nugget>*3, [<item:wizards_reborn:sarcon_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("wizards_reborn.vilenium_nugget.copy", <item:wizards_reborn:vilenium_nugget>*3, [<item:wizards_reborn:vilenium_block>.reuse(), <item:forbidden_arcanus:golden_orchid_seeds>]);
 craftingTable.addShapeless("wizards_reborn.arcacite.copy", <item:wizards_reborn:arcacite>*4, [<item:wizards_reborn:arcacite>, <item:wizards_reborn:precision_crystal>]);
+
+//
+craftingTable.remove(<item:wizards_reborn:arcane_wood_bow>);
 
 //神秘金盔甲
 craftingTable.remove(<item:wizards_reborn:arcane_gold_helmet>);

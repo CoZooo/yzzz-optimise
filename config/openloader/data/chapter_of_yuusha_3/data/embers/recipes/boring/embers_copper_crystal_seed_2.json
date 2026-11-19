@@ -1,0 +1,15 @@
+{
+  "type": "embers:boring",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "max_height": 255,
+  "output": {
+    "item": "stalwart_dungeons:raw_tungsten"
+  },
+  "required_block": {
+    "amount": 1,
+    "block_tag": "embers:copper_crystal_seed"
+  },
+  "weight": 1
+}

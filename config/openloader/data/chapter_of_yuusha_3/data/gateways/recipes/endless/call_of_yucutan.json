@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "NNN",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "majruszsdifficulty:cloth"
+    },
+	"A": {
+      "item": "minecraft:ender_eye"
+    },
+	"B": {
+      "item": "irons_spellbooks:frozen_bone"
+    },
+	"N": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:endless/call_of_yucutan"
+}

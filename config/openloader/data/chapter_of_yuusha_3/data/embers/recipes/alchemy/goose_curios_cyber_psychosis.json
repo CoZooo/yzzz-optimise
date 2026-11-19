@@ -2,21 +2,27 @@
   "type": "embers:alchemy",
   "aspects": [
     {
-      "tag": "embers:aspectus/dawnstone"
+      "tag": "embers:aspectus/lead"
     }
   ],
   "inputs": [
     {
-      "item": "irons_spellbooks:lightning_bottle"
+      "item": "embers:archaic_circuit"
     },
     {
-      "item": "theinkarena:ink_bottle"
+      "item": "embers:archaic_circuit"
     },
     {
-      "item": "minecraft:honey_bottle"
+      "item": "embers:archaic_circuit"
     },
     {
-      "item": "malum:runic_sap"
+      "item": "embers:archaic_circuit"
+    },
+    {
+      "item": "embers:archaic_circuit"
+    },
+    {
+      "item": "embers:archaic_circuit"
     }
   ],
   "output": {
@@ -24,6 +30,6 @@
 	"count": 1
   },
   "tablet": {
-    "item": "forbidden_arcanus:aureal_bottle"
+    "item": "celestial_core:treasure_fragment"
   }
 }

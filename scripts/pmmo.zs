@@ -47,19 +47,19 @@ recipes.addJsonRecipe("pmmo.exp.magic.1",{
     type:"lychee:block_interacting",
     item_in: { item: "irons_spellbooks:arcane_essence" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 35000"}
+    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 70000"}
 });
 recipes.addJsonRecipe("pmmo.exp.magic.2",{ 
     type:"lychee:block_interacting",
     item_in: { item: "irons_spellbooks:blank_rune" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 115000"}
+    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 130000"}
 });
 recipes.addJsonRecipe("pmmo.exp.magic.3",{ 
     type:"lychee:block_interacting",
     item_in: { item: "yuusha:tomb_stone" },
     block_in: "cataclysm:goddess_statue",
-    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 1350000"}
+    post:  {  type: "execute",  command: "pmmo admin @p add magic xp 1500000"}
 });
 recipes.addJsonRecipe("pmmo.exp.slayer.1",{ 
     type:"lychee:block_interacting",

@@ -4,7 +4,7 @@
     "tag": "yuusha:aja_stone"
   },
   "fluid": {
-    "amount": 90,
+    "amount": 360,
     "tag": "forge:molten_gold"
   },
   "output": {
@@ -12,6 +12,6 @@
 	"count": 1
   },
   "stamp": {
-    "item": "embers:plate_stamp"
+    "item": "embers:ingot_stamp"
   }
 }
